@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kansas City demolition permits embed preview</title>
+  <style>
+    body { margin: 0; background: #f4f4f4; color: #222; font-family: Arial, Helvetica, sans-serif; }
+    main { max-width: 1120px; margin: 0 auto; padding: 24px 16px 44px; }
+    h1 { font-size: 24px; line-height: 1.2; margin: 0 0 8px; }
+    .meta { color: #555; font-size: 13px; margin: 0 0 18px; }
+    .preview, .code { background: #fff; border: 1px solid #d2d2d2; padding: 16px; margin-top: 16px; }
+    textarea { display: block; width: 100%; min-height: 360px; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kansas City demolition permits embed preview</h1>
+    <p class="meta">Manifest: <a href="https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/manifest.json">https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/manifest.json</a></p>
+    <div class="preview"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div class="ckc-evergreen-map" data-manifest-url="https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/manifest.json">
+  <style>
+    .ckc-evergreen-map { font-family: Arial, Helvetica, sans-serif; color: #222; max-width: 100%; }
+    .ckc-evergreen-map * { box-sizing: border-box; }
+    .ckc-evergreen-map__title { font-size: 20px; line-height: 1.25; font-weight: 700; margin: 0 0 10px; }
+    .ckc-evergreen-map__controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 12px; margin: 0 0 12px; }
+    .ckc-evergreen-map__group { border: 1px solid #d6d6d6; padding: 10px; background: #fff; }
+    .ckc-evergreen-map__label { display: block; font-size: 12px; line-height: 1.2; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #555; margin: 0 0 8px; }
+    .ckc-evergreen-map__checks { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+    .ckc-evergreen-map__check { display: inline-flex; align-items: center; gap: 6px; min-height: 30px; border: 1px solid #cfcfcf; padding: 5px 8px; background: #f7f7f7; font-size: 13px; line-height: 1.25; cursor: pointer; }
+    .ckc-evergreen-map__check input { margin: 0; }
+    .ckc-evergreen-map__swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; border: 1px solid rgba(0,0,0,.22); flex: 0 0 auto; }
+    .ckc-evergreen-map__canvas { width: 100%; height: 560px; border: 1px solid #bdbdbd; background: #eef2f3; }
+    .ckc-evergreen-map__below { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .8fr); gap: 12px; margin-top: 10px; align-items: start; }
+    .ckc-evergreen-map__status { font-size: 13px; line-height: 1.4; color: #555; min-height: 18px; }
+    .ckc-evergreen-map__legend { display: flex; flex-wrap: wrap; gap: 7px; justify-content: flex-end; }
+    .ckc-evergreen-map__legend-item { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; line-height: 1.25; color: #333; }
+    .ckc-evergreen-map__legend-item.is-muted { opacity: .42; }
+    .ckc-evergreen-map__source { font-size: 12px; line-height: 1.35; color: #666; margin-top: 8px; }
+    .ckc-evergreen-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
+    @media (max-width: 720px) {
+      .ckc-evergreen-map__controls, .ckc-evergreen-map__below { grid-template-columns: 1fr; }
+      .ckc-evergreen-map__legend { justify-content: flex-start; }
+      .ckc-evergreen-map__canvas { height: 430px; }
+    }
+  </style>
+  <div class="ckc-evergreen-map__title">Kansas City demolition permits</div>
+  <div class="ckc-evergreen-map__controls">
+    <div class="ckc-evergreen-map__group">
+      <span class="ckc-evergreen-map__label">Years</span>
+      <div class="ckc-evergreen-map__checks" data-role="year-controls"></div>
+    </div>
+    <div class="ckc-evergreen-map__group">
+      <span class="ckc-evergreen-map__label">Demolition type</span>
+      <div class="ckc-evergreen-map__checks" data-role="type-controls"></div>
+    </div>
+  </div>
+  <div class="ckc-evergreen-map__canvas"></div>
+  <div class="ckc-evergreen-map__below">
+    <div>
+      <div class="ckc-evergreen-map__status">Loading demolition map...</div>
+      <div class="ckc-evergreen-map__source">Source: CompassKC and KCMO parcel data.</div>
+    </div>
+    <div class="ckc-evergreen-map__legend" data-role="legend"></div>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function () {
+  var script = document.currentScript;
+  var wrapper = script && script.previousElementSibling;
+  while (wrapper && !wrapper.classList.contains("ckc-evergreen-map")) {
+    wrapper = wrapper.previousElementSibling;
+  }
+  if (!wrapper) return;
+
+  var manifestUrl = "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/manifest.json";
+  var canvas = wrapper.querySelector(".ckc-evergreen-map__canvas");
+  var status = wrapper.querySelector(".ckc-evergreen-map__status");
+  var yearControls = wrapper.querySelector('[data-role="year-controls"]');
+  var typeControls = wrapper.querySelector('[data-role="type-controls"]');
+  var legend = wrapper.querySelector('[data-role="legend"]');
+  var selectedYears = {};
+  var selectedTypes = {};
+  var yearCache = {};
+  var availableYears = [];
+  var yearUrls = {};
+  var latestUrl = "";
+  var layer = null;
+  var map = null;
+  var kcCenter = [39.0997, -94.5786];
+  var palette = ["#2f6fbb", "#c23b3b", "#2f8f5b", "#8f5aa8", "#c46a2f", "#0f7f8c", "#b59a22", "#6b6f2a", "#cc5c8a"];
+
+  function esc(value) {
+    return String(value || "").replace(/[&<>"']/g, function (ch) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || "");
+    return /^https?:\/\//i.test(value) ? value.replace(/"/g, "%22") : "";
+  }
+  function setStatus(message) {
+    if (status) status.textContent = message || "";
+  }
+  function hashString(value) {
+    var hash = 0;
+    value = String(value || "");
+    for (var i = 0; i < value.length; i += 1) {
+      hash = ((hash << 5) - hash) + value.charCodeAt(i);
+      hash |= 0;
+    }
+    return Math.abs(hash);
+  }
+  function colorFor(type) {
+    return palette[hashString(type || "Other") % palette.length];
+  }
+  function featureType(feature) {
+    var props = feature && feature.properties ? feature.properties : {};
+    return String(props.record_type || props.category || "Other").trim() || "Other";
+  }
+  function featureYear(feature) {
+    var props = feature && feature.properties ? feature.properties : {};
+    return String(props.year || "").trim();
+  }
+  function compareText(a, b) {
+    return String(a).localeCompare(String(b), undefined, { numeric: true, sensitivity: "base" });
+  }
+  function resolveUrl(pathOrUrl) {
+    pathOrUrl = String(pathOrUrl || "");
+    if (/^https?:\/\//i.test(pathOrUrl)) return pathOrUrl;
+    try {
+      return new URL(pathOrUrl, manifestUrl).toString();
+    } catch (err) {
+      return pathOrUrl;
+    }
+  }
+  function renderCheckbox(container, options) {
+    if (!container) return;
+    container.innerHTML = "";
+    options.forEach(function (option) {
+      var label = document.createElement("label");
+      label.className = "ckc-evergreen-map__check";
+      var input = document.createElement("input");
+      input.type = "checkbox";
+      input.checked = option.checked;
+      input.value = option.value;
+      input.addEventListener("change", option.onchange);
+      label.appendChild(input);
+      if (option.color) {
+        var swatch = document.createElement("span");
+        swatch.className = "ckc-evergreen-map__swatch";
+        swatch.style.backgroundColor = option.color;
+        label.appendChild(swatch);
+      }
+      label.appendChild(document.createTextNode(option.label));
+      container.appendChild(label);
+    });
+  }
+  function selectedYearList() {
+    return availableYears.filter(function (year) { return selectedYears[year]; });
+  }
+  function loadYear(year) {
+    if (yearCache[year]) return Promise.resolve(yearCache[year]);
+    var url = resolveUrl(yearUrls[year] || latestUrl);
+    return fetch(url).then(function (response) {
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    }).then(function (geojson) {
+      var features = geojson && Array.isArray(geojson.features) ? geojson.features : [];
+      yearCache[year] = features;
+      return features;
+    });
+  }
+  function loadSelectedFeatures() {
+    var years = selectedYearList();
+    if (!years.length) return Promise.resolve([]);
+    return Promise.all(years.map(loadYear)).then(function (groups) {
+      var merged = [];
+      groups.forEach(function (features) {
+        features.forEach(function (feature) { merged.push(feature); });
+      });
+      return merged;
+    });
+  }
+  function renderYearControls() {
+    renderCheckbox(yearControls, availableYears.map(function (year) {
+      return {
+        label: year,
+        value: year,
+        checked: !!selectedYears[year],
+        onchange: function (event) {
+          selectedYears[year] = event.target.checked;
+          refresh();
+        }
+      };
+    }));
+  }
+  function renderTypeControls(features) {
+    var types = {};
+    features.forEach(function (feature) { types[featureType(feature)] = true; });
+    var typeList = Object.keys(types).sort(compareText);
+    typeList.forEach(function (type) {
+      if (selectedTypes[type] === undefined) selectedTypes[type] = true;
+    });
+    Object.keys(selectedTypes).forEach(function (type) {
+      if (!types[type]) delete selectedTypes[type];
+    });
+    renderCheckbox(typeControls, typeList.map(function (type) {
+      return {
+        label: type,
+        value: type,
+        color: colorFor(type),
+        checked: !!selectedTypes[type],
+        onchange: function (event) {
+          selectedTypes[type] = event.target.checked;
+          renderMap(features);
+        }
+      };
+    }));
+  }
+  function popupHtml(feature) {
+    var props = feature.properties || {};
+    var bits = [];
+    var detailUrl = safeUrl(props.detail_url);
+    if (props.case_number) bits.push("<strong>" + esc(props.case_number) + "</strong>");
+    if (props.address) bits.push(esc(props.address));
+    if (props.record_type || props.category) bits.push(esc(featureType(feature)));
+    if (props.status || props.date) bits.push(esc([props.status, props.date].filter(Boolean).join(" - ")));
+    if (detailUrl) bits.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">CompassKC detail</a>');
+    return bits.join("<br>");
+  }
+  function renderLegend(features) {
+    if (!legend) return;
+    var counts = {};
+    features.forEach(function (feature) {
+      var type = featureType(feature);
+      counts[type] = (counts[type] || 0) + 1;
+    });
+    var types = Object.keys(counts).sort(compareText);
+    legend.innerHTML = "";
+    types.forEach(function (type) {
+      var item = document.createElement("span");
+      item.className = "ckc-evergreen-map__legend-item" + (selectedTypes[type] ? "" : " is-muted");
+      var swatch = document.createElement("span");
+      swatch.className = "ckc-evergreen-map__swatch";
+      swatch.style.backgroundColor = colorFor(type);
+      item.appendChild(swatch);
+      item.appendChild(document.createTextNode(type + " (" + counts[type] + ")"));
+      legend.appendChild(item);
+    });
+  }
+  function renderMap(features) {
+    var visible = features.filter(function (feature) { return selectedTypes[featureType(feature)]; });
+    if (layer) {
+      map.removeLayer(layer);
+      layer = null;
+    }
+    renderLegend(features);
+    if (!visible.length) {
+      map.setView(kcCenter, 11);
+      setStatus("Showing 0 of " + features.length + " mapped demolition record" + (features.length === 1 ? "." : "s."));
+      return;
+    }
+    layer = L.geoJSON({ type: "FeatureCollection", features: visible }, {
+      style: function (feature) {
+        var color = colorFor(featureType(feature));
+        return { color: color, weight: 2, fillColor: color, fillOpacity: 0.32 };
+      },
+      pointToLayer: function (feature, latlng) {
+        var color = colorFor(featureType(feature));
+        return L.circleMarker(latlng, { radius: 7, color: color, weight: 2, fillColor: color, fillOpacity: 0.86 });
+      },
+      onEachFeature: function (feature, featureLayer) {
+        featureLayer.bindPopup(popupHtml(feature));
+      }
+    }).addTo(map);
+    try {
+      map.fitBounds(layer.getBounds(), { padding: [22, 22], maxZoom: 17 });
+    } catch (err) {
+      map.setView(kcCenter, 11);
+    }
+    var years = selectedYearList();
+    var yearText = years.length ? years.join(", ") : "no years";
+    setStatus("Showing " + visible.length + " of " + features.length + " mapped demolition record" + (features.length === 1 ? "" : "s") + " for " + yearText + ".");
+    setTimeout(function () { map.invalidateSize(); }, 250);
+  }
+  function refresh() {
+    setStatus("Loading demolition records...");
+    loadSelectedFeatures().then(function (features) {
+      renderTypeControls(features);
+      renderMap(features);
+    }).catch(function (err) {
+      if (layer) {
+        map.removeLayer(layer);
+        layer = null;
+      }
+      map.setView(kcCenter, 11);
+      setStatus("Map data failed to load: " + err.message);
+    });
+  }
+  function initialize(manifest) {
+    var files = manifest && manifest.files ? manifest.files : {};
+    latestUrl = resolveUrl(files.latest_url || files.latest || "latest.geojson");
+    yearUrls = files.by_year_urls || files.by_year || {};
+    availableYears = (manifest.available_years || Object.keys(yearUrls || {})).map(String).sort(compareText);
+    if (!availableYears.length) availableYears = ["all"];
+    availableYears.forEach(function (year) { selectedYears[year] = true; });
+    renderYearControls();
+    refresh();
+  }
+  if (!canvas) return;
+  if (typeof L === "undefined") {
+    setStatus("Map library failed to load.");
+    return;
+  }
+  map = L.map(canvas, { scrollWheelZoom: false });
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
+  map.setView(kcCenter, 11);
+  fetch(manifestUrl)
+    .then(function (response) {
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    })
+    .then(initialize)
+    .catch(function (err) {
+      setStatus("Map manifest failed to load: " + err.message);
+    });
+})();
+</script></div>
+    <div class="code">
+      <h2>CMS embed code</h2>
+      <textarea readonly>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;&gt;
+&lt;div class=&quot;ckc-evergreen-map&quot; data-manifest-url=&quot;https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/manifest.json&quot;&gt;
+  &lt;style&gt;
+    .ckc-evergreen-map { font-family: Arial, Helvetica, sans-serif; color: #222; max-width: 100%; }
+    .ckc-evergreen-map * { box-sizing: border-box; }
+    .ckc-evergreen-map__title { font-size: 20px; line-height: 1.25; font-weight: 700; margin: 0 0 10px; }
+    .ckc-evergreen-map__controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 12px; margin: 0 0 12px; }
+    .ckc-evergreen-map__group { border: 1px solid #d6d6d6; padding: 10px; background: #fff; }
+    .ckc-evergreen-map__label { display: block; font-size: 12px; line-height: 1.2; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #555; margin: 0 0 8px; }
+    .ckc-evergreen-map__checks { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+    .ckc-evergreen-map__check { display: inline-flex; align-items: center; gap: 6px; min-height: 30px; border: 1px solid #cfcfcf; padding: 5px 8px; background: #f7f7f7; font-size: 13px; line-height: 1.25; cursor: pointer; }
+    .ckc-evergreen-map__check input { margin: 0; }
+    .ckc-evergreen-map__swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; border: 1px solid rgba(0,0,0,.22); flex: 0 0 auto; }
+    .ckc-evergreen-map__canvas { width: 100%; height: 560px; border: 1px solid #bdbdbd; background: #eef2f3; }
+    .ckc-evergreen-map__below { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .8fr); gap: 12px; margin-top: 10px; align-items: start; }
+    .ckc-evergreen-map__status { font-size: 13px; line-height: 1.4; color: #555; min-height: 18px; }
+    .ckc-evergreen-map__legend { display: flex; flex-wrap: wrap; gap: 7px; justify-content: flex-end; }
+    .ckc-evergreen-map__legend-item { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; line-height: 1.25; color: #333; }
+    .ckc-evergreen-map__legend-item.is-muted { opacity: .42; }
+    .ckc-evergreen-map__source { font-size: 12px; line-height: 1.35; color: #666; margin-top: 8px; }
+    .ckc-evergreen-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
+    @media (max-width: 720px) {
+      .ckc-evergreen-map__controls, .ckc-evergreen-map__below { grid-template-columns: 1fr; }
+      .ckc-evergreen-map__legend { justify-content: flex-start; }
+      .ckc-evergreen-map__canvas { height: 430px; }
+    }
+  &lt;/style&gt;
+  &lt;div class=&quot;ckc-evergreen-map__title&quot;&gt;Kansas City demolition permits&lt;/div&gt;
+  &lt;div class=&quot;ckc-evergreen-map__controls&quot;&gt;
+    &lt;div class=&quot;ckc-evergreen-map__group&quot;&gt;
+      &lt;span class=&quot;ckc-evergreen-map__label&quot;&gt;Years&lt;/span&gt;
+      &lt;div class=&quot;ckc-evergreen-map__checks&quot; data-role=&quot;year-controls&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;ckc-evergreen-map__group&quot;&gt;
+      &lt;span class=&quot;ckc-evergreen-map__label&quot;&gt;Demolition type&lt;/span&gt;
+      &lt;div class=&quot;ckc-evergreen-map__checks&quot; data-role=&quot;type-controls&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;ckc-evergreen-map__canvas&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;ckc-evergreen-map__below&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;ckc-evergreen-map__status&quot;&gt;Loading demolition map...&lt;/div&gt;
+      &lt;div class=&quot;ckc-evergreen-map__source&quot;&gt;Source: CompassKC and KCMO parcel data.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;ckc-evergreen-map__legend&quot; data-role=&quot;legend&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(function () {
+  var script = document.currentScript;
+  var wrapper = script &amp;&amp; script.previousElementSibling;
+  while (wrapper &amp;&amp; !wrapper.classList.contains(&quot;ckc-evergreen-map&quot;)) {
+    wrapper = wrapper.previousElementSibling;
+  }
+  if (!wrapper) return;
+
+  var manifestUrl = &quot;https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/manifest.json&quot;;
+  var canvas = wrapper.querySelector(&quot;.ckc-evergreen-map__canvas&quot;);
+  var status = wrapper.querySelector(&quot;.ckc-evergreen-map__status&quot;);
+  var yearControls = wrapper.querySelector(&#x27;[data-role=&quot;year-controls&quot;]&#x27;);
+  var typeControls = wrapper.querySelector(&#x27;[data-role=&quot;type-controls&quot;]&#x27;);
+  var legend = wrapper.querySelector(&#x27;[data-role=&quot;legend&quot;]&#x27;);
+  var selectedYears = {};
+  var selectedTypes = {};
+  var yearCache = {};
+  var availableYears = [];
+  var yearUrls = {};
+  var latestUrl = &quot;&quot;;
+  var layer = null;
+  var map = null;
+  var kcCenter = [39.0997, -94.5786];
+  var palette = [&quot;#2f6fbb&quot;, &quot;#c23b3b&quot;, &quot;#2f8f5b&quot;, &quot;#8f5aa8&quot;, &quot;#c46a2f&quot;, &quot;#0f7f8c&quot;, &quot;#b59a22&quot;, &quot;#6b6f2a&quot;, &quot;#cc5c8a&quot;];
+
+  function esc(value) {
+    return String(value || &quot;&quot;).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function (ch) {
+      return ({ &quot;&amp;&quot;: &quot;&amp;amp;&quot;, &quot;&lt;&quot;: &quot;&amp;lt;&quot;, &quot;&gt;&quot;: &quot;&amp;gt;&quot;, &quot;\&quot;&quot;: &quot;&amp;quot;&quot;, &quot;&#x27;&quot;: &quot;&amp;#39;&quot; })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || &quot;&quot;);
+    return /^https?:\/\//i.test(value) ? value.replace(/&quot;/g, &quot;%22&quot;) : &quot;&quot;;
+  }
+  function setStatus(message) {
+    if (status) status.textContent = message || &quot;&quot;;
+  }
+  function hashString(value) {
+    var hash = 0;
+    value = String(value || &quot;&quot;);
+    for (var i = 0; i &lt; value.length; i += 1) {
+      hash = ((hash &lt;&lt; 5) - hash) + value.charCodeAt(i);
+      hash |= 0;
+    }
+    return Math.abs(hash);
+  }
+  function colorFor(type) {
+    return palette[hashString(type || &quot;Other&quot;) % palette.length];
+  }
+  function featureType(feature) {
+    var props = feature &amp;&amp; feature.properties ? feature.properties : {};
+    return String(props.record_type || props.category || &quot;Other&quot;).trim() || &quot;Other&quot;;
+  }
+  function featureYear(feature) {
+    var props = feature &amp;&amp; feature.properties ? feature.properties : {};
+    return String(props.year || &quot;&quot;).trim();
+  }
+  function compareText(a, b) {
+    return String(a).localeCompare(String(b), undefined, { numeric: true, sensitivity: &quot;base&quot; });
+  }
+  function resolveUrl(pathOrUrl) {
+    pathOrUrl = String(pathOrUrl || &quot;&quot;);
+    if (/^https?:\/\//i.test(pathOrUrl)) return pathOrUrl;
+    try {
+      return new URL(pathOrUrl, manifestUrl).toString();
+    } catch (err) {
+      return pathOrUrl;
+    }
+  }
+  function renderCheckbox(container, options) {
+    if (!container) return;
+    container.innerHTML = &quot;&quot;;
+    options.forEach(function (option) {
+      var label = document.createElement(&quot;label&quot;);
+      label.className = &quot;ckc-evergreen-map__check&quot;;
+      var input = document.createElement(&quot;input&quot;);
+      input.type = &quot;checkbox&quot;;
+      input.checked = option.checked;
+      input.value = option.value;
+      input.addEventListener(&quot;change&quot;, option.onchange);
+      label.appendChild(input);
+      if (option.color) {
+        var swatch = document.createElement(&quot;span&quot;);
+        swatch.className = &quot;ckc-evergreen-map__swatch&quot;;
+        swatch.style.backgroundColor = option.color;
+        label.appendChild(swatch);
+      }
+      label.appendChild(document.createTextNode(option.label));
+      container.appendChild(label);
+    });
+  }
+  function selectedYearList() {
+    return availableYears.filter(function (year) { return selectedYears[year]; });
+  }
+  function loadYear(year) {
+    if (yearCache[year]) return Promise.resolve(yearCache[year]);
+    var url = resolveUrl(yearUrls[year] || latestUrl);
+    return fetch(url).then(function (response) {
+      if (!response.ok) throw new Error(&quot;HTTP &quot; + response.status);
+      return response.json();
+    }).then(function (geojson) {
+      var features = geojson &amp;&amp; Array.isArray(geojson.features) ? geojson.features : [];
+      yearCache[year] = features;
+      return features;
+    });
+  }
+  function loadSelectedFeatures() {
+    var years = selectedYearList();
+    if (!years.length) return Promise.resolve([]);
+    return Promise.all(years.map(loadYear)).then(function (groups) {
+      var merged = [];
+      groups.forEach(function (features) {
+        features.forEach(function (feature) { merged.push(feature); });
+      });
+      return merged;
+    });
+  }
+  function renderYearControls() {
+    renderCheckbox(yearControls, availableYears.map(function (year) {
+      return {
+        label: year,
+        value: year,
+        checked: !!selectedYears[year],
+        onchange: function (event) {
+          selectedYears[year] = event.target.checked;
+          refresh();
+        }
+      };
+    }));
+  }
+  function renderTypeControls(features) {
+    var types = {};
+    features.forEach(function (feature) { types[featureType(feature)] = true; });
+    var typeList = Object.keys(types).sort(compareText);
+    typeList.forEach(function (type) {
+      if (selectedTypes[type] === undefined) selectedTypes[type] = true;
+    });
+    Object.keys(selectedTypes).forEach(function (type) {
+      if (!types[type]) delete selectedTypes[type];
+    });
+    renderCheckbox(typeControls, typeList.map(function (type) {
+      return {
+        label: type,
+        value: type,
+        color: colorFor(type),
+        checked: !!selectedTypes[type],
+        onchange: function (event) {
+          selectedTypes[type] = event.target.checked;
+          renderMap(features);
+        }
+      };
+    }));
+  }
+  function popupHtml(feature) {
+    var props = feature.properties || {};
+    var bits = [];
+    var detailUrl = safeUrl(props.detail_url);
+    if (props.case_number) bits.push(&quot;&lt;strong&gt;&quot; + esc(props.case_number) + &quot;&lt;/strong&gt;&quot;);
+    if (props.address) bits.push(esc(props.address));
+    if (props.record_type || props.category) bits.push(esc(featureType(feature)));
+    if (props.status || props.date) bits.push(esc([props.status, props.date].filter(Boolean).join(&quot; - &quot;)));
+    if (detailUrl) bits.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CompassKC detail&lt;/a&gt;&#x27;);
+    return bits.join(&quot;&lt;br&gt;&quot;);
+  }
+  function renderLegend(features) {
+    if (!legend) return;
+    var counts = {};
+    features.forEach(function (feature) {
+      var type = featureType(feature);
+      counts[type] = (counts[type] || 0) + 1;
+    });
+    var types = Object.keys(counts).sort(compareText);
+    legend.innerHTML = &quot;&quot;;
+    types.forEach(function (type) {
+      var item = document.createElement(&quot;span&quot;);
+      item.className = &quot;ckc-evergreen-map__legend-item&quot; + (selectedTypes[type] ? &quot;&quot; : &quot; is-muted&quot;);
+      var swatch = document.createElement(&quot;span&quot;);
+      swatch.className = &quot;ckc-evergreen-map__swatch&quot;;
+      swatch.style.backgroundColor = colorFor(type);
+      item.appendChild(swatch);
+      item.appendChild(document.createTextNode(type + &quot; (&quot; + counts[type] + &quot;)&quot;));
+      legend.appendChild(item);
+    });
+  }
+  function renderMap(features) {
+    var visible = features.filter(function (feature) { return selectedTypes[featureType(feature)]; });
+    if (layer) {
+      map.removeLayer(layer);
+      layer = null;
+    }
+    renderLegend(features);
+    if (!visible.length) {
+      map.setView(kcCenter, 11);
+      setStatus(&quot;Showing 0 of &quot; + features.length + &quot; mapped demolition record&quot; + (features.length === 1 ? &quot;.&quot; : &quot;s.&quot;));
+      return;
+    }
+    layer = L.geoJSON({ type: &quot;FeatureCollection&quot;, features: visible }, {
+      style: function (feature) {
+        var color = colorFor(featureType(feature));
+        return { color: color, weight: 2, fillColor: color, fillOpacity: 0.32 };
+      },
+      pointToLayer: function (feature, latlng) {
+        var color = colorFor(featureType(feature));
+        return L.circleMarker(latlng, { radius: 7, color: color, weight: 2, fillColor: color, fillOpacity: 0.86 });
+      },
+      onEachFeature: function (feature, featureLayer) {
+        featureLayer.bindPopup(popupHtml(feature));
+      }
+    }).addTo(map);
+    try {
+      map.fitBounds(layer.getBounds(), { padding: [22, 22], maxZoom: 17 });
+    } catch (err) {
+      map.setView(kcCenter, 11);
+    }
+    var years = selectedYearList();
+    var yearText = years.length ? years.join(&quot;, &quot;) : &quot;no years&quot;;
+    setStatus(&quot;Showing &quot; + visible.length + &quot; of &quot; + features.length + &quot; mapped demolition record&quot; + (features.length === 1 ? &quot;&quot; : &quot;s&quot;) + &quot; for &quot; + yearText + &quot;.&quot;);
+    setTimeout(function () { map.invalidateSize(); }, 250);
+  }
+  function refresh() {
+    setStatus(&quot;Loading demolition records...&quot;);
+    loadSelectedFeatures().then(function (features) {
+      renderTypeControls(features);
+      renderMap(features);
+    }).catch(function (err) {
+      if (layer) {
+        map.removeLayer(layer);
+        layer = null;
+      }
+      map.setView(kcCenter, 11);
+      setStatus(&quot;Map data failed to load: &quot; + err.message);
+    });
+  }
+  function initialize(manifest) {
+    var files = manifest &amp;&amp; manifest.files ? manifest.files : {};
+    latestUrl = resolveUrl(files.latest_url || files.latest || &quot;latest.geojson&quot;);
+    yearUrls = files.by_year_urls || files.by_year || {};
+    availableYears = (manifest.available_years || Object.keys(yearUrls || {})).map(String).sort(compareText);
+    if (!availableYears.length) availableYears = [&quot;all&quot;];
+    availableYears.forEach(function (year) { selectedYears[year] = true; });
+    renderYearControls();
+    refresh();
+  }
+  if (!canvas) return;
+  if (typeof L === &quot;undefined&quot;) {
+    setStatus(&quot;Map library failed to load.&quot;);
+    return;
+  }
+  map = L.map(canvas, { scrollWheelZoom: false });
+  L.tileLayer(&quot;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&quot;, {
+    maxZoom: 19,
+    attribution: &quot;&amp;copy; OpenStreetMap contributors&quot;
+  }).addTo(map);
+  map.setView(kcCenter, 11);
+  fetch(manifestUrl)
+    .then(function (response) {
+      if (!response.ok) throw new Error(&quot;HTTP &quot; + response.status);
+      return response.json();
+    })
+    .then(initialize)
+    .catch(function (err) {
+      setStatus(&quot;Map manifest failed to load: &quot; + err.message);
+    });
+})();
+&lt;/script&gt;</textarea>
+    </div>
+  </main>
+</body>
+</html>

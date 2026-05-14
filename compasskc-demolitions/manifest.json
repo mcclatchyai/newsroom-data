@@ -12,11 +12,15 @@
     "by_year_urls": {
       "2026": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/by-year/2026.geojson"
     },
+    "embed": "embed.html",
+    "embed_url": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/embed.html",
     "latest": "latest.geojson",
-    "latest_url": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/latest.geojson"
+    "latest_url": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/latest.geojson",
+    "preview": "preview.html",
+    "preview_url": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/preview.html"
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-14T18:41:53Z",
+  "generated_at": "2026-05-14T19:31:24Z",
   "privacy": {
     "excludes": [
       "owner",
