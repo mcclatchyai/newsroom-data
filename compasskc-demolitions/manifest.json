@@ -1,0 +1,52 @@
+{
+  "available_years": [
+    "2026"
+  ],
+  "dataset": "compasskc-demolitions",
+  "description": "Sanitized public GeoJSON for Kansas City CompassKC demolition permit map embeds.",
+  "features_total": 9,
+  "files": {
+    "by_year": {
+      "2026": "by-year/2026.geojson"
+    },
+    "by_year_urls": {
+      "2026": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/by-year/2026.geojson"
+    },
+    "latest": "latest.geojson",
+    "latest_url": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/latest.geojson"
+  },
+  "format": "GeoJSON FeatureCollection",
+  "generated_at": "2026-05-14T18:41:53Z",
+  "privacy": {
+    "excludes": [
+      "owner",
+      "taxpayer",
+      "private notes",
+      "raw scrape payloads",
+      "full parcel layer"
+    ],
+    "public_fields_only": true
+  },
+  "records_total": 9,
+  "schema": {
+    "geometry": "matched KCMO parcel geometry where available",
+    "properties": [
+      "record_id",
+      "case_number",
+      "external_id",
+      "status",
+      "record_type",
+      "category",
+      "date",
+      "year",
+      "address",
+      "parcel_id",
+      "match_status",
+      "match_method",
+      "geometry_source",
+      "detail_url"
+    ]
+  },
+  "source": "CompassKC + KCMO parcels",
+  "title": "Kansas City demolition permits"
+}

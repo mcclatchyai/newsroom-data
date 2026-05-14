@@ -1,0 +1,530 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59990329148143,
+              39.049221535495015
+            ],
+            [
+              -94.59944057889813,
+              39.04920348948714
+            ],
+            [
+              -94.59943290693786,
+              39.049340483895094
+            ],
+            [
+              -94.59989564988639,
+              39.049358622002146
+            ],
+            [
+              -94.59990329148143,
+              39.049221535495015
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "4312 Jarboe St Kansas City MO 64111",
+        "case_number": "CH-DM-2026-00024",
+        "category": "Demolition Review, Administrative",
+        "date": "2026-05-08T14:05:03",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/bd9d42e0-46a8-4375-8e06-a1cec2d650a9",
+        "external_id": "bd9d42e0-46a8-4375-8e06-a1cec2d650a9",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "140620",
+        "record_id": "case:bd9d42e0-46a8-4375-8e06-a1cec2d650a9",
+        "record_type": "Demolition Review, Administrative",
+        "status": "Submitted",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59757438889794,
+              39.104274798322415
+            ],
+            [
+              -94.59755676844536,
+              39.10427428681232
+            ],
+            [
+              -94.59715922940444,
+              39.104439474005375
+            ],
+            [
+              -94.59714066916382,
+              39.10473849405578
+            ],
+            [
+              -94.59714906823825,
+              39.10473869298346
+            ],
+            [
+              -94.59713559563855,
+              39.10495693944973
+            ],
+            [
+              -94.59754333367137,
+              39.10496700973494
+            ],
+            [
+              -94.59757438889794,
+              39.104274798322415
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "1127 W 8th St Kansas City MO 64101",
+        "case_number": "CPDC-2026-00085",
+        "category": "Pre-Demolition Inspection - Commercial",
+        "date": "2026-05-11T11:17:10.663",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/d6efdbdb-c728-428f-8d46-f8e605817ec1",
+        "external_id": "d6efdbdb-c728-428f-8d46-f8e605817ec1",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "122908",
+        "record_id": "case:d6efdbdb-c728-428f-8d46-f8e605817ec1",
+        "record_type": "Pre-Demolition Inspection - Commercial",
+        "status": "In Review",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.51058510429492,
+              38.91910902494904
+            ],
+            [
+              -94.51049643955652,
+              38.919366307466795
+            ],
+            [
+              -94.50976702358501,
+              38.92164444294556
+            ],
+            [
+              -94.51019813041128,
+              38.92167573071533
+            ],
+            [
+              -94.5099683290198,
+              38.92240752042128
+            ],
+            [
+              -94.51005426855318,
+              38.9224131876374
+            ],
+            [
+              -94.51069662625737,
+              38.922233213588676
+            ],
+            [
+              -94.51099053477625,
+              38.92224593179913
+            ],
+            [
+              -94.51121936081596,
+              38.9222725439755
+            ],
+            [
+              -94.51165375309095,
+              38.920157436596455
+            ],
+            [
+              -94.51172865882423,
+              38.91987077089298
+            ],
+            [
+              -94.511844734827,
+              38.91950570984075
+            ],
+            [
+              -94.51196637997502,
+              38.91918512838728
+            ],
+            [
+              -94.51212366435347,
+              38.91882958087711
+            ],
+            [
+              -94.51228593266582,
+              38.91851048269173
+            ],
+            [
+              -94.51157611408826,
+              38.91841216517361
+            ],
+            [
+              -94.51148323573302,
+              38.91858543236561
+            ],
+            [
+              -94.51137612935202,
+              38.918803732046285
+            ],
+            [
+              -94.51126438248133,
+              38.91878830307991
+            ],
+            [
+              -94.51114649975283,
+              38.91918653895007
+            ],
+            [
+              -94.51058510429492,
+              38.91910902494904
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "11104 Blue Ridge Blvd Kansas City MO 64134",
+        "case_number": "CH-DM-2026-00025",
+        "category": "Demolition Review, Administrative",
+        "date": "2026-05-13T09:08:35",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/79678dac-0d72-4fa5-a36b-ea372a99b08f",
+        "external_id": "79678dac-0d72-4fa5-a36b-ea372a99b08f",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "290495",
+        "record_id": "case:79678dac-0d72-4fa5-a36b-ea372a99b08f",
+        "record_type": "Demolition Review, Administrative",
+        "status": "Submitted",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59757438889794,
+              39.104274798322415
+            ],
+            [
+              -94.59755676844536,
+              39.10427428681232
+            ],
+            [
+              -94.59715922940444,
+              39.104439474005375
+            ],
+            [
+              -94.59714066916382,
+              39.10473849405578
+            ],
+            [
+              -94.59714906823825,
+              39.10473869298346
+            ],
+            [
+              -94.59713559563855,
+              39.10495693944973
+            ],
+            [
+              -94.59754333367137,
+              39.10496700973494
+            ],
+            [
+              -94.59757438889794,
+              39.104274798322415
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "1127 W 8th St Kansas City MO 64101",
+        "case_number": "CH-DM-2026-00026",
+        "category": "Demolition Review, Regular",
+        "date": "2026-05-13T10:24:04",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/59811900-52be-44d8-961d-9b1fa25ef8d6",
+        "external_id": "59811900-52be-44d8-961d-9b1fa25ef8d6",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "122908",
+        "record_id": "case:59811900-52be-44d8-961d-9b1fa25ef8d6",
+        "record_type": "Demolition Review, Regular",
+        "status": "Submitted",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.52525574438457,
+              39.07869000235822
+            ],
+            [
+              -94.52485362565724,
+              39.07867757296921
+            ],
+            [
+              -94.52484902050305,
+              39.07876966907936
+            ],
+            [
+              -94.52525113905128,
+              39.07878219057915
+            ],
+            [
+              -94.52525574438457,
+              39.07869000235822
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "2530 Brighton Ave Kansas City MO 64127",
+        "case_number": "CPDR-2026-00115",
+        "category": "Partial Building Demolition - Residential",
+        "date": "2026-05-13T15:27:30.88",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/df1ff747-2892-4268-850b-d7628596331c",
+        "external_id": "df1ff747-2892-4268-850b-d7628596331c",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "19969",
+        "record_id": "case:df1ff747-2892-4268-850b-d7628596331c",
+        "record_type": "Partial Building Demolition - Residential",
+        "status": "Pending",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.61250616841923,
+              39.21494232094102
+            ],
+            [
+              -94.61202827689229,
+              39.21494188914967
+            ],
+            [
+              -94.61202643951714,
+              39.2152844079881
+            ],
+            [
+              -94.61250248042226,
+              39.215284864453224
+            ],
+            [
+              -94.61250616841923,
+              39.21494232094102
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "6628 N Edison Kansas City MO 64152",
+        "case_number": "CPDR-2026-00114",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-13T21:39:02.2",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/2562999b-7698-4cf5-9a2b-6b10d955aed6",
+        "external_id": "2562999b-7698-4cf5-9a2b-6b10d955aed6",
+        "geometry_source": "KCMO parcels",
+        "match_method": "address_geocode_point_in_polygon",
+        "match_status": "matched",
+        "parcel_id": "164696",
+        "record_id": "case:2562999b-7698-4cf5-9a2b-6b10d955aed6",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Issued",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.54633602388171,
+              39.05910327353358
+            ],
+            [
+              -94.54585926399493,
+              39.05908900127471
+            ],
+            [
+              -94.5458545388081,
+              39.059179383075275
+            ],
+            [
+              -94.54633129928685,
+              39.059193632472024
+            ],
+            [
+              -94.54633602388171,
+              39.05910327353358
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "3639 Benton Blvd Kansas City MO 64128",
+        "case_number": "CPDR-2026-00112",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-13T21:39:03.967",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/4fc72e6f-f3e7-4820-ac58-7f2e97e4f9f5",
+        "external_id": "4fc72e6f-f3e7-4820-ac58-7f2e97e4f9f5",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "28493",
+        "record_id": "case:4fc72e6f-f3e7-4820-ac58-7f2e97e4f9f5",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Issued",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.55156978364374,
+              39.081985156735215
+            ],
+            [
+              -94.55147801203589,
+              39.081981949360355
+            ],
+            [
+              -94.55147916827309,
+              39.08195712207795
+            ],
+            [
+              -94.5512003277206,
+              39.081947361498244
+            ],
+            [
+              -94.5511957882942,
+              39.08204369093154
+            ],
+            [
+              -94.55156643031765,
+              39.082056706935674
+            ],
+            [
+              -94.55156978364374,
+              39.081985156735215
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "2424 Montgall Ave Kansas City MO 64127",
+        "case_number": "CPDR-2026-00111",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-13T21:39:09.393",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/3472417c-a0a2-4035-9cf7-714fd112a714",
+        "external_id": "3472417c-a0a2-4035-9cf7-714fd112a714",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "16321",
+        "record_id": "case:3472417c-a0a2-4035-9cf7-714fd112a714",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Issued",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59091067660427,
+              39.0498888224771
+            ],
+            [
+              -94.59063911770126,
+              39.049879286569
+            ],
+            [
+              -94.59066846355984,
+              39.05008695412426
+            ],
+            [
+              -94.59089961472019,
+              39.0500948271327
+            ],
+            [
+              -94.59091067660427,
+              39.0498888224771
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "4222 Wornall Rd Kansas City MO 64111",
+        "case_number": "CPDR-2026-00116",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-14T07:17:34.53",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/d81f2f62-6c71-48b5-8995-e73a6555c1fa",
+        "external_id": "d81f2f62-6c71-48b5-8995-e73a6555c1fa",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "132819",
+        "record_id": "case:d81f2f62-6c71-48b5-8995-e73a6555c1fa",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "In Review",
+        "year": "2026"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "available_years": [
+      "2026"
+    ],
+    "dataset": "compasskc-demolition-parcels",
+    "error_records": 0,
+    "etag": "88d1269777b735d1",
+    "features_returned": 9,
+    "generated_at": "2026-05-14T18:41:54Z",
+    "project": "kc-demolitions",
+    "records_total": 9,
+    "source": "CompassKC + KCMO parcels",
+    "unmatched_records": 0,
+    "year": "2026"
+  },
+  "type": "FeatureCollection"
+}
