@@ -2350,12 +2350,12 @@
     "error_records": 0,
     "etag": "fe204b8df30cee3f",
     "features_returned": 9,
-    "generated_at": "2026-05-15T19:45:20Z",
+    "generated_at": "2026-05-15T19:45:26Z",
     "project": "kc-demolitions",
     "records_total": 9,
     "source": "CompassKC + KCMO parcels + Overture Maps buildings",
     "unmatched_records": 0,
-    "year": "2026"
+    "year": ""
   },
   "type": "FeatureCollection"
 }
