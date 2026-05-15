@@ -177,7 +177,7 @@ def _manifest(
             ],
         },
         "schema": {
-            "geometry": "matched KCMO parcel geometry where available; optional clipped Overture building footprints in feature properties",
+            "geometry": "matched KCMO parcel polygon where available; permit geocode point fallback otherwise; optional clipped Overture building footprints in feature properties",
             "properties": [
                 "record_id",
                 "case_number",
@@ -192,6 +192,7 @@ def _manifest(
                 "match_status",
                 "match_method",
                 "geometry_source",
+                "has_parcel_polygon",
                 "building_footprints",
                 "detail_url",
             ],
