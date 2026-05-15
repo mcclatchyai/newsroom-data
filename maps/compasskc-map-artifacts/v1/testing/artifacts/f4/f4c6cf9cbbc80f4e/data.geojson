@@ -1,0 +1,54 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59091067660427,
+              39.0498888224771
+            ],
+            [
+              -94.59063911770126,
+              39.049879286569
+            ],
+            [
+              -94.59066846355984,
+              39.05008695412426
+            ],
+            [
+              -94.59089961472019,
+              39.0500948271327
+            ],
+            [
+              -94.59091067660427,
+              39.0498888224771
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "4222 Wornall Rd Kansas City MO 64111",
+        "case_number": "CPDR-2026-00116",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-14T07:17:34.53",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/d81f2f62-6c71-48b5-8995-e73a6555c1fa",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "132819",
+        "record_id": "c68cba6006d81631",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "In Review"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "artifact_id": "f4c6cf9cbbc80f4e",
+    "project": "kc-demolitions",
+    "source": "CompassKC + KCMO parcels"
+  },
+  "type": "FeatureCollection"
+}

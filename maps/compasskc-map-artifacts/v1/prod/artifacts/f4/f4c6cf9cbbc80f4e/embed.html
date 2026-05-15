@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div class="ckc-map-embed" data-map-artifact="f4c6cf9cbbc80f4e">
+  <style>
+    .ckc-map-embed { font-family: Arial, sans-serif; color: #222; max-width: 100%; }
+    .ckc-map-embed__title { font-weight: 700; font-size: 18px; line-height: 1.25; margin: 0 0 8px; }
+    .ckc-map-embed__canvas { width: 100%; height: 520px; border: 1px solid #c8c8c8; box-sizing: border-box; }
+    .ckc-map-embed__status { font-size: 13px; line-height: 1.35; margin-top: 8px; color: #555; }
+    .ckc-map-embed__note { font-size: 12px; line-height: 1.35; margin-top: 8px; color: #555; }
+    @media (max-width: 640px) { .ckc-map-embed__canvas { height: 390px; } }
+  </style>
+  <div class="ckc-map-embed__title">CompassKC demolition map: CPDR-2026-00116</div>
+  <div class="ckc-map-embed__canvas"></div>
+  <div class="ckc-map-embed__status">Loading map...</div>
+  <div class="ckc-map-embed__note">Source: CompassKC and KCMO parcel data.</div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function () {
+  var script = document.currentScript;
+  var wrapper = script && script.previousElementSibling;
+  while (wrapper && !wrapper.classList.contains("ckc-map-embed")) {
+    wrapper = wrapper.previousElementSibling;
+  }
+  if (!wrapper) return;
+  var canvas = wrapper.querySelector(".ckc-map-embed__canvas");
+  var status = wrapper.querySelector(".ckc-map-embed__status");
+  function setStatus(message) { if (status) status.textContent = message || ""; }
+  function esc(value) {
+    return String(value || "").replace(/[&<>"']/g, function (ch) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || "");
+    return /^https?:\/\//i.test(value) ? value.replace(/"/g, "%22") : "";
+  }
+  if (!canvas) return;
+  if (typeof L === "undefined") {
+    setStatus("Map library failed to load.");
+    return;
+  }
+  var map = L.map(canvas, { scrollWheelZoom: false });
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
+  fetch("https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/prod/artifacts/f4/f4c6cf9cbbc80f4e/data.geojson")
+    .then(function (response) {
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    })
+    .then(function (geojson) {
+      var features = geojson && geojson.features ? geojson.features : [];
+      if (!features.length) {
+        map.setView([39.0997, -94.5786], 11);
+        setStatus("No map geometry is available for this permit.");
+        return;
+      }
+      var layer = L.geoJSON(geojson, {
+        style: function () { return { color: "#c43b2f", weight: 2, fillColor: "#e86d5d", fillOpacity: 0.35 }; },
+        pointToLayer: function (feature, latlng) {
+          return L.circleMarker(latlng, { radius: 7, color: "#c43b2f", fillColor: "#e86d5d", fillOpacity: 0.9 });
+        },
+        onEachFeature: function (feature, layer) {
+          var props = feature.properties || {};
+          var bits = [];
+          var detailUrl = safeUrl(props.detail_url);
+          if (props.case_number) bits.push("<strong>" + esc(props.case_number) + "</strong>");
+          if (props.address) bits.push(esc(props.address));
+          if (props.record_type) bits.push(esc(props.record_type));
+          if (detailUrl) bits.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">CompassKC detail</a>');
+          layer.bindPopup(bits.join("<br>"));
+        }
+      }).addTo(map);
+      try {
+        map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 18 });
+      } catch (err) {
+        map.setView([39.0997, -94.5786], 11);
+      }
+      setStatus("");
+      setTimeout(function () { map.invalidateSize(); }, 300);
+    })
+    .catch(function (err) {
+      map.setView([39.0997, -94.5786], 11);
+      setStatus("Map data failed to load: " + err.message);
+    });
+})();
+</script>

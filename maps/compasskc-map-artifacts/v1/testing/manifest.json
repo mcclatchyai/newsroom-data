@@ -1,0 +1,36 @@
+{
+  "artifact_count": 2,
+  "artifacts": [
+    {
+      "artifact_id": "6d5ae51d0bbf7cd2",
+      "created_at_utc": "2026-05-15T20:57:25Z",
+      "data_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/testing/artifacts/6d/6d5ae51d0bbf7cd2/data.geojson",
+      "embed_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/testing/artifacts/6d/6d5ae51d0bbf7cd2/embed.html",
+      "permit_number": "CH-DM-2026-00027",
+      "record_key": "591a589a0b943ad1"
+    },
+    {
+      "artifact_id": "f4c6cf9cbbc80f4e",
+      "created_at_utc": "2026-05-14T17:29:55Z",
+      "data_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/testing/artifacts/f4/f4c6cf9cbbc80f4e/data.geojson",
+      "embed_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/testing/artifacts/f4/f4c6cf9cbbc80f4e/embed.html",
+      "permit_number": "CPDR-2026-00116",
+      "record_key": "c68cba6006d81631"
+    }
+  ],
+  "cache_ttl_seconds": 900,
+  "data_version": "20260515210009Z",
+  "entrypoints": {
+    "artifacts_index": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/testing/manifest.json"
+  },
+  "environment": "testing",
+  "generated_at": "2026-05-15T21:00:09Z",
+  "privacy": {
+    "public_fields_only": true,
+    "scope": "single-permit map GeoJSON and embed HTML; no owner, taxpayer, raw scrape, or internal payload fields"
+  },
+  "project": "compasskc-map-artifacts",
+  "schema_version": 1,
+  "source": "CompassKC single-permit map artifacts exported from sanitized Cloud Run map endpoints",
+  "stale_after": "2026-05-15T21:15:09Z"
+}
