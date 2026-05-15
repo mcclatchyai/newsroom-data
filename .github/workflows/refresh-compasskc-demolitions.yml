@@ -1,0 +1,85 @@
+name: Refresh CompassKC Demolition Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: "Sanitized CompassKC evergreen GeoJSON endpoint"
+        required: false
+        default: "https://compasskcalerts-b2qqqk4i3a-uc.a.run.app/maps/compasskc/evergreen.geojson"
+      promote_to_prod:
+        description: "Promote audited testing data to prod"
+        required: false
+        type: boolean
+        default: true
+      refresh_legacy_mirror:
+        description: "Refresh temporary legacy compasskc-demolitions/ mirror"
+        required: false
+        type: boolean
+        default: true
+  schedule:
+    # The CompassKC Cloud Scheduler scan runs Monday at 8:00 a.m. America/Chicago.
+    # This runs afterward in both CST and CDT, then publishes audited static data.
+    - cron: "45 14 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-compasskc-demolitions
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_SOURCE_URL: "https://compasskcalerts-b2qqqk4i3a-uc.a.run.app/maps/compasskc/evergreen.geojson"
+      PROMOTE_TO_PROD: ${{ github.event_name == 'schedule' || inputs.promote_to_prod }}
+      REFRESH_LEGACY_MIRROR: ${{ github.event_name == 'schedule' || inputs.refresh_legacy_mirror }}
+
+    steps:
+      - name: Check out public data repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh CompassKC public data
+        run: |
+          SOURCE_URL="${{ inputs.source_url }}"
+          if [[ -z "${SOURCE_URL}" ]]; then
+            SOURCE_URL="${DEFAULT_SOURCE_URL}"
+          fi
+
+          ARGS=(--source-url "${SOURCE_URL}" --repo-root . --min-features 1)
+          if [[ "${PROMOTE_TO_PROD}" != "true" ]]; then
+            ARGS+=(--no-prod)
+          fi
+          if [[ "${REFRESH_LEGACY_MIRROR}" != "true" ]]; then
+            ARGS+=(--no-legacy-mirror)
+          fi
+
+          python .github/scripts/refresh_compasskc_demolition_data.py "${ARGS[@]}"
+
+      - name: Check generated files
+        run: |
+          git diff --check
+          python -m json.tool maps/compasskc-demolitions/v1/testing/manifest.json >/dev/null
+          if [[ -f maps/compasskc-demolitions/v1/prod/manifest.json ]]; then
+            python -m json.tool maps/compasskc-demolitions/v1/prod/manifest.json >/dev/null
+          fi
+
+      - name: Commit and push changed data
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No public data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add compasskc-demolitions maps/compasskc-demolitions/v1
+          git commit -m "refresh compasskc demolition data"
+          git push

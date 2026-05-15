@@ -23,3 +23,10 @@ Static public data files for newsroom maps and story embeds.
 - Write refreshed pipeline output to `testing/` first, audit it, then promote the same schema to `prod/`.
 - Prefer GitHub Pages URLs such as `https://mcclatchyai.github.io/newsroom-data/maps/compasskc-demolitions/v1/prod/manifest.json`.
 - Prefer `manifest.json`, `latest.geojson`, and scoped folders such as `by-year/`.
+
+## Automation
+
+- `.github/workflows/refresh-compasskc-demolitions.yml` refreshes the CompassKC public map data every Monday after the scheduled CompassKC scan.
+- The workflow reads only the sanitized Cloud Run evergreen GeoJSON endpoint, writes `testing/`, audits the public files, then promotes the same payload to `prod/`.
+- It commits only when generated data changes.
+- The workflow can also be run manually from GitHub Actions for an immediate refresh.
