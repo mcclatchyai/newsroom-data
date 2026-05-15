@@ -1,0 +1,81 @@
+name: Refresh CompassKC Map Artifacts
+
+on:
+  workflow_dispatch:
+    inputs:
+      index_url:
+        description: "Sanitized CompassKC map artifact index"
+        required: false
+        default: "https://compasskcalerts-b2qqqk4i3a-uc.a.run.app/maps/compasskc/artifacts/index.json"
+      promote_to_prod:
+        description: "Promote audited testing artifacts to prod"
+        required: false
+        type: boolean
+        default: true
+      limit:
+        description: "Maximum artifacts to export"
+        required: false
+        default: "500"
+  schedule:
+    # Keep on-demand map artifacts reasonably fresh without approaching the
+    # GitHub Pages soft build ceiling.
+    - cron: "17,47 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-compasskc-map-artifacts
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_INDEX_URL: "https://compasskcalerts-b2qqqk4i3a-uc.a.run.app/maps/compasskc/artifacts/index.json"
+      PROMOTE_TO_PROD: ${{ github.event_name == 'schedule' || inputs.promote_to_prod }}
+      LIMIT: ${{ inputs.limit || '500' }}
+
+    steps:
+      - name: Check out public data repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh CompassKC map artifacts
+        run: |
+          INDEX_URL="${{ inputs.index_url }}"
+          if [[ -z "${INDEX_URL}" ]]; then
+            INDEX_URL="${DEFAULT_INDEX_URL}"
+          fi
+
+          ARGS=(--index-url "${INDEX_URL}" --repo-root . --limit "${LIMIT}" --min-artifacts 0)
+          if [[ "${PROMOTE_TO_PROD}" != "true" ]]; then
+            ARGS+=(--no-prod)
+          fi
+
+          python .github/scripts/refresh_compasskc_map_artifacts.py "${ARGS[@]}"
+
+      - name: Check generated files
+        run: |
+          git diff --check
+          python -m json.tool maps/compasskc-map-artifacts/v1/testing/manifest.json >/dev/null
+          if [[ -f maps/compasskc-map-artifacts/v1/prod/manifest.json ]]; then
+            python -m json.tool maps/compasskc-map-artifacts/v1/prod/manifest.json >/dev/null
+          fi
+
+      - name: Commit and push changed artifacts
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No public artifact changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add maps/compasskc-map-artifacts/v1
+          git commit -m "refresh compasskc map artifacts"
+          git push

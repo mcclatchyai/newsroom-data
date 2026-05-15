@@ -6,6 +6,8 @@ Static public data files for newsroom maps and story embeds.
 
 - `maps/compasskc-demolitions/v1/prod/` - Canonical public data for Kansas City CompassKC demolition permit maps.
 - `maps/compasskc-demolitions/v1/testing/` - Validation copy used before promoting refreshed data to production.
+- `maps/compasskc-map-artifacts/v1/prod/` - Static GeoJSON and embed HTML for single-permit CompassKC map artifacts generated through Slack `/map`.
+- `maps/compasskc-map-artifacts/v1/testing/` - Validation copy for single-permit map artifacts before production promotion.
 - `compasskc-demolitions/` - Temporary transition mirror for older preview code; do not use for new embeds.
 
 ## CompassKC Demolitions
@@ -28,5 +30,7 @@ Static public data files for newsroom maps and story embeds.
 
 - `.github/workflows/refresh-compasskc-demolitions.yml` refreshes the CompassKC public map data every Monday after the scheduled CompassKC scan.
 - The workflow reads only the sanitized Cloud Run evergreen GeoJSON endpoint, writes `testing/`, audits the public files, then promotes the same payload to `prod/`.
+- `.github/workflows/refresh-compasskc-map-artifacts.yml` mirrors prod single-permit `/map` artifacts from the sanitized Cloud Run artifact index to GitHub Pages every 30 minutes.
+- Static artifact embeds fetch `data.geojson` from GitHub Pages instead of Cloud Run.
 - It commits only when generated data changes.
 - The workflow can also be run manually from GitHub Actions for an immediate refresh.
