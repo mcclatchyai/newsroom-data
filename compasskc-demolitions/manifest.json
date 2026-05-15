@@ -7,9 +7,9 @@
   "building_footprints_license_url": "https://opendatacommons.org/licenses/odbl/",
   "building_footprints_note": "Open building footprints may lag current conditions and can include ML-derived features.",
   "building_footprints_source": "Overture Maps",
-  "building_footprints_total": 36,
+  "building_footprints_total": 37,
   "cache_ttl_seconds": 900,
-  "data_version": "20260515203639Z",
+  "data_version": "20260515212308Z",
   "dataset": "compasskc-demolitions",
   "description": "Sanitized public GeoJSON for Kansas City CompassKC demolition permit map embeds.",
   "entrypoints": {
@@ -19,7 +19,7 @@
     "latest": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/latest.geojson"
   },
   "environment": "prod",
-  "features_total": 9,
+  "features_total": 10,
   "files": {
     "by_year": {
       "2026": "by-year/2026.geojson"
@@ -31,7 +31,7 @@
     "latest_url": "https://raw.githubusercontent.com/mcclatchyai/newsroom-data/main/compasskc-demolitions/latest.geojson"
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-15T20:36:39Z",
+  "generated_at": "2026-05-15T21:23:08Z",
   "privacy": {
     "excludes": [
       "owner",
@@ -44,9 +44,9 @@
     "public_fields_only": true
   },
   "project": "compasskc-demolitions",
-  "records_total": 9,
+  "records_total": 10,
   "schema": {
-    "geometry": "matched KCMO parcel geometry where available; optional clipped Overture building footprints in feature properties",
+    "geometry": "matched KCMO parcel polygon where available; permit geocode point fallback otherwise; optional clipped Overture building footprints in feature properties",
     "properties": [
       "record_id",
       "case_number",
@@ -61,12 +61,13 @@
       "match_status",
       "match_method",
       "geometry_source",
+      "has_parcel_polygon",
       "building_footprints",
       "detail_url"
     ]
   },
   "schema_version": 1,
   "source": "CompassKC + KCMO parcels + Overture Maps buildings",
-  "stale_after": "2026-05-15T20:51:39Z",
+  "stale_after": "2026-05-15T21:38:08Z",
   "title": "Kansas City demolition permits"
 }

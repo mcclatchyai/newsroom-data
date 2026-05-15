@@ -2334,6 +2334,125 @@
         "year": "2026"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.60845183077419,
+              39.2138901743234
+            ],
+            [
+              -94.60730289863861,
+              39.2138784710593
+            ],
+            [
+              -94.60710164366577,
+              39.214601580194525
+            ],
+            [
+              -94.6084481128687,
+              39.21460845702881
+            ],
+            [
+              -94.60845183077419,
+              39.2138901743234
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "6600 N Evans Ave Kansas City MO 64151",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.6073294,
+                      39.2142354
+                    ],
+                    [
+                      -94.6073114,
+                      39.2142327
+                    ],
+                    [
+                      -94.607324,
+                      39.2141829
+                    ],
+                    [
+                      -94.6073389,
+                      39.2141851
+                    ],
+                    [
+                      -94.6073408,
+                      39.2141777
+                    ],
+                    [
+                      -94.6074664,
+                      39.2141968
+                    ],
+                    [
+                      -94.6074499,
+                      39.2142621
+                    ],
+                    [
+                      -94.6073273,
+                      39.2142435
+                    ],
+                    [
+                      -94.6073294,
+                      39.2142354
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-15T20:56:42Z",
+                "height": 8.353421211242676,
+                "overture_id": "2d0aa94f-cbf5-42bb-8117-4583199ba2e2",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 1,
+            "fetched_at_utc": "2026-05-15T20:56:42Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CH-DM-2026-00027",
+        "category": "Demolition Review, Regular",
+        "date": "2026-05-15T01:10:41.887",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/f41973e1-4225-41bb-8304-3c291af0a0ac",
+        "external_id": "f41973e1-4225-41bb-8304-3c291af0a0ac",
+        "geometry_source": "KCMO parcels",
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_id": "164672",
+        "record_id": "case:f41973e1-4225-41bb-8304-3c291af0a0ac",
+        "record_type": "Demolition Review, Regular",
+        "status": "Submitted",
+        "year": "2026"
+      },
+      "type": "Feature"
     }
   ],
   "metadata": {
@@ -2344,15 +2463,17 @@
     "building_footprints_license": "ODbL",
     "building_footprints_license_url": "https://opendatacommons.org/licenses/odbl/",
     "building_footprints_note": "Open building footprints may lag current conditions and can include ML-derived features.",
-    "building_footprints_returned": 36,
+    "building_footprints_returned": 37,
     "building_footprints_source": "Overture Maps",
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "fe204b8df30cee3f",
-    "features_returned": 9,
-    "generated_at": "2026-05-15T20:36:39Z",
+    "etag": "2b47a3d9617b004f",
+    "features_returned": 10,
+    "generated_at": "2026-05-15T21:23:08Z",
+    "parcel_polygon_features": 10,
+    "point_fallback_features": 0,
     "project": "kc-demolitions",
-    "records_total": 9,
+    "records_total": 10,
     "source": "CompassKC + KCMO parcels + Overture Maps buildings",
     "unmatched_records": 0,
     "year": ""
