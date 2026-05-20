@@ -14,7 +14,7 @@
   "building_footprints_source": "Overture Maps",
   "building_footprints_total": 54,
   "cache_ttl_seconds": 900,
-  "data_version": "20260520175730Z",
+  "data_version": "20260520180916Z",
   "dataset": "compasskc-demolitions",
   "description": "Sanitized public GeoJSON for Kansas City CompassKC demolition permit map embeds.",
   "entrypoints": {
@@ -51,7 +51,7 @@
     "latest_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-demolitions/v1/prod/latest.geojson"
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-20T17:57:30Z",
+  "generated_at": "2026-05-20T18:09:16Z",
   "privacy": {
     "excludes": [
       "owner",
@@ -88,7 +88,7 @@
   },
   "schema_version": 1,
   "source": "CompassKC + KCMO parcels + Overture Maps buildings",
-  "stale_after": "2026-05-20T18:12:30Z",
+  "stale_after": "2026-05-20T18:24:16Z",
   "title": "Kansas City demolition permits",
   "unmapped_records": 3,
   "unmapped_records_by_reason": {
