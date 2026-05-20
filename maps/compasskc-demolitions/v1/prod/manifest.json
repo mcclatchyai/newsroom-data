@@ -12,9 +12,9 @@
   "building_footprints_license_url": "https://opendatacommons.org/licenses/odbl/",
   "building_footprints_note": "Open building footprints may lag current conditions and can include ML-derived features.",
   "building_footprints_source": "Overture Maps",
-  "building_footprints_total": 37,
+  "building_footprints_total": 54,
   "cache_ttl_seconds": 900,
-  "data_version": "20260518172012Z",
+  "data_version": "20260520175730Z",
   "dataset": "compasskc-demolitions",
   "description": "Sanitized public GeoJSON for Kansas City CompassKC demolition permit map embeds.",
   "entrypoints": {
@@ -29,7 +29,7 @@
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-demolitions/v1/prod/latest.geojson"
   },
   "environment": "prod",
-  "features_total": 1826,
+  "features_total": 1833,
   "files": {
     "by_year": {
       "2021": "by-year/2021.geojson",
@@ -51,7 +51,7 @@
     "latest_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-demolitions/v1/prod/latest.geojson"
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-18T17:20:12Z",
+  "generated_at": "2026-05-20T17:57:30Z",
   "privacy": {
     "excludes": [
       "owner",
@@ -64,7 +64,7 @@
     "public_fields_only": true
   },
   "project": "compasskc-demolitions",
-  "records_total": 1829,
+  "records_total": 1836,
   "schema": {
     "geometry": "matched KCMO parcel polygon where available; permit geocode point fallback otherwise; optional clipped Overture building footprints in feature properties",
     "properties": [
@@ -88,6 +88,11 @@
   },
   "schema_version": 1,
   "source": "CompassKC + KCMO parcels + Overture Maps buildings",
-  "stale_after": "2026-05-18T17:35:12Z",
-  "title": "Kansas City demolition permits"
+  "stale_after": "2026-05-20T18:12:30Z",
+  "title": "Kansas City demolition permits",
+  "unmapped_records": 3,
+  "unmapped_records_by_reason": {
+    "missing_public_location_data": 3
+  },
+  "unmapped_records_note": "Records without a public map feature did not have a parcel polygon or usable geocode point."
 }

@@ -107268,6 +107268,183 @@
         "coordinates": [
           [
             [
+              -94.55348113852675,
+              39.10955472653919
+            ],
+            [
+              -94.55305645899789,
+              39.10953991086878
+            ],
+            [
+              -94.55304524686865,
+              39.109744629182565
+            ],
+            [
+              -94.55346983915523,
+              39.10975896443931
+            ],
+            [
+              -94.55348113852675,
+              39.10955472653919
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "333 Olive St Kansas City MO 64124",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5533546,
+                      39.1097518
+                    ],
+                    [
+                      -94.5532576,
+                      39.1097491
+                    ],
+                    [
+                      -94.5532582,
+                      39.1097362
+                    ],
+                    [
+                      -94.553152,
+                      39.1097332
+                    ],
+                    [
+                      -94.5531564,
+                      39.1096376
+                    ],
+                    [
+                      -94.5532578,
+                      39.1096405
+                    ],
+                    [
+                      -94.5532585,
+                      39.1096254
+                    ],
+                    [
+                      -94.553375,
+                      39.1096286
+                    ],
+                    [
+                      -94.5533744,
+                      39.1096416
+                    ],
+                    [
+                      -94.5534224,
+                      39.109643
+                    ],
+                    [
+                      -94.5534178,
+                      39.1097415
+                    ],
+                    [
+                      -94.553376,
+                      39.1097404
+                    ],
+                    [
+                      -94.5533546,
+                      39.1097518
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 6.329596996307373,
+                "overture_id": "649e90ef-dd12-49b8-8a25-8551ac7a7c9b",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5531559,
+                      39.1097579
+                    ],
+                    [
+                      -94.5533823,
+                      39.1097657
+                    ],
+                    [
+                      -94.55338171140399,
+                      39.10977600043023
+                    ],
+                    [
+                      -94.55315528680322,
+                      39.10976835579116
+                    ],
+                    [
+                      -94.5531559,
+                      39.1097579
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 6.451808929443359,
+                "overture_id": "d6bbc3b3-e004-47bf-b411-25346f064ee1",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 2,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CH-DR-2026-00037",
+        "category": "Historic Preservation, Administrative Review",
+        "date": "2026-05-14T11:01:02.86",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/405b0f91-e4d1-4430-8c69-8f6b642e8618",
+        "external_id": "405b0f91-e4d1-4430-8c69-8f6b642e8618",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "333 Olive St",
+        "parcel_id": "40264",
+        "record_id": "case:405b0f91-e4d1-4430-8c69-8f6b642e8618",
+        "record_type": "Historic Preservation, Administrative Review",
+        "status": "Approved",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -94.60845183077419,
               39.2138901743234
             ],
@@ -107381,6 +107558,1099 @@
         "year": "2026"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59091067660427,
+              39.0498888224771
+            ],
+            [
+              -94.59063911770126,
+              39.049879286569
+            ],
+            [
+              -94.59066846355984,
+              39.05008695412426
+            ],
+            [
+              -94.59089961472019,
+              39.0500948271327
+            ],
+            [
+              -94.59091067660427,
+              39.0498888224771
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "4222 Wornall Rd Kansas City MO 64111",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5906504,
+                      39.0498873
+                    ],
+                    [
+                      -94.5908555,
+                      39.049889
+                    ],
+                    [
+                      -94.5908501,
+                      39.0499623
+                    ],
+                    [
+                      -94.5906471,
+                      39.0499589
+                    ],
+                    [
+                      -94.5906504,
+                      39.0498873
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "53d0a8bc-f0a4-4086-bb7c-8f8e87940316",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5908465,
+                      39.050001
+                    ],
+                    [
+                      -94.5908485,
+                      39.0499799
+                    ],
+                    [
+                      -94.5908918,
+                      39.0499825
+                    ],
+                    [
+                      -94.5908898,
+                      39.0500035
+                    ],
+                    [
+                      -94.5908465,
+                      39.050001
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "shed",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "053be23f-d931-4373-8f4a-b83823ca13b3",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "outbuilding"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5908732,
+                      39.0499255
+                    ],
+                    [
+                      -94.5908755,
+                      39.0498976
+                    ],
+                    [
+                      -94.590904,
+                      39.049899
+                    ],
+                    [
+                      -94.5909017,
+                      39.0499269
+                    ],
+                    [
+                      -94.5908732,
+                      39.0499255
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "shed",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "23d35b30-27bd-4342-842d-75101be6c9cf",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "outbuilding"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 3,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CH-DM-2026-00028",
+        "category": "Demolition Review, Administrative",
+        "date": "2026-05-18T08:06:22",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/db43ddae-9b25-4ea5-b167-0019dfc14164",
+        "external_id": "db43ddae-9b25-4ea5-b167-0019dfc14164",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "4222 Wornall Rd",
+        "parcel_id": "132819",
+        "record_id": "case:db43ddae-9b25-4ea5-b167-0019dfc14164",
+        "record_type": "Demolition Review, Administrative",
+        "status": "Submitted",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.55536854533773,
+              39.06360828060042
+            ],
+            [
+              -94.555377912245,
+              39.063425206017044
+            ],
+            [
+              -94.5549061689886,
+              39.06341019100082
+            ],
+            [
+              -94.55489680084662,
+              39.0635932420948
+            ],
+            [
+              -94.55536854533773,
+              39.06360828060042
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "3429 Olive St Kansas City MO 64109",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.555135,
+                      39.0634279
+                    ],
+                    [
+                      -94.5553174,
+                      39.0634325
+                    ],
+                    [
+                      -94.5553147,
+                      39.0634976
+                    ],
+                    [
+                      -94.5551323,
+                      39.063493
+                    ],
+                    [
+                      -94.555135,
+                      39.0634279
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "ef505edc-d328-4519-b553-1a85c4dac20c",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5552466,
+                      39.0635072
+                    ],
+                    [
+                      -94.5553217,
+                      39.0635084
+                    ],
+                    [
+                      -94.5553205,
+                      39.0635573
+                    ],
+                    [
+                      -94.5552454,
+                      39.0635562
+                    ],
+                    [
+                      -94.5552466,
+                      39.0635072
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "ac01b841-b997-4f65-9f73-103f1584255e",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5551005,
+                      39.0636091
+                    ],
+                    [
+                      -94.5553116,
+                      39.0636161
+                    ],
+                    [
+                      -94.55531102711456,
+                      39.06362645716569
+                    ],
+                    [
+                      -94.55509991303444,
+                      39.06361972716599
+                    ],
+                    [
+                      -94.5551005,
+                      39.0636091
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 2.864711046218872,
+                "overture_id": "7c4aface-1901-40f1-b490-ebad8ea5ab50",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5549014,
+                      39.0635556
+                    ],
+                    [
+                      -94.55489827728151,
+                      39.06361329932113
+                    ],
+                    [
+                      -94.55489616360039,
+                      39.06361323194015
+                    ],
+                    [
+                      -94.55489418344486,
+                      39.06361307008532
+                    ],
+                    [
+                      -94.55489222911794,
+                      39.063612712567235
+                    ],
+                    [
+                      -94.554890319905,
+                      39.063612162913905
+                    ],
+                    [
+                      -94.55488847464618,
+                      39.063611426549315
+                    ],
+                    [
+                      -94.55488671155058,
+                      39.06361051073995
+                    ],
+                    [
+                      -94.55488504801649,
+                      39.06360942452304
+                    ],
+                    [
+                      -94.55488350045968,
+                      39.0636081786174
+                    ],
+                    [
+                      -94.55488208415154,
+                      39.063606785317674
+                    ],
+                    [
+                      -94.55488081306821,
+                      39.063605258372995
+                    ],
+                    [
+                      -94.5548796997528,
+                      39.06360361285129
+                    ],
+                    [
+                      -94.55487875519154,
+                      39.06360186499062
+                    ],
+                    [
+                      -94.55487798870537,
+                      39.06360003203895
+                    ],
+                    [
+                      -94.55487740785803,
+                      39.06359813208388
+                    ],
+                    [
+                      -94.55487701838132,
+                      39.06359618387425
+                    ],
+                    [
+                      -94.55487682411861,
+                      39.063594206635045
+                    ],
+                    [
+                      -94.5548768269869,
+                      39.06359221987772
+                    ],
+                    [
+                      -94.55487873923762,
+                      39.06355485498864
+                    ],
+                    [
+                      -94.5549014,
+                      39.0635556
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 5.136584281921387,
+                "overture_id": "2a63f9fd-bd7f-41f7-924e-6921869afab0",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5553614,
+                      39.0634121
+                    ],
+                    [
+                      -94.5552276,
+                      39.0634096
+                    ],
+                    [
+                      -94.55522787736737,
+                      39.06340042046054
+                    ],
+                    [
+                      -94.55536162541217,
+                      39.06340467749874
+                    ],
+                    [
+                      -94.5553614,
+                      39.0634121
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 4.255599498748779,
+                "overture_id": "f7cccecb-6839-4450-9b33-1d53b37e5d35",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 5,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CPDR-2026-00118",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-19T08:22:43.573",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/82d23da3-c968-44b5-ab15-7528e90ec69a",
+        "external_id": "82d23da3-c968-44b5-ab15-7528e90ec69a",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "3429 Olive St",
+        "parcel_id": "260786",
+        "record_id": "case:82d23da3-c968-44b5-ab15-7528e90ec69a",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Pending",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.58746390245143,
+              38.97943195249348
+            ],
+            [
+              -94.58713717653218,
+              38.979419452112
+            ],
+            [
+              -94.58712812886967,
+              38.97959610086997
+            ],
+            [
+              -94.58745473915792,
+              38.97960867000622
+            ],
+            [
+              -94.58746390245143,
+              38.97943195249348
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "210 E 82nd St Kansas City MO 64114",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5872141,
+                      38.9794589
+                    ],
+                    [
+                      -94.5874281,
+                      38.979465
+                    ],
+                    [
+                      -94.5874244,
+                      38.9795436
+                    ],
+                    [
+                      -94.5872104,
+                      38.9795375
+                    ],
+                    [
+                      -94.5872141,
+                      38.9794589
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "8d92a01b-e189-466a-8713-ae053193d217",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 1,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CPDR-2026-00117",
+        "category": "Interior Demolition - Residential",
+        "date": "2026-05-19T09:00:04.127",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/fc4925f1-b95b-4a27-b61b-5c9d1be8fe53",
+        "external_id": "fc4925f1-b95b-4a27-b61b-5c9d1be8fe53",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "210 E 82nd St",
+        "parcel_id": "119121",
+        "record_id": "case:fc4925f1-b95b-4a27-b61b-5c9d1be8fe53",
+        "record_type": "Interior Demolition - Residential",
+        "status": "Issued",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.60052113860803,
+              39.047228308471254
+            ],
+            [
+              -94.60007143983013,
+              39.04721180906655
+            ],
+            [
+              -94.60006379829221,
+              39.04734907810688
+            ],
+            [
+              -94.6005134246139,
+              39.04736559991157
+            ],
+            [
+              -94.60052113860803,
+              39.047228308471254
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "4423 Holly St Unit: A, B, C, D Kansas City MO 64111",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.6003114,
+                      39.0473362
+                    ],
+                    [
+                      -94.6003145,
+                      39.0472805
+                    ],
+                    [
+                      -94.6003282,
+                      39.047281
+                    ],
+                    [
+                      -94.6003317,
+                      39.0472191
+                    ],
+                    [
+                      -94.6003647,
+                      39.0472202
+                    ],
+                    [
+                      -94.6003655,
+                      39.0472054
+                    ],
+                    [
+                      -94.6004648,
+                      39.0472088
+                    ],
+                    [
+                      -94.6004574,
+                      39.0473411
+                    ],
+                    [
+                      -94.6003114,
+                      39.0473362
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 10.707964897155762,
+                "overture_id": "20547307-34e3-473e-b19d-22b532c914ca",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.6002571,
+                      39.0473736
+                    ],
+                    [
+                      -94.6002754,
+                      39.0473742
+                    ],
+                    [
+                      -94.6002765,
+                      39.0473551
+                    ],
+                    [
+                      -94.6004528,
+                      39.0473613
+                    ],
+                    [
+                      -94.60045154385917,
+                      39.04738333956181
+                    ],
+                    [
+                      -94.60025694897213,
+                      39.047376189049125
+                    ],
+                    [
+                      -94.6002571,
+                      39.0473736
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 9.228642463684082,
+                "overture_id": "8017a1cb-e8a6-49bc-94ae-93cb717cb0a8",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.6000586,
+                      39.0473351
+                    ],
+                    [
+                      -94.6001196,
+                      39.0473365
+                    ],
+                    [
+                      -94.60011827963525,
+                      39.047371093556286
+                    ],
+                    [
+                      -94.60006306387517,
+                      39.047369064618124
+                    ],
+                    [
+                      -94.60006108500495,
+                      39.047368893203966
+                    ],
+                    [
+                      -94.60005913289665,
+                      39.047368526348045
+                    ],
+                    [
+                      -94.60005734419556,
+                      39.04736800207634
+                    ],
+                    [
+                      -94.6000586,
+                      39.0473351
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "a9a57c98-6df0-4dde-b41c-26840afcb177",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 3,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CPDR-2026-00119",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-19T15:23:44.917",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/29337f13-76a3-432c-909a-120cc0d04199",
+        "external_id": "29337f13-76a3-432c-909a-120cc0d04199",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "4423 Holly St A, B, C, D",
+        "parcel_id": "140633",
+        "record_id": "case:29337f13-76a3-432c-909a-120cc0d04199",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Pending",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.59170481327135,
+              39.05974200521253
+            ],
+            [
+              -94.59077019620476,
+              39.05971278590986
+            ],
+            [
+              -94.59074921908345,
+              39.06006178089623
+            ],
+            [
+              -94.59128715126526,
+              39.06008184916181
+            ],
+            [
+              -94.591289848309,
+              39.06002485029334
+            ],
+            [
+              -94.59168643625695,
+              39.06003913716786
+            ],
+            [
+              -94.59170481327135,
+              39.05974200521253
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "3736 Broadway Blvd Kansas City MO 64111",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5907739,
+                      39.0597152
+                    ],
+                    [
+                      -94.5910499,
+                      39.0597242
+                    ],
+                    [
+                      -94.5913145,
+                      39.0597327
+                    ],
+                    [
+                      -94.5913056,
+                      39.0598993
+                    ],
+                    [
+                      -94.5907649,
+                      39.0598818
+                    ],
+                    [
+                      -94.5907739,
+                      39.0597152
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 4.185282230377197,
+                "overture_id": "95b49379-1ca1-4bec-a9f0-6726eec0a941",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0"
+              },
+              "type": "Feature"
+            },
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.5910499,
+                      39.0597242
+                    ],
+                    [
+                      -94.5907739,
+                      39.0597152
+                    ],
+                    [
+                      -94.59077492469753,
+                      39.059692923966985
+                    ],
+                    [
+                      -94.59105125821455,
+                      39.05970156309092
+                    ],
+                    [
+                      -94.5910499,
+                      39.0597242
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "overture_id": "6ccc3ade-5216-45df-ae4f-0da2ba4efcb0",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "commercial"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 2,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CPDR-2026-00120",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-19T15:25:30.507",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/1d96aad7-dbc8-4dd3-80b1-62aa2dfb47e9",
+        "external_id": "1d96aad7-dbc8-4dd3-80b1-62aa2dfb47e9",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "3736 Broadway Blvd",
+        "parcel_id": "129911",
+        "record_id": "case:1d96aad7-dbc8-4dd3-80b1-62aa2dfb47e9",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Pending",
+        "year": "2026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.60845183077419,
+              39.2138901743234
+            ],
+            [
+              -94.60730289863861,
+              39.2138784710593
+            ],
+            [
+              -94.60710164366577,
+              39.214601580194525
+            ],
+            [
+              -94.6084481128687,
+              39.21460845702881
+            ],
+            [
+              -94.60845183077419,
+              39.2138901743234
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "6600 N Evans Ave Kansas City MO 64151",
+        "building_footprints": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      -94.6073294,
+                      39.2142354
+                    ],
+                    [
+                      -94.6073114,
+                      39.2142327
+                    ],
+                    [
+                      -94.607324,
+                      39.2141829
+                    ],
+                    [
+                      -94.6073389,
+                      39.2141851
+                    ],
+                    [
+                      -94.6073408,
+                      39.2141777
+                    ],
+                    [
+                      -94.6074664,
+                      39.2141968
+                    ],
+                    [
+                      -94.6074499,
+                      39.2142621
+                    ],
+                    [
+                      -94.6073273,
+                      39.2142435
+                    ],
+                    [
+                      -94.6073294,
+                      39.2142354
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+                "class": "detached",
+                "fetched_at_utc": "2026-05-19T20:34:06Z",
+                "height": 8.353421211242676,
+                "overture_id": "2d0aa94f-cbf5-42bb-8117-4583199ba2e2",
+                "source": "Overture Maps",
+                "source_release": "2026-04-15.0",
+                "subtype": "residential"
+              },
+              "type": "Feature"
+            }
+          ],
+          "metadata": {
+            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
+            "feature_count": 1,
+            "fetched_at_utc": "2026-05-19T20:34:06Z",
+            "license": "ODbL",
+            "license_url": "https://opendatacommons.org/licenses/odbl/",
+            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
+            "release": "2026-04-15.0",
+            "release_date": "2026-04-15",
+            "source": "Overture Maps",
+            "source_url": "https://docs.overturemaps.org/guides/buildings/"
+          },
+          "type": "FeatureCollection"
+        },
+        "case_number": "CPDR-2026-00121",
+        "category": "Complete Building or Structure Demolition - Residential",
+        "date": "2026-05-19T15:29:12.353",
+        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/53528e52-8988-47fa-94a9-10d8742b0fd4",
+        "external_id": "53528e52-8988-47fa-94a9-10d8742b0fd4",
+        "geometry_source": "KCMO parcels",
+        "has_parcel_polygon": true,
+        "match_method": "parcel_id",
+        "match_status": "matched",
+        "parcel_address": "6600 N Evans Ave",
+        "parcel_id": "164672",
+        "record_id": "case:53528e52-8988-47fa-94a9-10d8742b0fd4",
+        "record_type": "Complete Building or Structure Demolition - Residential",
+        "status": "Pending",
+        "year": "2026"
+      },
+      "type": "Feature"
     }
   ],
   "metadata": {
@@ -107396,18 +108666,23 @@
     "building_footprints_license": "ODbL",
     "building_footprints_license_url": "https://opendatacommons.org/licenses/odbl/",
     "building_footprints_note": "Open building footprints may lag current conditions and can include ML-derived features.",
-    "building_footprints_returned": 37,
+    "building_footprints_returned": 54,
     "building_footprints_source": "Overture Maps",
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "fd1f0a4fdd42d450",
-    "features_returned": 1826,
-    "generated_at": "2026-05-18T17:20:12Z",
-    "parcel_polygon_features": 1821,
+    "etag": "71325e5f330774f1",
+    "features_returned": 1833,
+    "generated_at": "2026-05-20T17:57:18Z",
+    "parcel_polygon_features": 1828,
     "point_fallback_features": 5,
     "project": "kc-demolitions",
-    "records_total": 1829,
+    "records_total": 1836,
     "source": "CompassKC + KCMO parcels + Overture Maps buildings",
+    "unmapped_records": 3,
+    "unmapped_records_by_reason": {
+      "missing_public_location_data": 3
+    },
+    "unmapped_records_note": "Records without a public map feature did not have a parcel polygon or usable geocode point.",
     "unmatched_records": 8,
     "year": ""
   },

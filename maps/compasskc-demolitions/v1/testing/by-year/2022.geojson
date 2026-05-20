@@ -16186,12 +16186,17 @@
     "error_records": 0,
     "etag": "6c7a3815437d8ba9",
     "features_returned": 277,
-    "generated_at": "2026-05-18T17:20:16Z",
+    "generated_at": "2026-05-20T17:57:21Z",
     "parcel_polygon_features": 277,
     "point_fallback_features": 0,
     "project": "kc-demolitions",
-    "records_total": 1829,
+    "records_total": 1836,
     "source": "CompassKC + KCMO parcels",
+    "unmapped_records": 1559,
+    "unmapped_records_by_reason": {
+      "missing_public_location_data": 3
+    },
+    "unmapped_records_note": "Records without a public map feature did not have a parcel polygon or usable geocode point.",
     "unmatched_records": 3,
     "year": "2022"
   },
