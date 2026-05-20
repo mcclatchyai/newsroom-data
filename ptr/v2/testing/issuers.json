@@ -1,0 +1,72 @@
+{
+  "issuers": [
+    {
+      "issuer_name": "Apple Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AAPL.json",
+      "ticker": "AAPL",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Amazon.com, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AMZN.json",
+      "ticker": "AMZN",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Berkshire Hathaway Inc. New Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/BRK.B.json",
+      "ticker": "BRK.B",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "State Street SPDR Dow Jones Indust Avg ETF Trust",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/DIA.json",
+      "ticker": "DIA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "PayPal Holdings, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PYPL.json",
+      "ticker": "PYPL",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Invesco QQQ",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/QQQ.json",
+      "ticker": "QQQ",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "SPDR S&P 500 Buyback ETF",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SPYB.json",
+      "ticker": "SPYB",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "AT&T Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/T.json",
+      "ticker": "T",
+      "trade_count": 1
+    }
+  ],
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260520T165532Z",
+    "environment": "testing",
+    "generated_at": "2026-05-20T16:55:32Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-20T17:10:32Z"
+  }
+}

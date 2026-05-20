@@ -1,0 +1,51 @@
+{
+  "filings": [
+    {
+      "action_counts": {
+        "S (partial)": 8
+      },
+      "action_counts_json": "{\"S (partial)\": 8}",
+      "disclosure_lag_days": 15,
+      "district": "MO04",
+      "estimated_max_total": 120000,
+      "estimated_min_total": 8008,
+      "filing_date": "3/31/2026",
+      "filing_id": "20034201",
+      "filing_type": "P",
+      "ingested_at": "2026-05-14T17:08:16Z",
+      "member_name": "Hon. Mark Alford",
+      "pdf_sha256": "",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf",
+      "possible_late": false,
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "state": "MO",
+      "tickers": [
+        "AMZN",
+        "AAPL",
+        "T",
+        "BRK.B",
+        "DIA",
+        "QQQ",
+        "PYPL",
+        "SPYB"
+      ],
+      "tickers_json": "[\"AMZN\", \"AAPL\", \"T\", \"BRK.B\", \"DIA\", \"QQQ\", \"PYPL\", \"SPYB\"]",
+      "transaction_count": 8,
+      "transaction_date_max": "2026-03-16",
+      "transaction_date_min": "2026-03-16"
+    }
+  ],
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260520T165532Z",
+    "environment": "testing",
+    "generated_at": "2026-05-20T16:55:32Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-20T17:10:32Z"
+  }
+}

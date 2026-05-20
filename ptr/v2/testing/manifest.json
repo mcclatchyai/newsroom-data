@@ -1,0 +1,67 @@
+{
+  "asset_type": "ptr_public_bundle",
+  "counts": {
+    "filings": 1,
+    "issuers": 8,
+    "members": 1,
+    "states": 1,
+    "trade_table_rows": 8,
+    "trades": 8,
+    "transactions": 8
+  },
+  "entrypoints": {
+    "filings": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
+    "issuers": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
+    "members": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
+    "trade_table": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json",
+    "trades": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trades.json",
+    "transactions": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/transactions.json"
+  },
+  "files": {
+    "context_packets.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
+    "filing/20/03/20034201.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json",
+    "filings.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
+    "issuer/AAPL.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AAPL.json",
+    "issuer/AMZN.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AMZN.json",
+    "issuer/BRK.B.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/BRK.B.json",
+    "issuer/DIA.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/DIA.json",
+    "issuer/PYPL.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PYPL.json",
+    "issuer/QQQ.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/QQQ.json",
+    "issuer/SPYB.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SPYB.json",
+    "issuer/T.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/T.json",
+    "issuers.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
+    "member/mark_alford-mo-mo04.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/mark_alford-mo-mo04.json",
+    "members.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
+    "state/MO.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/MO.json",
+    "trade/01/d6/01d6ce116451a534.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/01/d6/01d6ce116451a534.json",
+    "trade/06/ce/06ce81c58915287e.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/06/ce/06ce81c58915287e.json",
+    "trade/0b/80/0b80fdac4bb7abae.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/0b/80/0b80fdac4bb7abae.json",
+    "trade/38/f7/38f79ea55becc013.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/38/f7/38f79ea55becc013.json",
+    "trade/89/28/8928af11973972cd.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/89/28/8928af11973972cd.json",
+    "trade/9a/94/9a944934e4a2b756.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/9a/94/9a944934e4a2b756.json",
+    "trade/ae/dc/aedcddc1470a706a.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ae/dc/aedcddc1470a706a.json",
+    "trade/f1/25/f1256f4fe599537c.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/f1/25/f1256f4fe599537c.json",
+    "trade_table.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json",
+    "trades.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trades.json",
+    "transactions.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/transactions.json"
+  },
+  "path_strategy": "sharded-v1",
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260520T165532Z",
+    "environment": "testing",
+    "generated_at": "2026-05-20T16:55:32Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-20T17:10:32Z"
+  },
+  "publication_guardrails": [
+    "PTR values are ranges, not exact amounts.",
+    "Market movement is context only and does not establish motive, intent, profit, wrongdoing, or use of nonpublic information.",
+    "This bundle is sanitized for public embeds and contains no API keys or internal local paths.",
+    "Market publication mode: strip."
+  ]
+}
