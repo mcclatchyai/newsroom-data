@@ -67,7 +67,7 @@ def _feature_sort_key(feature: dict[str, Any]) -> tuple[str, str, str]:
     props = feature.get("properties") if isinstance(feature.get("properties"), dict) else {}
     return (
         _norm(props.get("year")),
-        _norm(props.get("date")),
+        _norm(props.get("activity_date") or props.get("date")),
         _norm(props.get("case_number") or props.get("record_id")),
     )
 
@@ -82,6 +82,28 @@ def _sorted_geojson(geojson: dict[str, Any]) -> dict[str, Any]:
     metadata = normalized.get("metadata") if isinstance(normalized.get("metadata"), dict) else {}
     normalized["metadata"] = dict(metadata)
     return normalized
+
+
+def _without_building_footprints(geojson: dict[str, Any]) -> dict[str, Any]:
+    stripped = dict(geojson)
+    stripped_features: list[dict[str, Any]] = []
+    for feature in geojson.get("features") or []:
+        if not isinstance(feature, dict):
+            continue
+        clean_feature = dict(feature)
+        props = clean_feature.get("properties") if isinstance(clean_feature.get("properties"), dict) else {}
+        clean_props = dict(props)
+        clean_props.pop("building_footprints", None)
+        clean_feature["properties"] = clean_props
+        stripped_features.append(clean_feature)
+    metadata = stripped.get("metadata") if isinstance(stripped.get("metadata"), dict) else {}
+    stripped["metadata"] = {
+        **metadata,
+        "building_footprints_returned": 0,
+        "building_footprints_omitted_from_latest": True,
+    }
+    stripped["features"] = stripped_features
+    return stripped
 
 
 def _available_years(geojson: dict[str, Any]) -> list[str]:
@@ -128,13 +150,14 @@ def _manifest(
     latest_geojson: dict[str, Any],
     year_files: dict[str, str],
     public_base_url: str,
+    building_footprints_total: int,
 ) -> dict[str, Any]:
     metadata = latest_geojson.get("metadata") if isinstance(latest_geojson.get("metadata"), dict) else {}
     generated_at = _norm(metadata.get("generated_at")) or _utc_now()
     base = public_base_url.rstrip("/")
     latest_features = latest_geojson.get("features") if isinstance(latest_geojson.get("features"), list) else []
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "project": DATASET_SLUG,
         "environment": environment,
         "dataset": DATASET_SLUG,
@@ -159,12 +182,17 @@ def _manifest(
         "available_years": sorted(year_files),
         "records_total": metadata.get("records_total", ""),
         "features_total": len(latest_features),
-        "building_footprints_total": metadata.get("building_footprints_returned", _building_footprint_count(latest_features)),
+        "unmapped_records": metadata.get("unmapped_records", 0),
+        "unmapped_records_by_reason": metadata.get("unmapped_records_by_reason", {}),
+        "unmapped_records_note": metadata.get("unmapped_records_note", ""),
+        "building_footprints_total": building_footprints_total,
         "building_footprints_source": metadata.get("building_footprints_source", ""),
         "building_footprints_license": metadata.get("building_footprints_license", ""),
         "building_footprints_license_url": metadata.get("building_footprints_license_url", ""),
         "building_footprints_attribution": metadata.get("building_footprints_attribution", ""),
         "building_footprints_note": metadata.get("building_footprints_note", ""),
+        "building_footprints_scope": "by_year_files",
+        "latest_omits_building_footprints": True,
         "privacy": {
             "public_fields_only": True,
             "excludes": [
@@ -186,6 +214,19 @@ def _manifest(
                 "record_type",
                 "category",
                 "date",
+                "activity_date",
+                "activity_date_label",
+                "activity_date_basis",
+                "activity_stage",
+                "timing_note",
+                "apply_date",
+                "issue_date",
+                "final_date",
+                "complete_date",
+                "expiration_date",
+                "scheduled_inspection_date",
+                "scheduled_demolition_date",
+                "story_angles",
                 "year",
                 "address",
                 "parcel_id",
@@ -216,16 +257,20 @@ def _write_bundle(
     output_dir.mkdir(parents=True, exist_ok=True)
     shutil.rmtree(output_dir / "by-year", ignore_errors=True)
     year_files: dict[str, str] = {}
-    _json_write(output_dir / "latest.geojson", latest_geojson)
+    _json_write(output_dir / "latest.geojson", _without_building_footprints(latest_geojson))
+    building_footprints_total = 0
     for year, geojson in sorted(year_geojsons.items()):
+        features = geojson.get("features") if isinstance(geojson.get("features"), list) else []
+        building_footprints_total += _building_footprint_count(features)
         rel_path = f"by-year/{year}.geojson"
         _json_write(output_dir / rel_path, geojson)
         year_files[year] = rel_path
     manifest = _manifest(
         environment=environment,
-        latest_geojson=latest_geojson,
+        latest_geojson=_without_building_footprints(latest_geojson),
         year_files=year_files,
         public_base_url=public_base_url,
+        building_footprints_total=building_footprints_total,
     )
     _json_write(output_dir / "manifest.json", manifest)
     return manifest
