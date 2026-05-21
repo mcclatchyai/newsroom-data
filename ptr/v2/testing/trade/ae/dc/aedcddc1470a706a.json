@@ -204,16 +204,19 @@
         "ticker": "T"
       },
       "market_context": {
-        "message": "Market chart and price movement withheld pending publication license.",
-        "publication_license_status": "not_confirmed_internal_only",
-        "publication_ready": false,
-        "reason": "Market chart and price movement withheld pending publication license.",
-        "source": "",
-        "status": "pending",
-        "withheld": true
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
       },
-      "market_data_notice": "Market chart and price movement withheld pending publication license.",
-      "market_data_withheld": true,
       "member": {
         "bioguide_id": "",
         "district": "MO04",
@@ -523,27 +526,31 @@
     "transaction_date_min": "2026-03-16"
   },
   "market_context": {
-    "message": "Market chart and price movement withheld pending publication license.",
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
     "publication_license_status": "not_confirmed_internal_only",
     "publication_ready": false,
-    "reason": "Market chart and price movement withheld pending publication license.",
+    "reason": "provider_error: Finazon request failed for T: status=403",
+    "retrieved_at": "2026-05-14T17:10:58Z",
     "source": "finazon_us_stocks_essential",
     "status": "unavailable",
-    "withheld": true
+    "ticker": "T"
   },
-  "market_data_notice": "Market chart and price movement withheld pending publication license.",
-  "market_data_withheld": true,
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "ptr-v2-testing-20260520-public-previews",
+    "data_version": "ptr-v2-testing-20260521-market-visible",
     "environment": "testing",
-    "generated_at": "2026-05-21T00:51:37Z",
+    "generated_at": "2026-05-21T16:07:09Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ae/dc/aedcddc1470a706a.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-21T01:06:37Z"
+    "stale_after": "2026-05-21T16:22:09Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json",

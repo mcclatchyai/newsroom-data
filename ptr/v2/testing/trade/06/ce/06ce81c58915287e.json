@@ -105,16 +105,19 @@
         "ticker": "AAPL"
       },
       "market_context": {
-        "message": "Market chart and price movement withheld pending publication license.",
-        "publication_license_status": "not_confirmed_internal_only",
-        "publication_ready": false,
-        "reason": "Market chart and price movement withheld pending publication license.",
-        "source": "",
-        "status": "pending",
-        "withheld": true
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
       },
-      "market_data_notice": "Market chart and price movement withheld pending publication license.",
-      "market_data_withheld": true,
       "member": {
         "bioguide_id": "",
         "district": "MO04",
@@ -325,27 +328,401 @@
     "transaction_date_min": "2026-03-16"
   },
   "market_context": {
-    "message": "Market chart and price movement withheld pending publication license.",
+    "adjusted_price_mode": "adjust=all",
+    "benchmark": {
+      "reason": "provider_error: Finazon request failed for SPY: status=403",
+      "status": "unavailable",
+      "symbol": "SPY"
+    },
+    "benchmark_symbol": "SPY",
+    "caveats": [
+      "Market movement is context, not evidence of motive or profit.",
+      "PTR values are ranges, not exact transaction values."
+    ],
+    "chart": {
+      "markers": [
+        {
+          "adjustment_days": 0,
+          "close": 252.7,
+          "kind": "transaction",
+          "label": "Traded",
+          "price_date": "2026-03-16",
+          "requested_date": "2026-03-16"
+        },
+        {
+          "adjustment_days": 0,
+          "close": 254.0,
+          "kind": "filing",
+          "label": "Filed",
+          "price_date": "2026-03-31",
+          "requested_date": "2026-03-31"
+        },
+        {
+          "close": 297.5,
+          "kind": "latest",
+          "label": "Latest",
+          "price_date": "2026-05-14"
+        }
+      ],
+      "series": [
+        {
+          "close": 260.0,
+          "date": "2026-01-30"
+        },
+        {
+          "close": 269.0,
+          "date": "2026-02-02"
+        },
+        {
+          "close": 270.0,
+          "date": "2026-02-03"
+        },
+        {
+          "close": 275.0,
+          "date": "2026-02-04"
+        },
+        {
+          "close": 274.0,
+          "date": "2026-02-05"
+        },
+        {
+          "close": 277.0,
+          "date": "2026-02-06"
+        },
+        {
+          "close": 274.0,
+          "date": "2026-02-09"
+        },
+        {
+          "close": 275.0,
+          "date": "2026-02-10"
+        },
+        {
+          "close": 275.78,
+          "date": "2026-02-11"
+        },
+        {
+          "close": 261.0,
+          "date": "2026-02-12"
+        },
+        {
+          "close": 255.0,
+          "date": "2026-02-13"
+        },
+        {
+          "close": 264.0,
+          "date": "2026-02-17"
+        },
+        {
+          "close": 263.0,
+          "date": "2026-02-18"
+        },
+        {
+          "close": 261.0,
+          "date": "2026-02-19"
+        },
+        {
+          "close": 264.0,
+          "date": "2026-02-20"
+        },
+        {
+          "close": 264.56,
+          "date": "2026-02-21"
+        },
+        {
+          "close": 267.0,
+          "date": "2026-02-23"
+        },
+        {
+          "close": 272.0,
+          "date": "2026-02-24"
+        },
+        {
+          "close": 274.14,
+          "date": "2026-02-25"
+        },
+        {
+          "close": 272.0,
+          "date": "2026-02-26"
+        },
+        {
+          "close": 263.0,
+          "date": "2026-02-27"
+        },
+        {
+          "close": 264.0,
+          "date": "2026-03-02"
+        },
+        {
+          "close": 264.0,
+          "date": "2026-03-03"
+        },
+        {
+          "close": 263.0,
+          "date": "2026-03-04"
+        },
+        {
+          "close": 260.0,
+          "date": "2026-03-05"
+        },
+        {
+          "close": 257.0,
+          "date": "2026-03-06"
+        },
+        {
+          "close": 259.0,
+          "date": "2026-03-09"
+        },
+        {
+          "close": 260.91,
+          "date": "2026-03-10"
+        },
+        {
+          "close": 259.0,
+          "date": "2026-03-11"
+        },
+        {
+          "close": 256.0,
+          "date": "2026-03-12"
+        },
+        {
+          "close": 249.9,
+          "date": "2026-03-13"
+        },
+        {
+          "close": 252.7,
+          "date": "2026-03-16"
+        },
+        {
+          "close": 254.11,
+          "date": "2026-03-17"
+        },
+        {
+          "close": 250.0,
+          "date": "2026-03-18"
+        },
+        {
+          "close": 249.78,
+          "date": "2026-03-19"
+        },
+        {
+          "close": 250.0,
+          "date": "2026-03-20"
+        },
+        {
+          "close": 248.96,
+          "date": "2026-03-21"
+        },
+        {
+          "close": 252.0,
+          "date": "2026-03-23"
+        },
+        {
+          "close": 253.0,
+          "date": "2026-03-24"
+        },
+        {
+          "close": 252.8,
+          "date": "2026-03-25"
+        },
+        {
+          "close": 254.0,
+          "date": "2026-03-26"
+        },
+        {
+          "close": 247.31,
+          "date": "2026-03-27"
+        },
+        {
+          "close": 245.5,
+          "date": "2026-03-30"
+        },
+        {
+          "close": 254.0,
+          "date": "2026-03-31"
+        },
+        {
+          "close": 255.0,
+          "date": "2026-04-01"
+        },
+        {
+          "close": 255.4,
+          "date": "2026-04-02"
+        },
+        {
+          "close": 258.0,
+          "date": "2026-04-06"
+        },
+        {
+          "close": 259.0,
+          "date": "2026-04-07"
+        },
+        {
+          "close": 258.63,
+          "date": "2026-04-08"
+        },
+        {
+          "close": 260.0,
+          "date": "2026-04-09"
+        },
+        {
+          "close": 261.0,
+          "date": "2026-04-10"
+        },
+        {
+          "close": 259.0,
+          "date": "2026-04-13"
+        },
+        {
+          "close": 259.0,
+          "date": "2026-04-14"
+        },
+        {
+          "close": 267.0,
+          "date": "2026-04-15"
+        },
+        {
+          "close": 264.0,
+          "date": "2026-04-16"
+        },
+        {
+          "close": 271.0,
+          "date": "2026-04-17"
+        },
+        {
+          "close": 269.84,
+          "date": "2026-04-18"
+        },
+        {
+          "close": 272.0,
+          "date": "2026-04-20"
+        },
+        {
+          "close": 267.5,
+          "date": "2026-04-21"
+        },
+        {
+          "close": 273.0,
+          "date": "2026-04-22"
+        },
+        {
+          "close": 272.0,
+          "date": "2026-04-23"
+        },
+        {
+          "close": 271.0,
+          "date": "2026-04-24"
+        },
+        {
+          "close": 271.04,
+          "date": "2026-04-25"
+        },
+        {
+          "close": 268.0,
+          "date": "2026-04-27"
+        },
+        {
+          "close": 270.0,
+          "date": "2026-04-28"
+        },
+        {
+          "close": 270.0,
+          "date": "2026-04-29"
+        },
+        {
+          "close": 277.0,
+          "date": "2026-04-30"
+        },
+        {
+          "close": 280.0,
+          "date": "2026-05-01"
+        },
+        {
+          "close": 276.41,
+          "date": "2026-05-04"
+        },
+        {
+          "close": 283.0,
+          "date": "2026-05-05"
+        },
+        {
+          "close": 288.0,
+          "date": "2026-05-06"
+        },
+        {
+          "close": 288.0,
+          "date": "2026-05-07"
+        },
+        {
+          "close": 294.0,
+          "date": "2026-05-08"
+        },
+        {
+          "close": 292.63,
+          "date": "2026-05-11"
+        },
+        {
+          "close": 294.0,
+          "date": "2026-05-12"
+        },
+        {
+          "close": 298.0,
+          "date": "2026-05-13"
+        },
+        {
+          "close": 297.5,
+          "date": "2026-05-14"
+        }
+      ]
+    },
+    "latest_available_price": {
+      "close": 297.5,
+      "price_date": "2026-05-14"
+    },
+    "latest_price": {
+      "close": 297.5,
+      "price_date": "2026-05-14"
+    },
+    "pct_change_trade_to_filing": 0.5144,
+    "pct_change_trade_to_latest": 17.7285,
+    "percent_change_trade_to_filing": 0.5144,
+    "percent_change_trade_to_latest": 17.7285,
+    "price_on_filing_date": {
+      "adjustment_days": 0,
+      "close": 254.0,
+      "price_date": "2026-03-31",
+      "requested_date": "2026-03-31"
+    },
+    "price_on_transaction_date": {
+      "adjustment_days": 0,
+      "close": 252.7,
+      "price_date": "2026-03-16",
+      "requested_date": "2026-03-16"
+    },
     "publication_license_status": "not_confirmed_internal_only",
     "publication_ready": false,
-    "reason": "Market chart and price movement withheld pending publication license.",
+    "retrieved_at": "2026-05-14T17:10:57Z",
     "source": "finazon_us_stocks_essential",
     "status": "available",
-    "withheld": true
+    "ticker": "AAPL",
+    "window": {
+      "end_date": "2026-05-15",
+      "lookahead_days": 45,
+      "lookback_days": 45,
+      "start_date": "2026-01-30"
+    }
   },
-  "market_data_notice": "Market chart and price movement withheld pending publication license.",
-  "market_data_withheld": true,
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "ptr-v2-testing-20260520-public-previews",
+    "data_version": "ptr-v2-testing-20260521-market-visible",
     "environment": "testing",
-    "generated_at": "2026-05-21T00:51:37Z",
+    "generated_at": "2026-05-21T16:07:09Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/06/ce/06ce81c58915287e.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-21T01:06:37Z"
+    "stale_after": "2026-05-21T16:22:09Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json",

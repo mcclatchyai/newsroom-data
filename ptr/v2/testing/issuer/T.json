@@ -15,8 +15,6 @@
         "filing_date": "3/31/2026",
         "filing_id": "20034201",
         "issuer_name": "AT&T Inc.",
-        "market_data_notice": "Market chart and price movement withheld pending publication license.",
-        "market_data_withheld": true,
         "market_status": "unavailable",
         "member_name": "Hon. Mark Alford",
         "news_result_count": 0,
@@ -28,6 +26,8 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
         "state": "MO",
         "ticker": "T",
         "transaction_date": "03/16/2026",
@@ -38,13 +38,13 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "ptr-v2-testing-20260520-public-previews",
+    "data_version": "ptr-v2-testing-20260521-market-visible",
     "environment": "testing",
-    "generated_at": "2026-05-21T00:51:37Z",
+    "generated_at": "2026-05-21T16:07:09Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/T.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-21T01:06:37Z"
+    "stale_after": "2026-05-21T16:22:09Z"
   }
 }

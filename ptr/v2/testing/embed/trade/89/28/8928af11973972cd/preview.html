@@ -38,7 +38,7 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-embed&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-transaction-id=&quot;8928af11973972cd&quot; data-ptr-filing-id=&quot;20034201&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/89/28/8928af11973972cd.json&quot; data-ptr-filing-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json&quot; data-ptr-data-version=&quot;ptr-v2-testing-20260520-public-previews&quot;&gt;
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-embed&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-transaction-id=&quot;8928af11973972cd&quot; data-ptr-filing-id=&quot;20034201&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/89/28/8928af11973972cd.json&quot; data-ptr-filing-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json&quot; data-ptr-data-version=&quot;ptr-v2-testing-20260521-market-visible&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-embed { --ink: #18212b; --muted: #65717d; --paper: #f7f1e6; --card: #fffaf1; --line: #dbcdb7; --navy: #243f5a; --rust: #b8412e; --green: #265d43; --gold: #c4923f; color: var(--ink); font-family: &quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; margin: 24px 0; max-width: 100%; min-width: 0; }
     .mcc-ptr-embed * { box-sizing: border-box; }
@@ -361,6 +361,26 @@
         + &#x27;&lt;section&gt;&lt;h3&gt;Reporter flags&lt;/h3&gt;&lt;ul class=&quot;flag-list&quot;&gt;&#x27; + flagItems + &quot;&lt;/ul&gt;&lt;/section&gt;&quot;
         + &quot;&lt;/div&gt;&quot;;
     }
+    function policyContext(policy) {
+      policy = policy &amp;&amp; typeof policy === &quot;object&quot; ? policy : {};
+      if (!Object.keys(policy).length) return &#x27;&lt;div class=&quot;empty-state&quot;&gt;&lt;strong&gt;Congress/policy context unavailable.&lt;/strong&gt;&lt;p&gt;No policy context was exported for this trade.&lt;/p&gt;&lt;/div&gt;&#x27;;
+      var overlap = policy.committee_issuer_overlap_status || {};
+      var jurisdiction = policy.committee_jurisdiction_context || {};
+      var bills = policy.congressgov_bills || {};
+      var hearings = policy.congressgov_hearings || {};
+      var terms = Array.isArray(policy.issuer_policy_terms) ? policy.issuer_policy_terms : [];
+      var termItems = terms.slice(0, 10).map(function(row) { return &quot;&lt;li&gt;&quot; + esc(row.term || row) + &#x27;&lt;span class=&quot;source-meta&quot;&gt;&#x27; + esc(row.source || &quot;derived&quot;) + &quot;&lt;/span&gt;&lt;/li&gt;&quot;; }).join(&quot;&quot;) || &quot;&lt;li&gt;No issuer policy terms exported.&lt;/li&gt;&quot;;
+      var committeeItems = (Array.isArray(jurisdiction.matched_committees) ? jurisdiction.matched_committees : []).slice(0, 5).map(function(row) { return &quot;&lt;li&gt;&quot; + esc(row.committee_name || &quot;Committee&quot;) + (row.subcommittee_name ? &quot; / &quot; + esc(row.subcommittee_name) : &quot;&quot;) + &#x27;&lt;span class=&quot;source-note&quot;&gt;Matched terms: &#x27; + esc((row.matched_issuer_terms || []).join(&quot;, &quot;) || &quot;-&quot;) + &quot;&lt;/span&gt;&lt;/li&gt;&quot;; }).join(&quot;&quot;) || &quot;&lt;li&gt;No committee/issuer overlap found in this automated pass.&lt;/li&gt;&quot;;
+      var billItems = (Array.isArray(bills.items) ? bills.items : []).slice(0, 5).map(function(row) { return &quot;&lt;li&gt;&quot; + (safeUrl(row.congressgov_url || row.api_url) ? link(row.congressgov_url || row.api_url, (row.type || &quot;&quot;) + &quot; &quot; + (row.number || &quot;&quot;) + &quot;: &quot; + (row.title || &quot;Bill&quot;)) : esc(row.title || &quot;Bill&quot;)) + &#x27;&lt;span class=&quot;source-note&quot;&gt;Matched terms: &#x27; + esc((row.matched_terms || []).join(&quot;, &quot;) || &quot;-&quot;) + &quot;&lt;/span&gt;&lt;/li&gt;&quot;; }).join(&quot;&quot;) || &quot;&lt;li&gt;No matching recent bills exported.&lt;/li&gt;&quot;;
+      var hearingItems = (Array.isArray(hearings.items) ? hearings.items : []).slice(0, 5).map(function(row) { return &quot;&lt;li&gt;&quot; + esc(row.title || &quot;Committee meeting&quot;) + &#x27;&lt;span class=&quot;source-meta&quot;&gt;&#x27; + esc(row.chamber || &quot;-&quot;) + (row.date ? &quot; | &quot; + esc(row.date) : &quot;&quot;) + &#x27;&lt;/span&gt;&lt;span class=&quot;source-note&quot;&gt;Matched terms: &#x27; + esc((row.matched_terms || []).join(&quot;, &quot;) || &quot;-&quot;) + &quot;&lt;/span&gt;&lt;/li&gt;&quot;; }).join(&quot;&quot;) || &quot;&lt;li&gt;No matching recent hearings exported.&lt;/li&gt;&quot;;
+      return &#x27;&lt;div class=&quot;evidence-grid&quot;&gt;&#x27;
+        + &#x27;&lt;section&gt;&lt;h3&gt;Overlap status&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&#x27; + esc(overlap.status || policy.status || &quot;unavailable&quot;) + &quot;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&quot; + esc(overlap.summary || &quot;Verify any committee/company relationship manually.&quot;) + &quot;&lt;/p&gt;&lt;/section&gt;&quot;
+        + &quot;&lt;section&gt;&lt;h3&gt;Issuer policy terms&lt;/h3&gt;&lt;ul&gt;&quot; + termItems + &quot;&lt;/ul&gt;&lt;/section&gt;&quot;
+        + &quot;&lt;section&gt;&lt;h3&gt;Committee matches&lt;/h3&gt;&lt;ul&gt;&quot; + committeeItems + &quot;&lt;/ul&gt;&lt;/section&gt;&quot;
+        + &quot;&lt;section&gt;&lt;h3&gt;Congress.gov bills&lt;/h3&gt;&lt;ul&gt;&quot; + billItems + &quot;&lt;/ul&gt;&quot; + link(bills.public_search_url, &quot;Open Congress.gov bill search&quot;) + &quot;&lt;/section&gt;&quot;
+        + &quot;&lt;section&gt;&lt;h3&gt;Congress.gov hearings&lt;/h3&gt;&lt;ul&gt;&quot; + hearingItems + &quot;&lt;/ul&gt;&quot; + link(hearings.public_search_url, &quot;Open Congress.gov hearing search&quot;) + &quot;&lt;/section&gt;&quot;
+        + &quot;&lt;/div&gt;&quot;;
+    }
     function render(payload, filingPayload) {
       var tx = payload.transaction || {};
       var filing = payload.filing || {};
@@ -383,6 +403,7 @@
         + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Top news/event links to check&lt;/h2&gt;&#x27; + newsContext(payload.news_context) + &quot;&lt;/section&gt;&quot;
         + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Same filing&lt;/h2&gt;&#x27; + sameFilingTable(filingPayload || {}, txId) + &quot;&lt;/section&gt;&quot;
         + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Evidence context&lt;/h2&gt;&#x27; + evidenceContext(payload.evidence_context) + &quot;&lt;/section&gt;&quot;
+        + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Congress/policy context&lt;/h2&gt;&#x27; + policyContext(payload.policy_context) + &quot;&lt;/section&gt;&quot;
         + &#x27;&lt;section class=&quot;caveats&quot;&gt;&lt;h2&gt;Caveats for reporters&lt;/h2&gt;&lt;p&gt;Periodic transaction reports are self-reported disclosures. Dollar values are reported in ranges, not exact amounts.&lt;/p&gt;&lt;p&gt;Market movement and evidence context are reporter checks only. This page does not establish motive, intent, profit, or use of nonpublic information.&lt;/p&gt;&lt;p&gt;Data refreshed: &#x27; + esc(metadata.generated_at || &quot;-&quot;) + &quot;. Cache TTL: &quot; + esc(metadata.cache_ttl_seconds || &quot;-&quot;) + &quot; seconds. Readers fetch this static JSON, not paid APIs.&lt;/p&gt;&lt;/section&gt;&quot;;
     }
     function fetchJson(url) {
@@ -441,7 +462,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-embed" data-ptr-render-mode="fetch" data-ptr-transaction-id="8928af11973972cd" data-ptr-filing-id="20034201" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/89/28/8928af11973972cd.json" data-ptr-filing-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json" data-ptr-data-version="ptr-v2-testing-20260520-public-previews">
+<div class="mcc-ptr-embed" data-ptr-render-mode="fetch" data-ptr-transaction-id="8928af11973972cd" data-ptr-filing-id="20034201" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/89/28/8928af11973972cd.json" data-ptr-filing-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json" data-ptr-data-version="ptr-v2-testing-20260521-market-visible">
   <style>
     .mcc-ptr-embed { --ink: #18212b; --muted: #65717d; --paper: #f7f1e6; --card: #fffaf1; --line: #dbcdb7; --navy: #243f5a; --rust: #b8412e; --green: #265d43; --gold: #c4923f; color: var(--ink); font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; margin: 24px 0; max-width: 100%; min-width: 0; }
     .mcc-ptr-embed * { box-sizing: border-box; }
@@ -764,6 +785,26 @@
         + '<section><h3>Reporter flags</h3><ul class="flag-list">' + flagItems + "</ul></section>"
         + "</div>";
     }
+    function policyContext(policy) {
+      policy = policy && typeof policy === "object" ? policy : {};
+      if (!Object.keys(policy).length) return '<div class="empty-state"><strong>Congress/policy context unavailable.</strong><p>No policy context was exported for this trade.</p></div>';
+      var overlap = policy.committee_issuer_overlap_status || {};
+      var jurisdiction = policy.committee_jurisdiction_context || {};
+      var bills = policy.congressgov_bills || {};
+      var hearings = policy.congressgov_hearings || {};
+      var terms = Array.isArray(policy.issuer_policy_terms) ? policy.issuer_policy_terms : [];
+      var termItems = terms.slice(0, 10).map(function(row) { return "<li>" + esc(row.term || row) + '<span class="source-meta">' + esc(row.source || "derived") + "</span></li>"; }).join("") || "<li>No issuer policy terms exported.</li>";
+      var committeeItems = (Array.isArray(jurisdiction.matched_committees) ? jurisdiction.matched_committees : []).slice(0, 5).map(function(row) { return "<li>" + esc(row.committee_name || "Committee") + (row.subcommittee_name ? " / " + esc(row.subcommittee_name) : "") + '<span class="source-note">Matched terms: ' + esc((row.matched_issuer_terms || []).join(", ") || "-") + "</span></li>"; }).join("") || "<li>No committee/issuer overlap found in this automated pass.</li>";
+      var billItems = (Array.isArray(bills.items) ? bills.items : []).slice(0, 5).map(function(row) { return "<li>" + (safeUrl(row.congressgov_url || row.api_url) ? link(row.congressgov_url || row.api_url, (row.type || "") + " " + (row.number || "") + ": " + (row.title || "Bill")) : esc(row.title || "Bill")) + '<span class="source-note">Matched terms: ' + esc((row.matched_terms || []).join(", ") || "-") + "</span></li>"; }).join("") || "<li>No matching recent bills exported.</li>";
+      var hearingItems = (Array.isArray(hearings.items) ? hearings.items : []).slice(0, 5).map(function(row) { return "<li>" + esc(row.title || "Committee meeting") + '<span class="source-meta">' + esc(row.chamber || "-") + (row.date ? " | " + esc(row.date) : "") + '</span><span class="source-note">Matched terms: ' + esc((row.matched_terms || []).join(", ") || "-") + "</span></li>"; }).join("") || "<li>No matching recent hearings exported.</li>";
+      return '<div class="evidence-grid">'
+        + '<section><h3>Overlap status</h3><p><strong>' + esc(overlap.status || policy.status || "unavailable") + "</strong></p><p>" + esc(overlap.summary || "Verify any committee/company relationship manually.") + "</p></section>"
+        + "<section><h3>Issuer policy terms</h3><ul>" + termItems + "</ul></section>"
+        + "<section><h3>Committee matches</h3><ul>" + committeeItems + "</ul></section>"
+        + "<section><h3>Congress.gov bills</h3><ul>" + billItems + "</ul>" + link(bills.public_search_url, "Open Congress.gov bill search") + "</section>"
+        + "<section><h3>Congress.gov hearings</h3><ul>" + hearingItems + "</ul>" + link(hearings.public_search_url, "Open Congress.gov hearing search") + "</section>"
+        + "</div>";
+    }
     function render(payload, filingPayload) {
       var tx = payload.transaction || {};
       var filing = payload.filing || {};
@@ -786,6 +827,7 @@
         + '<section class="panel"><h2>Top news/event links to check</h2>' + newsContext(payload.news_context) + "</section>"
         + '<section class="panel"><h2>Same filing</h2>' + sameFilingTable(filingPayload || {}, txId) + "</section>"
         + '<section class="panel"><h2>Evidence context</h2>' + evidenceContext(payload.evidence_context) + "</section>"
+        + '<section class="panel"><h2>Congress/policy context</h2>' + policyContext(payload.policy_context) + "</section>"
         + '<section class="caveats"><h2>Caveats for reporters</h2><p>Periodic transaction reports are self-reported disclosures. Dollar values are reported in ranges, not exact amounts.</p><p>Market movement and evidence context are reporter checks only. This page does not establish motive, intent, profit, or use of nonpublic information.</p><p>Data refreshed: ' + esc(metadata.generated_at || "-") + ". Cache TTL: " + esc(metadata.cache_ttl_seconds || "-") + " seconds. Readers fetch this static JSON, not paid APIs.</p></section>";
     }
     function fetchJson(url) {
