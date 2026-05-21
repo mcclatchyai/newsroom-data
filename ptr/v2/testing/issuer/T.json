@@ -38,13 +38,13 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260520T165532Z",
+    "data_version": "ptr-v2-testing-20260520-public-previews",
     "environment": "testing",
-    "generated_at": "2026-05-20T16:55:32Z",
+    "generated_at": "2026-05-21T00:51:37Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/T.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-20T17:10:32Z"
+    "stale_after": "2026-05-21T01:06:37Z"
   }
 }

@@ -1,0 +1,197 @@
+<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="ptr-v2-testing-20260520-public-previews">
+  <style>
+    .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
+    .mcc-ptr-trade-table * { box-sizing: border-box; }
+    .mcc-ptr-trade-table, .mcc-ptr-trade-table main, .mcc-ptr-trade-table section, .mcc-ptr-trade-table .trade-card { max-width: 100%; min-width: 0; }
+    .mcc-ptr-trade-table main { width: min(100%, 1180px); margin: 0 auto; background: var(--bg); border-radius: 22px; overflow: hidden; border: 1px solid #202a35; }
+    .mcc-ptr-trade-table h1, .mcc-ptr-trade-table h2, .mcc-ptr-trade-table p, .mcc-ptr-trade-table strong, .mcc-ptr-trade-table td { overflow-wrap: anywhere; }
+    .mcc-ptr-trade-table .hero { padding: 22px 24px 14px; background: linear-gradient(135deg, #102f50, #122334 55%, #111820); border-bottom: 1px solid var(--line); }
+    .mcc-ptr-trade-table h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 48px); line-height: 1; font-family: Georgia, "Times New Roman", serif; }
+    .mcc-ptr-trade-table p { margin: 0; color: var(--muted); line-height: 1.45; }
+    .mcc-ptr-trade-table .controls { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+    .mcc-ptr-trade-table input, .mcc-ptr-trade-table select, .mcc-ptr-trade-table button, .mcc-ptr-trade-table a { min-height: 44px; }
+    .mcc-ptr-trade-table input, .mcc-ptr-trade-table select { width: 100%; border: 1px solid #34506a; border-radius: 10px; background: #17314d; color: var(--ink); padding: 12px; font: inherit; }
+    .mcc-ptr-trade-table input::placeholder { color: #8fa8c0; }
+    .mcc-ptr-trade-table .summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 18px 24px; background: #132235; }
+    .mcc-ptr-trade-table .stat { padding: 14px; border-radius: 12px; background: #1c324e; border: 1px solid #28425f; }
+    .mcc-ptr-trade-table .stat strong { display: block; font-size: 24px; }
+    .mcc-ptr-trade-table .stat span { display: block; color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+    .mcc-ptr-trade-table .table-wrap { overflow-x: auto; }
+    .mcc-ptr-trade-table .mobile-cards { display: none; padding: 0 14px 14px; }
+    .mcc-ptr-trade-table .trade-card { margin: 0 0 12px; padding: 14px; border: 1px solid #294766; border-radius: 14px; background: #102033; }
+    .mcc-ptr-trade-table .trade-card h2 { margin: 0 0 5px; font: 900 18px/1.1 "Avenir Next", "Gill Sans", Verdana, sans-serif; color: var(--ink); }
+    .mcc-ptr-trade-table .trade-card .card-meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+    .mcc-ptr-trade-table .card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .mcc-ptr-trade-table .card-field { padding: 10px; border-radius: 10px; background: #1c324e; border: 1px solid #28425f; }
+    .mcc-ptr-trade-table .card-field span { display: block; color: var(--muted); font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
+    .mcc-ptr-trade-table .card-field strong { display: block; margin-top: 3px; font-size: 14px; color: var(--ink); }
+    .mcc-ptr-trade-table table { width: 100%; border-collapse: collapse; min-width: 1060px; }
+    .mcc-ptr-trade-table th, .mcc-ptr-trade-table td { text-align: left; border-bottom: 1px solid var(--line); padding: 13px 12px; vertical-align: middle; }
+    .mcc-ptr-trade-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; white-space: nowrap; }
+    .mcc-ptr-trade-table td { font-size: 14px; }
+    .mcc-ptr-trade-table .name { color: var(--blue); font-weight: 900; }
+    .mcc-ptr-trade-table .sub { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .mcc-ptr-trade-table .buy { color: var(--teal); font-weight: 900; text-transform: uppercase; }
+    .mcc-ptr-trade-table .sell { color: var(--gold); font-weight: 900; text-transform: uppercase; }
+    .mcc-ptr-trade-table .other { color: var(--muted); font-weight: 900; text-transform: uppercase; }
+    .mcc-ptr-trade-table .positive { color: var(--teal); font-weight: 900; }
+    .mcc-ptr-trade-table .negative { color: var(--red); font-weight: 900; }
+    .mcc-ptr-trade-table .flag { display: inline-block; margin: 2px 3px 2px 0; padding: 4px 7px; border-radius: 999px; background: #203850; color: #c9d8e5; font-size: 11px; font-weight: 800; white-space: nowrap; }
+    .mcc-ptr-trade-table .empty { display: none; padding: 22px 24px; color: var(--muted); }
+    .mcc-ptr-trade-table .caveat { padding: 14px 24px 20px; color: var(--muted); font-size: 12px; background: #0d1115; }
+    @media (max-width: 760px) { .mcc-ptr-trade-table .controls, .mcc-ptr-trade-table .summary { grid-template-columns: 1fr; } .mcc-ptr-trade-table .hero, .mcc-ptr-trade-table .summary, .mcc-ptr-trade-table .caveat { padding-left: 14px; padding-right: 14px; } }
+    @media (max-width: 640px) { .mcc-ptr-trade-table { margin: 16px 0; } .mcc-ptr-trade-table main { border-radius: 16px; } .mcc-ptr-trade-table h1 { font-size: 30px; } .mcc-ptr-trade-table .table-wrap { display: none; } .mcc-ptr-trade-table .mobile-cards { display: block; } .mcc-ptr-trade-table .card-grid { grid-template-columns: 1fr; } .mcc-ptr-trade-table .controls { gap: 8px; } .mcc-ptr-trade-table .trade-card { padding: 13px; } }
+    </style>
+  <main>
+    <section class="hero">
+      <p class="sub">Static public PTR data</p>
+      <h1>Congressional trade tracker</h1>
+      <p>Loading congressional trade table from sanitized public JSON...</p>
+    </section>
+  </main>
+  <script>
+  (function() {
+    var script = document.currentScript;
+    var root = script && script.closest ? script.closest(".mcc-ptr-trade-table") : null;
+    if (!root) return;
+    var main = root.querySelector("main");
+    var dataUrl = root.getAttribute("data-ptr-data-url") || "";
+    var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
+    function esc(value) {
+      return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; });
+    }
+    function safeUrl(value) {
+      var url = text(value);
+      if (/^https?:\/\//i.test(url) || url.indexOf("./") === 0 || url.indexOf("../") === 0 || url.charAt(0) === "/") return url;
+      return "";
+    }
+    function withVersion(url) {
+      if (!url || !dataVersion || /[?&]v=/.test(url)) return url;
+      return url + (url.indexOf("?") >= 0 ? "&" : "?") + "v=" + encodeURIComponent(dataVersion);
+    }
+    function number(value) {
+      var raw = text(value).replace(/,/g, "");
+      if (!raw) return null;
+      var n = Number(raw);
+      return Number.isFinite(n) ? n : null;
+    }
+    function dateLabel(value) {
+      var raw = text(value);
+      if (!raw) return "-";
+      var d = new Date(raw + "T00:00:00");
+      if (isNaN(d.getTime())) return raw;
+      return d.toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"});
+    }
+    function money(value) {
+      if (value === "withheld") return "Withheld";
+      var n = number(value);
+      if (n === null) return "N/A";
+      return "$" + n.toLocaleString("en-US", {minimumFractionDigits:2, maximumFractionDigits:2});
+    }
+    function pct(value) {
+      if (value === "withheld") return "Withheld";
+      var n = number(value);
+      if (n === null) return "N/A";
+      return (n > 0 ? "+" : "") + n.toFixed(1) + "%";
+    }
+    function pctClass(value) {
+      var n = number(value);
+      return n > 0 ? "positive" : n < 0 ? "negative" : "";
+    }
+    function options(rows, key) {
+      var seen = {};
+      rows.forEach(function(row) { if (text(row[key])) seen[text(row[key]).toLowerCase()] = text(row[key]); });
+      return Object.keys(seen).sort().map(function(key) { return '<option value="' + esc(key) + '">' + esc(seen[key]) + '</option>'; }).join("");
+    }
+    function renderRows(rows) {
+      return rows.map(function(row) {
+        var action = text(row.type || "other");
+        var priceValue = row.market_data_withheld ? "withheld" : row.price;
+        var returnValue = row.market_data_withheld ? "withheld" : row.return_trade_to_latest;
+        var flags = Array.isArray(row.flags) && row.flags.length ? row.flags.map(function(flag) { return '<span class="flag">' + esc(flag) + '</span>'; }).join("") : '<span class="sub">No flags</span>';
+        return '<tr data-filter-row data-politician="' + esc(text(row.politician).toLowerCase()) + '" data-issuer="' + esc((text(row.issuer) + " " + text(row.ticker)).toLowerCase()) + '" data-type="' + esc(action) + '" data-owner="' + esc(text(row.owner).toLowerCase()) + '">'
+          + '<td><span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span></td>'
+          + '<td><span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span></td>'
+          + '<td><strong>' + esc(dateLabel(row.published_date)) + '</strong></td>'
+          + '<td><strong>' + esc(dateLabel(row.traded_date)) + '</strong></td>'
+          + '<td><strong>' + esc(row.filed_after_days !== undefined && row.filed_after_days !== null ? Math.round(Number(row.filed_after_days)) : "-") + '</strong><span class="sub">days</span></td>'
+          + '<td>' + esc(row.owner || "Undisclosed") + '</td>'
+          + '<td><span class="' + esc(action) + '">' + esc(action) + '</span></td>'
+          + '<td><strong>' + esc(row.size) + '</strong></td>'
+          + '<td><strong>' + esc(money(priceValue)) + '</strong><span class="sub">' + esc(row.price_date ? dateLabel(row.price_date) : "") + '</span></td>'
+          + '<td><span class="' + esc(pctClass(returnValue)) + '">' + esc(pct(returnValue)) + '</span></td>'
+          + '<td>' + flags + '</td>'
+          + '</tr>';
+      }).join("");
+    }
+    function renderCards(rows) {
+      return rows.map(function(row) {
+        var action = text(row.type || "other");
+        var priceValue = row.market_data_withheld ? "withheld" : row.price;
+        var returnValue = row.market_data_withheld ? "withheld" : row.return_trade_to_latest;
+        return '<article class="trade-card" data-filter-row data-politician="' + esc(text(row.politician).toLowerCase()) + '" data-issuer="' + esc((text(row.issuer) + " " + text(row.ticker)).toLowerCase()) + '" data-type="' + esc(action) + '" data-owner="' + esc(text(row.owner).toLowerCase()) + '">'
+          + '<h2>' + esc(row.ticker || row.issuer || "Trade") + ' <span class="' + esc(action) + '">' + esc(action) + '</span></h2>'
+          + '<p class="card-meta">' + esc(row.issuer) + ' | ' + esc(row.politician) + ' | ' + esc(row.state) + ' ' + esc(row.district) + '</p>'
+          + '<div class="card-grid"><div class="card-field"><span>Amount range</span><strong>' + esc(row.size) + '</strong></div><div class="card-field"><span>Trade date</span><strong>' + esc(dateLabel(row.traded_date)) + '</strong></div><div class="card-field"><span>Filed after</span><strong>' + esc(row.filed_after_days !== undefined && row.filed_after_days !== null ? Math.round(Number(row.filed_after_days)) + " days" : "-") + '</strong></div><div class="card-field"><span>Owner</span><strong>' + esc(row.owner || "Undisclosed") + '</strong></div><div class="card-field"><span>Trade-date price</span><strong>' + esc(money(priceValue)) + '</strong></div><div class="card-field"><span>Return to latest</span><strong>' + esc(pct(returnValue)) + '</strong></div></div>'
+          + '</article>';
+      }).join("");
+    }
+    function attachFilters() {
+      var rowEls = Array.prototype.slice.call(root.querySelectorAll("[data-filter-row]"));
+      var countRows = Array.prototype.slice.call(root.querySelectorAll("tbody tr[data-filter-row]"));
+      var empty = root.querySelector("[data-empty]");
+      var count = root.querySelector("[data-visible-count]");
+      var filters = {
+        politician: root.querySelector('[data-filter="politician"]'),
+        issuer: root.querySelector('[data-filter="issuer"]'),
+        type: root.querySelector('[data-filter="type"]'),
+        owner: root.querySelector('[data-filter="owner"]')
+      };
+      function value(el) { return el ? String(el.value || "").toLowerCase().trim() : ""; }
+      function update() {
+        var visible = 0;
+        rowEls.forEach(function(row) {
+          var show = true;
+          if (value(filters.politician) && row.dataset.politician.indexOf(value(filters.politician)) === -1) show = false;
+          if (value(filters.issuer) && row.dataset.issuer.indexOf(value(filters.issuer)) === -1) show = false;
+          if (value(filters.type) && row.dataset.type !== value(filters.type)) show = false;
+          if (value(filters.owner) && row.dataset.owner !== value(filters.owner)) show = false;
+          row.style.display = show ? "" : "none";
+        });
+        visible = countRows.filter(function(row) { return row.style.display !== "none"; }).length;
+        if (empty) empty.style.display = visible ? "none" : "block";
+        if (count) count.textContent = String(visible);
+      }
+      Object.keys(filters).forEach(function(key) {
+        if (filters[key]) filters[key].addEventListener("input", update);
+        if (filters[key]) filters[key].addEventListener("change", update);
+      });
+      update();
+    }
+    function render(payload) {
+      var rows = Array.isArray(payload.rows) ? payload.rows : [];
+      var filings = {}, politicians = {}, issuers = {};
+      rows.forEach(function(row) {
+        if (text(row.filing_id)) filings[text(row.filing_id)] = true;
+        if (text(row.politician)) politicians[text(row.politician)] = true;
+        if (text(row.ticker || row.issuer)) issuers[text(row.ticker || row.issuer)] = true;
+      });
+      main.innerHTML = '<section class="hero"><p class="sub">Static public PTR data</p><h1>Congressional trade tracker</h1><p>Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.</p><div class="controls"><input type="search" data-filter="politician" placeholder="Find by politician" /><input type="search" data-filter="issuer" placeholder="Find by issuer or ticker" /><select data-filter="type"><option value="">Transaction type</option>' + options(rows, "type") + '</select><select data-filter="owner"><option value="">Owner</option>' + options(rows, "owner") + '</select></div></section>'
+        + '<section class="summary"><div class="stat"><strong data-visible-count>' + rows.length + '</strong><span>Visible trades</span></div><div class="stat"><strong>' + Object.keys(filings).length + '</strong><span>Filings</span></div><div class="stat"><strong>' + Object.keys(politicians).length + '</strong><span>Politicians</span></div><div class="stat"><strong>' + Object.keys(issuers).length + '</strong><span>Issuers</span></div></section>'
+        + '<div class="table-wrap"><table><thead><tr><th>Politician</th><th>Traded issuer</th><th>Filed</th><th>Traded</th><th>Filed after</th><th>Owner</th><th>Type</th><th>Size</th><th>Trade-date price</th><th>Return to latest</th><th>Reporter flags</th></tr></thead><tbody>' + renderRows(rows) + '</tbody></table></div><div class="mobile-cards">' + renderCards(rows) + '</div><div class="empty" data-empty>No trades match the selected filters.</div><p class="caveat">PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information. If market data is withheld, publication rights have not been confirmed.</p>';
+      attachFilters();
+    }
+    if (!safeUrl(dataUrl)) {
+      main.innerHTML = '<section class="hero"><h1>Public trade table data URL missing</h1><p>Regenerate with PTR_PUBLIC_BASE_URL or a public bundle directory.</p></section>';
+      return;
+    }
+    fetch(withVersion(dataUrl), {cache: "default"}).then(function(response) {
+      if (!response.ok) throw new Error("HTTP " + response.status + " for " + dataUrl);
+      return response.json();
+    }).then(render).catch(function(error) {
+      main.innerHTML = '<section class="hero"><h1>Trade table data could not be loaded</h1><p>' + esc(error && error.message ? error.message : error) + '</p></section>';
+    });
+  }());
+  </script>
+</div>
