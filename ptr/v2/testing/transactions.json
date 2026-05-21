@@ -2,14 +2,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "ptr-v2-testing-20260521-market-visible",
+    "data_version": "ptr-v2-testing-20260521-dev-preview-note",
     "environment": "testing",
-    "generated_at": "2026-05-21T16:07:09Z",
+    "generated_at": "2026-05-21T16:19:39Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/transactions.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-21T16:22:09Z"
+    "stale_after": "2026-05-21T16:34:39Z"
   },
   "transactions": [
     {

@@ -17,6 +17,8 @@
     .cue-copy-panel code { font-size: .95em; }
     .cue-copy-eyebrow { color: #6b7783; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; font-size: 11px; }
     .cue-copy-panel--dark .cue-copy-eyebrow { color: #9fb0c0; }
+    .cue-copy-warning { margin: 8px 0 8px !important; padding: 10px 12px; border-radius: 12px; border: 1px solid #c7772d; background: #fff2d7; color: #4b2a0d; }
+    .cue-copy-panel--dark .cue-copy-warning { border-color: #f2b84b; background: #271b07; color: #ffe7ae; }
     .cue-copy-button { min-height: 44px; border: 0; border-radius: 999px; padding: 0 16px; font-weight: 800; cursor: pointer; color: #fff; background: #243f5a; }
     .cue-copy-panel--dark .cue-copy-button { background: #13a8ff; color: #06111c; }
     .cue-copy-code { grid-column: 1 / -1; width: 100%; min-height: 180px; resize: vertical; border-radius: 12px; border: 1px solid #c8b99f; padding: 12px; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #18212b; background: #fffdf8; white-space: pre; overflow: auto; }
@@ -29,16 +31,17 @@
   </style>
 </head>
 <body>
-  <div class="preview-note">Trade table preview. Use the copy box below for the CUE HTML Embed asset.</div>
+  <div class="preview-note"><strong>Development preview only.</strong> Please do not publish this PTR v2 trade table into a live CUE story yet. We are still soliciting newsroom/editorial feedback before these embed assets go live.</div>
 
   <section class="cue-copy-panel cue-copy-panel--dark" aria-label="CUE embed copy panel">
     <div>
       <p class="cue-copy-eyebrow">CUE embed code</p>
       <h2>Copy this HTML into a CUE HTML Embed asset</h2>
+      <p class="cue-copy-warning"><strong>Testing only:</strong> Do not publish this embed into a live CUE story yet. Use this code only for test assets and story-preview feedback while PTR v2 embed assets are still in development.</p>
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-table&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json&quot; data-ptr-data-version=&quot;ptr-v2-testing-20260521-market-visible&quot;&gt;
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-table&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json&quot; data-ptr-data-version=&quot;ptr-v2-testing-20260521-dev-preview-note&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: &quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
@@ -271,7 +274,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="ptr-v2-testing-20260521-market-visible">
+<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="ptr-v2-testing-20260521-dev-preview-note">
   <style>
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
