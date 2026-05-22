@@ -1,0 +1,694 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4352686,
+          47.2398546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2401 Pacific AVE Tacoma WA 98402 United States",
+        "business_name": "BERLINER BEERHALL",
+        "city": "Tacoma",
+        "date": "2025-12-18",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0035984&LicenseeType=Food+Facility",
+        "facility_id": "PR0035984",
+        "geocode_status": "ok",
+        "inspection_date": "12/18/2025",
+        "inspection_date_iso": "2025-12-18",
+        "inspection_identity": "PR0035984|655377",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-5537bf8c6bc8",
+        "red_points": 40,
+        "repeat_red_points": 40,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0035984&InspId=655377",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98402"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4414151,
+          47.2562973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "739 ST HELENS AVE Tacoma WA",
+        "business_name": "CLUB SILVERSTONE",
+        "city": "Tacoma",
+        "date": "2025-12-11",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=FEP2025-00049&LicenseeType=Food+Facility",
+        "facility_id": "FEP2025-00049",
+        "geocode_status": "ok",
+        "inspection_date": "12/11/2025",
+        "inspection_date_iso": "2025-12-11",
+        "inspection_identity": "FEP2025-00049|690256",
+        "inspection_result": "Meets TPCHD Minimum Health Standards & Compliance Order Issued",
+        "inspection_type": "Change of Ownership Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-8bc900520eb4",
+        "red_points": 57,
+        "repeat_red_points": 13,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=FEP2025-00049&InspId=690256",
+        "source": "TPCHD Accela",
+        "total_points": 2,
+        "zip": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4414151,
+          47.2562973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "739 ST HELENS AVE Tacoma WA 98402",
+        "business_name": "CLUB SILVERSTONE",
+        "city": "Tacoma",
+        "date": "2025-12-11",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=FEP2025-00048&LicenseeType=Food+Facility",
+        "facility_id": "FEP2025-00048",
+        "geocode_status": "ok",
+        "inspection_date": "12/11/2025",
+        "inspection_date_iso": "2025-12-11",
+        "inspection_identity": "FEP2025-00048|690255",
+        "inspection_result": "Meets TPCHD Minimum Health Standards & Compliance Order Issued",
+        "inspection_type": "Change of Ownership Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-0920b45b41bf",
+        "red_points": 50,
+        "repeat_red_points": 67,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=FEP2025-00048&InspId=690255",
+        "source": "TPCHD Accela",
+        "total_points": 1,
+        "zip": "98402"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.415501,
+          47.2419106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1302 Puyallup Ave Tacoma WA 98421 United States",
+        "business_name": "PHB FUEL",
+        "city": "Tacoma",
+        "date": "2025-12-11",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0038920&LicenseeType=Food+Facility",
+        "facility_id": "PR0038920",
+        "geocode_status": "ok",
+        "inspection_date": "12/11/2025",
+        "inspection_date_iso": "2025-12-11",
+        "inspection_identity": "PR0038920|379733",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-2c2690a6f175",
+        "red_points": 45,
+        "repeat_red_points": 45,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0038920&InspId=379733",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98421"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.148073,
+          47.1671142
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "21109 State Route 410 Bonney Lake WA 98391 United States",
+        "business_name": "SUMO SUSHI",
+        "city": "Bonney Lake",
+        "date": "2025-12-03",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040232&LicenseeType=Food+Facility",
+        "facility_id": "PR0040232",
+        "geocode_status": "ok",
+        "inspection_date": "12/03/2025",
+        "inspection_date_iso": "2025-12-03",
+        "inspection_identity": "PR0040232|381856",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-655374b800c6",
+        "red_points": 45,
+        "repeat_red_points": 45,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040232&InspId=381856",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98391"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4205391,
+          47.2297494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "3511 McKinley AVE Tacoma WA 98404 United States",
+        "business_name": "LECHON LOCO",
+        "city": "Tacoma",
+        "date": "2025-12-03",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040749&LicenseeType=Food+Facility",
+        "facility_id": "PR0040749",
+        "geocode_status": "ok",
+        "inspection_date": "12/03/2025",
+        "inspection_date_iso": "2025-12-03",
+        "inspection_identity": "PR0040749|552075",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-c9b1c1e07d5a",
+        "red_points": 45,
+        "repeat_red_points": 45,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040749&InspId=552075",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98404"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.3680115,
+          47.2427071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "4500 Pacific HWY E Fife WA 98424 United States",
+        "business_name": "SUNNY'S DONUTS & DELI",
+        "city": "Fife",
+        "date": "2025-12-02",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040740&LicenseeType=Food+Facility",
+        "facility_id": "PR0040740",
+        "geocode_status": "ok",
+        "inspection_date": "12/02/2025",
+        "inspection_date_iso": "2025-12-02",
+        "inspection_identity": "PR0040740|695743",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-52ed8acff921",
+        "red_points": 45,
+        "repeat_red_points": 45,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040740&InspId=695743",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98424"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4846981,
+          47.172449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "9312 S Tacoma WAY STE 130 Lakewood WA 98499 United States",
+        "business_name": "GRILL (THE)",
+        "city": "Lakewood",
+        "date": "2025-11-13",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0039284&LicenseeType=Food+Facility",
+        "facility_id": "PR0039284",
+        "geocode_status": "ok",
+        "inspection_date": "11/13/2025",
+        "inspection_date_iso": "2025-11-13",
+        "inspection_identity": "PR0039284|380178",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-fb6432bd6382",
+        "red_points": 45,
+        "repeat_red_points": 45,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0039284&InspId=380178",
+        "source": "TPCHD Accela",
+        "total_points": 30,
+        "zip": "98499"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4916877,
+          47.1562577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "11107 Pacific HWY SW Lakewood WA 98499 United States",
+        "business_name": "JOY JOY'S BAKERY",
+        "city": "Lakewood",
+        "date": "2025-11-12",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040891&LicenseeType=Food+Facility",
+        "facility_id": "PR0040891",
+        "geocode_status": "ok",
+        "inspection_date": "11/12/2025",
+        "inspection_date_iso": "2025-11-12",
+        "inspection_identity": "PR0040891|72725",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-577e06a2d60c",
+        "red_points": 40,
+        "repeat_red_points": 40,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040891&InspId=72725",
+        "source": "TPCHD Accela",
+        "total_points": 5,
+        "zip": "98499"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5589393,
+          47.1443611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "9124 Veterans DR SW Lakewood WA 98498 United States",
+        "business_name": "I LOVE TACOS #3 - TPCHD #0275",
+        "city": "Lakewood",
+        "date": "2025-11-06",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040880&LicenseeType=Food+Facility",
+        "facility_id": "PR0040880",
+        "geocode_status": "ok",
+        "inspection_date": "11/06/2025",
+        "inspection_date_iso": "2025-11-06",
+        "inspection_identity": "PR0040880|686976",
+        "inspection_result": "Not Applicable",
+        "inspection_type": "Other Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-f7f96e358464",
+        "red_points": 40,
+        "repeat_red_points": 30,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040880&InspId=686976",
+        "source": "TPCHD Accela",
+        "total_points": 68697611,
+        "zip": "98498"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4369063,
+          47.1209515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "14906 Pacific AVE S Parkland WA 98444 United States",
+        "business_name": "STACKS BURGERS",
+        "city": "Parkland",
+        "date": "2025-10-29",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0038869&LicenseeType=Food+Facility",
+        "facility_id": "PR0038869",
+        "geocode_status": "ok",
+        "inspection_date": "10/29/2025",
+        "inspection_date_iso": "2025-10-29",
+        "inspection_identity": "PR0038869|480514",
+        "inspection_result": "A Reinspection is Required & Compliance Order Issued",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-cf0bc9b2254d",
+        "red_points": 60,
+        "repeat_red_points": 65,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0038869&InspId=480514",
+        "source": "TPCHD Accela",
+        "total_points": 10,
+        "zip": "98444"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.037983,
+          47.158295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "29297 State Route 410 STE A Buckley WA 98321 United States",
+        "business_name": "VERONICA'S MEXICAN FOOD TRUCK #2 - TPCHD #1377",
+        "city": "Buckley",
+        "date": "2025-10-27",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040063&LicenseeType=Food+Facility",
+        "facility_id": "PR0040063",
+        "geocode_status": "ok",
+        "inspection_date": "10/27/2025",
+        "inspection_date_iso": "2025-10-27",
+        "inspection_identity": "PR0040063|679337",
+        "inspection_result": "FSE is Closed Until Approved to Reopen by TPDHD",
+        "inspection_type": "Other Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-54b98c28ec83",
+        "red_points": 45,
+        "repeat_red_points": 20,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040063&InspId=679337",
+        "source": "TPCHD Accela",
+        "total_points": 1,
+        "zip": "98321"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5589393,
+          47.1443611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "9124 Veterans DR SW Tacoma WA 98498 United States",
+        "business_name": "LA TENTACION TACOS AND TEQUILA",
+        "city": "Tacoma",
+        "date": "2025-10-10",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0038654&LicenseeType=Food+Facility",
+        "facility_id": "PR0038654",
+        "geocode_status": "ok",
+        "inspection_date": "10/10/2025",
+        "inspection_date_iso": "2025-10-10",
+        "inspection_identity": "PR0038654|99909",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-7374582545b9",
+        "red_points": 60,
+        "repeat_red_points": 65,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0038654&InspId=99909",
+        "source": "TPCHD Accela",
+        "total_points": 25,
+        "zip": "98498"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.565957,
+          47.1532485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "11509 Holden Rd SW Lakewood WA 98498 United States",
+        "business_name": "THOMAS MIDDLE SCHOOL",
+        "city": "Lakewood",
+        "date": "2025-10-10",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0037017&LicenseeType=Food+Facility",
+        "facility_id": "PR0037017",
+        "geocode_status": "ok",
+        "inspection_date": "10/10/2025",
+        "inspection_date_iso": "2025-10-10",
+        "inspection_identity": "PR0037017|552180",
+        "inspection_result": "A Reinspection is Required & Compliance Order Issued",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-17a435c01b12",
+        "red_points": 45,
+        "repeat_red_points": 50,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0037017&InspId=552180",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98498"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.437772,
+          47.14635699999999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "411 Garfield ST S Tacoma WA 98444 United States",
+        "business_name": "HERNANDEZ MEXICAN BAR AND GRILL",
+        "city": "Tacoma",
+        "date": "2025-09-26",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0040797&LicenseeType=Food+Facility",
+        "facility_id": "PR0040797",
+        "geocode_status": "ok",
+        "inspection_date": "09/26/2025",
+        "inspection_date_iso": "2025-09-26",
+        "inspection_identity": "PR0040797|298042",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-e46f2f541b5b",
+        "red_points": 75,
+        "repeat_red_points": 75,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0040797&InspId=298042",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98444"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5064691,
+          47.2070231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "5510 Orchard ST W STE B-3 University Place WA 98467",
+        "business_name": "RED WAGON NO6",
+        "city": "University Place",
+        "date": "2025-09-25",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=FEP2025-00019&LicenseeType=Food+Facility",
+        "facility_id": "FEP2025-00019",
+        "geocode_status": "ok",
+        "inspection_date": "09/25/2025",
+        "inspection_date_iso": "2025-09-25",
+        "inspection_identity": "FEP2025-00019|655137",
+        "inspection_result": "Compliance Order Issued",
+        "inspection_type": "Other Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-b818e9d3413d",
+        "red_points": 58,
+        "repeat_red_points": 57,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=FEP2025-00019&InspId=655137",
+        "source": "TPCHD Accela",
+        "total_points": 65513712,
+        "zip": "98467"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5563389,
+          47.24388339999999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "9001 S 19th ST Tacoma WA 98466 United States",
+        "business_name": "ANTHONY'S BOATHOUSE",
+        "city": "Tacoma",
+        "date": "2025-08-15",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0038203&LicenseeType=Food+Facility",
+        "facility_id": "PR0038203",
+        "geocode_status": "ok",
+        "inspection_date": "08/15/2025",
+        "inspection_date_iso": "2025-08-15",
+        "inspection_identity": "PR0038203|332247",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-ece1ceeeba79",
+        "red_points": 50,
+        "repeat_red_points": 50,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0038203&InspId=332247",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98466"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5518983,
+          47.1224732
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "14909 Union AVE SW Lakewood WA 98498 United States",
+        "business_name": "DULCE TENTACION",
+        "city": "Lakewood",
+        "date": "2025-08-13",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0039572&LicenseeType=Food+Facility",
+        "facility_id": "PR0039572",
+        "geocode_status": "ok",
+        "inspection_date": "08/13/2025",
+        "inspection_date_iso": "2025-08-13",
+        "inspection_identity": "PR0039572|298065",
+        "inspection_result": "FSE is Closed Until Approved to Reopen by TPCHD & Pre-opening Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-aa4a6316039a",
+        "red_points": 75,
+        "repeat_red_points": 80,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0039572&InspId=298065",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98498"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4833047,
+          47.1735459
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "9205 South Tacoma Way STE 101 Lakewood WA 98499 United States",
+        "business_name": "LA MICHOACANA ICE CREAM AND MARKET - DELI",
+        "city": "Lakewood",
+        "date": "2025-08-04",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0039539&LicenseeType=Food+Facility",
+        "facility_id": "PR0039539",
+        "geocode_status": "ok",
+        "inspection_date": "08/04/2025",
+        "inspection_date_iso": "2025-08-04",
+        "inspection_identity": "PR0039539|480645",
+        "inspection_result": "A Reinspection is Required",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-22cd007288a0",
+        "red_points": 45,
+        "repeat_red_points": 45,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0039539&InspId=480645",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98499"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5545976,
+          47.1208575
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "15201 Union AVE SW Lakewood WA 98498 United States",
+        "business_name": "POPEYES #11709",
+        "city": "Lakewood",
+        "date": "2025-07-30",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0036973&LicenseeType=Food+Facility",
+        "facility_id": "PR0036973",
+        "geocode_status": "ok",
+        "inspection_date": "07/30/2025",
+        "inspection_date_iso": "2025-07-30",
+        "inspection_identity": "PR0036973|383640",
+        "inspection_result": "A Reinspection is Required & Compliance Order Issued",
+        "inspection_type": "Routine Inspection",
+        "inspection_year": "2025",
+        "record_id": "tpchd-ecb7c75d9154",
+        "red_points": 45,
+        "repeat_red_points": 57,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0036973&InspId=383640",
+        "source": "TPCHD Accela",
+        "total_points": 0,
+        "zip": "98498"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "available_years": [
+      "2025"
+    ],
+    "data_version": "20260521204633Z",
+    "features_total": 20,
+    "generated_at": "2026-05-21T20:46:33Z",
+    "privacy": {
+      "excludes": [
+        "Google Sheet IDs",
+        "Gmail recipients",
+        "raw PDF text",
+        "raw scraper payloads",
+        "internal notes",
+        "local paths"
+      ],
+      "public_fields_only": true
+    },
+    "project": "tpchd-restaurant-inspections",
+    "records_total": 81,
+    "red_point_threshold": 35,
+    "schema_version": 1,
+    "scope": "year:2025",
+    "source": "TPCHD Accela food-facility inspection reports",
+    "threshold_label": "more than 35 red points",
+    "title": "Tacoma-Pierce County restaurant inspections over 35 red points",
+    "unmapped_records": 0,
+    "unmapped_records_by_reason": {}
+  },
+  "type": "FeatureCollection"
+}
