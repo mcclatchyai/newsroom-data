@@ -4,7 +4,7 @@
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "data_version": "20260521204633Z",
+  "data_version": "20260522222013Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
@@ -16,10 +16,10 @@
     "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview.html",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/latest.geojson",
     "run_previews": {
-      "sample-current-newsworthy-2026-05-21": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/sample-current-newsworthy-2026-05-21/preview.html"
+      "sample-copy-2026-05-06-to-2026-05-20": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/sample-copy-2026-05-06-to-2026-05-20/preview.html"
     },
     "runs": {
-      "sample-current-newsworthy-2026-05-21": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/sample-current-newsworthy-2026-05-21.geojson"
+      "sample-copy-2026-05-06-to-2026-05-20": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/sample-copy-2026-05-06-to-2026-05-20.geojson"
     }
   },
   "environment": "testing",
@@ -33,11 +33,11 @@
     "evergreen_preview": "embed/evergreen/preview.html",
     "latest": "latest.geojson",
     "runs": {
-      "sample-current-newsworthy-2026-05-21": "runs/sample-current-newsworthy-2026-05-21.geojson"
+      "sample-copy-2026-05-06-to-2026-05-20": "runs/sample-copy-2026-05-06-to-2026-05-20.geojson"
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-21T20:46:33Z",
+  "generated_at": "2026-05-22T22:20:13Z",
   "privacy": {
     "excludes": [
       "Google Sheet IDs",
@@ -79,7 +79,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-21T21:01:33Z",
+  "stale_after": "2026-05-22T22:35:13Z",
   "threshold_label": "more than 35 red points",
   "title": "Tacoma-Pierce County restaurant inspections over 35 red points",
   "unmapped_records": 0,
