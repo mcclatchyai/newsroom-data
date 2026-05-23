@@ -4,7 +4,7 @@
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "data_version": "20260522222013Z",
+  "data_version": "20260522235411Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
@@ -37,7 +37,7 @@
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-22T22:20:13Z",
+  "generated_at": "2026-05-22T23:54:11Z",
   "privacy": {
     "excludes": [
       "Google Sheet IDs",
@@ -79,7 +79,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-22T22:35:13Z",
+  "stale_after": "2026-05-23T00:09:11Z",
   "threshold_label": "more than 35 red points",
   "title": "Tacoma-Pierce County restaurant inspections over 35 red points",
   "unmapped_records": 0,
