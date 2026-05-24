@@ -35,6 +35,11 @@
     .tpchd-map__fact { border: 1px solid #d8dee6; background: #f7f9fb; padding: 7px 9px; min-width: 96px; }
     .tpchd-map__fact strong { display: block; font-size: 17px; line-height: 1.1; color: #111827; }
     .tpchd-map__fact span { display: block; font-size: 11px; line-height: 1.2; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; margin-top: 2px; }
+    .tpchd-map__legend { align-items: center; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
+    .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
+    .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
+    .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
     .tpchd-map__controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; align-items: end; }
     .tpchd-map__group { display: grid; gap: 4px; font-size: 12px; font-weight: 800; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; }
     .tpchd-map__group select, .tpchd-map__group input { min-height: 38px; border: 1px solid #c8d1dc; padding: 6px 8px; font: 14px/1.2 Arial, Helvetica, sans-serif; color: #1f2a36; background: #fff; min-width: 130px; }
@@ -44,6 +49,10 @@
     .tpchd-map__interaction, .tpchd-map__done { display: none; }
     .tpchd-map__status { font-size: 13px; line-height: 1.4; color: #34465a; min-height: 18px; margin-top: 8px; }
     .tpchd-map__source { font-size: 12px; line-height: 1.35; color: #5a6877; margin-top: 8px; }
+    .tpchd-map__data-link { color: #0b5d7e; font-weight: 800; }
+    .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
+    .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
+    .tpchd-map-marker__shape span { transform: rotate(-45deg); }
     .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
     @media (max-width: 640px) {
       .tpchd-map__title { font-size: 20px; }
@@ -64,14 +73,20 @@
     &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;max-red&quot;&gt;0&lt;/strong&gt;&lt;span&gt;max red points&lt;/span&gt;&lt;/div&gt;
     &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;window&quot;&gt;Loading&lt;/strong&gt;&lt;span&gt;dates&lt;/span&gt;&lt;/div&gt;
   &lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__legend&quot; aria-label=&quot;Map legend&quot;&gt;
+    &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Symbol&lt;/span&gt;
+    &lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;More than 35 red points&lt;/span&gt;
+  &lt;/div&gt;
   
   &lt;div class=&quot;tpchd-map__stage&quot;&gt;
-    &lt;div class=&quot;tpchd-map__canvas&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;tpchd-map__canvas&quot; aria-label=&quot;Interactive map of TPCHD restaurant inspections with more than 35 red points&quot;&gt;&lt;/div&gt;
     &lt;button type=&quot;button&quot; class=&quot;tpchd-map__interaction&quot; data-role=&quot;interaction-overlay&quot;&gt;Tap to explore the map. Use Done when you want to keep scrolling.&lt;/button&gt;
     &lt;button type=&quot;button&quot; class=&quot;tpchd-map__done&quot; data-role=&quot;interaction-done&quot;&gt;Done&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&quot;tpchd-map__status&quot;&gt;Loading inspection map...&lt;/div&gt;
-  &lt;div class=&quot;tpchd-map__source&quot;&gt;Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;source-note&quot;&gt;Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs. Locations are reviewed facility-address geocodes. This map shows records over the threshold and does not represent neighborhood-level health risk.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;coverage-note&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot;&gt;&lt;a class=&quot;tpchd-map__data-link&quot; data-role=&quot;data-link&quot; href=&quot;#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; hidden&gt;Download map data (GeoJSON)&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script src=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -92,9 +107,12 @@
   var nearMe = wrapper.querySelector(&#x27;[data-role=&quot;near-me&quot;]&#x27;);
   var overlay = wrapper.querySelector(&#x27;[data-role=&quot;interaction-overlay&quot;]&#x27;);
   var done = wrapper.querySelector(&#x27;[data-role=&quot;interaction-done&quot;]&#x27;);
+  var coverageNote = wrapper.querySelector(&#x27;[data-role=&quot;coverage-note&quot;]&#x27;);
+  var dataLink = wrapper.querySelector(&#x27;[data-role=&quot;data-link&quot;]&#x27;);
   var map;
   var layer;
   var allFeatures = [];
+  var activeMetadata = {};
   var userLocation = null;
   function esc(value) {
     return String(value || &quot;&quot;).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function (ch) {
@@ -129,10 +147,20 @@
     if (!dates.length) return &quot;No dates&quot;;
     return dates[0] === dates[dates.length - 1] ? dates[0] : dates[0] + &quot; to &quot; + dates[dates.length - 1];
   }
-  function markerStyle(feature) {
-    var red = redPoints(feature);
-    var color = red &gt;= 75 ? &quot;#8c1d18&quot; : red &gt;= 50 ? &quot;#c4462d&quot; : &quot;#e28a25&quot;;
-    return { radius: Math.max(6, Math.min(14, Math.round(red / 7))), color: &quot;#fff&quot;, weight: 1.5, fillColor: color, fillOpacity: 0.88 };
+  function markerTitle(feature) {
+    var p = feature.properties || {};
+    var name = p.business_name || &quot;TPCHD inspection&quot;;
+    var date = p.inspection_date || &quot;&quot;;
+    return name + &quot;, &quot; + redPoints(feature) + &quot; red points&quot; + (date ? &quot;, inspected &quot; + date : &quot;&quot;);
+  }
+  function markerIcon() {
+    return L.divIcon({
+      className: &quot;tpchd-map-marker&quot;,
+      html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;&#x27;,
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12]
+    });
   }
   function popupHtml(feature) {
     var p = feature.properties || {};
@@ -182,7 +210,10 @@
     if (!map) return;
     if (layer) map.removeLayer(layer);
     layer = L.geoJSON({ type: &quot;FeatureCollection&quot;, features: features }, {
-      pointToLayer: function (feature, latlng) { return L.circleMarker(latlng, markerStyle(feature)); },
+      pointToLayer: function (feature, latlng) {
+        var title = markerTitle(feature);
+        return L.marker(latlng, { icon: markerIcon(), title: title, alt: title, keyboard: true });
+      },
       onEachFeature: function (feature, marker) { marker.bindPopup(popupHtml(feature)); }
     }).addTo(map);
     if (features.length) {
@@ -193,8 +224,25 @@
     setFact(shown, features.length);
     setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
     if (windowFact) windowFact.textContent = dateLabel(features);
-    setStatus(features.length ? &quot;Showing &quot; + features.length + &quot; inspection locations.&quot; : &quot;No mapped inspections match the current filters.&quot;);
+    setStatus(features.length ? &quot;Showing &quot; + features.length + &quot; over-threshold inspection locations.&quot; : &quot;No mapped inspections match the current filters.&quot;);
     setTimeout(function () { map.invalidateSize({ pan: false }); }, 120);
+  }
+  function updateCoverage(metadata, dataFileUrl) {
+    activeMetadata = metadata || {};
+    var unmapped = Number(activeMetadata.unmapped_records || 0);
+    var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
+    var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
+    var parts = [];
+    parts.push(&quot;Map layer includes geocoded inspections with more than 35 red points.&quot;);
+    if (unmapped) parts.push(unmapped + &quot; over-threshold record&quot; + (unmapped === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; not mapped because reviewed coordinates were unavailable.&quot;);
+    if (excluded) parts.push(excluded + &quot; parsed inspection&quot; + (excluded === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; at or below the threshold and not drawn on this map.&quot;);
+    if (unparsed) parts.push(unparsed + &quot; row&quot; + (unparsed === 1 ? &quot; lacks&quot; : &quot;s lack&quot;) + &quot; parsed red-point totals and is not treated as zero.&quot;);
+    parts.push(&quot;Spatial coincidence on this map should not be read as neighborhood-level health risk.&quot;);
+    if (coverageNote) coverageNote.textContent = parts.join(&quot; &quot;);
+    if (dataLink &amp;&amp; dataFileUrl) {
+      dataLink.href = dataFileUrl;
+      dataLink.hidden = false;
+    }
   }
   function applyFilters() {
     var year = yearControl ? yearControl.value : &quot;all&quot;;
@@ -263,15 +311,22 @@
         return r.json();
       }).then(function (manifest) {
         var latest = manifest.entrypoints &amp;&amp; manifest.entrypoints.latest || manifest.files &amp;&amp; manifest.files.latest || &quot;latest.geojson&quot;;
-        return fetch(resolveUrl(latest, dataUrl)).then(function (r) {
+        var latestUrl = resolveUrl(latest, dataUrl);
+        return fetch(latestUrl).then(function (r) {
           if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
           return r.json();
+        }).then(function (geojson) {
+          geojson.__data_url = latestUrl;
+          return geojson;
         });
       });
     }
     return fetch(dataUrl).then(function (r) {
       if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
       return r.json();
+    }).then(function (geojson) {
+      geojson.__data_url = dataUrl;
+      return geojson;
     });
   }
   if (!initMap()) return;
@@ -280,6 +335,7 @@
     allFeatures = (geojson.features || []).filter(function (feature) {
       return feature &amp;&amp; feature.geometry &amp;&amp; feature.geometry.type === &quot;Point&quot;;
     });
+    updateCoverage(geojson.metadata || {}, geojson.__data_url || dataUrl);
     populateControls(geojson);
     applyFilters();
   }).catch(function (err) {
@@ -300,6 +356,11 @@
     .tpchd-map__fact { border: 1px solid #d8dee6; background: #f7f9fb; padding: 7px 9px; min-width: 96px; }
     .tpchd-map__fact strong { display: block; font-size: 17px; line-height: 1.1; color: #111827; }
     .tpchd-map__fact span { display: block; font-size: 11px; line-height: 1.2; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; margin-top: 2px; }
+    .tpchd-map__legend { align-items: center; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
+    .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
+    .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
+    .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
     .tpchd-map__controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; align-items: end; }
     .tpchd-map__group { display: grid; gap: 4px; font-size: 12px; font-weight: 800; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; }
     .tpchd-map__group select, .tpchd-map__group input { min-height: 38px; border: 1px solid #c8d1dc; padding: 6px 8px; font: 14px/1.2 Arial, Helvetica, sans-serif; color: #1f2a36; background: #fff; min-width: 130px; }
@@ -309,6 +370,10 @@
     .tpchd-map__interaction, .tpchd-map__done { display: none; }
     .tpchd-map__status { font-size: 13px; line-height: 1.4; color: #34465a; min-height: 18px; margin-top: 8px; }
     .tpchd-map__source { font-size: 12px; line-height: 1.35; color: #5a6877; margin-top: 8px; }
+    .tpchd-map__data-link { color: #0b5d7e; font-weight: 800; }
+    .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
+    .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
+    .tpchd-map-marker__shape span { transform: rotate(-45deg); }
     .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
     @media (max-width: 640px) {
       .tpchd-map__title { font-size: 20px; }
@@ -329,14 +394,20 @@
     <div class="tpchd-map__fact"><strong data-role="max-red">0</strong><span>max red points</span></div>
     <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>dates</span></div>
   </div>
+  <div class="tpchd-map__legend" aria-label="Map legend">
+    <span class="tpchd-map__legend-title">Symbol</span>
+    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" aria-hidden="true"><span>!</span></span>More than 35 red points</span>
+  </div>
   
   <div class="tpchd-map__stage">
-    <div class="tpchd-map__canvas"></div>
+    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections with more than 35 red points"></div>
     <button type="button" class="tpchd-map__interaction" data-role="interaction-overlay">Tap to explore the map. Use Done when you want to keep scrolling.</button>
     <button type="button" class="tpchd-map__done" data-role="interaction-done">Done</button>
   </div>
   <div class="tpchd-map__status">Loading inspection map...</div>
-  <div class="tpchd-map__source">Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs.</div>
+  <div class="tpchd-map__source" data-role="source-note">Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs. Locations are reviewed facility-address geocodes. This map shows records over the threshold and does not represent neighborhood-level health risk.</div>
+  <div class="tpchd-map__source" data-role="coverage-note"></div>
+  <div class="tpchd-map__source"><a class="tpchd-map__data-link" data-role="data-link" href="#" target="_blank" rel="noopener" hidden>Download map data (GeoJSON)</a></div>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -357,9 +428,12 @@
   var nearMe = wrapper.querySelector('[data-role="near-me"]');
   var overlay = wrapper.querySelector('[data-role="interaction-overlay"]');
   var done = wrapper.querySelector('[data-role="interaction-done"]');
+  var coverageNote = wrapper.querySelector('[data-role="coverage-note"]');
+  var dataLink = wrapper.querySelector('[data-role="data-link"]');
   var map;
   var layer;
   var allFeatures = [];
+  var activeMetadata = {};
   var userLocation = null;
   function esc(value) {
     return String(value || "").replace(/[&<>"']/g, function (ch) {
@@ -394,10 +468,20 @@
     if (!dates.length) return "No dates";
     return dates[0] === dates[dates.length - 1] ? dates[0] : dates[0] + " to " + dates[dates.length - 1];
   }
-  function markerStyle(feature) {
-    var red = redPoints(feature);
-    var color = red >= 75 ? "#8c1d18" : red >= 50 ? "#c4462d" : "#e28a25";
-    return { radius: Math.max(6, Math.min(14, Math.round(red / 7))), color: "#fff", weight: 1.5, fillColor: color, fillOpacity: 0.88 };
+  function markerTitle(feature) {
+    var p = feature.properties || {};
+    var name = p.business_name || "TPCHD inspection";
+    var date = p.inspection_date || "";
+    return name + ", " + redPoints(feature) + " red points" + (date ? ", inspected " + date : "");
+  }
+  function markerIcon() {
+    return L.divIcon({
+      className: "tpchd-map-marker",
+      html: '<span class="tpchd-map-marker__shape" aria-hidden="true"><span>!</span></span>',
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12]
+    });
   }
   function popupHtml(feature) {
     var p = feature.properties || {};
@@ -447,7 +531,10 @@
     if (!map) return;
     if (layer) map.removeLayer(layer);
     layer = L.geoJSON({ type: "FeatureCollection", features: features }, {
-      pointToLayer: function (feature, latlng) { return L.circleMarker(latlng, markerStyle(feature)); },
+      pointToLayer: function (feature, latlng) {
+        var title = markerTitle(feature);
+        return L.marker(latlng, { icon: markerIcon(), title: title, alt: title, keyboard: true });
+      },
       onEachFeature: function (feature, marker) { marker.bindPopup(popupHtml(feature)); }
     }).addTo(map);
     if (features.length) {
@@ -458,8 +545,25 @@
     setFact(shown, features.length);
     setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
     if (windowFact) windowFact.textContent = dateLabel(features);
-    setStatus(features.length ? "Showing " + features.length + " inspection locations." : "No mapped inspections match the current filters.");
+    setStatus(features.length ? "Showing " + features.length + " over-threshold inspection locations." : "No mapped inspections match the current filters.");
     setTimeout(function () { map.invalidateSize({ pan: false }); }, 120);
+  }
+  function updateCoverage(metadata, dataFileUrl) {
+    activeMetadata = metadata || {};
+    var unmapped = Number(activeMetadata.unmapped_records || 0);
+    var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
+    var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
+    var parts = [];
+    parts.push("Map layer includes geocoded inspections with more than 35 red points.");
+    if (unmapped) parts.push(unmapped + " over-threshold record" + (unmapped === 1 ? " is" : "s are") + " not mapped because reviewed coordinates were unavailable.");
+    if (excluded) parts.push(excluded + " parsed inspection" + (excluded === 1 ? " is" : "s are") + " at or below the threshold and not drawn on this map.");
+    if (unparsed) parts.push(unparsed + " row" + (unparsed === 1 ? " lacks" : "s lack") + " parsed red-point totals and is not treated as zero.");
+    parts.push("Spatial coincidence on this map should not be read as neighborhood-level health risk.");
+    if (coverageNote) coverageNote.textContent = parts.join(" ");
+    if (dataLink && dataFileUrl) {
+      dataLink.href = dataFileUrl;
+      dataLink.hidden = false;
+    }
   }
   function applyFilters() {
     var year = yearControl ? yearControl.value : "all";
@@ -528,15 +632,22 @@
         return r.json();
       }).then(function (manifest) {
         var latest = manifest.entrypoints && manifest.entrypoints.latest || manifest.files && manifest.files.latest || "latest.geojson";
-        return fetch(resolveUrl(latest, dataUrl)).then(function (r) {
+        var latestUrl = resolveUrl(latest, dataUrl);
+        return fetch(latestUrl).then(function (r) {
           if (!r.ok) throw new Error("HTTP " + r.status);
           return r.json();
+        }).then(function (geojson) {
+          geojson.__data_url = latestUrl;
+          return geojson;
         });
       });
     }
     return fetch(dataUrl).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
+    }).then(function (geojson) {
+      geojson.__data_url = dataUrl;
+      return geojson;
     });
   }
   if (!initMap()) return;
@@ -545,6 +656,7 @@
     allFeatures = (geojson.features || []).filter(function (feature) {
       return feature && feature.geometry && feature.geometry.type === "Point";
     });
+    updateCoverage(geojson.metadata || {}, geojson.__data_url || dataUrl);
     populateControls(geojson);
     applyFilters();
   }).catch(function (err) {

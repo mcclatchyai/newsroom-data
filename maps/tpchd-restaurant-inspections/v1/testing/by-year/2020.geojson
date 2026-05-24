@@ -1,0 +1,61 @@
+{
+  "features": [],
+  "metadata": {
+    "available_years": [
+      "2020"
+    ],
+    "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
+    "data_universe": "Scraper-observed TPCHD Accela food-facility inspection records with parsed PDF reports; this public map layer includes only records over the red-point threshold.",
+    "data_version": "20260524195650Z",
+    "features_total": 0,
+    "freshness_note": "Generated from the latest TPCHD scraper/publication run.",
+    "generated_at": "2026-05-24T19:56:50Z",
+    "geometry_precision": "reviewed facility address geocode",
+    "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
+    "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
+    "map_type": "point_symbol",
+    "privacy": {
+      "excludes": [
+        "Google Sheet IDs",
+        "Gmail recipients",
+        "raw PDF text",
+        "raw scraper payloads",
+        "internal notes",
+        "local paths"
+      ],
+      "public_fields_only": true,
+      "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
+    },
+    "project": "tpchd-restaurant-inspections",
+    "records_above_threshold": 1374,
+    "records_excluded_by_threshold": 0,
+    "records_excluded_unparsed": 0,
+    "records_total": 1374,
+    "red_point_threshold": 35,
+    "schema_version": 1,
+    "scope": "year:2020",
+    "source": "TPCHD Accela food-facility inspection reports",
+    "source_note": "Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs.",
+    "symbology": {
+      "categories": [
+        {
+          "color": "#b61f2d",
+          "icon": "exclamation",
+          "id": "over_threshold",
+          "label": "More than 35 red points",
+          "shape": "diamond",
+          "stroke": "#ffffff"
+        }
+      ],
+      "note": "Over-threshold inspections are encoded with color plus a diamond/exclamation symbol; marker size does not encode red-point severity."
+    },
+    "threshold_label": "More than 35 red points",
+    "threshold_rule": "red_points > 35",
+    "title": "Tacoma-Pierce County restaurant inspections with more than 35 red points",
+    "unmapped_records": 1284,
+    "unmapped_records_by_reason": {
+      "missing_coordinates": 1284
+    }
+  },
+  "type": "FeatureCollection"
+}

@@ -1,14 +1,27 @@
 {
   "available_years": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
     "2025",
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "data_version": "20260522235411Z",
+  "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
+  "data_version": "20260524195650Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
     "by_year": {
+      "2019": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2019.geojson",
+      "2020": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2020.geojson",
+      "2021": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2021.geojson",
+      "2022": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2022.geojson",
+      "2023": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2023.geojson",
+      "2024": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2024.geojson",
       "2025": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2025.geojson",
       "2026": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2026.geojson"
     },
@@ -23,9 +36,15 @@
     }
   },
   "environment": "testing",
-  "features_total": 81,
+  "features_total": 90,
   "files": {
     "by_year": {
+      "2019": "by-year/2019.geojson",
+      "2020": "by-year/2020.geojson",
+      "2021": "by-year/2021.geojson",
+      "2022": "by-year/2022.geojson",
+      "2023": "by-year/2023.geojson",
+      "2024": "by-year/2024.geojson",
       "2025": "by-year/2025.geojson",
       "2026": "by-year/2026.geojson"
     },
@@ -37,7 +56,10 @@
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-22T23:54:11Z",
+  "generated_at": "2026-05-24T19:56:50Z",
+  "geometry_precision": "reviewed facility address geocode",
+  "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
+  "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
   "privacy": {
     "excludes": [
       "Google Sheet IDs",
@@ -47,10 +69,14 @@
       "internal notes",
       "local paths"
     ],
-    "public_fields_only": true
+    "public_fields_only": true,
+    "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
   },
   "project": "tpchd-restaurant-inspections",
-  "records_total": 81,
+  "records_above_threshold": 1374,
+  "records_excluded_by_threshold": 0,
+  "records_excluded_unparsed": 0,
+  "records_total": 1374,
   "red_point_threshold": 35,
   "schema": {
     "geometry": "Point coordinates from reviewed geocodes of TPCHD facility addresses.",
@@ -79,9 +105,25 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-23T00:09:11Z",
-  "threshold_label": "more than 35 red points",
-  "title": "Tacoma-Pierce County restaurant inspections over 35 red points",
-  "unmapped_records": 0,
-  "unmapped_records_by_reason": {}
+  "stale_after": "2026-05-24T20:11:50Z",
+  "symbology": {
+    "categories": [
+      {
+        "color": "#b61f2d",
+        "icon": "exclamation",
+        "id": "over_threshold",
+        "label": "More than 35 red points",
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      }
+    ],
+    "note": "Over-threshold inspections are encoded with color plus a diamond/exclamation symbol; marker size does not encode red-point severity."
+  },
+  "threshold_label": "More than 35 red points",
+  "threshold_rule": "red_points > 35",
+  "title": "Tacoma-Pierce County restaurant inspections with more than 35 red points",
+  "unmapped_records": 1284,
+  "unmapped_records_by_reason": {
+    "missing_coordinates": 1284
+  }
 }
