@@ -40,7 +40,7 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-embed&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-transaction-id=&quot;d1212519d4b070ac&quot; data-ptr-filing-id=&quot;20033789&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/d1/21/d1212519d4b070ac.json&quot; data-ptr-filing-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033789.json&quot; data-ptr-data-version=&quot;fort-worth-testing-20260526T000000Z&quot;&gt;
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-embed&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-transaction-id=&quot;d1212519d4b070ac&quot; data-ptr-filing-id=&quot;20033789&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/d1/21/d1212519d4b070ac.json&quot; data-ptr-filing-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033789.json&quot; data-ptr-data-version=&quot;fort-worth-enriched-testing-20260526T211544Z&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-embed { --ink: #18212b; --muted: #65717d; --paper: #f7f1e6; --card: #fffaf1; --line: #dbcdb7; --navy: #243f5a; --rust: #b8412e; --green: #265d43; --gold: #c4923f; color: var(--ink); font-family: &quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; margin: 24px 0; max-width: 100%; min-width: 0; }
     .mcc-ptr-embed * { box-sizing: border-box; }
@@ -75,6 +75,10 @@
     .mcc-ptr-embed .market-readout { margin: 0 0 18px; padding: 18px; border-radius: 18px; background: #f0e1c6; border: 1px solid #d4b982; }
     .mcc-ptr-embed .market-readout p { margin: 0 0 12px; font-size: 16px; line-height: 1.45; }
     .mcc-ptr-embed .market-readout p:last-child { margin-bottom: 0; }
+    .mcc-ptr-embed .story-hook { padding: 18px; border-radius: 18px; background: #f0e1c6; border: 1px solid #d4b982; }
+    .mcc-ptr-embed .story-hook h3 { color: var(--ink); font-size: 22px; line-height: 1.1; text-transform: none; letter-spacing: 0; }
+    .mcc-ptr-embed .story-hook details { margin: 10px 0; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: #fffdf8; }
+    .mcc-ptr-embed .story-hook summary { cursor: pointer; font-weight: 900; color: var(--navy); }
     .mcc-ptr-embed .market-note { color: #5a4a32; font-size: 14px !important; }
     .mcc-ptr-embed .source-meta, .mcc-ptr-embed .source-note { display: block; color: var(--muted); font-size: 13px; margin-top: 3px; }
     .mcc-ptr-embed .source-note { color: #5a4a32; }
@@ -343,6 +347,31 @@
       }).join(&quot;&quot;);
       return &#x27;&lt;div class=&quot;news-context&quot;&gt;&lt;p&gt;&lt;strong&gt;Query:&lt;/strong&gt; &#x27; + esc(news.query || &quot;-&quot;) + &#x27;&lt;/p&gt;&lt;ul&gt;&#x27; + items + &#x27;&lt;/ul&gt;&lt;p class=&quot;market-note&quot;&gt;&#x27; + esc(news.reporter_note || &quot;Review these links before using them in a story.&quot;) + &quot;&lt;/p&gt;&lt;/div&gt;&quot;;
     }
+    function storyHook(payload) {
+      var candidate = payload &amp;&amp; payload.insight_candidate &amp;&amp; typeof payload.insight_candidate === &quot;object&quot; ? payload.insight_candidate : {};
+      if (!Object.keys(candidate).length) {
+        return &#x27;&lt;div class=&quot;empty-state&quot;&gt;&lt;strong&gt;No story hook generated.&lt;/strong&gt;&lt;p&gt;The trade JSON does not include an insight candidate yet.&lt;/p&gt;&lt;/div&gt;&#x27;;
+      }
+      var starter = candidate.article_starter &amp;&amp; typeof candidate.article_starter === &quot;object&quot; ? candidate.article_starter : {};
+      var market = candidate.market_context &amp;&amp; typeof candidate.market_context === &quot;object&quot; ? candidate.market_context : {};
+      var news = candidate.news_context &amp;&amp; typeof candidate.news_context === &quot;object&quot; ? candidate.news_context : {};
+      var checks = Array.isArray(candidate.reporter_checks) ? candidate.reporter_checks.slice(0, 5) : [];
+      var reasons = Array.isArray(candidate.score_reasons) ? candidate.score_reasons.slice(0, 5) : [];
+      var checksHtml = checks.length ? checks.map(function (item) { return &quot;&lt;li&gt;&quot; + esc(item) + &quot;&lt;/li&gt;&quot;; }).join(&quot;&quot;) : &quot;&lt;li&gt;Confirm the source disclosure PDF.&lt;/li&gt;&quot;;
+      var reasonsHtml = reasons.length ? reasons.map(function (item) { return &quot;&lt;li&gt;&quot; + esc(item) + &quot;&lt;/li&gt;&quot;; }).join(&quot;&quot;) : &quot;&lt;li&gt;No scoring reasons exported.&lt;/li&gt;&quot;;
+      return &#x27;&lt;div class=&quot;story-hook&quot;&gt;&#x27;
+        + &#x27;&lt;div&gt;&lt;p class=&quot;eyebrow&quot;&gt;Automated reporter lead | Score &#x27; + esc(candidate.score || 0) + &#x27;&lt;/p&gt;&lt;h3&gt;&#x27; + esc(candidate.headline || &quot;Story hook&quot;) + &#x27;&lt;/h3&gt;&lt;p&gt;&#x27; + esc(candidate.dek || starter.lede || candidate.grounded_summary || &quot;&quot;) + &quot;&lt;/p&gt;&lt;/div&gt;&quot;
+        + &#x27;&lt;div class=&quot;return-grid&quot;&gt;&#x27;
+        + field(&quot;Trade to filing&quot;, pct(market.percent_change_trade_to_filing))
+        + field(&quot;Trade to latest&quot;, pct(market.percent_change_trade_to_latest))
+        + field(&quot;News links&quot;, news.result_count !== undefined ? news.result_count : &quot;-&quot;)
+        + &quot;&lt;/div&gt;&quot;
+        + &#x27;&lt;details open&gt;&lt;summary&gt;Grounded starter&lt;/summary&gt;&lt;p&gt;&#x27; + esc(candidate.grounded_summary || starter.lede || &quot;&quot;) + &quot;&lt;/p&gt;&lt;/details&gt;&quot;
+        + &#x27;&lt;details&gt;&lt;summary&gt;Why it surfaced&lt;/summary&gt;&lt;ul&gt;&#x27; + reasonsHtml + &quot;&lt;/ul&gt;&lt;/details&gt;&quot;
+        + &#x27;&lt;details&gt;&lt;summary&gt;Reporter checks&lt;/summary&gt;&lt;ul&gt;&#x27; + checksHtml + &quot;&lt;/ul&gt;&lt;/details&gt;&quot;
+        + &#x27;&lt;p class=&quot;market-note&quot;&gt;This is a lead-generation frame, not publication-ready copy.&lt;/p&gt;&#x27;
+        + &quot;&lt;/div&gt;&quot;;
+    }
     function evidenceContext(evidence) {
       evidence = evidence &amp;&amp; typeof evidence === &quot;object&quot; ? evidence : {};
       if (!Object.keys(evidence).length) return &#x27;&lt;div class=&quot;empty-state&quot;&gt;&lt;strong&gt;Evidence context unavailable.&lt;/strong&gt;&lt;p&gt;No evidence context was exported for this trade.&lt;/p&gt;&lt;/div&gt;&#x27;;
@@ -401,6 +430,7 @@
         + &#x27;&lt;section class=&quot;lede-card&quot;&gt;&lt;p class=&quot;eyebrow&quot;&gt;PTR trade detail | Filing #&#x27; + esc(filingId) + &#x27;&lt;/p&gt;&lt;h1&gt;&#x27; + esc(title) + &#x27;&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;badge &#x27; + esc(actionType(action)) + &#x27;&quot;&gt;&#x27; + esc(action) + &quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&quot; + esc(tx.issuer_name || &quot;Issuer not listed&quot;) + (ticker ? &quot; (&quot; + esc(ticker) + &quot;)&quot; : &quot;&quot;) + &quot;&lt;/p&gt;&quot; + sourceQuote + link(pdfUrl, &quot;Open source disclosure PDF&quot;) + &quot;&lt;/section&gt;&quot;
         + &#x27;&lt;aside class=&quot;side-card lede-card&quot;&gt;&lt;p class=&quot;eyebrow&quot;&gt;Reported by&lt;/p&gt;&lt;h2&gt;&#x27; + esc(tx.member_name || filing.member_name || &quot;Unknown filer&quot;) + &#x27;&lt;/h2&gt;&lt;div class=&quot;metrics&quot;&gt;&#x27; + field(&quot;State&quot;, tx.state || filing.state) + field(&quot;District&quot;, tx.district || filing.district) + field(&quot;Ticker&quot;, tx.ticker) + field(&quot;Trade ID&quot;, txId) + &quot;&lt;/div&gt;&lt;/aside&gt;&quot;
         + &#x27;&lt;/header&gt;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Trade card&lt;/h2&gt;&lt;div class=&quot;metrics&quot;&gt;&#x27; + metrics + &quot;&lt;/div&gt;&lt;/section&gt;&quot;
+        + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Story hook for reporters&lt;/h2&gt;&#x27; + storyHook(payload) + &quot;&lt;/section&gt;&quot;
         + renderChart(market, tx)
         + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Top news/event links to check&lt;/h2&gt;&#x27; + newsContext(payload.news_context) + &quot;&lt;/section&gt;&quot;
         + &#x27;&lt;section class=&quot;panel&quot;&gt;&lt;h2&gt;Same filing&lt;/h2&gt;&#x27; + sameFilingTable(filingPayload || {}, txId) + &quot;&lt;/section&gt;&quot;
@@ -464,7 +494,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-embed" data-ptr-render-mode="fetch" data-ptr-transaction-id="d1212519d4b070ac" data-ptr-filing-id="20033789" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/d1/21/d1212519d4b070ac.json" data-ptr-filing-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033789.json" data-ptr-data-version="fort-worth-testing-20260526T000000Z">
+<div class="mcc-ptr-embed" data-ptr-render-mode="fetch" data-ptr-transaction-id="d1212519d4b070ac" data-ptr-filing-id="20033789" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/d1/21/d1212519d4b070ac.json" data-ptr-filing-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033789.json" data-ptr-data-version="fort-worth-enriched-testing-20260526T211544Z">
   <style>
     .mcc-ptr-embed { --ink: #18212b; --muted: #65717d; --paper: #f7f1e6; --card: #fffaf1; --line: #dbcdb7; --navy: #243f5a; --rust: #b8412e; --green: #265d43; --gold: #c4923f; color: var(--ink); font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; margin: 24px 0; max-width: 100%; min-width: 0; }
     .mcc-ptr-embed * { box-sizing: border-box; }
@@ -499,6 +529,10 @@
     .mcc-ptr-embed .market-readout { margin: 0 0 18px; padding: 18px; border-radius: 18px; background: #f0e1c6; border: 1px solid #d4b982; }
     .mcc-ptr-embed .market-readout p { margin: 0 0 12px; font-size: 16px; line-height: 1.45; }
     .mcc-ptr-embed .market-readout p:last-child { margin-bottom: 0; }
+    .mcc-ptr-embed .story-hook { padding: 18px; border-radius: 18px; background: #f0e1c6; border: 1px solid #d4b982; }
+    .mcc-ptr-embed .story-hook h3 { color: var(--ink); font-size: 22px; line-height: 1.1; text-transform: none; letter-spacing: 0; }
+    .mcc-ptr-embed .story-hook details { margin: 10px 0; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: #fffdf8; }
+    .mcc-ptr-embed .story-hook summary { cursor: pointer; font-weight: 900; color: var(--navy); }
     .mcc-ptr-embed .market-note { color: #5a4a32; font-size: 14px !important; }
     .mcc-ptr-embed .source-meta, .mcc-ptr-embed .source-note { display: block; color: var(--muted); font-size: 13px; margin-top: 3px; }
     .mcc-ptr-embed .source-note { color: #5a4a32; }
@@ -767,6 +801,31 @@
       }).join("");
       return '<div class="news-context"><p><strong>Query:</strong> ' + esc(news.query || "-") + '</p><ul>' + items + '</ul><p class="market-note">' + esc(news.reporter_note || "Review these links before using them in a story.") + "</p></div>";
     }
+    function storyHook(payload) {
+      var candidate = payload && payload.insight_candidate && typeof payload.insight_candidate === "object" ? payload.insight_candidate : {};
+      if (!Object.keys(candidate).length) {
+        return '<div class="empty-state"><strong>No story hook generated.</strong><p>The trade JSON does not include an insight candidate yet.</p></div>';
+      }
+      var starter = candidate.article_starter && typeof candidate.article_starter === "object" ? candidate.article_starter : {};
+      var market = candidate.market_context && typeof candidate.market_context === "object" ? candidate.market_context : {};
+      var news = candidate.news_context && typeof candidate.news_context === "object" ? candidate.news_context : {};
+      var checks = Array.isArray(candidate.reporter_checks) ? candidate.reporter_checks.slice(0, 5) : [];
+      var reasons = Array.isArray(candidate.score_reasons) ? candidate.score_reasons.slice(0, 5) : [];
+      var checksHtml = checks.length ? checks.map(function (item) { return "<li>" + esc(item) + "</li>"; }).join("") : "<li>Confirm the source disclosure PDF.</li>";
+      var reasonsHtml = reasons.length ? reasons.map(function (item) { return "<li>" + esc(item) + "</li>"; }).join("") : "<li>No scoring reasons exported.</li>";
+      return '<div class="story-hook">'
+        + '<div><p class="eyebrow">Automated reporter lead | Score ' + esc(candidate.score || 0) + '</p><h3>' + esc(candidate.headline || "Story hook") + '</h3><p>' + esc(candidate.dek || starter.lede || candidate.grounded_summary || "") + "</p></div>"
+        + '<div class="return-grid">'
+        + field("Trade to filing", pct(market.percent_change_trade_to_filing))
+        + field("Trade to latest", pct(market.percent_change_trade_to_latest))
+        + field("News links", news.result_count !== undefined ? news.result_count : "-")
+        + "</div>"
+        + '<details open><summary>Grounded starter</summary><p>' + esc(candidate.grounded_summary || starter.lede || "") + "</p></details>"
+        + '<details><summary>Why it surfaced</summary><ul>' + reasonsHtml + "</ul></details>"
+        + '<details><summary>Reporter checks</summary><ul>' + checksHtml + "</ul></details>"
+        + '<p class="market-note">This is a lead-generation frame, not publication-ready copy.</p>'
+        + "</div>";
+    }
     function evidenceContext(evidence) {
       evidence = evidence && typeof evidence === "object" ? evidence : {};
       if (!Object.keys(evidence).length) return '<div class="empty-state"><strong>Evidence context unavailable.</strong><p>No evidence context was exported for this trade.</p></div>';
@@ -825,6 +884,7 @@
         + '<section class="lede-card"><p class="eyebrow">PTR trade detail | Filing #' + esc(filingId) + '</p><h1>' + esc(title) + '</h1><p><span class="badge ' + esc(actionType(action)) + '">' + esc(action) + "</span></p><p>" + esc(tx.issuer_name || "Issuer not listed") + (ticker ? " (" + esc(ticker) + ")" : "") + "</p>" + sourceQuote + link(pdfUrl, "Open source disclosure PDF") + "</section>"
         + '<aside class="side-card lede-card"><p class="eyebrow">Reported by</p><h2>' + esc(tx.member_name || filing.member_name || "Unknown filer") + '</h2><div class="metrics">' + field("State", tx.state || filing.state) + field("District", tx.district || filing.district) + field("Ticker", tx.ticker) + field("Trade ID", txId) + "</div></aside>"
         + '</header><section class="panel"><h2>Trade card</h2><div class="metrics">' + metrics + "</div></section>"
+        + '<section class="panel"><h2>Story hook for reporters</h2>' + storyHook(payload) + "</section>"
         + renderChart(market, tx)
         + '<section class="panel"><h2>Top news/event links to check</h2>' + newsContext(payload.news_context) + "</section>"
         + '<section class="panel"><h2>Same filing</h2>' + sameFilingTable(filingPayload || {}, txId) + "</section>"

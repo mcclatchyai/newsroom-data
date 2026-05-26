@@ -1,7 +1,7 @@
 {
   "context_packet": {
     "filing_id": "20033783",
-    "ingested_at": "2026-05-26T20:30:59Z",
+    "ingested_at": "2026-05-26T21:06:17Z",
     "issuer_name": "Diamondback Energy, Inc. - Common Stock",
     "packet": {
       "caveats": [
@@ -16,19 +16,27 @@
         ],
         "lda_context": {
           "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Diamondback+Energy%2C+Inc.+-+Common+Stock",
-          "reason": "no_fixture_data",
+          "query_payload": {
+            "client_name": "Diamondback Energy, Inc. - Common Stock",
+            "page_size": 3
+          },
           "records": [],
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "source_url": "https://lda.senate.gov/api/",
-          "status": "unavailable"
+          "status": "available"
         },
         "member_committee_context": {
           "committees": [],
-          "confidence": 0.0,
-          "member": {},
-          "reason": "no_fixture_data",
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "W000816",
+            "district": "25",
+            "match_method": "name_state_district",
+            "name": "Roger Williams",
+            "state": "TX"
+          },
           "source_url": "https://github.com/unitedstates/congress-legislators",
-          "status": "unavailable"
+          "status": "available"
         },
         "reporter_flags": {
           "committee_context_available": false,
@@ -36,16 +44,17 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
-        "retrieved_at": "2026-05-26T20:30:59Z",
+        "retrieved_at": "2026-05-26T21:06:17Z",
         "sec_issuer_identity": {
-          "confidence": 0.0,
-          "issuer_name": "Diamondback Energy, Inc. - Common Stock",
-          "reason": "no_fixture_data",
+          "cik": "0001539838",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "Diamondback Energy, Inc.",
           "source_url": "https://www.sec.gov/files/company_tickers.json",
-          "status": "unavailable",
+          "status": "available",
           "ticker": "FANG"
         },
-        "source": "fixture",
+        "source": "official",
         "source_links": [
           {
             "label": "SEC EDGAR APIs",
@@ -68,13 +77,15 @@
             "url": "https://github.com/unitedstates/congress-legislators"
           }
         ],
-        "status": "unavailable",
+        "status": "partial",
         "usaspending_context": {
           "awards": [],
-          "query_payload": {},
-          "reason": "no_fixture_data",
+          "query_payload": {
+            "search_text": "Diamondback Energy, Inc. - Common Stock"
+          },
+          "reason": "no_recipient_candidates",
           "recipient_candidates": [],
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "selected_recipient": null,
           "source_url": "https://api.usaspending.gov/docs/",
           "status": "unavailable"
@@ -116,66 +127,135 @@
         "state": "TX"
       },
       "news_context": {
-        "cost_tracking": {},
         "issuer_name": "Diamondback Energy, Inc. - Common Stock",
-        "provider": "fixture",
-        "query": "",
-        "reason": "no_fixture_data",
+        "provider": "gdelt_doc_2_0",
+        "query": "(\"Diamondback Energy Inc\" OR FANG)",
+        "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Diamondback+Energy+Inc%22+OR+FANG%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=20&sort=DateDesc",
         "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
         "result_count": 0,
         "results": [],
-        "retrieved_at": "2026-05-26T20:30:59Z",
+        "retrieved_at": "2026-05-26T21:06:17Z",
         "schema_version": 1,
-        "source": "fixture",
+        "source": "gdelt_doc_2_0",
         "source_links": [],
         "status": "unavailable",
         "ticker": "FANG",
         "window": {
-          "end_date": "",
-          "start_date": ""
+          "end_date": "2026-03-01",
+          "start_date": "2025-12-08"
         }
       },
       "packet_version": 1,
       "policy_context": {
         "caveats": [
           "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-          "Committee jurisdiction and issuer relevance must be verified before publication."
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
         ],
         "committee_issuer_overlap_status": {
           "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
-          "confidence": 0.2,
-          "matched_bill_count": 0,
+          "confidence": 0.45,
+          "matched_bill_count": 2,
           "matched_committee_count": 0,
-          "matched_hearing_count": 0,
-          "matched_terms": [],
-          "status": "no_overlap_found",
-          "summary": "No committee/policy overlap was found in this automated pass."
+          "matched_hearing_count": 1,
+          "matched_terms": [
+            "energy"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
         },
         "committee_jurisdiction_context": {
           "committees_checked": [],
           "confidence": 0.0,
           "matched_committees": [],
-          "reason": "no_fixture_data",
+          "reason": "committee_context_unavailable",
           "source_url": "https://www.congress.gov/committees",
           "status": "unavailable"
         },
         "congressgov_bills": {
-          "items": [],
+          "items": [
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hres/7?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/7",
+              "latest_action_date": "2025-01-03",
+              "latest_action_text": "Referred to the House Committee on Energy and Commerce.",
+              "matched_terms": [
+                "energy"
+              ],
+              "number": "7",
+              "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
+              "type": "HRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/118/s/3027?format=json",
+              "congress": 118,
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3027",
+              "latest_action_date": "2023-10-04",
+              "latest_action_text": "Read twice and referred to the Committee on Finance.",
+              "matched_terms": [
+                "energy"
+              ],
+              "number": "3027",
+              "title": "A bill to amend the Internal Revenue Code of 1986 to extend the energy credit for qualified fuel cell property.",
+              "type": "S"
+            }
+          ],
           "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-          "query_payload": {},
-          "reason": "no_fixture_data",
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 25,
+            "terms": [
+              "fang",
+              "diamondback",
+              "energy"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "source_url": "https://api.congress.gov/",
-          "status": "unavailable"
+          "status": "available"
         },
         "congressgov_hearings": {
-          "items": [],
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-05-20T15:00:00Z",
+              "event_id": "119319",
+              "matched_terms": [
+                "energy"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill",
+              "type": "Markup"
+            }
+          ],
           "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-          "query_payload": {},
-          "reason": "no_fixture_data",
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 25,
+            "terms": [
+              "fang",
+              "diamondback",
+              "energy"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "source_url": "https://api.congress.gov/",
-          "status": "unavailable"
+          "status": "available"
         },
         "issuer_policy_terms": [
           {
@@ -196,11 +276,11 @@
         ],
         "reporter_flags": {
           "committee_policy_overlap_check_needed": false,
-          "congressgov_bills_found": false,
-          "congressgov_hearings_found": false
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true
         },
-        "retrieved_at": "2026-05-26T20:30:59Z",
-        "source": "fixture",
+        "retrieved_at": "2026-05-26T21:06:17Z",
+        "source": "official",
         "source_links": [
           {
             "label": "Congress.gov API",
@@ -215,7 +295,7 @@
             "url": "https://www.congress.gov/search"
           }
         ],
-        "status": "unavailable"
+        "status": "available"
       },
       "reporter_checks": [
         "Verify who directed the trade and whether the account is adviser-managed.",
@@ -298,19 +378,27 @@
     ],
     "lda_context": {
       "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Diamondback+Energy%2C+Inc.+-+Common+Stock",
-      "reason": "no_fixture_data",
+      "query_payload": {
+        "client_name": "Diamondback Energy, Inc. - Common Stock",
+        "page_size": 3
+      },
       "records": [],
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "source_url": "https://lda.senate.gov/api/",
-      "status": "unavailable"
+      "status": "available"
     },
     "member_committee_context": {
       "committees": [],
-      "confidence": 0.0,
-      "member": {},
-      "reason": "no_fixture_data",
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "W000816",
+        "district": "25",
+        "match_method": "name_state_district",
+        "name": "Roger Williams",
+        "state": "TX"
+      },
       "source_url": "https://github.com/unitedstates/congress-legislators",
-      "status": "unavailable"
+      "status": "available"
     },
     "reporter_flags": {
       "committee_context_available": false,
@@ -318,16 +406,17 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "retrieved_at": "2026-05-26T20:30:59Z",
+    "retrieved_at": "2026-05-26T21:06:17Z",
     "sec_issuer_identity": {
-      "confidence": 0.0,
-      "issuer_name": "Diamondback Energy, Inc. - Common Stock",
-      "reason": "no_fixture_data",
+      "cik": "0001539838",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "Diamondback Energy, Inc.",
       "source_url": "https://www.sec.gov/files/company_tickers.json",
-      "status": "unavailable",
+      "status": "available",
       "ticker": "FANG"
     },
-    "source": "fixture",
+    "source": "official",
     "source_links": [
       {
         "label": "SEC EDGAR APIs",
@@ -350,13 +439,15 @@
         "url": "https://github.com/unitedstates/congress-legislators"
       }
     ],
-    "status": "unavailable",
+    "status": "partial",
     "usaspending_context": {
       "awards": [],
-      "query_payload": {},
-      "reason": "no_fixture_data",
+      "query_payload": {
+        "search_text": "Diamondback Energy, Inc. - Common Stock"
+      },
+      "reason": "no_recipient_candidates",
       "recipient_candidates": [],
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "selected_recipient": null,
       "source_url": "https://api.usaspending.gov/docs/",
       "status": "unavailable"
@@ -375,7 +466,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-26T20:30:59Z",
+    "ingested_at": "2026-05-26T21:06:17Z",
     "member_name": "Hon. Roger Williams",
     "pdf_sha256": "",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
@@ -394,81 +485,273 @@
     "transaction_date_max": "2025-12-22",
     "transaction_date_min": "2025-12-22"
   },
+  "insight_candidate": {
+    "action": "S (partial)",
+    "action_type": "sale",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Roger Williams's FANG sale",
+      "lede": "Hon. Roger Williams reported a sale of Diamondback Energy, Inc (FANG) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "No ranked company-news links are available for this transaction.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 24.0,
+    "district": "TX25",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "01/15/2026",
+    "filing_id": "20033783",
+    "grounded_summary": "Hon. Roger Williams reported a sale of Diamondback Energy, Inc (FANG) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Roger Williams's FANG sale",
+    "issuer_name": "Diamondback Energy, Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Roger Williams",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Diamondback Energy Inc\" OR FANG)",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
+      "window": {
+        "end_date": "2026-03-01",
+        "start_date": "2025-12-08"
+      }
+    },
+    "owner": "Self",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 4,
+    "score_reasons": [
+      "Congress.gov bill context was found",
+      "Congress.gov hearing context was found"
+    ],
+    "slug": "hon-roger-williams-fang-sale-12-22-2025-201055c067ab68d3",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "FANG",
+    "trade_date": "12/22/2025",
+    "transaction_id": "201055c067ab68d3"
+  },
   "market_context": {
-    "adjusted_price_mode": "close",
+    "adjusted_price_mode": "adjust=all",
     "benchmark_symbol": "SPY",
     "chart": {
       "markers": [],
       "series": []
     },
-    "publication_license_status": "not_confirmed_internal_only",
+    "publication_license_status": "confirmed",
     "publication_ready": false,
-    "reason": "no_price_series",
-    "retrieved_at": "2026-05-26T20:30:59Z",
-    "source": "fixture",
+    "reason": "provider_error: ticker_not_enabled_by_finazon_allowlist: FANG",
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "source": "finazon_us_stocks_essential",
     "status": "unavailable",
     "ticker": "FANG"
   },
   "news_context": {
-    "cost_tracking": {},
     "issuer_name": "Diamondback Energy, Inc. - Common Stock",
-    "provider": "fixture",
-    "query": "",
-    "reason": "no_fixture_data",
+    "provider": "gdelt_doc_2_0",
+    "query": "(\"Diamondback Energy Inc\" OR FANG)",
+    "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Diamondback+Energy+Inc%22+OR+FANG%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=20&sort=DateDesc",
     "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
     "result_count": 0,
     "results": [],
-    "retrieved_at": "2026-05-26T20:30:59Z",
+    "retrieved_at": "2026-05-26T21:06:17Z",
     "schema_version": 1,
-    "source": "fixture",
+    "source": "gdelt_doc_2_0",
     "source_links": [],
     "status": "unavailable",
     "ticker": "FANG",
     "window": {
-      "end_date": "",
-      "start_date": ""
+      "end_date": "2026-03-01",
+      "start_date": "2025-12-08"
     }
   },
   "policy_context": {
     "caveats": [
       "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-      "Committee jurisdiction and issuer relevance must be verified before publication."
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
     ],
     "committee_issuer_overlap_status": {
       "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
-      "confidence": 0.2,
-      "matched_bill_count": 0,
+      "confidence": 0.45,
+      "matched_bill_count": 2,
       "matched_committee_count": 0,
-      "matched_hearing_count": 0,
-      "matched_terms": [],
-      "status": "no_overlap_found",
-      "summary": "No committee/policy overlap was found in this automated pass."
+      "matched_hearing_count": 1,
+      "matched_terms": [
+        "energy"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
     },
     "committee_jurisdiction_context": {
       "committees_checked": [],
       "confidence": 0.0,
       "matched_committees": [],
-      "reason": "no_fixture_data",
+      "reason": "committee_context_unavailable",
       "source_url": "https://www.congress.gov/committees",
       "status": "unavailable"
     },
     "congressgov_bills": {
-      "items": [],
+      "items": [
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hres/7?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/7",
+          "latest_action_date": "2025-01-03",
+          "latest_action_text": "Referred to the House Committee on Energy and Commerce.",
+          "matched_terms": [
+            "energy"
+          ],
+          "number": "7",
+          "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
+          "type": "HRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/118/s/3027?format=json",
+          "congress": 118,
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3027",
+          "latest_action_date": "2023-10-04",
+          "latest_action_text": "Read twice and referred to the Committee on Finance.",
+          "matched_terms": [
+            "energy"
+          ],
+          "number": "3027",
+          "title": "A bill to amend the Internal Revenue Code of 1986 to extend the energy credit for qualified fuel cell property.",
+          "type": "S"
+        }
+      ],
       "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-      "query_payload": {},
-      "reason": "no_fixture_data",
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 25,
+        "terms": [
+          "fang",
+          "diamondback",
+          "energy"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "source_url": "https://api.congress.gov/",
-      "status": "unavailable"
+      "status": "available"
     },
     "congressgov_hearings": {
-      "items": [],
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-05-20T15:00:00Z",
+          "event_id": "119319",
+          "matched_terms": [
+            "energy"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill",
+          "type": "Markup"
+        }
+      ],
       "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-      "query_payload": {},
-      "reason": "no_fixture_data",
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 25,
+        "terms": [
+          "fang",
+          "diamondback",
+          "energy"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "source_url": "https://api.congress.gov/",
-      "status": "unavailable"
+      "status": "available"
     },
     "issuer_policy_terms": [
       {
@@ -489,11 +772,11 @@
     ],
     "reporter_flags": {
       "committee_policy_overlap_check_needed": false,
-      "congressgov_bills_found": false,
-      "congressgov_hearings_found": false
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true
     },
-    "retrieved_at": "2026-05-26T20:30:59Z",
-    "source": "fixture",
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "source": "official",
     "source_links": [
       {
         "label": "Congress.gov API",
@@ -508,19 +791,19 @@
         "url": "https://www.congress.gov/search"
       }
     ],
-    "status": "unavailable"
+    "status": "available"
   },
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "fort-worth-testing-20260526T000000Z",
+    "data_version": "fort-worth-enriched-testing-20260526T211544Z",
     "environment": "testing",
-    "generated_at": "2026-05-26T20:31:00Z",
+    "generated_at": "2026-05-26T21:15:45Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/20/10/201055c067ab68d3.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-26T20:46:00Z"
+    "stale_after": "2026-05-26T21:30:45Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033783.json",
@@ -538,7 +821,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-26T20:30:59Z",
+    "ingested_at": "2026-05-26T21:06:17Z",
     "issuer_name": "Diamondback Energy, Inc. - Common Stock",
     "member_name": "Hon. Roger Williams",
     "notification_date": "12/22/2025",

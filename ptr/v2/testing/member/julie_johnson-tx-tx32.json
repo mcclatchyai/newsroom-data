@@ -28,15 +28,726 @@
         "trades": 62
       }
     ],
-    "news_context": [],
+    "news_context": [
+      {
+        "issuer": "Boeing Company",
+        "query": "(\"Boeing Company\" OR BA)",
+        "result_count": 1,
+        "results": [
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "BA",
+              "boeing",
+              "boeing company"
+            ],
+            "published_at": "20260226T024500Z",
+            "relevance_label": "medium",
+            "relevance_score": 67,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "The Boeing Company ( BA ): What Investors Should Know",
+            "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          }
+        ],
+        "ticker": "BA",
+        "traded_date": "12/03/2025",
+        "transaction_id": "d1212519d4b070ac",
+        "window": {
+          "end_date": "2026-03-01",
+          "start_date": "2025-11-19"
+        }
+      },
+      {
+        "issuer": "Texas Instruments Incorporated - Common Stock",
+        "query": "(\"Texas Instruments Incorporated\" OR TXN)",
+        "result_count": 3,
+        "results": [
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "TXN",
+              "instruments",
+              "texas",
+              "texas instruments incorporated"
+            ],
+            "published_at": "20260226T144500Z",
+            "relevance_label": "high",
+            "relevance_score": 77,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "US Bancorp DE Has $141 . 83 Million Holdings in Texas Instruments Incorporated $TXN",
+            "url": "https://www.themarketsdaily.com/2026/02/26/us-bancorp-de-has-141-83-million-holdings-in-texas-instruments-incorporated-txn.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "TXN",
+              "instruments",
+              "texas",
+              "texas instruments incorporated"
+            ],
+            "published_at": "20260221T120000Z",
+            "relevance_label": "high",
+            "relevance_score": 77,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Fiera Capital Corp Acquires 55 , 390 Shares of Texas Instruments Incorporated $TXN",
+            "url": "https://www.dailypolitical.com/2026/02/21/fiera-capital-corp-acquires-55390-shares-of-texas-instruments-incorporated-txn.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "instruments",
+              "texas"
+            ],
+            "published_at": "20260226T221500Z",
+            "relevance_label": "low",
+            "relevance_score": 35,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Is Texas Instruments Stock Underperforming the Dow ?",
+            "url": "https://finance.yahoo.com/news/texas-instruments-stock-underperforming-dow-140503259.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source"
+            ]
+          }
+        ],
+        "ticker": "TXN",
+        "traded_date": "12/18/2025",
+        "transaction_id": "73558fea2c02bf72",
+        "window": {
+          "end_date": "2026-03-01",
+          "start_date": "2025-12-04"
+        }
+      }
+    ],
     "official_url": "",
     "owner_breakdown": {
       "JT": 62
     },
     "party": "",
     "photo_url": "",
-    "price_backdrops": [],
-    "price_movements": [],
+    "price_backdrops": [
+      {
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "publication_license_status": "confirmed",
+        "publication_ready": true,
+        "series": [
+          {
+            "close": 284.43,
+            "date": "2025-11-03"
+          },
+          {
+            "close": 277.0,
+            "date": "2025-11-04"
+          },
+          {
+            "close": 286.0,
+            "date": "2025-11-05"
+          },
+          {
+            "close": 285.47,
+            "date": "2025-11-06"
+          },
+          {
+            "close": 280.1,
+            "date": "2025-11-07"
+          },
+          {
+            "close": 291.0,
+            "date": "2025-11-10"
+          },
+          {
+            "close": 292.0,
+            "date": "2025-11-11"
+          },
+          {
+            "close": 287.8,
+            "date": "2025-11-12"
+          },
+          {
+            "close": 279.0,
+            "date": "2025-11-13"
+          },
+          {
+            "close": 284.0,
+            "date": "2025-11-14"
+          },
+          {
+            "close": 286.0,
+            "date": "2025-11-17"
+          },
+          {
+            "close": 285.0,
+            "date": "2025-11-18"
+          },
+          {
+            "close": 297.0,
+            "date": "2025-11-19"
+          },
+          {
+            "close": 289.0,
+            "date": "2025-11-20"
+          },
+          {
+            "close": 302.0,
+            "date": "2025-11-21"
+          },
+          {
+            "close": 325.0,
+            "date": "2025-11-24"
+          },
+          {
+            "close": 325.0,
+            "date": "2025-11-25"
+          },
+          {
+            "close": 321.0,
+            "date": "2025-11-26"
+          },
+          {
+            "close": 320.0,
+            "date": "2025-11-28"
+          },
+          {
+            "close": 315.88,
+            "date": "2025-12-01"
+          },
+          {
+            "close": 316.0,
+            "date": "2025-12-02"
+          },
+          {
+            "close": 320.68,
+            "date": "2025-12-03"
+          },
+          {
+            "close": 318.44,
+            "date": "2025-12-04"
+          },
+          {
+            "close": 321.68,
+            "date": "2025-12-05"
+          },
+          {
+            "close": 314.0,
+            "date": "2025-12-08"
+          },
+          {
+            "close": 318.0,
+            "date": "2025-12-09"
+          },
+          {
+            "close": 321.35,
+            "date": "2025-12-10"
+          },
+          {
+            "close": 314.0,
+            "date": "2025-12-11"
+          },
+          {
+            "close": 310.67,
+            "date": "2025-12-12"
+          },
+          {
+            "close": 309.07,
+            "date": "2025-12-15"
+          },
+          {
+            "close": 308.0,
+            "date": "2025-12-16"
+          },
+          {
+            "close": 298.0,
+            "date": "2025-12-17"
+          },
+          {
+            "close": 303.0,
+            "date": "2025-12-18"
+          },
+          {
+            "close": 308.25,
+            "date": "2025-12-19"
+          },
+          {
+            "close": 311.15,
+            "date": "2025-12-22"
+          },
+          {
+            "close": 316.0,
+            "date": "2025-12-23"
+          },
+          {
+            "close": 315.5,
+            "date": "2025-12-24"
+          },
+          {
+            "close": 314.91,
+            "date": "2025-12-26"
+          },
+          {
+            "close": 314.0,
+            "date": "2025-12-29"
+          },
+          {
+            "close": 315.0,
+            "date": "2025-12-30"
+          },
+          {
+            "close": 313.61,
+            "date": "2025-12-31"
+          },
+          {
+            "close": 315.2,
+            "date": "2026-01-02"
+          },
+          {
+            "close": 317.3,
+            "date": "2026-01-05"
+          },
+          {
+            "close": 314.89,
+            "date": "2026-01-06"
+          },
+          {
+            "close": 323.0,
+            "date": "2026-01-07"
+          },
+          {
+            "close": 326.46,
+            "date": "2026-01-08"
+          },
+          {
+            "close": 329.31,
+            "date": "2026-01-09"
+          },
+          {
+            "close": 333.0,
+            "date": "2026-01-12"
+          },
+          {
+            "close": 337.72,
+            "date": "2026-01-13"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-01-14"
+          },
+          {
+            "close": 332.91,
+            "date": "2026-01-15"
+          },
+          {
+            "close": 330.46,
+            "date": "2026-01-16"
+          },
+          {
+            "close": 320.96,
+            "date": "2026-01-20"
+          },
+          {
+            "close": 328.94,
+            "date": "2026-01-21"
+          },
+          {
+            "close": 330.5,
+            "date": "2026-01-22"
+          },
+          {
+            "close": 328.0,
+            "date": "2026-01-23"
+          },
+          {
+            "close": 328.48,
+            "date": "2026-01-24"
+          },
+          {
+            "close": 333.87,
+            "date": "2026-01-26"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-01-27"
+          },
+          {
+            "close": 342.0,
+            "date": "2026-01-28"
+          },
+          {
+            "close": 338.0,
+            "date": "2026-01-29"
+          },
+          {
+            "close": 337.8,
+            "date": "2026-01-30"
+          },
+          {
+            "close": 346.0,
+            "date": "2026-02-02"
+          },
+          {
+            "close": 343.0,
+            "date": "2026-02-03"
+          },
+          {
+            "close": 329.0,
+            "date": "2026-02-04"
+          },
+          {
+            "close": 324.0,
+            "date": "2026-02-05"
+          },
+          {
+            "close": 324.0,
+            "date": "2026-02-06"
+          },
+          {
+            "close": 325.0,
+            "date": "2026-02-09"
+          },
+          {
+            "close": 318.6,
+            "date": "2026-02-10"
+          },
+          {
+            "close": 312.0,
+            "date": "2026-02-11"
+          },
+          {
+            "close": 310.0,
+            "date": "2026-02-12"
+          },
+          {
+            "close": 306.0,
+            "date": "2026-02-13"
+          },
+          {
+            "close": 301.0,
+            "date": "2026-02-17"
+          },
+          {
+            "close": 304.0,
+            "date": "2026-02-18"
+          },
+          {
+            "close": 303.75,
+            "date": "2026-02-19"
+          },
+          {
+            "close": 315.0,
+            "date": "2026-02-20"
+          },
+          {
+            "close": 312.6,
+            "date": "2026-02-23"
+          },
+          {
+            "close": 311.16,
+            "date": "2026-02-24"
+          },
+          {
+            "close": 312.9,
+            "date": "2026-02-25"
+          },
+          {
+            "close": 306.64,
+            "date": "2026-02-26"
+          },
+          {
+            "close": 309.0,
+            "date": "2026-02-27"
+          },
+          {
+            "close": 306.0,
+            "date": "2026-03-02"
+          },
+          {
+            "close": 302.0,
+            "date": "2026-03-03"
+          },
+          {
+            "close": 303.48,
+            "date": "2026-03-04"
+          },
+          {
+            "close": 300.0,
+            "date": "2026-03-05"
+          },
+          {
+            "close": 298.0,
+            "date": "2026-03-06"
+          },
+          {
+            "close": 306.0,
+            "date": "2026-03-09"
+          },
+          {
+            "close": 308.0,
+            "date": "2026-03-10"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-03-11"
+          },
+          {
+            "close": 304.22,
+            "date": "2026-03-12"
+          },
+          {
+            "close": 301.0,
+            "date": "2026-03-13"
+          },
+          {
+            "close": 303.99,
+            "date": "2026-03-16"
+          },
+          {
+            "close": 309.0,
+            "date": "2026-03-17"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-03-18"
+          },
+          {
+            "close": 306.0,
+            "date": "2026-03-19"
+          },
+          {
+            "close": 299.09,
+            "date": "2026-03-20"
+          },
+          {
+            "close": 299.0,
+            "date": "2026-03-23"
+          },
+          {
+            "close": 292.0,
+            "date": "2026-03-24"
+          },
+          {
+            "close": 289.0,
+            "date": "2026-03-25"
+          },
+          {
+            "close": 281.0,
+            "date": "2026-03-26"
+          },
+          {
+            "close": 273.0,
+            "date": "2026-03-27"
+          },
+          {
+            "close": 272.0,
+            "date": "2026-03-30"
+          },
+          {
+            "close": 288.0,
+            "date": "2026-03-31"
+          },
+          {
+            "close": 295.0,
+            "date": "2026-04-01"
+          },
+          {
+            "close": 295.0,
+            "date": "2026-04-02"
+          },
+          {
+            "close": 298.0,
+            "date": "2026-04-06"
+          },
+          {
+            "close": 313.0,
+            "date": "2026-04-07"
+          },
+          {
+            "close": 315.0,
+            "date": "2026-04-08"
+          },
+          {
+            "close": 317.0,
+            "date": "2026-04-09"
+          },
+          {
+            "close": 316.0,
+            "date": "2026-04-10"
+          },
+          {
+            "close": 319.0,
+            "date": "2026-04-13"
+          },
+          {
+            "close": 331.0,
+            "date": "2026-04-14"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-04-15"
+          },
+          {
+            "close": 333.42,
+            "date": "2026-04-16"
+          },
+          {
+            "close": 338.86,
+            "date": "2026-04-17"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-04-20"
+          },
+          {
+            "close": 332.0,
+            "date": "2026-04-21"
+          },
+          {
+            "close": 336.79,
+            "date": "2026-04-22"
+          },
+          {
+            "close": 338.0,
+            "date": "2026-04-23"
+          },
+          {
+            "close": 342.0,
+            "date": "2026-04-24"
+          },
+          {
+            "close": 342.38,
+            "date": "2026-04-25"
+          },
+          {
+            "close": 348.91,
+            "date": "2026-04-27"
+          },
+          {
+            "close": 347.0,
+            "date": "2026-04-28"
+          },
+          {
+            "close": 369.0,
+            "date": "2026-04-29"
+          },
+          {
+            "close": 382.0,
+            "date": "2026-04-30"
+          },
+          {
+            "close": 382.0,
+            "date": "2026-05-01"
+          },
+          {
+            "close": 379.0,
+            "date": "2026-05-04"
+          },
+          {
+            "close": 391.0,
+            "date": "2026-05-05"
+          },
+          {
+            "close": 395.0,
+            "date": "2026-05-06"
+          },
+          {
+            "close": 393.0,
+            "date": "2026-05-07"
+          },
+          {
+            "close": 396.0,
+            "date": "2026-05-08"
+          },
+          {
+            "close": 387.0,
+            "date": "2026-05-11"
+          },
+          {
+            "close": 387.0,
+            "date": "2026-05-12"
+          },
+          {
+            "close": 399.0,
+            "date": "2026-05-13"
+          },
+          {
+            "close": 397.0,
+            "date": "2026-05-14"
+          },
+          {
+            "close": 393.0,
+            "date": "2026-05-15"
+          },
+          {
+            "close": 395.71,
+            "date": "2026-05-18"
+          },
+          {
+            "close": 385.0,
+            "date": "2026-05-19"
+          },
+          {
+            "close": 384.0,
+            "date": "2026-05-20"
+          },
+          {
+            "close": 384.0,
+            "date": "2026-05-21"
+          },
+          {
+            "close": 379.0,
+            "date": "2026-05-22"
+          },
+          {
+            "close": 384.0,
+            "date": "2026-05-26"
+          }
+        ],
+        "source": "finazon_us_stocks_essential",
+        "ticker": "GOOG"
+      }
+    ],
+    "price_movements": [
+      {
+        "filing_date_close": 332.91,
+        "filing_price_date": "2026-01-15",
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "latest_close": 384.0,
+        "latest_price_date": "2026-05-26",
+        "return_trade_to_filing": 9.9,
+        "return_trade_to_latest": 26.7,
+        "ticker": "GOOG",
+        "trade_date_close": 303.0,
+        "trade_price_date": "2025-12-18",
+        "traded_date": "12/18/2025",
+        "transaction_id": "f2642c8597c0ff55",
+        "type": "sell"
+      }
+    ],
     "recent_trades": [
       {
         "estimated_max": 15000.0,
@@ -128,17 +839,17 @@
         "filed_after_days": 28.0,
         "filing_id": "20033789",
         "issuer": "Alphabet Inc. - Class C Capital Stock",
-        "latest_close": null,
-        "latest_price_date": null,
+        "latest_close": 384.0,
+        "latest_price_date": "2026-05-26",
         "news_result_count": 0,
         "owner": "JT",
         "published_date": "01/15/2026",
-        "return_trade_to_filing": null,
-        "return_trade_to_latest": null,
+        "return_trade_to_filing": 9.9,
+        "return_trade_to_latest": 26.7,
         "size": "$1,001 - $15,000",
         "ticker": "GOOG",
-        "trade_date_close": null,
-        "trade_price_date": null,
+        "trade_date_close": 303.0,
+        "trade_price_date": "2025-12-18",
         "traded_date": "12/18/2025",
         "transaction_id": "f2642c8597c0ff55",
         "type": "sell"
@@ -571,11 +1282,11 @@
       "estimated_max_volume": 930000.0,
       "estimated_min_volume": 62062.0,
       "filings": 1,
-      "flagged_trades": 0,
+      "flagged_trades": 1,
       "issuers": 61,
       "last_traded": "12/18/2025",
-      "market_context_available": 0,
-      "news_context_available": 0,
+      "market_context_available": 1,
+      "news_context_available": 2,
       "tickers": 61,
       "trades": 62
     },
@@ -682,13 +1393,13 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "fort-worth-testing-20260526T000000Z",
+    "data_version": "fort-worth-enriched-testing-20260526T211544Z",
     "environment": "testing",
-    "generated_at": "2026-05-26T20:31:00Z",
+    "generated_at": "2026-05-26T21:15:45Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/julie_johnson-tx-tx32.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-26T20:46:00Z"
+    "stale_after": "2026-05-26T21:30:45Z"
   }
 }

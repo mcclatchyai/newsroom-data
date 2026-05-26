@@ -1,7 +1,7 @@
 {
   "context_packet": {
     "filing_id": "20033789",
-    "ingested_at": "2026-05-26T20:30:59Z",
+    "ingested_at": "2026-05-26T21:06:17Z",
     "issuer_name": "Blackstone Inc. Common Stock",
     "packet": {
       "caveats": [
@@ -16,19 +16,25 @@
         ],
         "lda_context": {
           "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Blackstone+Inc.+Common+Stock",
-          "reason": "no_fixture_data",
+          "query_payload": {},
+          "reason": "ticker_not_enabled_by_evidence_context_allowlist",
           "records": [],
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "source_url": "https://lda.senate.gov/api/",
           "status": "unavailable"
         },
         "member_committee_context": {
           "committees": [],
-          "confidence": 0.0,
-          "member": {},
-          "reason": "no_fixture_data",
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "J000310",
+            "district": "32",
+            "match_method": "name_state_district",
+            "name": "Julie Johnson",
+            "state": "TX"
+          },
           "source_url": "https://github.com/unitedstates/congress-legislators",
-          "status": "unavailable"
+          "status": "available"
         },
         "reporter_flags": {
           "committee_context_available": false,
@@ -36,16 +42,17 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
-        "retrieved_at": "2026-05-26T20:30:59Z",
+        "retrieved_at": "2026-05-26T21:06:17Z",
         "sec_issuer_identity": {
-          "confidence": 0.0,
-          "issuer_name": "Blackstone Inc. Common Stock",
-          "reason": "no_fixture_data",
+          "cik": "0001393818",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "Blackstone Inc.",
           "source_url": "https://www.sec.gov/files/company_tickers.json",
-          "status": "unavailable",
+          "status": "available",
           "ticker": "BX"
         },
-        "source": "fixture",
+        "source": "official",
         "source_links": [
           {
             "label": "SEC EDGAR APIs",
@@ -68,13 +75,17 @@
             "url": "https://github.com/unitedstates/congress-legislators"
           }
         ],
-        "status": "unavailable",
+        "status": "partial",
         "usaspending_context": {
           "awards": [],
-          "query_payload": {},
-          "reason": "no_fixture_data",
+          "query_payload": {
+            "recipient_autocomplete": {
+              "search_text": "Blackstone Inc. Common Stock"
+            }
+          },
+          "reason": "ticker_not_enabled_by_evidence_context_allowlist",
           "recipient_candidates": [],
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "selected_recipient": null,
           "source_url": "https://api.usaspending.gov/docs/",
           "status": "unavailable"
@@ -116,17 +127,16 @@
         "state": "TX"
       },
       "news_context": {
-        "cost_tracking": {},
         "issuer_name": "Blackstone Inc. Common Stock",
-        "provider": "fixture",
-        "query": "",
-        "reason": "no_fixture_data",
+        "provider": "gdelt_doc_2_0",
+        "query": "(\"Blackstone Inc\" OR BX)",
+        "reason": "ticker_not_enabled_by_news_context_allowlist",
         "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
         "result_count": 0,
         "results": [],
-        "retrieved_at": "2026-05-26T20:30:59Z",
+        "retrieved_at": "2026-05-26T21:06:17Z",
         "schema_version": 1,
-        "source": "fixture",
+        "source": "gdelt_doc_2_0",
         "source_links": [],
         "status": "unavailable",
         "ticker": "BX",
@@ -139,7 +149,7 @@
       "policy_context": {
         "caveats": [
           "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-          "Committee jurisdiction and issuer relevance must be verified before publication."
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
         ],
         "committee_issuer_overlap_status": {
           "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
@@ -155,25 +165,49 @@
           "committees_checked": [],
           "confidence": 0.0,
           "matched_committees": [],
-          "reason": "no_fixture_data",
+          "reason": "committee_context_unavailable",
           "source_url": "https://www.congress.gov/committees",
           "status": "unavailable"
         },
         "congressgov_bills": {
           "items": [],
           "public_search_url": "https://www.congress.gov/search?q=bx+OR+blackstone",
-          "query_payload": {},
-          "reason": "no_fixture_data",
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 25,
+            "terms": [
+              "bx",
+              "blackstone"
+            ]
+          },
+          "reason": "no_matching_recent_bills",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "source_url": "https://api.congress.gov/",
           "status": "unavailable"
         },
         "congressgov_hearings": {
           "items": [],
           "public_search_url": "https://www.congress.gov/search?q=bx+OR+blackstone",
-          "query_payload": {},
-          "reason": "no_fixture_data",
-          "retrieved_at": "2026-05-26T20:30:59Z",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 25,
+            "terms": [
+              "bx",
+              "blackstone"
+            ]
+          },
+          "reason": "no_matching_recent_hearings",
+          "retrieved_at": "2026-05-26T21:06:17Z",
           "source_url": "https://api.congress.gov/",
           "status": "unavailable"
         },
@@ -194,8 +228,8 @@
           "congressgov_bills_found": false,
           "congressgov_hearings_found": false
         },
-        "retrieved_at": "2026-05-26T20:30:59Z",
-        "source": "fixture",
+        "retrieved_at": "2026-05-26T21:06:17Z",
+        "source": "official",
         "source_links": [
           {
             "label": "Congress.gov API",
@@ -293,19 +327,25 @@
     ],
     "lda_context": {
       "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Blackstone+Inc.+Common+Stock",
-      "reason": "no_fixture_data",
+      "query_payload": {},
+      "reason": "ticker_not_enabled_by_evidence_context_allowlist",
       "records": [],
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "source_url": "https://lda.senate.gov/api/",
       "status": "unavailable"
     },
     "member_committee_context": {
       "committees": [],
-      "confidence": 0.0,
-      "member": {},
-      "reason": "no_fixture_data",
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "J000310",
+        "district": "32",
+        "match_method": "name_state_district",
+        "name": "Julie Johnson",
+        "state": "TX"
+      },
       "source_url": "https://github.com/unitedstates/congress-legislators",
-      "status": "unavailable"
+      "status": "available"
     },
     "reporter_flags": {
       "committee_context_available": false,
@@ -313,16 +353,17 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "retrieved_at": "2026-05-26T20:30:59Z",
+    "retrieved_at": "2026-05-26T21:06:17Z",
     "sec_issuer_identity": {
-      "confidence": 0.0,
-      "issuer_name": "Blackstone Inc. Common Stock",
-      "reason": "no_fixture_data",
+      "cik": "0001393818",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "Blackstone Inc.",
       "source_url": "https://www.sec.gov/files/company_tickers.json",
-      "status": "unavailable",
+      "status": "available",
       "ticker": "BX"
     },
-    "source": "fixture",
+    "source": "official",
     "source_links": [
       {
         "label": "SEC EDGAR APIs",
@@ -345,13 +386,17 @@
         "url": "https://github.com/unitedstates/congress-legislators"
       }
     ],
-    "status": "unavailable",
+    "status": "partial",
     "usaspending_context": {
       "awards": [],
-      "query_payload": {},
-      "reason": "no_fixture_data",
+      "query_payload": {
+        "recipient_autocomplete": {
+          "search_text": "Blackstone Inc. Common Stock"
+        }
+      },
+      "reason": "ticker_not_enabled_by_evidence_context_allowlist",
       "recipient_candidates": [],
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "selected_recipient": null,
       "source_url": "https://api.usaspending.gov/docs/",
       "status": "unavailable"
@@ -369,7 +414,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033789",
     "filing_type": "P",
-    "ingested_at": "2026-05-26T20:30:59Z",
+    "ingested_at": "2026-05-26T21:06:17Z",
     "member_name": "Hon. Julie Johnson",
     "pdf_sha256": "",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf",
@@ -445,33 +490,152 @@
     "transaction_date_max": "2025-12-18",
     "transaction_date_min": "2025-12-03"
   },
+  "insight_candidate": {
+    "action": "Sale",
+    "action_type": "sale",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+      "evidence_context": "No high-signal federal or committee context was found in this automated pass.",
+      "headline_candidate": "Hon. Julie Johnson's BX sale",
+      "lede": "Hon. Julie Johnson reported a sale of Blackstone Inc (BX) through JT on Dec 18, 2025, according to a periodic transaction report filed Jan 15, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "No ranked company-news links are available for this transaction.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 28.0,
+    "district": "TX32",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "01/15/2026",
+    "filing_id": "20033789",
+    "grounded_summary": "Hon. Julie Johnson reported a sale of Blackstone Inc (BX) through JT on Dec 18, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. No high-signal federal or committee context was found in this automated pass. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Julie Johnson's BX sale",
+    "issuer_name": "Blackstone Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Julie Johnson",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Blackstone Inc\" OR BX)",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
+      "window": {
+        "end_date": "",
+        "start_date": ""
+      }
+    },
+    "owner": "JT",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 0,
+    "score_reasons": [],
+    "slug": "hon-julie-johnson-bx-sale-12-18-2025-fea50763b6a3bf41",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "state": "TX",
+    "status": "low_priority",
+    "ticker": "BX",
+    "trade_date": "12/18/2025",
+    "transaction_id": "fea50763b6a3bf41"
+  },
   "market_context": {
-    "adjusted_price_mode": "close",
+    "adjusted_price_mode": "adjust=all",
     "benchmark_symbol": "SPY",
     "chart": {
       "markers": [],
       "series": []
     },
-    "publication_license_status": "not_confirmed_internal_only",
+    "publication_license_status": "confirmed",
     "publication_ready": false,
-    "reason": "no_price_series",
-    "retrieved_at": "2026-05-26T20:30:59Z",
-    "source": "fixture",
+    "reason": "provider_error: ticker_not_enabled_by_finazon_allowlist: BX",
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "source": "finazon_us_stocks_essential",
     "status": "unavailable",
     "ticker": "BX"
   },
   "news_context": {
-    "cost_tracking": {},
     "issuer_name": "Blackstone Inc. Common Stock",
-    "provider": "fixture",
-    "query": "",
-    "reason": "no_fixture_data",
+    "provider": "gdelt_doc_2_0",
+    "query": "(\"Blackstone Inc\" OR BX)",
+    "reason": "ticker_not_enabled_by_news_context_allowlist",
     "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
     "result_count": 0,
     "results": [],
-    "retrieved_at": "2026-05-26T20:30:59Z",
+    "retrieved_at": "2026-05-26T21:06:17Z",
     "schema_version": 1,
-    "source": "fixture",
+    "source": "gdelt_doc_2_0",
     "source_links": [],
     "status": "unavailable",
     "ticker": "BX",
@@ -483,7 +647,7 @@
   "policy_context": {
     "caveats": [
       "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-      "Committee jurisdiction and issuer relevance must be verified before publication."
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
     ],
     "committee_issuer_overlap_status": {
       "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
@@ -499,25 +663,49 @@
       "committees_checked": [],
       "confidence": 0.0,
       "matched_committees": [],
-      "reason": "no_fixture_data",
+      "reason": "committee_context_unavailable",
       "source_url": "https://www.congress.gov/committees",
       "status": "unavailable"
     },
     "congressgov_bills": {
       "items": [],
       "public_search_url": "https://www.congress.gov/search?q=bx+OR+blackstone",
-      "query_payload": {},
-      "reason": "no_fixture_data",
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 25,
+        "terms": [
+          "bx",
+          "blackstone"
+        ]
+      },
+      "reason": "no_matching_recent_bills",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "source_url": "https://api.congress.gov/",
       "status": "unavailable"
     },
     "congressgov_hearings": {
       "items": [],
       "public_search_url": "https://www.congress.gov/search?q=bx+OR+blackstone",
-      "query_payload": {},
-      "reason": "no_fixture_data",
-      "retrieved_at": "2026-05-26T20:30:59Z",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 25,
+        "terms": [
+          "bx",
+          "blackstone"
+        ]
+      },
+      "reason": "no_matching_recent_hearings",
+      "retrieved_at": "2026-05-26T21:06:17Z",
       "source_url": "https://api.congress.gov/",
       "status": "unavailable"
     },
@@ -538,8 +726,8 @@
       "congressgov_bills_found": false,
       "congressgov_hearings_found": false
     },
-    "retrieved_at": "2026-05-26T20:30:59Z",
-    "source": "fixture",
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "source": "official",
     "source_links": [
       {
         "label": "Congress.gov API",
@@ -559,14 +747,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "fort-worth-testing-20260526T000000Z",
+    "data_version": "fort-worth-enriched-testing-20260526T211544Z",
     "environment": "testing",
-    "generated_at": "2026-05-26T20:31:00Z",
+    "generated_at": "2026-05-26T21:15:45Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/fe/a5/fea50763b6a3bf41.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-26T20:46:00Z"
+    "stale_after": "2026-05-26T21:30:45Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033789.json",
@@ -584,7 +772,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033789",
     "filing_type": "P",
-    "ingested_at": "2026-05-26T20:30:59Z",
+    "ingested_at": "2026-05-26T21:06:17Z",
     "issuer_name": "Blackstone Inc. Common Stock",
     "member_name": "Hon. Julie Johnson",
     "notification_date": "01/05/2026",

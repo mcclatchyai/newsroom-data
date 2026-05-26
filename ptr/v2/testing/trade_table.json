@@ -2,14 +2,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "fort-worth-testing-20260526T000000Z",
+    "data_version": "fort-worth-enriched-testing-20260526T211544Z",
     "environment": "testing",
-    "generated_at": "2026-05-26T20:31:00Z",
+    "generated_at": "2026-05-26T21:15:45Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-26T20:46:00Z"
+    "stale_after": "2026-05-26T21:30:45Z"
   },
   "rows": [
     {
@@ -40,7 +40,9 @@
       "district": "TX25",
       "filed_after_days": 24.0,
       "filing_id": "20033783",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "JP Morgan Chase & Co. Common Stock",
       "market_status": "unavailable",
       "owner": "Self",
@@ -64,7 +66,10 @@
       "district": "TX25",
       "filed_after_days": 24.0,
       "filing_id": "20033783",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Diamondback Energy, Inc. - Common Stock",
       "market_status": "unavailable",
       "owner": "Self",
@@ -112,7 +117,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Xcel Energy Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -184,7 +192,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Verizon Communications Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -232,7 +242,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "UnitedHealth Group Incorporated Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -280,7 +293,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "TJX Companies, Inc.",
       "market_status": "unavailable",
       "owner": "JT",
@@ -304,7 +320,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Seagate Technology Holdings PLC - Ordinary Shares",
       "market_status": "unavailable",
       "owner": "JT",
@@ -328,7 +346,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Charles Schwab Corporation",
       "market_status": "unavailable",
       "owner": "JT",
@@ -376,7 +397,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Republic Services, Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -400,7 +423,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Philip Morris International Inc Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -424,7 +450,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Packaging Corporation of America Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -448,7 +477,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Progressive Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -544,7 +576,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Norfolk Southern Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -568,7 +602,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "NextEra Energy, Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -592,7 +629,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Microsoft Corporation - Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -616,7 +655,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Morgan Stanley Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -712,7 +754,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Mondelez International, Inc. - Class A Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -760,7 +805,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Eli Lilly and Company Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -784,7 +831,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Johnson & Johnson Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -808,7 +857,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "International Business Machines Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -832,7 +884,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Home Depot, Inc.",
       "market_status": "unavailable",
       "owner": "JT",
@@ -856,7 +911,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Goldman Sachs Group, Inc.",
       "market_status": "unavailable",
       "owner": "JT",
@@ -880,19 +938,21 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Alphabet Inc. - Class C Capital Stock",
-      "market_status": "unavailable",
+      "market_status": "available",
       "owner": "JT",
       "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf",
       "politician": "Hon. Julie Johnson",
-      "price": null,
-      "price_date": null,
-      "publication_ready": false,
+      "price": 303.0,
+      "price_date": "2025-12-18",
+      "publication_ready": true,
       "published_date": "01/15/2026",
       "raw_action": "Sale",
-      "return_trade_to_filing": null,
-      "return_trade_to_latest": null,
+      "return_trade_to_filing": 9.9,
+      "return_trade_to_latest": 26.7,
       "size": "$1,001 - $15,000",
       "state": "TX",
       "ticker": "GOOG",
@@ -904,7 +964,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "General Dynamics Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -928,7 +990,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Fidelity National Information Services, Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1024,7 +1089,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Danaher Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1048,7 +1116,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Deere & Company Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1096,7 +1167,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "ConocoPhillips Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1120,7 +1193,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Capital One Financial Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1144,7 +1220,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "CMS Energy Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1168,7 +1247,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "CME Group Inc. - Class A Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1216,7 +1298,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "The Cigna Group Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1240,7 +1325,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Carrier Global Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1312,7 +1399,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "The Bank of New York Mellon Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1336,7 +1426,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Bank of America Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1360,7 +1453,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "American Express Company Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1384,7 +1480,10 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Air Products and Chemicals, Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1432,7 +1531,9 @@
       "district": "TX32",
       "filed_after_days": 28.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "Analog Devices, Inc. - Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1504,7 +1605,10 @@
       "district": "TX32",
       "filed_after_days": 37.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Public Service Enterprise Group Incorporated Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1528,7 +1632,9 @@
       "district": "TX32",
       "filed_after_days": 37.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov hearings"
+      ],
       "issuer": "ServiceNow, Inc. Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1552,7 +1658,10 @@
       "district": "TX32",
       "filed_after_days": 37.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "CMS Energy Corporation Common Stock",
       "market_status": "unavailable",
       "owner": "JT",
@@ -1576,7 +1685,11 @@
       "district": "TX32",
       "filed_after_days": 43.0,
       "filing_id": "20033789",
-      "flags": [],
+      "flags": [
+        "Lobbying",
+        "Congress.gov bills",
+        "Congress.gov hearings"
+      ],
       "issuer": "Boeing Company",
       "market_status": "unavailable",
       "owner": "JT",
