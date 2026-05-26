@@ -15,7 +15,7 @@
   "building_footprints_source": "Overture Maps",
   "building_footprints_total": 4643,
   "cache_ttl_seconds": 900,
-  "data_version": "prod-promotion-20260526T150602Z",
+  "data_version": "20260526200559Z",
   "dataset": "compasskc-demolitions",
   "description": "Sanitized public GeoJSON for Kansas City CompassKC demolition permit map embeds.",
   "entrypoints": {
@@ -52,8 +52,11 @@
     "latest_url": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-demolitions/v1/prod/latest.geojson"
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-26T15:06:45Z",
+  "generated_at": "2026-05-26T20:05:59Z",
+  "latest_features_total": 184,
   "latest_omits_building_footprints": true,
+  "latest_scope": "latest_available_year",
+  "latest_year": "2026",
   "privacy": {
     "excludes": [
       "owner",
@@ -109,11 +112,19 @@
   },
   "schema_version": 2,
   "source": "CompassKC + KCMO parcels + Overture Maps buildings",
-  "stale_after": "2026-05-26T15:21:45Z",
+  "stale_after": "2026-05-26T20:20:59Z",
   "title": "Kansas City demolition permits",
   "unmapped_records": 3,
   "unmapped_records_by_reason": {
     "missing_public_location_data": 3
   },
-  "unmapped_records_note": "Records without a public map feature did not have a parcel polygon or usable geocode point."
+  "unmapped_records_note": "Records without a public map feature did not have a parcel polygon or usable geocode point.",
+  "year_feature_counts": {
+    "2021": 164,
+    "2022": 273,
+    "2023": 350,
+    "2024": 408,
+    "2025": 454,
+    "2026": 184
+  }
 }
