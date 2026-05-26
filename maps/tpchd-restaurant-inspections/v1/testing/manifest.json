@@ -11,7 +11,7 @@
   ],
   "cache_ttl_seconds": 900,
   "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
-  "data_version": "20260526134601Z",
+  "data_version": "20260526140019Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
@@ -56,7 +56,7 @@
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-26T13:46:01Z",
+  "generated_at": "2026-05-26T14:00:19Z",
   "geometry_precision": "reviewed facility address geocode",
   "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
   "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
@@ -96,6 +96,8 @@
       "red_points",
       "total_points",
       "repeat_red_points",
+      "red_point_severity",
+      "red_point_severity_label",
       "report_url",
       "facility_detail_url",
       "report_fetch_status",
@@ -105,7 +107,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-26T14:01:01Z",
+  "stale_after": "2026-05-26T14:15:19Z",
   "symbology": {
     "categories": [
       {
