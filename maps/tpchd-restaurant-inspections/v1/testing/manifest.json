@@ -11,7 +11,7 @@
   ],
   "cache_ttl_seconds": 900,
   "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
-  "data_version": "20260524195650Z",
+  "data_version": "20260526134601Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
@@ -56,7 +56,7 @@
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-24T19:56:50Z",
+  "generated_at": "2026-05-26T13:46:01Z",
   "geometry_precision": "reviewed facility address geocode",
   "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
   "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
@@ -105,19 +105,51 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-24T20:11:50Z",
+  "stale_after": "2026-05-26T14:01:01Z",
   "symbology": {
     "categories": [
       {
-        "color": "#b61f2d",
+        "color": "#d6604d",
         "icon": "exclamation",
-        "id": "over_threshold",
-        "label": "More than 35 red points",
+        "id": "red_points_36_50",
+        "label": "36-50 red points",
+        "max": 50,
+        "min": 36,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#c23030",
+        "icon": "exclamation",
+        "id": "red_points_51_75",
+        "label": "51-75 red points",
+        "max": 75,
+        "min": 51,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#9f1d2d",
+        "icon": "exclamation",
+        "id": "red_points_76_100",
+        "label": "76-100 red points",
+        "max": 100,
+        "min": 76,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#67000d",
+        "icon": "exclamation",
+        "id": "red_points_101_plus",
+        "label": "101+ red points",
+        "max": null,
+        "min": 101,
         "shape": "diamond",
         "stroke": "#ffffff"
       }
     ],
-    "note": "Over-threshold inspections are encoded with color plus a diamond/exclamation symbol; marker size does not encode red-point severity."
+    "note": "Over-threshold inspections are encoded with fixed red-point classes using darker red for higher totals, plus a diamond/exclamation symbol. Marker size does not encode red-point severity."
   },
   "threshold_label": "More than 35 red points",
   "threshold_rule": "red_points > 35",

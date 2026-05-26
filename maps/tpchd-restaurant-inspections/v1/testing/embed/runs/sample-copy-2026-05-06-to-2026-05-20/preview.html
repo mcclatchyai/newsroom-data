@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
-  <title>TPCHD alert map preview: sample-copy-2026-05-06-to-2026-05-20</title>
+  <title>TPCHD inspections over 35 red points: May 6-18, 2026 preview</title>
   <style>
     body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #18212b; background: #f5f7fa; }
     main { max-width: 1180px; margin: 0 auto; padding: 18px; }
@@ -20,7 +20,7 @@
 <body>
 <main>
   <section class="copy-panel" aria-label="CUE embed copy panel">
-    <h1>TPCHD alert map preview: sample-copy-2026-05-06-to-2026-05-20</h1>
+    <h1>TPCHD inspections over 35 red points: May 6-18, 2026 preview</h1>
     <p class="warning">Testing only until this per-alert map URL is included in scheduled emails.</p>
     <p>Copy this HTML into a CUE HTML Embed asset. The rendered embed appears below.</p>
     <button type="button" data-role="copy">Copy embed code</button>
@@ -66,7 +66,7 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   &lt;/style&gt;
-  &lt;div class=&quot;tpchd-map__title&quot;&gt;TPCHD inspections over 35 red points&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__title&quot;&gt;TPCHD inspections over 35 red points: May 6-18, 2026&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__lede&quot;&gt;Inspections shown here had more than 35 red points in parsed TPCHD inspection reports.&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__facts&quot; aria-live=&quot;polite&quot;&gt;
     &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;shown&quot;&gt;0&lt;/strong&gt;&lt;span&gt;shown&lt;/span&gt;&lt;/div&gt;
@@ -74,8 +74,8 @@
     &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;window&quot;&gt;Loading&lt;/strong&gt;&lt;span&gt;dates&lt;/span&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;tpchd-map__legend&quot; aria-label=&quot;Map legend&quot;&gt;
-    &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Symbol&lt;/span&gt;
-    &lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;More than 35 red points&lt;/span&gt;
+    &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Red points&lt;/span&gt;
+    &lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#d6604d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;36-50 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#c23030&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;51-75 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#9f1d2d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;76-100 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#67000d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;101+ red points&lt;/span&gt;
   &lt;/div&gt;
   
   &lt;div class=&quot;tpchd-map__stage&quot;&gt;
@@ -97,6 +97,7 @@
   if (!wrapper) return;
   var mode = wrapper.getAttribute(&quot;data-mode&quot;) || &quot;alert&quot;;
   var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/sample-copy-2026-05-06-to-2026-05-20.geojson&quot;;
+  var severityBins = [{&quot;id&quot;: &quot;red_points_36_50&quot;, &quot;label&quot;: &quot;36-50 red points&quot;, &quot;min&quot;: 36, &quot;max&quot;: 50, &quot;color&quot;: &quot;#d6604d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_51_75&quot;, &quot;label&quot;: &quot;51-75 red points&quot;, &quot;min&quot;: 51, &quot;max&quot;: 75, &quot;color&quot;: &quot;#c23030&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_76_100&quot;, &quot;label&quot;: &quot;76-100 red points&quot;, &quot;min&quot;: 76, &quot;max&quot;: 100, &quot;color&quot;: &quot;#9f1d2d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_101_plus&quot;, &quot;label&quot;: &quot;101+ red points&quot;, &quot;min&quot;: 101, &quot;max&quot;: null, &quot;color&quot;: &quot;#67000d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}];
   var canvas = wrapper.querySelector(&quot;.tpchd-map__canvas&quot;);
   var status = wrapper.querySelector(&quot;.tpchd-map__status&quot;);
   var shown = wrapper.querySelector(&#x27;[data-role=&quot;shown&quot;]&#x27;);
@@ -153,10 +154,22 @@
     var date = p.inspection_date || &quot;&quot;;
     return name + &quot;, &quot; + redPoints(feature) + &quot; red points&quot; + (date ? &quot;, inspected &quot; + date : &quot;&quot;);
   }
-  function markerIcon() {
+  function severityBin(value) {
+    var points = parseInt(value, 10);
+    if (isNaN(points)) points = 0;
+    for (var i = 0; i &lt; severityBins.length; i++) {
+      var bin = severityBins[i];
+      var max = bin.max == null ? Infinity : Number(bin.max);
+      if (points &gt;= Number(bin.min) &amp;&amp; points &lt;= max) return bin;
+    }
+    return severityBins[0] || { color: &quot;#b61f2d&quot;, label: &quot;More than 35 red points&quot; };
+  }
+  function markerIcon(feature) {
+    var bin = severityBin(redPoints(feature));
+    var color = String(bin.color || &quot;#b61f2d&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
     return L.divIcon({
       className: &quot;tpchd-map-marker&quot;,
-      html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;&#x27;,
+      html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&quot; style=&quot;background:&#x27; + color + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;&#x27;,
       iconSize: [22, 22],
       iconAnchor: [11, 11],
       popupAnchor: [0, -12]
@@ -212,7 +225,7 @@
     layer = L.geoJSON({ type: &quot;FeatureCollection&quot;, features: features }, {
       pointToLayer: function (feature, latlng) {
         var title = markerTitle(feature);
-        return L.marker(latlng, { icon: markerIcon(), title: title, alt: title, keyboard: true });
+        return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
       },
       onEachFeature: function (feature, marker) { marker.bindPopup(popupHtml(feature)); }
     }).addTo(map);
@@ -387,7 +400,7 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">TPCHD inspections over 35 red points</div>
+  <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 6-18, 2026</div>
   <div class="tpchd-map__lede">Inspections shown here had more than 35 red points in parsed TPCHD inspection reports.</div>
   <div class="tpchd-map__facts" aria-live="polite">
     <div class="tpchd-map__fact"><strong data-role="shown">0</strong><span>shown</span></div>
@@ -395,8 +408,8 @@
     <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>dates</span></div>
   </div>
   <div class="tpchd-map__legend" aria-label="Map legend">
-    <span class="tpchd-map__legend-title">Symbol</span>
-    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" aria-hidden="true"><span>!</span></span>More than 35 red points</span>
+    <span class="tpchd-map__legend-title">Red points</span>
+    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#d6604d" aria-hidden="true"><span>!</span></span>36-50 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c23030" aria-hidden="true"><span>!</span></span>51-75 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#9f1d2d" aria-hidden="true"><span>!</span></span>76-100 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#67000d" aria-hidden="true"><span>!</span></span>101+ red points</span>
   </div>
   
   <div class="tpchd-map__stage">
@@ -418,6 +431,7 @@
   if (!wrapper) return;
   var mode = wrapper.getAttribute("data-mode") || "alert";
   var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/sample-copy-2026-05-06-to-2026-05-20.geojson";
+  var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
   var status = wrapper.querySelector(".tpchd-map__status");
   var shown = wrapper.querySelector('[data-role="shown"]');
@@ -474,10 +488,22 @@
     var date = p.inspection_date || "";
     return name + ", " + redPoints(feature) + " red points" + (date ? ", inspected " + date : "");
   }
-  function markerIcon() {
+  function severityBin(value) {
+    var points = parseInt(value, 10);
+    if (isNaN(points)) points = 0;
+    for (var i = 0; i < severityBins.length; i++) {
+      var bin = severityBins[i];
+      var max = bin.max == null ? Infinity : Number(bin.max);
+      if (points >= Number(bin.min) && points <= max) return bin;
+    }
+    return severityBins[0] || { color: "#b61f2d", label: "More than 35 red points" };
+  }
+  function markerIcon(feature) {
+    var bin = severityBin(redPoints(feature));
+    var color = String(bin.color || "#b61f2d").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
     return L.divIcon({
       className: "tpchd-map-marker",
-      html: '<span class="tpchd-map-marker__shape" aria-hidden="true"><span>!</span></span>',
+      html: '<span class="tpchd-map-marker__shape" style="background:' + color + '" aria-hidden="true"><span>!</span></span>',
       iconSize: [22, 22],
       iconAnchor: [11, 11],
       popupAnchor: [0, -12]
@@ -533,7 +559,7 @@
     layer = L.geoJSON({ type: "FeatureCollection", features: features }, {
       pointToLayer: function (feature, latlng) {
         var title = markerTitle(feature);
-        return L.marker(latlng, { icon: markerIcon(), title: title, alt: title, keyboard: true });
+        return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
       },
       onEachFeature: function (feature, marker) { marker.bindPopup(popupHtml(feature)); }
     }).addTo(map);
