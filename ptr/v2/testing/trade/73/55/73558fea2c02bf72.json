@@ -1039,14 +1039,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "fort-worth-enriched-testing-20260526T211544Z",
+    "data_version": "fort-worth-enriched-testing-20260526T212317Z",
     "environment": "testing",
-    "generated_at": "2026-05-26T21:15:45Z",
+    "generated_at": "2026-05-26T21:23:18Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/73/55/73558fea2c02bf72.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-26T21:30:45Z"
+    "stale_after": "2026-05-26T21:38:18Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033789.json",

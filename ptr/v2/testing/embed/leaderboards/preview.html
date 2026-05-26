@@ -40,7 +40,7 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-leaderboards&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json&quot; data-ptr-data-version=&quot;fort-worth-enriched-testing-20260526T211544Z&quot;&gt;
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-leaderboards&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json&quot; data-ptr-data-version=&quot;fort-worth-enriched-testing-20260526T212317Z&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:&quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; color:var(--ink); margin:24px 0; }
     .mcc-ptr-leaderboards * { box-sizing:border-box; }
@@ -97,7 +97,7 @@
     var dataUrl = root.getAttribute(&quot;data-ptr-data-url&quot;) || &quot;&quot;;
     var dataVersion = root.getAttribute(&quot;data-ptr-data-version&quot;) || &quot;&quot;;
     function text(value) { return value === null || value === undefined ? &quot;&quot; : String(value).trim(); }
-    function esc(value) { return text(value).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function(char) { return {&quot;&amp;&quot;:&quot;&amp;amp;&quot;,&quot;&lt;&quot;:&quot;&amp;lt;&quot;,&quot;&gt;&quot;:&quot;&amp;gt;&quot;,&quot;&quot;&quot;:&quot;&amp;quot;&quot;,&quot;&#x27;&quot;:&quot;&amp;#39;&quot;}[char]; }); }
+    function esc(value) { return text(value).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function(char) { return {&quot;&amp;&quot;:&quot;&amp;amp;&quot;,&quot;&lt;&quot;:&quot;&amp;lt;&quot;,&quot;&gt;&quot;:&quot;&amp;gt;&quot;,&quot;\&quot;&quot;:&quot;&amp;quot;&quot;,&quot;&#x27;&quot;:&quot;&amp;#39;&quot;}[char]; }); }
     function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf(&quot;./&quot;) === 0 || url.indexOf(&quot;../&quot;) === 0 || url.charAt(0) === &quot;/&quot; ? url : &quot;&quot;; }
     function withVersion(url) { if (!url || !dataVersion || /[?&amp;]v=/.test(url)) return url; return url + (url.indexOf(&quot;?&quot;) &gt;= 0 ? &quot;&amp;&quot; : &quot;?&quot;) + &quot;v=&quot; + encodeURIComponent(dataVersion); }
     function number(value) { var raw = text(value).replace(/,/g, &quot;&quot;); if (!raw) return null; var n = Number(raw); return Number.isFinite(n) ? n : null; }
@@ -206,7 +206,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="fort-worth-enriched-testing-20260526T211544Z">
+<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="fort-worth-enriched-testing-20260526T212317Z">
   <style>
     .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:"Avenir Next", "Gill Sans", Verdana, sans-serif; color:var(--ink); margin:24px 0; }
     .mcc-ptr-leaderboards * { box-sizing:border-box; }
@@ -263,7 +263,7 @@
     var dataUrl = root.getAttribute("data-ptr-data-url") || "";
     var dataVersion = root.getAttribute("data-ptr-data-version") || "";
     function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
-    function esc(value) { return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;",""":"&quot;","'":"&#39;"}[char]; }); }
+    function esc(value) { return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; }); }
     function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf("./") === 0 || url.indexOf("../") === 0 || url.charAt(0) === "/" ? url : ""; }
     function withVersion(url) { if (!url || !dataVersion || /[?&]v=/.test(url)) return url; return url + (url.indexOf("?") >= 0 ? "&" : "?") + "v=" + encodeURIComponent(dataVersion); }
     function number(value) { var raw = text(value).replace(/,/g, ""); if (!raw) return null; var n = Number(raw); return Number.isFinite(n) ? n : null; }
