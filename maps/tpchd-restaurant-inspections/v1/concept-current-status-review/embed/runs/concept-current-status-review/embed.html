@@ -14,6 +14,8 @@
     .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
     .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
     .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
+    .tpchd-map__legend-symbol.is-rating { border-radius: 999px; transform: none; }
+    .tpchd-map__legend-symbol.is-rating span { transform: none; }
     .tpchd-map__search { align-items: end; display: grid; gap: 8px; grid-template-columns: minmax(220px, 1fr) auto; margin: 0 0 10px; }
     .tpchd-map__search-label { min-width: 0; }
     .tpchd-map__reset { min-height: 38px; border: 1px solid #c8d1dc; background: #fff; color: #1f2a36; padding: 7px 10px; font-weight: 800; cursor: pointer; }
@@ -35,6 +37,8 @@
     .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
     .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
     .tpchd-map-marker__shape span { transform: rotate(-45deg); }
+    .tpchd-map-marker__shape.is-rating { border-radius: 999px; transform: none; }
+    .tpchd-map-marker__shape.is-rating span { transform: none; font-size: 10px; }
     .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
     @media (max-width: 640px) {
       .tpchd-map__title { font-size: 20px; }
@@ -54,8 +58,8 @@
   <div class="tpchd-map__lede">Inspections shown here had more than 35 red points in parsed TPCHD inspection reports.</div>
   <div class="tpchd-map__facts" aria-live="polite">
     <div class="tpchd-map__fact"><strong data-role="shown">0</strong><span>shown</span></div>
-    <div class="tpchd-map__fact"><strong data-role="max-red">0</strong><span>max red points</span></div>
-    <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>dates</span></div>
+    <div class="tpchd-map__fact"><strong data-role="max-red">0</strong><span>worst points shown</span></div>
+    <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>date range</span></div>
   </div>
   <div class="tpchd-map__legend" aria-label="Map legend">
     <span class="tpchd-map__legend-title">Red points</span>
@@ -82,12 +86,13 @@
   var mode = wrapper.getAttribute("data-mode") || "alert";
   var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/runs/concept-current-status-review.geojson";
   var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
+  var ratingCategories = [{"id": "rating_great", "label": "Great", "color": "#2e7d32", "letter": "G", "shape": "circle"}, {"id": "rating_okay", "label": "Okay", "color": "#d88c1f", "letter": "O", "shape": "circle"}, {"id": "rating_needs_improve", "label": "Needs to improve", "color": "#b61f2d", "letter": "N", "shape": "circle"}, {"id": "rating_closed", "label": "Closed", "color": "#4b5563", "letter": "C", "shape": "circle"}, {"id": "rating_new_unknown", "label": "New or unavailable", "color": "#6b7280", "letter": "?", "shape": "circle"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
   var status = wrapper.querySelector(".tpchd-map__status");
   var shown = wrapper.querySelector('[data-role="shown"]');
   var maxRed = wrapper.querySelector('[data-role="max-red"]');
   var windowFact = wrapper.querySelector('[data-role="window"]');
-  var yearControl = wrapper.querySelector('[data-role="year"]');
+  var periodControl = wrapper.querySelector('[data-role="period"]');
   var minRedControl = wrapper.querySelector('[data-role="min-red"]');
   var searchInput = wrapper.querySelector('[data-role="search"]');
   var resetButton = wrapper.querySelector('[data-role="reset"]');
@@ -205,26 +210,72 @@
     var props = feature.properties || {};
     return String(props.inspection_year || (featureDate(feature).slice(0, 4)) || "");
   }
+  function parseDateValue(value) {
+    value = String(value || "");
+    var iso = value;
+    var us = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(value);
+    if (us) {
+      iso = us[3] + "-" + String(us[1]).padStart(2, "0") + "-" + String(us[2]).padStart(2, "0");
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return null;
+    var date = new Date(iso + "T00:00:00Z");
+    return isNaN(date.getTime()) ? null : date;
+  }
+  function formatDateText(value) {
+    var date = parseDateValue(value);
+    if (!date) return String(value || "");
+    return date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  }
   function dateLabel(features) {
     var dates = features.map(featureDate).filter(Boolean).sort();
     if (!dates.length) return "No dates";
-    return dates[0] === dates[dates.length - 1] ? dates[0] : dates[0] + " to " + dates[dates.length - 1];
+    return dates[0] === dates[dates.length - 1] ? formatDateText(dates[0]) : formatDateText(dates[0]) + " to " + formatDateText(dates[dates.length - 1]);
+  }
+  function newestDate(features) {
+    var dates = features.map(function (feature) { return parseDateValue(featureDate(feature)); }).filter(Boolean);
+    if (!dates.length) return null;
+    return new Date(Math.max.apply(null, dates.map(function (date) { return date.getTime(); })));
+  }
+  function periodMatches(feature, period, newest) {
+    period = period || "recent90";
+    if (period === "all") return true;
+    if (period.indexOf("year:") === 0) return featureYear(feature) === period.slice(5);
+    var date = parseDateValue(featureDate(feature));
+    if (!date || !newest) return false;
+    if (period === "ytd") {
+      return date.getUTCFullYear() === newest.getUTCFullYear();
+    }
+    if (period === "recent90") {
+      var cutoff = new Date(newest.getTime());
+      cutoff.setUTCDate(cutoff.getUTCDate() - 90);
+      return date >= cutoff;
+    }
+    return true;
   }
   function markerTitle(feature) {
     var p = feature.properties || {};
     var name = p.business_name || "TPCHD inspection";
-    var date = p.inspection_date || "";
-    return name + ", " + redPoints(feature) + " red points" + (date ? ", inspected " + date : "");
+    var rating = p.current_rating_label || p.current_grade || "current rating unavailable";
+    var date = p.inspection_date_iso || p.inspection_date || "";
+    return name + ", current TPCHD rating " + rating + ", inspection shown " + redPoints(feature) + " red points" + (date ? " on " + formatDateText(date) : "");
   }
   function currentStatusLabel(props) {
     props = props || {};
     var parts = [];
+    if (props.current_grade) parts.push(String(props.current_grade));
     if (props.current_score !== undefined && props.current_score !== null && String(props.current_score).trim() !== "") {
-      parts.push("Score: " + String(props.current_score));
+      parts.push("score " + String(props.current_score));
     }
-    if (props.current_grade) parts.push("Grade: " + String(props.current_grade));
-    if (props.current_last_inspection_date) parts.push("as of " + String(props.current_last_inspection_date));
+    if (props.current_last_inspection_date) parts.push("as of " + formatDateText(props.current_last_inspection_date));
     return parts.join(" | ");
+  }
+  function ratingCategory(props) {
+    props = props || {};
+    var categoryId = String(props.current_rating_category || "");
+    for (var i = 0; i < ratingCategories.length; i++) {
+      if (String(ratingCategories[i].id || "") === categoryId) return ratingCategories[i];
+    }
+    return ratingCategories[ratingCategories.length - 1] || { color: "#6b7280", letter: "?", label: "Unavailable" };
   }
   function severityBin(value) {
     var points = parseInt(value, 10);
@@ -237,6 +288,18 @@
     return severityBins[0] || { color: "#b61f2d", label: "More than 35 red points" };
   }
   function markerIcon(feature) {
+    if (mode === "evergreen") {
+      var rating = ratingCategory(feature.properties || {});
+      var ratingColor = String(rating.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+      var letter = esc(rating.letter || "?");
+      return L.divIcon({
+        className: "tpchd-map-marker",
+        html: '<span class="tpchd-map-marker__shape is-rating" style="background:' + ratingColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -12]
+      });
+    }
     var bin = severityBin(redPoints(feature));
     var color = String(bin.color || "#b61f2d").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
     return L.divIcon({
@@ -252,15 +315,18 @@
     var reportUrl = safeUrl(p.report_url);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || "";
+    var followUp = p.follow_up_label || "";
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
     if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download report</a>');
     return '<strong>' + esc(p.business_name) + '</strong><br>' +
       esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
-      esc(p.inspection_date) + ' ' + esc(p.inspection_type) + '<br>' +
-      '<strong>' + esc(p.red_points) + ' red points</strong><br>' +
-      esc(p.inspection_result) +
-      (currentStatus ? '<br><strong>Current TPCHD status:</strong> ' + esc(currentStatus) : '') +
+      (currentStatus ? '<strong>Current TPCHD status:</strong> ' + esc(currentStatus) + '<br>' : '') +
+      (p.current_status_timing_label ? esc(p.current_status_timing_label) + '<br>' : '') +
+      '<strong>Inspection shown:</strong> ' + esc(p.red_points) + ' red points' + (inspectionDate ? ' on ' + esc(formatDateText(inspectionDate)) : '') + '<br>' +
+      esc(p.inspection_type) + (p.inspection_result ? ' | ' + esc(p.inspection_result) : '') +
+      (followUp ? '<br><strong>Follow-up/reinspection:</strong> ' + esc(followUp) : '') +
       (links.length ? '<br>' + links.join(' | ') : '');
   }
   function initMap() {
@@ -326,6 +392,9 @@
     var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
     var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
     var parts = [];
+    if (mode === "evergreen") {
+      parts.push("Marker color shows current TPCHD rating where available.");
+    }
     parts.push("Map layer includes geocoded inspections with more than 35 red points.");
     if (unmapped) parts.push(unmapped + " over-threshold record" + (unmapped === 1 ? " is" : "s are") + " not mapped because reviewed coordinates were unavailable.");
     if (excluded) parts.push(excluded + " parsed inspection" + (excluded === 1 ? " is" : "s are") + " at or below the threshold and not drawn on this map.");
@@ -338,12 +407,13 @@
     }
   }
   function applyFilters() {
-    var year = yearControl ? yearControl.value : "all";
+    var period = periodControl ? periodControl.value : (mode === "evergreen" ? "recent90" : "all");
     var minRed = minRedControl ? parseInt(minRedControl.value, 10) : 35;
     var query = searchInput ? searchInput.value : "";
     if (isNaN(minRed)) minRed = 35;
+    var newest = newestDate(allFeatures);
     var features = allFeatures.filter(function (feature) {
-      if (year !== "all" && featureYear(feature) !== year) return false;
+      if (!periodMatches(feature, period, newest)) return false;
       if (query && scoreSearch(feature, query) <= 0) return false;
       return redPoints(feature) > minRed;
     });
@@ -374,11 +444,14 @@
     features.forEach(function (feature) {
       var p = feature.properties || {};
       var key = String(p.facility_id || p.business_name || p.address || p.record_id || "");
-      if (!grouped[key]) grouped[key] = { feature: feature, count: 0, maxRed: 0, score: 0 };
+      if (!grouped[key]) grouped[key] = { feature: feature, count: 0, maxRed: 0, maxRedDate: "", score: 0 };
       grouped[key].count += 1;
-      grouped[key].maxRed = Math.max(grouped[key].maxRed, redPoints(feature));
+      if (redPoints(feature) > grouped[key].maxRed) {
+        grouped[key].maxRed = redPoints(feature);
+        grouped[key].maxRedDate = featureDate(feature);
+        grouped[key].feature = feature;
+      }
       grouped[key].score = Math.max(grouped[key].score, scoreSearch(feature, query));
-      if (featureDate(feature) > featureDate(grouped[key].feature)) grouped[key].feature = feature;
     });
     var results = Object.keys(grouped).map(function (key) { return grouped[key]; }).sort(function (a, b) {
       return b.score - a.score || b.maxRed - a.maxRed || featureDate(b.feature).localeCompare(featureDate(a.feature));
@@ -391,7 +464,8 @@
       var address = esc([p.address, p.city, p.zip].filter(Boolean).join(" "));
       var count = item.count === 1 ? "1 over-threshold inspection" : item.count + " over-threshold inspections";
       var currentStatus = currentStatusLabel(p);
-      return '<button type="button" class="tpchd-map__result" data-record-id="' + recordId + '"><strong>' + name + '</strong><span>' + address + '</span><span>' + count + ' | max ' + item.maxRed + ' red points</span>' + (currentStatus ? '<span>Current TPCHD status: ' + esc(currentStatus) + '</span>' : '') + '</button>';
+      var worst = 'Worst inspection points shown: ' + item.maxRed + ' red points' + (item.maxRedDate ? ' on ' + formatDateText(item.maxRedDate) : '');
+      return '<button type="button" class="tpchd-map__result" data-record-id="' + recordId + '"><strong>' + name + '</strong><span>' + address + '</span><span>' + count + '</span><span>' + esc(worst) + '</span>' + (currentStatus ? '<span>Current TPCHD status: ' + esc(currentStatus) + '</span>' : '') + '</button>';
     }).join("");
     Array.prototype.forEach.call(searchResults.querySelectorAll("[data-record-id]"), function (button) {
       button.addEventListener("click", function () { selectRecord(button.getAttribute("data-record-id")); });
@@ -406,22 +480,23 @@
   }
   function populateControls(geojson) {
     if (minRedControl) minRedControl.value = String(35);
-    if (yearControl) {
+    if (periodControl) {
       var years = ((geojson.metadata || {}).available_years || allFeatures.map(featureYear)).filter(Boolean);
       years = Array.from(new Set(years)).sort().reverse();
       years.forEach(function (year) {
         var option = document.createElement("option");
-        option.value = year;
+        option.value = "year:" + year;
         option.textContent = year;
-        yearControl.appendChild(option);
+        periodControl.appendChild(option);
       });
-      yearControl.addEventListener("change", applyFilters);
+      periodControl.value = "recent90";
+      periodControl.addEventListener("change", applyFilters);
     }
     if (minRedControl) minRedControl.addEventListener("input", applyFilters);
     if (searchInput) searchInput.addEventListener("input", applyFilters);
     if (resetButton) resetButton.addEventListener("click", function () {
       if (searchInput) searchInput.value = "";
-      if (yearControl) yearControl.value = "all";
+      if (periodControl) periodControl.value = "recent90";
       if (minRedControl) minRedControl.value = String(35);
       userLocation = null;
       applyFilters();

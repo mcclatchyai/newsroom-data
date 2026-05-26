@@ -8,8 +8,8 @@
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
-  "data_version": "20260526161135Z",
+  "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped. Follow-up context is inferred from later scraper-observed inspection rows for the same facility and the current-status fields on the facility page.",
+  "data_version": "20260526164749Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
@@ -50,10 +50,10 @@
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-26T16:11:35Z",
+  "generated_at": "2026-05-26T16:47:49Z",
   "geometry_precision": "reviewed facility address geocode",
   "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
-  "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
+  "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points, with current TPCHD rating and later observed inspection context where available.",
   "privacy": {
     "excludes": [
       "Google Sheet IDs",
@@ -95,6 +95,19 @@
       "repeat_red_points",
       "red_point_severity",
       "red_point_severity_label",
+      "current_rating_category",
+      "current_rating_label",
+      "current_rating_color",
+      "current_rating_letter",
+      "follow_up_status",
+      "follow_up_label",
+      "follow_up_inspection_date",
+      "follow_up_inspection_date_iso",
+      "follow_up_inspection_type",
+      "follow_up_inspection_result",
+      "follow_up_red_points",
+      "current_status_timing",
+      "current_status_timing_label",
       "report_url",
       "facility_detail_url",
       "report_fetch_status",
@@ -104,9 +117,9 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-26T16:26:35Z",
+  "stale_after": "2026-05-26T17:02:49Z",
   "symbology": {
-    "categories": [
+    "alert_categories": [
       {
         "color": "#d6604d",
         "icon": "exclamation",
@@ -148,11 +161,48 @@
         "stroke": "#ffffff"
       }
     ],
-    "note": "Over-threshold inspections are encoded with fixed red-point classes using darker red for higher totals, plus a diamond/exclamation symbol. Marker size does not encode red-point severity."
+    "evergreen_categories": [
+      {
+        "color": "#2e7d32",
+        "id": "rating_great",
+        "label": "Great",
+        "letter": "G",
+        "shape": "circle"
+      },
+      {
+        "color": "#d88c1f",
+        "id": "rating_okay",
+        "label": "Okay",
+        "letter": "O",
+        "shape": "circle"
+      },
+      {
+        "color": "#b61f2d",
+        "id": "rating_needs_improve",
+        "label": "Needs to improve",
+        "letter": "N",
+        "shape": "circle"
+      },
+      {
+        "color": "#4b5563",
+        "id": "rating_closed",
+        "label": "Closed",
+        "letter": "C",
+        "shape": "circle"
+      },
+      {
+        "color": "#6b7280",
+        "id": "rating_new_unknown",
+        "label": "New or unavailable",
+        "letter": "?",
+        "shape": "circle"
+      }
+    ],
+    "note": "Evergreen markers use current TPCHD rating as the primary color/letter encoding. Alert/run maps use fixed red-point classes with darker red for higher totals. Marker size does not encode severity."
   },
   "threshold_label": "More than 35 red points",
   "threshold_rule": "red_points > 35",
-  "title": "Tacoma-Pierce County restaurant inspections with more than 35 red points",
+  "title": "Tacoma-Pierce County restaurant inspection history and current ratings",
   "unmapped_records": 0,
   "unmapped_records_by_reason": {}
 }
