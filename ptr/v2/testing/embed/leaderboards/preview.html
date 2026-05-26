@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PTR leaderboards</title>
+  <style>
+    body { margin: 0; padding: 24px; background: #05080b; }
+    .preview-note { max-width: 1180px; margin: 0 auto 18px; padding: 12px 14px; border: 1px solid #314154; border-radius: 12px; background: #101820; color: #eef5fb; font: 14px/1.4 Arial, sans-serif; }
+        .cue-copy-panel { box-sizing: border-box; max-width: 1180px; margin: 0 auto 18px; padding: 16px; border-radius: 16px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: start; font: 14px/1.45 Arial, sans-serif; }
+    .cue-copy-panel *, .cue-copy-panel *:before, .cue-copy-panel *:after { box-sizing: border-box; }
+    .cue-copy-panel--light { border: 1px solid #d5c7b0; background: #fffaf1; color: #18212b; }
+    .cue-copy-panel--dark { border: 1px solid #314154; background: #101820; color: #eef5fb; }
+    .cue-copy-panel h2 { margin: 2px 0 6px; font: 700 20px/1.15 Georgia, "Times New Roman", serif; }
+    .cue-copy-panel p { margin: 0; }
+    .cue-copy-panel code { font-size: .95em; }
+    .cue-copy-eyebrow { color: #6b7783; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; font-size: 11px; }
+    .cue-copy-panel--dark .cue-copy-eyebrow { color: #9fb0c0; }
+    .cue-copy-warning { margin: 8px 0 8px !important; padding: 10px 12px; border-radius: 12px; border: 1px solid #c7772d; background: #fff2d7; color: #4b2a0d; }
+    .cue-copy-panel--dark .cue-copy-warning { border-color: #f2b84b; background: #271b07; color: #ffe7ae; }
+    .cue-copy-button { min-height: 44px; border: 0; border-radius: 999px; padding: 0 16px; font-weight: 800; cursor: pointer; color: #fff; background: #243f5a; }
+    .cue-copy-panel--dark .cue-copy-button { background: #13a8ff; color: #06111c; }
+    .cue-copy-code { grid-column: 1 / -1; width: 100%; min-height: 180px; resize: vertical; border-radius: 12px; border: 1px solid #c8b99f; padding: 12px; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #18212b; background: #fffdf8; white-space: pre; overflow: auto; }
+    .cue-copy-panel--dark .cue-copy-code { border-color: #314154; color: #eef5fb; background: #071018; }
+    .cue-copy-status { grid-column: 1 / -1; min-height: 20px; color: #65717d; }
+    .cue-copy-panel--dark .cue-copy-status { color: #9fb0c0; }
+    @media (max-width: 640px) { .cue-copy-panel { grid-template-columns: 1fr; padding: 12px; } .cue-copy-button { width: 100%; } .cue-copy-code { min-height: 220px; } }
+
+    @media (max-width: 640px) { body { padding: 10px; } }
+  </style>
+</head>
+<body>
+  <div class="preview-note"><strong>Development preview only.</strong> Please do not publish this PTR v2 leaderboard into a live CUE story yet. We are still soliciting newsroom/editorial feedback before these embed assets go live.</div>
+
+  <section class="cue-copy-panel cue-copy-panel--dark" aria-label="CUE embed copy panel">
+    <div>
+      <p class="cue-copy-eyebrow">CUE embed code</p>
+      <h2>Copy this HTML into a CUE HTML Embed asset</h2>
+      <p class="cue-copy-warning"><strong>Testing only:</strong> Do not publish this embed into a live CUE story yet. Use this code only for test assets and story-preview feedback while PTR v2 embed assets are still in development.</p>
+      <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
+    </div>
+    <button type="button" class="cue-copy-button">Copy embed code</button>
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-leaderboards&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json&quot; data-ptr-data-version=&quot;fort-worth-testing-20260526T000000Z&quot;&gt;
+  &lt;style&gt;
+    .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:&quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; color:var(--ink); margin:24px 0; }
+    .mcc-ptr-leaderboards * { box-sizing:border-box; }
+    .mcc-ptr-leaderboards, .mcc-ptr-leaderboards main, .mcc-ptr-leaderboards section, .mcc-ptr-leaderboards article { max-width:100%; min-width:0; }
+    .mcc-ptr-leaderboards main { width:min(100%, 1180px); margin:0 auto; background:var(--bg); border:1px solid #202a35; border-radius:24px; overflow:hidden; }
+    .mcc-ptr-leaderboards h1, .mcc-ptr-leaderboards h2, .mcc-ptr-leaderboards h3, .mcc-ptr-leaderboards p, .mcc-ptr-leaderboards td, .mcc-ptr-leaderboards th, .mcc-ptr-leaderboards strong { overflow-wrap:anywhere; }
+    .mcc-ptr-leaderboards .hero { padding:24px; background:linear-gradient(135deg, #102f50, #122334 55%, #111820); border-bottom:1px solid var(--line); }
+    .mcc-ptr-leaderboards .eyebrow { margin:0 0 8px; color:#b8c7d5; text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:900; }
+    .mcc-ptr-leaderboards h1 { margin:0 0 10px; font:900 clamp(30px, 5vw, 52px)/1 Georgia, &quot;Times New Roman&quot;, serif; }
+    .mcc-ptr-leaderboards h2 { margin:0 0 12px; font:900 25px/1.05 Georgia, &quot;Times New Roman&quot;, serif; }
+    .mcc-ptr-leaderboards p { margin:0; color:var(--muted); line-height:1.45; }
+    .mcc-ptr-leaderboards a, .mcc-ptr-leaderboards button, .mcc-ptr-leaderboards summary { min-height:44px; }
+    .mcc-ptr-leaderboards .summary { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:12px; padding:18px 24px; background:#132235; }
+    .mcc-ptr-leaderboards .stat { padding:14px; border-radius:14px; background:#1c324e; border:1px solid #28425f; }
+    .mcc-ptr-leaderboards .stat strong { display:block; font-size:24px; }
+    .mcc-ptr-leaderboards .stat span { display:block; color:var(--muted); font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .mcc-ptr-leaderboards .section-grid { display:grid; grid-template-columns:1fr; gap:18px; padding:22px 24px; }
+    .mcc-ptr-leaderboards .panel { border:1px solid var(--line); border-radius:18px; background:linear-gradient(145deg, #143152, #122236); padding:18px; }
+    .mcc-ptr-leaderboards .leaderboard-table-wrap { overflow-x:auto; }
+    .mcc-ptr-leaderboards table { width:100%; border-collapse:collapse; min-width:860px; }
+    .mcc-ptr-leaderboards th, .mcc-ptr-leaderboards td { text-align:left; border-bottom:1px solid var(--line); padding:12px 10px; vertical-align:top; }
+    .mcc-ptr-leaderboards th { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    .mcc-ptr-leaderboards td { font-size:14px; }
+    .mcc-ptr-leaderboards .name { color:var(--blue); font-weight:900; }
+    .mcc-ptr-leaderboards .sub { display:block; color:var(--muted); font-size:12px; margin-top:2px; }
+    .mcc-ptr-leaderboards .buy { color:var(--teal); font-weight:900; }
+    .mcc-ptr-leaderboards .sell { color:var(--gold); font-weight:900; }
+    .mcc-ptr-leaderboards .late { color:var(--red); font-weight:900; }
+    .mcc-ptr-leaderboards .leaderboard-mobile-cards { display:none; }
+    .mcc-ptr-leaderboards .leader-card { margin:0 0 12px; padding:14px; border:1px solid #294766; border-radius:14px; background:#102033; }
+    .mcc-ptr-leaderboards .leader-card h3 { margin:0 0 6px; font-size:18px; line-height:1.15; }
+    .mcc-ptr-leaderboards .card-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:8px; }
+    .mcc-ptr-leaderboards .card-field { padding:10px; border-radius:10px; background:#1c324e; border:1px solid #28425f; }
+    .mcc-ptr-leaderboards .card-field span { display:block; color:var(--muted); font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .mcc-ptr-leaderboards .card-field strong { display:block; margin-top:3px; color:var(--ink); }
+    .mcc-ptr-leaderboards .empty { padding:14px; border-radius:12px; background:#102033; color:var(--muted); }
+    .mcc-ptr-leaderboards .caveat { padding:16px 24px 22px; color:var(--muted); font-size:12px; background:#0d1115; }
+    @media (max-width:760px) { .mcc-ptr-leaderboards { margin:16px 0; } .mcc-ptr-leaderboards main { border-radius:16px; } .mcc-ptr-leaderboards .hero, .mcc-ptr-leaderboards .summary, .mcc-ptr-leaderboards .section-grid, .mcc-ptr-leaderboards .caveat { padding-left:14px; padding-right:14px; } .mcc-ptr-leaderboards .summary { grid-template-columns:repeat(2, minmax(0, 1fr)); } .mcc-ptr-leaderboards h1 { font-size:32px; } .mcc-ptr-leaderboards .leaderboard-table-wrap { display:none; } .mcc-ptr-leaderboards .leaderboard-mobile-cards { display:block; } .mcc-ptr-leaderboards .card-grid { grid-template-columns:1fr; } }
+    @media (max-width:430px) { .mcc-ptr-leaderboards .summary { grid-template-columns:1fr; } }
+    &lt;/style&gt;
+  &lt;main&gt;
+    &lt;section class=&quot;hero&quot;&gt;
+      &lt;p class=&quot;eyebrow&quot;&gt;PTR leaderboard | evergreen reporter asset&lt;/p&gt;
+      &lt;h1&gt;Congressional trading leaderboards&lt;/h1&gt;
+      &lt;p&gt;Loading PTR leaderboards from sanitized public JSON...&lt;/p&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  &lt;script&gt;
+  (function() {
+    var script = document.currentScript;
+    var root = script &amp;&amp; script.closest ? script.closest(&quot;.mcc-ptr-leaderboards&quot;) : null;
+    if (!root) return;
+    var main = root.querySelector(&quot;main&quot;);
+    var dataUrl = root.getAttribute(&quot;data-ptr-data-url&quot;) || &quot;&quot;;
+    var dataVersion = root.getAttribute(&quot;data-ptr-data-version&quot;) || &quot;&quot;;
+    function text(value) { return value === null || value === undefined ? &quot;&quot; : String(value).trim(); }
+    function esc(value) { return text(value).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function(char) { return {&quot;&amp;&quot;:&quot;&amp;amp;&quot;,&quot;&lt;&quot;:&quot;&amp;lt;&quot;,&quot;&gt;&quot;:&quot;&amp;gt;&quot;,&quot;&quot;&quot;:&quot;&amp;quot;&quot;,&quot;&#x27;&quot;:&quot;&amp;#39;&quot;}[char]; }); }
+    function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf(&quot;./&quot;) === 0 || url.indexOf(&quot;../&quot;) === 0 || url.charAt(0) === &quot;/&quot; ? url : &quot;&quot;; }
+    function withVersion(url) { if (!url || !dataVersion || /[?&amp;]v=/.test(url)) return url; return url + (url.indexOf(&quot;?&quot;) &gt;= 0 ? &quot;&amp;&quot; : &quot;?&quot;) + &quot;v=&quot; + encodeURIComponent(dataVersion); }
+    function number(value) { var raw = text(value).replace(/,/g, &quot;&quot;); if (!raw) return null; var n = Number(raw); return Number.isFinite(n) ? n : null; }
+    function money(value) { var n = number(value); if (n === null) return &quot;-&quot;; var abs = Math.abs(n); if (abs &gt;= 1000000000) return &quot;$&quot; + (n / 1000000000).toFixed(2) + &quot;B&quot;; if (abs &gt;= 1000000) return &quot;$&quot; + (n / 1000000).toFixed(2) + &quot;M&quot;; if (abs &gt;= 1000) return &quot;$&quot; + (n / 1000).toFixed(1) + &quot;K&quot;; return &quot;$&quot; + n.toLocaleString(&quot;en-US&quot;, {maximumFractionDigits:0}); }
+    function volume(row) { return money(row.estimated_min_volume) + &quot;-&quot; + money(row.estimated_max_volume); }
+    function dateLabel(value) { var raw = text(value); if (!raw) return &quot;-&quot;; var d = new Date(raw + &quot;T00:00:00&quot;); if (isNaN(d.getTime())) return raw; return d.toLocaleDateString(&quot;en-US&quot;, {month:&quot;short&quot;, day:&quot;numeric&quot;, year:&quot;numeric&quot;}); }
+    function openPdf(row) { return safeUrl(row.pdf_url) ? &#x27;&lt;a href=&quot;&#x27; + esc(row.pdf_url) + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Open PDF&lt;/a&gt;&#x27; : &#x27;&lt;span class=&quot;sub&quot;&gt;No PDF link&lt;/span&gt;&#x27;; }
+    function section(id, title, headers, rowHtml, cardHtml) {
+      if (!rowHtml) { rowHtml = &#x27;&lt;div class=&quot;empty&quot;&gt;No rows found for this leaderboard in the current export and roster scope.&lt;/div&gt;&#x27;; cardHtml = rowHtml; }
+      else { rowHtml = &#x27;&lt;div class=&quot;leaderboard-table-wrap&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&#x27; + headers.map(function(h) { return &#x27;&lt;th&gt;&#x27; + esc(h) + &#x27;&lt;/th&gt;&#x27;; }).join(&#x27;&#x27;) + &#x27;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&#x27; + rowHtml + &#x27;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&#x27;; cardHtml = &#x27;&lt;div class=&quot;leaderboard-mobile-cards&quot;&gt;&#x27; + cardHtml + &#x27;&lt;/div&gt;&#x27;; }
+      return &#x27;&lt;section class=&quot;panel&quot; data-leaderboard-section=&quot;&#x27; + esc(id) + &#x27;&quot;&gt;&lt;h2&gt;&#x27; + esc(title) + &#x27;&lt;/h2&gt;&#x27; + rowHtml + cardHtml + &#x27;&lt;/section&gt;&#x27;;
+    }
+    function card(title, fields) { return &#x27;&lt;article class=&quot;leader-card&quot;&gt;&lt;h3&gt;&#x27; + title + &#x27;&lt;/h3&gt;&lt;div class=&quot;card-grid&quot;&gt;&#x27; + fields.map(function(field) { return &#x27;&lt;div class=&quot;card-field&quot;&gt;&lt;span&gt;&#x27; + esc(field[0]) + &#x27;&lt;/span&gt;&lt;strong&gt;&#x27; + field[1] + &#x27;&lt;/strong&gt;&lt;/div&gt;&#x27;; }).join(&#x27;&#x27;) + &#x27;&lt;/div&gt;&lt;/article&gt;&#x27;; }
+    function active(rows) {
+      var trs = rows.map(function(row) {
+        var politician = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.politician) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.state) + &#x27; | &#x27; + esc(row.district) + &#x27;&lt;/span&gt;&#x27;;
+        var mix = &#x27;&lt;span class=&quot;buy&quot;&gt;&#x27; + esc(row.buy_count || 0) + &#x27; buy&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&lt;span class=&quot;sell&quot;&gt;&#x27; + esc(row.sell_count || 0) + &#x27; sell&lt;/span&gt; | &#x27; + esc(row.other_count || 0) + &#x27; other&lt;/span&gt;&#x27;;
+        return &#x27;&lt;tr&gt;&lt;td&gt;&#x27; + politician + &#x27;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;&#x27; + esc(row.trades || 0) + &#x27;&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&#x27; + esc(row.filings || 0) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(row.issuers || 0) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(volume(row)) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(dateLabel(row.latest_traded_date)) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + mix + &#x27;&lt;/td&gt;&lt;/tr&gt;&#x27;;
+      }).join(&#x27;&#x27;);
+      var cards = rows.map(function(row) {
+        var politician = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.politician) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.state) + &#x27; | &#x27; + esc(row.district) + &#x27;&lt;/span&gt;&#x27;;
+        return card(politician, [[&quot;Trades&quot;, esc(row.trades || 0)], [&quot;Filings&quot;, esc(row.filings || 0)], [&quot;Issuers&quot;, esc(row.issuers || 0)], [&quot;Volume range&quot;, esc(volume(row))], [&quot;Latest trade&quot;, esc(dateLabel(row.latest_traded_date))], [&quot;Buy / sell&quot;, esc(row.buy_count || 0) + &quot; / &quot; + esc(row.sell_count || 0)]]);
+      }).join(&#x27;&#x27;);
+      return section(&quot;active_traders&quot;, &quot;Active traders&quot;, [&quot;Politician&quot;, &quot;Trades&quot;, &quot;Filings&quot;, &quot;Issuers&quot;, &quot;Volume range&quot;, &quot;Latest trade&quot;, &quot;Buy / sell&quot;], trs, cards);
+    }
+    function issuers(rows) {
+      var trs = rows.map(function(row) {
+        var issuer = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.issuer) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.ticker) + &#x27;&lt;/span&gt;&#x27;;
+        var mix = &#x27;&lt;span class=&quot;buy&quot;&gt;&#x27; + esc(row.buy_count || 0) + &#x27; buy&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&lt;span class=&quot;sell&quot;&gt;&#x27; + esc(row.sell_count || 0) + &#x27; sell&lt;/span&gt; | &#x27; + esc(row.other_count || 0) + &#x27; other&lt;/span&gt;&#x27;;
+        return &#x27;&lt;tr&gt;&lt;td&gt;&#x27; + issuer + &#x27;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;&#x27; + esc(row.trades || 0) + &#x27;&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&#x27; + esc(row.members || 0) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(volume(row)) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + mix + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(dateLabel(row.latest_filing_date)) + &#x27;&lt;/td&gt;&lt;/tr&gt;&#x27;;
+      }).join(&#x27;&#x27;);
+      var cards = rows.map(function(row) {
+        var issuer = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.issuer) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.ticker) + &#x27;&lt;/span&gt;&#x27;;
+        return card(issuer, [[&quot;Trades&quot;, esc(row.trades || 0)], [&quot;Politicians&quot;, esc(row.members || 0)], [&quot;Volume range&quot;, esc(volume(row))], [&quot;Buy / sell&quot;, esc(row.buy_count || 0) + &quot; / &quot; + esc(row.sell_count || 0)], [&quot;Latest filing&quot;, esc(dateLabel(row.latest_filing_date))]]);
+      }).join(&#x27;&#x27;);
+      return section(&quot;top_issuers&quot;, &quot;Top traded issuers&quot;, [&quot;Issuer&quot;, &quot;Trades&quot;, &quot;Politicians&quot;, &quot;Volume range&quot;, &quot;Buy / sell&quot;, &quot;Latest filing&quot;], trs, cards);
+    }
+    function lag(rows, id, title) {
+      var trs = rows.map(function(row) {
+        var politician = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.politician) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.state) + &#x27; | &#x27; + esc(row.district) + &#x27;&lt;/span&gt;&#x27;;
+        var issuer = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.issuer) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.ticker) + &#x27;&lt;/span&gt;&#x27;;
+        var late = row.possible_late ? &#x27;&lt;span class=&quot;late&quot;&gt;Possible late&lt;/span&gt;&#x27; : &#x27;&lt;span class=&quot;sub&quot;&gt;No late flag&lt;/span&gt;&#x27;;
+        return &#x27;&lt;tr&gt;&lt;td&gt;&#x27; + politician + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + issuer + &#x27;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;&#x27; + esc(row.filed_after_days !== null &amp;&amp; row.filed_after_days !== undefined ? Math.round(Number(row.filed_after_days)) : &quot;-&quot;) + &#x27;&lt;/strong&gt;&lt;span class=&quot;sub&quot;&gt;days&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&#x27; + esc(dateLabel(row.traded_date)) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(dateLabel(row.published_date)) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + esc(row.size) + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + late + &#x27;&lt;/td&gt;&lt;td&gt;&#x27; + openPdf(row) + &#x27;&lt;/td&gt;&lt;/tr&gt;&#x27;;
+      }).join(&#x27;&#x27;);
+      var cards = rows.map(function(row) {
+        var politician = &#x27;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.politician) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.ticker || row.issuer) + &#x27;&lt;/span&gt;&#x27;;
+        var late = row.possible_late ? &#x27;&lt;span class=&quot;late&quot;&gt;Possible late&lt;/span&gt;&#x27; : &#x27;&lt;span class=&quot;sub&quot;&gt;No late flag&lt;/span&gt;&#x27;;
+        return card(politician, [[&quot;Filed after&quot;, esc(row.filed_after_days !== null &amp;&amp; row.filed_after_days !== undefined ? Math.round(Number(row.filed_after_days)) + &quot; days&quot; : &quot;-&quot;)], [&quot;Trade date&quot;, esc(dateLabel(row.traded_date))], [&quot;Filing date&quot;, esc(dateLabel(row.published_date))], [&quot;Size&quot;, esc(row.size)], [&quot;Status&quot;, late], [&quot;Source&quot;, openPdf(row)]]);
+      }).join(&#x27;&#x27;);
+      return section(id, title, [&quot;Politician&quot;, &quot;Issuer&quot;, &quot;Filed after&quot;, &quot;Traded&quot;, &quot;Filed&quot;, &quot;Size&quot;, &quot;Flag&quot;, &quot;Source&quot;], trs, cards);
+    }
+    function normalize(payload) {
+      if (payload &amp;&amp; payload.leaderboards &amp;&amp; payload.leaderboards.asset_type === &quot;ptr_leaderboards&quot;) return payload.leaderboards;
+      return payload || {};
+    }
+    function render(payload) {
+      var data = normalize(payload);
+      var summary = data.summary || {};
+      var scope = data.scope || {};
+      var boards = data.leaderboards || {};
+      var caveats = Array.isArray(data.caveats) ? data.caveats.join(&quot; &quot;) : &quot;PTR values are ranges. Possible late flags require reporter verification.&quot;;
+      main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;p class=&quot;eyebrow&quot;&gt;PTR leaderboard | evergreen reporter asset&lt;/p&gt;&lt;h1&gt;Congressional trading leaderboards&lt;/h1&gt;&lt;p&gt;Rankings are built from processed congressional Periodic Transaction Report data&#x27; + (scope.newsroom ? &#x27; scoped to &#x27; + esc(scope.newsroom) : &#x27;&#x27;) + &#x27;. Use these as story leads and verification targets, not as proof of motive or wrongdoing.&lt;/p&gt;&lt;/section&gt;&#x27;
+        + &#x27;&lt;section class=&quot;summary&quot;&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(summary.transactions || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;Transactions&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(summary.politicians || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;Politicians&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(summary.issuers || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;Issuers&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(money(summary.estimated_min_volume) + &#x27;-&#x27; + money(summary.estimated_max_volume)) + &#x27;&lt;/strong&gt;&lt;span&gt;Volume range&lt;/span&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
+        + &#x27;&lt;section class=&quot;section-grid&quot;&gt;&#x27; + active(Array.isArray(boards.active_traders) ? boards.active_traders : []) + issuers(Array.isArray(boards.top_issuers) ? boards.top_issuers : []) + lag(Array.isArray(boards.filing_lag_leaders) ? boards.filing_lag_leaders : [], &quot;filing_lag_leaders&quot;, &quot;Filing lag leaders&quot;) + lag(Array.isArray(boards.possible_late_filings) ? boards.possible_late_filings : [], &quot;possible_late_filings&quot;, &quot;Possible late filings&quot;) + &#x27;&lt;/section&gt;&lt;p class=&quot;caveat&quot;&gt;&#x27; + esc(caveats) + &#x27;&lt;/p&gt;&#x27;;
+    }
+    if (!safeUrl(dataUrl)) { main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;h1&gt;Public leaderboard data URL missing&lt;/h1&gt;&lt;p&gt;Regenerate with PTR_PUBLIC_BASE_URL or a public bundle directory.&lt;/p&gt;&lt;/section&gt;&#x27;; return; }
+    fetch(withVersion(dataUrl), {cache:&quot;default&quot;}).then(function(response) { if (!response.ok) throw new Error(&quot;HTTP &quot; + response.status + &quot; for &quot; + dataUrl); return response.json(); }).then(render).catch(function(error) { main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;h1&gt;Leaderboard data could not be loaded&lt;/h1&gt;&lt;p&gt;&#x27; + esc(error &amp;&amp; error.message ? error.message : error) + &#x27;&lt;/p&gt;&lt;/section&gt;&#x27;; });
+  }());
+  &lt;/script&gt;
+&lt;/div&gt;
+</textarea>
+    <p class="cue-copy-status" role="status" aria-live="polite"></p>
+  </section>
+  <script>
+    (function() {
+      var panel = document.currentScript && document.currentScript.previousElementSibling;
+      if (!panel || !panel.classList || !panel.classList.contains("cue-copy-panel")) return;
+      var button = panel.querySelector(".cue-copy-button");
+      var textarea = panel.querySelector(".cue-copy-code");
+      var status = panel.querySelector(".cue-copy-status");
+      if (!button || !textarea) return;
+      button.addEventListener("click", function() {
+        var text = textarea.value || "";
+        function done(message) {
+          if (status) status.textContent = message;
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function() {
+            done("Embed code copied.");
+          }, function() {
+            textarea.focus();
+            textarea.select();
+            done("Copy failed. Select the code and copy manually.");
+          });
+          return;
+        }
+        textarea.focus();
+        textarea.select();
+        try {
+          document.execCommand("copy");
+          done("Embed code copied.");
+        } catch (err) {
+          done("Select the code and copy manually.");
+        }
+      });
+    })();
+  </script>
+
+<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="fort-worth-testing-20260526T000000Z">
+  <style>
+    .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:"Avenir Next", "Gill Sans", Verdana, sans-serif; color:var(--ink); margin:24px 0; }
+    .mcc-ptr-leaderboards * { box-sizing:border-box; }
+    .mcc-ptr-leaderboards, .mcc-ptr-leaderboards main, .mcc-ptr-leaderboards section, .mcc-ptr-leaderboards article { max-width:100%; min-width:0; }
+    .mcc-ptr-leaderboards main { width:min(100%, 1180px); margin:0 auto; background:var(--bg); border:1px solid #202a35; border-radius:24px; overflow:hidden; }
+    .mcc-ptr-leaderboards h1, .mcc-ptr-leaderboards h2, .mcc-ptr-leaderboards h3, .mcc-ptr-leaderboards p, .mcc-ptr-leaderboards td, .mcc-ptr-leaderboards th, .mcc-ptr-leaderboards strong { overflow-wrap:anywhere; }
+    .mcc-ptr-leaderboards .hero { padding:24px; background:linear-gradient(135deg, #102f50, #122334 55%, #111820); border-bottom:1px solid var(--line); }
+    .mcc-ptr-leaderboards .eyebrow { margin:0 0 8px; color:#b8c7d5; text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:900; }
+    .mcc-ptr-leaderboards h1 { margin:0 0 10px; font:900 clamp(30px, 5vw, 52px)/1 Georgia, "Times New Roman", serif; }
+    .mcc-ptr-leaderboards h2 { margin:0 0 12px; font:900 25px/1.05 Georgia, "Times New Roman", serif; }
+    .mcc-ptr-leaderboards p { margin:0; color:var(--muted); line-height:1.45; }
+    .mcc-ptr-leaderboards a, .mcc-ptr-leaderboards button, .mcc-ptr-leaderboards summary { min-height:44px; }
+    .mcc-ptr-leaderboards .summary { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:12px; padding:18px 24px; background:#132235; }
+    .mcc-ptr-leaderboards .stat { padding:14px; border-radius:14px; background:#1c324e; border:1px solid #28425f; }
+    .mcc-ptr-leaderboards .stat strong { display:block; font-size:24px; }
+    .mcc-ptr-leaderboards .stat span { display:block; color:var(--muted); font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .mcc-ptr-leaderboards .section-grid { display:grid; grid-template-columns:1fr; gap:18px; padding:22px 24px; }
+    .mcc-ptr-leaderboards .panel { border:1px solid var(--line); border-radius:18px; background:linear-gradient(145deg, #143152, #122236); padding:18px; }
+    .mcc-ptr-leaderboards .leaderboard-table-wrap { overflow-x:auto; }
+    .mcc-ptr-leaderboards table { width:100%; border-collapse:collapse; min-width:860px; }
+    .mcc-ptr-leaderboards th, .mcc-ptr-leaderboards td { text-align:left; border-bottom:1px solid var(--line); padding:12px 10px; vertical-align:top; }
+    .mcc-ptr-leaderboards th { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    .mcc-ptr-leaderboards td { font-size:14px; }
+    .mcc-ptr-leaderboards .name { color:var(--blue); font-weight:900; }
+    .mcc-ptr-leaderboards .sub { display:block; color:var(--muted); font-size:12px; margin-top:2px; }
+    .mcc-ptr-leaderboards .buy { color:var(--teal); font-weight:900; }
+    .mcc-ptr-leaderboards .sell { color:var(--gold); font-weight:900; }
+    .mcc-ptr-leaderboards .late { color:var(--red); font-weight:900; }
+    .mcc-ptr-leaderboards .leaderboard-mobile-cards { display:none; }
+    .mcc-ptr-leaderboards .leader-card { margin:0 0 12px; padding:14px; border:1px solid #294766; border-radius:14px; background:#102033; }
+    .mcc-ptr-leaderboards .leader-card h3 { margin:0 0 6px; font-size:18px; line-height:1.15; }
+    .mcc-ptr-leaderboards .card-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:8px; }
+    .mcc-ptr-leaderboards .card-field { padding:10px; border-radius:10px; background:#1c324e; border:1px solid #28425f; }
+    .mcc-ptr-leaderboards .card-field span { display:block; color:var(--muted); font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .mcc-ptr-leaderboards .card-field strong { display:block; margin-top:3px; color:var(--ink); }
+    .mcc-ptr-leaderboards .empty { padding:14px; border-radius:12px; background:#102033; color:var(--muted); }
+    .mcc-ptr-leaderboards .caveat { padding:16px 24px 22px; color:var(--muted); font-size:12px; background:#0d1115; }
+    @media (max-width:760px) { .mcc-ptr-leaderboards { margin:16px 0; } .mcc-ptr-leaderboards main { border-radius:16px; } .mcc-ptr-leaderboards .hero, .mcc-ptr-leaderboards .summary, .mcc-ptr-leaderboards .section-grid, .mcc-ptr-leaderboards .caveat { padding-left:14px; padding-right:14px; } .mcc-ptr-leaderboards .summary { grid-template-columns:repeat(2, minmax(0, 1fr)); } .mcc-ptr-leaderboards h1 { font-size:32px; } .mcc-ptr-leaderboards .leaderboard-table-wrap { display:none; } .mcc-ptr-leaderboards .leaderboard-mobile-cards { display:block; } .mcc-ptr-leaderboards .card-grid { grid-template-columns:1fr; } }
+    @media (max-width:430px) { .mcc-ptr-leaderboards .summary { grid-template-columns:1fr; } }
+    </style>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">PTR leaderboard | evergreen reporter asset</p>
+      <h1>Congressional trading leaderboards</h1>
+      <p>Loading PTR leaderboards from sanitized public JSON...</p>
+    </section>
+  </main>
+  <script>
+  (function() {
+    var script = document.currentScript;
+    var root = script && script.closest ? script.closest(".mcc-ptr-leaderboards") : null;
+    if (!root) return;
+    var main = root.querySelector("main");
+    var dataUrl = root.getAttribute("data-ptr-data-url") || "";
+    var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
+    function esc(value) { return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;",""":"&quot;","'":"&#39;"}[char]; }); }
+    function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf("./") === 0 || url.indexOf("../") === 0 || url.charAt(0) === "/" ? url : ""; }
+    function withVersion(url) { if (!url || !dataVersion || /[?&]v=/.test(url)) return url; return url + (url.indexOf("?") >= 0 ? "&" : "?") + "v=" + encodeURIComponent(dataVersion); }
+    function number(value) { var raw = text(value).replace(/,/g, ""); if (!raw) return null; var n = Number(raw); return Number.isFinite(n) ? n : null; }
+    function money(value) { var n = number(value); if (n === null) return "-"; var abs = Math.abs(n); if (abs >= 1000000000) return "$" + (n / 1000000000).toFixed(2) + "B"; if (abs >= 1000000) return "$" + (n / 1000000).toFixed(2) + "M"; if (abs >= 1000) return "$" + (n / 1000).toFixed(1) + "K"; return "$" + n.toLocaleString("en-US", {maximumFractionDigits:0}); }
+    function volume(row) { return money(row.estimated_min_volume) + "-" + money(row.estimated_max_volume); }
+    function dateLabel(value) { var raw = text(value); if (!raw) return "-"; var d = new Date(raw + "T00:00:00"); if (isNaN(d.getTime())) return raw; return d.toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"}); }
+    function openPdf(row) { return safeUrl(row.pdf_url) ? '<a href="' + esc(row.pdf_url) + '" target="_blank" rel="noopener">Open PDF</a>' : '<span class="sub">No PDF link</span>'; }
+    function section(id, title, headers, rowHtml, cardHtml) {
+      if (!rowHtml) { rowHtml = '<div class="empty">No rows found for this leaderboard in the current export and roster scope.</div>'; cardHtml = rowHtml; }
+      else { rowHtml = '<div class="leaderboard-table-wrap"><table><thead><tr>' + headers.map(function(h) { return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' + rowHtml + '</tbody></table></div>'; cardHtml = '<div class="leaderboard-mobile-cards">' + cardHtml + '</div>'; }
+      return '<section class="panel" data-leaderboard-section="' + esc(id) + '"><h2>' + esc(title) + '</h2>' + rowHtml + cardHtml + '</section>';
+    }
+    function card(title, fields) { return '<article class="leader-card"><h3>' + title + '</h3><div class="card-grid">' + fields.map(function(field) { return '<div class="card-field"><span>' + esc(field[0]) + '</span><strong>' + field[1] + '</strong></div>'; }).join('') + '</div></article>'; }
+    function active(rows) {
+      var trs = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span>';
+        var mix = '<span class="buy">' + esc(row.buy_count || 0) + ' buy</span><span class="sub"><span class="sell">' + esc(row.sell_count || 0) + ' sell</span> | ' + esc(row.other_count || 0) + ' other</span>';
+        return '<tr><td>' + politician + '</td><td><strong>' + esc(row.trades || 0) + '</strong></td><td>' + esc(row.filings || 0) + '</td><td>' + esc(row.issuers || 0) + '</td><td>' + esc(volume(row)) + '</td><td>' + esc(dateLabel(row.latest_traded_date)) + '</td><td>' + mix + '</td></tr>';
+      }).join('');
+      var cards = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span>';
+        return card(politician, [["Trades", esc(row.trades || 0)], ["Filings", esc(row.filings || 0)], ["Issuers", esc(row.issuers || 0)], ["Volume range", esc(volume(row))], ["Latest trade", esc(dateLabel(row.latest_traded_date))], ["Buy / sell", esc(row.buy_count || 0) + " / " + esc(row.sell_count || 0)]]);
+      }).join('');
+      return section("active_traders", "Active traders", ["Politician", "Trades", "Filings", "Issuers", "Volume range", "Latest trade", "Buy / sell"], trs, cards);
+    }
+    function issuers(rows) {
+      var trs = rows.map(function(row) {
+        var issuer = '<span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span>';
+        var mix = '<span class="buy">' + esc(row.buy_count || 0) + ' buy</span><span class="sub"><span class="sell">' + esc(row.sell_count || 0) + ' sell</span> | ' + esc(row.other_count || 0) + ' other</span>';
+        return '<tr><td>' + issuer + '</td><td><strong>' + esc(row.trades || 0) + '</strong></td><td>' + esc(row.members || 0) + '</td><td>' + esc(volume(row)) + '</td><td>' + mix + '</td><td>' + esc(dateLabel(row.latest_filing_date)) + '</td></tr>';
+      }).join('');
+      var cards = rows.map(function(row) {
+        var issuer = '<span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span>';
+        return card(issuer, [["Trades", esc(row.trades || 0)], ["Politicians", esc(row.members || 0)], ["Volume range", esc(volume(row))], ["Buy / sell", esc(row.buy_count || 0) + " / " + esc(row.sell_count || 0)], ["Latest filing", esc(dateLabel(row.latest_filing_date))]]);
+      }).join('');
+      return section("top_issuers", "Top traded issuers", ["Issuer", "Trades", "Politicians", "Volume range", "Buy / sell", "Latest filing"], trs, cards);
+    }
+    function lag(rows, id, title) {
+      var trs = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span>';
+        var issuer = '<span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span>';
+        var late = row.possible_late ? '<span class="late">Possible late</span>' : '<span class="sub">No late flag</span>';
+        return '<tr><td>' + politician + '</td><td>' + issuer + '</td><td><strong>' + esc(row.filed_after_days !== null && row.filed_after_days !== undefined ? Math.round(Number(row.filed_after_days)) : "-") + '</strong><span class="sub">days</span></td><td>' + esc(dateLabel(row.traded_date)) + '</td><td>' + esc(dateLabel(row.published_date)) + '</td><td>' + esc(row.size) + '</td><td>' + late + '</td><td>' + openPdf(row) + '</td></tr>';
+      }).join('');
+      var cards = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.ticker || row.issuer) + '</span>';
+        var late = row.possible_late ? '<span class="late">Possible late</span>' : '<span class="sub">No late flag</span>';
+        return card(politician, [["Filed after", esc(row.filed_after_days !== null && row.filed_after_days !== undefined ? Math.round(Number(row.filed_after_days)) + " days" : "-")], ["Trade date", esc(dateLabel(row.traded_date))], ["Filing date", esc(dateLabel(row.published_date))], ["Size", esc(row.size)], ["Status", late], ["Source", openPdf(row)]]);
+      }).join('');
+      return section(id, title, ["Politician", "Issuer", "Filed after", "Traded", "Filed", "Size", "Flag", "Source"], trs, cards);
+    }
+    function normalize(payload) {
+      if (payload && payload.leaderboards && payload.leaderboards.asset_type === "ptr_leaderboards") return payload.leaderboards;
+      return payload || {};
+    }
+    function render(payload) {
+      var data = normalize(payload);
+      var summary = data.summary || {};
+      var scope = data.scope || {};
+      var boards = data.leaderboards || {};
+      var caveats = Array.isArray(data.caveats) ? data.caveats.join(" ") : "PTR values are ranges. Possible late flags require reporter verification.";
+      main.innerHTML = '<section class="hero"><p class="eyebrow">PTR leaderboard | evergreen reporter asset</p><h1>Congressional trading leaderboards</h1><p>Rankings are built from processed congressional Periodic Transaction Report data' + (scope.newsroom ? ' scoped to ' + esc(scope.newsroom) : '') + '. Use these as story leads and verification targets, not as proof of motive or wrongdoing.</p></section>'
+        + '<section class="summary"><div class="stat"><strong>' + esc(summary.transactions || 0) + '</strong><span>Transactions</span></div><div class="stat"><strong>' + esc(summary.politicians || 0) + '</strong><span>Politicians</span></div><div class="stat"><strong>' + esc(summary.issuers || 0) + '</strong><span>Issuers</span></div><div class="stat"><strong>' + esc(money(summary.estimated_min_volume) + '-' + money(summary.estimated_max_volume)) + '</strong><span>Volume range</span></div></section>'
+        + '<section class="section-grid">' + active(Array.isArray(boards.active_traders) ? boards.active_traders : []) + issuers(Array.isArray(boards.top_issuers) ? boards.top_issuers : []) + lag(Array.isArray(boards.filing_lag_leaders) ? boards.filing_lag_leaders : [], "filing_lag_leaders", "Filing lag leaders") + lag(Array.isArray(boards.possible_late_filings) ? boards.possible_late_filings : [], "possible_late_filings", "Possible late filings") + '</section><p class="caveat">' + esc(caveats) + '</p>';
+    }
+    if (!safeUrl(dataUrl)) { main.innerHTML = '<section class="hero"><h1>Public leaderboard data URL missing</h1><p>Regenerate with PTR_PUBLIC_BASE_URL or a public bundle directory.</p></section>'; return; }
+    fetch(withVersion(dataUrl), {cache:"default"}).then(function(response) { if (!response.ok) throw new Error("HTTP " + response.status + " for " + dataUrl); return response.json(); }).then(render).catch(function(error) { main.innerHTML = '<section class="hero"><h1>Leaderboard data could not be loaded</h1><p>' + esc(error && error.message ? error.message : error) + '</p></section>'; });
+  }());
+  </script>
+</div>
+
+</body>
+</html>

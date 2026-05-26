@@ -1,0 +1,53 @@
+{
+  "issuer": {
+    "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+    "member_count": 1,
+    "ticker": "MDLZ",
+    "trade_count": 1,
+    "trades": [
+      {
+        "action": "Sale",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 28,
+        "district": "TX32",
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filing_date": "01/15/2026",
+        "filing_id": "20033789",
+        "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+        "market_status": "unavailable",
+        "member_name": "Hon. Julie Johnson",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/6b/68/6b6852d65251e708.json",
+        "publication_ready": false,
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "TX",
+        "ticker": "MDLZ",
+        "transaction_date": "12/18/2025",
+        "transaction_id": "6b6852d65251e708"
+      }
+    ]
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "fort-worth-testing-20260526T000000Z",
+    "environment": "testing",
+    "generated_at": "2026-05-26T20:31:00Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MDLZ.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-26T20:46:00Z"
+  }
+}
