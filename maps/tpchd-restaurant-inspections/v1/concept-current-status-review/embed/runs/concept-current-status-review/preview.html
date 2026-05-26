@@ -1,0 +1,1053 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>TPCHD inspections over 35 red points: May 6-18, 2026 preview</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #18212b; background: #f5f7fa; }
+    main { max-width: 1180px; margin: 0 auto; padding: 18px; }
+    .copy-panel { border: 1px solid #d2d9e3; background: #fff; padding: 14px; margin: 0 0 18px; }
+    .copy-panel h1 { font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
+    .copy-panel p { font-size: 14px; line-height: 1.4; margin: 0 0 10px; }
+    .copy-panel .warning { border-left: 4px solid #c46a2f; padding: 8px 10px; background: #fff4e9; }
+    .copy-panel textarea { width: 100%; min-height: 220px; resize: vertical; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; border: 1px solid #ccd4de; padding: 10px; }
+    .copy-panel button { min-height: 40px; border: 0; background: #0b5d7e; color: #fff; font-weight: 800; padding: 8px 12px; cursor: pointer; margin: 0 0 10px; }
+    .preview { background: #fff; border: 1px solid #d2d9e3; padding: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <section class="copy-panel" aria-label="CUE embed copy panel">
+    <h1>TPCHD inspections over 35 red points: May 6-18, 2026 preview</h1>
+    <p class="warning">Testing only until this per-alert map URL is included in scheduled emails.</p>
+    <p>Copy this HTML into a CUE HTML Embed asset. The rendered embed appears below.</p>
+    <button type="button" data-role="copy">Copy embed code</button>
+    <textarea readonly spellcheck="false" aria-label="Embed HTML">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;&gt;
+&lt;div class=&quot;tpchd-map&quot; data-mode=&quot;alert&quot; data-url=&quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/runs/concept-current-status-review.geojson&quot;&gt;
+  &lt;style&gt;
+    .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
+    .tpchd-map * { box-sizing: border-box; }
+    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
+    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
+    .tpchd-map__facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+    .tpchd-map__fact { border: 1px solid #d8dee6; background: #f7f9fb; padding: 7px 9px; min-width: 96px; }
+    .tpchd-map__fact strong { display: block; font-size: 17px; line-height: 1.1; color: #111827; }
+    .tpchd-map__fact span { display: block; font-size: 11px; line-height: 1.2; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; margin-top: 2px; }
+    .tpchd-map__legend { align-items: center; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
+    .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
+    .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
+    .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
+    .tpchd-map__search { align-items: end; display: grid; gap: 8px; grid-template-columns: minmax(220px, 1fr) auto; margin: 0 0 10px; }
+    .tpchd-map__search-label { min-width: 0; }
+    .tpchd-map__reset { min-height: 38px; border: 1px solid #c8d1dc; background: #fff; color: #1f2a36; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__results { border: 1px solid #d8dee6; background: #fff; grid-column: 1 / -1; max-height: 220px; overflow: auto; }
+    .tpchd-map__result { align-items: start; background: #fff; border: 0; border-bottom: 1px solid #e6ebf0; color: #1f2a36; cursor: pointer; display: grid; gap: 2px; padding: 8px 10px; text-align: left; width: 100%; }
+    .tpchd-map__result:hover, .tpchd-map__result:focus { background: #f3f7fa; outline: 2px solid #0b5d7e; outline-offset: -2px; }
+    .tpchd-map__result strong { font-size: 14px; line-height: 1.25; }
+    .tpchd-map__result span { color: #4b5b6d; font-size: 12px; line-height: 1.25; }
+    .tpchd-map__controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; align-items: end; }
+    .tpchd-map__group { display: grid; gap: 4px; font-size: 12px; font-weight: 800; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; }
+    .tpchd-map__group select, .tpchd-map__group input { min-height: 38px; border: 1px solid #c8d1dc; padding: 6px 8px; font: 14px/1.2 Arial, Helvetica, sans-serif; color: #1f2a36; background: #fff; min-width: 130px; }
+    .tpchd-map__near { min-height: 38px; border: 1px solid #0b5d7e; background: #0b5d7e; color: #fff; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__stage { position: relative; }
+    .tpchd-map__canvas { width: 100%; height: 540px; border: 1px solid #c3ccd5; background: #eef2f3; }
+    .tpchd-map__interaction, .tpchd-map__done { display: none; }
+    .tpchd-map__status { font-size: 13px; line-height: 1.4; color: #34465a; min-height: 18px; margin-top: 8px; }
+    .tpchd-map__source { font-size: 12px; line-height: 1.35; color: #5a6877; margin-top: 8px; }
+    .tpchd-map__data-link { color: #0b5d7e; font-weight: 800; }
+    .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
+    .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
+    .tpchd-map-marker__shape span { transform: rotate(-45deg); }
+    .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
+    @media (max-width: 640px) {
+      .tpchd-map__title { font-size: 20px; }
+      .tpchd-map__facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+      .tpchd-map__fact { min-width: 0; padding: 7px; }
+      .tpchd-map__search { grid-template-columns: 1fr; }
+      .tpchd-map__reset { width: 100%; min-height: 44px; }
+      .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
+      .tpchd-map__group select, .tpchd-map__group input, .tpchd-map__near { width: 100%; min-height: 44px; }
+      .tpchd-map__canvas { height: min(66vh, 470px); min-height: 390px; }
+      .tpchd-map__interaction { align-items: center; background: rgba(17, 24, 39, .64); color: #fff; display: flex; font-size: 14px; font-weight: 800; inset: 1px; justify-content: center; line-height: 1.3; padding: 18px; position: absolute; text-align: center; z-index: 600; }
+      .tpchd-map.is-map-active .tpchd-map__interaction { display: none; }
+      .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
+    }
+  &lt;/style&gt;
+  &lt;div class=&quot;tpchd-map__title&quot;&gt;TPCHD inspections over 35 red points: May 6-18, 2026&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__lede&quot;&gt;Inspections shown here had more than 35 red points in parsed TPCHD inspection reports.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__facts&quot; aria-live=&quot;polite&quot;&gt;
+    &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;shown&quot;&gt;0&lt;/strong&gt;&lt;span&gt;shown&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;max-red&quot;&gt;0&lt;/strong&gt;&lt;span&gt;max red points&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;tpchd-map__fact&quot;&gt;&lt;strong data-role=&quot;window&quot;&gt;Loading&lt;/strong&gt;&lt;span&gt;dates&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__legend&quot; aria-label=&quot;Map legend&quot;&gt;
+    &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Red points&lt;/span&gt;
+    &lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#d6604d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;36-50 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#c23030&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;51-75 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#9f1d2d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;76-100 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#67000d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;101+ red points&lt;/span&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;tpchd-map__stage&quot;&gt;
+    &lt;div class=&quot;tpchd-map__canvas&quot; aria-label=&quot;Interactive map of TPCHD restaurant inspections with more than 35 red points&quot;&gt;&lt;/div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;tpchd-map__interaction&quot; data-role=&quot;interaction-overlay&quot;&gt;Tap to explore the map. Use Done when you want to keep scrolling.&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;tpchd-map__done&quot; data-role=&quot;interaction-done&quot;&gt;Done&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__status&quot;&gt;Loading inspection map...&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;source-note&quot;&gt;Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs. Locations are reviewed facility-address geocodes. This map shows records over the threshold and does not represent neighborhood-level health risk.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;coverage-note&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot;&gt;&lt;a class=&quot;tpchd-map__data-link&quot; data-role=&quot;data-link&quot; href=&quot;#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; hidden&gt;Download map data (GeoJSON)&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(function () {
+  var script = document.currentScript;
+  var wrapper = script &amp;&amp; script.previousElementSibling;
+  while (wrapper &amp;&amp; !wrapper.classList.contains(&quot;tpchd-map&quot;)) wrapper = wrapper.previousElementSibling;
+  if (!wrapper) return;
+  var mode = wrapper.getAttribute(&quot;data-mode&quot;) || &quot;alert&quot;;
+  var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/runs/concept-current-status-review.geojson&quot;;
+  var severityBins = [{&quot;id&quot;: &quot;red_points_36_50&quot;, &quot;label&quot;: &quot;36-50 red points&quot;, &quot;min&quot;: 36, &quot;max&quot;: 50, &quot;color&quot;: &quot;#d6604d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_51_75&quot;, &quot;label&quot;: &quot;51-75 red points&quot;, &quot;min&quot;: 51, &quot;max&quot;: 75, &quot;color&quot;: &quot;#c23030&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_76_100&quot;, &quot;label&quot;: &quot;76-100 red points&quot;, &quot;min&quot;: 76, &quot;max&quot;: 100, &quot;color&quot;: &quot;#9f1d2d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_101_plus&quot;, &quot;label&quot;: &quot;101+ red points&quot;, &quot;min&quot;: 101, &quot;max&quot;: null, &quot;color&quot;: &quot;#67000d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}];
+  var canvas = wrapper.querySelector(&quot;.tpchd-map__canvas&quot;);
+  var status = wrapper.querySelector(&quot;.tpchd-map__status&quot;);
+  var shown = wrapper.querySelector(&#x27;[data-role=&quot;shown&quot;]&#x27;);
+  var maxRed = wrapper.querySelector(&#x27;[data-role=&quot;max-red&quot;]&#x27;);
+  var windowFact = wrapper.querySelector(&#x27;[data-role=&quot;window&quot;]&#x27;);
+  var yearControl = wrapper.querySelector(&#x27;[data-role=&quot;year&quot;]&#x27;);
+  var minRedControl = wrapper.querySelector(&#x27;[data-role=&quot;min-red&quot;]&#x27;);
+  var searchInput = wrapper.querySelector(&#x27;[data-role=&quot;search&quot;]&#x27;);
+  var resetButton = wrapper.querySelector(&#x27;[data-role=&quot;reset&quot;]&#x27;);
+  var searchResults = wrapper.querySelector(&#x27;[data-role=&quot;search-results&quot;]&#x27;);
+  var nearMe = wrapper.querySelector(&#x27;[data-role=&quot;near-me&quot;]&#x27;);
+  var overlay = wrapper.querySelector(&#x27;[data-role=&quot;interaction-overlay&quot;]&#x27;);
+  var done = wrapper.querySelector(&#x27;[data-role=&quot;interaction-done&quot;]&#x27;);
+  var coverageNote = wrapper.querySelector(&#x27;[data-role=&quot;coverage-note&quot;]&#x27;);
+  var dataLink = wrapper.querySelector(&#x27;[data-role=&quot;data-link&quot;]&#x27;);
+  var map;
+  var layer;
+  var allFeatures = [];
+  var activeMetadata = {};
+  var markerByRecordId = {};
+  var userLocation = null;
+  function esc(value) {
+    return String(value || &quot;&quot;).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function (ch) {
+      return ({ &quot;&amp;&quot;: &quot;&amp;amp;&quot;, &quot;&lt;&quot;: &quot;&amp;lt;&quot;, &quot;&gt;&quot;: &quot;&amp;gt;&quot;, &#x27;&quot;&#x27;: &quot;&amp;quot;&quot;, &quot;&#x27;&quot;: &quot;&amp;#39;&quot; })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || &quot;&quot;);
+    return /^https?:\/\//i.test(value) ? value.replace(/&quot;/g, &quot;%22&quot;) : &quot;&quot;;
+  }
+  function normalizeSearch(value) {
+    var text = String(value || &quot;&quot;).toLowerCase();
+    if (text.normalize) text = text.normalize(&quot;NFD&quot;).replace(/[\u0300-\u036f]/g, &quot;&quot;);
+    text = text.replace(/&amp;/g, &quot; and &quot;).replace(/[’&#x27;]/g, &quot;&quot;);
+    text = text.replace(/\b(?:llc|inc|corp|corporation|company|co|ltd|dba|the)\b/g, &quot; &quot;);
+    text = text.replace(/[^a-z0-9]+/g, &quot; &quot;).replace(/\s+/g, &quot; &quot;).trim();
+    return text;
+  }
+  function searchTokens(value) {
+    return normalizeSearch(value).split(&quot; &quot;).filter(function (token) { return token.length &gt; 0; });
+  }
+  function editDistanceAtMost(a, b, limit) {
+    if (Math.abs(a.length - b.length) &gt; limit) return false;
+    var previous = [];
+    for (var j = 0; j &lt;= b.length; j++) previous[j] = j;
+    for (var i = 1; i &lt;= a.length; i++) {
+      var current = [i];
+      var rowMin = current[0];
+      for (var k = 1; k &lt;= b.length; k++) {
+        var cost = a.charAt(i - 1) === b.charAt(k - 1) ? 0 : 1;
+        current[k] = Math.min(previous[k] + 1, current[k - 1] + 1, previous[k - 1] + cost);
+        if (current[k] &lt; rowMin) rowMin = current[k];
+      }
+      if (rowMin &gt; limit) return false;
+      previous = current;
+    }
+    return previous[b.length] &lt;= limit;
+  }
+  function featureSearchRecord(feature) {
+    if (feature.__tpchdSearch) return feature.__tpchdSearch;
+    var p = feature.properties || {};
+    var aliases = Array.isArray(p.aliases) ? p.aliases.join(&quot; &quot;) : String(p.aliases || &quot;&quot;);
+    var name = normalizeSearch([p.business_name, p.display_name, p.known_as, aliases].filter(Boolean).join(&quot; &quot;));
+    var address = normalizeSearch([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;));
+    var all = normalizeSearch([name, address, p.facility_id, p.inspection_type, p.inspection_result].filter(Boolean).join(&quot; &quot;));
+    feature.__tpchdSearch = {
+      all: all,
+      address: address,
+      name: name,
+      tokens: all.split(&quot; &quot;).filter(Boolean)
+    };
+    return feature.__tpchdSearch;
+  }
+  function tokenMatches(token, candidate) {
+    if (!token || !candidate) return false;
+    if (candidate === token || candidate.indexOf(token) === 0 || token.indexOf(candidate) === 0) return true;
+    if (token.length &gt;= 4 &amp;&amp; candidate.length &gt;= 4 &amp;&amp; editDistanceAtMost(token, candidate, token.length &gt; 7 ? 2 : 1)) return true;
+    return false;
+  }
+  function scoreSearch(feature, query) {
+    var normalized = normalizeSearch(query);
+    if (!normalized) return 1;
+    var record = featureSearchRecord(feature);
+    var tokens = normalized.split(&quot; &quot;).filter(Boolean);
+    if (!tokens.length) return 1;
+    var score = 0;
+    if (record.name === normalized) score += 200;
+    if (record.name.indexOf(normalized) === 0) score += 150;
+    if (record.name.indexOf(normalized) &gt;= 0) score += 120;
+    if (record.address.indexOf(normalized) &gt;= 0) score += 80;
+    var matched = 0;
+    tokens.forEach(function (token) {
+      var tokenScore = 0;
+      record.tokens.forEach(function (candidate) {
+        if (candidate === token) tokenScore = Math.max(tokenScore, 24);
+        else if (candidate.indexOf(token) === 0) tokenScore = Math.max(tokenScore, 18);
+        else if (token.length &gt;= 3 &amp;&amp; candidate.indexOf(token) &gt;= 0) tokenScore = Math.max(tokenScore, 12);
+        else if (tokenMatches(token, candidate)) tokenScore = Math.max(tokenScore, 8);
+      });
+      if (tokenScore &gt; 0) matched += 1;
+      score += tokenScore;
+    });
+    return matched === tokens.length ? score : 0;
+  }
+  function setStatus(message) {
+    if (status) status.textContent = message || &quot;&quot;;
+  }
+  function setFact(node, value) {
+    if (node) node.textContent = value == null || value === &quot;&quot; ? &quot;0&quot; : String(value);
+  }
+  function redPoints(feature) {
+    var props = feature.properties || {};
+    var value = parseInt(props.red_points, 10);
+    return isNaN(value) ? 0 : value;
+  }
+  function featureDate(feature) {
+    var props = feature.properties || {};
+    return String(props.inspection_date_iso || props.inspection_date || &quot;&quot;);
+  }
+  function featureYear(feature) {
+    var props = feature.properties || {};
+    return String(props.inspection_year || (featureDate(feature).slice(0, 4)) || &quot;&quot;);
+  }
+  function dateLabel(features) {
+    var dates = features.map(featureDate).filter(Boolean).sort();
+    if (!dates.length) return &quot;No dates&quot;;
+    return dates[0] === dates[dates.length - 1] ? dates[0] : dates[0] + &quot; to &quot; + dates[dates.length - 1];
+  }
+  function markerTitle(feature) {
+    var p = feature.properties || {};
+    var name = p.business_name || &quot;TPCHD inspection&quot;;
+    var date = p.inspection_date || &quot;&quot;;
+    return name + &quot;, &quot; + redPoints(feature) + &quot; red points&quot; + (date ? &quot;, inspected &quot; + date : &quot;&quot;);
+  }
+  function currentStatusLabel(props) {
+    props = props || {};
+    var parts = [];
+    if (props.current_score !== undefined &amp;&amp; props.current_score !== null &amp;&amp; String(props.current_score).trim() !== &quot;&quot;) {
+      parts.push(&quot;Score: &quot; + String(props.current_score));
+    }
+    if (props.current_grade) parts.push(&quot;Grade: &quot; + String(props.current_grade));
+    if (props.current_last_inspection_date) parts.push(&quot;as of &quot; + String(props.current_last_inspection_date));
+    return parts.join(&quot; | &quot;);
+  }
+  function severityBin(value) {
+    var points = parseInt(value, 10);
+    if (isNaN(points)) points = 0;
+    for (var i = 0; i &lt; severityBins.length; i++) {
+      var bin = severityBins[i];
+      var max = bin.max == null ? Infinity : Number(bin.max);
+      if (points &gt;= Number(bin.min) &amp;&amp; points &lt;= max) return bin;
+    }
+    return severityBins[0] || { color: &quot;#b61f2d&quot;, label: &quot;More than 35 red points&quot; };
+  }
+  function markerIcon(feature) {
+    var bin = severityBin(redPoints(feature));
+    var color = String(bin.color || &quot;#b61f2d&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+    return L.divIcon({
+      className: &quot;tpchd-map-marker&quot;,
+      html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&quot; style=&quot;background:&#x27; + color + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;&#x27;,
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12]
+    });
+  }
+  function popupHtml(feature) {
+    var p = feature.properties || {};
+    var reportUrl = safeUrl(p.report_url);
+    var detailUrl = safeUrl(p.facility_detail_url);
+    var currentStatus = currentStatusLabel(p);
+    var links = [];
+    if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
+    if (reportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download report&lt;/a&gt;&#x27;);
+    return &#x27;&lt;strong&gt;&#x27; + esc(p.business_name) + &#x27;&lt;/strong&gt;&lt;br&gt;&#x27; +
+      esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;br&gt;&#x27; +
+      esc(p.inspection_date) + &#x27; &#x27; + esc(p.inspection_type) + &#x27;&lt;br&gt;&#x27; +
+      &#x27;&lt;strong&gt;&#x27; + esc(p.red_points) + &#x27; red points&lt;/strong&gt;&lt;br&gt;&#x27; +
+      esc(p.inspection_result) +
+      (currentStatus ? &#x27;&lt;br&gt;&lt;strong&gt;Current TPCHD status:&lt;/strong&gt; &#x27; + esc(currentStatus) : &#x27;&#x27;) +
+      (links.length ? &#x27;&lt;br&gt;&#x27; + links.join(&#x27; | &#x27;) : &#x27;&#x27;);
+  }
+  function initMap() {
+    if (typeof L === &quot;undefined&quot;) {
+      setStatus(&quot;Map library failed to load.&quot;);
+      return false;
+    }
+    map = L.map(canvas, { scrollWheelZoom: false }).setView([47.2529, -122.4443], 10);
+    L.tileLayer(&quot;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&quot;, {
+      maxZoom: 19,
+      attribution: &#x27;&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors&#x27;
+    }).addTo(map);
+    if (window.matchMedia &amp;&amp; window.matchMedia(&quot;(max-width: 640px)&quot;).matches) {
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    }
+    if (overlay) overlay.addEventListener(&quot;click&quot;, function () {
+      wrapper.classList.add(&quot;is-map-active&quot;);
+      if (map.dragging) map.dragging.enable();
+      if (map.touchZoom) map.touchZoom.enable();
+    });
+    if (done) done.addEventListener(&quot;click&quot;, function () {
+      wrapper.classList.remove(&quot;is-map-active&quot;);
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    });
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(function () { setTimeout(function () { map.invalidateSize({ pan: false }); }, 40); });
+      ro.observe(canvas);
+    }
+    return true;
+  }
+  function render(features) {
+    if (!map) return;
+    if (layer) map.removeLayer(layer);
+    markerByRecordId = {};
+    layer = L.geoJSON({ type: &quot;FeatureCollection&quot;, features: features }, {
+      pointToLayer: function (feature, latlng) {
+        var title = markerTitle(feature);
+        return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
+      },
+      onEachFeature: function (feature, marker) {
+        marker.bindPopup(popupHtml(feature));
+        var recordId = String((feature.properties || {}).record_id || &quot;&quot;);
+        if (recordId) markerByRecordId[recordId] = marker;
+      }
+    }).addTo(map);
+    if (features.length) {
+      map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 15 });
+    } else {
+      map.setView([47.2529, -122.4443], 10);
+    }
+    setFact(shown, features.length);
+    setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
+    if (windowFact) windowFact.textContent = dateLabel(features);
+    setStatus(features.length ? &quot;Showing &quot; + features.length + &quot; over-threshold inspection locations.&quot; : &quot;No mapped inspections match the current filters.&quot;);
+    updateSearchResults(features);
+    setTimeout(function () { map.invalidateSize({ pan: false }); }, 120);
+  }
+  function updateCoverage(metadata, dataFileUrl) {
+    activeMetadata = metadata || {};
+    var unmapped = Number(activeMetadata.unmapped_records || 0);
+    var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
+    var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
+    var parts = [];
+    parts.push(&quot;Map layer includes geocoded inspections with more than 35 red points.&quot;);
+    if (unmapped) parts.push(unmapped + &quot; over-threshold record&quot; + (unmapped === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; not mapped because reviewed coordinates were unavailable.&quot;);
+    if (excluded) parts.push(excluded + &quot; parsed inspection&quot; + (excluded === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; at or below the threshold and not drawn on this map.&quot;);
+    if (unparsed) parts.push(unparsed + &quot; row&quot; + (unparsed === 1 ? &quot; lacks&quot; : &quot;s lack&quot;) + &quot; parsed red-point totals and is not treated as zero.&quot;);
+    parts.push(&quot;Spatial coincidence on this map should not be read as neighborhood-level health risk.&quot;);
+    if (coverageNote) coverageNote.textContent = parts.join(&quot; &quot;);
+    if (dataLink &amp;&amp; dataFileUrl) {
+      dataLink.href = dataFileUrl;
+      dataLink.hidden = false;
+    }
+  }
+  function applyFilters() {
+    var year = yearControl ? yearControl.value : &quot;all&quot;;
+    var minRed = minRedControl ? parseInt(minRedControl.value, 10) : 35;
+    var query = searchInput ? searchInput.value : &quot;&quot;;
+    if (isNaN(minRed)) minRed = 35;
+    var features = allFeatures.filter(function (feature) {
+      if (year !== &quot;all&quot; &amp;&amp; featureYear(feature) !== year) return false;
+      if (query &amp;&amp; scoreSearch(feature, query) &lt;= 0) return false;
+      return redPoints(feature) &gt; minRed;
+    });
+    if (query) {
+      features.sort(function (a, b) {
+        return scoreSearch(b, query) - scoreSearch(a, query) || redPoints(b) - redPoints(a);
+      });
+    }
+    if (userLocation) {
+      features.sort(function (a, b) { return distanceMiles(a, userLocation) - distanceMiles(b, userLocation); });
+    }
+    render(features);
+  }
+  function updateSearchResults(features) {
+    if (!searchResults || !searchInput) return;
+    var query = searchInput.value || &quot;&quot;;
+    if (!normalizeSearch(query)) {
+      searchResults.hidden = true;
+      searchResults.innerHTML = &quot;&quot;;
+      return;
+    }
+    if (!features.length) {
+      searchResults.hidden = false;
+      searchResults.innerHTML = &#x27;&lt;div class=&quot;tpchd-map__result&quot; role=&quot;status&quot;&gt;&lt;strong&gt;No matching restaurants found&lt;/strong&gt;&lt;span&gt;Try fewer words, a ZIP code, or part of the address.&lt;/span&gt;&lt;/div&gt;&#x27;;
+      return;
+    }
+    var grouped = {};
+    features.forEach(function (feature) {
+      var p = feature.properties || {};
+      var key = String(p.facility_id || p.business_name || p.address || p.record_id || &quot;&quot;);
+      if (!grouped[key]) grouped[key] = { feature: feature, count: 0, maxRed: 0, score: 0 };
+      grouped[key].count += 1;
+      grouped[key].maxRed = Math.max(grouped[key].maxRed, redPoints(feature));
+      grouped[key].score = Math.max(grouped[key].score, scoreSearch(feature, query));
+      if (featureDate(feature) &gt; featureDate(grouped[key].feature)) grouped[key].feature = feature;
+    });
+    var results = Object.keys(grouped).map(function (key) { return grouped[key]; }).sort(function (a, b) {
+      return b.score - a.score || b.maxRed - a.maxRed || featureDate(b.feature).localeCompare(featureDate(a.feature));
+    }).slice(0, 8);
+    searchResults.hidden = false;
+    searchResults.innerHTML = results.map(function (item) {
+      var p = item.feature.properties || {};
+      var recordId = esc(p.record_id || &quot;&quot;);
+      var name = esc(p.business_name || &quot;Unnamed restaurant&quot;);
+      var address = esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;));
+      var count = item.count === 1 ? &quot;1 over-threshold inspection&quot; : item.count + &quot; over-threshold inspections&quot;;
+      var currentStatus = currentStatusLabel(p);
+      return &#x27;&lt;button type=&quot;button&quot; class=&quot;tpchd-map__result&quot; data-record-id=&quot;&#x27; + recordId + &#x27;&quot;&gt;&lt;strong&gt;&#x27; + name + &#x27;&lt;/strong&gt;&lt;span&gt;&#x27; + address + &#x27;&lt;/span&gt;&lt;span&gt;&#x27; + count + &#x27; | max &#x27; + item.maxRed + &#x27; red points&lt;/span&gt;&#x27; + (currentStatus ? &#x27;&lt;span&gt;Current TPCHD status: &#x27; + esc(currentStatus) + &#x27;&lt;/span&gt;&#x27; : &#x27;&#x27;) + &#x27;&lt;/button&gt;&#x27;;
+    }).join(&quot;&quot;);
+    Array.prototype.forEach.call(searchResults.querySelectorAll(&quot;[data-record-id]&quot;), function (button) {
+      button.addEventListener(&quot;click&quot;, function () { selectRecord(button.getAttribute(&quot;data-record-id&quot;)); });
+    });
+  }
+  function selectRecord(recordId) {
+    var marker = markerByRecordId[String(recordId || &quot;&quot;)];
+    if (!marker || !map) return;
+    var latlng = marker.getLatLng();
+    map.setView(latlng, Math.max(map.getZoom(), 14));
+    marker.openPopup();
+  }
+  function populateControls(geojson) {
+    if (minRedControl) minRedControl.value = String(35);
+    if (yearControl) {
+      var years = ((geojson.metadata || {}).available_years || allFeatures.map(featureYear)).filter(Boolean);
+      years = Array.from(new Set(years)).sort().reverse();
+      years.forEach(function (year) {
+        var option = document.createElement(&quot;option&quot;);
+        option.value = year;
+        option.textContent = year;
+        yearControl.appendChild(option);
+      });
+      yearControl.addEventListener(&quot;change&quot;, applyFilters);
+    }
+    if (minRedControl) minRedControl.addEventListener(&quot;input&quot;, applyFilters);
+    if (searchInput) searchInput.addEventListener(&quot;input&quot;, applyFilters);
+    if (resetButton) resetButton.addEventListener(&quot;click&quot;, function () {
+      if (searchInput) searchInput.value = &quot;&quot;;
+      if (yearControl) yearControl.value = &quot;all&quot;;
+      if (minRedControl) minRedControl.value = String(35);
+      userLocation = null;
+      applyFilters();
+    });
+  }
+  function distanceMiles(feature, origin) {
+    var coords = feature.geometry &amp;&amp; feature.geometry.coordinates || [];
+    var lng = Number(coords[0]);
+    var lat = Number(coords[1]);
+    if (isNaN(lat) || isNaN(lng)) return Infinity;
+    var rad = Math.PI / 180;
+    var dLat = (lat - origin.lat) * rad;
+    var dLng = (lng - origin.lng) * rad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(origin.lat * rad) * Math.cos(lat * rad) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 3958.8 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+  function enableNearMe() {
+    if (!nearMe || !navigator.geolocation) return;
+    nearMe.addEventListener(&quot;click&quot;, function () {
+      setStatus(&quot;Waiting for your browser to share your location...&quot;);
+      navigator.geolocation.getCurrentPosition(function (position) {
+        userLocation = { lat: position.coords.latitude, lng: position.coords.longitude };
+        setStatus(&quot;Showing locations nearest to you first.&quot;);
+        applyFilters();
+      }, function () {
+        setStatus(&quot;Location was not available. The map is still filtered by inspection data.&quot;);
+      }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
+    });
+  }
+  function resolveUrl(value, base) {
+    try {
+      return new URL(value, base).toString();
+    } catch (err) {
+      return value;
+    }
+  }
+  function loadGeojson() {
+    if (mode === &quot;evergreen&quot;) {
+      return fetch(dataUrl).then(function (r) {
+        if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
+        return r.json();
+      }).then(function (manifest) {
+        var latest = manifest.entrypoints &amp;&amp; manifest.entrypoints.latest || manifest.files &amp;&amp; manifest.files.latest || &quot;latest.geojson&quot;;
+        var latestUrl = resolveUrl(latest, dataUrl);
+        return fetch(latestUrl).then(function (r) {
+          if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
+          return r.json();
+        }).then(function (geojson) {
+          geojson.__data_url = latestUrl;
+          return geojson;
+        });
+      });
+    }
+    return fetch(dataUrl).then(function (r) {
+      if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
+      return r.json();
+    }).then(function (geojson) {
+      geojson.__data_url = dataUrl;
+      return geojson;
+    });
+  }
+  if (!initMap()) return;
+  enableNearMe();
+  loadGeojson().then(function (geojson) {
+    allFeatures = (geojson.features || []).filter(function (feature) {
+      return feature &amp;&amp; feature.geometry &amp;&amp; feature.geometry.type === &quot;Point&quot;;
+    });
+    updateCoverage(geojson.metadata || {}, geojson.__data_url || dataUrl);
+    populateControls(geojson);
+    applyFilters();
+  }).catch(function (err) {
+    setStatus(&quot;Map data failed to load: &quot; + err.message);
+  });
+})();
+&lt;/script&gt;</textarea>
+    <p data-role="status" aria-live="polite"></p>
+  </section>
+  <section class="preview"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/runs/concept-current-status-review.geojson">
+  <style>
+    .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
+    .tpchd-map * { box-sizing: border-box; }
+    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
+    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
+    .tpchd-map__facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+    .tpchd-map__fact { border: 1px solid #d8dee6; background: #f7f9fb; padding: 7px 9px; min-width: 96px; }
+    .tpchd-map__fact strong { display: block; font-size: 17px; line-height: 1.1; color: #111827; }
+    .tpchd-map__fact span { display: block; font-size: 11px; line-height: 1.2; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; margin-top: 2px; }
+    .tpchd-map__legend { align-items: center; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
+    .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
+    .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
+    .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
+    .tpchd-map__search { align-items: end; display: grid; gap: 8px; grid-template-columns: minmax(220px, 1fr) auto; margin: 0 0 10px; }
+    .tpchd-map__search-label { min-width: 0; }
+    .tpchd-map__reset { min-height: 38px; border: 1px solid #c8d1dc; background: #fff; color: #1f2a36; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__results { border: 1px solid #d8dee6; background: #fff; grid-column: 1 / -1; max-height: 220px; overflow: auto; }
+    .tpchd-map__result { align-items: start; background: #fff; border: 0; border-bottom: 1px solid #e6ebf0; color: #1f2a36; cursor: pointer; display: grid; gap: 2px; padding: 8px 10px; text-align: left; width: 100%; }
+    .tpchd-map__result:hover, .tpchd-map__result:focus { background: #f3f7fa; outline: 2px solid #0b5d7e; outline-offset: -2px; }
+    .tpchd-map__result strong { font-size: 14px; line-height: 1.25; }
+    .tpchd-map__result span { color: #4b5b6d; font-size: 12px; line-height: 1.25; }
+    .tpchd-map__controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; align-items: end; }
+    .tpchd-map__group { display: grid; gap: 4px; font-size: 12px; font-weight: 800; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; }
+    .tpchd-map__group select, .tpchd-map__group input { min-height: 38px; border: 1px solid #c8d1dc; padding: 6px 8px; font: 14px/1.2 Arial, Helvetica, sans-serif; color: #1f2a36; background: #fff; min-width: 130px; }
+    .tpchd-map__near { min-height: 38px; border: 1px solid #0b5d7e; background: #0b5d7e; color: #fff; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__stage { position: relative; }
+    .tpchd-map__canvas { width: 100%; height: 540px; border: 1px solid #c3ccd5; background: #eef2f3; }
+    .tpchd-map__interaction, .tpchd-map__done { display: none; }
+    .tpchd-map__status { font-size: 13px; line-height: 1.4; color: #34465a; min-height: 18px; margin-top: 8px; }
+    .tpchd-map__source { font-size: 12px; line-height: 1.35; color: #5a6877; margin-top: 8px; }
+    .tpchd-map__data-link { color: #0b5d7e; font-weight: 800; }
+    .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
+    .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
+    .tpchd-map-marker__shape span { transform: rotate(-45deg); }
+    .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; }
+    @media (max-width: 640px) {
+      .tpchd-map__title { font-size: 20px; }
+      .tpchd-map__facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+      .tpchd-map__fact { min-width: 0; padding: 7px; }
+      .tpchd-map__search { grid-template-columns: 1fr; }
+      .tpchd-map__reset { width: 100%; min-height: 44px; }
+      .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
+      .tpchd-map__group select, .tpchd-map__group input, .tpchd-map__near { width: 100%; min-height: 44px; }
+      .tpchd-map__canvas { height: min(66vh, 470px); min-height: 390px; }
+      .tpchd-map__interaction { align-items: center; background: rgba(17, 24, 39, .64); color: #fff; display: flex; font-size: 14px; font-weight: 800; inset: 1px; justify-content: center; line-height: 1.3; padding: 18px; position: absolute; text-align: center; z-index: 600; }
+      .tpchd-map.is-map-active .tpchd-map__interaction { display: none; }
+      .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
+    }
+  </style>
+  <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 6-18, 2026</div>
+  <div class="tpchd-map__lede">Inspections shown here had more than 35 red points in parsed TPCHD inspection reports.</div>
+  <div class="tpchd-map__facts" aria-live="polite">
+    <div class="tpchd-map__fact"><strong data-role="shown">0</strong><span>shown</span></div>
+    <div class="tpchd-map__fact"><strong data-role="max-red">0</strong><span>max red points</span></div>
+    <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>dates</span></div>
+  </div>
+  <div class="tpchd-map__legend" aria-label="Map legend">
+    <span class="tpchd-map__legend-title">Red points</span>
+    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#d6604d" aria-hidden="true"><span>!</span></span>36-50 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c23030" aria-hidden="true"><span>!</span></span>51-75 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#9f1d2d" aria-hidden="true"><span>!</span></span>76-100 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#67000d" aria-hidden="true"><span>!</span></span>101+ red points</span>
+  </div>
+  
+  <div class="tpchd-map__stage">
+    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections with more than 35 red points"></div>
+    <button type="button" class="tpchd-map__interaction" data-role="interaction-overlay">Tap to explore the map. Use Done when you want to keep scrolling.</button>
+    <button type="button" class="tpchd-map__done" data-role="interaction-done">Done</button>
+  </div>
+  <div class="tpchd-map__status">Loading inspection map...</div>
+  <div class="tpchd-map__source" data-role="source-note">Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs. Locations are reviewed facility-address geocodes. This map shows records over the threshold and does not represent neighborhood-level health risk.</div>
+  <div class="tpchd-map__source" data-role="coverage-note"></div>
+  <div class="tpchd-map__source"><a class="tpchd-map__data-link" data-role="data-link" href="#" target="_blank" rel="noopener" hidden>Download map data (GeoJSON)</a></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function () {
+  var script = document.currentScript;
+  var wrapper = script && script.previousElementSibling;
+  while (wrapper && !wrapper.classList.contains("tpchd-map")) wrapper = wrapper.previousElementSibling;
+  if (!wrapper) return;
+  var mode = wrapper.getAttribute("data-mode") || "alert";
+  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/runs/concept-current-status-review.geojson";
+  var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
+  var canvas = wrapper.querySelector(".tpchd-map__canvas");
+  var status = wrapper.querySelector(".tpchd-map__status");
+  var shown = wrapper.querySelector('[data-role="shown"]');
+  var maxRed = wrapper.querySelector('[data-role="max-red"]');
+  var windowFact = wrapper.querySelector('[data-role="window"]');
+  var yearControl = wrapper.querySelector('[data-role="year"]');
+  var minRedControl = wrapper.querySelector('[data-role="min-red"]');
+  var searchInput = wrapper.querySelector('[data-role="search"]');
+  var resetButton = wrapper.querySelector('[data-role="reset"]');
+  var searchResults = wrapper.querySelector('[data-role="search-results"]');
+  var nearMe = wrapper.querySelector('[data-role="near-me"]');
+  var overlay = wrapper.querySelector('[data-role="interaction-overlay"]');
+  var done = wrapper.querySelector('[data-role="interaction-done"]');
+  var coverageNote = wrapper.querySelector('[data-role="coverage-note"]');
+  var dataLink = wrapper.querySelector('[data-role="data-link"]');
+  var map;
+  var layer;
+  var allFeatures = [];
+  var activeMetadata = {};
+  var markerByRecordId = {};
+  var userLocation = null;
+  function esc(value) {
+    return String(value || "").replace(/[&<>"']/g, function (ch) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || "");
+    return /^https?:\/\//i.test(value) ? value.replace(/"/g, "%22") : "";
+  }
+  function normalizeSearch(value) {
+    var text = String(value || "").toLowerCase();
+    if (text.normalize) text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    text = text.replace(/&/g, " and ").replace(/[’']/g, "");
+    text = text.replace(/\b(?:llc|inc|corp|corporation|company|co|ltd|dba|the)\b/g, " ");
+    text = text.replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
+    return text;
+  }
+  function searchTokens(value) {
+    return normalizeSearch(value).split(" ").filter(function (token) { return token.length > 0; });
+  }
+  function editDistanceAtMost(a, b, limit) {
+    if (Math.abs(a.length - b.length) > limit) return false;
+    var previous = [];
+    for (var j = 0; j <= b.length; j++) previous[j] = j;
+    for (var i = 1; i <= a.length; i++) {
+      var current = [i];
+      var rowMin = current[0];
+      for (var k = 1; k <= b.length; k++) {
+        var cost = a.charAt(i - 1) === b.charAt(k - 1) ? 0 : 1;
+        current[k] = Math.min(previous[k] + 1, current[k - 1] + 1, previous[k - 1] + cost);
+        if (current[k] < rowMin) rowMin = current[k];
+      }
+      if (rowMin > limit) return false;
+      previous = current;
+    }
+    return previous[b.length] <= limit;
+  }
+  function featureSearchRecord(feature) {
+    if (feature.__tpchdSearch) return feature.__tpchdSearch;
+    var p = feature.properties || {};
+    var aliases = Array.isArray(p.aliases) ? p.aliases.join(" ") : String(p.aliases || "");
+    var name = normalizeSearch([p.business_name, p.display_name, p.known_as, aliases].filter(Boolean).join(" "));
+    var address = normalizeSearch([p.address, p.city, p.zip].filter(Boolean).join(" "));
+    var all = normalizeSearch([name, address, p.facility_id, p.inspection_type, p.inspection_result].filter(Boolean).join(" "));
+    feature.__tpchdSearch = {
+      all: all,
+      address: address,
+      name: name,
+      tokens: all.split(" ").filter(Boolean)
+    };
+    return feature.__tpchdSearch;
+  }
+  function tokenMatches(token, candidate) {
+    if (!token || !candidate) return false;
+    if (candidate === token || candidate.indexOf(token) === 0 || token.indexOf(candidate) === 0) return true;
+    if (token.length >= 4 && candidate.length >= 4 && editDistanceAtMost(token, candidate, token.length > 7 ? 2 : 1)) return true;
+    return false;
+  }
+  function scoreSearch(feature, query) {
+    var normalized = normalizeSearch(query);
+    if (!normalized) return 1;
+    var record = featureSearchRecord(feature);
+    var tokens = normalized.split(" ").filter(Boolean);
+    if (!tokens.length) return 1;
+    var score = 0;
+    if (record.name === normalized) score += 200;
+    if (record.name.indexOf(normalized) === 0) score += 150;
+    if (record.name.indexOf(normalized) >= 0) score += 120;
+    if (record.address.indexOf(normalized) >= 0) score += 80;
+    var matched = 0;
+    tokens.forEach(function (token) {
+      var tokenScore = 0;
+      record.tokens.forEach(function (candidate) {
+        if (candidate === token) tokenScore = Math.max(tokenScore, 24);
+        else if (candidate.indexOf(token) === 0) tokenScore = Math.max(tokenScore, 18);
+        else if (token.length >= 3 && candidate.indexOf(token) >= 0) tokenScore = Math.max(tokenScore, 12);
+        else if (tokenMatches(token, candidate)) tokenScore = Math.max(tokenScore, 8);
+      });
+      if (tokenScore > 0) matched += 1;
+      score += tokenScore;
+    });
+    return matched === tokens.length ? score : 0;
+  }
+  function setStatus(message) {
+    if (status) status.textContent = message || "";
+  }
+  function setFact(node, value) {
+    if (node) node.textContent = value == null || value === "" ? "0" : String(value);
+  }
+  function redPoints(feature) {
+    var props = feature.properties || {};
+    var value = parseInt(props.red_points, 10);
+    return isNaN(value) ? 0 : value;
+  }
+  function featureDate(feature) {
+    var props = feature.properties || {};
+    return String(props.inspection_date_iso || props.inspection_date || "");
+  }
+  function featureYear(feature) {
+    var props = feature.properties || {};
+    return String(props.inspection_year || (featureDate(feature).slice(0, 4)) || "");
+  }
+  function dateLabel(features) {
+    var dates = features.map(featureDate).filter(Boolean).sort();
+    if (!dates.length) return "No dates";
+    return dates[0] === dates[dates.length - 1] ? dates[0] : dates[0] + " to " + dates[dates.length - 1];
+  }
+  function markerTitle(feature) {
+    var p = feature.properties || {};
+    var name = p.business_name || "TPCHD inspection";
+    var date = p.inspection_date || "";
+    return name + ", " + redPoints(feature) + " red points" + (date ? ", inspected " + date : "");
+  }
+  function currentStatusLabel(props) {
+    props = props || {};
+    var parts = [];
+    if (props.current_score !== undefined && props.current_score !== null && String(props.current_score).trim() !== "") {
+      parts.push("Score: " + String(props.current_score));
+    }
+    if (props.current_grade) parts.push("Grade: " + String(props.current_grade));
+    if (props.current_last_inspection_date) parts.push("as of " + String(props.current_last_inspection_date));
+    return parts.join(" | ");
+  }
+  function severityBin(value) {
+    var points = parseInt(value, 10);
+    if (isNaN(points)) points = 0;
+    for (var i = 0; i < severityBins.length; i++) {
+      var bin = severityBins[i];
+      var max = bin.max == null ? Infinity : Number(bin.max);
+      if (points >= Number(bin.min) && points <= max) return bin;
+    }
+    return severityBins[0] || { color: "#b61f2d", label: "More than 35 red points" };
+  }
+  function markerIcon(feature) {
+    var bin = severityBin(redPoints(feature));
+    var color = String(bin.color || "#b61f2d").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    return L.divIcon({
+      className: "tpchd-map-marker",
+      html: '<span class="tpchd-map-marker__shape" style="background:' + color + '" aria-hidden="true"><span>!</span></span>',
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12]
+    });
+  }
+  function popupHtml(feature) {
+    var p = feature.properties || {};
+    var reportUrl = safeUrl(p.report_url);
+    var detailUrl = safeUrl(p.facility_detail_url);
+    var currentStatus = currentStatusLabel(p);
+    var links = [];
+    if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
+    if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download report</a>');
+    return '<strong>' + esc(p.business_name) + '</strong><br>' +
+      esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
+      esc(p.inspection_date) + ' ' + esc(p.inspection_type) + '<br>' +
+      '<strong>' + esc(p.red_points) + ' red points</strong><br>' +
+      esc(p.inspection_result) +
+      (currentStatus ? '<br><strong>Current TPCHD status:</strong> ' + esc(currentStatus) : '') +
+      (links.length ? '<br>' + links.join(' | ') : '');
+  }
+  function initMap() {
+    if (typeof L === "undefined") {
+      setStatus("Map library failed to load.");
+      return false;
+    }
+    map = L.map(canvas, { scrollWheelZoom: false }).setView([47.2529, -122.4443], 10);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    if (window.matchMedia && window.matchMedia("(max-width: 640px)").matches) {
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    }
+    if (overlay) overlay.addEventListener("click", function () {
+      wrapper.classList.add("is-map-active");
+      if (map.dragging) map.dragging.enable();
+      if (map.touchZoom) map.touchZoom.enable();
+    });
+    if (done) done.addEventListener("click", function () {
+      wrapper.classList.remove("is-map-active");
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    });
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(function () { setTimeout(function () { map.invalidateSize({ pan: false }); }, 40); });
+      ro.observe(canvas);
+    }
+    return true;
+  }
+  function render(features) {
+    if (!map) return;
+    if (layer) map.removeLayer(layer);
+    markerByRecordId = {};
+    layer = L.geoJSON({ type: "FeatureCollection", features: features }, {
+      pointToLayer: function (feature, latlng) {
+        var title = markerTitle(feature);
+        return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
+      },
+      onEachFeature: function (feature, marker) {
+        marker.bindPopup(popupHtml(feature));
+        var recordId = String((feature.properties || {}).record_id || "");
+        if (recordId) markerByRecordId[recordId] = marker;
+      }
+    }).addTo(map);
+    if (features.length) {
+      map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 15 });
+    } else {
+      map.setView([47.2529, -122.4443], 10);
+    }
+    setFact(shown, features.length);
+    setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
+    if (windowFact) windowFact.textContent = dateLabel(features);
+    setStatus(features.length ? "Showing " + features.length + " over-threshold inspection locations." : "No mapped inspections match the current filters.");
+    updateSearchResults(features);
+    setTimeout(function () { map.invalidateSize({ pan: false }); }, 120);
+  }
+  function updateCoverage(metadata, dataFileUrl) {
+    activeMetadata = metadata || {};
+    var unmapped = Number(activeMetadata.unmapped_records || 0);
+    var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
+    var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
+    var parts = [];
+    parts.push("Map layer includes geocoded inspections with more than 35 red points.");
+    if (unmapped) parts.push(unmapped + " over-threshold record" + (unmapped === 1 ? " is" : "s are") + " not mapped because reviewed coordinates were unavailable.");
+    if (excluded) parts.push(excluded + " parsed inspection" + (excluded === 1 ? " is" : "s are") + " at or below the threshold and not drawn on this map.");
+    if (unparsed) parts.push(unparsed + " row" + (unparsed === 1 ? " lacks" : "s lack") + " parsed red-point totals and is not treated as zero.");
+    parts.push("Spatial coincidence on this map should not be read as neighborhood-level health risk.");
+    if (coverageNote) coverageNote.textContent = parts.join(" ");
+    if (dataLink && dataFileUrl) {
+      dataLink.href = dataFileUrl;
+      dataLink.hidden = false;
+    }
+  }
+  function applyFilters() {
+    var year = yearControl ? yearControl.value : "all";
+    var minRed = minRedControl ? parseInt(minRedControl.value, 10) : 35;
+    var query = searchInput ? searchInput.value : "";
+    if (isNaN(minRed)) minRed = 35;
+    var features = allFeatures.filter(function (feature) {
+      if (year !== "all" && featureYear(feature) !== year) return false;
+      if (query && scoreSearch(feature, query) <= 0) return false;
+      return redPoints(feature) > minRed;
+    });
+    if (query) {
+      features.sort(function (a, b) {
+        return scoreSearch(b, query) - scoreSearch(a, query) || redPoints(b) - redPoints(a);
+      });
+    }
+    if (userLocation) {
+      features.sort(function (a, b) { return distanceMiles(a, userLocation) - distanceMiles(b, userLocation); });
+    }
+    render(features);
+  }
+  function updateSearchResults(features) {
+    if (!searchResults || !searchInput) return;
+    var query = searchInput.value || "";
+    if (!normalizeSearch(query)) {
+      searchResults.hidden = true;
+      searchResults.innerHTML = "";
+      return;
+    }
+    if (!features.length) {
+      searchResults.hidden = false;
+      searchResults.innerHTML = '<div class="tpchd-map__result" role="status"><strong>No matching restaurants found</strong><span>Try fewer words, a ZIP code, or part of the address.</span></div>';
+      return;
+    }
+    var grouped = {};
+    features.forEach(function (feature) {
+      var p = feature.properties || {};
+      var key = String(p.facility_id || p.business_name || p.address || p.record_id || "");
+      if (!grouped[key]) grouped[key] = { feature: feature, count: 0, maxRed: 0, score: 0 };
+      grouped[key].count += 1;
+      grouped[key].maxRed = Math.max(grouped[key].maxRed, redPoints(feature));
+      grouped[key].score = Math.max(grouped[key].score, scoreSearch(feature, query));
+      if (featureDate(feature) > featureDate(grouped[key].feature)) grouped[key].feature = feature;
+    });
+    var results = Object.keys(grouped).map(function (key) { return grouped[key]; }).sort(function (a, b) {
+      return b.score - a.score || b.maxRed - a.maxRed || featureDate(b.feature).localeCompare(featureDate(a.feature));
+    }).slice(0, 8);
+    searchResults.hidden = false;
+    searchResults.innerHTML = results.map(function (item) {
+      var p = item.feature.properties || {};
+      var recordId = esc(p.record_id || "");
+      var name = esc(p.business_name || "Unnamed restaurant");
+      var address = esc([p.address, p.city, p.zip].filter(Boolean).join(" "));
+      var count = item.count === 1 ? "1 over-threshold inspection" : item.count + " over-threshold inspections";
+      var currentStatus = currentStatusLabel(p);
+      return '<button type="button" class="tpchd-map__result" data-record-id="' + recordId + '"><strong>' + name + '</strong><span>' + address + '</span><span>' + count + ' | max ' + item.maxRed + ' red points</span>' + (currentStatus ? '<span>Current TPCHD status: ' + esc(currentStatus) + '</span>' : '') + '</button>';
+    }).join("");
+    Array.prototype.forEach.call(searchResults.querySelectorAll("[data-record-id]"), function (button) {
+      button.addEventListener("click", function () { selectRecord(button.getAttribute("data-record-id")); });
+    });
+  }
+  function selectRecord(recordId) {
+    var marker = markerByRecordId[String(recordId || "")];
+    if (!marker || !map) return;
+    var latlng = marker.getLatLng();
+    map.setView(latlng, Math.max(map.getZoom(), 14));
+    marker.openPopup();
+  }
+  function populateControls(geojson) {
+    if (minRedControl) minRedControl.value = String(35);
+    if (yearControl) {
+      var years = ((geojson.metadata || {}).available_years || allFeatures.map(featureYear)).filter(Boolean);
+      years = Array.from(new Set(years)).sort().reverse();
+      years.forEach(function (year) {
+        var option = document.createElement("option");
+        option.value = year;
+        option.textContent = year;
+        yearControl.appendChild(option);
+      });
+      yearControl.addEventListener("change", applyFilters);
+    }
+    if (minRedControl) minRedControl.addEventListener("input", applyFilters);
+    if (searchInput) searchInput.addEventListener("input", applyFilters);
+    if (resetButton) resetButton.addEventListener("click", function () {
+      if (searchInput) searchInput.value = "";
+      if (yearControl) yearControl.value = "all";
+      if (minRedControl) minRedControl.value = String(35);
+      userLocation = null;
+      applyFilters();
+    });
+  }
+  function distanceMiles(feature, origin) {
+    var coords = feature.geometry && feature.geometry.coordinates || [];
+    var lng = Number(coords[0]);
+    var lat = Number(coords[1]);
+    if (isNaN(lat) || isNaN(lng)) return Infinity;
+    var rad = Math.PI / 180;
+    var dLat = (lat - origin.lat) * rad;
+    var dLng = (lng - origin.lng) * rad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(origin.lat * rad) * Math.cos(lat * rad) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 3958.8 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+  function enableNearMe() {
+    if (!nearMe || !navigator.geolocation) return;
+    nearMe.addEventListener("click", function () {
+      setStatus("Waiting for your browser to share your location...");
+      navigator.geolocation.getCurrentPosition(function (position) {
+        userLocation = { lat: position.coords.latitude, lng: position.coords.longitude };
+        setStatus("Showing locations nearest to you first.");
+        applyFilters();
+      }, function () {
+        setStatus("Location was not available. The map is still filtered by inspection data.");
+      }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
+    });
+  }
+  function resolveUrl(value, base) {
+    try {
+      return new URL(value, base).toString();
+    } catch (err) {
+      return value;
+    }
+  }
+  function loadGeojson() {
+    if (mode === "evergreen") {
+      return fetch(dataUrl).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      }).then(function (manifest) {
+        var latest = manifest.entrypoints && manifest.entrypoints.latest || manifest.files && manifest.files.latest || "latest.geojson";
+        var latestUrl = resolveUrl(latest, dataUrl);
+        return fetch(latestUrl).then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        }).then(function (geojson) {
+          geojson.__data_url = latestUrl;
+          return geojson;
+        });
+      });
+    }
+    return fetch(dataUrl).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function (geojson) {
+      geojson.__data_url = dataUrl;
+      return geojson;
+    });
+  }
+  if (!initMap()) return;
+  enableNearMe();
+  loadGeojson().then(function (geojson) {
+    allFeatures = (geojson.features || []).filter(function (feature) {
+      return feature && feature.geometry && feature.geometry.type === "Point";
+    });
+    updateCoverage(geojson.metadata || {}, geojson.__data_url || dataUrl);
+    populateControls(geojson);
+    applyFilters();
+  }).catch(function (err) {
+    setStatus("Map data failed to load: " + err.message);
+  });
+})();
+</script></section>
+</main>
+<script>
+(function () {
+  var button = document.querySelector('[data-role="copy"]');
+  var textarea = document.querySelector('textarea');
+  var status = document.querySelector('[data-role="status"]');
+  if (!button || !textarea) return;
+  button.addEventListener('click', function () {
+    function done(message) { if (status) status.textContent = message; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(textarea.value).then(function () { done('Embed code copied.'); }, function () {
+        textarea.focus(); textarea.select(); done('Copy failed. Select the code and copy manually.');
+      });
+      return;
+    }
+    textarea.focus(); textarea.select();
+    try { document.execCommand('copy'); done('Embed code copied.'); }
+    catch (err) { done('Select the code and copy manually.'); }
+  });
+})();
+</script>
+</body>
+</html>

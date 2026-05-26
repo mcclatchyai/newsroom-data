@@ -1,0 +1,247 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -122.481023,
+          47.255613
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "3401 6th AVE #F&G Tacoma WA 98406 United States",
+        "business_name": "SILK THAI CAFE",
+        "city": "Tacoma",
+        "current_grade": "",
+        "current_last_inspection_date": "05/21/2026",
+        "current_score": "0",
+        "date": "2022-11-16",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0022641&LicenseeType=Food+Facility",
+        "facility_id": "PR0022641",
+        "geocode_status": "row",
+        "inspection_date": "11/16/2022",
+        "inspection_date_iso": "2022-11-16",
+        "inspection_identity": "PR0022641|20431",
+        "inspection_result": "A REINSPECTION IS REQUIRED",
+        "inspection_type": "Routine Inspection- F&CS",
+        "inspection_year": "2022",
+        "record_id": "tpchd-5629db7630e3",
+        "red_point_severity": "red_points_51_75",
+        "red_point_severity_label": "51-75 red points",
+        "red_points": 75,
+        "repeat_red_points": 70,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0022641&InspId=20431",
+        "source": "TPCHD Accela",
+        "total_points": 84,
+        "zip": "98406"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4705136,
+          47.2304003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2534 South Tacoma WAY Tacoma WA 98405 United States",
+        "business_name": "SIG BREWING COMPANY",
+        "city": "Tacoma",
+        "current_grade": "",
+        "current_last_inspection_date": "05/07/2026",
+        "current_score": "0",
+        "date": "2022-11-09",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0039293&LicenseeType=Food+Facility",
+        "facility_id": "PR0039293",
+        "geocode_status": "row",
+        "inspection_date": "11/09/2022",
+        "inspection_date_iso": "2022-11-09",
+        "inspection_identity": "PR0039293|923",
+        "inspection_result": "A REINSPECTION IS REQUIRED",
+        "inspection_type": "Routine Inspection- F&CS",
+        "inspection_year": "2022",
+        "record_id": "tpchd-0812a6e86930",
+        "red_point_severity": "red_points_76_100",
+        "red_point_severity_label": "76-100 red points",
+        "red_points": 95,
+        "repeat_red_points": 10,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0039293&InspId=923",
+        "source": "TPCHD Accela",
+        "total_points": 95,
+        "zip": "98405"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.29394,
+          47.188679
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "328 S Meridian Puyallup WA 98371 United States",
+        "business_name": "GIORGIO'S GREEK CAFE",
+        "city": "Puyallup",
+        "current_grade": "Great",
+        "current_last_inspection_date": "05/14/2026",
+        "current_score": "60",
+        "date": "2022-08-17",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0031472&LicenseeType=Food+Facility",
+        "facility_id": "PR0031472",
+        "geocode_status": "row",
+        "inspection_date": "08/17/2022",
+        "inspection_date_iso": "2022-08-17",
+        "inspection_identity": "PR0031472|401522",
+        "inspection_result": "A REINSPECTION IS REQUIRED",
+        "inspection_type": "Routine Inspection- F&CS",
+        "inspection_year": "2022",
+        "record_id": "tpchd-42db038eb02c",
+        "red_point_severity": "red_points_51_75",
+        "red_point_severity_label": "51-75 red points",
+        "red_points": 75,
+        "repeat_red_points": 0,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0031472&InspId=401522",
+        "source": "TPCHD Accela",
+        "total_points": 75,
+        "zip": "98371"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.2419218,
+          47.20341
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "905 Main ST Sumner WA 98390 United States",
+        "business_name": "ELECTRIC COFFEE HOUSE",
+        "city": "Sumner",
+        "current_grade": "",
+        "current_last_inspection_date": "05/29/2025",
+        "current_score": "5",
+        "date": "2022-01-14",
+        "facility_detail_url": "https://aca-prod.accela.com/TPCHD/GeneralProperty/FoodFacilityInspectionDetail.aspx?LicenseeNumber=PR0036408&LicenseeType=Food+Facility",
+        "facility_id": "PR0036408",
+        "geocode_status": "row",
+        "inspection_date": "01/14/2022",
+        "inspection_date_iso": "2022-01-14",
+        "inspection_identity": "PR0036408|606947",
+        "inspection_result": "A REINSPECTION IS REQUIRED",
+        "inspection_type": "Routine Inspection- F&CS",
+        "inspection_year": "2022",
+        "record_id": "tpchd-5489e4c65cc8",
+        "red_point_severity": "red_points_76_100",
+        "red_point_severity_label": "76-100 red points",
+        "red_points": 80,
+        "repeat_red_points": 0,
+        "report_fetch_status": "ok",
+        "report_url": "https://aca-prod.accela.com/TPCHD/GET_INSP_DOCHandler.ashx?AltId=PR0036408&InspId=606947",
+        "source": "TPCHD Accela",
+        "total_points": 80,
+        "zip": "98390"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "available_years": [
+      "2022"
+    ],
+    "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
+    "data_universe": "Scraper-observed TPCHD Accela food-facility inspection records with parsed PDF reports; this public map layer includes only records over the red-point threshold.",
+    "data_version": "20260526161135Z",
+    "features_total": 4,
+    "freshness_note": "Generated from the latest TPCHD scraper/publication run.",
+    "generated_at": "2026-05-26T16:11:35Z",
+    "geometry_precision": "reviewed facility address geocode",
+    "inspection_date_window_end": "2026-05-18",
+    "inspection_date_window_label": "February 2, 2021-May 18, 2026",
+    "inspection_date_window_start": "2021-02-02",
+    "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
+    "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
+    "map_type": "point_symbol",
+    "privacy": {
+      "excludes": [
+        "Google Sheet IDs",
+        "Gmail recipients",
+        "raw PDF text",
+        "raw scraper payloads",
+        "internal notes",
+        "local paths"
+      ],
+      "public_fields_only": true,
+      "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
+    },
+    "project": "tpchd-restaurant-inspections",
+    "records_above_threshold": 90,
+    "records_excluded_by_threshold": 0,
+    "records_excluded_unparsed": 0,
+    "records_total": 90,
+    "red_point_threshold": 35,
+    "schema_version": 1,
+    "scope": "year:2022",
+    "source": "TPCHD Accela food-facility inspection reports",
+    "source_note": "Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs.",
+    "symbology": {
+      "categories": [
+        {
+          "color": "#d6604d",
+          "icon": "exclamation",
+          "id": "red_points_36_50",
+          "label": "36-50 red points",
+          "max": 50,
+          "min": 36,
+          "shape": "diamond",
+          "stroke": "#ffffff"
+        },
+        {
+          "color": "#c23030",
+          "icon": "exclamation",
+          "id": "red_points_51_75",
+          "label": "51-75 red points",
+          "max": 75,
+          "min": 51,
+          "shape": "diamond",
+          "stroke": "#ffffff"
+        },
+        {
+          "color": "#9f1d2d",
+          "icon": "exclamation",
+          "id": "red_points_76_100",
+          "label": "76-100 red points",
+          "max": 100,
+          "min": 76,
+          "shape": "diamond",
+          "stroke": "#ffffff"
+        },
+        {
+          "color": "#67000d",
+          "icon": "exclamation",
+          "id": "red_points_101_plus",
+          "label": "101+ red points",
+          "max": null,
+          "min": 101,
+          "shape": "diamond",
+          "stroke": "#ffffff"
+        }
+      ],
+      "note": "Over-threshold inspections are encoded with fixed red-point classes using darker red for higher totals, plus a diamond/exclamation symbol. Marker size does not encode red-point severity."
+    },
+    "threshold_label": "More than 35 red points",
+    "threshold_rule": "red_points > 35",
+    "title": "Tacoma-Pierce County restaurant inspections with more than 35 red points",
+    "unmapped_records": 0,
+    "unmapped_records_by_reason": {}
+  },
+  "type": "FeatureCollection"
+}

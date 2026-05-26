@@ -1,0 +1,158 @@
+{
+  "available_years": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "cache_ttl_seconds": 900,
+  "coverage_note": "Rows below the threshold and unparsed reports are not drawn on this over-threshold map. Rows above the threshold without reviewed coordinates are counted as unmapped.",
+  "data_version": "20260526161135Z",
+  "dataset": "tpchd-restaurant-inspections",
+  "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
+  "entrypoints": {
+    "by_year": {
+      "2021": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/by-year/2021.geojson",
+      "2022": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/by-year/2022.geojson",
+      "2023": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/by-year/2023.geojson",
+      "2024": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/by-year/2024.geojson",
+      "2025": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/by-year/2025.geojson",
+      "2026": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/by-year/2026.geojson"
+    },
+    "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/embed/evergreen/embed.html",
+    "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/embed/evergreen/preview.html",
+    "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/latest.geojson",
+    "run_previews": {
+      "concept-current-status-review": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/embed/runs/concept-current-status-review/preview.html"
+    },
+    "runs": {
+      "concept-current-status-review": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/concept-current-status-review/runs/concept-current-status-review.geojson"
+    }
+  },
+  "environment": "concept-current-status-review",
+  "features_total": 90,
+  "files": {
+    "by_year": {
+      "2021": "by-year/2021.geojson",
+      "2022": "by-year/2022.geojson",
+      "2023": "by-year/2023.geojson",
+      "2024": "by-year/2024.geojson",
+      "2025": "by-year/2025.geojson",
+      "2026": "by-year/2026.geojson"
+    },
+    "evergreen_embed": "embed/evergreen/embed.html",
+    "evergreen_preview": "embed/evergreen/preview.html",
+    "latest": "latest.geojson",
+    "runs": {
+      "concept-current-status-review": "runs/concept-current-status-review.geojson"
+    }
+  },
+  "format": "GeoJSON FeatureCollection",
+  "generated_at": "2026-05-26T16:11:35Z",
+  "geometry_precision": "reviewed facility address geocode",
+  "map_cannot_show": "This map does not show neighborhood-level health risk, all inspections below the threshold, or rows without reviewed coordinates.",
+  "map_claim": "Shows geocoded public restaurant inspection records with more than 35 red points.",
+  "privacy": {
+    "excludes": [
+      "Google Sheet IDs",
+      "Gmail recipients",
+      "raw PDF text",
+      "raw scraper payloads",
+      "internal notes",
+      "local paths"
+    ],
+    "public_fields_only": true,
+    "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
+  },
+  "project": "tpchd-restaurant-inspections",
+  "records_above_threshold": 90,
+  "records_excluded_by_threshold": 0,
+  "records_excluded_unparsed": 0,
+  "records_total": 90,
+  "red_point_threshold": 35,
+  "schema": {
+    "geometry": "Point coordinates from reviewed geocodes of TPCHD facility addresses.",
+    "properties": [
+      "record_id",
+      "inspection_identity",
+      "facility_id",
+      "business_name",
+      "address",
+      "city",
+      "zip",
+      "inspection_date",
+      "inspection_date_iso",
+      "inspection_year",
+      "inspection_type",
+      "inspection_result",
+      "current_score",
+      "current_grade",
+      "current_last_inspection_date",
+      "red_points",
+      "total_points",
+      "repeat_red_points",
+      "red_point_severity",
+      "red_point_severity_label",
+      "report_url",
+      "facility_detail_url",
+      "report_fetch_status",
+      "geocode_status",
+      "source"
+    ]
+  },
+  "schema_version": 1,
+  "source": "TPCHD Accela food-facility inspection reports",
+  "stale_after": "2026-05-26T16:26:35Z",
+  "symbology": {
+    "categories": [
+      {
+        "color": "#d6604d",
+        "icon": "exclamation",
+        "id": "red_points_36_50",
+        "label": "36-50 red points",
+        "max": 50,
+        "min": 36,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#c23030",
+        "icon": "exclamation",
+        "id": "red_points_51_75",
+        "label": "51-75 red points",
+        "max": 75,
+        "min": 51,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#9f1d2d",
+        "icon": "exclamation",
+        "id": "red_points_76_100",
+        "label": "76-100 red points",
+        "max": 100,
+        "min": 76,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#67000d",
+        "icon": "exclamation",
+        "id": "red_points_101_plus",
+        "label": "101+ red points",
+        "max": null,
+        "min": 101,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      }
+    ],
+    "note": "Over-threshold inspections are encoded with fixed red-point classes using darker red for higher totals, plus a diamond/exclamation symbol. Marker size does not encode red-point severity."
+  },
+  "threshold_label": "More than 35 red points",
+  "threshold_rule": "red_points > 35",
+  "title": "Tacoma-Pierce County restaurant inspections with more than 35 red points",
+  "unmapped_records": 0,
+  "unmapped_records_by_reason": {}
+}
