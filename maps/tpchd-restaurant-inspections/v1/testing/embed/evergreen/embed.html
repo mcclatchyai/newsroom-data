@@ -15,7 +15,8 @@
     .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
     .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
     .tpchd-map__legend-symbol.is-rating { border-radius: 999px; transform: none; }
-    .tpchd-map__legend-symbol.is-rating span { transform: none; }
+    .tpchd-map__legend-symbol.is-square { border-radius: 2px; transform: none; }
+    .tpchd-map__legend-symbol.is-rating span, .tpchd-map__legend-symbol.is-square span { transform: none; }
     .tpchd-map__search { align-items: end; display: grid; gap: 8px; grid-template-columns: minmax(220px, 1fr) auto; margin: 0 0 10px; }
     .tpchd-map__search-label { min-width: 0; }
     .tpchd-map__reset { min-height: 38px; border: 1px solid #c8d1dc; background: #fff; color: #1f2a36; padding: 7px 10px; font-weight: 800; cursor: pointer; }
@@ -50,7 +51,8 @@
     .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
     .tpchd-map-marker__shape span { transform: rotate(-45deg); }
     .tpchd-map-marker__shape.is-rating { border-radius: 999px; transform: none; }
-    .tpchd-map-marker__shape.is-rating span { transform: none; font-size: 10px; }
+    .tpchd-map-marker__shape.is-square { border-radius: 3px; transform: none; }
+    .tpchd-map-marker__shape.is-rating span, .tpchd-map-marker__shape.is-square span { transform: none; font-size: 10px; }
     .tpchd-map .leaflet-popup-content-wrapper { max-height: min(72vh, 520px); overflow: hidden; }
     .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; max-height: min(60vh, 430px) !important; overflow-y: auto; padding-right: 4px; }
     .tpchd-map__timeline { border-top: 1px solid #d8dee6; margin-top: 8px; padding-top: 8px; }
@@ -77,16 +79,16 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspections with more than 35 red points</div>
-  <div class="tpchd-map__lede">Restaurants shown here had at least one parsed inspection with more than 35 red points. Marker color shows the current or actionable TPCHD status when available.</div>
+  <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspection action status</div>
+  <div class="tpchd-map__lede">Restaurants shown here are geocoded facilities observed by the TPCHD scraper. The default view emphasizes latest results that indicate closure, reinspection, compliance orders or scheduled/pending inspections.</div>
   <div class="tpchd-map__facts" aria-live="polite">
     <div class="tpchd-map__fact"><strong data-role="shown">0</strong><span>shown</span></div>
     <div class="tpchd-map__fact"><strong data-role="max-red">0</strong><span>worst inspection points shown</span></div>
     <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>date range</span></div>
   </div>
   <div class="tpchd-map__legend" aria-label="Map legend">
-    <span class="tpchd-map__legend-title">Current TPCHD status</span>
-    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#8f1520" aria-hidden="true"><span>!</span></span>Follow-up still needed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2e7d32" aria-hidden="true"><span>G</span></span>Current rating: Great</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#d88c1f" aria-hidden="true"><span>O</span></span>Current rating: Okay</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#b61f2d" aria-hidden="true"><span>N</span></span>Current rating: Needs to improve</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#4b5563" aria-hidden="true"><span>C</span></span>Closed or restricted</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2563eb" aria-hidden="true"><span>N</span></span>New rating</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>i</span></span>No grade shown by TPCHD</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>?</span></span>Status unknown</span>
+    <span class="tpchd-map__legend-title">Latest TPCHD result</span>
+    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#7f1d1d" aria-hidden="true"><span>!</span></span>Closed until approved to reopen</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-square" style="background:#374151" aria-hidden="true"><span>C</span></span>Permanently closed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-square" style="background:#991b1b" aria-hidden="true"><span>C</span></span>Facility closed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#b91c1c" aria-hidden="true"><span>!</span></span>Reinspection required</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c2410c" aria-hidden="true"><span>O</span></span>Compliance order issued</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2563eb" aria-hidden="true"><span>S</span></span>Scheduled or pending</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2e7d32" aria-hidden="true"><span>G</span></span>Meets TPCHD standards</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#64748b" aria-hidden="true"><span>i</span></span>Administrative or not applicable</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>?</span></span>Current result unavailable</span>
   </div>
   
   <div class="tpchd-map__search">
@@ -96,11 +98,12 @@
   </div>
   <div class="tpchd-map__controls">
     <label class="tpchd-map__group">Time period <select data-role="period"><option value="recent90">Last 90 days</option><option value="ytd">Year to date</option><option value="all">All available records</option></select></label>
+    <label class="tpchd-map__group">Current action <select data-role="status-filter"><option value="needs_attention">Needs attention</option><option value="closed">Closed or restricted</option><option value="reinspection_required">Reinspection required</option><option value="compliance_order_issued">Compliance order</option><option value="scheduled_pending">Scheduled or pending</option><option value="meets_standards">Meets standards</option><option value="administrative_or_not_applicable">Administrative/not applicable</option><option value="all">All statuses</option></select></label>
     <label class="tpchd-map__group">Minimum red points <input data-role="min-red" type="number" min="0" step="1"></label>
     <button type="button" class="tpchd-map__near" data-role="near-me">Use my location</button>
   </div>
   <div class="tpchd-map__stage">
-    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections with more than 35 red points"></div>
+    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspection action status"></div>
     <button type="button" class="tpchd-map__interaction" data-role="interaction-overlay">Tap to explore the map. Use Done when you want to keep scrolling.</button>
     <button type="button" class="tpchd-map__done" data-role="interaction-done">Done</button>
   </div>
@@ -108,7 +111,7 @@
     <p class="tpchd-map__detail-empty">Select a restaurant marker to see the inspection timeline, current TPCHD status and source links here.</p>
   </section>
   <div class="tpchd-map__status">Loading inspection map...</div>
-  <div class="tpchd-map__source" data-role="source-note">Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs. Locations are reviewed facility-address geocodes. This map shows records over the threshold and does not represent neighborhood-level health risk.</div>
+  <div class="tpchd-map__source" data-role="source-note">Source: Tacoma-Pierce County Health Department Accela food-facility inspection pages and parsed inspection-report PDFs. Locations are reviewed facility-address geocodes. This map shows facility-level inspection status and does not represent neighborhood-level health risk.</div>
   <div class="tpchd-map__source" data-role="coverage-note"></div>
   <div class="tpchd-map__source"><a class="tpchd-map__data-link" data-role="data-link" href="#" target="_blank" rel="noopener" hidden>Download map data (GeoJSON)</a></div>
 </div>
@@ -122,13 +125,14 @@
   var mode = wrapper.getAttribute("data-mode") || "evergreen";
   var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json";
   var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
-  var ratingCategories = [{"id": "status_follow_up_needed", "label": "Follow-up still needed", "color": "#8f1520", "letter": "!", "shape": "diamond"}, {"id": "rating_great", "label": "Current rating: Great", "color": "#2e7d32", "letter": "G", "shape": "circle"}, {"id": "rating_okay", "label": "Current rating: Okay", "color": "#d88c1f", "letter": "O", "shape": "circle"}, {"id": "rating_needs_improve", "label": "Current rating: Needs to improve", "color": "#b61f2d", "letter": "N", "shape": "circle"}, {"id": "rating_closed", "label": "Closed or restricted", "color": "#4b5563", "letter": "C", "shape": "circle"}, {"id": "rating_new", "label": "New rating", "color": "#2563eb", "letter": "N", "shape": "circle"}, {"id": "rating_not_posted", "label": "No grade shown by TPCHD", "color": "#6b7280", "letter": "i", "shape": "circle"}, {"id": "rating_unknown", "label": "Status unknown", "color": "#6b7280", "letter": "?", "shape": "circle"}];
+  var ratingCategories = [{"id": "closed_until_approved_to_reopen", "label": "Closed until approved to reopen", "color": "#7f1d1d", "letter": "!", "shape": "diamond", "rank": 10, "filter_group": "needs_attention"}, {"id": "closed_permanently", "label": "Permanently closed", "color": "#374151", "letter": "C", "shape": "square", "rank": 9, "filter_group": "closed"}, {"id": "facility_closed", "label": "Facility closed", "color": "#991b1b", "letter": "C", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "reinspection_required", "label": "Reinspection required", "color": "#b91c1c", "letter": "!", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "compliance_order_issued", "label": "Compliance order issued", "color": "#c2410c", "letter": "O", "shape": "diamond", "rank": 6, "filter_group": "needs_attention"}, {"id": "scheduled_pending", "label": "Scheduled or pending", "color": "#2563eb", "letter": "S", "shape": "circle", "rank": 5, "filter_group": "scheduled"}, {"id": "meets_standards", "label": "Meets TPCHD standards", "color": "#2e7d32", "letter": "G", "shape": "circle", "rank": 3, "filter_group": "meets"}, {"id": "administrative_or_not_applicable", "label": "Administrative or not applicable", "color": "#64748b", "letter": "i", "shape": "circle", "rank": 2, "filter_group": "administrative"}, {"id": "current_result_unknown", "label": "Current result unavailable", "color": "#6b7280", "letter": "?", "shape": "circle", "rank": 1, "filter_group": "unknown"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
   var status = wrapper.querySelector(".tpchd-map__status");
   var shown = wrapper.querySelector('[data-role="shown"]');
   var maxRed = wrapper.querySelector('[data-role="max-red"]');
   var windowFact = wrapper.querySelector('[data-role="window"]');
   var periodControl = wrapper.querySelector('[data-role="period"]');
+  var statusControl = wrapper.querySelector('[data-role="status-filter"]');
   var minRedControl = wrapper.querySelector('[data-role="min-red"]');
   var searchInput = wrapper.querySelector('[data-role="search"]');
   var resetButton = wrapper.querySelector('[data-role="reset"]');
@@ -190,7 +194,7 @@
     var aliases = Array.isArray(p.aliases) ? p.aliases.join(" ") : String(p.aliases || "");
     var name = normalizeSearch([p.business_name, p.display_name, p.known_as, aliases].filter(Boolean).join(" "));
     var address = normalizeSearch([p.address, p.city, p.zip].filter(Boolean).join(" "));
-    var all = normalizeSearch([name, address, p.facility_id, p.inspection_type, p.inspection_result].filter(Boolean).join(" "));
+    var all = normalizeSearch([name, address, p.facility_id, p.inspection_type, p.inspection_result, p.latest_inspection_result, p.current_status_label, p.latest_result_status_label].filter(Boolean).join(" "));
     feature.__tpchdSearch = {
       all: all,
       address: address,
@@ -241,9 +245,14 @@
     var value = parseInt(props.worst_red_points != null && props.worst_red_points !== "" ? props.worst_red_points : props.red_points, 10);
     return isNaN(value) ? 0 : value;
   }
+  function latestRedPoints(feature) {
+    var props = feature.properties || {};
+    var value = parseInt(props.latest_red_points != null && props.latest_red_points !== "" ? props.latest_red_points : props.red_points, 10);
+    return isNaN(value) ? 0 : value;
+  }
   function featureDate(feature) {
     var props = feature.properties || {};
-    return String(props.latest_over_threshold_date || props.inspection_date_iso || props.inspection_date || "");
+    return String(props.latest_inspection_date || props.inspection_date_iso || props.latest_over_threshold_date || props.inspection_date || "");
   }
   function featureYear(feature) {
     var props = feature.properties || {};
@@ -300,14 +309,15 @@
   function markerTitle(feature) {
     var p = feature.properties || {};
     var name = p.business_name || "TPCHD inspection";
-    var statusText = p.current_status_label || p.current_rating_label || p.current_grade || "current status unavailable";
-    var date = p.latest_over_threshold_date || p.inspection_date_iso || p.inspection_date || "";
-    return name + ", " + statusText + ", worst inspection shown " + redPoints(feature) + " red points" + (date ? " on " + formatDateText(date) : "");
+    var statusText = p.current_status_label || p.latest_result_status_label || p.current_rating_label || "latest result unavailable";
+    var date = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    return name + ", " + statusText + ", latest inspection" + (date ? " on " + formatDateText(date) : "") + ", worst inspection shown " + redPoints(feature) + " red points";
   }
   function currentStatusLabel(props) {
     props = props || {};
-    if (props.current_status_label) {
-      var statusParts = [String(props.current_status_label)];
+    if (props.current_status_label || props.latest_result_status_label) {
+      var statusParts = [String(props.current_status_label || props.latest_result_status_label)];
+      if (props.latest_inspection_result) statusParts.push(String(props.latest_inspection_result));
       if (props.current_score !== undefined && props.current_score !== null && String(props.current_score).trim() !== "") {
         statusParts.push("score " + String(props.current_score));
       }
@@ -324,11 +334,30 @@
   }
   function ratingCategory(props) {
     props = props || {};
-    var categoryId = String(props.current_status_category || props.current_rating_category || "");
+    var categoryId = String(props.current_status_category || props.latest_result_status || props.current_rating_category || "");
     for (var i = 0; i < ratingCategories.length; i++) {
       if (String(ratingCategories[i].id || "") === categoryId) return ratingCategories[i];
     }
     return ratingCategories[ratingCategories.length - 1] || { color: "#6b7280", letter: "?", label: "Unavailable" };
+  }
+  function statusId(feature) {
+    var props = feature.properties || {};
+    return String(props.current_status_category || props.latest_result_status || "");
+  }
+  function statusGroup(feature) {
+    var props = feature.properties || {};
+    return String(props.latest_result_status_group || "");
+  }
+  function statusMatches(feature, wanted) {
+    wanted = wanted || "needs_attention";
+    if (wanted === "all") return true;
+    var id = statusId(feature);
+    var group = statusGroup(feature);
+    if (wanted === "needs_attention") {
+      return group === "needs_attention" || group === "closed" || id === "scheduled_pending";
+    }
+    if (wanted === "closed") return group === "closed" || id === "closed_until_approved_to_reopen";
+    return id === wanted || group === wanted;
   }
   function severityBin(value) {
     var points = parseInt(value, 10);
@@ -343,9 +372,10 @@
   function markerIcon(feature) {
     if (mode === "evergreen") {
       var rating = ratingCategory(feature.properties || {});
-      var ratingColor = String(rating.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+      var ratingColor = String(markerColor(feature, rating) || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
       var letter = esc(rating.letter || "?");
-      var shapeClass = String(rating.shape || "circle") === "circle" ? " is-rating" : "";
+      var shape = String(rating.shape || "circle");
+      var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
       return L.divIcon({
         className: "tpchd-map-marker",
         html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
@@ -363,6 +393,15 @@
       iconAnchor: [11, 11],
       popupAnchor: [0, -12]
     });
+  }
+  function markerColor(feature, category) {
+    category = category || {};
+    var id = statusId(feature);
+    var group = statusGroup(feature);
+    if ((group === "needs_attention" || group === "closed" || id === "closed_until_approved_to_reopen") && redPoints(feature) > 35) {
+      return severityBin(redPoints(feature)).color;
+    }
+    return category.color || "#6b7280";
   }
   function timelineHtml(items, options) {
     if (!Array.isArray(items) || !items.length) return "";
@@ -404,7 +443,9 @@
     var reportUrl = safeUrl(p.report_url);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
-    var inspectionDate = p.worst_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
     var followUp = p.follow_up_label || "";
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
@@ -412,12 +453,14 @@
     var html = '<div class="tpchd-map__detail-kicker">Selected restaurant</div>' +
       '<h2>' + esc(p.business_name || "Unnamed restaurant") + '</h2>' +
       '<p>' + esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '</p>' +
-      (currentStatus ? '<p><strong>Current TPCHD status:</strong> ' + esc(currentStatus) + '</p>' : '') +
+      (currentStatus ? '<p><strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '</p>' : '') +
       (p.current_status_explanation ? '<p>' + esc(p.current_status_explanation) + '</p>' : '') +
       '<div class="tpchd-map__detail-summary">' +
-      '<div><strong>' + esc(p.worst_red_points || p.red_points || "") + '</strong><span>worst inspection points shown</span></div>' +
-      '<div><strong>' + esc(inspectionDate ? formatDateText(inspectionDate) : "Date unavailable") + '</strong><span>worst inspection date</span></div>' +
-      '<div><strong>' + esc(p.over_threshold_count || 1) + '</strong><span>over-threshold inspections shown</span></div>' +
+      '<div><strong>' + esc(p.latest_red_points !== undefined && p.latest_red_points !== null && String(p.latest_red_points).trim() !== "" ? p.latest_red_points : "Not parsed") + '</strong><span>latest red points</span></div>' +
+      '<div><strong>' + esc(latestDate ? formatDateText(latestDate) : "Date unavailable") + '</strong><span>latest inspection date</span></div>' +
+      '<div><strong>' + esc(p.worst_red_points !== undefined && p.worst_red_points !== null && String(p.worst_red_points).trim() !== "" ? p.worst_red_points : "Not parsed") + '</strong><span>worst inspection points shown</span></div>' +
+      '<div><strong>' + esc(worstDate ? formatDateText(worstDate) : "No over-threshold date") + '</strong><span>worst/threshold context date</span></div>' +
+      '<div><strong>' + esc(p.over_threshold_count || 0) + '</strong><span>over-35 inspections observed</span></div>' +
       '</div>' +
       (followUp ? '<p><strong>Follow-up/reinspection:</strong> ' + esc(followUp) + '</p>' : '') +
       timelineHtml(p.timeline, { limit: 0 }) +
@@ -446,7 +489,8 @@
     var reportUrl = safeUrl(p.report_url);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
-    var inspectionDate = p.worst_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var followUp = p.follow_up_label || "";
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
@@ -454,9 +498,10 @@
     if (mode === "evergreen") {
       return '<strong>' + esc(p.business_name) + '</strong><br>' +
         esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
-        (currentStatus ? '<strong>Current TPCHD status:</strong> ' + esc(currentStatus) + '<br>' : '') +
-        '<strong>Worst inspection shown:</strong> ' + esc(p.worst_red_points || p.red_points) + ' red points' + (inspectionDate ? ' on ' + esc(formatDateText(inspectionDate)) : '') + '<br>' +
-        '<strong>Over-threshold inspections shown:</strong> ' + esc(p.over_threshold_count || 1) +
+        (currentStatus ? '<strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '<br>' : '') +
+        '<strong>Latest inspection:</strong> ' + esc(latestRedPoints(feature)) + ' red points' + (latestDate ? ' on ' + esc(formatDateText(latestDate)) : '') + '<br>' +
+        '<strong>Worst inspection shown:</strong> ' + esc(p.worst_red_points || p.red_points || "Not parsed") + ' red points' + (worstDate ? ' on ' + esc(formatDateText(worstDate)) : '') + '<br>' +
+        '<strong>Over-35 inspections observed:</strong> ' + esc(p.over_threshold_count || 0) +
         (followUp ? '<br><strong>Follow-up/reinspection:</strong> ' + esc(followUp) : '') +
         '<span class="tpchd-map__popup-note">Timeline and source details are shown below the map.</span>' +
         sourceLinksHtml(links, "tpchd-map__popup-links");
@@ -533,7 +578,7 @@
     setFact(shown, features.length);
     setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
     if (windowFact) windowFact.textContent = dateLabel(features);
-    setStatus(features.length ? "Showing " + features.length + (mode === "evergreen" ? " facilities with over-threshold inspections." : " over-threshold inspection locations.") : "No mapped inspections match the current filters.");
+    setStatus(features.length ? "Showing " + features.length + (mode === "evergreen" ? " mapped facilities." : " over-threshold inspection locations.") : "No mapped inspections match the current filters.");
     updateSearchResults(features);
     setTimeout(function () { map.invalidateSize({ pan: false }); }, 120);
   }
@@ -544,10 +589,10 @@
     var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
     var parts = [];
     if (mode === "evergreen") {
-      parts.push("Marker color shows current or actionable TPCHD status where available.");
+      parts.push("Marker shape/letter shows latest TPCHD result status; red shading darkens with the worst parsed red-point total for action-status facilities.");
     }
-    parts.push(mode === "evergreen" ? "Map layer includes geocoded facilities with at least one parsed inspection with more than 35 red points." : "Map layer includes geocoded inspections with more than 35 red points.");
-    if (unmapped) parts.push(unmapped + " over-threshold record" + (unmapped === 1 ? " is" : "s are") + " not mapped because reviewed coordinates were unavailable.");
+    parts.push(mode === "evergreen" ? "Map layer includes one point per geocoded facility observed by the scraper." : "Map layer includes geocoded inspections with more than 35 red points.");
+    if (unmapped) parts.push(unmapped + " facilit" + (unmapped === 1 ? "y is" : "ies are") + " not mapped because reviewed coordinates were unavailable.");
     if (excluded) parts.push(excluded + " parsed inspection" + (excluded === 1 ? " is" : "s are") + " at or below the threshold and not drawn on this map.");
     if (unparsed) parts.push(unparsed + " row" + (unparsed === 1 ? " lacks" : "s lack") + " parsed red-point totals and is not treated as zero.");
     parts.push("Spatial coincidence on this map should not be read as neighborhood-level health risk.");
@@ -559,14 +604,16 @@
   }
   function applyFilters() {
     var period = periodControl ? periodControl.value : (mode === "evergreen" ? "recent90" : "all");
-    var minRed = minRedControl ? parseInt(minRedControl.value, 10) : 35;
+    var minRed = minRedControl ? parseInt(minRedControl.value, 10) : (mode === "evergreen" ? 0 : 35);
+    var statusFilter = statusControl ? statusControl.value : "all";
     var query = searchInput ? searchInput.value : "";
-    if (isNaN(minRed)) minRed = 35;
+    if (isNaN(minRed)) minRed = mode === "evergreen" ? 0 : 35;
     var newest = newestDate(allFeatures);
     var features = allFeatures.filter(function (feature) {
       if (!periodMatches(feature, period, newest)) return false;
+      if (mode === "evergreen" && !statusMatches(feature, statusFilter)) return false;
       if (query && scoreSearch(feature, query) <= 0) return false;
-      return redPoints(feature) > minRed;
+      return mode === "evergreen" ? redPoints(feature) >= minRed : redPoints(feature) > minRed;
     });
     if (query) {
       features.sort(function (a, b) {
@@ -613,10 +660,10 @@
       var recordId = esc(p.record_id || "");
       var name = esc(p.business_name || "Unnamed restaurant");
       var address = esc([p.address, p.city, p.zip].filter(Boolean).join(" "));
-      var count = item.count === 1 ? "1 over-threshold inspection shown" : item.count + " over-threshold inspections shown";
+      var count = item.count === 1 ? "1 over-35 inspection observed" : item.count + " over-35 inspections observed";
       var currentStatus = currentStatusLabel(p);
       var worst = 'Worst inspection points shown: ' + item.maxRed + ' red points' + (item.maxRedDate ? ' on ' + formatDateText(item.maxRedDate) : '');
-      return '<button type="button" class="tpchd-map__result" data-record-id="' + recordId + '"><strong>' + name + '</strong><span>' + address + '</span><span>' + count + '</span><span>' + esc(worst) + '</span>' + (currentStatus ? '<span>Current TPCHD status: ' + esc(currentStatus) + '</span>' : '') + '</button>';
+      return '<button type="button" class="tpchd-map__result" data-record-id="' + recordId + '"><strong>' + name + '</strong><span>' + address + '</span><span>' + count + '</span><span>' + esc(worst) + '</span>' + (currentStatus ? '<span>Latest TPCHD result: ' + esc(currentStatus) + '</span>' : '') + '</button>';
     }).join("");
     Array.prototype.forEach.call(searchResults.querySelectorAll("[data-record-id]"), function (button) {
       button.addEventListener("click", function () { selectRecord(button.getAttribute("data-record-id")); });
@@ -631,7 +678,7 @@
     marker.openPopup();
   }
   function populateControls(geojson) {
-    if (minRedControl) minRedControl.value = String(35);
+    if (minRedControl) minRedControl.value = mode === "evergreen" ? "0" : String(35);
     if (periodControl) {
       var years = ((geojson.metadata || {}).available_years || allFeatures.map(featureYear)).filter(Boolean);
       years = Array.from(new Set(years)).sort().reverse();
@@ -644,12 +691,14 @@
       periodControl.value = "recent90";
       periodControl.addEventListener("change", applyFilters);
     }
+    if (statusControl) statusControl.addEventListener("change", applyFilters);
     if (minRedControl) minRedControl.addEventListener("input", applyFilters);
     if (searchInput) searchInput.addEventListener("input", applyFilters);
     if (resetButton) resetButton.addEventListener("click", function () {
       if (searchInput) searchInput.value = "";
       if (periodControl) periodControl.value = "recent90";
-      if (minRedControl) minRedControl.value = String(35);
+      if (statusControl) statusControl.value = "needs_attention";
+      if (minRedControl) minRedControl.value = mode === "evergreen" ? "0" : String(35);
       userLocation = null;
       applyFilters();
     });
@@ -682,7 +731,8 @@
   }
   function resolveUrl(value, base) {
     try {
-      return new URL(value, base).toString();
+      var absoluteBase = new URL(base, window.location.href).toString();
+      return new URL(value, absoluteBase).toString();
     } catch (err) {
       return value;
     }
