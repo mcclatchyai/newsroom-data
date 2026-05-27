@@ -79,10 +79,10 @@
     }
   </style>
   <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspection action status</div>
-  <div class="tpchd-map__lede">The default view shows geocoded food facilities whose latest observed TPCHD inspection result indicates closure, reinspection, a compliance order or scheduled/pending status in the most recent 60-day window.</div>
+  <div class="tpchd-map__lede">The default view shows geocoded food facilities whose latest observed TPCHD inspection result indicates closure, reinspection, a compliance order or scheduled follow-up/reinspection in the most recent 60-day window.</div>
   <div class="tpchd-map__legend" aria-label="Map legend">
     <span class="tpchd-map__legend-title">Recent action status</span>
-    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#7f1d1d" aria-hidden="true"><span>!</span></span>Closed until approved to reopen</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-square" style="background:#374151" aria-hidden="true"><span>C</span></span>Permanently closed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-square" style="background:#991b1b" aria-hidden="true"><span>C</span></span>Facility closed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#b91c1c" aria-hidden="true"><span>!</span></span>Reinspection required</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c2410c" aria-hidden="true"><span>O</span></span>Compliance order issued</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2563eb" aria-hidden="true"><span>S</span></span>Scheduled or pending</span>
+    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#7f1d1d" aria-hidden="true"><span>!</span></span>Closed until approved to reopen</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-square" style="background:#374151" aria-hidden="true"><span>C</span></span>Permanently closed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-square" style="background:#991b1b" aria-hidden="true"><span>C</span></span>Facility closed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#b91c1c" aria-hidden="true"><span>!</span></span>Reinspection required</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c2410c" aria-hidden="true"><span>O</span></span>Compliance order issued</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#1d4ed8" aria-hidden="true"><span>S</span></span>Follow-up/reinspection scheduled</span>
   </div>
   
   <div class="tpchd-map__search">
@@ -94,7 +94,7 @@
     <summary>More map options</summary>
     <div class="tpchd-map__controls">
       <label class="tpchd-map__group">Time period <select data-role="period"><option value="recent60">Last 60 days</option><option value="recent90">Last 90 days</option><option value="ytd">Year to date</option><option value="all">All available records</option></select></label>
-      <label class="tpchd-map__group">Show <select data-role="status-filter"><option value="needs_attention">Notable action statuses</option><option value="closed">Closed or restricted</option><option value="reinspection_required">Reinspection required</option><option value="compliance_order_issued">Compliance order</option><option value="scheduled_pending">Scheduled or pending</option><option value="meets_standards">Meets standards</option><option value="administrative_or_not_applicable">Administrative/not applicable</option><option value="all">All statuses</option></select></label>
+      <label class="tpchd-map__group">Show <select data-role="status-filter"><option value="needs_attention">Notable action statuses</option><option value="closed">Closed or restricted</option><option value="reinspection_required">Reinspection required</option><option value="compliance_order_issued">Compliance order</option><option value="follow_up_scheduled">Follow-up/reinspection scheduled</option><option value="scheduled_pending">Other scheduled inspections</option><option value="meets_standards">Meets standards</option><option value="administrative_or_not_applicable">Administrative/not applicable</option><option value="all">All statuses</option></select></label>
       <button type="button" class="tpchd-map__near" data-role="near-me">Use my location</button>
     </div>
   </details>
@@ -122,7 +122,7 @@
   var mode = wrapper.getAttribute("data-mode") || "evergreen";
   var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json";
   var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
-  var ratingCategories = [{"id": "closed_until_approved_to_reopen", "label": "Closed until approved to reopen", "color": "#7f1d1d", "letter": "!", "shape": "diamond", "rank": 10, "filter_group": "needs_attention"}, {"id": "closed_permanently", "label": "Permanently closed", "color": "#374151", "letter": "C", "shape": "square", "rank": 9, "filter_group": "closed"}, {"id": "facility_closed", "label": "Facility closed", "color": "#991b1b", "letter": "C", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "reinspection_required", "label": "Reinspection required", "color": "#b91c1c", "letter": "!", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "compliance_order_issued", "label": "Compliance order issued", "color": "#c2410c", "letter": "O", "shape": "diamond", "rank": 6, "filter_group": "needs_attention"}, {"id": "scheduled_pending", "label": "Scheduled or pending", "color": "#2563eb", "letter": "S", "shape": "circle", "rank": 5, "filter_group": "scheduled"}, {"id": "meets_standards", "label": "Meets TPCHD standards", "color": "#2e7d32", "letter": "G", "shape": "circle", "rank": 3, "filter_group": "meets"}, {"id": "administrative_or_not_applicable", "label": "Administrative or not applicable", "color": "#64748b", "letter": "i", "shape": "circle", "rank": 2, "filter_group": "administrative"}, {"id": "current_result_unknown", "label": "Current result unavailable", "color": "#6b7280", "letter": "?", "shape": "circle", "rank": 1, "filter_group": "unknown"}];
+  var ratingCategories = [{"id": "closed_until_approved_to_reopen", "label": "Closed until approved to reopen", "color": "#7f1d1d", "letter": "!", "shape": "diamond", "rank": 10, "filter_group": "needs_attention"}, {"id": "closed_permanently", "label": "Permanently closed", "color": "#374151", "letter": "C", "shape": "square", "rank": 9, "filter_group": "closed"}, {"id": "facility_closed", "label": "Facility closed", "color": "#991b1b", "letter": "C", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "reinspection_required", "label": "Reinspection required", "color": "#b91c1c", "letter": "!", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "compliance_order_issued", "label": "Compliance order issued", "color": "#c2410c", "letter": "O", "shape": "diamond", "rank": 6, "filter_group": "needs_attention"}, {"id": "follow_up_scheduled", "label": "Follow-up/reinspection scheduled", "color": "#1d4ed8", "letter": "S", "shape": "circle", "rank": 5, "filter_group": "needs_attention"}, {"id": "scheduled_pending", "label": "Inspection scheduled", "color": "#2563eb", "letter": "S", "shape": "circle", "rank": 4, "filter_group": "scheduled"}, {"id": "meets_standards", "label": "Meets TPCHD standards", "color": "#2e7d32", "letter": "G", "shape": "circle", "rank": 3, "filter_group": "meets"}, {"id": "administrative_or_not_applicable", "label": "Administrative or not applicable", "color": "#64748b", "letter": "i", "shape": "circle", "rank": 2, "filter_group": "administrative"}, {"id": "current_result_unknown", "label": "Current result unavailable", "color": "#6b7280", "letter": "?", "shape": "circle", "rank": 1, "filter_group": "unknown"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
   var status = wrapper.querySelector(".tpchd-map__status");
   var shown = wrapper.querySelector('[data-role="shown"]');
@@ -247,6 +247,11 @@
     var value = parseInt(props.latest_red_points != null && props.latest_red_points !== "" ? props.latest_red_points : props.red_points, 10);
     return isNaN(value) ? 0 : value;
   }
+  function latestRedPointsLabel(feature) {
+    var props = feature.properties || {};
+    var value = props.latest_red_points != null && String(props.latest_red_points).trim() !== "" ? props.latest_red_points : "";
+    return value === "" ? "Not parsed" : String(value) + " red points";
+  }
   function featureDate(feature) {
     var props = feature.properties || {};
     return String(props.latest_inspection_date || props.inspection_date_iso || props.latest_over_threshold_date || props.inspection_date || "");
@@ -351,7 +356,7 @@
     var id = statusId(feature);
     var group = statusGroup(feature);
     if (wanted === "needs_attention") {
-      return group === "needs_attention" || group === "closed" || id === "scheduled_pending";
+      return group === "needs_attention" || group === "closed";
     }
     if (wanted === "closed") return group === "closed" || id === "closed_until_approved_to_reopen";
     return id === wanted || group === wanted;
@@ -496,7 +501,7 @@
       return '<strong>' + esc(p.business_name) + '</strong><br>' +
         esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
         (currentStatus ? '<strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '<br>' : '') +
-        '<strong>Latest inspection:</strong> ' + esc(latestRedPoints(feature)) + ' red points' + (latestDate ? ' on ' + esc(formatDateText(latestDate)) : '') + '<br>' +
+        '<strong>Latest inspection:</strong> ' + esc(latestRedPointsLabel(feature)) + (latestDate ? ' on ' + esc(formatDateText(latestDate)) : '') + '<br>' +
         '<strong>Worst inspection shown:</strong> ' + esc(p.worst_red_points || p.red_points || "Not parsed") + ' red points' + (worstDate ? ' on ' + esc(formatDateText(worstDate)) : '') + '<br>' +
         '<strong>Over-35 inspections observed:</strong> ' + esc(p.over_threshold_count || 0) +
         (followUp ? '<br><strong>Follow-up/reinspection:</strong> ' + esc(followUp) : '') +
@@ -588,7 +593,7 @@
     var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
     var parts = [];
     if (mode === "evergreen") {
-      parts.push("Default view shows recent closure, reinspection, compliance-order and scheduled/pending result statuses; marker shape/letter shows latest TPCHD result status and red shading darkens with the worst parsed red-point total for action-status facilities.");
+      parts.push("Default view shows recent closure, reinspection, compliance-order and scheduled follow-up/reinspection result statuses; marker shape/letter shows latest TPCHD result status and red shading darkens with the worst parsed red-point total for action-status facilities.");
     }
     parts.push(mode === "evergreen" ? "Map layer includes one point per geocoded facility observed by the scraper." : "Map layer includes geocoded inspections with more than 35 red points.");
     if (unmapped) parts.push(unmapped + " facilit" + (unmapped === 1 ? "y is" : "ies are") + " not mapped because reviewed coordinates were unavailable.");
