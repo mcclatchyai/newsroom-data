@@ -1,0 +1,68 @@
+{
+  "issuer": {
+    "issuer_name": "Black Belt Energy Gas Dist Ala Gas",
+    "member_count": 1,
+    "ticker": "GS",
+    "trade_count": 2,
+    "trades": [
+      {
+        "action": "Purchase",
+        "amount_range": "$250,001 - $500,000",
+        "disclosure_lag_days": 22,
+        "district": "WA01",
+        "estimated_max": 500000,
+        "estimated_min": 250001,
+        "filing_date": "05/26/2026",
+        "filing_id": "20034615",
+        "issuer_name": "Black Belt Energy Gas Dist Ala Gas",
+        "market_status": "unavailable",
+        "member_name": "Hon. Suzan K. DelBene",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/3e/60/3e60315e31d628b3.json",
+        "publication_ready": false,
+        "reporter_flags": {},
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "WA",
+        "ticker": "GS",
+        "transaction_date": "05/04/2026",
+        "transaction_id": "3e60315e31d628b3"
+      },
+      {
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 8,
+        "district": "WA01",
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filing_date": "05/08/2026",
+        "filing_id": "20034466",
+        "issuer_name": "Southeast Energy Auth Coop Dist Ala",
+        "market_status": "unavailable",
+        "member_name": "Hon. Suzan K. DelBene",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/cc/9f/cc9ffdb8cb666913.json",
+        "publication_ready": false,
+        "reporter_flags": {},
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "WA",
+        "ticker": "GS",
+        "transaction_date": "04/30/2026",
+        "transaction_id": "cc9ffdb8cb666913"
+      }
+    ]
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T212221Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T21:25:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GS.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T21:40:41Z"
+  }
+}

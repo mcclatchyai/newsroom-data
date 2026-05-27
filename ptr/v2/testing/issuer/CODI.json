@@ -1,0 +1,45 @@
+{
+  "issuer": {
+    "issuer_name": "Shares of Beneficial Interest (CODI)",
+    "member_count": 1,
+    "ticker": "CODI",
+    "trade_count": 1,
+    "trades": [
+      {
+        "action": "Sale",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 13,
+        "district": "TX36",
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filing_date": "05/18/2026",
+        "filing_id": "20034522",
+        "issuer_name": "Shares of Beneficial Interest (CODI)",
+        "market_status": "unavailable",
+        "member_name": "Hon. Brian Babin",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ff/16/ff165d7608218d62.json",
+        "publication_ready": false,
+        "reporter_flags": {},
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "TX",
+        "ticker": "CODI",
+        "transaction_date": "05/05/2026",
+        "transaction_id": "ff165d7608218d62"
+      }
+    ]
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T212221Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T21:25:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CODI.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T21:40:41Z"
+  }
+}

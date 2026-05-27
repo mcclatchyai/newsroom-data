@@ -40,7 +40,7 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-table&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json&quot; data-ptr-data-version=&quot;20260527T041742Z&quot;&gt;
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-table&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json&quot; data-ptr-data-version=&quot;20260527T212221Z&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: &quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
@@ -149,7 +149,6 @@
         var action = text(row.type || &quot;other&quot;);
         var priceValue = row.price;
         var returnValue = row.return_trade_to_latest;
-        var flags = Array.isArray(row.flags) &amp;&amp; row.flags.length ? row.flags.map(function(flag) { return &#x27;&lt;span class=&quot;flag&quot;&gt;&#x27; + esc(flag) + &#x27;&lt;/span&gt;&#x27;; }).join(&quot;&quot;) : &#x27;&lt;span class=&quot;sub&quot;&gt;No flags&lt;/span&gt;&#x27;;
         return &#x27;&lt;tr data-filter-row data-politician=&quot;&#x27; + esc(text(row.politician).toLowerCase()) + &#x27;&quot; data-issuer=&quot;&#x27; + esc((text(row.issuer) + &quot; &quot; + text(row.ticker)).toLowerCase()) + &#x27;&quot; data-type=&quot;&#x27; + esc(action) + &#x27;&quot; data-owner=&quot;&#x27; + esc(text(row.owner).toLowerCase()) + &#x27;&quot;&gt;&#x27;
           + &#x27;&lt;td&gt;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.politician) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.state) + &#x27; | &#x27; + esc(row.district) + &#x27;&lt;/span&gt;&lt;/td&gt;&#x27;
           + &#x27;&lt;td&gt;&lt;span class=&quot;name&quot;&gt;&#x27; + esc(row.issuer) + &#x27;&lt;/span&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.ticker) + &#x27;&lt;/span&gt;&lt;/td&gt;&#x27;
@@ -161,7 +160,6 @@
           + &#x27;&lt;td&gt;&lt;strong&gt;&#x27; + esc(row.size) + &#x27;&lt;/strong&gt;&lt;/td&gt;&#x27;
           + &#x27;&lt;td&gt;&lt;strong&gt;&#x27; + esc(money(priceValue)) + &#x27;&lt;/strong&gt;&lt;span class=&quot;sub&quot;&gt;&#x27; + esc(row.price_date ? dateLabel(row.price_date) : &quot;&quot;) + &#x27;&lt;/span&gt;&lt;/td&gt;&#x27;
           + &#x27;&lt;td&gt;&lt;span class=&quot;&#x27; + esc(pctClass(returnValue)) + &#x27;&quot;&gt;&#x27; + esc(pct(returnValue)) + &#x27;&lt;/span&gt;&lt;/td&gt;&#x27;
-          + &#x27;&lt;td&gt;&#x27; + flags + &#x27;&lt;/td&gt;&#x27;
           + &#x27;&lt;/tr&gt;&#x27;;
       }).join(&quot;&quot;);
     }
@@ -219,7 +217,7 @@
       });
       main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;p class=&quot;sub&quot;&gt;Static public PTR data&lt;/p&gt;&lt;h1&gt;Congressional trade tracker&lt;/h1&gt;&lt;p&gt;Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.&lt;/p&gt;&lt;div class=&quot;controls&quot;&gt;&lt;input type=&quot;search&quot; data-filter=&quot;politician&quot; placeholder=&quot;Find by politician&quot; /&gt;&lt;input type=&quot;search&quot; data-filter=&quot;issuer&quot; placeholder=&quot;Find by issuer or ticker&quot; /&gt;&lt;select data-filter=&quot;type&quot;&gt;&lt;option value=&quot;&quot;&gt;Transaction type&lt;/option&gt;&#x27; + options(rows, &quot;type&quot;) + &#x27;&lt;/select&gt;&lt;select data-filter=&quot;owner&quot;&gt;&lt;option value=&quot;&quot;&gt;Owner&lt;/option&gt;&#x27; + options(rows, &quot;owner&quot;) + &#x27;&lt;/select&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
         + &#x27;&lt;section class=&quot;summary&quot;&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong data-visible-count&gt;&#x27; + rows.length + &#x27;&lt;/strong&gt;&lt;span&gt;Visible trades&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + Object.keys(filings).length + &#x27;&lt;/strong&gt;&lt;span&gt;Filings&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + Object.keys(politicians).length + &#x27;&lt;/strong&gt;&lt;span&gt;Politicians&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + Object.keys(issuers).length + &#x27;&lt;/strong&gt;&lt;span&gt;Issuers&lt;/span&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
-        + &#x27;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Politician&lt;/th&gt;&lt;th&gt;Traded issuer&lt;/th&gt;&lt;th&gt;Filed&lt;/th&gt;&lt;th&gt;Traded&lt;/th&gt;&lt;th&gt;Filed after&lt;/th&gt;&lt;th&gt;Owner&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Size&lt;/th&gt;&lt;th&gt;Trade-date price&lt;/th&gt;&lt;th&gt;Return to latest&lt;/th&gt;&lt;th&gt;Reporter flags&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&#x27; + renderRows(rows) + &#x27;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class=&quot;mobile-cards&quot;&gt;&#x27; + renderCards(rows) + &#x27;&lt;/div&gt;&lt;div class=&quot;empty&quot; data-empty&gt;No trades match the selected filters.&lt;/div&gt;&lt;p class=&quot;caveat&quot;&gt;PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.&lt;/p&gt;&#x27;;
+        + &#x27;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Politician&lt;/th&gt;&lt;th&gt;Traded issuer&lt;/th&gt;&lt;th&gt;Filed&lt;/th&gt;&lt;th&gt;Traded&lt;/th&gt;&lt;th&gt;Filed after&lt;/th&gt;&lt;th&gt;Owner&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Size&lt;/th&gt;&lt;th&gt;Trade-date price&lt;/th&gt;&lt;th&gt;Return to latest&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&#x27; + renderRows(rows) + &#x27;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class=&quot;mobile-cards&quot;&gt;&#x27; + renderCards(rows) + &#x27;&lt;/div&gt;&lt;div class=&quot;empty&quot; data-empty&gt;No trades match the selected filters.&lt;/div&gt;&lt;p class=&quot;caveat&quot;&gt;PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.&lt;/p&gt;&#x27;;
       attachFilters();
     }
     if (!safeUrl(dataUrl)) {
@@ -273,7 +271,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="20260527T041742Z">
+<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="20260527T212221Z">
   <style>
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
@@ -382,7 +380,6 @@
         var action = text(row.type || "other");
         var priceValue = row.price;
         var returnValue = row.return_trade_to_latest;
-        var flags = Array.isArray(row.flags) && row.flags.length ? row.flags.map(function(flag) { return '<span class="flag">' + esc(flag) + '</span>'; }).join("") : '<span class="sub">No flags</span>';
         return '<tr data-filter-row data-politician="' + esc(text(row.politician).toLowerCase()) + '" data-issuer="' + esc((text(row.issuer) + " " + text(row.ticker)).toLowerCase()) + '" data-type="' + esc(action) + '" data-owner="' + esc(text(row.owner).toLowerCase()) + '">'
           + '<td><span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span></td>'
           + '<td><span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span></td>'
@@ -394,7 +391,6 @@
           + '<td><strong>' + esc(row.size) + '</strong></td>'
           + '<td><strong>' + esc(money(priceValue)) + '</strong><span class="sub">' + esc(row.price_date ? dateLabel(row.price_date) : "") + '</span></td>'
           + '<td><span class="' + esc(pctClass(returnValue)) + '">' + esc(pct(returnValue)) + '</span></td>'
-          + '<td>' + flags + '</td>'
           + '</tr>';
       }).join("");
     }
@@ -452,7 +448,7 @@
       });
       main.innerHTML = '<section class="hero"><p class="sub">Static public PTR data</p><h1>Congressional trade tracker</h1><p>Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.</p><div class="controls"><input type="search" data-filter="politician" placeholder="Find by politician" /><input type="search" data-filter="issuer" placeholder="Find by issuer or ticker" /><select data-filter="type"><option value="">Transaction type</option>' + options(rows, "type") + '</select><select data-filter="owner"><option value="">Owner</option>' + options(rows, "owner") + '</select></div></section>'
         + '<section class="summary"><div class="stat"><strong data-visible-count>' + rows.length + '</strong><span>Visible trades</span></div><div class="stat"><strong>' + Object.keys(filings).length + '</strong><span>Filings</span></div><div class="stat"><strong>' + Object.keys(politicians).length + '</strong><span>Politicians</span></div><div class="stat"><strong>' + Object.keys(issuers).length + '</strong><span>Issuers</span></div></section>'
-        + '<div class="table-wrap"><table><thead><tr><th>Politician</th><th>Traded issuer</th><th>Filed</th><th>Traded</th><th>Filed after</th><th>Owner</th><th>Type</th><th>Size</th><th>Trade-date price</th><th>Return to latest</th><th>Reporter flags</th></tr></thead><tbody>' + renderRows(rows) + '</tbody></table></div><div class="mobile-cards">' + renderCards(rows) + '</div><div class="empty" data-empty>No trades match the selected filters.</div><p class="caveat">PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.</p>';
+        + '<div class="table-wrap"><table><thead><tr><th>Politician</th><th>Traded issuer</th><th>Filed</th><th>Traded</th><th>Filed after</th><th>Owner</th><th>Type</th><th>Size</th><th>Trade-date price</th><th>Return to latest</th></tr></thead><tbody>' + renderRows(rows) + '</tbody></table></div><div class="mobile-cards">' + renderCards(rows) + '</div><div class="empty" data-empty>No trades match the selected filters.</div><p class="caveat">PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.</p>';
       attachFilters();
     }
     if (!safeUrl(dataUrl)) {

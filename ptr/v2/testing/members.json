@@ -1,26 +1,46 @@
 {
   "members": [
     {
-      "display_name": "Hon. James French Hill",
-      "district": "AR02",
-      "issuers": 4,
-      "member_id": "james_french_hill-ar-ar02",
-      "member_name": "Hon. James French Hill",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/james_french_hill-ar-ar02.json",
-      "state": "AR",
-      "trades": 4
+      "display_name": "Hon. Suzan K. DelBene",
+      "district": "WA01",
+      "issuers": 2,
+      "member_id": "suzan_k_delbene-wa-wa01",
+      "member_name": "Hon. Suzan K. DelBene",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
+      "state": "WA",
+      "trades": 2
+    },
+    {
+      "display_name": "Hon. Chip Roy",
+      "district": "TX21",
+      "issuers": 1,
+      "member_id": "chip_roy-tx-tx21",
+      "member_name": "Hon. Chip Roy",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/chip_roy-tx-tx21.json",
+      "state": "TX",
+      "trades": 2
+    },
+    {
+      "display_name": "Hon. Brian Babin",
+      "district": "TX36",
+      "issuers": 1,
+      "member_id": "brian_babin-tx-tx36",
+      "member_name": "Hon. Brian Babin",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/brian_babin-tx-tx36.json",
+      "state": "TX",
+      "trades": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260527T041742Z",
+    "data_version": "20260527T212221Z",
     "environment": "testing",
-    "generated_at": "2026-05-27T04:18:50Z",
+    "generated_at": "2026-05-27T21:25:41Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-27T04:33:50Z"
+    "stale_after": "2026-05-27T21:40:41Z"
   }
 }

@@ -1,0 +1,108 @@
+{
+  "context_packet_count": 1,
+  "context_packets": [
+    {
+      "filing_id": "20034466",
+      "issuer_name": "Southeast Energy Auth Coop Dist Ala",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034466.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "cc9ffdb8cb666913"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 1
+    },
+    "action_counts_json": "{\"Purchase\": 1}",
+    "disclosure_lag_days": 8,
+    "district": "WA01",
+    "estimated_max_total": 15000,
+    "estimated_min_total": 1001,
+    "filing_date": "05/08/2026",
+    "filing_id": "20034466",
+    "filing_type": "P",
+    "ingested_at": "2026-05-27T21:20:17Z",
+    "member_name": "Hon. Suzan K. DelBene",
+    "pdf_sha256": "",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034466.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "WA",
+    "tickers": [
+      "GS"
+    ],
+    "tickers_json": "[\"GS\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2026-04-30",
+    "transaction_date_min": "2026-04-30"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T212221Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T21:25:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034466.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T21:40:41Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034466.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 8,
+      "district": "WA01",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "05/08/2026",
+      "filing_id": "20034466",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T21:20:17Z",
+      "issuer_name": "Southeast Energy Auth Coop Dist Ala",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "04/30/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034466.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 04/30/2026 $1,001 - $15,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-05-30",
+      "ticker": "GS",
+      "transaction_date": "04/30/2026",
+      "transaction_id": "cc9ffdb8cb666913"
+    }
+  ]
+}

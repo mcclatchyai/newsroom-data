@@ -1,0 +1,68 @@
+{
+  "issuer": {
+    "issuer_name": "Atlas Energy Solutions Inc. Common Stock",
+    "member_count": 1,
+    "ticker": "AESI",
+    "trade_count": 2,
+    "trades": [
+      {
+        "action": "Purchase",
+        "amount_range": "$100,001 - $250,000",
+        "disclosure_lag_days": 42,
+        "district": "TX21",
+        "estimated_max": 250000,
+        "estimated_min": 100001,
+        "filing_date": "05/11/2026",
+        "filing_id": "20034528",
+        "issuer_name": "Atlas Energy Solutions Inc. Common Stock",
+        "market_status": "unavailable",
+        "member_name": "Hon. Chip Roy",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/fa/d5/fad5b30a68c233fc.json",
+        "publication_ready": false,
+        "reporter_flags": {},
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "TX",
+        "ticker": "AESI",
+        "transaction_date": "03/30/2026",
+        "transaction_id": "fad5b30a68c233fc"
+      },
+      {
+        "action": "Purchase",
+        "amount_range": "$5,000,001 - $25,000,000",
+        "disclosure_lag_days": 9,
+        "district": "TX21",
+        "estimated_max": 25000000,
+        "estimated_min": 5000001,
+        "filing_date": "05/09/2026",
+        "filing_id": "20034375",
+        "issuer_name": "Atlas Energy Solutions Inc. Common Stock",
+        "market_status": "unavailable",
+        "member_name": "Hon. Chip Roy",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/2c/f8/2cf8756e90049fe8.json",
+        "publication_ready": false,
+        "reporter_flags": {},
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "TX",
+        "ticker": "AESI",
+        "transaction_date": "04/30/2026",
+        "transaction_id": "2cf8756e90049fe8"
+      }
+    ]
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T212221Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T21:25:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AESI.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T21:40:41Z"
+  }
+}
