@@ -14,8 +14,8 @@
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "coverage_note": "Evergreen markers are one point per geocoded facility. The default view emphasizes latest results that indicate closure, reinspection, compliance orders or scheduled/pending inspections. Facilities without reviewed coordinates are counted but not mapped; blank or missing red-point totals are not treated as zero.",
-  "data_version": "20260527195607Z",
+  "coverage_note": "Evergreen markers are one point per geocoded facility. The default view emphasizes facilities with a latest observed closure, reinspection, compliance-order or scheduled/pending result in the most recent 60-day window. Facilities without reviewed coordinates are counted but not mapped; blank or missing red-point totals are not treated as zero.",
+  "data_version": "20260527210305Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
@@ -35,7 +35,7 @@
     },
     "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/embed.html",
     "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260527195607z.html",
+    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260527210305z.html",
     "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/geocode_cache.json",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/latest.geojson",
     "runs": {}
@@ -59,13 +59,13 @@
     },
     "evergreen_embed": "embed/evergreen/embed.html",
     "evergreen_preview": "embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "embed/evergreen/preview-20260527195607z.html",
+    "evergreen_versioned_preview": "embed/evergreen/preview-20260527210305z.html",
     "geocode_cache": "geocode_cache.json",
     "latest": "latest.geojson",
     "runs": {}
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-27T19:56:07Z",
+  "generated_at": "2026-05-27T21:03:05Z",
   "geometry_precision": "reviewed facility address geocode",
   "map_cannot_show": "This map does not show neighborhood-level health risk, facilities without reviewed coordinates, or source records not yet collected by the scraper.",
   "map_claim": "Shows geocoded public restaurant facilities with current/latest TPCHD action status, latest inspection result, red-point context, and observed follow-up timeline where available.",
@@ -150,7 +150,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-27T20:11:07Z",
+  "stale_after": "2026-05-27T21:18:05Z",
   "symbology": {
     "alert_categories": [
       {
