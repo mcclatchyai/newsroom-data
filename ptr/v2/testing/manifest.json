@@ -1,121 +1,48 @@
 {
   "asset_type": "ptr_public_bundle",
   "counts": {
-    "filings": 3,
-    "issuers": 0,
-    "leaderboard_rows": 15,
-    "members": 2,
+    "filings": 1,
+    "issuers": 4,
+    "leaderboard_rows": 4,
+    "members": 1,
     "states": 1,
-    "trade_table_rows": 15,
-    "trades": 15,
-    "transactions": 15
+    "trade_table_rows": 4,
+    "trades": 4,
+    "transactions": 4
   },
   "embed_assets": {
     "assets": [
       {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/03/5d/035d9a511a7fcf0c/embed.html",
-        "filing_id": "20034201",
+        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0d/27/0d27e3ba2487764e/embed.html",
+        "filing_id": "20033661",
         "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/03/5d/035d9a511a7fcf0c/preview.html",
-        "transaction_id": "035d9a511a7fcf0c"
+        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0d/27/0d27e3ba2487764e/preview.html",
+        "ticker": "SFL",
+        "transaction_id": "0d27e3ba2487764e"
       },
       {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0a/91/0a9110903387131e/embed.html",
-        "filing_id": "20033718",
+        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/65/5b/655bef55092d91bd/embed.html",
+        "filing_id": "20033661",
         "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0a/91/0a9110903387131e/preview.html",
-        "transaction_id": "0a9110903387131e"
+        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/65/5b/655bef55092d91bd/preview.html",
+        "ticker": "SOLV",
+        "transaction_id": "655bef55092d91bd"
       },
       {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/36/0d/360dbd3142107aab/embed.html",
-        "filing_id": "20033718",
+        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/87/4f/874f9719d9379263/embed.html",
+        "filing_id": "20033661",
         "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/36/0d/360dbd3142107aab/preview.html",
-        "transaction_id": "360dbd3142107aab"
+        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/87/4f/874f9719d9379263/preview.html",
+        "ticker": "KD",
+        "transaction_id": "874f9719d9379263"
       },
       {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/65/4065323dcbb28b44/embed.html",
-        "filing_id": "20033718",
+        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a1/aa/a1aa3a8bd2945df5/embed.html",
+        "filing_id": "20033661",
         "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/65/4065323dcbb28b44/preview.html",
-        "transaction_id": "4065323dcbb28b44"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/d8/40d8a23d81047735/embed.html",
-        "filing_id": "20034462",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/d8/40d8a23d81047735/preview.html",
-        "transaction_id": "40d8a23d81047735"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/5b/2a/5b2a594c94d95dfc/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/5b/2a/5b2a594c94d95dfc/preview.html",
-        "transaction_id": "5b2a594c94d95dfc"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/62/f5/62f5f3c185bedacf/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/62/f5/62f5f3c185bedacf/preview.html",
-        "transaction_id": "62f5f3c185bedacf"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/68/a6/68a69c0473727d7a/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/68/a6/68a69c0473727d7a/preview.html",
-        "transaction_id": "68a69c0473727d7a"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/81/7f/817fa95c331a19d8/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/81/7f/817fa95c331a19d8/preview.html",
-        "transaction_id": "817fa95c331a19d8"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/8e/af/8eaf582187465af4/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/8e/af/8eaf582187465af4/preview.html",
-        "transaction_id": "8eaf582187465af4"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a0/53/a0535ad285ce2b40/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a0/53/a0535ad285ce2b40/preview.html",
-        "transaction_id": "a0535ad285ce2b40"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ae/31/ae319d73e2113373/embed.html",
-        "filing_id": "20034462",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ae/31/ae319d73e2113373/preview.html",
-        "transaction_id": "ae319d73e2113373"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/e0/3c/e03cd6307603d5a5/embed.html",
-        "filing_id": "20034462",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/e0/3c/e03cd6307603d5a5/preview.html",
-        "transaction_id": "e03cd6307603d5a5"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ea/75/ea75a3913e7c3052/embed.html",
-        "filing_id": "20034201",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ea/75/ea75a3913e7c3052/preview.html",
-        "transaction_id": "ea75a3913e7c3052"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ff/9d/ff9d638aa5586c7c/embed.html",
-        "filing_id": "20033718",
-        "kind": "trade_detail",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ff/9d/ff9d638aa5586c7c/preview.html",
-        "transaction_id": "ff9d638aa5586c7c"
+        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a1/aa/a1aa3a8bd2945df5/preview.html",
+        "ticker": "PFE",
+        "transaction_id": "a1aa3a8bd2945df5"
       },
       {
         "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade_table/embed.html",
@@ -128,21 +55,14 @@
         "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/leaderboards/preview.html"
       },
       {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/ann_wagner-mo-mo02/embed.html",
+        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/james_french_hill-ar-ar02/embed.html",
         "kind": "member_profile",
-        "member_id": "ann_wagner-mo-mo02",
-        "member_name": "Hon. Ann Wagner",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/ann_wagner-mo-mo02/preview.html"
-      },
-      {
-        "embed_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/mark_alford-mo-mo04/embed.html",
-        "kind": "member_profile",
-        "member_id": "mark_alford-mo-mo04",
-        "member_name": "Hon. Mark Alford",
-        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/mark_alford-mo-mo04/preview.html"
+        "member_id": "james_french_hill-ar-ar02",
+        "member_name": "Hon. James French Hill",
+        "preview_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/james_french_hill-ar-ar02/preview.html"
       }
     ],
-    "published_count": 19
+    "published_count": 7
   },
   "entrypoints": {
     "filings": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
@@ -159,67 +79,33 @@
     "context_packets.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "embed/leaderboards/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/leaderboards/embed.html",
     "embed/leaderboards/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/leaderboards/preview.html",
-    "embed/member/ann_wagner-mo-mo02/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/ann_wagner-mo-mo02/embed.html",
-    "embed/member/ann_wagner-mo-mo02/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/ann_wagner-mo-mo02/preview.html",
-    "embed/member/mark_alford-mo-mo04/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/mark_alford-mo-mo04/embed.html",
-    "embed/member/mark_alford-mo-mo04/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/mark_alford-mo-mo04/preview.html",
-    "embed/trade/03/5d/035d9a511a7fcf0c/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/03/5d/035d9a511a7fcf0c/embed.html",
-    "embed/trade/03/5d/035d9a511a7fcf0c/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/03/5d/035d9a511a7fcf0c/preview.html",
-    "embed/trade/0a/91/0a9110903387131e/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0a/91/0a9110903387131e/embed.html",
-    "embed/trade/0a/91/0a9110903387131e/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0a/91/0a9110903387131e/preview.html",
-    "embed/trade/36/0d/360dbd3142107aab/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/36/0d/360dbd3142107aab/embed.html",
-    "embed/trade/36/0d/360dbd3142107aab/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/36/0d/360dbd3142107aab/preview.html",
-    "embed/trade/40/65/4065323dcbb28b44/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/65/4065323dcbb28b44/embed.html",
-    "embed/trade/40/65/4065323dcbb28b44/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/65/4065323dcbb28b44/preview.html",
-    "embed/trade/40/d8/40d8a23d81047735/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/d8/40d8a23d81047735/embed.html",
-    "embed/trade/40/d8/40d8a23d81047735/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/40/d8/40d8a23d81047735/preview.html",
-    "embed/trade/5b/2a/5b2a594c94d95dfc/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/5b/2a/5b2a594c94d95dfc/embed.html",
-    "embed/trade/5b/2a/5b2a594c94d95dfc/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/5b/2a/5b2a594c94d95dfc/preview.html",
-    "embed/trade/62/f5/62f5f3c185bedacf/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/62/f5/62f5f3c185bedacf/embed.html",
-    "embed/trade/62/f5/62f5f3c185bedacf/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/62/f5/62f5f3c185bedacf/preview.html",
-    "embed/trade/68/a6/68a69c0473727d7a/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/68/a6/68a69c0473727d7a/embed.html",
-    "embed/trade/68/a6/68a69c0473727d7a/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/68/a6/68a69c0473727d7a/preview.html",
-    "embed/trade/81/7f/817fa95c331a19d8/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/81/7f/817fa95c331a19d8/embed.html",
-    "embed/trade/81/7f/817fa95c331a19d8/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/81/7f/817fa95c331a19d8/preview.html",
-    "embed/trade/8e/af/8eaf582187465af4/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/8e/af/8eaf582187465af4/embed.html",
-    "embed/trade/8e/af/8eaf582187465af4/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/8e/af/8eaf582187465af4/preview.html",
-    "embed/trade/a0/53/a0535ad285ce2b40/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a0/53/a0535ad285ce2b40/embed.html",
-    "embed/trade/a0/53/a0535ad285ce2b40/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a0/53/a0535ad285ce2b40/preview.html",
-    "embed/trade/ae/31/ae319d73e2113373/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ae/31/ae319d73e2113373/embed.html",
-    "embed/trade/ae/31/ae319d73e2113373/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ae/31/ae319d73e2113373/preview.html",
-    "embed/trade/e0/3c/e03cd6307603d5a5/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/e0/3c/e03cd6307603d5a5/embed.html",
-    "embed/trade/e0/3c/e03cd6307603d5a5/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/e0/3c/e03cd6307603d5a5/preview.html",
-    "embed/trade/ea/75/ea75a3913e7c3052/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ea/75/ea75a3913e7c3052/embed.html",
-    "embed/trade/ea/75/ea75a3913e7c3052/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ea/75/ea75a3913e7c3052/preview.html",
-    "embed/trade/ff/9d/ff9d638aa5586c7c/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ff/9d/ff9d638aa5586c7c/embed.html",
-    "embed/trade/ff/9d/ff9d638aa5586c7c/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/ff/9d/ff9d638aa5586c7c/preview.html",
+    "embed/member/james_french_hill-ar-ar02/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/james_french_hill-ar-ar02/embed.html",
+    "embed/member/james_french_hill-ar-ar02/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/member/james_french_hill-ar-ar02/preview.html",
+    "embed/trade/0d/27/0d27e3ba2487764e/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0d/27/0d27e3ba2487764e/embed.html",
+    "embed/trade/0d/27/0d27e3ba2487764e/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/0d/27/0d27e3ba2487764e/preview.html",
+    "embed/trade/65/5b/655bef55092d91bd/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/65/5b/655bef55092d91bd/embed.html",
+    "embed/trade/65/5b/655bef55092d91bd/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/65/5b/655bef55092d91bd/preview.html",
+    "embed/trade/87/4f/874f9719d9379263/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/87/4f/874f9719d9379263/embed.html",
+    "embed/trade/87/4f/874f9719d9379263/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/87/4f/874f9719d9379263/preview.html",
+    "embed/trade/a1/aa/a1aa3a8bd2945df5/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a1/aa/a1aa3a8bd2945df5/embed.html",
+    "embed/trade/a1/aa/a1aa3a8bd2945df5/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade/a1/aa/a1aa3a8bd2945df5/preview.html",
     "embed/trade_table/embed.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade_table/embed.html",
     "embed/trade_table/preview.html": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/embed/trade_table/preview.html",
-    "filing/20/03/20033718.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033718.json",
-    "filing/20/03/20034201.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034201.json",
-    "filing/20/03/20034462.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034462.json",
+    "filing/20/03/20033661.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033661.json",
     "filings.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
+    "issuer/KD.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/KD.json",
+    "issuer/PFE.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PFE.json",
+    "issuer/SFL.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SFL.json",
+    "issuer/SOLV.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SOLV.json",
     "issuers.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "leaderboards.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json",
-    "member/ann_wagner-mo-mo02.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/ann_wagner-mo-mo02.json",
-    "member/mark_alford-mo-mo04.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/mark_alford-mo-mo04.json",
+    "member/james_french_hill-ar-ar02.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/james_french_hill-ar-ar02.json",
     "members.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
-    "state/MO.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/MO.json",
-    "trade/03/5d/035d9a511a7fcf0c.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/03/5d/035d9a511a7fcf0c.json",
-    "trade/0a/91/0a9110903387131e.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/0a/91/0a9110903387131e.json",
-    "trade/36/0d/360dbd3142107aab.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/36/0d/360dbd3142107aab.json",
-    "trade/40/65/4065323dcbb28b44.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/40/65/4065323dcbb28b44.json",
-    "trade/40/d8/40d8a23d81047735.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/40/d8/40d8a23d81047735.json",
-    "trade/5b/2a/5b2a594c94d95dfc.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/5b/2a/5b2a594c94d95dfc.json",
-    "trade/62/f5/62f5f3c185bedacf.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/62/f5/62f5f3c185bedacf.json",
-    "trade/68/a6/68a69c0473727d7a.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/68/a6/68a69c0473727d7a.json",
-    "trade/81/7f/817fa95c331a19d8.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/81/7f/817fa95c331a19d8.json",
-    "trade/8e/af/8eaf582187465af4.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/8e/af/8eaf582187465af4.json",
-    "trade/a0/53/a0535ad285ce2b40.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/a0/53/a0535ad285ce2b40.json",
-    "trade/ae/31/ae319d73e2113373.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ae/31/ae319d73e2113373.json",
-    "trade/e0/3c/e03cd6307603d5a5.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/e0/3c/e03cd6307603d5a5.json",
-    "trade/ea/75/ea75a3913e7c3052.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ea/75/ea75a3913e7c3052.json",
-    "trade/ff/9d/ff9d638aa5586c7c.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ff/9d/ff9d638aa5586c7c.json",
+    "state/AR.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/AR.json",
+    "trade/0d/27/0d27e3ba2487764e.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/0d/27/0d27e3ba2487764e.json",
+    "trade/65/5b/655bef55092d91bd.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/65/5b/655bef55092d91bd.json",
+    "trade/87/4f/874f9719d9379263.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/87/4f/874f9719d9379263.json",
+    "trade/a1/aa/a1aa3a8bd2945df5.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/a1/aa/a1aa3a8bd2945df5.json",
     "trade_table.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json",
     "trades.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trades.json",
     "transactions.json": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/transactions.json"
@@ -228,14 +114,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260527T040624Z",
+    "data_version": "20260527T041742Z",
     "environment": "testing",
-    "generated_at": "2026-05-27T04:09:56Z",
+    "generated_at": "2026-05-27T04:18:50Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-27T04:24:56Z"
+    "stale_after": "2026-05-27T04:33:50Z"
   },
   "publication_guardrails": [
     "PTR values are ranges, not exact amounts.",

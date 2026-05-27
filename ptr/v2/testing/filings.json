@@ -2,94 +2,46 @@
   "filings": [
     {
       "action_counts": {
-        "Purchase": 4
+        "Sale": 4
       },
-      "action_counts_json": "{\"Purchase\": 4}",
-      "disclosure_lag_days": 29,
-      "district": "MO02",
-      "estimated_max_total": 1000000,
-      "estimated_min_total": 400004,
-      "filing_date": "01/02/2026",
-      "filing_id": "20033718",
+      "action_counts_json": "{\"Sale\": 4}",
+      "disclosure_lag_days": 23,
+      "district": "AR02",
+      "estimated_max_total": 365000,
+      "estimated_min_total": 131004,
+      "filing_date": "01/23/2026",
+      "filing_id": "20033661",
       "filing_type": "P",
-      "ingested_at": "2026-05-27T03:57:41Z",
-      "member_name": "Hon. Ann Wagner",
-      "pdf_sha256": "8063543c4c80811389c527c4b9b742abeaa16aa981baf2de638ad2d3344db1f6",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+      "ingested_at": "2026-05-27T04:15:24Z",
+      "member_name": "Hon. James French Hill",
+      "pdf_sha256": "18d2d4c6992d4d23e483930da561ef1e80c80044256e63b13e14a263f816dd1d",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf",
       "possible_late": false,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
-      "state": "MO",
-      "tickers": [],
-      "tickers_json": "[]",
+      "state": "AR",
+      "tickers": [
+        "KD",
+        "PFE",
+        "SFL",
+        "SOLV"
+      ],
+      "tickers_json": "[\"KD\", \"PFE\", \"SFL\", \"SOLV\"]",
       "transaction_count": 4,
-      "transaction_date_max": "2025-12-18",
-      "transaction_date_min": "2025-12-04"
-    },
-    {
-      "action_counts": {
-        "S (partial)": 8
-      },
-      "action_counts_json": "{\"S (partial)\": 8}",
-      "disclosure_lag_days": 15,
-      "district": "MO04",
-      "estimated_max_total": 120000,
-      "estimated_min_total": 8008,
-      "filing_date": "03/31/2026",
-      "filing_id": "20034201",
-      "filing_type": "P",
-      "ingested_at": "2026-05-27T03:57:41Z",
-      "member_name": "Hon. Mark Alford",
-      "pdf_sha256": "6372d59d32a7e54b69e4b456c315670456aa625572a5c78e5c29b72a81de2d43",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf",
-      "possible_late": false,
-      "schema_version": "1",
-      "source": "house_disclosure_pdf",
-      "state": "MO",
-      "tickers": [],
-      "tickers_json": "[]",
-      "transaction_count": 8,
-      "transaction_date_max": "2026-03-16",
-      "transaction_date_min": "2026-03-16"
-    },
-    {
-      "action_counts": {
-        "S (partial)": 1,
-        "Sale": 2
-      },
-      "action_counts_json": "{\"S (partial)\": 1, \"Sale\": 2}",
-      "disclosure_lag_days": 24,
-      "district": "MO02",
-      "estimated_max_total": 1000000,
-      "estimated_min_total": 450003,
-      "filing_date": "05/04/2026",
-      "filing_id": "20034462",
-      "filing_type": "P",
-      "ingested_at": "2026-05-27T03:57:41Z",
-      "member_name": "Hon. Ann Wagner",
-      "pdf_sha256": "5db3cfd23b8a0dabe882584e5ea68f90a55bda3474948751ebe6abff74c4c663",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf",
-      "possible_late": false,
-      "schema_version": "1",
-      "source": "house_disclosure_pdf",
-      "state": "MO",
-      "tickers": [],
-      "tickers_json": "[]",
-      "transaction_count": 3,
-      "transaction_date_max": "2026-04-29",
-      "transaction_date_min": "2026-04-10"
+      "transaction_date_max": "2025-12-31",
+      "transaction_date_min": "2025-12-31"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260527T040624Z",
+    "data_version": "20260527T041742Z",
     "environment": "testing",
-    "generated_at": "2026-05-27T04:09:56Z",
+    "generated_at": "2026-05-27T04:18:50Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-27T04:24:56Z"
+    "stale_after": "2026-05-27T04:33:50Z"
   }
 }

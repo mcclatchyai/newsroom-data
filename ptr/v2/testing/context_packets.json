@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20033718",
-      "issuer_name": "Floyd County IN 4.00%",
+      "filing_id": "20033661",
+      "issuer_name": "Kyndryl Holdings, Inc. Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,17 +27,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "4065323dcbb28b44"
+      "ticker": "KD",
+      "transaction_id": "874f9719d9379263"
     },
     {
-      "filing_id": "20033718",
-      "issuer_name": "Fremont IN Cmnty Schs Gen Oblig Bds 4.00%",
+      "filing_id": "20033661",
+      "issuer_name": "Pfizer, Inc. Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -57,17 +57,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "ff9d638aa5586c7c"
+      "ticker": "PFE",
+      "transaction_id": "a1aa3a8bd2945df5"
     },
     {
-      "filing_id": "20033718",
-      "issuer_name": "Logan Rogersville MO Reorg No R 08 Sch 4.00%",
+      "filing_id": "20033661",
+      "issuer_name": "SFL Corporation Ltd",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -87,17 +87,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "360dbd3142107aab"
+      "ticker": "SFL",
+      "transaction_id": "0d27e3ba2487764e"
     },
     {
-      "filing_id": "20033718",
-      "issuer_name": "Teays Valley OH 5.00%",
+      "filing_id": "20033661",
+      "issuer_name": "Solventum Corporation Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -117,350 +117,20 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "0a9110903387131e"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "Amazon.com, Inc. - Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "ea75a3913e7c3052"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "Apple Inc. - Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "68a69c0473727d7a"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "AT&T Inc.",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "817fa95c331a19d8"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "Berkshire Hathaway Inc. New Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "5b2a594c94d95dfc"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "DIA - State Street SPDR Dow Jones Indust Avg ETF Trust",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "62f5f3c185bedacf"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "Invesco QQQ",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "8eaf582187465af4"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "PayPal Holdings, Inc. - Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "035d9a511a7fcf0c"
-    },
-    {
-      "filing_id": "20034201",
-      "issuer_name": "SPDR S&P 500 Buyback ETF",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "a0535ad285ce2b40"
-    },
-    {
-      "filing_id": "20034462",
-      "issuer_name": "Ashwaubenon WI",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "40d8a23d81047735"
-    },
-    {
-      "filing_id": "20034462",
-      "issuer_name": "ATHERTON MICH CMNTY SCH DIST GO UNLTD 4% TAX BLDG AND SITE BDS SER. 2020",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "ae319d73e2113373"
-    },
-    {
-      "filing_id": "20034462",
-      "issuer_name": "PARTNERS GROUP PRIVATE EQUITY MASTER FD LLC UNIT CL I",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "e03cd6307603d5a5"
+      "ticker": "SOLV",
+      "transaction_id": "655bef55092d91bd"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260527T040624Z",
+    "data_version": "20260527T041742Z",
     "environment": "testing",
-    "generated_at": "2026-05-27T04:09:56Z",
+    "generated_at": "2026-05-27T04:18:50Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-27T04:24:56Z"
+    "stale_after": "2026-05-27T04:33:50Z"
   }
 }

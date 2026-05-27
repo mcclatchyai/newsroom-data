@@ -1,36 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Mark Alford",
-      "district": "MO04",
-      "issuers": 8,
-      "member_id": "mark_alford-mo-mo04",
-      "member_name": "Hon. Mark Alford",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/mark_alford-mo-mo04.json",
-      "state": "MO",
-      "trades": 8
-    },
-    {
-      "display_name": "Hon. Ann Wagner",
-      "district": "MO02",
-      "issuers": 7,
-      "member_id": "ann_wagner-mo-mo02",
-      "member_name": "Hon. Ann Wagner",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/ann_wagner-mo-mo02.json",
-      "state": "MO",
-      "trades": 7
+      "display_name": "Hon. James French Hill",
+      "district": "AR02",
+      "issuers": 4,
+      "member_id": "james_french_hill-ar-ar02",
+      "member_name": "Hon. James French Hill",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/james_french_hill-ar-ar02.json",
+      "state": "AR",
+      "trades": 4
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260527T040624Z",
+    "data_version": "20260527T041742Z",
     "environment": "testing",
-    "generated_at": "2026-05-27T04:09:56Z",
+    "generated_at": "2026-05-27T04:18:50Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-27T04:24:56Z"
+    "stale_after": "2026-05-27T04:33:50Z"
   }
 }

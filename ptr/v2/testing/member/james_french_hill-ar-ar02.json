@@ -1,0 +1,436 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 4
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. James French Hill",
+    "district": "AR02",
+    "facebook": "",
+    "member_id": "james_french_hill-ar-ar02",
+    "member_name": "Hon. James French Hill",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 365000.0,
+        "label": "Dec 2025",
+        "month": "2025-12",
+        "other": 0,
+        "sell": 4,
+        "trades": 4
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Kyndryl Holdings, Inc. Common Stock",
+        "query": "(\"Kyndryl Holdings Inc\" OR KD)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "itnewsonline.com",
+            "language": "English",
+            "matched_terms": [
+              "KD",
+              "kyndryl"
+            ],
+            "published_at": "20260226T054500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Kyndryl Shareholder Alert : ClaimsFiler Reminds Investors With Losses In Excess Of $100 , 000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Kyndryl Holdings , Inc .",
+            "url": "https://www.itnewsonline.com/GlobeNewswire/Kyndryl-Shareholder-Alert-ClaimsFiler-Reminds-Investors-With-Losses-In-Excess-Of-USD100000-Of-Lead-Plaintiff-Deadline-In-Class-Action-Lawsuit-Against-Kyndryl-Holdings-Inc.---KD/116535",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "prnewswire.com",
+            "language": "English",
+            "matched_terms": [
+              "KD",
+              "kyndryl"
+            ],
+            "published_at": "20260225T030000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Kyndryl Holdings , Inc . ( NYSE : KD ) Securities Fraud Class Action Lawsuit Filed ; April 13 , 2026 , Lead Plaintiff Deadline",
+            "url": "http://www.prnewswire.com/news-releases/kyndryl-holdings-inc-nyse-kd-securities-fraud-class-action-lawsuit-filed-april-13-2026-lead-plaintiff-deadline-302696341.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "prnewswire.com",
+            "language": "English",
+            "matched_terms": [
+              "KD",
+              "kyndryl"
+            ],
+            "published_at": "20260223T211500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Kyndryl Holdings , Inc . ( KD ) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+            "url": "http://www.prnewswire.com/news-releases/kyndryl-holdings-inc-kd-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302694826.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "KD",
+        "traded_date": "12/31/2025",
+        "transaction_id": "874f9719d9379263",
+        "window": {
+          "end_date": "2026-03-09",
+          "start_date": "2025-12-17"
+        }
+      },
+      {
+        "issuer": "Pfizer, Inc. Common Stock",
+        "query": "(\"Pfizer Inc\" OR PFE)",
+        "result_count": 4,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "PFE",
+              "pfizer"
+            ],
+            "published_at": "20260306T133000Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Argus Turns Bullish on Pfizer ( PFE ), Highlights GLP - 1 and Oncology Pipeline",
+            "url": "https://finance.yahoo.com/news/argus-turns-bullish-pfizer-pfe-015537940.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source"
+            ]
+          },
+          {
+            "domain": "dailyforex.com",
+            "language": "English",
+            "matched_terms": [
+              "PFE",
+              "pfizer"
+            ],
+            "published_at": "20260309T124500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United Kingdom",
+            "source_type": "general_news_or_web",
+            "title": "Pfizer ( NYSE : PFE Stock Signal 09 / 03",
+            "url": "https://www.dailyforex.com/stock-market-today/2026/03/pfizer-stock-signal-9-march-2026/242251",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "PFE",
+              "pfizer"
+            ],
+            "published_at": "20260306T121500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Orion Porfolio Solutions LLC Cuts Stake in Pfizer Inc . $PFE",
+            "url": "https://www.tickerreport.com/banking-finance/13369680/orion-porfolio-solutions-llc-cuts-stake-in-pfizer-inc-pfe.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          }
+        ],
+        "ticker": "PFE",
+        "traded_date": "12/31/2025",
+        "transaction_id": "a1aa3a8bd2945df5",
+        "window": {
+          "end_date": "2026-03-09",
+          "start_date": "2025-12-17"
+        }
+      },
+      {
+        "issuer": "SFL Corporation Ltd",
+        "query": "(\"SFL Corporation Ltd\" OR SFL)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "SFL",
+              "sfl",
+              "sfl corporation ltd"
+            ],
+            "published_at": "20260212T014500Z",
+            "relevance_label": "high",
+            "relevance_score": 71,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "SFL Corporation Ltd . Announces Quarterly Dividend of $0 . 20 ( NYSE : SFL )",
+            "url": "https://www.dailypolitical.com/2026/02/11/sfl-corporation-ltd-announces-quarterly-dividend-of-0-20-nysesfl.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "rttnews.com",
+            "language": "English",
+            "matched_terms": [
+              "SFL",
+              "sfl"
+            ],
+            "published_at": "20260211T201500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "SFL Corp Shares Rise 11 % After Q4 Results",
+            "url": "https://www.rttnews.com/story.aspx?Id=3620380",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "manilatimes.net",
+            "language": "English",
+            "matched_terms": [
+              "SFL",
+              "sfl"
+            ],
+            "published_at": "20260211T111500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "Philippines",
+            "source_type": "general_news_or_web",
+            "title": "SFL - Fourth Quarter 2025 Results | The Manila Times",
+            "url": "https://www.manilatimes.net/2026/02/11/tmt-newswire/globenewswire/sfl-fourth-quarter-2025-results/2276028",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "SFL",
+        "traded_date": "12/31/2025",
+        "transaction_id": "0d27e3ba2487764e",
+        "window": {
+          "end_date": "2026-03-09",
+          "start_date": "2025-12-17"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "HILL 1998 TRUST": 2,
+      "HILL 2012 TRUST": 2
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 23.0,
+        "filing_id": "20033661",
+        "issuer": "Kyndryl Holdings, Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "HILL 1998 TRUST",
+        "published_date": "01/23/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "KD",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/31/2025",
+        "transaction_id": "874f9719d9379263",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 23.0,
+        "filing_id": "20033661",
+        "issuer": "Pfizer, Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 4,
+        "owner": "HILL 2012 TRUST",
+        "published_date": "01/23/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "PFE",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/31/2025",
+        "transaction_id": "a1aa3a8bd2945df5",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 23.0,
+        "filing_id": "20033661",
+        "issuer": "SFL Corporation Ltd",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "HILL 2012 TRUST",
+        "published_date": "01/23/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "SFL",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/31/2025",
+        "transaction_id": "0d27e3ba2487764e",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 23.0,
+        "filing_id": "20033661",
+        "issuer": "Solventum Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "HILL 1998 TRUST",
+        "published_date": "01/23/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "SOLV",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/31/2025",
+        "transaction_id": "655bef55092d91bd",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "AR",
+    "stats": {
+      "estimated_max_volume": 365000.0,
+      "estimated_min_volume": 131004.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 4,
+      "last_traded": "12/31/2025",
+      "market_context_available": 0,
+      "news_context_available": 3,
+      "tickers": 4,
+      "trades": 4
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Kyndryl Holdings, Inc. Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Pfizer, Inc. Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "SFL Corporation Ltd"
+      },
+      {
+        "count": 1,
+        "issuer": "Solventum Corporation Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 1,
+        "ticker": "KD"
+      },
+      {
+        "count": 1,
+        "ticker": "PFE"
+      },
+      {
+        "count": 1,
+        "ticker": "SFL"
+      },
+      {
+        "count": 1,
+        "ticker": "SOLV"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 365000.0,
+        "estimated_min": 131004.0,
+        "other": 0,
+        "sell": 4,
+        "traded_date": "2025-12-31",
+        "trades": 4
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T041742Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T04:18:50Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/james_french_hill-ar-ar02.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T04:33:50Z"
+  }
+}
