@@ -519,6 +519,7 @@
     var currentStatus = currentStatusLabel(p);
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || &quot;&quot;;
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
     var followUp = p.follow_up_label || &quot;&quot;;
     var links = [];
     if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
@@ -1298,6 +1299,7 @@
     var currentStatus = currentStatusLabel(p);
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
     var followUp = p.follow_up_label || "";
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
