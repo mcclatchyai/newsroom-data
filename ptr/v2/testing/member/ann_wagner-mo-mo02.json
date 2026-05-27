@@ -1,0 +1,371 @@
+{
+  "member": {
+    "action_breakdown": {
+      "buy": 4,
+      "sell": 3
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Ann Wagner",
+    "district": "MO02",
+    "facebook": "",
+    "member_id": "ann_wagner-mo-mo02",
+    "member_name": "Hon. Ann Wagner",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 4,
+        "estimated_max": 1000000.0,
+        "label": "Dec 2025",
+        "month": "2025-12",
+        "other": 0,
+        "sell": 0,
+        "trades": 4
+      },
+      {
+        "buy": 0,
+        "estimated_max": 1000000.0,
+        "label": "Apr 2026",
+        "month": "2026-04",
+        "other": 0,
+        "sell": 3,
+        "trades": 3
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Ashwaubenon WI",
+        "query": "\"Ashwaubenon WI\"",
+        "result_count": 2,
+        "results": [
+          {
+            "domain": "wixx.com",
+            "language": "English",
+            "matched_terms": [
+              "ashwaubenon",
+              "wi"
+            ],
+            "published_at": "20260527T014500Z",
+            "relevance_label": "low",
+            "relevance_score": 24,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Kitchen Fresh Foods expands with 100+ new positions at Ashwaubenon facility",
+            "url": "https://wixx.com/2026/05/26/1093197/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "943jackfm.com",
+            "language": "English",
+            "matched_terms": [
+              "ashwaubenon",
+              "wi"
+            ],
+            "published_at": "20260527T014500Z",
+            "relevance_label": "low",
+            "relevance_score": 24,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Kitchen Fresh Foods expands with 100+ new positions at Ashwaubenon facility",
+            "url": "https://943jackfm.com/2026/05/26/1093197/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "04/28/2026",
+        "transaction_id": "40d8a23d81047735",
+        "window": {
+          "end_date": "2026-06-18",
+          "start_date": "2026-04-14"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "JT": 7
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "filed_after_days": 5.0,
+        "filing_id": "20034462",
+        "issuer": "PARTNERS GROUP PRIVATE EQUITY MASTER FD LLC UNIT CL I",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "05/04/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$250,001 - $500,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "04/29/2026",
+        "transaction_id": "e03cd6307603d5a5",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 6.0,
+        "filing_id": "20034462",
+        "issuer": "Ashwaubenon WI",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 2,
+        "owner": "JT",
+        "published_date": "05/04/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "04/28/2026",
+        "transaction_id": "40d8a23d81047735",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 24.0,
+        "filing_id": "20034462",
+        "issuer": "ATHERTON MICH CMNTY SCH DIST GO UNLTD 4% TAX BLDG AND SITE BDS SER. 2020",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "05/04/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "04/10/2026",
+        "transaction_id": "ae319d73e2113373",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20033718",
+        "issuer": "Teays Valley OH 5.00%",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "01/02/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/18/2025",
+        "transaction_id": "0a9110903387131e",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 28.0,
+        "filing_id": "20033718",
+        "issuer": "Floyd County IN 4.00%",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "01/02/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/05/2025",
+        "transaction_id": "4065323dcbb28b44",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 28.0,
+        "filing_id": "20033718",
+        "issuer": "Fremont IN Cmnty Schs Gen Oblig Bds 4.00%",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "01/02/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/05/2025",
+        "transaction_id": "ff9d638aa5586c7c",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 29.0,
+        "filing_id": "20033718",
+        "issuer": "Logan Rogersville MO Reorg No R 08 Sch 4.00%",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "01/02/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "12/04/2025",
+        "transaction_id": "360dbd3142107aab",
+        "type": "buy"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "MO",
+    "stats": {
+      "estimated_max_volume": 2000000.0,
+      "estimated_min_volume": 850007.0,
+      "filings": 2,
+      "flagged_trades": 0,
+      "issuers": 7,
+      "last_traded": "04/29/2026",
+      "market_context_available": 0,
+      "news_context_available": 1,
+      "tickers": 0,
+      "trades": 7
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Floyd County IN 4.00%"
+      },
+      {
+        "count": 1,
+        "issuer": "Fremont IN Cmnty Schs Gen Oblig Bds 4.00%"
+      },
+      {
+        "count": 1,
+        "issuer": "Logan Rogersville MO Reorg No R 08 Sch 4.00%"
+      },
+      {
+        "count": 1,
+        "issuer": "Teays Valley OH 5.00%"
+      },
+      {
+        "count": 1,
+        "issuer": "Ashwaubenon WI"
+      },
+      {
+        "count": 1,
+        "issuer": "ATHERTON MICH CMNTY SCH DIST GO UNLTD 4% TAX BLDG AND SITE BDS SER. 2020"
+      },
+      {
+        "count": 1,
+        "issuer": "PARTNERS GROUP PRIVATE EQUITY MASTER FD LLC UNIT CL I"
+      }
+    ],
+    "top_tickers": [],
+    "trade_activity_by_date": [
+      {
+        "buy": 1,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2025-12-04",
+        "trades": 1
+      },
+      {
+        "buy": 2,
+        "estimated_max": 500000.0,
+        "estimated_min": 200002.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2025-12-05",
+        "trades": 2
+      },
+      {
+        "buy": 1,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2025-12-18",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-04-10",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-04-28",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-04-29",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T040624Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T04:09:56Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/ann_wagner-mo-mo02.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T04:24:56Z"
+  }
+}

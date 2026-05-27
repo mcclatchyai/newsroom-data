@@ -1,0 +1,417 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 8
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Mark Alford",
+    "district": "MO04",
+    "facebook": "",
+    "member_id": "mark_alford-mo-mo04",
+    "member_name": "Hon. Mark Alford",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 120000.0,
+        "label": "Mar 2026",
+        "month": "2026-03",
+        "other": 0,
+        "sell": 8,
+        "trades": 8
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Apple Inc. - Common Stock",
+        "query": "\"Apple Inc\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "apple",
+              "apple inc"
+            ],
+            "published_at": "20260515T113000Z",
+            "relevance_label": "medium",
+            "relevance_score": 59,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Summit Wealth Partners LLC Sells 2 , 232 Shares of Apple Inc . $AAPL",
+            "url": "https://www.tickerreport.com/banking-finance/13442241/summit-wealth-partners-llc-sells-2232-shares-of-apple-inc-aapl.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "apple",
+              "apple inc"
+            ],
+            "published_at": "20260515T104500Z",
+            "relevance_label": "medium",
+            "relevance_score": 59,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Apple Inc . $AAPL Holdings Lifted by Sterling Investment Counsel LLC",
+            "url": "https://www.dailypolitical.com/2026/05/15/apple-inc-aapl-holdings-lifted-by-sterling-investment-counsel-llc.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "apple",
+              "apple inc"
+            ],
+            "published_at": "20260516T110000Z",
+            "relevance_label": "medium",
+            "relevance_score": 55,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Apple Inc . $AAPL is Godsey & Gibb Inc . 2nd Largest Position",
+            "url": "https://www.dailypolitical.com/2026/05/16/apple-inc-aapl-is-godsey-gibb-inc-s-2nd-largest-position.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "03/16/2026",
+        "transaction_id": "68a69c0473727d7a",
+        "window": {
+          "end_date": "2026-05-15",
+          "start_date": "2026-03-02"
+        }
+      },
+      {
+        "issuer": "AT&T Inc.",
+        "query": "\"AT&T Inc\"",
+        "result_count": 2,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "at"
+            ],
+            "published_at": "20260429T213000Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Are Wall Street Analysts Predicting AT & T Stock Will Climb or Sink ?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-t-125422768.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "at"
+            ],
+            "published_at": "20260424T001500Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "AT & T Inc . Q1 2026 Earnings Call Summary",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/t-inc-q1-2026-earnings-164649222.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "03/16/2026",
+        "transaction_id": "817fa95c331a19d8",
+        "window": {
+          "end_date": "2026-05-15",
+          "start_date": "2026-03-02"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "Putnam Investments": 8
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "Amazon.com, Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "ea75a3913e7c3052",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "Apple Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "68a69c0473727d7a",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "AT&T Inc.",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 2,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "817fa95c331a19d8",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "Berkshire Hathaway Inc. New Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "5b2a594c94d95dfc",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "DIA - State Street SPDR Dow Jones Indust Avg ETF Trust",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "62f5f3c185bedacf",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "Invesco QQQ",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "8eaf582187465af4",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "PayPal Holdings, Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "035d9a511a7fcf0c",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 15.0,
+        "filing_id": "20034201",
+        "issuer": "SPDR S&P 500 Buyback ETF",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Putnam Investments",
+        "published_date": "03/31/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "03/16/2026",
+        "transaction_id": "a0535ad285ce2b40",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "MO",
+    "stats": {
+      "estimated_max_volume": 120000.0,
+      "estimated_min_volume": 8008.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 8,
+      "last_traded": "03/16/2026",
+      "market_context_available": 0,
+      "news_context_available": 2,
+      "tickers": 0,
+      "trades": 8
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Amazon.com, Inc. - Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Apple Inc. - Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "AT&T Inc."
+      },
+      {
+        "count": 1,
+        "issuer": "Berkshire Hathaway Inc. New Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "DIA - State Street SPDR Dow Jones Indust Avg ETF Trust"
+      },
+      {
+        "count": 1,
+        "issuer": "Invesco QQQ"
+      },
+      {
+        "count": 1,
+        "issuer": "PayPal Holdings, Inc. - Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "SPDR S&P 500 Buyback ETF"
+      }
+    ],
+    "top_tickers": [],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 120000.0,
+        "estimated_min": 8008.0,
+        "other": 0,
+        "sell": 8,
+        "traded_date": "2026-03-16",
+        "trades": 8
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T040624Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T04:09:56Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/mark_alford-mo-mo04.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T04:24:56Z"
+  }
+}

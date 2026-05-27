@@ -1,0 +1,221 @@
+{
+  "context_packet_count": 3,
+  "context_packets": [
+    {
+      "filing_id": "20034462",
+      "issuer_name": "Ashwaubenon WI",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "40d8a23d81047735"
+    },
+    {
+      "filing_id": "20034462",
+      "issuer_name": "ATHERTON MICH CMNTY SCH DIST GO UNLTD 4% TAX BLDG AND SITE BDS SER. 2020",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "ae319d73e2113373"
+    },
+    {
+      "filing_id": "20034462",
+      "issuer_name": "PARTNERS GROUP PRIVATE EQUITY MASTER FD LLC UNIT CL I",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "e03cd6307603d5a5"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "S (partial)": 1,
+      "Sale": 2
+    },
+    "action_counts_json": "{\"S (partial)\": 1, \"Sale\": 2}",
+    "disclosure_lag_days": 24,
+    "district": "MO02",
+    "estimated_max_total": 1000000,
+    "estimated_min_total": 450003,
+    "filing_date": "05/04/2026",
+    "filing_id": "20034462",
+    "filing_type": "P",
+    "ingested_at": "2026-05-27T03:57:41Z",
+    "member_name": "Hon. Ann Wagner",
+    "pdf_sha256": "5db3cfd23b8a0dabe882584e5ea68f90a55bda3474948751ebe6abff74c4c663",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "MO",
+    "tickers": [],
+    "tickers_json": "[]",
+    "transaction_count": 3,
+    "transaction_date_max": "2026-04-29",
+    "transaction_date_min": "2026-04-10"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T040624Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T04:09:56Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034462.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T04:24:56Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034462.json"
+  },
+  "transactions": [
+    {
+      "action": "Sale",
+      "amount_range": "$100,001 - $250,000",
+      "disclosure_lag_days": 6,
+      "district": "MO02",
+      "estimated_max": 250000,
+      "estimated_min": 100001,
+      "filed_after_due_date": false,
+      "filing_date": "05/04/2026",
+      "filing_id": "20034462",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "Ashwaubenon WI",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "04/28/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[GS] S 04/28/2026",
+      "state": "MO",
+      "stock_act_due_date": "2026-05-28",
+      "ticker": "",
+      "transaction_date": "04/28/2026",
+      "transaction_id": "40d8a23d81047735"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$100,001 - $250,000",
+      "disclosure_lag_days": 24,
+      "district": "MO02",
+      "estimated_max": 250000,
+      "estimated_min": 100001,
+      "filed_after_due_date": false,
+      "filing_date": "05/04/2026",
+      "filing_id": "20034462",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "ATHERTON MICH CMNTY SCH DIST GO UNLTD 4% TAX BLDG AND SITE BDS SER. 2020",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "04/10/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[GS] S 04/10/2026",
+      "state": "MO",
+      "stock_act_due_date": "2026-05-10",
+      "ticker": "",
+      "transaction_date": "04/10/2026",
+      "transaction_id": "ae319d73e2113373"
+    },
+    {
+      "action": "S (partial)",
+      "amount_range": "$250,001 - $500,000",
+      "disclosure_lag_days": 5,
+      "district": "MO02",
+      "estimated_max": 500000,
+      "estimated_min": 250001,
+      "filed_after_due_date": false,
+      "filing_date": "05/04/2026",
+      "filing_id": "20034462",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "PARTNERS GROUP PRIVATE EQUITY MASTER FD LLC UNIT CL I",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "04/30/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[HN] S (partial) 04/29/2026",
+      "state": "MO",
+      "stock_act_due_date": "2026-05-30",
+      "ticker": "",
+      "transaction_date": "04/29/2026",
+      "transaction_id": "e03cd6307603d5a5"
+    }
+  ]
+}

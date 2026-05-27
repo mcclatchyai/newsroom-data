@@ -1,0 +1,277 @@
+{
+  "context_packet_count": 4,
+  "context_packets": [
+    {
+      "filing_id": "20033718",
+      "issuer_name": "Floyd County IN 4.00%",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "4065323dcbb28b44"
+    },
+    {
+      "filing_id": "20033718",
+      "issuer_name": "Fremont IN Cmnty Schs Gen Oblig Bds 4.00%",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "ff9d638aa5586c7c"
+    },
+    {
+      "filing_id": "20033718",
+      "issuer_name": "Logan Rogersville MO Reorg No R 08 Sch 4.00%",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "360dbd3142107aab"
+    },
+    {
+      "filing_id": "20033718",
+      "issuer_name": "Teays Valley OH 5.00%",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "0a9110903387131e"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 4
+    },
+    "action_counts_json": "{\"Purchase\": 4}",
+    "disclosure_lag_days": 29,
+    "district": "MO02",
+    "estimated_max_total": 1000000,
+    "estimated_min_total": 400004,
+    "filing_date": "01/02/2026",
+    "filing_id": "20033718",
+    "filing_type": "P",
+    "ingested_at": "2026-05-27T03:57:41Z",
+    "member_name": "Hon. Ann Wagner",
+    "pdf_sha256": "8063543c4c80811389c527c4b9b742abeaa16aa981baf2de638ad2d3344db1f6",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "MO",
+    "tickers": [],
+    "tickers_json": "[]",
+    "transaction_count": 4,
+    "transaction_date_max": "2025-12-18",
+    "transaction_date_min": "2025-12-04"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260527T040624Z",
+    "environment": "testing",
+    "generated_at": "2026-05-27T04:09:56Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033718.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-27T04:24:56Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033718.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$100,001 - $250,000",
+      "disclosure_lag_days": 28,
+      "district": "MO02",
+      "estimated_max": 250000,
+      "estimated_min": 100001,
+      "filed_after_due_date": false,
+      "filing_date": "01/02/2026",
+      "filing_id": "20033718",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "Floyd County IN 4.00%",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "12/08/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[GS]",
+      "state": "MO",
+      "stock_act_due_date": "2026-01-07",
+      "ticker": "",
+      "transaction_date": "12/05/2025",
+      "transaction_id": "4065323dcbb28b44"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$100,001 - $250,000",
+      "disclosure_lag_days": 28,
+      "district": "MO02",
+      "estimated_max": 250000,
+      "estimated_min": 100001,
+      "filed_after_due_date": false,
+      "filing_date": "01/02/2026",
+      "filing_id": "20033718",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "Fremont IN Cmnty Schs Gen Oblig Bds 4.00%",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "12/08/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[GS]",
+      "state": "MO",
+      "stock_act_due_date": "2026-01-07",
+      "ticker": "",
+      "transaction_date": "12/05/2025",
+      "transaction_id": "ff9d638aa5586c7c"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$100,001 - $250,000",
+      "disclosure_lag_days": 29,
+      "district": "MO02",
+      "estimated_max": 250000,
+      "estimated_min": 100001,
+      "filed_after_due_date": false,
+      "filing_date": "01/02/2026",
+      "filing_id": "20033718",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "Logan Rogersville MO Reorg No R 08 Sch 4.00%",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "12/05/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[GS]",
+      "state": "MO",
+      "stock_act_due_date": "2026-01-04",
+      "ticker": "",
+      "transaction_date": "12/04/2025",
+      "transaction_id": "360dbd3142107aab"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$100,001 - $250,000",
+      "disclosure_lag_days": 15,
+      "district": "MO02",
+      "estimated_max": 250000,
+      "estimated_min": 100001,
+      "filed_after_due_date": false,
+      "filing_date": "01/02/2026",
+      "filing_id": "20033718",
+      "filing_type": "P",
+      "ingested_at": "2026-05-27T03:57:41Z",
+      "issuer_name": "Teays Valley OH 5.00%",
+      "member_name": "Hon. Ann Wagner",
+      "notification_date": "12/19/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "[GS]",
+      "state": "MO",
+      "stock_act_due_date": "2026-01-18",
+      "ticker": "",
+      "transaction_date": "12/18/2025",
+      "transaction_id": "0a9110903387131e"
+    }
+  ]
+}
