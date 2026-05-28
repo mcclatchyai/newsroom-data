@@ -9,38 +9,18 @@
       "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
       "state": "WA",
       "trades": 2
-    },
-    {
-      "display_name": "Hon. Chip Roy",
-      "district": "TX21",
-      "issuers": 1,
-      "member_id": "chip_roy-tx-tx21",
-      "member_name": "Hon. Chip Roy",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/chip_roy-tx-tx21.json",
-      "state": "TX",
-      "trades": 2
-    },
-    {
-      "display_name": "Hon. Brian Babin",
-      "district": "TX36",
-      "issuers": 1,
-      "member_id": "brian_babin-tx-tx36",
-      "member_name": "Hon. Brian Babin",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/brian_babin-tx-tx36.json",
-      "state": "TX",
-      "trades": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260527T212221Z",
+    "data_version": "20260528T133701Z",
     "environment": "testing",
-    "generated_at": "2026-05-27T21:25:41Z",
+    "generated_at": "2026-05-28T13:38:17Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-27T21:40:41Z"
+    "stale_after": "2026-05-28T13:53:17Z"
   }
 }
