@@ -145,6 +145,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition of duplex.",
+            "field": "project name",
+            "matched_text": "duplex"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -534,6 +542,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "The Cloverset Valley Apartments Homes",
+            "field": "project name",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -3841,6 +3857,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of Commercial building Emergency demo",
+            "field": "project description",
+            "matched_text": "Emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -7045,6 +7069,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition/tear out of apartment pool only. No asbestos testing done - concrete only.",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -8412,6 +8444,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demo commercial elementary school",
+            "field": "project description",
+            "matched_text": "school"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -8624,6 +8664,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition for Dangerous Buildings",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -9165,6 +9213,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "commercial_or_mixed",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition of residential duplex",
+            "field": "project description",
+            "matched_text": "duplex"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -9370,6 +9426,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Pre demo inspection for burned apartment building. It has 2 mailing addresses (1102 & 1104 Benton). Buildings are attached though.",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -13625,6 +13689,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Pre-demolition inspection for KCMO Dangerous Buildings - This was an emergency, so it is already down. It was falling down.",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -15482,6 +15554,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition of burned apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -15635,6 +15715,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of Commercial Structure - This was an emergency demolition and it has been removed already",
+            "field": "project description",
+            "matched_text": "emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -17285,6 +17373,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demo of Duplex",
+            "field": "project name",
+            "matched_text": "Duplex"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -25500,6 +25596,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolish structure for Dangerous Buildings",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -26101,6 +26205,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of home for Dangerous Buildings.",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -26824,6 +26936,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "unknown",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "KC Stadium",
+            "field": "project name",
+            "matched_text": "Stadium"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -27018,6 +27138,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition a structure for Dangerous Buildings.",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -27512,6 +27640,14 @@
         "record_type": "Pre-Demolition Inspection - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "house has been a dangerous structure and we need to get it demolished Please call when planning to inspect 913-208-9381",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -28773,6 +28909,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Fire Station #47",
+            "field": "project name",
+            "matched_text": "Fire Station"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -29673,6 +29817,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Zion Grove Baptist Church",
+            "field": "project name",
+            "matched_text": "Church"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -34278,6 +34430,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "The Pembroke Hill School-Ward Parkway",
+            "field": "project name",
+            "matched_text": "School"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -36999,6 +37159,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Public incentives",
+            "context": "Demolish this building Environmental Abatement, Utility disconnections, Building demolition, slab and foundations de...",
+            "field": "project description",
+            "matched_text": "Abatement"
+          }
+        ],
         "story_angles": [
           "Public incentives"
         ],
@@ -41341,9 +41509,9 @@
     "building_footprints_source": "Overture Maps",
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "2ff303e1453e950e",
+    "etag": "fc6ce8a00365848a",
     "features_returned": 164,
-    "generated_at": "2026-05-26T20:06:07Z",
+    "generated_at": "2026-05-28T18:30:31Z",
     "parcel_polygon_features": 163,
     "point_fallback_features": 1,
     "project": "kc-demolitions",

@@ -1128,6 +1128,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo Dangerous bldg",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -2509,6 +2517,20 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Submitted",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolish fire damaged apartment building",
+            "field": "project description",
+            "matched_text": "fire damaged"
+          },
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish fire damaged apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Dangerous building",
           "Housing / multifamily"
@@ -3046,6 +3068,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Pre-demolition of Units 700 and 704 due to fire damage",
+            "field": "project description",
+            "matched_text": "fire damage"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -5435,6 +5465,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of residential structure - Dangerous Buildings Demo",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -7959,6 +7997,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo house for Dangerous Buildings",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -9208,6 +9254,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
         "status": "Submitted",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish apartment building. Demolition permit denied for a period of 45 days. Demo may proceed on April 14th",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -9398,6 +9452,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
         "status": "Denied",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish apartment building. The commission denied the demolition for a period of 45 days. The demolition may proceed on 4/14/2025.",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -9589,6 +9651,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
         "status": "Denied",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building. The commission denied the demolition permit for 45 days. The demolition may proceed on 4/14/2025.",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -10097,6 +10167,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish duplex",
+            "field": "project description",
+            "matched_text": "duplex"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -10333,6 +10411,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -10568,6 +10654,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -10698,6 +10792,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -10817,6 +10919,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -10982,6 +11092,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -11250,6 +11368,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -11518,6 +11644,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -11688,6 +11822,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -11840,6 +11982,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -12108,6 +12258,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -12376,6 +12534,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Apartment Building",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -12837,6 +13003,20 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolish fire damaged apartment building. Exempt from demolish review due to fact that it was declared Dangerous per Chapter 56.",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          },
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish fire damaged apartment building. Exempt from demolish review due to fact that it was declared Dangerous per Chapter 56.",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Dangerous building",
           "Housing / multifamily"
@@ -15264,6 +15444,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Demolish non-historic building constructed in 1998. Exempt from demolition review due to th...",
+            "field": "project description",
+            "matched_text": "historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -17997,6 +18185,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "house demo for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -21091,6 +21287,20 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolish fire damaged fire station",
+            "field": "project description",
+            "matched_text": "fire damaged"
+          },
+          {
+            "angle": "Recognizable place",
+            "context": "Demolish fire damaged fire station",
+            "field": "project description",
+            "matched_text": "fire station"
+          }
+        ],
         "story_angles": [
           "Dangerous building",
           "Recognizable place"
@@ -24698,6 +24908,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Emergency Demo - Notice -",
+            "field": "project description",
+            "matched_text": "Emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -24921,6 +25139,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Emergency Demo -",
+            "field": "project description",
+            "matched_text": "Emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -25365,6 +25591,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "housing",
         "status": "Submitted",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Historic review for CPDR-2025-00059 application to demo residential dwelling",
+            "field": "project description",
+            "matched_text": "Historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -27883,6 +28117,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "demo for dangerous buildings",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -29967,6 +30209,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Cancelled",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Cancelled per Dangerous Buildings 9/10/25 Demo burnt building for Dangerous Buildings",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -31039,6 +31289,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of BURNED GARAGE ONLY!!!! Dangerous Building NPDDB-2025-00095",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -31660,6 +31918,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -33253,6 +33519,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "demolition of a dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -33433,6 +33707,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -33918,6 +34200,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Voided",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "...lition of the 1992 one-story addition to the historic Carmen Building. This addition measures approximately 6,496 square fe...",
+            "field": "project description",
+            "matched_text": "historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -34088,6 +34378,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -35067,6 +35365,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -35221,6 +35527,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "demolition for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -43618,6 +43932,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Demo-Approved historic review CH-DM-2025-00050",
+            "field": "project description",
+            "matched_text": "historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -49455,6 +49777,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demolition Review This house is now owned by St. Pius X High School and they are continuing their practice field.",
+            "field": "project description",
+            "matched_text": "School"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -50473,6 +50803,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Awaiting Customer Response",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Due to fire and Dangerous Buildings Service Order 2025-00117 the residence to be demolished and removed by owners.",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -52759,6 +53097,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo of a dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -53452,6 +53798,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
         "status": "Voided",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Historical Review for Demolition (This building has a dangerous building designation and is exempt from demolition review)",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -53794,6 +54148,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Voided",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Dangerous building property does have a dangerous building case. (This property...",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -54346,6 +54708,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "demo dangerous building DB 2024-00292",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -55809,6 +56179,14 @@
         "record_type": "Partial Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "1219 Wyandotte Street Parking Garage - remove brick facade that has failed in order to make structure safe",
+            "field": "project description",
+            "matched_text": "Parking"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear"
         ],
@@ -58661,6 +59039,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "COMPLETE STRUCTURE DEMOLITION OF THE PARKING GARAGE STRUCTURE LOCATED AT 1219 WYANDOTTE, KCMO",
+            "field": "project description",
+            "matched_text": "PARKING"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear"
         ],
@@ -63557,6 +63943,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "Complete Structure Demo of parking garage structure at 1219 Wyandotte Street.",
+            "field": "project description",
+            "matched_text": "parking"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear"
         ],
@@ -64063,6 +64457,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "...ed, the lot will be cleared and it will be a parking lot.",
+            "field": "project description",
+            "matched_text": "parking"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear"
         ],
@@ -64586,6 +64988,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of residential structure-Dangerous building NPDDB-2025-00010",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -70452,6 +70862,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Redevelopment",
+            "context": "...removed. Plans have been submitted to build new construction",
+            "field": "project description",
+            "matched_text": "new construction"
+          }
+        ],
         "story_angles": [
           "Redevelopment"
         ],
@@ -71643,6 +72061,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for dangerous buildings-Work started by others per CPDC-2025-00051 and CPDC-2025-00056",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -72265,6 +72691,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition for db- dangerous buildings",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -72421,6 +72855,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for db-dangerous buildings",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -72805,6 +73247,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Property has Dangerous Buildings Case number on it.",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -74664,6 +75114,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "...Summit St., and 3525-3527 Jefferson St. are dangerous structures that present a significant risk of deterioration, collapse...",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -75564,6 +76022,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of Commercial Building-Dangerous Building",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -75755,6 +76221,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of Commercial Building-Dangerous Building",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -75945,6 +76419,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of Commercial Building-Dangerous Building",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -76101,6 +76583,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of Residential Building-Dangerous Building",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -79528,6 +80018,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo of a dangerous building- Work done by others",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -83264,6 +83762,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Residential building demo of dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -83866,6 +84372,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolish dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -84057,6 +84571,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolish dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -84452,6 +84974,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -84689,6 +85219,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -85106,6 +85644,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Dangerous building case number NPDDB-2025-00244",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -85300,6 +85846,14 @@
         "record_type": "Partial Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "Remove roof, contents and walls to plan description. The Owner wants to use the slab as a parking lot for the remaining business.",
+            "field": "project description",
+            "matched_text": "parking"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear"
         ],
@@ -86753,6 +87307,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of two story brick structure(Dangerous Building)",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -87665,6 +88227,14 @@
         "record_type": "Partial Building Demolition - Residential",
         "replacement_use": "housing",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Redevelopment",
+            "context": "demolition of existing garage in order for new construction of approved garage.",
+            "field": "project description",
+            "matched_text": "new construction"
+          }
+        ],
         "story_angles": [
           "Redevelopment"
         ],
@@ -88233,6 +88803,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Dangerous building house demo",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -89030,6 +89608,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Pre-demolition inspection for a demolition of dangerous commercial buildings",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -94258,6 +94844,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of dangerous commercial building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -94436,6 +95030,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demo for dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -97921,6 +98523,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "clean up material from garage collapsed after storm",
+            "field": "project description",
+            "matched_text": "collapsed"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -100460,9 +101070,9 @@
     "building_footprints_source": "Overture Maps",
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "ea667a14e9ecb598",
+    "etag": "0fc7b1945ae25d1b",
     "features_returned": 454,
-    "generated_at": "2026-05-26T20:06:35Z",
+    "generated_at": "2026-05-28T18:30:54Z",
     "parcel_polygon_features": 454,
     "point_fallback_features": 0,
     "project": "kc-demolitions",

@@ -628,6 +628,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Emergency demolition NPD Case No. 2022-00069",
+            "field": "project description",
+            "matched_text": "Emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -1328,6 +1336,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Emergency demolition of single-family house NPD Case No. 2022-00286",
+            "field": "project description",
+            "matched_text": "Emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -3217,6 +3233,14 @@
         "record_type": "Partial Building Demolition - Residential",
         "replacement_use": "housing",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "1. Remove flooring and subfloor over 10 fire damaged joists as needed. 2. Replace (10) 2x10 fire damaged floor joists. 3....",
+            "field": "project description",
+            "matched_text": "fire damaged"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -8153,6 +8177,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition of structure (duplex)",
+            "field": "project description",
+            "matched_text": "duplex"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -17781,6 +17813,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Complete demo of rectory & apartment/garage building.",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -18345,6 +18385,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "EMERGENCY Demolition of residential house",
+            "field": "project description",
+            "matched_text": "EMERGENCY"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -22917,6 +22965,20 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "Remove parking lot and dilapidated structures in order for a new school to be built...",
+            "field": "project description",
+            "matched_text": "parking"
+          },
+          {
+            "angle": "Recognizable place",
+            "context": "...nd dilapidated structures in order for a new school to be built immediately after demolition is completed; I have verifie...",
+            "field": "project description",
+            "matched_text": "school"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear",
           "Recognizable place"
@@ -24746,6 +24808,14 @@
         "record_type": "Partial Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "...molition of an inoperable outdoor pool at an apartment complex. I could not find an application on CompasKC that properly po...",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -30535,6 +30605,20 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Parking / replacement unclear",
+            "context": "Demolish entire school building(s), parking lots, foundations, various trees, sidewalks, paved areas, ect.",
+            "field": "project description",
+            "matched_text": "parking"
+          },
+          {
+            "angle": "Recognizable place",
+            "context": "Demolish entire school building(s), parking lots, foundations, various trees, sidewalks, paved areas, ect.",
+            "field": "project description",
+            "matched_text": "school"
+          }
+        ],
         "story_angles": [
           "Parking / replacement unclear",
           "Recognizable place"
@@ -31171,6 +31255,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Complete building demolition of 5 unit apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -40297,6 +40389,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "housing",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Provide building demolition at 3030 Baltimore Ave up to the Grand Teton Apartments. The apartments will remain.",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -47399,6 +47499,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "housing",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demolition of the old Trinity Lutheran Hospital located at 3030 Baltimore Ave. Kansas City, MO",
+            "field": "project description",
+            "matched_text": "Hospital"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -48161,6 +48269,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Complete building demolition of a single family house and detached garage. Dangerous Buildings Service Order # 2021-00334",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -53818,6 +53934,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Complete building demolition of Building C (School/Donnelly Hall)",
+            "field": "project description",
+            "matched_text": "School"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -55876,6 +56000,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition of duplex",
+            "field": "project description",
+            "matched_text": "duplex"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -56030,6 +56162,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Emergency Demo for commercial",
+            "field": "project description",
+            "matched_text": "Emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -57138,6 +57278,20 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of fire-damaged apartment building",
+            "field": "project description",
+            "matched_text": "fire-damaged"
+          },
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolition of fire-damaged apartment building",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Dangerous building",
           "Housing / multifamily"
@@ -62500,6 +62654,14 @@
         "record_type": "Partial Building Demolition - Residential",
         "replacement_use": "housing",
         "status": "In Review",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Unsafe addition",
+            "field": "project description",
+            "matched_text": "Unsafe"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -69934,6 +70096,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "emergency demolition of single family house.",
+            "field": "project description",
+            "matched_text": "emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -70098,6 +70268,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "emergency demolition of single family house",
+            "field": "project description",
+            "matched_text": "emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -72770,6 +72948,20 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Emergency demolition of apartment building (Dangerous buildings)",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          },
+          {
+            "angle": "Housing / multifamily",
+            "context": "Emergency demolition of apartment building (Dangerous buildings)",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Dangerous building",
           "Housing / multifamily"
@@ -81726,9 +81918,9 @@
     "building_footprints_source": "Overture Maps",
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "b155e8be9bf5264e",
+    "etag": "5d77b96b69d254f1",
     "features_returned": 350,
-    "generated_at": "2026-05-26T20:06:25Z",
+    "generated_at": "2026-05-28T18:30:42Z",
     "parcel_polygon_features": 349,
     "point_fallback_features": 1,
     "project": "kc-demolitions",

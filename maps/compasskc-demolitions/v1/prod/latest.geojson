@@ -103,6 +103,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demolish school building (The demolition may proceed on January 5, 2026)",
+            "field": "project description",
+            "matched_text": "school"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -686,6 +694,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Public incentives",
+            "context": "...tling done by Pullman, full demolition by AT Abatement Services *Permission from CMH for AT Abatement to demolish is attache...",
+            "field": "project description",
+            "matched_text": "Abatement"
+          }
+        ],
         "story_angles": [
           "Public incentives"
         ],
@@ -2350,6 +2366,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demolition of the existing Woodland school building located at 711 Woodland Ave. (Demolition may proceed on 2/2/2026)",
+            "field": "project description",
+            "matched_text": "school"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -3420,6 +3444,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "emergency demo",
+            "field": "project description",
+            "matched_text": "emergency"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -5154,6 +5186,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Pre-demolition of Dangerous commercial building",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -5313,6 +5353,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "demo burnt apartments",
+            "field": "project description",
+            "matched_text": "apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -5942,6 +5990,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Pre Demolition of DANGEROUS BUILDING",
+            "field": "project description",
+            "matched_text": "DANGEROUS"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -6779,6 +6835,14 @@
         "record_type": "Demolition Review, Regular",
         "replacement_use": "housing",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Historical review for demolition of building [Administratively approved; HPC was unable to hear case within 45 days of application]",
+            "field": "project description",
+            "matched_text": "HPC"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -7162,6 +7226,14 @@
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
         "status": "Closed",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demo of old church",
+            "field": "project description",
+            "matched_text": "church"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -7538,6 +7610,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Residential demolition of dangerous building",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -7697,6 +7777,14 @@
         "record_type": "Pre-Demolition Inspection - Residential",
         "replacement_use": "unknown",
         "status": "Voided-City",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of unsafe structures - Deck & Pergola. Call 4797152049 with questions & concerns.",
+            "field": "project description",
+            "matched_text": "unsafe"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -7760,6 +7848,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "unknown",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of unsafe structures - Deck & Pergola. Call 4797152049 with questions & concerns.",
+            "field": "project description",
+            "matched_text": "unsafe"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -9945,6 +10041,14 @@
         "record_type": "Pre-Demolition Inspection - Residential",
         "replacement_use": "housing",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "The Garage was falling over. It was a small, detached building. It was dangerous. We demoed it ourselves.",
+            "field": "project description",
+            "matched_text": "dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -11287,6 +11391,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Housing / multifamily",
+            "context": "Demolish Olive Park Apartment Complex",
+            "field": "project description",
+            "matched_text": "Apartment"
+          }
+        ],
         "story_angles": [
           "Housing / multifamily"
         ],
@@ -12713,6 +12825,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Demolish House (The commission found that the Barn and House were not eligible for historic listing and the demolition can proceed)",
+            "field": "project description",
+            "matched_text": "historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -13493,6 +13613,14 @@
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
         "status": "Issued",
+        "story_angle_clues": [
+          {
+            "angle": "Dangerous building",
+            "context": "Demolition of residential home - Dangerous Buildings project",
+            "field": "project description",
+            "matched_text": "Dangerous"
+          }
+        ],
         "story_angles": [
           "Dangerous building"
         ],
@@ -13970,6 +14098,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
         "status": "Submitted",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Historic - Demolition Review, for complete removal of existing residential building.",
+            "field": "project description",
+            "matched_text": "Historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -14502,6 +14638,14 @@
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "unknown",
         "status": "Awaiting Customer Response",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Need to demo 1 structure, Not the actual church but an outbuilding",
+            "field": "project description",
+            "matched_text": "church"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -15362,6 +15506,14 @@
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "unknown",
         "status": "Under Review",
+        "story_angle_clues": [
+          {
+            "angle": "Recognizable place",
+            "context": "Demolish small addition on east side of church",
+            "field": "project description",
+            "matched_text": "church"
+          }
+        ],
         "story_angles": [
           "Recognizable place"
         ],
@@ -17061,6 +17213,14 @@
         "record_type": "Historic Preservation, Administrative Review",
         "replacement_use": "housing",
         "status": "Approved",
+        "story_angle_clues": [
+          {
+            "angle": "Historic / preservation",
+            "context": "Historic Preservation, Administrative Review",
+            "field": "permit type",
+            "matched_text": "Historic"
+          }
+        ],
         "story_angles": [
           "Historic / preservation"
         ],
@@ -17097,9 +17257,9 @@
     "building_footprints_source": "Overture Maps",
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "5c5106701c8765d5",
+    "etag": "bb90978db420fd95",
     "features_returned": 184,
-    "generated_at": "2026-05-26T20:06:40Z",
+    "generated_at": "2026-05-28T18:31:00Z",
     "latest_scope": "latest_available_year",
     "latest_year": "2026",
     "parcel_polygon_features": 184,
