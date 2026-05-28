@@ -1,0 +1,282 @@
+{
+  "context_packet_count": 4,
+  "context_packets": [
+    {
+      "filing_id": "20033783",
+      "issuer_name": "Chevron Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CVX",
+      "transaction_id": "aacaa617629a91a9"
+    },
+    {
+      "filing_id": "20033783",
+      "issuer_name": "Diamondback Energy, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "FANG",
+      "transaction_id": "201055c067ab68d3"
+    },
+    {
+      "filing_id": "20033783",
+      "issuer_name": "JP Morgan Chase & Co. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "JPM",
+      "transaction_id": "4beda97b21516dcb"
+    },
+    {
+      "filing_id": "20033783",
+      "issuer_name": "RTX Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "RTX",
+      "transaction_id": "2a0372bdeabc422e"
+    }
+  ],
+  "filings": [
+    {
+      "action_counts": {
+        "Purchase": 2,
+        "S (partial)": 2
+      },
+      "action_counts_json": "{\"Purchase\": 2, \"S (partial)\": 2}",
+      "disclosure_lag_days": 24,
+      "district": "TX25",
+      "estimated_max_total": 95000,
+      "estimated_min_total": 18004,
+      "filing_date": "01/15/2026",
+      "filing_id": "20033783",
+      "filing_type": "P",
+      "ingested_at": "2026-05-28T19:57:40Z",
+      "member_name": "Hon. Roger Williams",
+      "pdf_sha256": "",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "possible_late": false,
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "state": "TX",
+      "tickers": [
+        "CVX",
+        "FANG",
+        "JPM",
+        "RTX"
+      ],
+      "tickers_json": "[\"CVX\", \"FANG\", \"JPM\", \"RTX\"]",
+      "transaction_count": 4,
+      "transaction_date_max": "2025-12-22",
+      "transaction_date_min": "2025-12-22"
+    }
+  ],
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260528T200129Z",
+    "environment": "testing",
+    "generated_at": "2026-05-28T20:02:37Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/TX.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-28T20:17:37Z"
+  },
+  "state": "TX",
+  "transactions": [
+    {
+      "action": "S (partial)",
+      "amount_range": "$15,001 - $50,000",
+      "disclosure_lag_days": 24,
+      "district": "TX25",
+      "estimated_max": 50000,
+      "estimated_min": 15001,
+      "filed_after_due_date": false,
+      "filing_date": "01/15/2026",
+      "filing_id": "20033783",
+      "filing_type": "P",
+      "ingested_at": "2026-05-28T19:57:40Z",
+      "issuer_name": "Chevron Corporation Common Stock",
+      "member_name": "Hon. Roger Williams",
+      "notification_date": "12/22/2025",
+      "owner": "Self",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Chevron Corporation Common Stock (CVX) [ST] S (partial) 12/22/2025 12/22/2025 $15,001 - $50,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-21",
+      "ticker": "CVX",
+      "transaction_date": "12/22/2025",
+      "transaction_id": "aacaa617629a91a9"
+    },
+    {
+      "action": "S (partial)",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 24,
+      "district": "TX25",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "01/15/2026",
+      "filing_id": "20033783",
+      "filing_type": "P",
+      "ingested_at": "2026-05-28T19:57:40Z",
+      "issuer_name": "Diamondback Energy, Inc. - Common Stock",
+      "member_name": "Hon. Roger Williams",
+      "notification_date": "12/22/2025",
+      "owner": "Self",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Diamondback Energy, Inc. - Common Stock (FANG) [ST] S (partial) 12/22/2025 12/22/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-21",
+      "ticker": "FANG",
+      "transaction_date": "12/22/2025",
+      "transaction_id": "201055c067ab68d3"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 24,
+      "district": "TX25",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "01/15/2026",
+      "filing_id": "20033783",
+      "filing_type": "P",
+      "ingested_at": "2026-05-28T19:57:40Z",
+      "issuer_name": "JP Morgan Chase & Co. Common Stock",
+      "member_name": "Hon. Roger Williams",
+      "notification_date": "12/22/2025",
+      "owner": "Self",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "JP Morgan Chase & Co. Common Stock (JPM) [ST] P 12/22/2025 12/22/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-21",
+      "ticker": "JPM",
+      "transaction_date": "12/22/2025",
+      "transaction_id": "4beda97b21516dcb"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 24,
+      "district": "TX25",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "01/15/2026",
+      "filing_id": "20033783",
+      "filing_type": "P",
+      "ingested_at": "2026-05-28T19:57:40Z",
+      "issuer_name": "RTX Corporation Common Stock",
+      "member_name": "Hon. Roger Williams",
+      "notification_date": "12/22/2025",
+      "owner": "Self",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "RTX Corporation Common Stock (RTX) [ST] P 12/22/2025 12/22/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-21",
+      "ticker": "RTX",
+      "transaction_date": "12/22/2025",
+      "transaction_id": "2a0372bdeabc422e"
+    }
+  ]
+}

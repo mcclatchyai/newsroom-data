@@ -1,0 +1,1283 @@
+{
+  "context_packet": {
+    "filing_id": "20033783",
+    "ingested_at": "2026-05-28T19:57:40Z",
+    "issuer_name": "JP Morgan Chase & Co. Common Stock",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=JP+Morgan+Chase+%26+Co.+Common+Stock",
+          "query_payload": {
+            "client_name": "JP Morgan Chase & Co. Common Stock",
+            "page_size": 5
+          },
+          "records": [],
+          "retrieved_at": "2026-05-28T19:57:40Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "available"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "W000816",
+            "district": "25",
+            "match_method": "name_state_district",
+            "name": "Roger Williams",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-05-28T19:57:40Z",
+        "sec_issuer_identity": {
+          "cik": "0000019617",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "JPMORGAN CHASE & CO",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "JPM"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "search_text": "JP Morgan Chase & Co. Common Stock"
+          },
+          "reason": "no_recipient_candidates",
+          "recipient_candidates": [],
+          "retrieved_at": "2026-05-28T19:57:40Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "unavailable"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20033783",
+      "issuer": {
+        "name": "JP Morgan Chase & Co. Common Stock",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "JPM"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX25",
+        "name": "Hon. Roger Williams",
+        "state": "TX"
+      },
+      "news_context": {
+        "filtered_out_count": 21,
+        "issuer_name": "JP Morgan Chase & Co. Common Stock",
+        "min_relevance_score": 20,
+        "provider": "gdelt_doc_2_0",
+        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22JP+Morgan+Chase+%26+Co%22+OR+JPM%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
+        "query": "(\"JP Morgan Chase & Co\" OR JPM)",
+        "raw_result_count": 25,
+        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "result_count": 4,
+        "results": [
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "JPM",
+              "chase",
+              "jp",
+              "morgan"
+            ],
+            "published_at": "20260302T120000Z",
+            "relevance_label": "medium",
+            "relevance_score": 42,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "JPMorgan Chase & Co . $JPM Stake Raised by First American Trust FSB",
+            "url": "https://www.dailypolitical.com/2026/03/02/jpmorgan-chase-co-jpm-stake-raised-by-first-american-trust-fsb.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "JPM",
+              "chase",
+              "jp",
+              "morgan"
+            ],
+            "published_at": "20260301T133000Z",
+            "relevance_label": "medium",
+            "relevance_score": 42,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Vestmark Advisory Solutions Inc . Raises Stock Holdings in JPMorgan Chase & Co . $JPM",
+            "url": "https://www.tickerreport.com/banking-finance/13363548/vestmark-advisory-solutions-inc-raises-stock-holdings-in-jpmorgan-chase-co-jpm.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "JPM",
+              "chase",
+              "jp",
+              "morgan"
+            ],
+            "published_at": "20260301T113000Z",
+            "relevance_label": "medium",
+            "relevance_score": 42,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "JPMorgan Chase & Co . $JPM is LaFleur & Godfrey LLC 3rd Largest Position",
+            "url": "https://www.tickerreport.com/banking-finance/13363188/jpmorgan-chase-co-jpm-is-lafleur-godfrey-llcs-3rd-largest-position.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "JPM",
+              "chase",
+              "jp",
+              "morgan"
+            ],
+            "published_at": "20260227T133000Z",
+            "relevance_label": "medium",
+            "relevance_score": 42,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Woodley Farra Manion Portfolio Management Inc . Trims Stock Position in JPMorgan Chase & Co . $JPM",
+            "url": "https://www.dailypolitical.com/2026/02/27/woodley-farra-manion-portfolio-management-inc-trims-stock-position-in-jpmorgan-chase-co-jpm.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          }
+        ],
+        "retrieved_at": "2026-05-28T19:57:40Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [
+          {
+            "label": "JPMorgan Chase & Co . $JPM Stake Raised by First American Trust FSB",
+            "url": "https://www.dailypolitical.com/2026/03/02/jpmorgan-chase-co-jpm-stake-raised-by-first-american-trust-fsb.html"
+          },
+          {
+            "label": "Vestmark Advisory Solutions Inc . Raises Stock Holdings in JPMorgan Chase & Co . $JPM",
+            "url": "https://www.tickerreport.com/banking-finance/13363548/vestmark-advisory-solutions-inc-raises-stock-holdings-in-jpmorgan-chase-co-jpm.html"
+          },
+          {
+            "label": "JPMorgan Chase & Co . $JPM is LaFleur & Godfrey LLC 3rd Largest Position",
+            "url": "https://www.tickerreport.com/banking-finance/13363188/jpmorgan-chase-co-jpm-is-lafleur-godfrey-llcs-3rd-largest-position.html"
+          },
+          {
+            "label": "Woodley Farra Manion Portfolio Management Inc . Trims Stock Position in JPMorgan Chase & Co . $JPM",
+            "url": "https://www.dailypolitical.com/2026/02/27/woodley-farra-manion-portfolio-management-inc-trims-stock-position-in-jpmorgan-chase-co-jpm.html"
+          }
+        ],
+        "status": "available",
+        "ticker": "JPM",
+        "window": {
+          "end_date": "2026-03-01",
+          "start_date": "2025-12-08"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 0,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 4,
+          "matched_terms": [
+            "chase",
+            "morgan"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [],
+          "public_search_url": "https://www.congress.gov/search?q=jpm+OR+jp+OR+morgan+OR+chase+OR+jpmorgan",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "jpm",
+              "jp",
+              "morgan",
+              "chase",
+              "jpmorgan"
+            ]
+          },
+          "reason": "no_matching_recent_bills",
+          "retrieved_at": "2026-05-28T19:57:40Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "unavailable"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-06-03T18:00:00Z",
+              "event_id": "119330",
+              "matched_terms": [
+                "chase"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Legislative Hearing on: \r\n•\tH.R. 2406 (Rep. Bonamici), “National Oceanic and Atmospheric Administration Sexual Harassment and Assault Prevention Improvements Act of 2025”\r\n•\tH.R. 8401 (Rep. Begich), To amend the Marine Mammal Protection Act of 1972 to allow the transport, purchase, and sale of pelts of, and handicrafts, garments, and art produced from, Southcentral and Southeast Alaska northern sea otters that are taken for subsistence purposes.\r\n•\tH.R. 8542 (Rep. Ezell), “Offshore Parity Act of 2026”\r\n•\tH.R. 8904 (Rep. Radewagen), To amend the Magnuson-Stevens Fishery Conservation and Management Act to provide for the regulation of fishing in marine national monuments.",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-11-21T15:00:00Z",
+              "event_id": "336321",
+              "matched_terms": [
+                "morgan"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.1306, to reauthorize the COPS ON THE BEAT grant program, S.2220, to amend title 35, United States Code, to invest in inventors in the United States, maintain the United States as the leading innovation economy in the world, and protect the property rights of the inventors that grow the economy of the United States, S.2082, to make technical corrections relating to the Justice Against Sponsors of Terrorism Act, and the nominations of Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania, and Miranda L. Holloway-Baggett, to be United States Marshal for the Southern District of Alabama, Department of Justice.",
+              "type": "Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-11-14T15:00:00Z",
+              "event_id": "336284",
+              "matched_terms": [
+                "morgan"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.1306, to reauthorize the COPS ON THE BEAT grant program, S.2220, to amend title 35, United States Code, to invest in inventors in the United States, maintain the United States as the leading innovation economy in the world, and protect the property rights of the inventors that grow the economy of the United States, S.2140, to amend title 35, United States Code, to address matters relating to patent subject matter eligibility, S.4713, to amend chapter 11 of title 35, United States Code, to require the voluntary collection of demographic information for patent inventors, S.2082, to make technical corrections relating to the Justice Against Sponsors of Terrorism Act, and the nominations of Ryan Young Park, of North Carolina, to be United States Circuit Judge for the Fourth Circuit, Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Sharad Harshad Desai, to be United States District Judge for the District of Arizona, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania, and Miranda L. Holloway-Baggett, to be United States Marshal for the Southern District of Alabama, and Bobby Jack Woods, to be United States Marshal for the Eastern District of Kentucky, both of the Department of Justice.",
+              "type": "Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-09-25T14:00:00Z",
+              "event_id": "336227",
+              "matched_terms": [
+                "morgan"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Hearings to examine the nominations of Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Sharad Harshad Desai, to be United States District Judge for the District of Arizona, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, and Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania.",
+              "type": "Meeting"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=jpm+OR+jp+OR+morgan+OR+chase+OR+jpmorgan",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "jpm",
+              "jp",
+              "morgan",
+              "chase",
+              "jpmorgan"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-05-28T19:57:40Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "jpm"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "jp"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "morgan"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "chase"
+          },
+          {
+            "confidence": 0.6,
+            "source": "sec_identity",
+            "term": "jpmorgan"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-05-28T19:57:40Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 24,
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filed_after_due_date": false,
+        "filing_date": "01/15/2026",
+        "notification_date": "12/22/2025",
+        "owner": "Self",
+        "page": 1,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+        "source_quote": "JP Morgan Chase & Co. Common Stock (JPM) [ST] P 12/22/2025 12/22/2025 $1,001 - $15,000",
+        "stock_act_due_date": "2026-01-21",
+        "transaction_date": "12/22/2025"
+      },
+      "transaction_id": "4beda97b21516dcb"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "JPM",
+    "transaction_id": "4beda97b21516dcb"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=JP+Morgan+Chase+%26+Co.+Common+Stock",
+      "query_payload": {
+        "client_name": "JP Morgan Chase & Co. Common Stock",
+        "page_size": 5
+      },
+      "records": [],
+      "retrieved_at": "2026-05-28T19:57:40Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "available"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "W000816",
+        "district": "25",
+        "match_method": "name_state_district",
+        "name": "Roger Williams",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-05-28T19:57:40Z",
+    "sec_issuer_identity": {
+      "cik": "0000019617",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "JPMORGAN CHASE & CO",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "JPM"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "search_text": "JP Morgan Chase & Co. Common Stock"
+      },
+      "reason": "no_recipient_candidates",
+      "recipient_candidates": [],
+      "retrieved_at": "2026-05-28T19:57:40Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "unavailable"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Purchase": 2,
+      "S (partial)": 2
+    },
+    "action_counts_json": "{\"Purchase\": 2, \"S (partial)\": 2}",
+    "disclosure_lag_days": 24,
+    "district": "TX25",
+    "estimated_max_total": 95000,
+    "estimated_min_total": 18004,
+    "filing_date": "01/15/2026",
+    "filing_id": "20033783",
+    "filing_type": "P",
+    "ingested_at": "2026-05-28T19:57:40Z",
+    "member_name": "Hon. Roger Williams",
+    "pdf_sha256": "",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "CVX",
+      "FANG",
+      "JPM",
+      "RTX"
+    ],
+    "tickers_json": "[\"CVX\", \"FANG\", \"JPM\", \"RTX\"]",
+    "transaction_count": 4,
+    "transaction_date_max": "2025-12-22",
+    "transaction_date_min": "2025-12-22"
+  },
+  "insight_candidate": {
+    "action": "Purchase",
+    "action_type": "purchase",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Roger Williams's JPM purchase",
+      "lede": "Hon. Roger Williams reported a purchase of JP Morgan Chase & Co (JPM) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "4 related company/news links were found around the trade and filing window.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Review the news/event links and verify which items are directly about the issuer and time window.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 24.0,
+    "district": "TX25",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "01/15/2026",
+    "filing_id": "20033783",
+    "grounded_summary": "Hon. Roger Williams reported a purchase of JP Morgan Chase & Co (JPM) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov hearing context is present. 4 related company/news links were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Roger Williams's JPM purchase",
+    "issuer_name": "JP Morgan Chase & Co",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Roger Williams",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"JP Morgan Chase & Co\" OR JPM)",
+      "result_count": 4,
+      "results": [
+        {
+          "domain": "dailypolitical.com",
+          "language": "English",
+          "matched_terms": [
+            "JPM",
+            "chase",
+            "jp",
+            "morgan"
+          ],
+          "published_at": "20260302T120000Z",
+          "relevance_label": "medium",
+          "relevance_score": 42,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "JPMorgan Chase & Co . $JPM Stake Raised by First American Trust FSB",
+          "url": "https://www.dailypolitical.com/2026/03/02/jpmorgan-chase-co-jpm-stake-raised-by-first-american-trust-fsb.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term"
+          ]
+        },
+        {
+          "domain": "tickerreport.com",
+          "language": "English",
+          "matched_terms": [
+            "JPM",
+            "chase",
+            "jp",
+            "morgan"
+          ],
+          "published_at": "20260301T133000Z",
+          "relevance_label": "medium",
+          "relevance_score": 42,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Vestmark Advisory Solutions Inc . Raises Stock Holdings in JPMorgan Chase & Co . $JPM",
+          "url": "https://www.tickerreport.com/banking-finance/13363548/vestmark-advisory-solutions-inc-raises-stock-holdings-in-jpmorgan-chase-co-jpm.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term"
+          ]
+        },
+        {
+          "domain": "tickerreport.com",
+          "language": "English",
+          "matched_terms": [
+            "JPM",
+            "chase",
+            "jp",
+            "morgan"
+          ],
+          "published_at": "20260301T113000Z",
+          "relevance_label": "medium",
+          "relevance_score": 42,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "JPMorgan Chase & Co . $JPM is LaFleur & Godfrey LLC 3rd Largest Position",
+          "url": "https://www.tickerreport.com/banking-finance/13363188/jpmorgan-chase-co-jpm-is-lafleur-godfrey-llcs-3rd-largest-position.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term"
+          ]
+        },
+        {
+          "domain": "dailypolitical.com",
+          "language": "English",
+          "matched_terms": [
+            "JPM",
+            "chase",
+            "jp",
+            "morgan"
+          ],
+          "published_at": "20260227T133000Z",
+          "relevance_label": "medium",
+          "relevance_score": 42,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Woodley Farra Manion Portfolio Management Inc . Trims Stock Position in JPMorgan Chase & Co . $JPM",
+          "url": "https://www.dailypolitical.com/2026/02/27/woodley-farra-manion-portfolio-management-inc-trims-stock-position-in-jpmorgan-chase-co-jpm.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term"
+          ]
+        }
+      ],
+      "status": "available",
+      "window": {
+        "end_date": "2026-03-01",
+        "start_date": "2025-12-08"
+      }
+    },
+    "owner": "Self",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Review the news/event links and verify which items are directly about the issuer and time window.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "reporter_context": {
+      "committees": [],
+      "lda": {
+        "reason": "",
+        "record_count": 0,
+        "records": [],
+        "status": "available"
+      },
+      "news": {
+        "query": "(\"JP Morgan Chase & Co\" OR JPM)",
+        "result_count": 4,
+        "status": "available",
+        "window": {
+          "end_date": "2026-03-01",
+          "start_date": "2025-12-08"
+        }
+      },
+      "policy": {
+        "bills": [],
+        "hearings": [
+          {
+            "date": "2026-06-03T18:00:00Z",
+            "title": "Legislative Hearing on: \r\n•\tH.R. 2406 (Rep. Bonamici), “National Oceanic and Atmospheric Administration Sexual Harassment and Assault Prevention Improvements Act of 2025”\r\n•\tH.R. 8401 (Rep. Begich), To amend the Marine Mammal Protection Act of 1972 to allow the transport, purchase, and sale of pelts of, and handicrafts, garments, and art produced from, Southcentral and Southeast Alaska northern sea otters that are taken for subsistence purposes.\r\n•\tH.R. 8542 (Rep. Ezell), “Offshore Parity Act of 2026”\r\n•\tH.R. 8904 (Rep. Radewagen), To amend the Magnuson-Stevens Fishery Conservation and Management Act to provide for the regulation of fishing in marine national monuments."
+          },
+          {
+            "date": "2024-11-21T15:00:00Z",
+            "title": "Business meeting to consider S.1306, to reauthorize the COPS ON THE BEAT grant program, S.2220, to amend title 35, United States Code, to invest in inventors in the United States, maintain the United States as the leading innovation economy in the world, and protect the property rights of the inventors that grow the economy of the United States, S.2082, to make technical corrections relating to the Justice Against Sponsors of Terrorism Act, and the nominations of Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania, and Miranda L. Holloway-Baggett, to be United States Marshal for the Southern District of Alabama, Department of Justice."
+          },
+          {
+            "date": "2024-11-14T15:00:00Z",
+            "title": "Business meeting to consider S.1306, to reauthorize the COPS ON THE BEAT grant program, S.2220, to amend title 35, United States Code, to invest in inventors in the United States, maintain the United States as the leading innovation economy in the world, and protect the property rights of the inventors that grow the economy of the United States, S.2140, to amend title 35, United States Code, to address matters relating to patent subject matter eligibility, S.4713, to amend chapter 11 of title 35, United States Code, to require the voluntary collection of demographic information for patent inventors, S.2082, to make technical corrections relating to the Justice Against Sponsors of Terrorism Act, and the nominations of Ryan Young Park, of North Carolina, to be United States Circuit Judge for the Fourth Circuit, Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Sharad Harshad Desai, to be United States District Judge for the District of Arizona, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania, and Miranda L. Holloway-Baggett, to be United States Marshal for the Southern District of Alabama, and Bobby Jack Woods, to be United States Marshal for the Eastern District of Kentucky, both of the Department of Justice."
+          }
+        ],
+        "overlap_reason": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass.",
+        "overlap_status": "policy_activity_found",
+        "terms": [
+          "jpm",
+          "jp",
+          "morgan"
+        ]
+      },
+      "sec": {
+        "cik": "0000019617",
+        "confidence": 1.0,
+        "reason": "",
+        "status": "available",
+        "ticker": "JPM",
+        "title": "JPMORGAN CHASE & CO"
+      },
+      "usaspending": {
+        "award_count": 0,
+        "awards": [],
+        "reason": "no_recipient_candidates",
+        "recipient": "",
+        "status": "unavailable"
+      }
+    },
+    "schema_version": 1,
+    "score": 4,
+    "score_reasons": [
+      "Congress.gov hearing context was found",
+      "news/event context links are available",
+      "linked company/news context is available"
+    ],
+    "slug": "hon-roger-williams-jpm-purchase-12-22-2025-4beda97b21516dcb",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      },
+      {
+        "label": "News/context: JPMorgan Chase & Co . $JPM Stake Raised by First American Trust FSB",
+        "url": "https://www.dailypolitical.com/2026/03/02/jpmorgan-chase-co-jpm-stake-raised-by-first-american-trust-fsb.html"
+      },
+      {
+        "label": "News/context: Vestmark Advisory Solutions Inc . Raises Stock Holdings in JPMorgan Chase & Co . $JPM",
+        "url": "https://www.tickerreport.com/banking-finance/13363548/vestmark-advisory-solutions-inc-raises-stock-holdings-in-jpmorgan-chase-co-jpm.html"
+      },
+      {
+        "label": "News/context: JPMorgan Chase & Co . $JPM is LaFleur & Godfrey LLC 3rd Largest Position",
+        "url": "https://www.tickerreport.com/banking-finance/13363188/jpmorgan-chase-co-jpm-is-lafleur-godfrey-llcs-3rd-largest-position.html"
+      },
+      {
+        "label": "News/context: Woodley Farra Manion Portfolio Management Inc . Trims Stock Position in JPMorgan Chase & Co . $JPM",
+        "url": "https://www.dailypolitical.com/2026/02/27/woodley-farra-manion-portfolio-management-inc-trims-stock-position-in-jpmorgan-chase-co-jpm.html"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "JPM",
+    "trade_date": "12/22/2025",
+    "transaction_id": "4beda97b21516dcb"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for JPM: status=403",
+    "retrieved_at": "2026-05-28T19:57:40Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "JPM"
+  },
+  "news_context": {
+    "filtered_out_count": 21,
+    "issuer_name": "JP Morgan Chase & Co. Common Stock",
+    "min_relevance_score": 20,
+    "provider": "gdelt_doc_2_0",
+    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22JP+Morgan+Chase+%26+Co%22+OR+JPM%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
+    "query": "(\"JP Morgan Chase & Co\" OR JPM)",
+    "raw_result_count": 25,
+    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "result_count": 4,
+    "results": [
+      {
+        "domain": "dailypolitical.com",
+        "language": "English",
+        "matched_terms": [
+          "JPM",
+          "chase",
+          "jp",
+          "morgan"
+        ],
+        "published_at": "20260302T120000Z",
+        "relevance_label": "medium",
+        "relevance_score": 42,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "JPMorgan Chase & Co . $JPM Stake Raised by First American Trust FSB",
+        "url": "https://www.dailypolitical.com/2026/03/02/jpmorgan-chase-co-jpm-stake-raised-by-first-american-trust-fsb.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term"
+        ]
+      },
+      {
+        "domain": "tickerreport.com",
+        "language": "English",
+        "matched_terms": [
+          "JPM",
+          "chase",
+          "jp",
+          "morgan"
+        ],
+        "published_at": "20260301T133000Z",
+        "relevance_label": "medium",
+        "relevance_score": 42,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Vestmark Advisory Solutions Inc . Raises Stock Holdings in JPMorgan Chase & Co . $JPM",
+        "url": "https://www.tickerreport.com/banking-finance/13363548/vestmark-advisory-solutions-inc-raises-stock-holdings-in-jpmorgan-chase-co-jpm.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term"
+        ]
+      },
+      {
+        "domain": "tickerreport.com",
+        "language": "English",
+        "matched_terms": [
+          "JPM",
+          "chase",
+          "jp",
+          "morgan"
+        ],
+        "published_at": "20260301T113000Z",
+        "relevance_label": "medium",
+        "relevance_score": 42,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "JPMorgan Chase & Co . $JPM is LaFleur & Godfrey LLC 3rd Largest Position",
+        "url": "https://www.tickerreport.com/banking-finance/13363188/jpmorgan-chase-co-jpm-is-lafleur-godfrey-llcs-3rd-largest-position.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term"
+        ]
+      },
+      {
+        "domain": "dailypolitical.com",
+        "language": "English",
+        "matched_terms": [
+          "JPM",
+          "chase",
+          "jp",
+          "morgan"
+        ],
+        "published_at": "20260227T133000Z",
+        "relevance_label": "medium",
+        "relevance_score": 42,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Woodley Farra Manion Portfolio Management Inc . Trims Stock Position in JPMorgan Chase & Co . $JPM",
+        "url": "https://www.dailypolitical.com/2026/02/27/woodley-farra-manion-portfolio-management-inc-trims-stock-position-in-jpmorgan-chase-co-jpm.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-05-28T19:57:40Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [
+      {
+        "label": "JPMorgan Chase & Co . $JPM Stake Raised by First American Trust FSB",
+        "url": "https://www.dailypolitical.com/2026/03/02/jpmorgan-chase-co-jpm-stake-raised-by-first-american-trust-fsb.html"
+      },
+      {
+        "label": "Vestmark Advisory Solutions Inc . Raises Stock Holdings in JPMorgan Chase & Co . $JPM",
+        "url": "https://www.tickerreport.com/banking-finance/13363548/vestmark-advisory-solutions-inc-raises-stock-holdings-in-jpmorgan-chase-co-jpm.html"
+      },
+      {
+        "label": "JPMorgan Chase & Co . $JPM is LaFleur & Godfrey LLC 3rd Largest Position",
+        "url": "https://www.tickerreport.com/banking-finance/13363188/jpmorgan-chase-co-jpm-is-lafleur-godfrey-llcs-3rd-largest-position.html"
+      },
+      {
+        "label": "Woodley Farra Manion Portfolio Management Inc . Trims Stock Position in JPMorgan Chase & Co . $JPM",
+        "url": "https://www.dailypolitical.com/2026/02/27/woodley-farra-manion-portfolio-management-inc-trims-stock-position-in-jpmorgan-chase-co-jpm.html"
+      }
+    ],
+    "status": "available",
+    "ticker": "JPM",
+    "window": {
+      "end_date": "2026-03-01",
+      "start_date": "2025-12-08"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 0,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 4,
+      "matched_terms": [
+        "chase",
+        "morgan"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [],
+      "public_search_url": "https://www.congress.gov/search?q=jpm+OR+jp+OR+morgan+OR+chase+OR+jpmorgan",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "jpm",
+          "jp",
+          "morgan",
+          "chase",
+          "jpmorgan"
+        ]
+      },
+      "reason": "no_matching_recent_bills",
+      "retrieved_at": "2026-05-28T19:57:40Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "unavailable"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-06-03T18:00:00Z",
+          "event_id": "119330",
+          "matched_terms": [
+            "chase"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Legislative Hearing on: \r\n•\tH.R. 2406 (Rep. Bonamici), “National Oceanic and Atmospheric Administration Sexual Harassment and Assault Prevention Improvements Act of 2025”\r\n•\tH.R. 8401 (Rep. Begich), To amend the Marine Mammal Protection Act of 1972 to allow the transport, purchase, and sale of pelts of, and handicrafts, garments, and art produced from, Southcentral and Southeast Alaska northern sea otters that are taken for subsistence purposes.\r\n•\tH.R. 8542 (Rep. Ezell), “Offshore Parity Act of 2026”\r\n•\tH.R. 8904 (Rep. Radewagen), To amend the Magnuson-Stevens Fishery Conservation and Management Act to provide for the regulation of fishing in marine national monuments.",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-11-21T15:00:00Z",
+          "event_id": "336321",
+          "matched_terms": [
+            "morgan"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.1306, to reauthorize the COPS ON THE BEAT grant program, S.2220, to amend title 35, United States Code, to invest in inventors in the United States, maintain the United States as the leading innovation economy in the world, and protect the property rights of the inventors that grow the economy of the United States, S.2082, to make technical corrections relating to the Justice Against Sponsors of Terrorism Act, and the nominations of Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania, and Miranda L. Holloway-Baggett, to be United States Marshal for the Southern District of Alabama, Department of Justice.",
+          "type": "Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-11-14T15:00:00Z",
+          "event_id": "336284",
+          "matched_terms": [
+            "morgan"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.1306, to reauthorize the COPS ON THE BEAT grant program, S.2220, to amend title 35, United States Code, to invest in inventors in the United States, maintain the United States as the leading innovation economy in the world, and protect the property rights of the inventors that grow the economy of the United States, S.2140, to amend title 35, United States Code, to address matters relating to patent subject matter eligibility, S.4713, to amend chapter 11 of title 35, United States Code, to require the voluntary collection of demographic information for patent inventors, S.2082, to make technical corrections relating to the Justice Against Sponsors of Terrorism Act, and the nominations of Ryan Young Park, of North Carolina, to be United States Circuit Judge for the Fourth Circuit, Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Sharad Harshad Desai, to be United States District Judge for the District of Arizona, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania, and Miranda L. Holloway-Baggett, to be United States Marshal for the Southern District of Alabama, and Bobby Jack Woods, to be United States Marshal for the Eastern District of Kentucky, both of the Department of Justice.",
+          "type": "Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-09-25T14:00:00Z",
+          "event_id": "336227",
+          "matched_terms": [
+            "morgan"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Hearings to examine the nominations of Anthony J. Brindisi, and Elizabeth C. Coombe, both to be a United States District Judge for the Northern District of New York, Sarah Morgan Davenport, to be United States District Judge for the District of New Mexico, Sharad Harshad Desai, to be United States District Judge for the District of Arizona, Tiffany Rene Johnson, to be United States District Judge for the Northern District of Georgia, and Keli Marie Neary, to be United States District Judge for the Middle District of Pennsylvania.",
+          "type": "Meeting"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=jpm+OR+jp+OR+morgan+OR+chase+OR+jpmorgan",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "jpm",
+          "jp",
+          "morgan",
+          "chase",
+          "jpmorgan"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-05-28T19:57:40Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "jpm"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "jp"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "morgan"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "chase"
+      },
+      {
+        "confidence": 0.6,
+        "source": "sec_identity",
+        "term": "jpmorgan"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-05-28T19:57:40Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260528T200129Z",
+    "environment": "testing",
+    "generated_at": "2026-05-28T20:02:37Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/4b/ed/4beda97b21516dcb.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-05-28T20:17:37Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033783.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/4b/ed/4beda97b21516dcb.json"
+  },
+  "transaction": {
+    "action": "Purchase",
+    "amount_range": "$1,001 - $15,000",
+    "disclosure_lag_days": 24,
+    "district": "TX25",
+    "estimated_max": 15000,
+    "estimated_min": 1001,
+    "filed_after_due_date": false,
+    "filing_date": "01/15/2026",
+    "filing_id": "20033783",
+    "filing_type": "P",
+    "ingested_at": "2026-05-28T19:57:40Z",
+    "issuer_name": "JP Morgan Chase & Co. Common Stock",
+    "member_name": "Hon. Roger Williams",
+    "notification_date": "12/22/2025",
+    "owner": "Self",
+    "page": 1,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "JP Morgan Chase & Co. Common Stock (JPM) [ST] P 12/22/2025 12/22/2025 $1,001 - $15,000",
+    "state": "TX",
+    "stock_act_due_date": "2026-01-21",
+    "ticker": "JPM",
+    "transaction_date": "12/22/2025",
+    "transaction_id": "4beda97b21516dcb"
+  }
+}
