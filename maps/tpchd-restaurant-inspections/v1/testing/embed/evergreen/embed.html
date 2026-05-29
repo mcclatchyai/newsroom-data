@@ -104,7 +104,7 @@
   </div>
   
   <div class="tpchd-map__stage">
-    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections over the red-point threshold"></div>
+    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections over 35 red points"></div>
     <div class="tpchd-map__date-overlay" data-role="date-overlay" aria-live="polite">Loading date window</div>
     <button type="button" class="tpchd-map__view-reset" data-role="view-reset" aria-label="Reset map view">Reset map</button>
     <button type="button" class="tpchd-map__interaction" data-role="interaction-overlay">Tap to explore the map. Use Done when you want to keep scrolling.</button>
@@ -356,6 +356,29 @@
     if (!date) return String(value || "");
     return date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
   }
+  function generatedAsOfLabel() {
+    var raw = activeMetadata.generated_at || "";
+    if (!raw) return "";
+    var date = new Date(raw);
+    if (isNaN(date.getTime())) return "";
+    return date.toLocaleString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZoneName: "short"
+    });
+  }
+  function noLaterFollowupText() {
+    var asOf = generatedAsOfLabel();
+    return (asOf ? "As of " + asOf + ", no" : "No") + " later follow-up or reinspection was observed in TPCHD inspection history.";
+  }
+  function followUpLabelText(value) {
+    value = String(value || "");
+    if (value.indexOf("No later follow-up or reinspection observed") === 0) return noLaterFollowupText();
+    return value;
+  }
   function dateLabel(features) {
     var dates = features.map(featureDate).filter(Boolean).sort();
     if (!dates.length) return "No dates";
@@ -392,7 +415,7 @@
     var name = p.business_name || "TPCHD inspection";
     var statusText = p.current_status_label || p.latest_result_status_label || p.current_rating_label || "latest result unavailable";
     var parts = [name, statusText, "latest inspection: " + latestInspectionText(p)];
-    if (hasValue(p.latest_red_points)) parts.push("latest parsed red points " + latestRedPointsLabel(feature));
+    if (hasValue(p.latest_red_points)) parts.push("latest red points " + latestRedPointsLabel(feature));
     var worstValue = hasValue(p.worst_red_points) ? p.worst_red_points : p.red_points;
     if (hasValue(worstValue)) parts.push("worst inspection shown " + redPointsText(worstValue));
     return parts.join(", ");
@@ -425,7 +448,7 @@
       later_followup_or_inspection_scheduled: "A later follow-up or inspection was scheduled.",
       later_reinspection_required: "A later inspection still required reinspection.",
       later_status_observed: "A later inspection status was observed.",
-      no_later_evidence_observed: "No later inspection has been observed in the scraped TPCHD history for this facility.",
+      no_later_evidence_observed: noLaterFollowupText(),
       needs_review_no_later_evidence: "Processing review needed: no later inspection was parsed for this facility.",
       not_reader_action_status: "This closure-like row is not treated as a current reader action status."
     };
@@ -554,7 +577,7 @@
       if (item.inspection_type) parts.push(esc(item.inspection_type));
       if (item.red_points !== undefined && item.red_points !== null && String(item.red_points).trim() !== "") parts.push(esc(item.red_points) + " red points");
       var badges = [];
-      if (item.is_high_red) badges.push("over threshold");
+      if (item.is_high_red) badges.push("over 35 red points");
       if (item.follow_up_needed === "yes") badges.push("follow-up needed");
       if (item.is_latest_observed) badges.push("latest observed");
       html += '<li>' + parts.join(" | ");
@@ -632,7 +655,7 @@
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
-    var followUp = p.follow_up_label || "";
+    var followUp = followUpLabelText(p.follow_up_label || "");
     var closureLabel = p.closure_reader_label || "";
     var closureReason = p.closure_reason_summary || "";
     var closureExplanation = p.closure_reader_explanation || "";
@@ -640,15 +663,15 @@
     var processingNote = p.needs_review_reason || "";
     var summaryItems = [];
     if (hasValue(p.latest_red_points)) {
-      summaryItems.push('<div><strong>' + esc(p.latest_red_points) + '</strong><span>latest parsed red points</span></div>');
+      summaryItems.push('<div><strong>' + esc(p.latest_red_points) + '</strong><span>latest red points</span></div>');
     }
     summaryItems.push('<div><strong>' + esc(latestDate ? formatDateText(latestDate) : "Date unavailable") + '</strong><span>latest inspection date</span></div>');
     if (hasValue(p.worst_red_points)) {
-      summaryItems.push('<div><strong>' + esc(p.worst_red_points) + '</strong><span>worst parsed inspection points shown</span></div>');
-      summaryItems.push('<div><strong>' + esc(worstDate ? formatDateText(worstDate) : "No over-threshold date") + '</strong><span>worst/threshold context date</span></div>');
+      summaryItems.push('<div><strong>' + esc(p.worst_red_points) + '</strong><span>worst inspection points shown</span></div>');
+      summaryItems.push('<div><strong>' + esc(worstDate ? formatDateText(worstDate) : "Date unavailable") + '</strong><span>worst inspection date</span></div>');
     }
     if (parseInt(p.over_threshold_count || 0, 10) > 0) {
-      summaryItems.push('<div><strong>' + esc(p.over_threshold_count || 0) + '</strong><span>over-35 inspections observed</span></div>');
+      summaryItems.push('<div><strong>' + esc(p.over_threshold_count || 0) + '</strong><span>inspections over 35 red points</span></div>');
     }
     summaryItems.push('<div><strong>' + esc(inspectionCount(feature)) + '</strong><span>total inspections observed</span></div>');
     var links = [];
@@ -703,7 +726,7 @@
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
-    var followUp = p.follow_up_label || "";
+    var followUp = followUpLabelText(p.follow_up_label || "");
     var closureLabel = p.closure_reader_label || "";
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var links = [];
@@ -809,7 +832,14 @@
     var renderedDateLabel = dateLabel(features);
     if (windowFact) windowFact.textContent = renderedDateLabel;
     if (dateOverlay) dateOverlay.textContent = features.length ? "Latest inspections: " + renderedDateLabel : "No matching inspections";
-    setStatus(features.length ? "Showing " + features.length + (mode === "evergreen" ? " mapped facilities." : " over-threshold inspection locations.") : "No mapped inspections match the current filters.");
+    if (features.length) {
+      var shownLabel = mode === "evergreen"
+        ? " mapped " + (features.length === 1 ? "facility." : "facilities.")
+        : " over 35 red point inspection " + (features.length === 1 ? "location." : "locations.");
+      setStatus("Showing " + features.length + shownLabel);
+    } else {
+      setStatus("No mapped inspections match the current filters.");
+    }
     updateSearchResults(features);
     setTimeout(invalidateMapSize, 120);
   }
@@ -821,12 +851,12 @@
     var parts = [];
     if (mode === "evergreen") {
       parts.push("The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.");
-      parts.push("Facilities can appear as Later met standards when they had a recent over-threshold inspection but a later observed TPCHD result says they met minimum health standards.");
-      parts.push("The date window is based on inspection/result dates observed by the scraper, not a separate date search on TPCHD's site.");
+      parts.push("Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.");
+      parts.push("The date window is based on inspection/result dates in TPCHD records collected for this publication, not a separate date search on TPCHD's site.");
     }
     parts.push(mode === "evergreen" ? "Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points." : "The map includes facilities with inspections with more than 35 red points.");
     if (unmapped) parts.push(unmapped + " source record" + (unmapped === 1 ? " is" : "s are") + " in the dataset but not drawn because no reviewed coordinate was available.");
-    if (excluded) parts.push(excluded + " parsed inspection" + (excluded === 1 ? " is" : "s are") + " at or below the threshold and not drawn on this map.");
+    if (excluded) parts.push(excluded + " inspection" + (excluded === 1 ? " has" : "s have") + " 35 or fewer red points and " + (excluded === 1 ? "is" : "are") + " not drawn on this map.");
     if (coverageNote) coverageNote.textContent = parts.join(" ");
   }
   function applyFilters() {
