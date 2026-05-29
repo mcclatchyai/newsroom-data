@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
-  <title>TPCHD evergreen map preview</title>
+  <title>TPCHD inspections over 35 red points: May 13-18, 2026 preview</title>
   <style>
     body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #18212b; background: #f5f7fa; }
     main { max-width: 1180px; margin: 0 auto; padding: 18px; }
@@ -20,12 +20,12 @@
 <body>
 <main>
   <section class="copy-panel" aria-label="CUE embed copy panel">
-    <h1>TPCHD evergreen map preview</h1>
-    <p class="warning">Testing only until the public-data publisher and geocoding cache are wired into the scheduled pipeline.</p>
+    <h1>TPCHD inspections over 35 red points: May 13-18, 2026 preview</h1>
+    <p class="warning">Testing only until this per-alert map URL is included in scheduled emails.</p>
     <p>Copy this HTML into a CUE HTML Embed asset. The rendered embed appears below.</p>
     <button type="button" data-role="copy">Copy embed code</button>
     <textarea readonly spellcheck="false" aria-label="Embed HTML">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;&gt;
-&lt;div class=&quot;tpchd-map&quot; data-mode=&quot;evergreen&quot; data-url=&quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json&quot;&gt;
+&lt;div class=&quot;tpchd-map&quot; data-mode=&quot;alert&quot; data-url=&quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27.geojson&quot;&gt;
   &lt;style&gt;
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
@@ -119,12 +119,12 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   &lt;/style&gt;
-  &lt;div class=&quot;tpchd-map__title&quot;&gt;Tacoma-Pierce County restaurant inspection action status&lt;/div&gt;
-  &lt;div class=&quot;tpchd-map__lede&quot;&gt;This map shows facilities with recent notable TPCHD action statuses or an inspection above 35 red points in the last 60 days. Marker color, shape and letter show the latest observed TPCHD result/status.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__title&quot;&gt;TPCHD inspections over 35 red points: May 13-18, 2026&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__lede&quot;&gt;This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__legend&quot; data-role=&quot;legend&quot; aria-label=&quot;Map legend&quot;&gt;
     &lt;div class=&quot;tpchd-map__legend-row&quot;&gt;
-      &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Action&lt;/span&gt;
-      &lt;span class=&quot;tpchd-map__legend-items&quot; data-role=&quot;legend-items&quot;&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;Loading current statuses...&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Red points&lt;/span&gt;
+      &lt;span class=&quot;tpchd-map__legend-items&quot; data-role=&quot;legend-items&quot;&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#d6604d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;36-50 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#c23030&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;51-75 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#9f1d2d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;76-100 red points&lt;/span&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#67000d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;101+ red points&lt;/span&gt;&lt;/span&gt;
     &lt;/div&gt;
     
   &lt;/div&gt;
@@ -142,7 +142,7 @@
   &lt;div class=&quot;tpchd-map__status&quot;&gt;Loading inspection map...&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;source-note&quot;&gt;Source: Tacoma-Pierce County Health Department inspection reports. Locations come from facility addresses shown in TPCHD inspection records.&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;coverage-note&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;tpchd-map__source tpchd-map__symbol-key&quot; data-role=&quot;symbol-key&quot;&gt;&lt;div class=&quot;tpchd-map__symbol-key-title&quot;&gt;Symbol key&lt;/div&gt;&lt;div class=&quot;tpchd-map__symbol-key-items&quot;&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#7f1d1d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;C&lt;/span&gt;&lt;/span&gt;Closed until approved to reopen&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#374151&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;P&lt;/span&gt;&lt;/span&gt;Permanently closed&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#991b1b&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;N&lt;/span&gt;&lt;/span&gt;Not permitted to operate&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#9f1239&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;T&lt;/span&gt;&lt;/span&gt;Closed for fixed period&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#b91c1c&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;Reinspection required&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#be123c&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;P&lt;/span&gt;&lt;/span&gt;Failed pre-opening inspection&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#c2410c&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;O&lt;/span&gt;&lt;/span&gt;Compliance order issued&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#1d4ed8&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;S&lt;/span&gt;&lt;/span&gt;Follow-up/reinspection scheduled&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#2563eb&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;S&lt;/span&gt;&lt;/span&gt;Inspection scheduled&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#2e7d32&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;G&lt;/span&gt;&lt;/span&gt;Meets TPCHD standards&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#64748b&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;i&lt;/span&gt;&lt;/span&gt;Administrative or not applicable&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#6b7280&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;?&lt;/span&gt;&lt;/span&gt;Current result unavailable&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;tpchd-map__symbol-key-note&quot;&gt;Marker color, shape and letter show the latest observed TPCHD result/status. Red-point totals appear in the selected restaurant details when available.&lt;/div&gt;&lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;script src=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -151,10 +151,10 @@
   var wrapper = script &amp;&amp; script.previousElementSibling;
   while (wrapper &amp;&amp; !wrapper.classList.contains(&quot;tpchd-map&quot;)) wrapper = wrapper.previousElementSibling;
   if (!wrapper) return;
-  var mode = wrapper.getAttribute(&quot;data-mode&quot;) || &quot;evergreen&quot;;
-  var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json&quot;;
+  var mode = wrapper.getAttribute(&quot;data-mode&quot;) || &quot;alert&quot;;
+  var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27.geojson&quot;;
   var severityBins = [{&quot;id&quot;: &quot;red_points_36_50&quot;, &quot;label&quot;: &quot;36-50 red points&quot;, &quot;min&quot;: 36, &quot;max&quot;: 50, &quot;color&quot;: &quot;#d6604d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_51_75&quot;, &quot;label&quot;: &quot;51-75 red points&quot;, &quot;min&quot;: 51, &quot;max&quot;: 75, &quot;color&quot;: &quot;#c23030&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_76_100&quot;, &quot;label&quot;: &quot;76-100 red points&quot;, &quot;min&quot;: 76, &quot;max&quot;: 100, &quot;color&quot;: &quot;#9f1d2d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_101_plus&quot;, &quot;label&quot;: &quot;101+ red points&quot;, &quot;min&quot;: 101, &quot;max&quot;: null, &quot;color&quot;: &quot;#67000d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}];
-  var ratingCategories = [{&quot;id&quot;: &quot;closed_until_approved_to_reopen&quot;, &quot;label&quot;: &quot;Closed until approved to reopen&quot;, &quot;legend_label&quot;: &quot;Closed until reopen&quot;, &quot;color&quot;: &quot;#7f1d1d&quot;, &quot;letter&quot;: &quot;C&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 10, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;closed_permanently&quot;, &quot;label&quot;: &quot;Permanently closed&quot;, &quot;legend_label&quot;: &quot;Permanently closed&quot;, &quot;color&quot;: &quot;#374151&quot;, &quot;letter&quot;: &quot;P&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 9, &quot;filter_group&quot;: &quot;closed&quot;}, {&quot;id&quot;: &quot;not_permitted_to_operate&quot;, &quot;label&quot;: &quot;Not permitted to operate&quot;, &quot;legend_label&quot;: &quot;Not permitted&quot;, &quot;color&quot;: &quot;#991b1b&quot;, &quot;letter&quot;: &quot;N&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 8, &quot;filter_group&quot;: &quot;closed&quot;}, {&quot;id&quot;: &quot;closed_for_fixed_period&quot;, &quot;label&quot;: &quot;Closed for fixed period&quot;, &quot;legend_label&quot;: &quot;Fixed-period closure&quot;, &quot;color&quot;: &quot;#9f1239&quot;, &quot;letter&quot;: &quot;T&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 8, &quot;filter_group&quot;: &quot;closed&quot;}, {&quot;id&quot;: &quot;reinspection_required&quot;, &quot;label&quot;: &quot;Reinspection required&quot;, &quot;legend_label&quot;: &quot;Reinspection required&quot;, &quot;color&quot;: &quot;#b91c1c&quot;, &quot;letter&quot;: &quot;!&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;rank&quot;: 7, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;preopening_failed&quot;, &quot;label&quot;: &quot;Failed pre-opening inspection&quot;, &quot;legend_label&quot;: &quot;Pre-opening failed&quot;, &quot;color&quot;: &quot;#be123c&quot;, &quot;letter&quot;: &quot;P&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;rank&quot;: 7, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;compliance_order_issued&quot;, &quot;label&quot;: &quot;Compliance order issued&quot;, &quot;legend_label&quot;: &quot;Compliance order&quot;, &quot;color&quot;: &quot;#c2410c&quot;, &quot;letter&quot;: &quot;O&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;rank&quot;: 6, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;follow_up_scheduled&quot;, &quot;label&quot;: &quot;Follow-up/reinspection scheduled&quot;, &quot;legend_label&quot;: &quot;Follow-up scheduled&quot;, &quot;color&quot;: &quot;#1d4ed8&quot;, &quot;letter&quot;: &quot;S&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 5, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;scheduled_pending&quot;, &quot;label&quot;: &quot;Inspection scheduled&quot;, &quot;legend_label&quot;: &quot;Scheduled&quot;, &quot;color&quot;: &quot;#2563eb&quot;, &quot;letter&quot;: &quot;S&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 4, &quot;filter_group&quot;: &quot;scheduled&quot;}, {&quot;id&quot;: &quot;meets_standards&quot;, &quot;label&quot;: &quot;Meets TPCHD standards&quot;, &quot;legend_label&quot;: &quot;Later met standards&quot;, &quot;color&quot;: &quot;#2e7d32&quot;, &quot;letter&quot;: &quot;G&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 3, &quot;filter_group&quot;: &quot;meets&quot;}, {&quot;id&quot;: &quot;administrative_or_not_applicable&quot;, &quot;label&quot;: &quot;Administrative or not applicable&quot;, &quot;legend_label&quot;: &quot;Administrative&quot;, &quot;color&quot;: &quot;#64748b&quot;, &quot;letter&quot;: &quot;i&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 2, &quot;filter_group&quot;: &quot;administrative&quot;}, {&quot;id&quot;: &quot;current_result_unknown&quot;, &quot;label&quot;: &quot;Current result unavailable&quot;, &quot;legend_label&quot;: &quot;Unavailable&quot;, &quot;color&quot;: &quot;#6b7280&quot;, &quot;letter&quot;: &quot;?&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 1, &quot;filter_group&quot;: &quot;unknown&quot;}];
+  var ratingCategories = [{&quot;id&quot;: &quot;rating_great&quot;, &quot;label&quot;: &quot;Great&quot;, &quot;color&quot;: &quot;#2e7d32&quot;, &quot;letter&quot;: &quot;G&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_okay&quot;, &quot;label&quot;: &quot;Okay&quot;, &quot;color&quot;: &quot;#d88c1f&quot;, &quot;letter&quot;: &quot;O&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_needs_improve&quot;, &quot;label&quot;: &quot;Needs to improve&quot;, &quot;color&quot;: &quot;#b61f2d&quot;, &quot;letter&quot;: &quot;N&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_closed&quot;, &quot;label&quot;: &quot;Closed&quot;, &quot;color&quot;: &quot;#4b5563&quot;, &quot;letter&quot;: &quot;C&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_new&quot;, &quot;label&quot;: &quot;New&quot;, &quot;color&quot;: &quot;#2563eb&quot;, &quot;letter&quot;: &quot;N&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_not_posted&quot;, &quot;label&quot;: &quot;No grade shown by TPCHD&quot;, &quot;color&quot;: &quot;#6b7280&quot;, &quot;letter&quot;: &quot;i&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_unknown&quot;, &quot;label&quot;: &quot;Status unknown&quot;, &quot;color&quot;: &quot;#6b7280&quot;, &quot;letter&quot;: &quot;?&quot;, &quot;shape&quot;: &quot;circle&quot;}];
   var canvas = wrapper.querySelector(&quot;.tpchd-map__canvas&quot;);
   var status = wrapper.querySelector(&quot;.tpchd-map__status&quot;);
   var legendItems = wrapper.querySelector(&#x27;[data-role=&quot;legend-items&quot;]&#x27;);
@@ -305,27 +305,12 @@
     if (!viewResetButton) return;
     viewResetButton.classList.toggle(&quot;is-visible&quot;, !!visible);
   }
-  function fitOptionsForMode() {
-    var isSmall = canvas &amp;&amp; canvas.clientWidth &amp;&amp; canvas.clientWidth &lt; 560;
-    if (mode !== &quot;evergreen&quot;) {
-      return {
-        paddingTopLeft: isSmall ? [66, 78] : [96, 72],
-        paddingBottomRight: isSmall ? [40, 86] : [190, 72],
-        maxZoom: isSmall ? 12 : 13
-      };
-    }
-    return {
-      paddingTopLeft: isSmall ? [58, 68] : [72, 54],
-      paddingBottomRight: isSmall ? [28, 70] : [92, 52],
-      maxZoom: 14
-    };
-  }
   function fitMapToFeatures(features) {
     if (!map) return;
     suppressViewReset = true;
     userMapInteraction = false;
     if (features &amp;&amp; features.length &amp;&amp; layer) {
-      map.fitBounds(layer.getBounds(), fitOptionsForMode());
+      map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 15 });
     } else {
       map.setView([47.2529, -122.4443], 10);
     }
@@ -1044,7 +1029,7 @@
     <p data-role="status" aria-live="polite"></p>
   </section>
   <section class="preview"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<div class="tpchd-map" data-mode="evergreen" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json">
+<div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27.geojson">
   <style>
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
@@ -1138,12 +1123,12 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspection action status</div>
-  <div class="tpchd-map__lede">This map shows facilities with recent notable TPCHD action statuses or an inspection above 35 red points in the last 60 days. Marker color, shape and letter show the latest observed TPCHD result/status.</div>
+  <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 13-18, 2026</div>
+  <div class="tpchd-map__lede">This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</div>
   <div class="tpchd-map__legend" data-role="legend" aria-label="Map legend">
     <div class="tpchd-map__legend-row">
-      <span class="tpchd-map__legend-title">Action</span>
-      <span class="tpchd-map__legend-items" data-role="legend-items"><span class="tpchd-map__legend-item">Loading current statuses...</span></span>
+      <span class="tpchd-map__legend-title">Red points</span>
+      <span class="tpchd-map__legend-items" data-role="legend-items"><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#d6604d" aria-hidden="true"><span>!</span></span>36-50 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c23030" aria-hidden="true"><span>!</span></span>51-75 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#9f1d2d" aria-hidden="true"><span>!</span></span>76-100 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#67000d" aria-hidden="true"><span>!</span></span>101+ red points</span></span>
     </div>
     
   </div>
@@ -1161,7 +1146,7 @@
   <div class="tpchd-map__status">Loading inspection map...</div>
   <div class="tpchd-map__source" data-role="source-note">Source: Tacoma-Pierce County Health Department inspection reports. Locations come from facility addresses shown in TPCHD inspection records.</div>
   <div class="tpchd-map__source" data-role="coverage-note"></div>
-  <div class="tpchd-map__source tpchd-map__symbol-key" data-role="symbol-key"><div class="tpchd-map__symbol-key-title">Symbol key</div><div class="tpchd-map__symbol-key-items"><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#7f1d1d" aria-hidden="true"><span>C</span></span>Closed until approved to reopen</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#374151" aria-hidden="true"><span>P</span></span>Permanently closed</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#991b1b" aria-hidden="true"><span>N</span></span>Not permitted to operate</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#9f1239" aria-hidden="true"><span>T</span></span>Closed for fixed period</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol" style="background:#b91c1c" aria-hidden="true"><span>!</span></span>Reinspection required</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol" style="background:#be123c" aria-hidden="true"><span>P</span></span>Failed pre-opening inspection</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol" style="background:#c2410c" aria-hidden="true"><span>O</span></span>Compliance order issued</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#1d4ed8" aria-hidden="true"><span>S</span></span>Follow-up/reinspection scheduled</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2563eb" aria-hidden="true"><span>S</span></span>Inspection scheduled</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2e7d32" aria-hidden="true"><span>G</span></span>Meets TPCHD standards</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#64748b" aria-hidden="true"><span>i</span></span>Administrative or not applicable</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>?</span></span>Current result unavailable</span></div><div class="tpchd-map__symbol-key-note">Marker color, shape and letter show the latest observed TPCHD result/status. Red-point totals appear in the selected restaurant details when available.</div></div>
+  
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -1170,10 +1155,10 @@
   var wrapper = script && script.previousElementSibling;
   while (wrapper && !wrapper.classList.contains("tpchd-map")) wrapper = wrapper.previousElementSibling;
   if (!wrapper) return;
-  var mode = wrapper.getAttribute("data-mode") || "evergreen";
-  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json";
+  var mode = wrapper.getAttribute("data-mode") || "alert";
+  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27.geojson";
   var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
-  var ratingCategories = [{"id": "closed_until_approved_to_reopen", "label": "Closed until approved to reopen", "legend_label": "Closed until reopen", "color": "#7f1d1d", "letter": "C", "shape": "square", "rank": 10, "filter_group": "needs_attention"}, {"id": "closed_permanently", "label": "Permanently closed", "legend_label": "Permanently closed", "color": "#374151", "letter": "P", "shape": "square", "rank": 9, "filter_group": "closed"}, {"id": "not_permitted_to_operate", "label": "Not permitted to operate", "legend_label": "Not permitted", "color": "#991b1b", "letter": "N", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "closed_for_fixed_period", "label": "Closed for fixed period", "legend_label": "Fixed-period closure", "color": "#9f1239", "letter": "T", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "reinspection_required", "label": "Reinspection required", "legend_label": "Reinspection required", "color": "#b91c1c", "letter": "!", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "preopening_failed", "label": "Failed pre-opening inspection", "legend_label": "Pre-opening failed", "color": "#be123c", "letter": "P", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "compliance_order_issued", "label": "Compliance order issued", "legend_label": "Compliance order", "color": "#c2410c", "letter": "O", "shape": "diamond", "rank": 6, "filter_group": "needs_attention"}, {"id": "follow_up_scheduled", "label": "Follow-up/reinspection scheduled", "legend_label": "Follow-up scheduled", "color": "#1d4ed8", "letter": "S", "shape": "circle", "rank": 5, "filter_group": "needs_attention"}, {"id": "scheduled_pending", "label": "Inspection scheduled", "legend_label": "Scheduled", "color": "#2563eb", "letter": "S", "shape": "circle", "rank": 4, "filter_group": "scheduled"}, {"id": "meets_standards", "label": "Meets TPCHD standards", "legend_label": "Later met standards", "color": "#2e7d32", "letter": "G", "shape": "circle", "rank": 3, "filter_group": "meets"}, {"id": "administrative_or_not_applicable", "label": "Administrative or not applicable", "legend_label": "Administrative", "color": "#64748b", "letter": "i", "shape": "circle", "rank": 2, "filter_group": "administrative"}, {"id": "current_result_unknown", "label": "Current result unavailable", "legend_label": "Unavailable", "color": "#6b7280", "letter": "?", "shape": "circle", "rank": 1, "filter_group": "unknown"}];
+  var ratingCategories = [{"id": "rating_great", "label": "Great", "color": "#2e7d32", "letter": "G", "shape": "circle"}, {"id": "rating_okay", "label": "Okay", "color": "#d88c1f", "letter": "O", "shape": "circle"}, {"id": "rating_needs_improve", "label": "Needs to improve", "color": "#b61f2d", "letter": "N", "shape": "circle"}, {"id": "rating_closed", "label": "Closed", "color": "#4b5563", "letter": "C", "shape": "circle"}, {"id": "rating_new", "label": "New", "color": "#2563eb", "letter": "N", "shape": "circle"}, {"id": "rating_not_posted", "label": "No grade shown by TPCHD", "color": "#6b7280", "letter": "i", "shape": "circle"}, {"id": "rating_unknown", "label": "Status unknown", "color": "#6b7280", "letter": "?", "shape": "circle"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
   var status = wrapper.querySelector(".tpchd-map__status");
   var legendItems = wrapper.querySelector('[data-role="legend-items"]');
@@ -1324,27 +1309,12 @@
     if (!viewResetButton) return;
     viewResetButton.classList.toggle("is-visible", !!visible);
   }
-  function fitOptionsForMode() {
-    var isSmall = canvas && canvas.clientWidth && canvas.clientWidth < 560;
-    if (mode !== "evergreen") {
-      return {
-        paddingTopLeft: isSmall ? [66, 78] : [96, 72],
-        paddingBottomRight: isSmall ? [40, 86] : [190, 72],
-        maxZoom: isSmall ? 12 : 13
-      };
-    }
-    return {
-      paddingTopLeft: isSmall ? [58, 68] : [72, 54],
-      paddingBottomRight: isSmall ? [28, 70] : [92, 52],
-      maxZoom: 14
-    };
-  }
   function fitMapToFeatures(features) {
     if (!map) return;
     suppressViewReset = true;
     userMapInteraction = false;
     if (features && features.length && layer) {
-      map.fitBounds(layer.getBounds(), fitOptionsForMode());
+      map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 15 });
     } else {
       map.setView([47.2529, -122.4443], 10);
     }
