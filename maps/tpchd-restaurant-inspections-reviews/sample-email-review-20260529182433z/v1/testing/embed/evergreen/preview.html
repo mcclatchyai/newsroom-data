@@ -1,0 +1,2145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>TPCHD evergreen map preview</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #18212b; background: #f5f7fa; }
+    main { max-width: 1180px; margin: 0 auto; padding: 18px; }
+    .copy-panel { border: 1px solid #d2d9e3; background: #fff; padding: 14px; margin: 0 0 18px; }
+    .copy-panel h1 { font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
+    .copy-panel p { font-size: 14px; line-height: 1.4; margin: 0 0 10px; }
+    .copy-panel .warning { border-left: 4px solid #c46a2f; padding: 8px 10px; background: #fff4e9; }
+    .copy-panel textarea { width: 100%; min-height: 220px; resize: vertical; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; border: 1px solid #ccd4de; padding: 10px; }
+    .copy-panel button { min-height: 40px; border: 0; background: #0b5d7e; color: #fff; font-weight: 800; padding: 8px 12px; cursor: pointer; margin: 0 0 10px; }
+    .preview { background: #fff; border: 1px solid #d2d9e3; padding: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <section class="copy-panel" aria-label="CUE embed copy panel">
+    <h1>TPCHD evergreen map preview</h1>
+    <p class="warning">Testing only until the public-data publisher and geocoding cache are wired into the scheduled pipeline.</p>
+    <p>Copy this HTML into a CUE HTML Embed asset. The rendered embed appears below.</p>
+    <button type="button" data-role="copy">Copy embed code</button>
+    <textarea readonly spellcheck="false" aria-label="Embed HTML">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;&gt;
+&lt;div class=&quot;tpchd-map&quot; data-mode=&quot;evergreen&quot; data-url=&quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/manifest.json&quot;&gt;
+  &lt;style&gt;
+    .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
+    .tpchd-map * { box-sizing: border-box; }
+    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
+    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
+    .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
+    .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
+    .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
+    .tpchd-map__legend-items { align-items: center; display: inline-flex; flex-wrap: wrap; gap: 7px 10px; }
+    .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
+    .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
+    .tpchd-map__legend-symbol.is-rating { border-radius: 999px; transform: none; }
+    .tpchd-map__legend-symbol.is-square { border-radius: 2px; transform: none; }
+    .tpchd-map__legend-symbol.is-rating span, .tpchd-map__legend-symbol.is-square span { transform: none; }
+    .tpchd-map__legend-symbol.is-status-key { background: #fff; border-color: #334155; box-shadow: none; color: #1f2a36; }
+    .tpchd-map__severity-items { align-items: center; display: inline-flex; flex-wrap: wrap; gap: 6px 10px; }
+    .tpchd-map__severity-item { align-items: center; display: inline-flex; gap: 5px; white-space: nowrap; }
+    .tpchd-map__severity-swatch { border: 1px solid rgba(31,42,54,.45); border-radius: 2px; display: inline-block; height: 11px; width: 18px; }
+    .tpchd-map .leaflet-control-attribution .leaflet-attribution-flag { display: none !important; }
+    .tpchd-map__search { align-items: end; display: grid; gap: 8px; grid-template-columns: minmax(220px, 1fr) auto; margin: 0 0 10px; }
+    .tpchd-map__search-label { min-width: 0; }
+    .tpchd-map__reset { min-height: 38px; border: 1px solid #c8d1dc; background: #fff; color: #1f2a36; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__results { border: 1px solid #d8dee6; background: #fff; grid-column: 1 / -1; max-height: 220px; overflow: auto; }
+    .tpchd-map__result { align-items: start; background: #fff; border: 0; border-bottom: 1px solid #e6ebf0; color: #1f2a36; cursor: pointer; display: grid; gap: 2px; padding: 8px 10px; text-align: left; width: 100%; }
+    .tpchd-map__result:hover, .tpchd-map__result:focus { background: #f3f7fa; outline: 2px solid #0b5d7e; outline-offset: -2px; }
+    .tpchd-map__result strong { font-size: 14px; line-height: 1.25; }
+    .tpchd-map__result span { color: #4b5b6d; font-size: 12px; line-height: 1.25; }
+    .tpchd-map__controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; align-items: end; }
+    .tpchd-map__advanced { margin: 0 0 10px; }
+    .tpchd-map__advanced summary { color: #0b5d7e; cursor: pointer; display: inline-block; font-size: 13px; font-weight: 800; line-height: 1.35; margin-bottom: 8px; }
+    .tpchd-map__advanced[open] summary { margin-bottom: 10px; }
+    .tpchd-map__group { display: grid; gap: 4px; font-size: 12px; font-weight: 800; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; }
+    .tpchd-map__group select, .tpchd-map__group input { min-height: 38px; border: 1px solid #c8d1dc; padding: 6px 8px; font: 14px/1.2 Arial, Helvetica, sans-serif; color: #1f2a36; background: #fff; min-width: 130px; }
+    .tpchd-map__near { min-height: 38px; border: 1px solid #0b5d7e; background: #0b5d7e; color: #fff; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__stage { position: relative; }
+    .tpchd-map__canvas { width: 100%; height: 540px; border: 1px solid #c3ccd5; background: #eef2f3; }
+    .tpchd-map__date-overlay { background: rgba(255,255,255,.94); border: 1px solid #c8d1dc; box-shadow: 0 2px 8px rgba(17,24,39,.12); color: #27384a; font-size: 12px; font-weight: 800; left: 52px; line-height: 1.25; max-width: calc(100% - 62px); padding: 6px 8px; position: absolute; top: 10px; z-index: 500; }
+    .tpchd-map__view-reset { background: rgba(255,255,255,.96); border: 1px solid #c8d1dc; box-shadow: 0 2px 8px rgba(17,24,39,.14); color: #1f2a36; cursor: pointer; display: none; font-size: 12px; font-weight: 800; line-height: 1.2; padding: 7px 9px; position: absolute; right: 10px; top: 10px; z-index: 500; }
+    .tpchd-map__view-reset.is-visible { display: block; }
+    .tpchd-map__interaction, .tpchd-map__done { display: none; }
+    .tpchd-map__detail { background: #fff; border: 1px solid #c3ccd5; margin-top: 10px; max-height: 560px; overflow-y: auto; padding: 12px; }
+    .tpchd-map__detail-kicker { color: #4b5b6d; font-size: 12px; font-weight: 800; letter-spacing: .03em; line-height: 1.2; margin: 0 0 4px; text-transform: uppercase; }
+    .tpchd-map__detail h2 { color: #111827; font-size: 18px; line-height: 1.2; margin: 0 0 4px; }
+    .tpchd-map__detail p { font-size: 13px; line-height: 1.4; margin: 0 0 7px; }
+    .tpchd-map__detail-summary { border-top: 1px solid #e1e6ec; display: grid; gap: 6px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 10px; padding-top: 10px; }
+    .tpchd-map__detail-summary div { background: #f7f9fb; border: 1px solid #e1e6ec; padding: 7px 8px; }
+    .tpchd-map__detail-summary strong { display: block; font-size: 14px; line-height: 1.2; }
+    .tpchd-map__detail-summary span { color: #4b5b6d; display: block; font-size: 11px; line-height: 1.2; margin-top: 2px; text-transform: uppercase; }
+    .tpchd-map__detail-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .tpchd-map__detail-links a, .tpchd-map__popup-links a { color: #0b5d7e; font-weight: 800; }
+    .tpchd-map__link-note { color: #4b5b6d; font-weight: 400; }
+    .tpchd-map__detail-empty { color: #4b5b6d; font-size: 13px; line-height: 1.4; margin: 0; }
+    .tpchd-map__popup-note { color: #4b5b6d; display: block; margin-top: 6px; }
+    .tpchd-map__status { font-size: 13px; line-height: 1.4; color: #34465a; min-height: 18px; margin-top: 8px; }
+    .tpchd-map__source { font-size: 12px; line-height: 1.35; color: #5a6877; margin-top: 8px; }
+    .tpchd-map__symbol-key { border-top: 1px solid #d8dee6; padding-top: 8px; }
+    .tpchd-map__symbol-key-title { color: #27384a; font-weight: 800; margin-bottom: 5px; }
+    .tpchd-map__symbol-key-items { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 12px; }
+    .tpchd-map__symbol-key-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__symbol-key-note { margin-top: 6px; }
+    .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
+    .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
+    .tpchd-map-marker__shape span { transform: rotate(-45deg); }
+    .tpchd-map-marker__shape.is-rating { border-radius: 999px; transform: none; }
+    .tpchd-map-marker__shape.is-square { border-radius: 3px; transform: none; }
+    .tpchd-map-marker__shape.is-rating span, .tpchd-map-marker__shape.is-square span { transform: none; font-size: 10px; }
+    .tpchd-map .leaflet-popup-content-wrapper { max-height: min(72vh, 520px); overflow: hidden; }
+    .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; max-height: min(60vh, 430px) !important; overflow-y: auto; padding-right: 4px; }
+    .tpchd-map__timeline { border-top: 1px solid #d8dee6; margin-top: 8px; padding-top: 8px; }
+    .tpchd-map__timeline ol { margin: 5px 0 0 18px; padding: 0; }
+    .tpchd-map__timeline li { margin: 0 0 7px; }
+    .tpchd-map__timeline span { color: #4b5b6d; }
+    .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
+    @media (max-width: 640px) {
+      .tpchd-map__title { font-size: 20px; }
+      .tpchd-map__search { grid-template-columns: 1fr; }
+      .tpchd-map__reset { width: 100%; min-height: 44px; }
+      .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
+      .tpchd-map__group select, .tpchd-map__group input, .tpchd-map__near { width: 100%; min-height: 44px; }
+      .tpchd-map__canvas { height: min(56vh, 410px); min-height: 320px; }
+      .tpchd-map__date-overlay { font-size: 11px; left: 48px; max-width: calc(100% - 56px); top: 8px; }
+      .tpchd-map__view-reset { right: 8px; top: 43px; }
+      .tpchd-map__detail { max-height: 52vh; padding: 10px; }
+      .tpchd-map__detail h2 { font-size: 17px; }
+      .tpchd-map__detail-summary { grid-template-columns: 1fr; }
+      .tpchd-map .leaflet-popup-content-wrapper { max-height: min(68vh, 430px); }
+      .tpchd-map .leaflet-popup-content { max-height: min(54vh, 350px) !important; }
+      .tpchd-map__interaction { align-items: center; background: rgba(17, 24, 39, .64); color: #fff; display: flex; font-size: 14px; font-weight: 800; inset: 1px; justify-content: center; line-height: 1.3; padding: 18px; position: absolute; text-align: center; z-index: 600; }
+      .tpchd-map.is-map-active .tpchd-map__interaction { display: none; }
+      .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
+    }
+  &lt;/style&gt;
+  &lt;div class=&quot;tpchd-map__title&quot;&gt;Tacoma-Pierce County restaurant inspection action status&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__lede&quot;&gt;This map shows facilities with recent notable TPCHD action statuses or an inspection above 35 red points in the last 60 days. Marker color, shape and letter show the latest observed TPCHD result/status.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__legend&quot; data-role=&quot;legend&quot; aria-label=&quot;Map legend&quot;&gt;
+    &lt;div class=&quot;tpchd-map__legend-row&quot;&gt;
+      &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Action&lt;/span&gt;
+      &lt;span class=&quot;tpchd-map__legend-items&quot; data-role=&quot;legend-items&quot;&gt;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;Loading current statuses...&lt;/span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;tpchd-map__stage&quot;&gt;
+    &lt;div class=&quot;tpchd-map__canvas&quot; aria-label=&quot;Interactive map of TPCHD restaurant inspections over 35 red points&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;tpchd-map__date-overlay&quot; data-role=&quot;date-overlay&quot; aria-live=&quot;polite&quot;&gt;Loading date window&lt;/div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;tpchd-map__view-reset&quot; data-role=&quot;view-reset&quot; aria-label=&quot;Reset map view&quot;&gt;Reset map&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;tpchd-map__interaction&quot; data-role=&quot;interaction-overlay&quot;&gt;Tap to explore the map. Use Done when you want to keep scrolling.&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;tpchd-map__done&quot; data-role=&quot;interaction-done&quot;&gt;Done&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;section class=&quot;tpchd-map__detail&quot; data-role=&quot;selected-detail&quot; aria-live=&quot;polite&quot; aria-label=&quot;Selected restaurant inspection details&quot;&gt;
+    &lt;p class=&quot;tpchd-map__detail-empty&quot;&gt;Select a restaurant marker to see the inspection timeline, current TPCHD status and source links here.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;div class=&quot;tpchd-map__status&quot;&gt;Loading inspection map...&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;source-note&quot;&gt;Source: Tacoma-Pierce County Health Department inspection reports. Locations come from facility addresses shown in TPCHD inspection records.&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source&quot; data-role=&quot;coverage-note&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__source tpchd-map__symbol-key&quot; data-role=&quot;symbol-key&quot;&gt;&lt;div class=&quot;tpchd-map__symbol-key-title&quot;&gt;Symbol key&lt;/div&gt;&lt;div class=&quot;tpchd-map__symbol-key-items&quot;&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#7f1d1d&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;C&lt;/span&gt;&lt;/span&gt;Closed until approved to reopen&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#374151&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;P&lt;/span&gt;&lt;/span&gt;Permanently closed&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#991b1b&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;N&lt;/span&gt;&lt;/span&gt;Not permitted to operate&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-square&quot; style=&quot;background:#9f1239&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;T&lt;/span&gt;&lt;/span&gt;Closed for fixed period&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#b91c1c&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;Reinspection required&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#be123c&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;P&lt;/span&gt;&lt;/span&gt;Failed pre-opening inspection&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol&quot; style=&quot;background:#c2410c&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;O&lt;/span&gt;&lt;/span&gt;Compliance order issued&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#1d4ed8&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;S&lt;/span&gt;&lt;/span&gt;Follow-up/reinspection scheduled&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#2563eb&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;S&lt;/span&gt;&lt;/span&gt;Inspection scheduled&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#2e7d32&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;G&lt;/span&gt;&lt;/span&gt;Meets TPCHD standards&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#64748b&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;i&lt;/span&gt;&lt;/span&gt;Administrative or not applicable&lt;/span&gt;&lt;span class=&quot;tpchd-map__symbol-key-item&quot;&gt;&lt;span class=&quot;tpchd-map__legend-symbol is-rating&quot; style=&quot;background:#6b7280&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;?&lt;/span&gt;&lt;/span&gt;Current result unavailable&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;tpchd-map__symbol-key-note&quot;&gt;Marker color, shape and letter show the latest observed TPCHD result/status. Red-point totals appear in the selected restaurant details when available.&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(function () {
+  var script = document.currentScript;
+  var wrapper = script &amp;&amp; script.previousElementSibling;
+  while (wrapper &amp;&amp; !wrapper.classList.contains(&quot;tpchd-map&quot;)) wrapper = wrapper.previousElementSibling;
+  if (!wrapper) return;
+  var mode = wrapper.getAttribute(&quot;data-mode&quot;) || &quot;evergreen&quot;;
+  var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/manifest.json&quot;;
+  var severityBins = [{&quot;id&quot;: &quot;red_points_36_50&quot;, &quot;label&quot;: &quot;36-50 red points&quot;, &quot;min&quot;: 36, &quot;max&quot;: 50, &quot;color&quot;: &quot;#d6604d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_51_75&quot;, &quot;label&quot;: &quot;51-75 red points&quot;, &quot;min&quot;: 51, &quot;max&quot;: 75, &quot;color&quot;: &quot;#c23030&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_76_100&quot;, &quot;label&quot;: &quot;76-100 red points&quot;, &quot;min&quot;: 76, &quot;max&quot;: 100, &quot;color&quot;: &quot;#9f1d2d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_101_plus&quot;, &quot;label&quot;: &quot;101+ red points&quot;, &quot;min&quot;: 101, &quot;max&quot;: null, &quot;color&quot;: &quot;#67000d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}];
+  var ratingCategories = [{&quot;id&quot;: &quot;closed_until_approved_to_reopen&quot;, &quot;label&quot;: &quot;Closed until approved to reopen&quot;, &quot;legend_label&quot;: &quot;Closed until reopen&quot;, &quot;color&quot;: &quot;#7f1d1d&quot;, &quot;letter&quot;: &quot;C&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 10, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;closed_permanently&quot;, &quot;label&quot;: &quot;Permanently closed&quot;, &quot;legend_label&quot;: &quot;Permanently closed&quot;, &quot;color&quot;: &quot;#374151&quot;, &quot;letter&quot;: &quot;P&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 9, &quot;filter_group&quot;: &quot;closed&quot;}, {&quot;id&quot;: &quot;not_permitted_to_operate&quot;, &quot;label&quot;: &quot;Not permitted to operate&quot;, &quot;legend_label&quot;: &quot;Not permitted&quot;, &quot;color&quot;: &quot;#991b1b&quot;, &quot;letter&quot;: &quot;N&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 8, &quot;filter_group&quot;: &quot;closed&quot;}, {&quot;id&quot;: &quot;closed_for_fixed_period&quot;, &quot;label&quot;: &quot;Closed for fixed period&quot;, &quot;legend_label&quot;: &quot;Fixed-period closure&quot;, &quot;color&quot;: &quot;#9f1239&quot;, &quot;letter&quot;: &quot;T&quot;, &quot;shape&quot;: &quot;square&quot;, &quot;rank&quot;: 8, &quot;filter_group&quot;: &quot;closed&quot;}, {&quot;id&quot;: &quot;reinspection_required&quot;, &quot;label&quot;: &quot;Reinspection required&quot;, &quot;legend_label&quot;: &quot;Reinspection required&quot;, &quot;color&quot;: &quot;#b91c1c&quot;, &quot;letter&quot;: &quot;!&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;rank&quot;: 7, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;preopening_failed&quot;, &quot;label&quot;: &quot;Failed pre-opening inspection&quot;, &quot;legend_label&quot;: &quot;Pre-opening failed&quot;, &quot;color&quot;: &quot;#be123c&quot;, &quot;letter&quot;: &quot;P&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;rank&quot;: 7, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;compliance_order_issued&quot;, &quot;label&quot;: &quot;Compliance order issued&quot;, &quot;legend_label&quot;: &quot;Compliance order&quot;, &quot;color&quot;: &quot;#c2410c&quot;, &quot;letter&quot;: &quot;O&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;rank&quot;: 6, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;follow_up_scheduled&quot;, &quot;label&quot;: &quot;Follow-up/reinspection scheduled&quot;, &quot;legend_label&quot;: &quot;Follow-up scheduled&quot;, &quot;color&quot;: &quot;#1d4ed8&quot;, &quot;letter&quot;: &quot;S&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 5, &quot;filter_group&quot;: &quot;needs_attention&quot;}, {&quot;id&quot;: &quot;scheduled_pending&quot;, &quot;label&quot;: &quot;Inspection scheduled&quot;, &quot;legend_label&quot;: &quot;Scheduled&quot;, &quot;color&quot;: &quot;#2563eb&quot;, &quot;letter&quot;: &quot;S&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 4, &quot;filter_group&quot;: &quot;scheduled&quot;}, {&quot;id&quot;: &quot;meets_standards&quot;, &quot;label&quot;: &quot;Meets TPCHD standards&quot;, &quot;legend_label&quot;: &quot;Later met standards&quot;, &quot;color&quot;: &quot;#2e7d32&quot;, &quot;letter&quot;: &quot;G&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 3, &quot;filter_group&quot;: &quot;meets&quot;}, {&quot;id&quot;: &quot;administrative_or_not_applicable&quot;, &quot;label&quot;: &quot;Administrative or not applicable&quot;, &quot;legend_label&quot;: &quot;Administrative&quot;, &quot;color&quot;: &quot;#64748b&quot;, &quot;letter&quot;: &quot;i&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 2, &quot;filter_group&quot;: &quot;administrative&quot;}, {&quot;id&quot;: &quot;current_result_unknown&quot;, &quot;label&quot;: &quot;Current result unavailable&quot;, &quot;legend_label&quot;: &quot;Unavailable&quot;, &quot;color&quot;: &quot;#6b7280&quot;, &quot;letter&quot;: &quot;?&quot;, &quot;shape&quot;: &quot;circle&quot;, &quot;rank&quot;: 1, &quot;filter_group&quot;: &quot;unknown&quot;}];
+  var canvas = wrapper.querySelector(&quot;.tpchd-map__canvas&quot;);
+  var status = wrapper.querySelector(&quot;.tpchd-map__status&quot;);
+  var legendItems = wrapper.querySelector(&#x27;[data-role=&quot;legend-items&quot;]&#x27;);
+  var shown = wrapper.querySelector(&#x27;[data-role=&quot;shown&quot;]&#x27;);
+  var maxRed = wrapper.querySelector(&#x27;[data-role=&quot;max-red&quot;]&#x27;);
+  var windowFact = wrapper.querySelector(&#x27;[data-role=&quot;window&quot;]&#x27;);
+  var dateOverlay = wrapper.querySelector(&#x27;[data-role=&quot;date-overlay&quot;]&#x27;);
+  var periodControl = wrapper.querySelector(&#x27;[data-role=&quot;period&quot;]&#x27;);
+  var statusControl = wrapper.querySelector(&#x27;[data-role=&quot;status-filter&quot;]&#x27;);
+  var searchInput = wrapper.querySelector(&#x27;[data-role=&quot;search&quot;]&#x27;);
+  var resetButton = wrapper.querySelector(&#x27;[data-role=&quot;reset&quot;]&#x27;);
+  var viewResetButton = wrapper.querySelector(&#x27;[data-role=&quot;view-reset&quot;]&#x27;);
+  var searchResults = wrapper.querySelector(&#x27;[data-role=&quot;search-results&quot;]&#x27;);
+  var nearMe = wrapper.querySelector(&#x27;[data-role=&quot;near-me&quot;]&#x27;);
+  var overlay = wrapper.querySelector(&#x27;[data-role=&quot;interaction-overlay&quot;]&#x27;);
+  var done = wrapper.querySelector(&#x27;[data-role=&quot;interaction-done&quot;]&#x27;);
+  var coverageNote = wrapper.querySelector(&#x27;[data-role=&quot;coverage-note&quot;]&#x27;);
+  var detailPanel = wrapper.querySelector(&#x27;[data-role=&quot;selected-detail&quot;]&#x27;);
+  if (detailPanel &amp;&amp; mode !== &quot;evergreen&quot;) detailPanel.hidden = true;
+  var map;
+  var layer;
+  var allFeatures = [];
+  var activeMetadata = {};
+  var markerByRecordId = {};
+  var featureByRecordId = {};
+  var renderedFeatures = [];
+  var suppressViewReset = false;
+  var userMapInteraction = false;
+  var userLocation = null;
+  function esc(value) {
+    return String(value || &quot;&quot;).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function (ch) {
+      return ({ &quot;&amp;&quot;: &quot;&amp;amp;&quot;, &quot;&lt;&quot;: &quot;&amp;lt;&quot;, &quot;&gt;&quot;: &quot;&amp;gt;&quot;, &#x27;&quot;&#x27;: &quot;&amp;quot;&quot;, &quot;&#x27;&quot;: &quot;&amp;#39;&quot; })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || &quot;&quot;);
+    return /^https?:\/\//i.test(value) ? value.replace(/&quot;/g, &quot;%22&quot;) : &quot;&quot;;
+  }
+  function normalizeSearch(value) {
+    var text = String(value || &quot;&quot;).toLowerCase();
+    if (text.normalize) text = text.normalize(&quot;NFD&quot;).replace(/[\u0300-\u036f]/g, &quot;&quot;);
+    text = text.replace(/&amp;/g, &quot; and &quot;).replace(/[’&#x27;]/g, &quot;&quot;);
+    text = text.replace(/\b(?:llc|inc|corp|corporation|company|co|ltd|dba|the)\b/g, &quot; &quot;);
+    text = text.replace(/[^a-z0-9]+/g, &quot; &quot;).replace(/\s+/g, &quot; &quot;).trim();
+    return text;
+  }
+  function searchTokens(value) {
+    return normalizeSearch(value).split(&quot; &quot;).filter(function (token) { return token.length &gt; 0; });
+  }
+  function editDistanceAtMost(a, b, limit) {
+    if (Math.abs(a.length - b.length) &gt; limit) return false;
+    var previous = [];
+    for (var j = 0; j &lt;= b.length; j++) previous[j] = j;
+    for (var i = 1; i &lt;= a.length; i++) {
+      var current = [i];
+      var rowMin = current[0];
+      for (var k = 1; k &lt;= b.length; k++) {
+        var cost = a.charAt(i - 1) === b.charAt(k - 1) ? 0 : 1;
+        current[k] = Math.min(previous[k] + 1, current[k - 1] + 1, previous[k - 1] + cost);
+        if (current[k] &lt; rowMin) rowMin = current[k];
+      }
+      if (rowMin &gt; limit) return false;
+      previous = current;
+    }
+    return previous[b.length] &lt;= limit;
+  }
+  function featureSearchRecord(feature) {
+    if (feature.__tpchdSearch) return feature.__tpchdSearch;
+    var p = feature.properties || {};
+    var aliases = Array.isArray(p.aliases) ? p.aliases.join(&quot; &quot;) : String(p.aliases || &quot;&quot;);
+    var name = normalizeSearch([p.business_name, p.display_name, p.known_as, aliases].filter(Boolean).join(&quot; &quot;));
+    var address = normalizeSearch([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;));
+    var all = normalizeSearch([name, address, p.facility_id, p.inspection_type, p.inspection_result, p.latest_inspection_result, p.current_status_label, p.latest_result_status_label, p.closure_reader_label, p.closure_reason_summary].filter(Boolean).join(&quot; &quot;));
+    feature.__tpchdSearch = {
+      all: all,
+      address: address,
+      name: name,
+      tokens: all.split(&quot; &quot;).filter(Boolean)
+    };
+    return feature.__tpchdSearch;
+  }
+  function tokenMatches(token, candidate) {
+    if (!token || !candidate) return false;
+    if (candidate === token || candidate.indexOf(token) === 0 || token.indexOf(candidate) === 0) return true;
+    if (token.length &gt;= 4 &amp;&amp; candidate.length &gt;= 4 &amp;&amp; editDistanceAtMost(token, candidate, token.length &gt; 7 ? 2 : 1)) return true;
+    return false;
+  }
+  function scoreSearch(feature, query) {
+    var normalized = normalizeSearch(query);
+    if (!normalized) return 1;
+    var record = featureSearchRecord(feature);
+    var tokens = normalized.split(&quot; &quot;).filter(Boolean);
+    if (!tokens.length) return 1;
+    var score = 0;
+    if (record.name === normalized) score += 200;
+    if (record.name.indexOf(normalized) === 0) score += 150;
+    if (record.name.indexOf(normalized) &gt;= 0) score += 120;
+    if (record.address.indexOf(normalized) &gt;= 0) score += 80;
+    var matched = 0;
+    tokens.forEach(function (token) {
+      var tokenScore = 0;
+      record.tokens.forEach(function (candidate) {
+        if (candidate === token) tokenScore = Math.max(tokenScore, 24);
+        else if (candidate.indexOf(token) === 0) tokenScore = Math.max(tokenScore, 18);
+        else if (token.length &gt;= 3 &amp;&amp; candidate.indexOf(token) &gt;= 0) tokenScore = Math.max(tokenScore, 12);
+        else if (tokenMatches(token, candidate)) tokenScore = Math.max(tokenScore, 8);
+      });
+      if (tokenScore &gt; 0) matched += 1;
+      score += tokenScore;
+    });
+    return matched === tokens.length ? score : 0;
+  }
+  function setStatus(message) {
+    if (status) status.textContent = message || &quot;&quot;;
+  }
+  function setFact(node, value) {
+    if (node) node.textContent = value == null || value === &quot;&quot; ? &quot;0&quot; : String(value);
+  }
+  function hasValue(value) {
+    return value !== undefined &amp;&amp; value !== null &amp;&amp; String(value).trim() !== &quot;&quot;;
+  }
+  function redPoints(feature) {
+    var props = feature.properties || {};
+    var value = parseInt(props.worst_red_points != null &amp;&amp; props.worst_red_points !== &quot;&quot; ? props.worst_red_points : props.red_points, 10);
+    return isNaN(value) ? 0 : value;
+  }
+  function latestRedPoints(feature) {
+    var props = feature.properties || {};
+    var raw = props.latest_red_points != null &amp;&amp; String(props.latest_red_points).trim() !== &quot;&quot; ? props.latest_red_points : &quot;&quot;;
+    var value = parseInt(raw, 10);
+    return isNaN(value) ? null : value;
+  }
+  function latestRedPointsLabel(feature) {
+    var props = feature.properties || {};
+    var value = hasValue(props.latest_red_points) ? props.latest_red_points : &quot;&quot;;
+    return value === &quot;&quot; ? &quot;Not available in this map dataset&quot; : String(value) + &quot; red points&quot;;
+  }
+  function redPointsText(value, fallback) {
+    return hasValue(value) ? String(value) + &quot; red points&quot; : (fallback || &quot;Not available in this map dataset&quot;);
+  }
+  function latestInspectionText(props) {
+    props = props || {};
+    var type = props.latest_inspection_type || props.inspection_type || &quot;Inspection&quot;;
+    var date = props.latest_inspection_date || props.inspection_date_iso || props.inspection_date || &quot;&quot;;
+    return String(type) + (date ? &quot; on &quot; + formatDateText(date) : &quot;&quot;);
+  }
+  function setViewResetVisible(visible) {
+    if (!viewResetButton) return;
+    viewResetButton.classList.toggle(&quot;is-visible&quot;, !!visible);
+  }
+  function fitOptionsForMode() {
+    var isSmall = canvas &amp;&amp; canvas.clientWidth &amp;&amp; canvas.clientWidth &lt; 560;
+    if (mode !== &quot;evergreen&quot;) {
+      return {
+        paddingTopLeft: isSmall ? [66, 78] : [96, 72],
+        paddingBottomRight: isSmall ? [40, 86] : [190, 72],
+        maxZoom: isSmall ? 12 : 13
+      };
+    }
+    return {
+      paddingTopLeft: isSmall ? [58, 68] : [72, 54],
+      paddingBottomRight: isSmall ? [28, 70] : [92, 52],
+      maxZoom: 14
+    };
+  }
+  function fitMapToFeatures(features) {
+    if (!map) return;
+    suppressViewReset = true;
+    userMapInteraction = false;
+    if (features &amp;&amp; features.length &amp;&amp; layer) {
+      map.fitBounds(layer.getBounds(), fitOptionsForMode());
+    } else {
+      map.setView([47.2529, -122.4443], 10);
+    }
+    setViewResetVisible(false);
+    window.setTimeout(function () {
+      suppressViewReset = false;
+    }, 800);
+  }
+  function invalidateMapSize() {
+    if (!map) return;
+    suppressViewReset = true;
+    map.invalidateSize({ pan: false });
+    window.setTimeout(function () {
+      suppressViewReset = false;
+    }, 120);
+  }
+  function worstInspectionHtml(props) {
+    props = props || {};
+    var value = hasValue(props.worst_red_points) ? props.worst_red_points : props.red_points;
+    var count = parseInt(props.over_threshold_count || 0, 10);
+    if (!hasValue(value) &amp;&amp; (!count || isNaN(count))) return &quot;&quot;;
+    var date = props.worst_inspection_date || props.latest_over_threshold_date || &quot;&quot;;
+    var html = &quot;&quot;;
+    if (hasValue(value)) {
+      html += &#x27;&lt;strong&gt;Worst inspection shown:&lt;/strong&gt; &#x27; + esc(redPointsText(value)) + (date ? &#x27; on &#x27; + esc(formatDateText(date)) : &#x27;&#x27;) + &#x27;&lt;br&gt;&#x27;;
+    }
+    if (count &gt; 0) {
+      html += &#x27;&lt;strong&gt;Over-35 inspections observed:&lt;/strong&gt; &#x27; + esc(count) + &#x27;&lt;br&gt;&#x27;;
+    }
+    return html;
+  }
+  function featureDate(feature) {
+    var props = feature.properties || {};
+    return String(props.latest_inspection_date || props.inspection_date_iso || props.latest_over_threshold_date || props.inspection_date || &quot;&quot;);
+  }
+  function featureYear(feature) {
+    var props = feature.properties || {};
+    if (Array.isArray(props.inspection_years) &amp;&amp; props.inspection_years.length) return String(props.inspection_years[0] || &quot;&quot;);
+    return String(props.inspection_year || (featureDate(feature).slice(0, 4)) || &quot;&quot;);
+  }
+  function parseDateValue(value) {
+    value = String(value || &quot;&quot;);
+    var iso = value;
+    var us = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(value);
+    if (us) {
+      iso = us[3] + &quot;-&quot; + String(us[1]).padStart(2, &quot;0&quot;) + &quot;-&quot; + String(us[2]).padStart(2, &quot;0&quot;);
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return null;
+    var date = new Date(iso + &quot;T00:00:00Z&quot;);
+    return isNaN(date.getTime()) ? null : date;
+  }
+  function formatDateText(value) {
+    var date = parseDateValue(value);
+    if (!date) return String(value || &quot;&quot;);
+    return date.toLocaleDateString(&quot;en-US&quot;, { month: &quot;short&quot;, day: &quot;numeric&quot;, year: &quot;numeric&quot;, timeZone: &quot;UTC&quot; });
+  }
+  function generatedAsOfLabel() {
+    var raw = activeMetadata.generated_at || &quot;&quot;;
+    if (!raw) return &quot;&quot;;
+    var date = new Date(raw);
+    if (isNaN(date.getTime())) return &quot;&quot;;
+    return date.toLocaleString(&quot;en-US&quot;, {
+      month: &quot;short&quot;,
+      day: &quot;numeric&quot;,
+      year: &quot;numeric&quot;,
+      hour: &quot;numeric&quot;,
+      minute: &quot;2-digit&quot;,
+      timeZoneName: &quot;short&quot;
+    });
+  }
+  function noLaterFollowupText() {
+    var asOf = generatedAsOfLabel();
+    return (asOf ? &quot;As of &quot; + asOf + &quot;, no&quot; : &quot;No&quot;) + &quot; later follow-up or reinspection was observed in TPCHD inspection history.&quot;;
+  }
+  function followUpLabelText(value) {
+    value = String(value || &quot;&quot;);
+    if (value.indexOf(&quot;No later follow-up or reinspection observed&quot;) === 0) return noLaterFollowupText();
+    return value;
+  }
+  function dateLabel(features) {
+    var dates = features.map(featureDate).filter(Boolean).sort();
+    if (!dates.length) return &quot;No dates&quot;;
+    return dates[0] === dates[dates.length - 1] ? formatDateText(dates[0]) : formatDateText(dates[0]) + &quot; to &quot; + formatDateText(dates[dates.length - 1]);
+  }
+  function newestDate(features) {
+    var dates = features.map(function (feature) { return parseDateValue(featureDate(feature)); }).filter(Boolean);
+    if (!dates.length) return null;
+    return new Date(Math.max.apply(null, dates.map(function (date) { return date.getTime(); })));
+  }
+  function periodMatches(feature, period, newest) {
+    period = period || &quot;recent60&quot;;
+    if (period === &quot;all&quot;) return true;
+    if (period.indexOf(&quot;year:&quot;) === 0) {
+      var wanted = period.slice(5);
+      var years = (feature.properties || {}).inspection_years;
+      if (Array.isArray(years)) return years.map(String).indexOf(wanted) &gt;= 0;
+      return featureYear(feature) === wanted;
+    }
+    var date = parseDateValue(featureDate(feature));
+    if (!date || !newest) return false;
+    if (period === &quot;ytd&quot;) {
+      return date.getUTCFullYear() === newest.getUTCFullYear();
+    }
+    if (period === &quot;recent60&quot; || period === &quot;recent90&quot;) {
+      var cutoff = new Date(newest.getTime());
+      cutoff.setUTCDate(cutoff.getUTCDate() - (period === &quot;recent60&quot; ? 60 : 90));
+      return date &gt;= cutoff;
+    }
+    return true;
+  }
+  function markerTitle(feature) {
+    var p = feature.properties || {};
+    var name = p.business_name || &quot;TPCHD inspection&quot;;
+    var statusText = p.current_status_label || p.latest_result_status_label || p.current_rating_label || &quot;latest result unavailable&quot;;
+    var parts = [name, statusText, &quot;latest inspection: &quot; + latestInspectionText(p)];
+    if (hasValue(p.latest_red_points)) parts.push(&quot;latest red points &quot; + latestRedPointsLabel(feature));
+    var worstValue = hasValue(p.worst_red_points) ? p.worst_red_points : p.red_points;
+    if (hasValue(worstValue)) parts.push(&quot;worst inspection shown &quot; + redPointsText(worstValue));
+    return parts.join(&quot;, &quot;);
+  }
+  function currentStatusLabel(props) {
+    props = props || {};
+    if (props.current_status_label || props.latest_result_status_label) {
+      var statusParts = [String(props.current_status_label || props.latest_result_status_label)];
+      if (props.latest_inspection_result) statusParts.push(String(props.latest_inspection_result));
+      if (props.current_score !== undefined &amp;&amp; props.current_score !== null &amp;&amp; String(props.current_score).trim() !== &quot;&quot;) {
+        statusParts.push(&quot;score &quot; + String(props.current_score));
+      }
+      if (props.current_last_inspection_date) statusParts.push(&quot;as of &quot; + formatDateText(props.current_last_inspection_date));
+      return statusParts.join(&quot; | &quot;);
+    }
+    var parts = [];
+    if (props.current_grade) parts.push(String(props.current_grade));
+    if (props.current_score !== undefined &amp;&amp; props.current_score !== null &amp;&amp; String(props.current_score).trim() !== &quot;&quot;) {
+      parts.push(&quot;score &quot; + String(props.current_score));
+    }
+    if (props.current_last_inspection_date) parts.push(&quot;as of &quot; + formatDateText(props.current_last_inspection_date));
+    return parts.join(&quot; | &quot;);
+  }
+  function resolutionStatusLabel(value) {
+    value = String(value || &quot;&quot;);
+    var labels = {
+      cleared_by_later_closure_followup: &quot;Later closure follow-up indicates the facility was cleared to operate.&quot;,
+      cleared_by_later_meets_standards: &quot;A later inspection says the facility met TPCHD minimum health standards.&quot;,
+      later_action_status_observed: &quot;A later action-status inspection was observed.&quot;,
+      later_followup_or_inspection_scheduled: &quot;A later follow-up or inspection was scheduled.&quot;,
+      later_reinspection_required: &quot;A later inspection still required reinspection.&quot;,
+      later_status_observed: &quot;A later inspection status was observed.&quot;,
+      no_later_evidence_observed: noLaterFollowupText(),
+      needs_review_no_later_evidence: &quot;Processing review needed: no later inspection was parsed for this facility.&quot;,
+      not_reader_action_status: &quot;This closure-like row is not treated as a current reader action status.&quot;
+    };
+    if (labels[value]) return labels[value];
+    if (value.indexOf(&quot;later_action_status_observed:&quot;) === 0) {
+      return &quot;A later action-status inspection was observed: &quot; + value.split(&quot;:&quot;).slice(1).join(&quot;:&quot;).replace(/_/g, &quot; &quot;) + &quot;.&quot;;
+    }
+    return value ? value.replace(/_/g, &quot; &quot;) + &quot;.&quot; : &quot;&quot;;
+  }
+  function ratingCategory(props) {
+    props = props || {};
+    var categoryId = String(props.current_status_category || props.latest_result_status || props.current_rating_category || &quot;&quot;);
+    for (var i = 0; i &lt; ratingCategories.length; i++) {
+      if (String(ratingCategories[i].id || &quot;&quot;) === categoryId) return ratingCategories[i];
+    }
+    return ratingCategories[ratingCategories.length - 1] || { color: &quot;#6b7280&quot;, letter: &quot;?&quot;, label: &quot;Unavailable&quot; };
+  }
+  function legendItemHtml(item, count) {
+    item = item || {};
+    var shape = String(item.shape || &quot;&quot;);
+    var shapeClass = shape === &quot;circle&quot; ? &quot; is-rating&quot; : (shape === &quot;square&quot; ? &quot; is-square&quot; : &quot;&quot;);
+    var color = String(item.color || &quot;#6b7280&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+    var style = &quot;background:&quot; + color;
+    var countText = count == null ? &quot;&quot; : &quot; (&quot; + count + &quot;)&quot;;
+    return &#x27;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&#x27; +
+      &#x27;&lt;span class=&quot;tpchd-map__legend-symbol&#x27; + shapeClass + &#x27;&quot; style=&quot;&#x27; + style + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + esc(item.letter || &quot;?&quot;) + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27; +
+      esc(item.legend_label || item.label || &quot;Status unavailable&quot;) + esc(countText) +
+      &#x27;&lt;/span&gt;&#x27;;
+  }
+  function updateLegend(features) {
+    if (!legendItems || mode !== &quot;evergreen&quot;) return;
+    var counts = {};
+    features.forEach(function (feature) {
+      var id = statusId(feature);
+      if (!id) return;
+      counts[id] = (counts[id] || 0) + 1;
+    });
+    var items = ratingCategories.filter(function (item) {
+      return counts[String(item.id || &quot;&quot;)] &gt; 0;
+    }).map(function (item) {
+      return legendItemHtml(item, counts[String(item.id || &quot;&quot;)]);
+    });
+    legendItems.innerHTML = items.length ? items.join(&quot;&quot;) : &#x27;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;No statuses in the current view&lt;/span&gt;&#x27;;
+  }
+  function statusId(feature) {
+    var props = feature.properties || {};
+    return String(props.current_status_category || props.latest_result_status || &quot;&quot;);
+  }
+  function statusGroup(feature) {
+    var props = feature.properties || {};
+    return String(props.latest_result_status_group || &quot;&quot;);
+  }
+  function defaultActionStatus(feature) {
+    var props = feature.properties || {};
+    var value = props.default_action_status;
+    if (value === true) return true;
+    return /^(1|true|yes)$/i.test(String(value || &quot;&quot;));
+  }
+  function statusMatches(feature, wanted) {
+    wanted = wanted || &quot;needs_attention&quot;;
+    if (wanted === &quot;all&quot;) return true;
+    var id = statusId(feature);
+    var group = statusGroup(feature);
+    if (wanted === &quot;needs_attention&quot;) {
+      return defaultActionStatus(feature);
+    }
+    if (wanted === &quot;closed&quot;) return group === &quot;closed&quot; || id === &quot;closed_until_approved_to_reopen&quot;;
+    return id === wanted || group === wanted;
+  }
+  function severityBin(value) {
+    var points = parseInt(value, 10);
+    if (isNaN(points)) {
+      return { id: &quot;latest_points_unavailable&quot;, label: &quot;Latest red points unavailable&quot;, color: &quot;#64748b&quot; };
+    }
+    if (points &lt;= 35) {
+      return { id: &quot;latest_points_0_35&quot;, label: &quot;0-35 latest red points&quot;, color: &quot;#94a3b8&quot; };
+    }
+    for (var i = 0; i &lt; severityBins.length; i++) {
+      var bin = severityBins[i];
+      var max = bin.max == null ? Infinity : Number(bin.max);
+      if (points &gt;= Number(bin.min) &amp;&amp; points &lt;= max) return bin;
+    }
+    return severityBins[0] || { color: &quot;#b61f2d&quot;, label: &quot;More than 35 red points&quot; };
+  }
+  function markerIcon(feature) {
+    if (mode === &quot;evergreen&quot;) {
+      var rating = ratingCategory(feature.properties || {});
+      var ratingColor = String(rating.color || &quot;#6b7280&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+      var letter = esc(rating.letter || &quot;?&quot;);
+      var shape = String(rating.shape || &quot;circle&quot;);
+      var shapeClass = shape === &quot;circle&quot; ? &quot; is-rating&quot; : (shape === &quot;square&quot; ? &quot; is-square&quot; : &quot;&quot;);
+      return L.divIcon({
+        className: &quot;tpchd-map-marker&quot;,
+        html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&#x27; + shapeClass + &#x27;&quot; style=&quot;background:&#x27; + ratingColor + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + letter + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27;,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -12]
+      });
+    }
+    var bin = severityBin(redPoints(feature));
+    var color = String(bin.color || &quot;#b61f2d&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+    return L.divIcon({
+      className: &quot;tpchd-map-marker&quot;,
+      html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&quot; style=&quot;background:&#x27; + color + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;!&lt;/span&gt;&lt;/span&gt;&#x27;,
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12]
+    });
+  }
+  function markerColor(feature, category) {
+    category = category || {};
+    return category.color || &quot;#6b7280&quot;;
+  }
+  function timelineHtml(items, options) {
+    if (!Array.isArray(items) || !items.length) return &quot;&quot;;
+    options = options || {};
+    var limit = Number(options.limit == null ? 8 : options.limit);
+    var visible = limit &gt; 0 ? items.slice(-limit) : items.slice();
+    var hidden = items.length - visible.length;
+    var html = &#x27;&lt;div class=&quot;tpchd-map__timeline&quot;&gt;&lt;strong&gt;Inspection timeline&lt;/strong&gt;&lt;ol&gt;&#x27;;
+    visible.forEach(function (item) {
+      var date = item.inspection_date_iso || item.inspection_date || &quot;&quot;;
+      var reportUrl = safeUrl(item.report_url);
+      var parts = [];
+      if (date) parts.push(formatDateText(date));
+      if (item.inspection_type) parts.push(esc(item.inspection_type));
+      if (item.red_points !== undefined &amp;&amp; item.red_points !== null &amp;&amp; String(item.red_points).trim() !== &quot;&quot;) parts.push(esc(item.red_points) + &quot; red points&quot;);
+      var badges = [];
+      if (item.is_high_red) badges.push(&quot;over 35 red points&quot;);
+      if (item.follow_up_needed === &quot;yes&quot;) badges.push(&quot;follow-up needed&quot;);
+      if (item.is_latest_observed) badges.push(&quot;latest observed&quot;);
+      html += &#x27;&lt;li&gt;&#x27; + parts.join(&quot; | &quot;);
+      if (item.inspection_result) html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(item.inspection_result) + &#x27;&lt;/span&gt;&#x27;;
+      if (item.closure_reader_label) html += &#x27;&lt;br&gt;&lt;span&gt;Closure context: &#x27; + esc(item.closure_reader_label) + &#x27;&lt;/span&gt;&#x27;;
+      if (item.closure_reason_summary) html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(item.closure_reason_summary) + &#x27;&lt;/span&gt;&#x27;;
+      if (item.follow_up_comment_summary) html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(item.follow_up_comment_summary) + &#x27;&lt;/span&gt;&#x27;;
+      if (item.next_follow_up_date) html += &#x27;&lt;br&gt;&lt;span&gt;Next follow-up date observed: &#x27; + esc(item.next_follow_up_date) + &#x27;&lt;/span&gt;&#x27;;
+      if (item.resolution_status) {
+        html += &#x27;&lt;br&gt;&lt;span&gt;Resolution evidence: &#x27; + esc(resolutionStatusLabel(item.resolution_status));
+        if (item.resolution_date) html += &#x27; &#x27; + esc(formatDateText(item.resolution_date));
+        html += &#x27;&lt;/span&gt;&#x27;;
+      }
+      if (item.next_later_inspection_date) {
+        html += &#x27;&lt;br&gt;&lt;span&gt;Next later observed inspection: &#x27; + esc(formatDateText(item.next_later_inspection_date));
+        if (item.next_later_inspection_type) html += &#x27; | &#x27; + esc(item.next_later_inspection_type);
+        if (item.next_later_inspection_result) html += &#x27; | &#x27; + esc(item.next_later_inspection_result);
+        html += &#x27;&lt;/span&gt;&#x27;;
+      }
+      if (item.latest_observed_inspection_date) {
+        html += &#x27;&lt;br&gt;&lt;span&gt;Latest observed inspection for this facility: &#x27; + esc(formatDateText(item.latest_observed_inspection_date));
+        if (item.latest_observed_inspection_result) html += &#x27; | &#x27; + esc(item.latest_observed_inspection_result);
+        html += &#x27;&lt;/span&gt;&#x27;;
+      }
+      if (item.needs_review_reason) html += &#x27;&lt;br&gt;&lt;span&gt;Processing note: &#x27; + esc(item.needs_review_reason) + &#x27;&lt;/span&gt;&#x27;;
+      if (badges.length) html += &#x27;&lt;br&gt;&lt;em&gt;&#x27; + esc(badges.join(&quot; · &quot;)) + &#x27;&lt;/em&gt;&#x27;;
+      if (reportUrl) html += &#x27;&lt;br&gt;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download report&lt;/a&gt;&#x27;;
+      else html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(reportAvailabilityLabel(item)) + &#x27;&lt;/span&gt;&#x27;;
+      html += &#x27;&lt;/li&gt;&#x27;;
+    });
+    html += &#x27;&lt;/ol&gt;&#x27;;
+    if (hidden &gt; 0) html += &#x27;&lt;span&gt;&#x27; + hidden + &#x27; older timeline item&#x27; + (hidden === 1 ? &#x27;&#x27; : &#x27;s&#x27;) + &#x27; hidden in this compact view.&lt;/span&gt;&#x27;;
+    html += &#x27;&lt;/div&gt;&#x27;;
+    return html;
+  }
+  function sourceLinksHtml(links, className) {
+    if (!links.length) return &quot;&quot;;
+    return &#x27;&lt;div class=&quot;&#x27; + className + &#x27;&quot;&gt;&#x27; + links.join(&#x27; | &#x27;) + &#x27;&lt;/div&gt;&#x27;;
+  }
+  function inspectionCount(feature) {
+    var p = feature.properties || {};
+    var count = parseInt(p.inspection_count || 0, 10);
+    if (!isNaN(count) &amp;&amp; count &gt; 0) return count;
+    return Array.isArray(p.timeline) ? p.timeline.length : 0;
+  }
+  function reportAvailabilityLabel(item) {
+    item = item || {};
+    var explicit = item.latest_report_availability || item.report_availability_label || &quot;&quot;;
+    if (explicit) return String(explicit);
+    if (safeUrl(item.report_url)) return &quot;Inspection report link available.&quot;;
+    var status = String(item.report_fetch_status || &quot;&quot;).toLowerCase();
+    var resultText = String([item.inspection_type, item.inspection_result].filter(Boolean).join(&quot; &quot;)).toLowerCase();
+    if (status.indexOf(&quot;source_no_document&quot;) &gt;= 0 || status.indexOf(&quot;no_document&quot;) &gt;= 0 || status.indexOf(&quot;no documents&quot;) &gt;= 0) {
+      return &quot;Report not available from TPCHD for this inspection.&quot;;
+    }
+    if (resultText.indexOf(&quot;scheduled&quot;) &gt;= 0 || resultText.indexOf(&quot;rescheduled&quot;) &gt;= 0) {
+      return &quot;Report not available from TPCHD for this scheduled inspection.&quot;;
+    }
+    if (status === &quot;not_fetched&quot;) return &quot;Report has not been downloaded into this dataset yet.&quot;;
+    return &quot;No report link was observed for this inspection.&quot;;
+  }
+  function fallbackReportLink(feature) {
+    var p = feature.properties || {};
+    var url = safeUrl(p.fallback_report_url);
+    if (!url) return &quot;&quot;;
+    var label = p.fallback_report_label || &quot;Earlier available inspection report.&quot;;
+    return &#x27;&lt;a href=&quot;&#x27; + url + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Earlier available report&lt;/a&gt;&lt;span class=&quot;tpchd-map__link-note&quot;&gt; &#x27; + esc(label) + &#x27;&lt;/span&gt;&#x27;;
+  }
+  function selectedDetailHtml(feature) {
+    var p = feature.properties || {};
+    var reportUrl = safeUrl(p.report_url);
+    var fallbackLink = fallbackReportLink(feature);
+    var detailUrl = safeUrl(p.facility_detail_url);
+    var currentStatus = currentStatusLabel(p);
+    var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || &quot;&quot;;
+    var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
+    var followUp = followUpLabelText(p.follow_up_label || &quot;&quot;);
+    var closureLabel = p.closure_reader_label || &quot;&quot;;
+    var closureReason = p.closure_reason_summary || &quot;&quot;;
+    var closureExplanation = p.closure_reader_explanation || &quot;&quot;;
+    var resolutionLabel = resolutionStatusLabel(p.resolution_status);
+    var processingNote = p.needs_review_reason || &quot;&quot;;
+    var summaryItems = [];
+    if (hasValue(p.latest_red_points)) {
+      summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(p.latest_red_points) + &#x27;&lt;/strong&gt;&lt;span&gt;latest red points&lt;/span&gt;&lt;/div&gt;&#x27;);
+    }
+    summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(latestDate ? formatDateText(latestDate) : &quot;Date unavailable&quot;) + &#x27;&lt;/strong&gt;&lt;span&gt;latest inspection date&lt;/span&gt;&lt;/div&gt;&#x27;);
+    if (hasValue(p.worst_red_points)) {
+      summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(p.worst_red_points) + &#x27;&lt;/strong&gt;&lt;span&gt;worst inspection points shown&lt;/span&gt;&lt;/div&gt;&#x27;);
+      summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(worstDate ? formatDateText(worstDate) : &quot;Date unavailable&quot;) + &#x27;&lt;/strong&gt;&lt;span&gt;worst inspection date&lt;/span&gt;&lt;/div&gt;&#x27;);
+    }
+    if (parseInt(p.over_threshold_count || 0, 10) &gt; 0) {
+      summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(p.over_threshold_count || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;inspections over 35 red points&lt;/span&gt;&lt;/div&gt;&#x27;);
+    }
+    summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(inspectionCount(feature)) + &#x27;&lt;/strong&gt;&lt;span&gt;total inspections observed&lt;/span&gt;&lt;/div&gt;&#x27;);
+    var links = [];
+    if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
+    if (reportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download latest report&lt;/a&gt;&#x27;);
+    else if (fallbackLink) links.push(fallbackLink);
+    if (safeUrl(p.resolution_source_url) &amp;&amp; safeUrl(p.resolution_source_url) !== reportUrl &amp;&amp; safeUrl(p.resolution_source_url) !== detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + safeUrl(p.resolution_source_url) + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Resolution source&lt;/a&gt;&#x27;);
+    var html = &#x27;&lt;div class=&quot;tpchd-map__detail-kicker&quot;&gt;Selected restaurant&lt;/div&gt;&#x27; +
+      &#x27;&lt;h2&gt;&#x27; + esc(p.business_name || &quot;Unnamed restaurant&quot;) + &#x27;&lt;/h2&gt;&#x27; +
+      &#x27;&lt;p&gt;&#x27; + esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;/p&gt;&#x27; +
+      (currentStatus ? &#x27;&lt;p&gt;&lt;strong&gt;Latest TPCHD result:&lt;/strong&gt; &#x27; + esc(currentStatus) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (p.current_status_explanation ? &#x27;&lt;p&gt;&#x27; + esc(p.current_status_explanation) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (closureLabel ? &#x27;&lt;p&gt;&lt;strong&gt;Closure context:&lt;/strong&gt; &#x27; + esc(closureLabel) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (closureExplanation ? &#x27;&lt;p&gt;&#x27; + esc(closureExplanation) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (closureReason ? &#x27;&lt;p&gt;&lt;strong&gt;Source comment:&lt;/strong&gt; &#x27; + esc(closureReason) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (resolutionLabel ? &#x27;&lt;p&gt;&lt;strong&gt;Resolution evidence:&lt;/strong&gt; &#x27; + esc(resolutionLabel) + (p.resolution_date ? &#x27; &#x27; + esc(formatDateText(p.resolution_date)) : &#x27;&#x27;) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (p.latest_observed_inspection_date ? &#x27;&lt;p&gt;&lt;strong&gt;Latest observed inspection:&lt;/strong&gt; &#x27; + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? &#x27; | &#x27; + esc(p.latest_observed_inspection_result) : &#x27;&#x27;) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p)) + &#x27;&lt;/p&gt;&#x27; +
+      &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;/p&gt;&#x27; +
+      (processingNote ? &#x27;&lt;p&gt;&lt;strong&gt;Processing note:&lt;/strong&gt; &#x27; + esc(processingNote) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      &#x27;&lt;div class=&quot;tpchd-map__detail-summary&quot;&gt;&#x27; +
+      summaryItems.join(&#x27;&#x27;) +
+      &#x27;&lt;/div&gt;&#x27; +
+      (followUp ? &#x27;&lt;p&gt;&lt;strong&gt;Follow-up/reinspection:&lt;/strong&gt; &#x27; + esc(followUp) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      timelineHtml(p.timeline, { limit: 0 }) +
+      sourceLinksHtml(links, &quot;tpchd-map__detail-links&quot;);
+    return html;
+  }
+  function showSelectedDetail(feature, shouldScroll) {
+    if (!detailPanel || !feature || mode !== &quot;evergreen&quot;) return;
+    detailPanel.innerHTML = selectedDetailHtml(feature);
+    if (shouldScroll &amp;&amp; window.matchMedia &amp;&amp; window.matchMedia(&quot;(max-width: 640px)&quot;).matches) {
+      setTimeout(function () {
+        try {
+          detailPanel.scrollIntoView({ behavior: &quot;smooth&quot;, block: &quot;nearest&quot; });
+        } catch (err) {
+          detailPanel.scrollIntoView();
+        }
+      }, 80);
+    }
+  }
+  function clearSelectedDetail() {
+    if (!detailPanel || mode !== &quot;evergreen&quot;) return;
+    detailPanel.innerHTML = &#x27;&lt;p class=&quot;tpchd-map__detail-empty&quot;&gt;Select a restaurant marker to see the inspection timeline, current TPCHD status and source links here.&lt;/p&gt;&#x27;;
+  }
+  function popupHtml(feature) {
+    var p = feature.properties || {};
+    var reportUrl = safeUrl(p.report_url);
+    var fallbackLink = fallbackReportLink(feature);
+    var detailUrl = safeUrl(p.facility_detail_url);
+    var currentStatus = currentStatusLabel(p);
+    var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || &quot;&quot;;
+    var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
+    var followUp = followUpLabelText(p.follow_up_label || &quot;&quot;);
+    var closureLabel = p.closure_reader_label || &quot;&quot;;
+    var resolutionLabel = resolutionStatusLabel(p.resolution_status);
+    var links = [];
+    if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
+    if (reportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download latest report&lt;/a&gt;&#x27;);
+    else if (fallbackLink) links.push(fallbackLink);
+    if (safeUrl(p.resolution_source_url) &amp;&amp; safeUrl(p.resolution_source_url) !== reportUrl &amp;&amp; safeUrl(p.resolution_source_url) !== detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + safeUrl(p.resolution_source_url) + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Resolution source&lt;/a&gt;&#x27;);
+    if (mode === &quot;evergreen&quot;) {
+      return &#x27;&lt;strong&gt;&#x27; + esc(p.business_name) + &#x27;&lt;/strong&gt;&lt;br&gt;&#x27; +
+        esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;br&gt;&#x27; +
+        (currentStatus ? &#x27;&lt;strong&gt;Latest TPCHD result:&lt;/strong&gt; &#x27; + esc(currentStatus) + &#x27;&lt;br&gt;&#x27; : &#x27;&#x27;) +
+        &#x27;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p)) + &#x27;&lt;br&gt;&#x27; +
+        &#x27;&lt;strong&gt;Latest report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;br&gt;&#x27; +
+        worstInspectionHtml(p) +
+        &#x27;&lt;strong&gt;Total inspections observed:&lt;/strong&gt; &#x27; + esc(inspectionCount(feature)) +
+        (closureLabel ? &#x27;&lt;br&gt;&lt;strong&gt;Closure context:&lt;/strong&gt; &#x27; + esc(closureLabel) : &#x27;&#x27;) +
+        (followUp ? &#x27;&lt;br&gt;&lt;strong&gt;Follow-up/reinspection:&lt;/strong&gt; &#x27; + esc(followUp) : &#x27;&#x27;) +
+        (resolutionLabel ? &#x27;&lt;br&gt;&lt;strong&gt;Resolution evidence:&lt;/strong&gt; &#x27; + esc(resolutionLabel) + (p.resolution_date ? &#x27; &#x27; + esc(formatDateText(p.resolution_date)) : &#x27;&#x27;) : &#x27;&#x27;) +
+        &#x27;&lt;span class=&quot;tpchd-map__popup-note&quot;&gt;Timeline and source details are shown below the map.&lt;/span&gt;&#x27; +
+        sourceLinksHtml(links, &quot;tpchd-map__popup-links&quot;);
+    }
+    return &#x27;&lt;strong&gt;&#x27; + esc(p.business_name) + &#x27;&lt;/strong&gt;&lt;br&gt;&#x27; +
+      esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;br&gt;&#x27; +
+      (currentStatus ? &#x27;&lt;strong&gt;Current TPCHD status:&lt;/strong&gt; &#x27; + esc(currentStatus) + &#x27;&lt;br&gt;&#x27; : &#x27;&#x27;) +
+      (p.current_status_timing_label ? esc(p.current_status_timing_label) + &#x27;&lt;br&gt;&#x27; : &#x27;&#x27;) +
+      &#x27;&lt;strong&gt;Inspection shown:&lt;/strong&gt; &#x27; + esc(p.red_points) + &#x27; red points&#x27; + (inspectionDate ? &#x27; on &#x27; + esc(formatDateText(inspectionDate)) : &#x27;&#x27;) + &#x27;&lt;br&gt;&#x27; +
+      esc(p.inspection_type) + (p.inspection_result ? &#x27; | &#x27; + esc(p.inspection_result) : &#x27;&#x27;) +
+      (followUp ? &#x27;&lt;br&gt;&lt;strong&gt;Follow-up/reinspection:&lt;/strong&gt; &#x27; + esc(followUp) : &#x27;&#x27;) +
+      (links.length ? &#x27;&lt;br&gt;&#x27; + links.join(&#x27; | &#x27;) : &#x27;&#x27;);
+  }
+  function initMap() {
+    if (typeof L === &quot;undefined&quot;) {
+      setStatus(&quot;Map library failed to load.&quot;);
+      return false;
+    }
+    map = L.map(canvas, { scrollWheelZoom: false }).setView([47.2529, -122.4443], 10);
+    L.tileLayer(&quot;https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png&quot;, {
+      maxZoom: 20,
+      subdomains: &quot;abcd&quot;,
+      attribution: &#x27;&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors &amp;copy; &lt;a href=&quot;https://carto.com/attributions&quot;&gt;CARTO&lt;/a&gt;&#x27;
+    }).addTo(map);
+    map.on(&quot;dragstart zoomstart&quot;, function () {
+      if (!suppressViewReset) userMapInteraction = true;
+    });
+    map.on(&quot;moveend zoomend&quot;, function () {
+      if (!suppressViewReset &amp;&amp; userMapInteraction &amp;&amp; renderedFeatures.length) {
+        setViewResetVisible(true);
+      }
+    });
+    if (window.matchMedia &amp;&amp; window.matchMedia(&quot;(max-width: 640px)&quot;).matches) {
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    }
+    if (overlay) overlay.addEventListener(&quot;click&quot;, function () {
+      wrapper.classList.add(&quot;is-map-active&quot;);
+      if (map.dragging) map.dragging.enable();
+      if (map.touchZoom) map.touchZoom.enable();
+    });
+    if (done) done.addEventListener(&quot;click&quot;, function () {
+      wrapper.classList.remove(&quot;is-map-active&quot;);
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    });
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(function () { setTimeout(invalidateMapSize, 40); });
+      ro.observe(canvas);
+    }
+    return true;
+  }
+  function render(features) {
+    if (!map) return;
+    renderedFeatures = features || [];
+    if (layer) map.removeLayer(layer);
+    markerByRecordId = {};
+    featureByRecordId = {};
+    clearSelectedDetail();
+    layer = L.geoJSON({ type: &quot;FeatureCollection&quot;, features: features }, {
+      pointToLayer: function (feature, latlng) {
+        var title = markerTitle(feature);
+        return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
+      },
+      onEachFeature: function (feature, marker) {
+        var recordId = String((feature.properties || {}).record_id || &quot;&quot;);
+        marker.on(&quot;click&quot;, function () {
+          if (!suppressViewReset) userMapInteraction = true;
+          showSelectedDetail(feature, true);
+        });
+        marker.bindPopup(popupHtml(feature), {
+          maxWidth: 360,
+          maxHeight: 430,
+          autoPanPadding: [18, 18]
+        });
+        if (recordId) {
+          markerByRecordId[recordId] = marker;
+          featureByRecordId[recordId] = feature;
+        }
+      }
+    }).addTo(map);
+    fitMapToFeatures(features);
+    setFact(shown, features.length);
+    setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
+    updateLegend(features);
+    var renderedDateLabel = dateLabel(features);
+    if (windowFact) windowFact.textContent = renderedDateLabel;
+    if (dateOverlay) dateOverlay.textContent = features.length ? &quot;Latest inspections: &quot; + renderedDateLabel : &quot;No matching inspections&quot;;
+    if (features.length) {
+      var shownLabel = mode === &quot;evergreen&quot;
+        ? &quot; mapped &quot; + (features.length === 1 ? &quot;facility.&quot; : &quot;facilities.&quot;)
+        : &quot; over 35 red point inspection &quot; + (features.length === 1 ? &quot;location.&quot; : &quot;locations.&quot;);
+      setStatus(&quot;Showing &quot; + features.length + shownLabel);
+    } else {
+      setStatus(&quot;No mapped inspections match the current filters.&quot;);
+    }
+    updateSearchResults(features);
+    setTimeout(invalidateMapSize, 120);
+  }
+  function updateCoverage(metadata, dataFileUrl) {
+    activeMetadata = metadata || {};
+    var unmapped = Number(activeMetadata.unmapped_records || 0);
+    var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
+    var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
+    var parts = [];
+    if (mode === &quot;evergreen&quot;) {
+      parts.push(&quot;The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.&quot;);
+      parts.push(&quot;Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.&quot;);
+      parts.push(&quot;The date window is based on inspection/result dates in TPCHD records collected for this publication, not a separate date search on TPCHD&#x27;s site.&quot;);
+    }
+    parts.push(mode === &quot;evergreen&quot; ? &quot;Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points.&quot; : &quot;The map includes facilities with inspections with more than 35 red points.&quot;);
+    if (unmapped) parts.push(unmapped + &quot; source record&quot; + (unmapped === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; in the dataset but not drawn because no reviewed coordinate was available.&quot;);
+    if (excluded) parts.push(excluded + &quot; inspection&quot; + (excluded === 1 ? &quot; has&quot; : &quot;s have&quot;) + &quot; 35 or fewer red points and &quot; + (excluded === 1 ? &quot;is&quot; : &quot;are&quot;) + &quot; not drawn on this map.&quot;);
+    if (coverageNote) coverageNote.textContent = parts.join(&quot; &quot;);
+  }
+  function applyFilters() {
+    var period = periodControl ? periodControl.value : (mode === &quot;evergreen&quot; ? &quot;recent60&quot; : &quot;all&quot;);
+    var statusFilter = statusControl ? statusControl.value : &quot;all&quot;;
+    var query = searchInput ? searchInput.value : &quot;&quot;;
+    var normalizedQuery = normalizeSearch(query);
+    var newest = newestDate(allFeatures);
+    var features;
+    if (mode === &quot;evergreen&quot; &amp;&amp; normalizedQuery) {
+      features = allFeatures.filter(function (feature) {
+        return scoreSearch(feature, query) &gt; 0;
+      });
+    } else {
+      features = allFeatures.filter(function (feature) {
+        if (!periodMatches(feature, period, newest)) return false;
+        if (mode === &quot;evergreen&quot; &amp;&amp; !statusMatches(feature, statusFilter)) return false;
+        return mode === &quot;evergreen&quot; ? true : redPoints(feature) &gt; 35;
+      });
+    }
+    if (normalizedQuery) {
+      features.sort(function (a, b) {
+        return scoreSearch(b, query) - scoreSearch(a, query) || redPoints(b) - redPoints(a);
+      });
+    }
+    if (userLocation) {
+      features.sort(function (a, b) { return distanceMiles(a, userLocation) - distanceMiles(b, userLocation); });
+    }
+    render(features);
+    if (mode === &quot;evergreen&quot; &amp;&amp; normalizedQuery) {
+      setStatus(&quot;Showing &quot; + features.length + &quot; matching mapped facilities across all statuses.&quot;);
+      if (dateOverlay) dateOverlay.textContent = features.length ? &quot;Search results across all statuses: &quot; + dateLabel(features) : &quot;No matching restaurant or address&quot;;
+    }
+  }
+  function updateSearchResults(features) {
+    if (!searchResults || !searchInput) return;
+    var query = searchInput.value || &quot;&quot;;
+    if (!normalizeSearch(query)) {
+      searchResults.hidden = true;
+      searchResults.innerHTML = &quot;&quot;;
+      return;
+    }
+    if (!features.length) {
+      searchResults.hidden = false;
+      searchResults.innerHTML = &#x27;&lt;div class=&quot;tpchd-map__result&quot; role=&quot;status&quot;&gt;&lt;strong&gt;No matching restaurants found across all statuses&lt;/strong&gt;&lt;span&gt;Try fewer words, a ZIP code, or part of the address.&lt;/span&gt;&lt;/div&gt;&#x27;;
+      return;
+    }
+    var grouped = {};
+    features.forEach(function (feature) {
+      var p = feature.properties || {};
+      var key = String(p.facility_id || p.business_name || p.address || p.record_id || &quot;&quot;);
+      if (!grouped[key]) grouped[key] = { feature: feature, count: 0, recordCount: 0, maxRed: 0, maxRedDate: &quot;&quot;, score: 0 };
+      grouped[key].recordCount += 1;
+      grouped[key].count = Math.max(grouped[key].count, parseInt(p.over_threshold_count || 0, 10) || 0);
+      if (redPoints(feature) &gt; grouped[key].maxRed) {
+        grouped[key].maxRed = redPoints(feature);
+        grouped[key].maxRedDate = featureDate(feature);
+        grouped[key].feature = feature;
+      }
+      grouped[key].score = Math.max(grouped[key].score, scoreSearch(feature, query));
+    });
+    var results = Object.keys(grouped).map(function (key) { return grouped[key]; }).sort(function (a, b) {
+      return b.score - a.score || b.maxRed - a.maxRed || featureDate(b.feature).localeCompare(featureDate(a.feature));
+    }).slice(0, 8);
+    searchResults.hidden = false;
+    searchResults.innerHTML = results.map(function (item) {
+      var p = item.feature.properties || {};
+      var recordId = esc(p.record_id || &quot;&quot;);
+      var name = esc(p.business_name || &quot;Unnamed restaurant&quot;);
+      var address = esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;));
+      var count = item.count &gt; 0
+        ? (item.count === 1 ? &quot;1 over-35 inspection observed&quot; : item.count + &quot; over-35 inspections observed&quot;)
+        : (item.recordCount === 1 ? &quot;1 inspection-status record observed&quot; : item.recordCount + &quot; inspection-status records observed&quot;);
+      var currentStatus = currentStatusLabel(p);
+      var worst = &#x27;Worst inspection points shown: &#x27; + item.maxRed + &#x27; red points&#x27; + (item.maxRedDate ? &#x27; on &#x27; + formatDateText(item.maxRedDate) : &#x27;&#x27;);
+      return &#x27;&lt;button type=&quot;button&quot; class=&quot;tpchd-map__result&quot; data-record-id=&quot;&#x27; + recordId + &#x27;&quot;&gt;&lt;strong&gt;&#x27; + name + &#x27;&lt;/strong&gt;&lt;span&gt;&#x27; + address + &#x27;&lt;/span&gt;&lt;span&gt;Search match across all statuses&lt;/span&gt;&lt;span&gt;&#x27; + count + &#x27;&lt;/span&gt;&lt;span&gt;&#x27; + esc(worst) + &#x27;&lt;/span&gt;&#x27; + (currentStatus ? &#x27;&lt;span&gt;Latest TPCHD result: &#x27; + esc(currentStatus) + &#x27;&lt;/span&gt;&#x27; : &#x27;&#x27;) + &#x27;&lt;/button&gt;&#x27;;
+    }).join(&quot;&quot;);
+    Array.prototype.forEach.call(searchResults.querySelectorAll(&quot;[data-record-id]&quot;), function (button) {
+      button.addEventListener(&quot;click&quot;, function () { selectRecord(button.getAttribute(&quot;data-record-id&quot;)); });
+    });
+  }
+  function selectRecord(recordId) {
+    var marker = markerByRecordId[String(recordId || &quot;&quot;)];
+    if (!marker || !map) return;
+    var latlng = marker.getLatLng();
+    map.setView(latlng, Math.max(map.getZoom(), 14));
+    showSelectedDetail(featureByRecordId[String(recordId || &quot;&quot;)], true);
+    marker.openPopup();
+  }
+  function populateControls(geojson) {
+    if (periodControl) {
+      var years = ((geojson.metadata || {}).available_years || allFeatures.map(featureYear)).filter(Boolean);
+      years = Array.from(new Set(years)).sort().reverse();
+      years.forEach(function (year) {
+        var option = document.createElement(&quot;option&quot;);
+        option.value = &quot;year:&quot; + year;
+        option.textContent = year;
+        periodControl.appendChild(option);
+      });
+      periodControl.value = &quot;recent60&quot;;
+      periodControl.addEventListener(&quot;change&quot;, applyFilters);
+    }
+    if (statusControl) statusControl.addEventListener(&quot;change&quot;, applyFilters);
+    if (searchInput) searchInput.addEventListener(&quot;input&quot;, applyFilters);
+    if (resetButton) resetButton.addEventListener(&quot;click&quot;, function () {
+      if (searchInput) searchInput.value = &quot;&quot;;
+      if (periodControl) periodControl.value = &quot;recent60&quot;;
+      if (statusControl) statusControl.value = &quot;all&quot;;
+      userLocation = null;
+      applyFilters();
+    });
+    if (viewResetButton) viewResetButton.addEventListener(&quot;click&quot;, function () {
+      fitMapToFeatures(renderedFeatures);
+    });
+  }
+  function distanceMiles(feature, origin) {
+    var coords = feature.geometry &amp;&amp; feature.geometry.coordinates || [];
+    var lng = Number(coords[0]);
+    var lat = Number(coords[1]);
+    if (isNaN(lat) || isNaN(lng)) return Infinity;
+    var rad = Math.PI / 180;
+    var dLat = (lat - origin.lat) * rad;
+    var dLng = (lng - origin.lng) * rad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(origin.lat * rad) * Math.cos(lat * rad) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 3958.8 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+  function enableNearMe() {
+    if (!nearMe || !navigator.geolocation) return;
+    nearMe.addEventListener(&quot;click&quot;, function () {
+      setStatus(&quot;Waiting for your browser to share your location...&quot;);
+      navigator.geolocation.getCurrentPosition(function (position) {
+        userLocation = { lat: position.coords.latitude, lng: position.coords.longitude };
+        setStatus(&quot;Showing locations nearest to you first.&quot;);
+        applyFilters();
+      }, function () {
+        setStatus(&quot;Location was not available. The map is still filtered by inspection data.&quot;);
+      }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
+    });
+  }
+  function resolveUrl(value, base) {
+    try {
+      var absoluteBase = new URL(base, window.location.href).toString();
+      return new URL(value, absoluteBase).toString();
+    } catch (err) {
+      return value;
+    }
+  }
+  function loadGeojson() {
+    if (mode === &quot;evergreen&quot;) {
+      return fetch(dataUrl).then(function (r) {
+        if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
+        return r.json();
+      }).then(function (manifest) {
+        var latest = manifest.entrypoints &amp;&amp; manifest.entrypoints.latest || manifest.files &amp;&amp; manifest.files.latest || &quot;latest.geojson&quot;;
+        var latestUrl = resolveUrl(latest, dataUrl);
+        return fetch(latestUrl).then(function (r) {
+          if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
+          return r.json();
+        }).then(function (geojson) {
+          geojson.__data_url = latestUrl;
+          return geojson;
+        });
+      });
+    }
+    return fetch(dataUrl).then(function (r) {
+      if (!r.ok) throw new Error(&quot;HTTP &quot; + r.status);
+      return r.json();
+    }).then(function (geojson) {
+      geojson.__data_url = dataUrl;
+      return geojson;
+    });
+  }
+  if (!initMap()) return;
+  enableNearMe();
+  loadGeojson().then(function (geojson) {
+    allFeatures = (geojson.features || []).filter(function (feature) {
+      return feature &amp;&amp; feature.geometry &amp;&amp; feature.geometry.type === &quot;Point&quot;;
+    });
+    updateCoverage(geojson.metadata || {}, geojson.__data_url || dataUrl);
+    populateControls(geojson);
+    applyFilters();
+  }).catch(function (err) {
+    setStatus(&quot;Map data failed to load: &quot; + err.message);
+  });
+})();
+&lt;/script&gt;</textarea>
+    <p data-role="status" aria-live="polite"></p>
+  </section>
+  <section class="preview"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div class="tpchd-map" data-mode="evergreen" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/manifest.json">
+  <style>
+    .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
+    .tpchd-map * { box-sizing: border-box; }
+    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
+    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
+    .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
+    .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
+    .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
+    .tpchd-map__legend-items { align-items: center; display: inline-flex; flex-wrap: wrap; gap: 7px 10px; }
+    .tpchd-map__legend-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__legend-symbol { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(31,42,54,.45); color: #fff; display: inline-flex; font-size: 11px; font-weight: 900; height: 16px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 16px; }
+    .tpchd-map__legend-symbol span { transform: rotate(-45deg); }
+    .tpchd-map__legend-symbol.is-rating { border-radius: 999px; transform: none; }
+    .tpchd-map__legend-symbol.is-square { border-radius: 2px; transform: none; }
+    .tpchd-map__legend-symbol.is-rating span, .tpchd-map__legend-symbol.is-square span { transform: none; }
+    .tpchd-map__legend-symbol.is-status-key { background: #fff; border-color: #334155; box-shadow: none; color: #1f2a36; }
+    .tpchd-map__severity-items { align-items: center; display: inline-flex; flex-wrap: wrap; gap: 6px 10px; }
+    .tpchd-map__severity-item { align-items: center; display: inline-flex; gap: 5px; white-space: nowrap; }
+    .tpchd-map__severity-swatch { border: 1px solid rgba(31,42,54,.45); border-radius: 2px; display: inline-block; height: 11px; width: 18px; }
+    .tpchd-map .leaflet-control-attribution .leaflet-attribution-flag { display: none !important; }
+    .tpchd-map__search { align-items: end; display: grid; gap: 8px; grid-template-columns: minmax(220px, 1fr) auto; margin: 0 0 10px; }
+    .tpchd-map__search-label { min-width: 0; }
+    .tpchd-map__reset { min-height: 38px; border: 1px solid #c8d1dc; background: #fff; color: #1f2a36; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__results { border: 1px solid #d8dee6; background: #fff; grid-column: 1 / -1; max-height: 220px; overflow: auto; }
+    .tpchd-map__result { align-items: start; background: #fff; border: 0; border-bottom: 1px solid #e6ebf0; color: #1f2a36; cursor: pointer; display: grid; gap: 2px; padding: 8px 10px; text-align: left; width: 100%; }
+    .tpchd-map__result:hover, .tpchd-map__result:focus { background: #f3f7fa; outline: 2px solid #0b5d7e; outline-offset: -2px; }
+    .tpchd-map__result strong { font-size: 14px; line-height: 1.25; }
+    .tpchd-map__result span { color: #4b5b6d; font-size: 12px; line-height: 1.25; }
+    .tpchd-map__controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; align-items: end; }
+    .tpchd-map__advanced { margin: 0 0 10px; }
+    .tpchd-map__advanced summary { color: #0b5d7e; cursor: pointer; display: inline-block; font-size: 13px; font-weight: 800; line-height: 1.35; margin-bottom: 8px; }
+    .tpchd-map__advanced[open] summary { margin-bottom: 10px; }
+    .tpchd-map__group { display: grid; gap: 4px; font-size: 12px; font-weight: 800; color: #4b5b6d; text-transform: uppercase; letter-spacing: .03em; }
+    .tpchd-map__group select, .tpchd-map__group input { min-height: 38px; border: 1px solid #c8d1dc; padding: 6px 8px; font: 14px/1.2 Arial, Helvetica, sans-serif; color: #1f2a36; background: #fff; min-width: 130px; }
+    .tpchd-map__near { min-height: 38px; border: 1px solid #0b5d7e; background: #0b5d7e; color: #fff; padding: 7px 10px; font-weight: 800; cursor: pointer; }
+    .tpchd-map__stage { position: relative; }
+    .tpchd-map__canvas { width: 100%; height: 540px; border: 1px solid #c3ccd5; background: #eef2f3; }
+    .tpchd-map__date-overlay { background: rgba(255,255,255,.94); border: 1px solid #c8d1dc; box-shadow: 0 2px 8px rgba(17,24,39,.12); color: #27384a; font-size: 12px; font-weight: 800; left: 52px; line-height: 1.25; max-width: calc(100% - 62px); padding: 6px 8px; position: absolute; top: 10px; z-index: 500; }
+    .tpchd-map__view-reset { background: rgba(255,255,255,.96); border: 1px solid #c8d1dc; box-shadow: 0 2px 8px rgba(17,24,39,.14); color: #1f2a36; cursor: pointer; display: none; font-size: 12px; font-weight: 800; line-height: 1.2; padding: 7px 9px; position: absolute; right: 10px; top: 10px; z-index: 500; }
+    .tpchd-map__view-reset.is-visible { display: block; }
+    .tpchd-map__interaction, .tpchd-map__done { display: none; }
+    .tpchd-map__detail { background: #fff; border: 1px solid #c3ccd5; margin-top: 10px; max-height: 560px; overflow-y: auto; padding: 12px; }
+    .tpchd-map__detail-kicker { color: #4b5b6d; font-size: 12px; font-weight: 800; letter-spacing: .03em; line-height: 1.2; margin: 0 0 4px; text-transform: uppercase; }
+    .tpchd-map__detail h2 { color: #111827; font-size: 18px; line-height: 1.2; margin: 0 0 4px; }
+    .tpchd-map__detail p { font-size: 13px; line-height: 1.4; margin: 0 0 7px; }
+    .tpchd-map__detail-summary { border-top: 1px solid #e1e6ec; display: grid; gap: 6px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 10px; padding-top: 10px; }
+    .tpchd-map__detail-summary div { background: #f7f9fb; border: 1px solid #e1e6ec; padding: 7px 8px; }
+    .tpchd-map__detail-summary strong { display: block; font-size: 14px; line-height: 1.2; }
+    .tpchd-map__detail-summary span { color: #4b5b6d; display: block; font-size: 11px; line-height: 1.2; margin-top: 2px; text-transform: uppercase; }
+    .tpchd-map__detail-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .tpchd-map__detail-links a, .tpchd-map__popup-links a { color: #0b5d7e; font-weight: 800; }
+    .tpchd-map__link-note { color: #4b5b6d; font-weight: 400; }
+    .tpchd-map__detail-empty { color: #4b5b6d; font-size: 13px; line-height: 1.4; margin: 0; }
+    .tpchd-map__popup-note { color: #4b5b6d; display: block; margin-top: 6px; }
+    .tpchd-map__status { font-size: 13px; line-height: 1.4; color: #34465a; min-height: 18px; margin-top: 8px; }
+    .tpchd-map__source { font-size: 12px; line-height: 1.35; color: #5a6877; margin-top: 8px; }
+    .tpchd-map__symbol-key { border-top: 1px solid #d8dee6; padding-top: 8px; }
+    .tpchd-map__symbol-key-title { color: #27384a; font-weight: 800; margin-bottom: 5px; }
+    .tpchd-map__symbol-key-items { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 12px; }
+    .tpchd-map__symbol-key-item { align-items: center; display: inline-flex; gap: 7px; }
+    .tpchd-map__symbol-key-note { margin-top: 6px; }
+    .tpchd-map-marker { align-items: center; background: transparent; border: 0; display: flex; height: 22px !important; justify-content: center; margin-left: -11px !important; margin-top: -11px !important; width: 22px !important; }
+    .tpchd-map-marker__shape { align-items: center; background: #b61f2d; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(17, 24, 39, .42), 0 0 0 1px rgba(31,42,54,.5); color: #fff; display: flex; font: 900 13px/1 Arial, Helvetica, sans-serif; height: 22px; justify-content: center; line-height: 1; transform: rotate(45deg); width: 22px; }
+    .tpchd-map-marker__shape span { transform: rotate(-45deg); }
+    .tpchd-map-marker__shape.is-rating { border-radius: 999px; transform: none; }
+    .tpchd-map-marker__shape.is-square { border-radius: 3px; transform: none; }
+    .tpchd-map-marker__shape.is-rating span, .tpchd-map-marker__shape.is-square span { transform: none; font-size: 10px; }
+    .tpchd-map .leaflet-popup-content-wrapper { max-height: min(72vh, 520px); overflow: hidden; }
+    .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; max-height: min(60vh, 430px) !important; overflow-y: auto; padding-right: 4px; }
+    .tpchd-map__timeline { border-top: 1px solid #d8dee6; margin-top: 8px; padding-top: 8px; }
+    .tpchd-map__timeline ol { margin: 5px 0 0 18px; padding: 0; }
+    .tpchd-map__timeline li { margin: 0 0 7px; }
+    .tpchd-map__timeline span { color: #4b5b6d; }
+    .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
+    @media (max-width: 640px) {
+      .tpchd-map__title { font-size: 20px; }
+      .tpchd-map__search { grid-template-columns: 1fr; }
+      .tpchd-map__reset { width: 100%; min-height: 44px; }
+      .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
+      .tpchd-map__group select, .tpchd-map__group input, .tpchd-map__near { width: 100%; min-height: 44px; }
+      .tpchd-map__canvas { height: min(56vh, 410px); min-height: 320px; }
+      .tpchd-map__date-overlay { font-size: 11px; left: 48px; max-width: calc(100% - 56px); top: 8px; }
+      .tpchd-map__view-reset { right: 8px; top: 43px; }
+      .tpchd-map__detail { max-height: 52vh; padding: 10px; }
+      .tpchd-map__detail h2 { font-size: 17px; }
+      .tpchd-map__detail-summary { grid-template-columns: 1fr; }
+      .tpchd-map .leaflet-popup-content-wrapper { max-height: min(68vh, 430px); }
+      .tpchd-map .leaflet-popup-content { max-height: min(54vh, 350px) !important; }
+      .tpchd-map__interaction { align-items: center; background: rgba(17, 24, 39, .64); color: #fff; display: flex; font-size: 14px; font-weight: 800; inset: 1px; justify-content: center; line-height: 1.3; padding: 18px; position: absolute; text-align: center; z-index: 600; }
+      .tpchd-map.is-map-active .tpchd-map__interaction { display: none; }
+      .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
+    }
+  </style>
+  <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspection action status</div>
+  <div class="tpchd-map__lede">This map shows facilities with recent notable TPCHD action statuses or an inspection above 35 red points in the last 60 days. Marker color, shape and letter show the latest observed TPCHD result/status.</div>
+  <div class="tpchd-map__legend" data-role="legend" aria-label="Map legend">
+    <div class="tpchd-map__legend-row">
+      <span class="tpchd-map__legend-title">Action</span>
+      <span class="tpchd-map__legend-items" data-role="legend-items"><span class="tpchd-map__legend-item">Loading current statuses...</span></span>
+    </div>
+    
+  </div>
+  
+  <div class="tpchd-map__stage">
+    <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections over 35 red points"></div>
+    <div class="tpchd-map__date-overlay" data-role="date-overlay" aria-live="polite">Loading date window</div>
+    <button type="button" class="tpchd-map__view-reset" data-role="view-reset" aria-label="Reset map view">Reset map</button>
+    <button type="button" class="tpchd-map__interaction" data-role="interaction-overlay">Tap to explore the map. Use Done when you want to keep scrolling.</button>
+    <button type="button" class="tpchd-map__done" data-role="interaction-done">Done</button>
+  </div>
+  <section class="tpchd-map__detail" data-role="selected-detail" aria-live="polite" aria-label="Selected restaurant inspection details">
+    <p class="tpchd-map__detail-empty">Select a restaurant marker to see the inspection timeline, current TPCHD status and source links here.</p>
+  </section>
+  <div class="tpchd-map__status">Loading inspection map...</div>
+  <div class="tpchd-map__source" data-role="source-note">Source: Tacoma-Pierce County Health Department inspection reports. Locations come from facility addresses shown in TPCHD inspection records.</div>
+  <div class="tpchd-map__source" data-role="coverage-note"></div>
+  <div class="tpchd-map__source tpchd-map__symbol-key" data-role="symbol-key"><div class="tpchd-map__symbol-key-title">Symbol key</div><div class="tpchd-map__symbol-key-items"><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#7f1d1d" aria-hidden="true"><span>C</span></span>Closed until approved to reopen</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#374151" aria-hidden="true"><span>P</span></span>Permanently closed</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#991b1b" aria-hidden="true"><span>N</span></span>Not permitted to operate</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-square" style="background:#9f1239" aria-hidden="true"><span>T</span></span>Closed for fixed period</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol" style="background:#b91c1c" aria-hidden="true"><span>!</span></span>Reinspection required</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol" style="background:#be123c" aria-hidden="true"><span>P</span></span>Failed pre-opening inspection</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol" style="background:#c2410c" aria-hidden="true"><span>O</span></span>Compliance order issued</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#1d4ed8" aria-hidden="true"><span>S</span></span>Follow-up/reinspection scheduled</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2563eb" aria-hidden="true"><span>S</span></span>Inspection scheduled</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2e7d32" aria-hidden="true"><span>G</span></span>Meets TPCHD standards</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#64748b" aria-hidden="true"><span>i</span></span>Administrative or not applicable</span><span class="tpchd-map__symbol-key-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>?</span></span>Current result unavailable</span></div><div class="tpchd-map__symbol-key-note">Marker color, shape and letter show the latest observed TPCHD result/status. Red-point totals appear in the selected restaurant details when available.</div></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function () {
+  var script = document.currentScript;
+  var wrapper = script && script.previousElementSibling;
+  while (wrapper && !wrapper.classList.contains("tpchd-map")) wrapper = wrapper.previousElementSibling;
+  if (!wrapper) return;
+  var mode = wrapper.getAttribute("data-mode") || "evergreen";
+  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/manifest.json";
+  var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
+  var ratingCategories = [{"id": "closed_until_approved_to_reopen", "label": "Closed until approved to reopen", "legend_label": "Closed until reopen", "color": "#7f1d1d", "letter": "C", "shape": "square", "rank": 10, "filter_group": "needs_attention"}, {"id": "closed_permanently", "label": "Permanently closed", "legend_label": "Permanently closed", "color": "#374151", "letter": "P", "shape": "square", "rank": 9, "filter_group": "closed"}, {"id": "not_permitted_to_operate", "label": "Not permitted to operate", "legend_label": "Not permitted", "color": "#991b1b", "letter": "N", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "closed_for_fixed_period", "label": "Closed for fixed period", "legend_label": "Fixed-period closure", "color": "#9f1239", "letter": "T", "shape": "square", "rank": 8, "filter_group": "closed"}, {"id": "reinspection_required", "label": "Reinspection required", "legend_label": "Reinspection required", "color": "#b91c1c", "letter": "!", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "preopening_failed", "label": "Failed pre-opening inspection", "legend_label": "Pre-opening failed", "color": "#be123c", "letter": "P", "shape": "diamond", "rank": 7, "filter_group": "needs_attention"}, {"id": "compliance_order_issued", "label": "Compliance order issued", "legend_label": "Compliance order", "color": "#c2410c", "letter": "O", "shape": "diamond", "rank": 6, "filter_group": "needs_attention"}, {"id": "follow_up_scheduled", "label": "Follow-up/reinspection scheduled", "legend_label": "Follow-up scheduled", "color": "#1d4ed8", "letter": "S", "shape": "circle", "rank": 5, "filter_group": "needs_attention"}, {"id": "scheduled_pending", "label": "Inspection scheduled", "legend_label": "Scheduled", "color": "#2563eb", "letter": "S", "shape": "circle", "rank": 4, "filter_group": "scheduled"}, {"id": "meets_standards", "label": "Meets TPCHD standards", "legend_label": "Later met standards", "color": "#2e7d32", "letter": "G", "shape": "circle", "rank": 3, "filter_group": "meets"}, {"id": "administrative_or_not_applicable", "label": "Administrative or not applicable", "legend_label": "Administrative", "color": "#64748b", "letter": "i", "shape": "circle", "rank": 2, "filter_group": "administrative"}, {"id": "current_result_unknown", "label": "Current result unavailable", "legend_label": "Unavailable", "color": "#6b7280", "letter": "?", "shape": "circle", "rank": 1, "filter_group": "unknown"}];
+  var canvas = wrapper.querySelector(".tpchd-map__canvas");
+  var status = wrapper.querySelector(".tpchd-map__status");
+  var legendItems = wrapper.querySelector('[data-role="legend-items"]');
+  var shown = wrapper.querySelector('[data-role="shown"]');
+  var maxRed = wrapper.querySelector('[data-role="max-red"]');
+  var windowFact = wrapper.querySelector('[data-role="window"]');
+  var dateOverlay = wrapper.querySelector('[data-role="date-overlay"]');
+  var periodControl = wrapper.querySelector('[data-role="period"]');
+  var statusControl = wrapper.querySelector('[data-role="status-filter"]');
+  var searchInput = wrapper.querySelector('[data-role="search"]');
+  var resetButton = wrapper.querySelector('[data-role="reset"]');
+  var viewResetButton = wrapper.querySelector('[data-role="view-reset"]');
+  var searchResults = wrapper.querySelector('[data-role="search-results"]');
+  var nearMe = wrapper.querySelector('[data-role="near-me"]');
+  var overlay = wrapper.querySelector('[data-role="interaction-overlay"]');
+  var done = wrapper.querySelector('[data-role="interaction-done"]');
+  var coverageNote = wrapper.querySelector('[data-role="coverage-note"]');
+  var detailPanel = wrapper.querySelector('[data-role="selected-detail"]');
+  if (detailPanel && mode !== "evergreen") detailPanel.hidden = true;
+  var map;
+  var layer;
+  var allFeatures = [];
+  var activeMetadata = {};
+  var markerByRecordId = {};
+  var featureByRecordId = {};
+  var renderedFeatures = [];
+  var suppressViewReset = false;
+  var userMapInteraction = false;
+  var userLocation = null;
+  function esc(value) {
+    return String(value || "").replace(/[&<>"']/g, function (ch) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch];
+    });
+  }
+  function safeUrl(value) {
+    value = String(value || "");
+    return /^https?:\/\//i.test(value) ? value.replace(/"/g, "%22") : "";
+  }
+  function normalizeSearch(value) {
+    var text = String(value || "").toLowerCase();
+    if (text.normalize) text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    text = text.replace(/&/g, " and ").replace(/[’']/g, "");
+    text = text.replace(/\b(?:llc|inc|corp|corporation|company|co|ltd|dba|the)\b/g, " ");
+    text = text.replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
+    return text;
+  }
+  function searchTokens(value) {
+    return normalizeSearch(value).split(" ").filter(function (token) { return token.length > 0; });
+  }
+  function editDistanceAtMost(a, b, limit) {
+    if (Math.abs(a.length - b.length) > limit) return false;
+    var previous = [];
+    for (var j = 0; j <= b.length; j++) previous[j] = j;
+    for (var i = 1; i <= a.length; i++) {
+      var current = [i];
+      var rowMin = current[0];
+      for (var k = 1; k <= b.length; k++) {
+        var cost = a.charAt(i - 1) === b.charAt(k - 1) ? 0 : 1;
+        current[k] = Math.min(previous[k] + 1, current[k - 1] + 1, previous[k - 1] + cost);
+        if (current[k] < rowMin) rowMin = current[k];
+      }
+      if (rowMin > limit) return false;
+      previous = current;
+    }
+    return previous[b.length] <= limit;
+  }
+  function featureSearchRecord(feature) {
+    if (feature.__tpchdSearch) return feature.__tpchdSearch;
+    var p = feature.properties || {};
+    var aliases = Array.isArray(p.aliases) ? p.aliases.join(" ") : String(p.aliases || "");
+    var name = normalizeSearch([p.business_name, p.display_name, p.known_as, aliases].filter(Boolean).join(" "));
+    var address = normalizeSearch([p.address, p.city, p.zip].filter(Boolean).join(" "));
+    var all = normalizeSearch([name, address, p.facility_id, p.inspection_type, p.inspection_result, p.latest_inspection_result, p.current_status_label, p.latest_result_status_label, p.closure_reader_label, p.closure_reason_summary].filter(Boolean).join(" "));
+    feature.__tpchdSearch = {
+      all: all,
+      address: address,
+      name: name,
+      tokens: all.split(" ").filter(Boolean)
+    };
+    return feature.__tpchdSearch;
+  }
+  function tokenMatches(token, candidate) {
+    if (!token || !candidate) return false;
+    if (candidate === token || candidate.indexOf(token) === 0 || token.indexOf(candidate) === 0) return true;
+    if (token.length >= 4 && candidate.length >= 4 && editDistanceAtMost(token, candidate, token.length > 7 ? 2 : 1)) return true;
+    return false;
+  }
+  function scoreSearch(feature, query) {
+    var normalized = normalizeSearch(query);
+    if (!normalized) return 1;
+    var record = featureSearchRecord(feature);
+    var tokens = normalized.split(" ").filter(Boolean);
+    if (!tokens.length) return 1;
+    var score = 0;
+    if (record.name === normalized) score += 200;
+    if (record.name.indexOf(normalized) === 0) score += 150;
+    if (record.name.indexOf(normalized) >= 0) score += 120;
+    if (record.address.indexOf(normalized) >= 0) score += 80;
+    var matched = 0;
+    tokens.forEach(function (token) {
+      var tokenScore = 0;
+      record.tokens.forEach(function (candidate) {
+        if (candidate === token) tokenScore = Math.max(tokenScore, 24);
+        else if (candidate.indexOf(token) === 0) tokenScore = Math.max(tokenScore, 18);
+        else if (token.length >= 3 && candidate.indexOf(token) >= 0) tokenScore = Math.max(tokenScore, 12);
+        else if (tokenMatches(token, candidate)) tokenScore = Math.max(tokenScore, 8);
+      });
+      if (tokenScore > 0) matched += 1;
+      score += tokenScore;
+    });
+    return matched === tokens.length ? score : 0;
+  }
+  function setStatus(message) {
+    if (status) status.textContent = message || "";
+  }
+  function setFact(node, value) {
+    if (node) node.textContent = value == null || value === "" ? "0" : String(value);
+  }
+  function hasValue(value) {
+    return value !== undefined && value !== null && String(value).trim() !== "";
+  }
+  function redPoints(feature) {
+    var props = feature.properties || {};
+    var value = parseInt(props.worst_red_points != null && props.worst_red_points !== "" ? props.worst_red_points : props.red_points, 10);
+    return isNaN(value) ? 0 : value;
+  }
+  function latestRedPoints(feature) {
+    var props = feature.properties || {};
+    var raw = props.latest_red_points != null && String(props.latest_red_points).trim() !== "" ? props.latest_red_points : "";
+    var value = parseInt(raw, 10);
+    return isNaN(value) ? null : value;
+  }
+  function latestRedPointsLabel(feature) {
+    var props = feature.properties || {};
+    var value = hasValue(props.latest_red_points) ? props.latest_red_points : "";
+    return value === "" ? "Not available in this map dataset" : String(value) + " red points";
+  }
+  function redPointsText(value, fallback) {
+    return hasValue(value) ? String(value) + " red points" : (fallback || "Not available in this map dataset");
+  }
+  function latestInspectionText(props) {
+    props = props || {};
+    var type = props.latest_inspection_type || props.inspection_type || "Inspection";
+    var date = props.latest_inspection_date || props.inspection_date_iso || props.inspection_date || "";
+    return String(type) + (date ? " on " + formatDateText(date) : "");
+  }
+  function setViewResetVisible(visible) {
+    if (!viewResetButton) return;
+    viewResetButton.classList.toggle("is-visible", !!visible);
+  }
+  function fitOptionsForMode() {
+    var isSmall = canvas && canvas.clientWidth && canvas.clientWidth < 560;
+    if (mode !== "evergreen") {
+      return {
+        paddingTopLeft: isSmall ? [66, 78] : [96, 72],
+        paddingBottomRight: isSmall ? [40, 86] : [190, 72],
+        maxZoom: isSmall ? 12 : 13
+      };
+    }
+    return {
+      paddingTopLeft: isSmall ? [58, 68] : [72, 54],
+      paddingBottomRight: isSmall ? [28, 70] : [92, 52],
+      maxZoom: 14
+    };
+  }
+  function fitMapToFeatures(features) {
+    if (!map) return;
+    suppressViewReset = true;
+    userMapInteraction = false;
+    if (features && features.length && layer) {
+      map.fitBounds(layer.getBounds(), fitOptionsForMode());
+    } else {
+      map.setView([47.2529, -122.4443], 10);
+    }
+    setViewResetVisible(false);
+    window.setTimeout(function () {
+      suppressViewReset = false;
+    }, 800);
+  }
+  function invalidateMapSize() {
+    if (!map) return;
+    suppressViewReset = true;
+    map.invalidateSize({ pan: false });
+    window.setTimeout(function () {
+      suppressViewReset = false;
+    }, 120);
+  }
+  function worstInspectionHtml(props) {
+    props = props || {};
+    var value = hasValue(props.worst_red_points) ? props.worst_red_points : props.red_points;
+    var count = parseInt(props.over_threshold_count || 0, 10);
+    if (!hasValue(value) && (!count || isNaN(count))) return "";
+    var date = props.worst_inspection_date || props.latest_over_threshold_date || "";
+    var html = "";
+    if (hasValue(value)) {
+      html += '<strong>Worst inspection shown:</strong> ' + esc(redPointsText(value)) + (date ? ' on ' + esc(formatDateText(date)) : '') + '<br>';
+    }
+    if (count > 0) {
+      html += '<strong>Over-35 inspections observed:</strong> ' + esc(count) + '<br>';
+    }
+    return html;
+  }
+  function featureDate(feature) {
+    var props = feature.properties || {};
+    return String(props.latest_inspection_date || props.inspection_date_iso || props.latest_over_threshold_date || props.inspection_date || "");
+  }
+  function featureYear(feature) {
+    var props = feature.properties || {};
+    if (Array.isArray(props.inspection_years) && props.inspection_years.length) return String(props.inspection_years[0] || "");
+    return String(props.inspection_year || (featureDate(feature).slice(0, 4)) || "");
+  }
+  function parseDateValue(value) {
+    value = String(value || "");
+    var iso = value;
+    var us = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(value);
+    if (us) {
+      iso = us[3] + "-" + String(us[1]).padStart(2, "0") + "-" + String(us[2]).padStart(2, "0");
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return null;
+    var date = new Date(iso + "T00:00:00Z");
+    return isNaN(date.getTime()) ? null : date;
+  }
+  function formatDateText(value) {
+    var date = parseDateValue(value);
+    if (!date) return String(value || "");
+    return date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  }
+  function generatedAsOfLabel() {
+    var raw = activeMetadata.generated_at || "";
+    if (!raw) return "";
+    var date = new Date(raw);
+    if (isNaN(date.getTime())) return "";
+    return date.toLocaleString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZoneName: "short"
+    });
+  }
+  function noLaterFollowupText() {
+    var asOf = generatedAsOfLabel();
+    return (asOf ? "As of " + asOf + ", no" : "No") + " later follow-up or reinspection was observed in TPCHD inspection history.";
+  }
+  function followUpLabelText(value) {
+    value = String(value || "");
+    if (value.indexOf("No later follow-up or reinspection observed") === 0) return noLaterFollowupText();
+    return value;
+  }
+  function dateLabel(features) {
+    var dates = features.map(featureDate).filter(Boolean).sort();
+    if (!dates.length) return "No dates";
+    return dates[0] === dates[dates.length - 1] ? formatDateText(dates[0]) : formatDateText(dates[0]) + " to " + formatDateText(dates[dates.length - 1]);
+  }
+  function newestDate(features) {
+    var dates = features.map(function (feature) { return parseDateValue(featureDate(feature)); }).filter(Boolean);
+    if (!dates.length) return null;
+    return new Date(Math.max.apply(null, dates.map(function (date) { return date.getTime(); })));
+  }
+  function periodMatches(feature, period, newest) {
+    period = period || "recent60";
+    if (period === "all") return true;
+    if (period.indexOf("year:") === 0) {
+      var wanted = period.slice(5);
+      var years = (feature.properties || {}).inspection_years;
+      if (Array.isArray(years)) return years.map(String).indexOf(wanted) >= 0;
+      return featureYear(feature) === wanted;
+    }
+    var date = parseDateValue(featureDate(feature));
+    if (!date || !newest) return false;
+    if (period === "ytd") {
+      return date.getUTCFullYear() === newest.getUTCFullYear();
+    }
+    if (period === "recent60" || period === "recent90") {
+      var cutoff = new Date(newest.getTime());
+      cutoff.setUTCDate(cutoff.getUTCDate() - (period === "recent60" ? 60 : 90));
+      return date >= cutoff;
+    }
+    return true;
+  }
+  function markerTitle(feature) {
+    var p = feature.properties || {};
+    var name = p.business_name || "TPCHD inspection";
+    var statusText = p.current_status_label || p.latest_result_status_label || p.current_rating_label || "latest result unavailable";
+    var parts = [name, statusText, "latest inspection: " + latestInspectionText(p)];
+    if (hasValue(p.latest_red_points)) parts.push("latest red points " + latestRedPointsLabel(feature));
+    var worstValue = hasValue(p.worst_red_points) ? p.worst_red_points : p.red_points;
+    if (hasValue(worstValue)) parts.push("worst inspection shown " + redPointsText(worstValue));
+    return parts.join(", ");
+  }
+  function currentStatusLabel(props) {
+    props = props || {};
+    if (props.current_status_label || props.latest_result_status_label) {
+      var statusParts = [String(props.current_status_label || props.latest_result_status_label)];
+      if (props.latest_inspection_result) statusParts.push(String(props.latest_inspection_result));
+      if (props.current_score !== undefined && props.current_score !== null && String(props.current_score).trim() !== "") {
+        statusParts.push("score " + String(props.current_score));
+      }
+      if (props.current_last_inspection_date) statusParts.push("as of " + formatDateText(props.current_last_inspection_date));
+      return statusParts.join(" | ");
+    }
+    var parts = [];
+    if (props.current_grade) parts.push(String(props.current_grade));
+    if (props.current_score !== undefined && props.current_score !== null && String(props.current_score).trim() !== "") {
+      parts.push("score " + String(props.current_score));
+    }
+    if (props.current_last_inspection_date) parts.push("as of " + formatDateText(props.current_last_inspection_date));
+    return parts.join(" | ");
+  }
+  function resolutionStatusLabel(value) {
+    value = String(value || "");
+    var labels = {
+      cleared_by_later_closure_followup: "Later closure follow-up indicates the facility was cleared to operate.",
+      cleared_by_later_meets_standards: "A later inspection says the facility met TPCHD minimum health standards.",
+      later_action_status_observed: "A later action-status inspection was observed.",
+      later_followup_or_inspection_scheduled: "A later follow-up or inspection was scheduled.",
+      later_reinspection_required: "A later inspection still required reinspection.",
+      later_status_observed: "A later inspection status was observed.",
+      no_later_evidence_observed: noLaterFollowupText(),
+      needs_review_no_later_evidence: "Processing review needed: no later inspection was parsed for this facility.",
+      not_reader_action_status: "This closure-like row is not treated as a current reader action status."
+    };
+    if (labels[value]) return labels[value];
+    if (value.indexOf("later_action_status_observed:") === 0) {
+      return "A later action-status inspection was observed: " + value.split(":").slice(1).join(":").replace(/_/g, " ") + ".";
+    }
+    return value ? value.replace(/_/g, " ") + "." : "";
+  }
+  function ratingCategory(props) {
+    props = props || {};
+    var categoryId = String(props.current_status_category || props.latest_result_status || props.current_rating_category || "");
+    for (var i = 0; i < ratingCategories.length; i++) {
+      if (String(ratingCategories[i].id || "") === categoryId) return ratingCategories[i];
+    }
+    return ratingCategories[ratingCategories.length - 1] || { color: "#6b7280", letter: "?", label: "Unavailable" };
+  }
+  function legendItemHtml(item, count) {
+    item = item || {};
+    var shape = String(item.shape || "");
+    var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
+    var color = String(item.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    var style = "background:" + color;
+    var countText = count == null ? "" : " (" + count + ")";
+    return '<span class="tpchd-map__legend-item">' +
+      '<span class="tpchd-map__legend-symbol' + shapeClass + '" style="' + style + '" aria-hidden="true"><span>' + esc(item.letter || "?") + '</span></span>' +
+      esc(item.legend_label || item.label || "Status unavailable") + esc(countText) +
+      '</span>';
+  }
+  function updateLegend(features) {
+    if (!legendItems || mode !== "evergreen") return;
+    var counts = {};
+    features.forEach(function (feature) {
+      var id = statusId(feature);
+      if (!id) return;
+      counts[id] = (counts[id] || 0) + 1;
+    });
+    var items = ratingCategories.filter(function (item) {
+      return counts[String(item.id || "")] > 0;
+    }).map(function (item) {
+      return legendItemHtml(item, counts[String(item.id || "")]);
+    });
+    legendItems.innerHTML = items.length ? items.join("") : '<span class="tpchd-map__legend-item">No statuses in the current view</span>';
+  }
+  function statusId(feature) {
+    var props = feature.properties || {};
+    return String(props.current_status_category || props.latest_result_status || "");
+  }
+  function statusGroup(feature) {
+    var props = feature.properties || {};
+    return String(props.latest_result_status_group || "");
+  }
+  function defaultActionStatus(feature) {
+    var props = feature.properties || {};
+    var value = props.default_action_status;
+    if (value === true) return true;
+    return /^(1|true|yes)$/i.test(String(value || ""));
+  }
+  function statusMatches(feature, wanted) {
+    wanted = wanted || "needs_attention";
+    if (wanted === "all") return true;
+    var id = statusId(feature);
+    var group = statusGroup(feature);
+    if (wanted === "needs_attention") {
+      return defaultActionStatus(feature);
+    }
+    if (wanted === "closed") return group === "closed" || id === "closed_until_approved_to_reopen";
+    return id === wanted || group === wanted;
+  }
+  function severityBin(value) {
+    var points = parseInt(value, 10);
+    if (isNaN(points)) {
+      return { id: "latest_points_unavailable", label: "Latest red points unavailable", color: "#64748b" };
+    }
+    if (points <= 35) {
+      return { id: "latest_points_0_35", label: "0-35 latest red points", color: "#94a3b8" };
+    }
+    for (var i = 0; i < severityBins.length; i++) {
+      var bin = severityBins[i];
+      var max = bin.max == null ? Infinity : Number(bin.max);
+      if (points >= Number(bin.min) && points <= max) return bin;
+    }
+    return severityBins[0] || { color: "#b61f2d", label: "More than 35 red points" };
+  }
+  function markerIcon(feature) {
+    if (mode === "evergreen") {
+      var rating = ratingCategory(feature.properties || {});
+      var ratingColor = String(rating.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+      var letter = esc(rating.letter || "?");
+      var shape = String(rating.shape || "circle");
+      var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
+      return L.divIcon({
+        className: "tpchd-map-marker",
+        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -12]
+      });
+    }
+    var bin = severityBin(redPoints(feature));
+    var color = String(bin.color || "#b61f2d").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    return L.divIcon({
+      className: "tpchd-map-marker",
+      html: '<span class="tpchd-map-marker__shape" style="background:' + color + '" aria-hidden="true"><span>!</span></span>',
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12]
+    });
+  }
+  function markerColor(feature, category) {
+    category = category || {};
+    return category.color || "#6b7280";
+  }
+  function timelineHtml(items, options) {
+    if (!Array.isArray(items) || !items.length) return "";
+    options = options || {};
+    var limit = Number(options.limit == null ? 8 : options.limit);
+    var visible = limit > 0 ? items.slice(-limit) : items.slice();
+    var hidden = items.length - visible.length;
+    var html = '<div class="tpchd-map__timeline"><strong>Inspection timeline</strong><ol>';
+    visible.forEach(function (item) {
+      var date = item.inspection_date_iso || item.inspection_date || "";
+      var reportUrl = safeUrl(item.report_url);
+      var parts = [];
+      if (date) parts.push(formatDateText(date));
+      if (item.inspection_type) parts.push(esc(item.inspection_type));
+      if (item.red_points !== undefined && item.red_points !== null && String(item.red_points).trim() !== "") parts.push(esc(item.red_points) + " red points");
+      var badges = [];
+      if (item.is_high_red) badges.push("over 35 red points");
+      if (item.follow_up_needed === "yes") badges.push("follow-up needed");
+      if (item.is_latest_observed) badges.push("latest observed");
+      html += '<li>' + parts.join(" | ");
+      if (item.inspection_result) html += '<br><span>' + esc(item.inspection_result) + '</span>';
+      if (item.closure_reader_label) html += '<br><span>Closure context: ' + esc(item.closure_reader_label) + '</span>';
+      if (item.closure_reason_summary) html += '<br><span>' + esc(item.closure_reason_summary) + '</span>';
+      if (item.follow_up_comment_summary) html += '<br><span>' + esc(item.follow_up_comment_summary) + '</span>';
+      if (item.next_follow_up_date) html += '<br><span>Next follow-up date observed: ' + esc(item.next_follow_up_date) + '</span>';
+      if (item.resolution_status) {
+        html += '<br><span>Resolution evidence: ' + esc(resolutionStatusLabel(item.resolution_status));
+        if (item.resolution_date) html += ' ' + esc(formatDateText(item.resolution_date));
+        html += '</span>';
+      }
+      if (item.next_later_inspection_date) {
+        html += '<br><span>Next later observed inspection: ' + esc(formatDateText(item.next_later_inspection_date));
+        if (item.next_later_inspection_type) html += ' | ' + esc(item.next_later_inspection_type);
+        if (item.next_later_inspection_result) html += ' | ' + esc(item.next_later_inspection_result);
+        html += '</span>';
+      }
+      if (item.latest_observed_inspection_date) {
+        html += '<br><span>Latest observed inspection for this facility: ' + esc(formatDateText(item.latest_observed_inspection_date));
+        if (item.latest_observed_inspection_result) html += ' | ' + esc(item.latest_observed_inspection_result);
+        html += '</span>';
+      }
+      if (item.needs_review_reason) html += '<br><span>Processing note: ' + esc(item.needs_review_reason) + '</span>';
+      if (badges.length) html += '<br><em>' + esc(badges.join(" · ")) + '</em>';
+      if (reportUrl) html += '<br><a href="' + reportUrl + '" target="_blank" rel="noopener">Download report</a>';
+      else html += '<br><span>' + esc(reportAvailabilityLabel(item)) + '</span>';
+      html += '</li>';
+    });
+    html += '</ol>';
+    if (hidden > 0) html += '<span>' + hidden + ' older timeline item' + (hidden === 1 ? '' : 's') + ' hidden in this compact view.</span>';
+    html += '</div>';
+    return html;
+  }
+  function sourceLinksHtml(links, className) {
+    if (!links.length) return "";
+    return '<div class="' + className + '">' + links.join(' | ') + '</div>';
+  }
+  function inspectionCount(feature) {
+    var p = feature.properties || {};
+    var count = parseInt(p.inspection_count || 0, 10);
+    if (!isNaN(count) && count > 0) return count;
+    return Array.isArray(p.timeline) ? p.timeline.length : 0;
+  }
+  function reportAvailabilityLabel(item) {
+    item = item || {};
+    var explicit = item.latest_report_availability || item.report_availability_label || "";
+    if (explicit) return String(explicit);
+    if (safeUrl(item.report_url)) return "Inspection report link available.";
+    var status = String(item.report_fetch_status || "").toLowerCase();
+    var resultText = String([item.inspection_type, item.inspection_result].filter(Boolean).join(" ")).toLowerCase();
+    if (status.indexOf("source_no_document") >= 0 || status.indexOf("no_document") >= 0 || status.indexOf("no documents") >= 0) {
+      return "Report not available from TPCHD for this inspection.";
+    }
+    if (resultText.indexOf("scheduled") >= 0 || resultText.indexOf("rescheduled") >= 0) {
+      return "Report not available from TPCHD for this scheduled inspection.";
+    }
+    if (status === "not_fetched") return "Report has not been downloaded into this dataset yet.";
+    return "No report link was observed for this inspection.";
+  }
+  function fallbackReportLink(feature) {
+    var p = feature.properties || {};
+    var url = safeUrl(p.fallback_report_url);
+    if (!url) return "";
+    var label = p.fallback_report_label || "Earlier available inspection report.";
+    return '<a href="' + url + '" target="_blank" rel="noopener">Earlier available report</a><span class="tpchd-map__link-note"> ' + esc(label) + '</span>';
+  }
+  function selectedDetailHtml(feature) {
+    var p = feature.properties || {};
+    var reportUrl = safeUrl(p.report_url);
+    var fallbackLink = fallbackReportLink(feature);
+    var detailUrl = safeUrl(p.facility_detail_url);
+    var currentStatus = currentStatusLabel(p);
+    var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
+    var followUp = followUpLabelText(p.follow_up_label || "");
+    var closureLabel = p.closure_reader_label || "";
+    var closureReason = p.closure_reason_summary || "";
+    var closureExplanation = p.closure_reader_explanation || "";
+    var resolutionLabel = resolutionStatusLabel(p.resolution_status);
+    var processingNote = p.needs_review_reason || "";
+    var summaryItems = [];
+    if (hasValue(p.latest_red_points)) {
+      summaryItems.push('<div><strong>' + esc(p.latest_red_points) + '</strong><span>latest red points</span></div>');
+    }
+    summaryItems.push('<div><strong>' + esc(latestDate ? formatDateText(latestDate) : "Date unavailable") + '</strong><span>latest inspection date</span></div>');
+    if (hasValue(p.worst_red_points)) {
+      summaryItems.push('<div><strong>' + esc(p.worst_red_points) + '</strong><span>worst inspection points shown</span></div>');
+      summaryItems.push('<div><strong>' + esc(worstDate ? formatDateText(worstDate) : "Date unavailable") + '</strong><span>worst inspection date</span></div>');
+    }
+    if (parseInt(p.over_threshold_count || 0, 10) > 0) {
+      summaryItems.push('<div><strong>' + esc(p.over_threshold_count || 0) + '</strong><span>inspections over 35 red points</span></div>');
+    }
+    summaryItems.push('<div><strong>' + esc(inspectionCount(feature)) + '</strong><span>total inspections observed</span></div>');
+    var links = [];
+    if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
+    if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
+    else if (fallbackLink) links.push(fallbackLink);
+    if (safeUrl(p.resolution_source_url) && safeUrl(p.resolution_source_url) !== reportUrl && safeUrl(p.resolution_source_url) !== detailUrl) links.push('<a href="' + safeUrl(p.resolution_source_url) + '" target="_blank" rel="noopener">Resolution source</a>');
+    var html = '<div class="tpchd-map__detail-kicker">Selected restaurant</div>' +
+      '<h2>' + esc(p.business_name || "Unnamed restaurant") + '</h2>' +
+      '<p>' + esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '</p>' +
+      (currentStatus ? '<p><strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '</p>' : '') +
+      (p.current_status_explanation ? '<p>' + esc(p.current_status_explanation) + '</p>' : '') +
+      (closureLabel ? '<p><strong>Closure context:</strong> ' + esc(closureLabel) + '</p>' : '') +
+      (closureExplanation ? '<p>' + esc(closureExplanation) + '</p>' : '') +
+      (closureReason ? '<p><strong>Source comment:</strong> ' + esc(closureReason) + '</p>' : '') +
+      (resolutionLabel ? '<p><strong>Resolution evidence:</strong> ' + esc(resolutionLabel) + (p.resolution_date ? ' ' + esc(formatDateText(p.resolution_date)) : '') + '</p>' : '') +
+      (p.latest_observed_inspection_date ? '<p><strong>Latest observed inspection:</strong> ' + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? ' | ' + esc(p.latest_observed_inspection_result) : '') + '</p>' : '') +
+      '<p><strong>Latest inspection:</strong> ' + esc(latestInspectionText(p)) + '</p>' +
+      '<p><strong>Latest inspection report:</strong> ' + esc(reportAvailabilityLabel(p)) + '</p>' +
+      (processingNote ? '<p><strong>Processing note:</strong> ' + esc(processingNote) + '</p>' : '') +
+      '<div class="tpchd-map__detail-summary">' +
+      summaryItems.join('') +
+      '</div>' +
+      (followUp ? '<p><strong>Follow-up/reinspection:</strong> ' + esc(followUp) + '</p>' : '') +
+      timelineHtml(p.timeline, { limit: 0 }) +
+      sourceLinksHtml(links, "tpchd-map__detail-links");
+    return html;
+  }
+  function showSelectedDetail(feature, shouldScroll) {
+    if (!detailPanel || !feature || mode !== "evergreen") return;
+    detailPanel.innerHTML = selectedDetailHtml(feature);
+    if (shouldScroll && window.matchMedia && window.matchMedia("(max-width: 640px)").matches) {
+      setTimeout(function () {
+        try {
+          detailPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        } catch (err) {
+          detailPanel.scrollIntoView();
+        }
+      }, 80);
+    }
+  }
+  function clearSelectedDetail() {
+    if (!detailPanel || mode !== "evergreen") return;
+    detailPanel.innerHTML = '<p class="tpchd-map__detail-empty">Select a restaurant marker to see the inspection timeline, current TPCHD status and source links here.</p>';
+  }
+  function popupHtml(feature) {
+    var p = feature.properties || {};
+    var reportUrl = safeUrl(p.report_url);
+    var fallbackLink = fallbackReportLink(feature);
+    var detailUrl = safeUrl(p.facility_detail_url);
+    var currentStatus = currentStatusLabel(p);
+    var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
+    var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
+    var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
+    var followUp = followUpLabelText(p.follow_up_label || "");
+    var closureLabel = p.closure_reader_label || "";
+    var resolutionLabel = resolutionStatusLabel(p.resolution_status);
+    var links = [];
+    if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
+    if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
+    else if (fallbackLink) links.push(fallbackLink);
+    if (safeUrl(p.resolution_source_url) && safeUrl(p.resolution_source_url) !== reportUrl && safeUrl(p.resolution_source_url) !== detailUrl) links.push('<a href="' + safeUrl(p.resolution_source_url) + '" target="_blank" rel="noopener">Resolution source</a>');
+    if (mode === "evergreen") {
+      return '<strong>' + esc(p.business_name) + '</strong><br>' +
+        esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
+        (currentStatus ? '<strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '<br>' : '') +
+        '<strong>Latest inspection:</strong> ' + esc(latestInspectionText(p)) + '<br>' +
+        '<strong>Latest report:</strong> ' + esc(reportAvailabilityLabel(p)) + '<br>' +
+        worstInspectionHtml(p) +
+        '<strong>Total inspections observed:</strong> ' + esc(inspectionCount(feature)) +
+        (closureLabel ? '<br><strong>Closure context:</strong> ' + esc(closureLabel) : '') +
+        (followUp ? '<br><strong>Follow-up/reinspection:</strong> ' + esc(followUp) : '') +
+        (resolutionLabel ? '<br><strong>Resolution evidence:</strong> ' + esc(resolutionLabel) + (p.resolution_date ? ' ' + esc(formatDateText(p.resolution_date)) : '') : '') +
+        '<span class="tpchd-map__popup-note">Timeline and source details are shown below the map.</span>' +
+        sourceLinksHtml(links, "tpchd-map__popup-links");
+    }
+    return '<strong>' + esc(p.business_name) + '</strong><br>' +
+      esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
+      (currentStatus ? '<strong>Current TPCHD status:</strong> ' + esc(currentStatus) + '<br>' : '') +
+      (p.current_status_timing_label ? esc(p.current_status_timing_label) + '<br>' : '') +
+      '<strong>Inspection shown:</strong> ' + esc(p.red_points) + ' red points' + (inspectionDate ? ' on ' + esc(formatDateText(inspectionDate)) : '') + '<br>' +
+      esc(p.inspection_type) + (p.inspection_result ? ' | ' + esc(p.inspection_result) : '') +
+      (followUp ? '<br><strong>Follow-up/reinspection:</strong> ' + esc(followUp) : '') +
+      (links.length ? '<br>' + links.join(' | ') : '');
+  }
+  function initMap() {
+    if (typeof L === "undefined") {
+      setStatus("Map library failed to load.");
+      return false;
+    }
+    map = L.map(canvas, { scrollWheelZoom: false }).setView([47.2529, -122.4443], 10);
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      maxZoom: 20,
+      subdomains: "abcd",
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+    map.on("dragstart zoomstart", function () {
+      if (!suppressViewReset) userMapInteraction = true;
+    });
+    map.on("moveend zoomend", function () {
+      if (!suppressViewReset && userMapInteraction && renderedFeatures.length) {
+        setViewResetVisible(true);
+      }
+    });
+    if (window.matchMedia && window.matchMedia("(max-width: 640px)").matches) {
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    }
+    if (overlay) overlay.addEventListener("click", function () {
+      wrapper.classList.add("is-map-active");
+      if (map.dragging) map.dragging.enable();
+      if (map.touchZoom) map.touchZoom.enable();
+    });
+    if (done) done.addEventListener("click", function () {
+      wrapper.classList.remove("is-map-active");
+      if (map.dragging) map.dragging.disable();
+      if (map.touchZoom) map.touchZoom.disable();
+    });
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(function () { setTimeout(invalidateMapSize, 40); });
+      ro.observe(canvas);
+    }
+    return true;
+  }
+  function render(features) {
+    if (!map) return;
+    renderedFeatures = features || [];
+    if (layer) map.removeLayer(layer);
+    markerByRecordId = {};
+    featureByRecordId = {};
+    clearSelectedDetail();
+    layer = L.geoJSON({ type: "FeatureCollection", features: features }, {
+      pointToLayer: function (feature, latlng) {
+        var title = markerTitle(feature);
+        return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
+      },
+      onEachFeature: function (feature, marker) {
+        var recordId = String((feature.properties || {}).record_id || "");
+        marker.on("click", function () {
+          if (!suppressViewReset) userMapInteraction = true;
+          showSelectedDetail(feature, true);
+        });
+        marker.bindPopup(popupHtml(feature), {
+          maxWidth: 360,
+          maxHeight: 430,
+          autoPanPadding: [18, 18]
+        });
+        if (recordId) {
+          markerByRecordId[recordId] = marker;
+          featureByRecordId[recordId] = feature;
+        }
+      }
+    }).addTo(map);
+    fitMapToFeatures(features);
+    setFact(shown, features.length);
+    setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
+    updateLegend(features);
+    var renderedDateLabel = dateLabel(features);
+    if (windowFact) windowFact.textContent = renderedDateLabel;
+    if (dateOverlay) dateOverlay.textContent = features.length ? "Latest inspections: " + renderedDateLabel : "No matching inspections";
+    if (features.length) {
+      var shownLabel = mode === "evergreen"
+        ? " mapped " + (features.length === 1 ? "facility." : "facilities.")
+        : " over 35 red point inspection " + (features.length === 1 ? "location." : "locations.");
+      setStatus("Showing " + features.length + shownLabel);
+    } else {
+      setStatus("No mapped inspections match the current filters.");
+    }
+    updateSearchResults(features);
+    setTimeout(invalidateMapSize, 120);
+  }
+  function updateCoverage(metadata, dataFileUrl) {
+    activeMetadata = metadata || {};
+    var unmapped = Number(activeMetadata.unmapped_records || 0);
+    var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
+    var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
+    var parts = [];
+    if (mode === "evergreen") {
+      parts.push("The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.");
+      parts.push("Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.");
+      parts.push("The date window is based on inspection/result dates in TPCHD records collected for this publication, not a separate date search on TPCHD's site.");
+    }
+    parts.push(mode === "evergreen" ? "Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points." : "The map includes facilities with inspections with more than 35 red points.");
+    if (unmapped) parts.push(unmapped + " source record" + (unmapped === 1 ? " is" : "s are") + " in the dataset but not drawn because no reviewed coordinate was available.");
+    if (excluded) parts.push(excluded + " inspection" + (excluded === 1 ? " has" : "s have") + " 35 or fewer red points and " + (excluded === 1 ? "is" : "are") + " not drawn on this map.");
+    if (coverageNote) coverageNote.textContent = parts.join(" ");
+  }
+  function applyFilters() {
+    var period = periodControl ? periodControl.value : (mode === "evergreen" ? "recent60" : "all");
+    var statusFilter = statusControl ? statusControl.value : "all";
+    var query = searchInput ? searchInput.value : "";
+    var normalizedQuery = normalizeSearch(query);
+    var newest = newestDate(allFeatures);
+    var features;
+    if (mode === "evergreen" && normalizedQuery) {
+      features = allFeatures.filter(function (feature) {
+        return scoreSearch(feature, query) > 0;
+      });
+    } else {
+      features = allFeatures.filter(function (feature) {
+        if (!periodMatches(feature, period, newest)) return false;
+        if (mode === "evergreen" && !statusMatches(feature, statusFilter)) return false;
+        return mode === "evergreen" ? true : redPoints(feature) > 35;
+      });
+    }
+    if (normalizedQuery) {
+      features.sort(function (a, b) {
+        return scoreSearch(b, query) - scoreSearch(a, query) || redPoints(b) - redPoints(a);
+      });
+    }
+    if (userLocation) {
+      features.sort(function (a, b) { return distanceMiles(a, userLocation) - distanceMiles(b, userLocation); });
+    }
+    render(features);
+    if (mode === "evergreen" && normalizedQuery) {
+      setStatus("Showing " + features.length + " matching mapped facilities across all statuses.");
+      if (dateOverlay) dateOverlay.textContent = features.length ? "Search results across all statuses: " + dateLabel(features) : "No matching restaurant or address";
+    }
+  }
+  function updateSearchResults(features) {
+    if (!searchResults || !searchInput) return;
+    var query = searchInput.value || "";
+    if (!normalizeSearch(query)) {
+      searchResults.hidden = true;
+      searchResults.innerHTML = "";
+      return;
+    }
+    if (!features.length) {
+      searchResults.hidden = false;
+      searchResults.innerHTML = '<div class="tpchd-map__result" role="status"><strong>No matching restaurants found across all statuses</strong><span>Try fewer words, a ZIP code, or part of the address.</span></div>';
+      return;
+    }
+    var grouped = {};
+    features.forEach(function (feature) {
+      var p = feature.properties || {};
+      var key = String(p.facility_id || p.business_name || p.address || p.record_id || "");
+      if (!grouped[key]) grouped[key] = { feature: feature, count: 0, recordCount: 0, maxRed: 0, maxRedDate: "", score: 0 };
+      grouped[key].recordCount += 1;
+      grouped[key].count = Math.max(grouped[key].count, parseInt(p.over_threshold_count || 0, 10) || 0);
+      if (redPoints(feature) > grouped[key].maxRed) {
+        grouped[key].maxRed = redPoints(feature);
+        grouped[key].maxRedDate = featureDate(feature);
+        grouped[key].feature = feature;
+      }
+      grouped[key].score = Math.max(grouped[key].score, scoreSearch(feature, query));
+    });
+    var results = Object.keys(grouped).map(function (key) { return grouped[key]; }).sort(function (a, b) {
+      return b.score - a.score || b.maxRed - a.maxRed || featureDate(b.feature).localeCompare(featureDate(a.feature));
+    }).slice(0, 8);
+    searchResults.hidden = false;
+    searchResults.innerHTML = results.map(function (item) {
+      var p = item.feature.properties || {};
+      var recordId = esc(p.record_id || "");
+      var name = esc(p.business_name || "Unnamed restaurant");
+      var address = esc([p.address, p.city, p.zip].filter(Boolean).join(" "));
+      var count = item.count > 0
+        ? (item.count === 1 ? "1 over-35 inspection observed" : item.count + " over-35 inspections observed")
+        : (item.recordCount === 1 ? "1 inspection-status record observed" : item.recordCount + " inspection-status records observed");
+      var currentStatus = currentStatusLabel(p);
+      var worst = 'Worst inspection points shown: ' + item.maxRed + ' red points' + (item.maxRedDate ? ' on ' + formatDateText(item.maxRedDate) : '');
+      return '<button type="button" class="tpchd-map__result" data-record-id="' + recordId + '"><strong>' + name + '</strong><span>' + address + '</span><span>Search match across all statuses</span><span>' + count + '</span><span>' + esc(worst) + '</span>' + (currentStatus ? '<span>Latest TPCHD result: ' + esc(currentStatus) + '</span>' : '') + '</button>';
+    }).join("");
+    Array.prototype.forEach.call(searchResults.querySelectorAll("[data-record-id]"), function (button) {
+      button.addEventListener("click", function () { selectRecord(button.getAttribute("data-record-id")); });
+    });
+  }
+  function selectRecord(recordId) {
+    var marker = markerByRecordId[String(recordId || "")];
+    if (!marker || !map) return;
+    var latlng = marker.getLatLng();
+    map.setView(latlng, Math.max(map.getZoom(), 14));
+    showSelectedDetail(featureByRecordId[String(recordId || "")], true);
+    marker.openPopup();
+  }
+  function populateControls(geojson) {
+    if (periodControl) {
+      var years = ((geojson.metadata || {}).available_years || allFeatures.map(featureYear)).filter(Boolean);
+      years = Array.from(new Set(years)).sort().reverse();
+      years.forEach(function (year) {
+        var option = document.createElement("option");
+        option.value = "year:" + year;
+        option.textContent = year;
+        periodControl.appendChild(option);
+      });
+      periodControl.value = "recent60";
+      periodControl.addEventListener("change", applyFilters);
+    }
+    if (statusControl) statusControl.addEventListener("change", applyFilters);
+    if (searchInput) searchInput.addEventListener("input", applyFilters);
+    if (resetButton) resetButton.addEventListener("click", function () {
+      if (searchInput) searchInput.value = "";
+      if (periodControl) periodControl.value = "recent60";
+      if (statusControl) statusControl.value = "all";
+      userLocation = null;
+      applyFilters();
+    });
+    if (viewResetButton) viewResetButton.addEventListener("click", function () {
+      fitMapToFeatures(renderedFeatures);
+    });
+  }
+  function distanceMiles(feature, origin) {
+    var coords = feature.geometry && feature.geometry.coordinates || [];
+    var lng = Number(coords[0]);
+    var lat = Number(coords[1]);
+    if (isNaN(lat) || isNaN(lng)) return Infinity;
+    var rad = Math.PI / 180;
+    var dLat = (lat - origin.lat) * rad;
+    var dLng = (lng - origin.lng) * rad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(origin.lat * rad) * Math.cos(lat * rad) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 3958.8 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+  function enableNearMe() {
+    if (!nearMe || !navigator.geolocation) return;
+    nearMe.addEventListener("click", function () {
+      setStatus("Waiting for your browser to share your location...");
+      navigator.geolocation.getCurrentPosition(function (position) {
+        userLocation = { lat: position.coords.latitude, lng: position.coords.longitude };
+        setStatus("Showing locations nearest to you first.");
+        applyFilters();
+      }, function () {
+        setStatus("Location was not available. The map is still filtered by inspection data.");
+      }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
+    });
+  }
+  function resolveUrl(value, base) {
+    try {
+      var absoluteBase = new URL(base, window.location.href).toString();
+      return new URL(value, absoluteBase).toString();
+    } catch (err) {
+      return value;
+    }
+  }
+  function loadGeojson() {
+    if (mode === "evergreen") {
+      return fetch(dataUrl).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      }).then(function (manifest) {
+        var latest = manifest.entrypoints && manifest.entrypoints.latest || manifest.files && manifest.files.latest || "latest.geojson";
+        var latestUrl = resolveUrl(latest, dataUrl);
+        return fetch(latestUrl).then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        }).then(function (geojson) {
+          geojson.__data_url = latestUrl;
+          return geojson;
+        });
+      });
+    }
+    return fetch(dataUrl).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function (geojson) {
+      geojson.__data_url = dataUrl;
+      return geojson;
+    });
+  }
+  if (!initMap()) return;
+  enableNearMe();
+  loadGeojson().then(function (geojson) {
+    allFeatures = (geojson.features || []).filter(function (feature) {
+      return feature && feature.geometry && feature.geometry.type === "Point";
+    });
+    updateCoverage(geojson.metadata || {}, geojson.__data_url || dataUrl);
+    populateControls(geojson);
+    applyFilters();
+  }).catch(function (err) {
+    setStatus("Map data failed to load: " + err.message);
+  });
+})();
+</script></section>
+</main>
+<script>
+(function () {
+  var button = document.querySelector('[data-role="copy"]');
+  var textarea = document.querySelector('textarea');
+  var status = document.querySelector('[data-role="status"]');
+  if (!button || !textarea) return;
+  button.addEventListener('click', function () {
+    function done(message) { if (status) status.textContent = message; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(textarea.value).then(function () { done('Embed code copied.'); }, function () {
+        textarea.focus(); textarea.select(); done('Copy failed. Select the code and copy manually.');
+      });
+      return;
+    }
+    textarea.focus(); textarea.select();
+    try { document.execCommand('copy'); done('Embed code copied.'); }
+    catch (err) { done('Select the code and copy manually.'); }
+  });
+})();
+</script>
+</body>
+</html>

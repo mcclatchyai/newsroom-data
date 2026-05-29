@@ -1,0 +1,385 @@
+{
+  "available_years": [
+    "2026"
+  ],
+  "cache_ttl_seconds": 900,
+  "coverage_note": "This map shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records. Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points.",
+  "data_version": "20260529182832Z",
+  "dataset": "tpchd-restaurant-inspections",
+  "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections with more than 35 red points.",
+  "entrypoints": {
+    "by_year": {
+      "2026": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/by-year/2026.geojson"
+    },
+    "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/embed/evergreen/embed.html",
+    "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/embed/evergreen/preview.html",
+    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/embed/evergreen/preview-20260529182832z.html",
+    "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/geocode_cache.json",
+    "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/latest.geojson",
+    "run_embeds": {
+      "sample-copy-2026-05-13-to-2026-05-27": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/embed/runs/20260529182832z/sample-copy-2026-05-13-to-2026-05-27/embed.html"
+    },
+    "run_previews": {
+      "sample-copy-2026-05-13-to-2026-05-27": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/embed/runs/20260529182832z/sample-copy-2026-05-13-to-2026-05-27/preview.html"
+    },
+    "runs": {
+      "sample-copy-2026-05-13-to-2026-05-27": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections-reviews/sample-email-review-20260529182433z/v1/testing/runs/20260529182832z/sample-copy-2026-05-13-to-2026-05-27.geojson"
+    }
+  },
+  "environment": "testing",
+  "features_total": 21,
+  "files": {
+    "by_year": {
+      "2026": "by-year/2026.geojson"
+    },
+    "evergreen_embed": "embed/evergreen/embed.html",
+    "evergreen_preview": "embed/evergreen/preview.html",
+    "evergreen_versioned_preview": "embed/evergreen/preview-20260529182832z.html",
+    "geocode_cache": "geocode_cache.json",
+    "latest": "latest.geojson",
+    "run_embeds": {
+      "sample-copy-2026-05-13-to-2026-05-27": "embed/runs/20260529182832z/sample-copy-2026-05-13-to-2026-05-27/embed.html"
+    },
+    "run_previews": {
+      "sample-copy-2026-05-13-to-2026-05-27": "embed/runs/20260529182832z/sample-copy-2026-05-13-to-2026-05-27/preview.html"
+    },
+    "runs": {
+      "sample-copy-2026-05-13-to-2026-05-27": "runs/20260529182832z/sample-copy-2026-05-13-to-2026-05-27.geojson"
+    }
+  },
+  "format": "GeoJSON FeatureCollection",
+  "generated_at": "2026-05-29T18:28:32Z",
+  "geometry_precision": "facility address from TPCHD inspection records",
+  "map_cannot_show": "This map does not include TPCHD source records not yet collected in the inspection data store.",
+  "map_claim": "Shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points, with timeline context where available.",
+  "privacy": {
+    "excludes": [
+      "Google Sheet IDs",
+      "Gmail recipients",
+      "raw PDF text",
+      "raw collection payloads",
+      "internal notes",
+      "local paths"
+    ],
+    "public_fields_only": true,
+    "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
+  },
+  "project": "tpchd-restaurant-inspections",
+  "records_above_threshold": 20,
+  "records_excluded_by_threshold": 0,
+  "records_excluded_unparsed": 1,
+  "records_total": 21,
+  "red_point_threshold": 35,
+  "schema": {
+    "geometry": "Point coordinates from reviewed geocodes of TPCHD facility addresses.",
+    "properties": [
+      "record_id",
+      "inspection_identity",
+      "facility_id",
+      "business_name",
+      "address",
+      "city",
+      "zip",
+      "inspection_date",
+      "inspection_date_iso",
+      "inspection_year",
+      "inspection_years",
+      "inspection_type",
+      "inspection_result",
+      "latest_red_points",
+      "latest_total_points",
+      "latest_repeat_red_points",
+      "latest_inspection_date",
+      "latest_inspection_type",
+      "latest_inspection_result",
+      "latest_report_availability",
+      "latest_result_status",
+      "latest_result_status_label",
+      "latest_result_status_group",
+      "default_action_status",
+      "closure_context",
+      "closure_status_raw",
+      "closure_reason_summary",
+      "closure_reader_label",
+      "closure_reader_explanation",
+      "closure_actionable",
+      "closure_event_type",
+      "resolution_status",
+      "resolution_date",
+      "resolution_source_url",
+      "next_later_inspection_date",
+      "next_later_inspection_type",
+      "next_later_inspection_result",
+      "next_later_report_url",
+      "latest_observed_inspection_date",
+      "latest_observed_inspection_type",
+      "latest_observed_inspection_result",
+      "latest_observed_report_url",
+      "needs_review_reason",
+      "current_score",
+      "current_grade",
+      "current_last_inspection_date",
+      "red_points",
+      "total_points",
+      "repeat_red_points",
+      "worst_red_points",
+      "worst_inspection_date",
+      "latest_over_threshold_date",
+      "over_threshold_count",
+      "inspection_count",
+      "red_point_severity",
+      "red_point_severity_label",
+      "current_rating_category",
+      "current_rating_label",
+      "current_rating_color",
+      "current_rating_letter",
+      "current_status_category",
+      "current_status_label",
+      "current_status_explanation",
+      "follow_up_status",
+      "follow_up_label",
+      "follow_up_inspection_date",
+      "follow_up_inspection_date_iso",
+      "follow_up_inspection_type",
+      "follow_up_inspection_result",
+      "follow_up_red_points",
+      "timeline",
+      "current_status_timing",
+      "current_status_timing_label",
+      "report_url",
+      "fallback_report_url",
+      "fallback_report_date",
+      "fallback_report_label",
+      "facility_detail_url",
+      "report_fetch_status",
+      "geocode_status",
+      "source"
+    ]
+  },
+  "schema_version": 1,
+  "source": "TPCHD Accela food-facility inspection reports",
+  "stale_after": "2026-05-29T18:43:32Z",
+  "symbology": {
+    "alert_categories": [
+      {
+        "color": "#d6604d",
+        "icon": "exclamation",
+        "id": "red_points_36_50",
+        "label": "36-50 red points",
+        "max": 50,
+        "min": 36,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#c23030",
+        "icon": "exclamation",
+        "id": "red_points_51_75",
+        "label": "51-75 red points",
+        "max": 75,
+        "min": 51,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#9f1d2d",
+        "icon": "exclamation",
+        "id": "red_points_76_100",
+        "label": "76-100 red points",
+        "max": 100,
+        "min": 76,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      },
+      {
+        "color": "#67000d",
+        "icon": "exclamation",
+        "id": "red_points_101_plus",
+        "label": "101+ red points",
+        "max": null,
+        "min": 101,
+        "shape": "diamond",
+        "stroke": "#ffffff"
+      }
+    ],
+    "evergreen_categories": [
+      {
+        "color": "#7f1d1d",
+        "filter_group": "needs_attention",
+        "id": "closed_until_approved_to_reopen",
+        "label": "Closed until approved to reopen",
+        "legend_label": "Closed until reopen",
+        "letter": "C",
+        "rank": 10,
+        "shape": "square"
+      },
+      {
+        "color": "#374151",
+        "filter_group": "closed",
+        "id": "closed_permanently",
+        "label": "Permanently closed",
+        "legend_label": "Permanently closed",
+        "letter": "P",
+        "rank": 9,
+        "shape": "square"
+      },
+      {
+        "color": "#991b1b",
+        "filter_group": "closed",
+        "id": "not_permitted_to_operate",
+        "label": "Not permitted to operate",
+        "legend_label": "Not permitted",
+        "letter": "N",
+        "rank": 8,
+        "shape": "square"
+      },
+      {
+        "color": "#9f1239",
+        "filter_group": "closed",
+        "id": "closed_for_fixed_period",
+        "label": "Closed for fixed period",
+        "legend_label": "Fixed-period closure",
+        "letter": "T",
+        "rank": 8,
+        "shape": "square"
+      },
+      {
+        "color": "#b91c1c",
+        "filter_group": "needs_attention",
+        "id": "reinspection_required",
+        "label": "Reinspection required",
+        "legend_label": "Reinspection required",
+        "letter": "!",
+        "rank": 7,
+        "shape": "diamond"
+      },
+      {
+        "color": "#be123c",
+        "filter_group": "needs_attention",
+        "id": "preopening_failed",
+        "label": "Failed pre-opening inspection",
+        "legend_label": "Pre-opening failed",
+        "letter": "P",
+        "rank": 7,
+        "shape": "diamond"
+      },
+      {
+        "color": "#c2410c",
+        "filter_group": "needs_attention",
+        "id": "compliance_order_issued",
+        "label": "Compliance order issued",
+        "legend_label": "Compliance order",
+        "letter": "O",
+        "rank": 6,
+        "shape": "diamond"
+      },
+      {
+        "color": "#1d4ed8",
+        "filter_group": "needs_attention",
+        "id": "follow_up_scheduled",
+        "label": "Follow-up/reinspection scheduled",
+        "legend_label": "Follow-up scheduled",
+        "letter": "S",
+        "rank": 5,
+        "shape": "circle"
+      },
+      {
+        "color": "#2563eb",
+        "filter_group": "scheduled",
+        "id": "scheduled_pending",
+        "label": "Inspection scheduled",
+        "legend_label": "Scheduled",
+        "letter": "S",
+        "rank": 4,
+        "shape": "circle"
+      },
+      {
+        "color": "#2e7d32",
+        "filter_group": "meets",
+        "id": "meets_standards",
+        "label": "Meets TPCHD standards",
+        "legend_label": "Later met standards",
+        "letter": "G",
+        "rank": 3,
+        "shape": "circle"
+      },
+      {
+        "color": "#64748b",
+        "filter_group": "administrative",
+        "id": "administrative_or_not_applicable",
+        "label": "Administrative or not applicable",
+        "legend_label": "Administrative",
+        "letter": "i",
+        "rank": 2,
+        "shape": "circle"
+      },
+      {
+        "color": "#6b7280",
+        "filter_group": "unknown",
+        "id": "current_result_unknown",
+        "label": "Current result unavailable",
+        "legend_label": "Unavailable",
+        "letter": "?",
+        "rank": 1,
+        "shape": "circle"
+      }
+    ],
+    "note": "Evergreen markers use latest TPCHD result/action status as the color, shape and letter encoding. Red-point totals appear in the selected restaurant details when available. Alert/run maps are static per-alert layers and use fixed red-point classes.",
+    "rating_categories": [
+      {
+        "color": "#2e7d32",
+        "id": "rating_great",
+        "label": "Great",
+        "letter": "G",
+        "shape": "circle"
+      },
+      {
+        "color": "#d88c1f",
+        "id": "rating_okay",
+        "label": "Okay",
+        "letter": "O",
+        "shape": "circle"
+      },
+      {
+        "color": "#b61f2d",
+        "id": "rating_needs_improve",
+        "label": "Needs to improve",
+        "letter": "N",
+        "shape": "circle"
+      },
+      {
+        "color": "#4b5563",
+        "id": "rating_closed",
+        "label": "Closed",
+        "letter": "C",
+        "shape": "circle"
+      },
+      {
+        "color": "#2563eb",
+        "id": "rating_new",
+        "label": "New",
+        "letter": "N",
+        "shape": "circle"
+      },
+      {
+        "color": "#6b7280",
+        "id": "rating_not_posted",
+        "label": "No grade shown by TPCHD",
+        "letter": "i",
+        "shape": "circle"
+      },
+      {
+        "color": "#6b7280",
+        "id": "rating_unknown",
+        "label": "Status unknown",
+        "letter": "?",
+        "shape": "circle"
+      }
+    ]
+  },
+  "threshold_label": "More than 35 red points",
+  "threshold_rule": "red_points > 35",
+  "title": "Tacoma-Pierce County restaurant inspection action status",
+  "unmapped_records": 0,
+  "unmapped_records_by_reason": {}
+}
