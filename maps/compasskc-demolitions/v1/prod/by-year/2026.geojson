@@ -462,9 +462,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:a47572b1-26c3-4dee-b315-31d0c86b9da0",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
@@ -714,9 +714,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:4bf61992-3612-46fe-a14b-21cfa0ca4a6a",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -860,22 +860,11 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
             "work_class": "Hauling"
-          },
-          {
-            "application_date": "2025-04-25T10:09:30.697",
-            "issue_date": "2025-04-25T10:29:02.000",
-            "project": "",
-            "record_number": "PW-EXC-2025-01946",
-            "record_type": "PW - Excavation",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Closed",
-            "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:8cda52e9-6384-473f-8ecb-31af5ae6aaba",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -1346,9 +1335,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1bf44774-37b8-411e-9ebd-5b7f3a1c419c",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -1535,9 +1524,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:b4120b3f-d89a-40db-8c54-4301b43c74b6",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -1768,9 +1757,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:22eee0be-ca45-4107-8686-4419cebdeeec",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -1988,9 +1977,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:e3ea5e4a-13e8-4bdc-982b-74416febf445",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -2176,7 +2165,7 @@
         "parcel_address": "13013 St Andrews Dr",
         "parcel_id": "159432",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:669d15c4-1c7a-4b5f-905c-b044c40f6746",
@@ -2337,9 +2326,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:4fc97fb0-fdfe-40a7-8045-a3c981f9925d",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -2512,9 +2501,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:0b83b2f9-a4c9-4eb7-b785-2437c19bbbc5",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -2672,26 +2661,37 @@
         "match_status": "matched",
         "parcel_address": "5424 Main St",
         "parcel_id": "143915",
-        "post_demo_confidence": "likely",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-07-14T11:17:26.797",
-            "issue_date": "2025-08-08T13:19:09.393",
+            "application_date": "2026-03-04T10:23:38.060",
+            "issue_date": "",
             "project": "",
-            "record_number": "CPBR-2025-01618",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "likely_redevelopment",
+            "record_number": "PW-EXC-2026-00723",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Closed",
+            "work_class": "Electrical"
+          },
+          {
+            "application_date": "2026-03-04T10:11:22.447",
+            "issue_date": "2026-03-04T13:03:14.597",
+            "project": "",
+            "record_number": "PW-TC-2026-00631",
+            "record_type": "PW - Traffic Control",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Detached Accessory Structure"
+            "work_class": "Traffic Control for Construction"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d1432f20-64b8-4e8e-bb70-a0fcf1b58ba6",
         "record_type": "Pre-Demolition Inspection - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -2861,9 +2861,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:2a29e97c-9e7d-4129-88fd-35d61854496a",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -3334,9 +3334,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:888ca868-6ffd-4309-93f3-fb2485a5ac91",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -3493,9 +3493,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:fc658d1f-b444-4db0-813a-0bfca960d80c",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -3707,7 +3707,7 @@
         "parcel_address": "1400 NW 60th St",
         "parcel_id": "96892",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:4a323501-2e0b-4d0c-9d5a-8f8eaae9319b",
@@ -3903,9 +3903,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:ab3e7d95-cbf8-4123-88a6-a5631b92936c",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -4056,9 +4056,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:9f5b83d7-55ef-419c-bd97-bb740b8c9922",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -4244,9 +4244,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d642e79c-15a4-4732-9aa8-69a47acafe99",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -4403,9 +4403,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:7bc1d2ae-7da8-4e39-90af-ccc5ad8cf12e",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -4530,9 +4530,9 @@
             "work_class": "Storm Sewer Lines - New/Repair"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_summary": "A same-parcel public permit filed after this demolition record shows repair, renovation, remodel or reuse activity.",
         "record_id": "case:1aa96966-2a2b-4f4e-aa1f-33942ff6cd12",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -4721,9 +4721,9 @@
             "work_class": "Traffic Control for Construction"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:9db24e63-7036-4ec8-8814-aaed1194fb84",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -4933,9 +4933,9 @@
             "work_class": "Single Family - Addition"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_summary": "A same-parcel public permit filed after this demolition record shows repair, renovation, remodel or reuse activity.",
         "record_id": "case:2006d3e5-6620-4f86-82cf-f6d332dd6a3f",
         "record_type": "Partial Building Demolition - Residential",
         "replacement_use": "housing",
@@ -5173,42 +5173,42 @@
         "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-12-22T09:38:26.000",
+            "application_date": "2026-05-26T13:50:53.000",
+            "issue_date": "",
+            "project": "FP88479",
+            "record_number": "WS-E-162444",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Pending",
+            "work_class": "Kill Water Service at Main"
+          },
+          {
+            "application_date": "2026-05-26T13:39:57.000",
             "issue_date": "",
             "project": "63493",
             "record_number": "WS-E-162458",
             "record_type": "WS - Existing Service",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Hold",
+            "status": "Pending",
             "work_class": "Kill Water Service at Main"
           },
           {
-            "application_date": "2025-12-15T15:04:34.000",
-            "issue_date": "2025-12-15T16:06:04.743",
-            "project": "FP88479",
-            "record_number": "WS-E-162444",
-            "record_type": "WS - Existing Service",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Hold",
-            "work_class": "Kill Water Service at Main"
-          },
-          {
-            "application_date": "2025-12-15T15:03:02.000",
+            "application_date": "2026-05-26T13:37:34.000",
             "issue_date": "",
             "project": "",
-            "record_number": "PW-EXC-2025-05933",
-            "record_type": "PW - Excavation",
+            "record_number": "WS-PW-PR-2025-01838",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Cancelled",
-            "work_class": "Water Main/Pipeline"
+            "status": "In Review",
+            "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:3515a84c-39bc-49e8-925f-f6782af780ad",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -5402,9 +5402,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:67510579-56e0-4d8a-9554-330feab964a5",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -5570,33 +5570,11 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Issued With Unpaid Fees",
             "work_class": "Water Main/Pipeline"
-          },
-          {
-            "application_date": "2024-04-09T11:00:47.437",
-            "issue_date": "2024-04-09T11:12:21.000",
-            "project": "",
-            "record_number": "PW-EXC-2024-01742",
-            "record_type": "PW - Excavation",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Closed",
-            "work_class": "Spire Excavation"
-          },
-          {
-            "application_date": "2023-12-06T09:59:15.283",
-            "issue_date": "2023-12-06T10:15:38.000",
-            "project": "",
-            "record_number": "PW-EXC-2023-05769",
-            "record_type": "PW - Excavation",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Closed",
-            "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:664ec349-2092-4766-96fc-fd167a53eb7c",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
@@ -5906,9 +5884,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:b65cad38-53b1-4beb-ae54-af308a80bd08",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
@@ -6146,42 +6124,42 @@
         "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-12-22T09:38:26.000",
+            "application_date": "2026-05-26T13:50:53.000",
+            "issue_date": "",
+            "project": "FP88479",
+            "record_number": "WS-E-162444",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Pending",
+            "work_class": "Kill Water Service at Main"
+          },
+          {
+            "application_date": "2026-05-26T13:39:57.000",
             "issue_date": "",
             "project": "63493",
             "record_number": "WS-E-162458",
             "record_type": "WS - Existing Service",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Hold",
+            "status": "Pending",
             "work_class": "Kill Water Service at Main"
           },
           {
-            "application_date": "2025-12-15T15:04:34.000",
-            "issue_date": "2025-12-15T16:06:04.743",
-            "project": "FP88479",
-            "record_number": "WS-E-162444",
-            "record_type": "WS - Existing Service",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Hold",
-            "work_class": "Kill Water Service at Main"
-          },
-          {
-            "application_date": "2025-12-15T15:03:02.000",
+            "application_date": "2026-05-26T13:37:34.000",
             "issue_date": "",
             "project": "",
-            "record_number": "PW-EXC-2025-05933",
-            "record_type": "PW - Excavation",
+            "record_number": "WS-PW-PR-2025-01838",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Cancelled",
-            "work_class": "Water Main/Pipeline"
+            "status": "In Review",
+            "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:025cb0c7-d302-4752-b98c-4234c44dd2af",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -6371,9 +6349,9 @@
             "work_class": "Traffic Control for Construction"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:0110d808-2bb2-42f4-9675-ce19bced89b4",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -6498,9 +6476,9 @@
             "work_class": "Storm Sewer Lines - New/Repair"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_summary": "A same-parcel public permit filed after this demolition record shows repair, renovation, remodel or reuse activity.",
         "record_id": "case:65ed8fa7-e268-42fa-a3aa-1a549a6a850b",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -6984,9 +6962,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:e5482f4d-3002-46d3-b661-68a97779acf1",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -7470,9 +7448,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:30e229b0-023b-451d-bf9c-67ff84b325a6",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -7956,9 +7934,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:6032392a-15ba-4a00-acdd-f020405b53e0",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -8442,9 +8420,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:36936725-b569-4f01-a6c6-55aff300831f",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -8632,7 +8610,7 @@
         "match_status": "matched",
         "parcel_address": "7912 Ward Parkway Plz",
         "parcel_id": "120555",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
             "application_date": "2025-06-25T10:38:41.047",
@@ -8640,18 +8618,18 @@
             "project": "",
             "record_number": "CPBR-2025-01450",
             "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "relation": "prior_repair_or_remodel_history",
             "source": "Open Data KC City Issued Permits",
             "status": "Hold",
             "work_class": "Single Family - Addition"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "prior_repair_or_remodel_history",
+        "post_demo_summary": "A prior same-parcel repair or remodel permit exists, but public records do not show a replacement or reuse permit after this demolition filing.",
         "record_id": "case:22893162-0440-48f7-9403-22f5e6c832c4",
         "record_type": "Partial Building Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "unknown",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -8847,9 +8825,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:6eaa99d5-dd3f-4bf6-83e0-f6543d21b122",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -9039,9 +9017,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:c8edd40f-8f87-4c92-aa5d-56c2c668e619",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -9245,9 +9223,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:c4d32492-364e-4af9-b6d6-afd909af7ea8",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -9422,34 +9400,34 @@
         "match_status": "matched",
         "parcel_address": "344 W 72nd St",
         "parcel_id": "112592",
-        "post_demo_confidence": "confirmed",
+        "post_demo_confidence": "likely",
         "post_demo_evidence": [
           {
-            "application_date": "2025-08-06T08:44:11.263",
-            "issue_date": "2025-08-08T13:34:07.100",
+            "application_date": "2026-05-15T11:46:12.730",
+            "issue_date": "2026-05-15T12:34:31.000",
             "project": "Quik Trip Store No. 0190R",
-            "record_number": "CPBC-2025-00721",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "known_replacement",
+            "record_number": "CITO-2026-00207",
+            "record_type": "CPPU - Temporary Certificate of Occupancy",
+            "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "New"
+            "work_class": "Temporary Certificate of Occupancy (Commercial)"
           },
           {
-            "application_date": "2025-08-05T12:48:36.397",
-            "issue_date": "2025-08-08T13:34:10.410",
+            "application_date": "2026-05-15T11:43:47.923",
+            "issue_date": "2026-05-15T14:21:02.000",
             "project": "Quik Trip Store No. 0190R",
-            "record_number": "CPBC-2025-00717",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "known_replacement",
+            "record_number": "CITO-2026-00206",
+            "record_type": "CPPU - Temporary Certificate of Occupancy",
+            "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "New"
+            "work_class": "Temporary Certificate of Occupancy (Commercial)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "likely_redevelopment",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:e9c86994-5eb1-4b11-8ed8-4950b410b9b8",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -9933,9 +9911,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:25315823-89c9-492b-b7a5-510d0ccd888b",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -10207,9 +10185,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:8b071a5d-1635-40cd-847a-5946c2cc0cb6",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -10481,9 +10459,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:fe9bd72d-7087-49d9-899d-a106cb446999",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -10967,9 +10945,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d8debb2e-f8bc-43c6-bb35-6cfd0ba1b5e7",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -11410,9 +11388,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:8249ee77-af49-4521-b66c-34481a9a4b26",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -11705,13 +11683,13 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-12T16:33:39.653",
-            "issue_date": "",
+            "issue_date": "2026-05-27T08:54:54.000",
             "project": "Parade Park - Phase I",
             "record_number": "CLDPMT-2026-00127",
             "record_type": "CPLD - Infrastructure",
             "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Not Development Related"
           },
           {
@@ -11726,9 +11704,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:81215e6e-88fc-4792-af98-88a4ebf71a09",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -12021,13 +11999,13 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-12T16:33:39.653",
-            "issue_date": "",
+            "issue_date": "2026-05-27T08:54:54.000",
             "project": "Parade Park - Phase I",
             "record_number": "CLDPMT-2026-00127",
             "record_type": "CPLD - Infrastructure",
             "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Not Development Related"
           },
           {
@@ -12042,9 +12020,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:16f72695-8e06-4ef8-b5ad-3c5461820691",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -12337,13 +12315,13 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-12T16:33:39.653",
-            "issue_date": "",
+            "issue_date": "2026-05-27T08:54:54.000",
             "project": "Parade Park - Phase I",
             "record_number": "CLDPMT-2026-00127",
             "record_type": "CPLD - Infrastructure",
             "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Not Development Related"
           },
           {
@@ -12358,9 +12336,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:cfaaa25b-21b5-40f4-8a58-bb9d563ad157",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -12653,13 +12631,13 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-12T16:33:39.653",
-            "issue_date": "",
+            "issue_date": "2026-05-27T08:54:54.000",
             "project": "Parade Park - Phase I",
             "record_number": "CLDPMT-2026-00127",
             "record_type": "CPLD - Infrastructure",
             "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Not Development Related"
           },
           {
@@ -12674,9 +12652,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:a2c82932-4322-4964-9560-2d86626198fc",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -12969,13 +12947,13 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-12T16:33:39.653",
-            "issue_date": "",
+            "issue_date": "2026-05-27T08:54:54.000",
             "project": "Parade Park - Phase I",
             "record_number": "CLDPMT-2026-00127",
             "record_type": "CPLD - Infrastructure",
             "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Not Development Related"
           },
           {
@@ -12990,9 +12968,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:e1a8fdb3-6a53-4c2e-8a2c-bb0c7c09544f",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -13433,9 +13411,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:936d2c21-c619-4c04-9095-c6c8c16bc305",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -13593,33 +13571,11 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
             "work_class": "Hauling"
-          },
-          {
-            "application_date": "2024-09-19T08:41:14.000",
-            "issue_date": "2024-09-25T13:50:24.117",
-            "project": "KILL97469",
-            "record_number": "WS-E-161198",
-            "record_type": "WS - Existing Service",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Expired",
-            "work_class": "Kill Water Service at Main"
-          },
-          {
-            "application_date": "2024-09-19T08:39:33.000",
-            "issue_date": "2024-09-19T11:31:13.980",
-            "project": "",
-            "record_number": "PW-EXC-2024-04584",
-            "record_type": "PW - Excavation",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Closed",
-            "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:2f87f2c5-c3dd-46c6-a4a7-1282da5d4dcd",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -14104,9 +14060,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:e413eb52-df08-4ffa-954f-b33ca099fc7d",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -14573,23 +14529,23 @@
         "match_status": "matched",
         "parcel_address": "8706 Blue Ridge Blvd",
         "parcel_id": "66094",
-        "post_demo_confidence": "likely",
+        "post_demo_confidence": "weak",
         "post_demo_evidence": [
           {
-            "application_date": "2024-02-13T16:19:16.650",
-            "issue_date": "",
-            "project": "Restaurant Remodel 8706 Blue Ridge Blvd",
-            "record_number": "CPPC-2024-00084",
-            "record_type": "CPPU - Plumbing (Commercial)",
-            "relation": "likely_redevelopment",
+            "application_date": "2026-05-27T12:32:57.000",
+            "issue_date": "2026-05-27T12:35:13.000",
+            "project": "",
+            "record_number": "CPZ-2026-01468",
+            "record_type": "CPPU - Zoning Approval",
+            "relation": "weak_followup_signal",
             "source": "Open Data KC City Issued Permits",
-            "status": "Expired",
-            "work_class": "Plumbing General"
+            "status": "Issued",
+            "work_class": "Zoning Clearance (for Business License)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "weak_followup_signal",
+        "post_demo_summary": "Recent same-parcel public records show limited follow-up activity, but not enough to identify a replacement use.",
         "record_id": "case:424aae2b-7f00-4673-88f8-cefa0e9eb29b",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -14722,7 +14678,7 @@
         "parcel_address": "5614 Prospect Ave",
         "parcel_id": "147698",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:12bda899-532c-4fb7-b9bc-3a336f8bb9e3",
@@ -14913,9 +14869,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:c0cef16a-dbb6-4515-9dc4-cc5a52b9ba91",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -15106,9 +15062,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:f21657da-1b4d-489c-862d-ac415184efbf",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -15297,9 +15253,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:27d82b91-20f2-4a0d-afb5-d94f5dd6a4ec",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -15505,9 +15461,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d281f902-76e7-4b9a-88ab-29ab6bc6a19e",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -15674,9 +15630,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:5e683493-0640-41b6-b236-cb70ed06572c",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -16160,9 +16116,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:791bd22c-deca-4df7-bddb-5e9cc5445308",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -16323,7 +16279,7 @@
         "parcel_address": "1120 W 76th St",
         "parcel_id": "119972",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:ff3d26a9-20d0-4de3-9ba1-9ec75527ccc6",
@@ -16520,48 +16476,48 @@
         "match_status": "matched",
         "parcel_address": "5208 E 24th St",
         "parcel_id": "20347",
-        "post_demo_confidence": "weak",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-07-14T15:50:50.000",
-            "issue_date": "2025-07-14T15:59:43.000",
+            "application_date": "2026-03-26T13:38:40.897",
+            "issue_date": "2026-03-26T14:38:03.980",
             "project": "",
-            "record_number": "CPZ-2025-01483",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
+            "record_number": "PW-H-2026-00052",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
+            "work_class": "Hauling"
           },
           {
-            "application_date": "2024-12-12T14:10:12.000",
-            "issue_date": "2024-12-12T14:25:42.000",
-            "project": "",
-            "record_number": "CPZ-2024-02390",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
+            "application_date": "2026-02-26T08:47:51.000",
+            "issue_date": "2026-03-05T14:06:05.553",
+            "project": "50474",
+            "record_number": "WS-E-162657",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
+            "work_class": "Kill Water Service at Main"
           },
           {
-            "application_date": "2024-04-09T15:15:21.000",
-            "issue_date": "2024-04-09T15:18:17.000",
+            "application_date": "2026-02-26T08:45:43.000",
+            "issue_date": "2026-03-02T09:04:02.523",
             "project": "",
-            "record_number": "CPZ-2024-00802",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
+            "record_number": "PW-EXC-2026-00628",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
+            "status": "Closed",
+            "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "weak_followup_signal",
-        "post_demo_summary": "Public records show weak same-parcel follow-up activity, but not enough to identify a replacement use.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d65dd7de-8cc3-4a75-bbd2-ace03320ae10",
         "record_type": "Pre-Demolition Inspection - Commercial",
-        "replacement_use": "commercial_or_mixed",
+        "replacement_use": "infrastructure_only",
         "status": "Closed",
         "story_angle_clues": [
           {
@@ -16958,9 +16914,9 @@
             "work_class": "Zoning Compliance Letter"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "weak_followup_signal",
-        "post_demo_summary": "Public records show weak same-parcel follow-up activity, but not enough to identify a replacement use.",
+        "post_demo_summary": "Recent same-parcel public records show limited follow-up activity, but not enough to identify a replacement use.",
         "record_id": "case:2619efd6-a6ab-4583-ab95-8b65440b1a54",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "unknown",
@@ -17134,34 +17090,34 @@
         "match_status": "matched",
         "parcel_address": "344 W 72nd St",
         "parcel_id": "112592",
-        "post_demo_confidence": "confirmed",
+        "post_demo_confidence": "likely",
         "post_demo_evidence": [
           {
-            "application_date": "2025-08-06T08:44:11.263",
-            "issue_date": "2025-08-08T13:34:07.100",
+            "application_date": "2026-05-15T11:46:12.730",
+            "issue_date": "2026-05-15T12:34:31.000",
             "project": "Quik Trip Store No. 0190R",
-            "record_number": "CPBC-2025-00721",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "known_replacement",
+            "record_number": "CITO-2026-00207",
+            "record_type": "CPPU - Temporary Certificate of Occupancy",
+            "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "New"
+            "work_class": "Temporary Certificate of Occupancy (Commercial)"
           },
           {
-            "application_date": "2025-08-05T12:48:36.397",
-            "issue_date": "2025-08-08T13:34:10.410",
+            "application_date": "2026-05-15T11:43:47.923",
+            "issue_date": "2026-05-15T14:21:02.000",
             "project": "Quik Trip Store No. 0190R",
-            "record_number": "CPBC-2025-00717",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "known_replacement",
+            "record_number": "CITO-2026-00206",
+            "record_type": "CPPU - Temporary Certificate of Occupancy",
+            "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "New"
+            "work_class": "Temporary Certificate of Occupancy (Commercial)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "likely_redevelopment",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:fc0c570e-0e78-441f-827d-8a4ca7e0a014",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -17335,34 +17291,34 @@
         "match_status": "matched",
         "parcel_address": "344 W 72nd St",
         "parcel_id": "112592",
-        "post_demo_confidence": "confirmed",
+        "post_demo_confidence": "likely",
         "post_demo_evidence": [
           {
-            "application_date": "2025-08-06T08:44:11.263",
-            "issue_date": "2025-08-08T13:34:07.100",
+            "application_date": "2026-05-15T11:46:12.730",
+            "issue_date": "2026-05-15T12:34:31.000",
             "project": "Quik Trip Store No. 0190R",
-            "record_number": "CPBC-2025-00721",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "known_replacement",
+            "record_number": "CITO-2026-00207",
+            "record_type": "CPPU - Temporary Certificate of Occupancy",
+            "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "New"
+            "work_class": "Temporary Certificate of Occupancy (Commercial)"
           },
           {
-            "application_date": "2025-08-05T12:48:36.397",
-            "issue_date": "2025-08-08T13:34:10.410",
+            "application_date": "2026-05-15T11:43:47.923",
+            "issue_date": "2026-05-15T14:21:02.000",
             "project": "Quik Trip Store No. 0190R",
-            "record_number": "CPBC-2025-00717",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "known_replacement",
+            "record_number": "CITO-2026-00206",
+            "record_type": "CPPU - Temporary Certificate of Occupancy",
+            "relation": "likely_redevelopment",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "New"
+            "work_class": "Temporary Certificate of Occupancy (Commercial)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "likely_redevelopment",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:62fd33d9-cdf9-47d0-b43e-d3d9ade1ae76",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -17560,9 +17516,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1add6f27-d679-446e-a450-607dfbc2a31f",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -17894,9 +17850,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:86ac203e-150a-4e6b-9959-7e68e2602603",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -18095,9 +18051,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:118f6213-4834-4175-beaa-5c5a4458a845",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -18293,7 +18249,7 @@
         "match_status": "matched",
         "parcel_address": "618 Huntington Rd",
         "parcel_id": "108324",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
             "application_date": "2026-02-24T08:17:40.047",
@@ -18301,18 +18257,18 @@
             "project": "",
             "record_number": "CPBR-2026-00417",
             "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "relation": "prior_repair_or_remodel_history",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
             "work_class": "Single Family - Addition"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "prior_repair_or_remodel_history",
+        "post_demo_summary": "A prior same-parcel repair or remodel permit exists, but public records do not show a replacement or reuse permit after this demolition filing.",
         "record_id": "case:3665e3ab-e746-4402-bf9c-a8194ae2df00",
         "record_type": "Partial Building Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "unknown",
         "status": "Voided-City",
         "timing_note": "CompassKC lists a final/completion date; an actual demolition date was not posted.",
         "year": "2026"
@@ -18465,9 +18421,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:53426126-8a61-48dc-8542-9537011d9a14",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -18668,9 +18624,9 @@
             "work_class": "Single Family - New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new housing permit.",
         "record_id": "case:ad490cb1-2223-4b3f-8d0d-934037ff2f7b",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "housing",
@@ -18975,9 +18931,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:a4f2956f-2b28-44f9-932b-ac5ce047ab36",
         "record_type": "Partial Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -19352,9 +19308,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1be964d5-e130-4a40-bbc2-b8b199b12e9e",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -19729,9 +19685,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:daff242b-d436-4842-807e-8e19c4e84141",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -19868,9 +19824,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:bdda5161-1c08-4662-8989-0bfa55ceec6c",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -20061,9 +20017,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:eb3309bc-5eda-48b2-af17-7c4eb2fdea9c",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -20212,9 +20168,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:7ffdc33f-ac1a-4286-a11d-6991e9ab3ae2",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -20390,9 +20346,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:28cdaba4-8d7c-405f-839c-fe4f1da7cbfe",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -20554,9 +20510,9 @@
             "work_class": "Sanitary Sewer Lines - New/Repair"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:c4a9a600-e2ce-422e-ba18-baf04cb7659d",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -20711,7 +20667,7 @@
         "parcel_address": "8841 Lane Ave",
         "parcel_id": "66446",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:7cd31adc-bd91-49d5-a234-0bff356867b9",
@@ -20879,7 +20835,7 @@
         "parcel_address": "8841 Lane Ave",
         "parcel_id": "66446",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:be1d1daf-db02-4ed3-8576-3f0c59dd6b04",
@@ -21046,19 +21002,19 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-21T16:26:41.133",
-            "issue_date": "",
+            "issue_date": "2026-05-27T13:14:03.813",
             "project": "",
             "record_number": "PW-H-2026-00084",
             "record_type": "PW - Hauling",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1f758de0-b45b-450f-8f89-c6a7751b40e5",
         "record_type": "Partial Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -21210,9 +21166,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d2091572-0f2b-48bf-aaff-aef63cb13cd4",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -21512,9 +21468,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:8f4d5a11-4d19-4a22-b1b9-821f5f43a552",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "commercial_or_mixed",
@@ -22067,9 +22023,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d5e4532b-6ccc-4365-ac95-0ef877a00e6a",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -22193,9 +22149,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:9b663db3-7e2c-44c6-95f9-d73ab88722b1",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -22413,9 +22369,9 @@
             "work_class": "Detached Accessory Structure"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:c7f337e5-d463-4ea2-a13f-50da335e2490",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -22747,9 +22703,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:6ce2e89f-c9a3-44cb-b40a-bc9eade5b7f8",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -23171,25 +23127,14 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
             "work_class": "Zoning Compliance Letter"
-          },
-          {
-            "application_date": "2024-03-19T13:51:34.000",
-            "issue_date": "2024-03-19T13:53:43.000",
-            "project": "",
-            "record_number": "CPZ-2024-00655",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "weak_followup_signal",
-        "post_demo_summary": "Public records show weak same-parcel follow-up activity, but not enough to identify a replacement use.",
+        "post_demo_summary": "Recent same-parcel public records show limited follow-up activity, but not enough to identify a replacement use.",
         "record_id": "case:8e3fa1ee-c05a-45e5-b59d-5b48a80c9b6a",
         "record_type": "Complete Building Demolition - Commercial",
-        "replacement_use": "commercial_or_mixed",
+        "replacement_use": "unknown",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -23519,9 +23464,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:6c3169c7-5af0-427f-80ec-2314265d829c",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -23711,7 +23656,7 @@
         "parcel_address": "1609 E 79th St",
         "parcel_id": "116425",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:28e41c98-eac7-4b3c-a14b-e006ff5b7c58",
@@ -23915,9 +23860,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:634a511a-a065-4ea9-a9bf-fe21c58ed812",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -24128,7 +24073,7 @@
             "record_type": "WS - Existing Service",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
+            "status": "Expired",
             "work_class": "Kill Water Service at Main"
           },
           {
@@ -24154,9 +24099,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:3d57ac81-8503-4b59-bd25-54dc8428c50a",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -24428,9 +24373,9 @@
             "work_class": "Detached Accessory Structure"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:e05048cf-feb9-403b-a93a-0b652263b0ee",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -24590,7 +24535,7 @@
             "record_type": "WS - Existing Service",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
+            "status": "Expired",
             "work_class": "Disconnect Service Line at Curb"
           },
           {
@@ -24616,9 +24561,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:bc4f1452-580f-4e35-952f-12ec6ba2c660",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -24809,7 +24754,7 @@
         "parcel_address": "1609 E 79th St",
         "parcel_id": "116425",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:15ec735c-17e8-4565-bf29-58e0b5fc6212",
@@ -24948,9 +24893,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:43c7d012-ad33-4e1a-adc3-0bfcc1c91948",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
@@ -25102,9 +25047,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:ca0d660d-73cd-4581-80d3-d4c9aff67fb0",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -25345,26 +25290,48 @@
         "match_status": "matched",
         "parcel_address": "10000 NE 112th St",
         "parcel_id": "98887",
-        "post_demo_confidence": "confirmed",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-03-19T11:53:59.380",
-            "issue_date": "2025-03-26T12:46:07.760",
+            "application_date": "2026-02-25T15:32:53.827",
+            "issue_date": "2026-03-02T13:00:11.530",
             "project": "",
-            "record_number": "CPBR-2025-00585",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "known_replacement",
+            "record_number": "PW-H-2026-00030",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Single Family - New"
+            "work_class": "Hauling"
+          },
+          {
+            "application_date": "2026-01-27T08:17:22.000",
+            "issue_date": "2026-01-27T08:22:14.000",
+            "project": "104478",
+            "record_number": "WS-E-162545",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Disconnect Service Line at Curb"
+          },
+          {
+            "application_date": "2026-01-26T12:01:07.753",
+            "issue_date": "2026-01-28T11:10:48.000",
+            "project": "104478",
+            "record_number": "WS-PW-PR-2026-00168",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:65269d8c-85b4-4b4c-9914-47f5fb7b75e3",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Voided-City",
         "timing_note": "CompassKC lists a final/completion date; an actual demolition date was not posted.",
         "year": "2026"
@@ -25603,26 +25570,48 @@
         "match_status": "matched",
         "parcel_address": "10000 NE 112th St",
         "parcel_id": "98887",
-        "post_demo_confidence": "confirmed",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-03-19T11:53:59.380",
-            "issue_date": "2025-03-26T12:46:07.760",
+            "application_date": "2026-02-25T15:32:53.827",
+            "issue_date": "2026-03-02T13:00:11.530",
             "project": "",
-            "record_number": "CPBR-2025-00585",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "known_replacement",
+            "record_number": "PW-H-2026-00030",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Single Family - New"
+            "work_class": "Hauling"
+          },
+          {
+            "application_date": "2026-01-27T08:17:22.000",
+            "issue_date": "2026-01-27T08:22:14.000",
+            "project": "104478",
+            "record_number": "WS-E-162545",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Disconnect Service Line at Curb"
+          },
+          {
+            "application_date": "2026-01-26T12:01:07.753",
+            "issue_date": "2026-01-28T11:10:48.000",
+            "project": "104478",
+            "record_number": "WS-PW-PR-2026-00168",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1c31754e-0194-4470-8642-c18f9465d448",
         "record_type": "Pre-Demolition Inspection - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Closed",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -25868,19 +25857,19 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-19T12:57:10.850",
-            "issue_date": "",
+            "issue_date": "2026-05-22T11:19:30.000",
             "project": "",
             "record_number": "PW-EXC-2026-01886",
             "record_type": "PW - Excavation",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued With Unpaid Fees",
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1f27be65-8af9-4b61-a1d2-f68d2a69db25",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -26036,9 +26025,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:edaf4f91-b607-4990-8bfa-8e62971ed4fa",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -26239,9 +26228,9 @@
             "work_class": "Single Family - New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new housing permit.",
         "record_id": "case:0be20017-f4db-4856-9428-405d0f34216e",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -26493,9 +26482,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:20aeea12-4bfe-4b97-823a-8ea234f5eef5",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -26713,9 +26702,9 @@
             "work_class": "Detached Accessory Structure"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:9a9c89ca-88f1-4ec9-98cc-a52d9f66493b",
         "record_type": "Pre-Demolition Inspection - Residential",
         "replacement_use": "housing",
@@ -26978,9 +26967,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:cf47a6de-1274-457d-9aa0-db3509919e8b",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -27421,9 +27410,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:0fc7cf11-18bf-4d2b-9743-d0ea071e8415",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -27695,9 +27684,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:2666891a-1d48-460a-a555-23bb055d55c6",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -27969,9 +27958,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:f3396fb8-5bc8-479c-9559-09d6bf6c5559",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "unknown",
@@ -28124,9 +28113,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:db8e79e8-9d98-4dfd-9c09-02a730f521d8",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -28315,9 +28304,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:e3b0cce5-6343-4dde-bc28-ad220135de87",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -28467,9 +28456,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:4c47c8a8-1ab5-47b3-8b8c-4f6951b19258",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -28623,19 +28612,19 @@
         "post_demo_evidence": [
           {
             "application_date": "2026-05-21T16:26:41.133",
-            "issue_date": "",
+            "issue_date": "2026-05-27T13:14:03.813",
             "project": "",
             "record_number": "PW-H-2026-00084",
             "record_type": "PW - Hauling",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Issued",
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:5d6e45e6-517e-49b2-9c08-2a85a683f89d",
         "record_type": "Partial Building Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -28906,9 +28895,9 @@
             "work_class": "Detached Accessory Structure"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:4c6cabc7-a7e7-4ece-a6c6-9443e7ede141",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "housing",
@@ -29149,26 +29138,48 @@
         "match_status": "matched",
         "parcel_address": "10000 NE 112th St",
         "parcel_id": "98887",
-        "post_demo_confidence": "confirmed",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-03-19T11:53:59.380",
-            "issue_date": "2025-03-26T12:46:07.760",
+            "application_date": "2026-02-25T15:32:53.827",
+            "issue_date": "2026-03-02T13:00:11.530",
             "project": "",
-            "record_number": "CPBR-2025-00585",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "known_replacement",
+            "record_number": "PW-H-2026-00030",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Single Family - New"
+            "work_class": "Hauling"
+          },
+          {
+            "application_date": "2026-01-27T08:17:22.000",
+            "issue_date": "2026-01-27T08:22:14.000",
+            "project": "104478",
+            "record_number": "WS-E-162545",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Disconnect Service Line at Curb"
+          },
+          {
+            "application_date": "2026-01-26T12:01:07.753",
+            "issue_date": "2026-01-28T11:10:48.000",
+            "project": "104478",
+            "record_number": "WS-PW-PR-2026-00168",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:381c42be-2fba-463d-a6dc-1fa6f86f4d5a",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -29363,9 +29374,9 @@
             "work_class": "Traffic Control for Construction"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:0dd9679f-805e-40a1-ae96-5ee49f2f7adf",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -29514,9 +29525,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:20f527f7-f61e-4508-8426-2ef5365194c1",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -29768,9 +29779,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:170f6588-dda5-4066-960d-4e1c0a0438aa",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -30176,9 +30187,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1fa4398c-adf9-4032-835b-28f909cf6467",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -30441,9 +30452,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:c898e1d8-f3bf-4c18-bf78-654ad50373f2",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -30601,7 +30612,7 @@
         "parcel_address": "2611 Garfield Ave",
         "parcel_id": "14504",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:0eba4c4b-e228-4163-944f-a2a3bede493c",
@@ -30824,9 +30835,9 @@
             "work_class": "Single Family - New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new housing permit.",
         "record_id": "case:ffe3457c-69b6-4b9c-9f6a-343ae21121cd",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "housing",
@@ -31286,22 +31297,11 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
             "work_class": "Site Improvement"
-          },
-          {
-            "application_date": "2025-07-28T16:04:47.000",
-            "issue_date": "2025-07-29T11:21:27.000",
-            "project": "Carriage Club Coach House Addition and Renovation",
-            "record_number": "CICO-2025-00749",
-            "record_type": "CPPU - Certificate of Occupancy",
-            "relation": "likely_redevelopment",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Certificate of Occupancy (Commercial)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:97c76c82-c7d9-4601-8efd-04e08ef17933",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "commercial_or_mixed",
@@ -31495,48 +31495,48 @@
         "match_status": "matched",
         "parcel_address": "5208 E 24th St",
         "parcel_id": "20347",
-        "post_demo_confidence": "weak",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-07-14T15:50:50.000",
-            "issue_date": "2025-07-14T15:59:43.000",
+            "application_date": "2026-03-26T13:38:40.897",
+            "issue_date": "2026-03-26T14:38:03.980",
             "project": "",
-            "record_number": "CPZ-2025-01483",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
+            "record_number": "PW-H-2026-00052",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
+            "work_class": "Hauling"
           },
           {
-            "application_date": "2024-12-12T14:10:12.000",
-            "issue_date": "2024-12-12T14:25:42.000",
-            "project": "",
-            "record_number": "CPZ-2024-02390",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
+            "application_date": "2026-02-26T08:47:51.000",
+            "issue_date": "2026-03-05T14:06:05.553",
+            "project": "50474",
+            "record_number": "WS-E-162657",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
+            "work_class": "Kill Water Service at Main"
           },
           {
-            "application_date": "2024-04-09T15:15:21.000",
-            "issue_date": "2024-04-09T15:18:17.000",
+            "application_date": "2026-02-26T08:45:43.000",
+            "issue_date": "2026-03-02T09:04:02.523",
             "project": "",
-            "record_number": "CPZ-2024-00802",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
+            "record_number": "PW-EXC-2026-00628",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
+            "status": "Closed",
+            "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "weak_followup_signal",
-        "post_demo_summary": "Public records show weak same-parcel follow-up activity, but not enough to identify a replacement use.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:bf43901f-243e-43ab-bbea-dac883cc1981",
         "record_type": "Complete Building Demolition - Commercial",
-        "replacement_use": "commercial_or_mixed",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -31682,9 +31682,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:a16d1d98-94e8-4295-9924-3ab91498cee7",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -31842,26 +31842,37 @@
         "match_status": "matched",
         "parcel_address": "5424 Main St",
         "parcel_id": "143915",
-        "post_demo_confidence": "likely",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-07-14T11:17:26.797",
-            "issue_date": "2025-08-08T13:19:09.393",
+            "application_date": "2026-03-04T10:23:38.060",
+            "issue_date": "",
             "project": "",
-            "record_number": "CPBR-2025-01618",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "likely_redevelopment",
+            "record_number": "PW-EXC-2026-00723",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Closed",
+            "work_class": "Electrical"
+          },
+          {
+            "application_date": "2026-03-04T10:11:22.447",
+            "issue_date": "2026-03-04T13:03:14.597",
+            "project": "",
+            "record_number": "PW-TC-2026-00631",
+            "record_type": "PW - Traffic Control",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Detached Accessory Structure"
+            "work_class": "Traffic Control for Construction"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:2af24398-5e3e-4639-b1bb-d201cb19b076",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -31993,9 +32004,9 @@
             "work_class": "Detached Accessory Structure"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:33834446-6fb1-44a9-81dd-4c36f8a937bf",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -32214,9 +32225,9 @@
             "work_class": "Detached Accessory Structure"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:ffba0d28-e716-4d77-811a-0c8f433ecf86",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -32382,9 +32393,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:24dd6b9b-a2d6-4164-8a08-6d63aa64daac",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -32607,9 +32618,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:75504627-a6c1-4717-9f36-1d2807bf2f48",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -32849,9 +32860,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:aba1347b-3fe9-491d-8a14-07e6362e369d",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "unknown",
@@ -33068,9 +33079,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:9f23f6f6-7077-460d-bb07-5f40dfe2e32a",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -33247,9 +33258,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:437562a9-b272-48f2-8ee2-00cc7080c8f5",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
@@ -33500,9 +33511,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:d4650bd5-45ca-406a-9499-a447dbdba991",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
@@ -33741,9 +33752,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:6929f165-a6e0-4d28-9830-07aa969e8d33",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -33893,9 +33904,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d2cab3f7-8702-45dc-be78-32633f350c3d",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -34043,9 +34054,9 @@
             "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:bb55b4c2-bd3b-44a0-b0c6-7dd371742784",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -34194,9 +34205,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d0003b18-4940-4919-82a9-6fae8e6cd364",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -34411,9 +34422,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:0685387a-4907-4074-a971-675d86be1bc4",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -34630,9 +34641,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:35a6d2e3-9f80-4198-90e1-b3be92cc8ab4",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -34882,9 +34893,9 @@
             "work_class": "Not Development Related"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:133643df-2afe-4bf0-810c-855a38c7457b",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "commercial_or_mixed",
@@ -35042,26 +35053,26 @@
         "match_status": "matched",
         "parcel_address": "2549 Hardesty Ave",
         "parcel_id": "20745",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-07-22T11:36:25.660",
-            "issue_date": "",
+            "application_date": "2026-03-23T16:48:57.117",
+            "issue_date": "2026-04-02T09:27:49.000",
             "project": "",
-            "record_number": "CPBR-2025-01698",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "record_number": "PW-H-2026-00049",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Ready For Issuance",
-            "work_class": "Duplex - Interior Remodel"
+            "status": "Issued",
+            "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:3ff53c6a-a4a0-4288-add4-8e178a512015",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "story_angle_clues": [
           {
@@ -35221,26 +35232,48 @@
         "match_status": "matched",
         "parcel_address": "3001 E 32nd St",
         "parcel_id": "25058",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-08-11T11:47:55.000",
-            "issue_date": "2026-04-07T11:00:34.000",
+            "application_date": "2026-04-07T10:29:31.000",
+            "issue_date": "2026-04-07T10:32:04.000",
             "project": "",
-            "record_number": "CPBR-2025-01869",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "record_number": "PW-H-2026-00058",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Single Family - Interior Remodel"
+            "work_class": "Hauling"
+          },
+          {
+            "application_date": "2026-01-30T11:18:28.007",
+            "issue_date": "2026-01-30T11:54:17.000",
+            "project": "",
+            "record_number": "PW-TC-2026-00225",
+            "record_type": "PW - Traffic Control",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Closed",
+            "work_class": "Traffic Control for Construction"
+          },
+          {
+            "application_date": "2026-01-07T09:03:50.780",
+            "issue_date": "2026-01-07T10:29:20.000",
+            "project": "",
+            "record_number": "PW-EXC-2026-00058",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Closed",
+            "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1af99ce5-e37d-4c35-bcef-88bea28176d0",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -35370,33 +35403,11 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Closed",
             "work_class": "Water Main/Pipeline"
-          },
-          {
-            "application_date": "2025-08-11T14:48:11.000",
-            "issue_date": "2025-08-12T17:21:07.933",
-            "project": "127058",
-            "record_number": "PW-EXC-2025-03765",
-            "record_type": "PW - Excavation",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Work Completed",
-            "work_class": "Water Main/Pipeline"
-          },
-          {
-            "application_date": "2025-08-11T14:39:44.457",
-            "issue_date": "2025-08-14T13:08:24.000",
-            "project": "127058",
-            "record_number": "WS-PW-PR-2025-01139",
-            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
-            "relation": "demolition_prep_or_utility",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d2eda3a1-6d58-473c-aa61-33a8bc612bbe",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -35584,9 +35595,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1abf06dc-c7ed-433b-a2b3-0a818e53a7a5",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -35723,9 +35734,9 @@
             "work_class": "New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new building permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new building permit.",
         "record_id": "case:a92a4d40-26e4-4718-81da-f66dbdc6daf7",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "commercial_or_mixed",
@@ -35914,9 +35925,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:5f797f1e-195e-416f-8084-581cd34a2702",
         "record_type": "Complete Building Demolition - Commercial",
         "replacement_use": "infrastructure_only",
@@ -36163,9 +36174,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:e7d392e1-05e0-4d99-a9d7-739521af5fa9",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -36397,9 +36408,9 @@
             "work_class": "Single Family - New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new housing permit.",
         "record_id": "case:9cc28c0b-ff5d-4105-9c28-03ed3509af2c",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -36561,48 +36572,48 @@
         "match_status": "matched",
         "parcel_address": "3736 Broadway Blvd",
         "parcel_id": "129911",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-10-28T11:26:50.387",
-            "issue_date": "2025-10-28T14:54:14.063",
-            "project": "FAMILY DOLLAR - REPAIRS",
-            "record_number": "CPBC-2025-00953",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "possible_reuse_or_remodel",
+            "application_date": "2026-05-18T22:35:17.567",
+            "issue_date": "2026-05-20T13:04:09.370",
+            "project": "",
+            "record_number": "PW-H-2026-00081",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Renovation"
+            "work_class": "Hauling"
           },
           {
-            "application_date": "2025-10-22T14:10:21.000",
-            "issue_date": "2025-10-22T00:00:00.000",
-            "project": "FAMILY DOLLAR - REPAIRS",
-            "record_number": "CISI-2025-00440",
-            "record_type": "CPPU - Special Inspections",
-            "relation": "possible_reuse_or_remodel",
+            "application_date": "2026-03-31T11:56:50.000",
+            "issue_date": "2026-04-01T14:20:09.503",
+            "project": "KILL17131",
+            "record_number": "WS-E-162760",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "External Special Inspections"
+            "work_class": "Kill Water Service at Main"
           },
           {
-            "application_date": "2025-10-14T11:12:13.000",
-            "issue_date": "2025-10-14T00:00:00.000",
-            "project": "FAMILY DOLLAR - REPAIRS",
-            "record_number": "CISI-2025-00421",
-            "record_type": "CPPU - Special Inspections",
-            "relation": "possible_reuse_or_remodel",
+            "application_date": "2026-03-31T11:54:50.000",
+            "issue_date": "2026-04-01T14:20:07.107",
+            "project": "KILL17131",
+            "record_number": "PW-EXC-2026-01085",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "City Special Inspections"
+            "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:b8032502-7ad7-40a1-a3ad-8342716a7e67",
         "record_type": "Pre-Demolition Inspection - Commercial",
-        "replacement_use": "commercial_or_mixed",
+        "replacement_use": "infrastructure_only",
         "status": "Issued",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -36789,9 +36800,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:f74accec-1ac7-4f11-86ec-581b7df58230",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -36978,9 +36989,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:31ea9168-de29-48a0-9e42-9c08fb99a8d2",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -37182,9 +37193,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:30ddad89-5683-4a25-b334-318e530dde1e",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -37456,7 +37467,7 @@
         "parcel_address": "4205 Tracy Ave",
         "parcel_id": "135797",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:e75e574c-59b3-4434-881a-e7fe5812d31f",
@@ -37770,9 +37781,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:e4fb8f85-b9ed-4c5e-b51d-a2c67d9207a5",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -38121,9 +38132,9 @@
             "work_class": "Disconnect Service Line at Curb"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:be39c94d-9f53-427e-86f8-cb3edd184873",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -38306,9 +38317,9 @@
             "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:88a9bdb3-b251-4a5f-9638-00552f1dbbfb",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -38423,7 +38434,7 @@
         "parcel_address": "1842 Mercier St",
         "parcel_id": "123963",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:47309f2a-d9b6-4622-9a55-89a43c872384",
@@ -38673,9 +38684,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:a24f066d-1ecb-48a2-b53a-3c50a309149a",
         "record_type": "Pre-Demolition Inspection - Residential",
         "replacement_use": "infrastructure_only",
@@ -38922,9 +38933,9 @@
             "work_class": "Spire Excavation"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:cea532a9-4481-47eb-b03c-6c7be730cc83",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -39083,26 +39094,26 @@
         "match_status": "matched",
         "parcel_address": "2549 Hardesty Ave",
         "parcel_id": "20745",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-07-22T11:36:25.660",
-            "issue_date": "",
+            "application_date": "2026-03-23T16:48:57.117",
+            "issue_date": "2026-04-02T09:27:49.000",
             "project": "",
-            "record_number": "CPBR-2025-01698",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "record_number": "PW-H-2026-00049",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Ready For Issuance",
-            "work_class": "Duplex - Interior Remodel"
+            "status": "Issued",
+            "work_class": "Hauling"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:c2353ed6-cf41-425a-b679-9f66490057b2",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Closed",
         "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
         "year": "2026"
@@ -39338,9 +39349,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:0620ea9d-ca16-41d2-8370-e17cc0af386a",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "unknown",
@@ -39575,9 +39586,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:e2118be6-33b3-4c5c-b9c2-fcd357ab8e30",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -39691,7 +39702,7 @@
         "parcel_address": "1842 Mercier St",
         "parcel_id": "123963",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:c7dc8022-9926-477a-8849-323de928efec",
@@ -39967,7 +39978,7 @@
         "parcel_address": "4205 Tracy Ave",
         "parcel_id": "135797",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:acf5882b-c41a-4c4f-aa16-9360e02c99c4",
@@ -40128,9 +40139,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:f944b9ea-dadf-40cd-ad26-1987ec18535e",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -40350,7 +40361,7 @@
         "parcel_address": "3433 Roanoke Rd",
         "parcel_id": "129236",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:cf30f12c-ab5a-483e-9c0b-57411f1302b9",
@@ -40574,9 +40585,9 @@
             "work_class": "Single Family - New"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "known_replacement",
-        "post_demo_summary": "Public permit records show a new housing permit on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows a new housing permit.",
         "record_id": "case:0ed1f231-5008-4737-a206-c61b44795931",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -40728,7 +40739,7 @@
         "match_status": "matched",
         "parcel_id": "140620",
         "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "no_public_followup_found",
         "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
         "record_id": "case:bd9d42e0-46a8-4375-8e06-a1cec2d650a9",
@@ -41140,9 +41151,9 @@
             "work_class": "Street Plate"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d6efdbdb-c728-428f-8d46-f8e605817ec1",
         "record_type": "Pre-Demolition Inspection - Commercial",
         "replacement_use": "infrastructure_only",
@@ -41621,22 +41632,11 @@
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
             "work_class": "Zoning Clearance (for Business License)"
-          },
-          {
-            "application_date": "2024-06-20T12:39:23.000",
-            "issue_date": "2024-06-20T12:43:28.000",
-            "project": "",
-            "record_number": "CPZ-2024-01248",
-            "record_type": "CPPU - Zoning Approval",
-            "relation": "weak_followup_signal",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Zoning Clearance (for Business License)"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "weak_followup_signal",
-        "post_demo_summary": "Public records show weak same-parcel follow-up activity, but not enough to identify a replacement use.",
+        "post_demo_summary": "Recent same-parcel public records show limited follow-up activity, but not enough to identify a replacement use.",
         "record_id": "case:79678dac-0d72-4fa5-a36b-ea372a99b08f",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "commercial_or_mixed",
@@ -42046,9 +42046,9 @@
             "work_class": "Street Plate"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:59811900-52be-44d8-961d-9b1fa25ef8d6",
         "record_type": "Demolition Review, Regular",
         "replacement_use": "infrastructure_only",
@@ -42203,9 +42203,9 @@
             "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:3472417c-a0a2-4035-9cf7-714fd112a714",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -42560,9 +42560,9 @@
             "work_class": "City"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:4fc72e6f-f3e7-4820-ac58-7f2e97e4f9f5",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -42755,13 +42755,26 @@
         "match_method": "parcel_id",
         "match_status": "matched",
         "parcel_id": "19969",
-        "post_demo_confidence": "unknown",
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "no_public_followup_found",
-        "post_demo_summary": "No same-parcel replacement or redevelopment permit was found in public permit history yet.",
+        "post_demo_confidence": "possible",
+        "post_demo_evidence": [
+          {
+            "application_date": "2026-05-27T12:56:45.353",
+            "issue_date": "",
+            "project": "",
+            "record_number": "CPBR-2026-01294",
+            "record_type": "CPPU - Building (Residential)",
+            "relation": "possible_reuse_or_remodel",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Voided-City",
+            "work_class": "Single Family - Interior Remodel"
+          }
+        ],
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "possible_reuse_or_remodel",
+        "post_demo_summary": "A same-parcel public permit filed after this demolition record shows repair, renovation, remodel or reuse activity.",
         "record_id": "case:df1ff747-2892-4268-850b-d7628596331c",
         "record_type": "Partial Building Demolition - Residential",
-        "replacement_use": "unknown",
+        "replacement_use": "housing",
         "status": "Pending",
         "timing_note": "CompassKC lists the application date; an actual demolition date was not posted.",
         "year": "2026"
@@ -42962,7 +42975,7 @@
             "record_type": "PW - Excavation",
             "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
+            "status": "Closed",
             "work_class": "Water Main/Pipeline"
           },
           {
@@ -42977,9 +42990,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:2562999b-7698-4cf5-9a2b-6b10d955aed6",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -43201,9 +43214,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:d81f2f62-6c71-48b5-8995-e73a6555c1fa",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "infrastructure_only",
@@ -43330,26 +43343,48 @@
         "match_method": "parcel_id",
         "match_status": "matched",
         "parcel_id": "164672",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-06-12T14:43:18.137",
-            "issue_date": "2025-08-18T13:56:39.377",
+            "application_date": "2026-05-18T22:42:04.807",
+            "issue_date": "2026-05-20T13:04:14.010",
             "project": "",
-            "record_number": "CPBR-2025-01357",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "record_number": "PW-H-2026-00082",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Single Family - Interior Remodel"
+            "work_class": "Hauling"
+          },
+          {
+            "application_date": "2026-05-06T10:11:33.580",
+            "issue_date": "2026-05-07T08:42:33.000",
+            "project": "KILL4223",
+            "record_number": "WS-PW-PR-2026-00808",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Water Service Lines - Kills"
+          },
+          {
+            "application_date": "2026-05-05T12:02:15.000",
+            "issue_date": "2026-05-07T08:42:19.000",
+            "project": "KILL4223",
+            "record_number": "WS-E-162879",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:f41973e1-4225-41bb-8304-3c291af0a0ac",
         "record_type": "Demolition Review, Regular",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Submitted",
         "timing_note": "CompassKC lists a demolition-review filing date; an actual demolition date was not posted.",
         "year": "2026"
@@ -43570,9 +43605,9 @@
             "work_class": "Water Service Lines - Kills"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "utility_prep_only",
-        "post_demo_summary": "Public records show demolition-prep or utility-disconnect activity, but no replacement permit found yet.",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:db43ddae-9b25-4ea5-b167-0019dfc14164",
         "record_type": "Demolition Review, Administrative",
         "replacement_use": "infrastructure_only",
@@ -43909,13 +43944,13 @@
             "record_type": "CPPU - Building (Residential)",
             "relation": "possible_reuse_or_remodel",
             "source": "Open Data KC City Issued Permits",
-            "status": "Pending",
+            "status": "Voided-City",
             "work_class": "Single Family - Interior Remodel"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_summary": "A same-parcel public permit filed after this demolition record shows repair, renovation, remodel or reuse activity.",
         "record_id": "case:82d23da3-c968-44b5-ab15-7528e90ec69a",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "housing",
@@ -44153,9 +44188,9 @@
             "work_class": "City Special Inspections"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
         "post_demo_status": "likely_redevelopment",
-        "post_demo_summary": "Public permit records show site or redevelopment activity on this parcel.",
+        "post_demo_summary": "A same-parcel public permit filed near or after this demolition record shows site or redevelopment activity.",
         "record_id": "case:29337f13-76a3-432c-909a-120cc0d04199",
         "record_type": "Complete Building or Structure Demolition - Residential",
         "replacement_use": "unknown",
@@ -44316,48 +44351,48 @@
         "match_status": "matched",
         "parcel_address": "3736 Broadway Blvd",
         "parcel_id": "129911",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-10-28T11:26:50.387",
-            "issue_date": "2025-10-28T14:54:14.063",
-            "project": "FAMILY DOLLAR - REPAIRS",
-            "record_number": "CPBC-2025-00953",
-            "record_type": "CPPU - Building (Commercial)",
-            "relation": "possible_reuse_or_remodel",
+            "application_date": "2026-05-18T22:35:17.567",
+            "issue_date": "2026-05-20T13:04:09.370",
+            "project": "",
+            "record_number": "PW-H-2026-00081",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Renovation"
+            "work_class": "Hauling"
           },
           {
-            "application_date": "2025-10-22T14:10:21.000",
-            "issue_date": "2025-10-22T00:00:00.000",
-            "project": "FAMILY DOLLAR - REPAIRS",
-            "record_number": "CISI-2025-00440",
-            "record_type": "CPPU - Special Inspections",
-            "relation": "possible_reuse_or_remodel",
+            "application_date": "2026-03-31T11:56:50.000",
+            "issue_date": "2026-04-01T14:20:09.503",
+            "project": "KILL17131",
+            "record_number": "WS-E-162760",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "External Special Inspections"
+            "work_class": "Kill Water Service at Main"
           },
           {
-            "application_date": "2025-10-14T11:12:13.000",
-            "issue_date": "2025-10-14T00:00:00.000",
-            "project": "FAMILY DOLLAR - REPAIRS",
-            "record_number": "CISI-2025-00421",
-            "record_type": "CPPU - Special Inspections",
-            "relation": "possible_reuse_or_remodel",
+            "application_date": "2026-03-31T11:54:50.000",
+            "issue_date": "2026-04-01T14:20:07.107",
+            "project": "KILL17131",
+            "record_number": "PW-EXC-2026-01085",
+            "record_type": "PW - Excavation",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "City Special Inspections"
+            "work_class": "Water Main/Pipeline"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:1d96aad7-dbc8-4dd3-80b1-62aa2dfb47e9",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "commercial_or_mixed",
+        "replacement_use": "infrastructure_only",
         "status": "Pending",
         "timing_note": "CompassKC lists the application date; an actual demolition date was not posted.",
         "year": "2026"
@@ -44483,26 +44518,48 @@
         "match_status": "matched",
         "parcel_address": "6600 N Evans Ave",
         "parcel_id": "164672",
-        "post_demo_confidence": "possible",
+        "post_demo_confidence": "unknown",
         "post_demo_evidence": [
           {
-            "application_date": "2025-06-12T14:43:18.137",
-            "issue_date": "2025-08-18T13:56:39.377",
+            "application_date": "2026-05-18T22:42:04.807",
+            "issue_date": "2026-05-20T13:04:14.010",
             "project": "",
-            "record_number": "CPBR-2025-01357",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
+            "record_number": "PW-H-2026-00082",
+            "record_type": "PW - Hauling",
+            "relation": "demolition_prep_or_utility",
             "source": "Open Data KC City Issued Permits",
             "status": "Issued",
-            "work_class": "Single Family - Interior Remodel"
+            "work_class": "Hauling"
+          },
+          {
+            "application_date": "2026-05-06T10:11:33.580",
+            "issue_date": "2026-05-07T08:42:33.000",
+            "project": "KILL4223",
+            "record_number": "WS-PW-PR-2026-00808",
+            "record_type": "WS-PW-PR New Connection - Kills - Repairs - Coord",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Water Service Lines - Kills"
+          },
+          {
+            "application_date": "2026-05-05T12:02:15.000",
+            "issue_date": "2026-05-07T08:42:19.000",
+            "project": "KILL4223",
+            "record_number": "WS-E-162879",
+            "record_type": "WS - Existing Service",
+            "relation": "demolition_prep_or_utility",
+            "source": "Open Data KC City Issued Permits",
+            "status": "Issued",
+            "work_class": "Kill Water Service at Main"
           }
         ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
+        "post_demo_last_checked": "2026-05-29T17:52:47Z",
+        "post_demo_status": "utility_prep_only",
+        "post_demo_summary": "Recent same-parcel public records show utility, excavation, hauling or other prep work, but no replacement or reuse permit was found.",
         "record_id": "case:53528e52-8988-47fa-94a9-10d8742b0fd4",
         "record_type": "Complete Building or Structure Demolition - Residential",
-        "replacement_use": "housing",
+        "replacement_use": "infrastructure_only",
         "status": "Pending",
         "timing_note": "CompassKC lists the application date; an actual demolition date was not posted.",
         "year": "2026"
@@ -44534,9 +44591,9 @@
     ],
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "9f0efe12b395bbf3",
+    "etag": "63e2ba690fbbaa55",
     "features_returned": 182,
-    "generated_at": "2026-05-29T14:41:59Z",
+    "generated_at": "2026-05-29T17:56:03Z",
     "parcel_polygon_features": 182,
     "point_fallback_features": 0,
     "project": "kc-demolitions",
