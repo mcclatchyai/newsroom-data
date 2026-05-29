@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<div class="tpchd-map" data-mode="evergreen" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json">
+<div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/tpchd-736bc6a4973c.geojson">
   <style>
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
@@ -59,28 +59,18 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspections with more than 35 red points</div>
-  <div class="tpchd-map__lede">Restaurants shown here had at least one parsed inspection with more than 35 red points. Marker color shows the current or actionable TPCHD status when available.</div>
+  <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 27-28, 2026</div>
+  <div class="tpchd-map__lede">Inspections shown here had more than 35 red points in parsed TPCHD inspection reports.</div>
   <div class="tpchd-map__facts" aria-live="polite">
     <div class="tpchd-map__fact"><strong data-role="shown">0</strong><span>shown</span></div>
     <div class="tpchd-map__fact"><strong data-role="max-red">0</strong><span>worst inspection points shown</span></div>
     <div class="tpchd-map__fact"><strong data-role="window">Loading</strong><span>date range</span></div>
   </div>
   <div class="tpchd-map__legend" aria-label="Map legend">
-    <span class="tpchd-map__legend-title">Current TPCHD status</span>
-    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#8f1520" aria-hidden="true"><span>!</span></span>Follow-up still needed</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2e7d32" aria-hidden="true"><span>G</span></span>Current rating: Great</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#d88c1f" aria-hidden="true"><span>O</span></span>Current rating: Okay</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#b61f2d" aria-hidden="true"><span>N</span></span>Current rating: Needs to improve</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#4b5563" aria-hidden="true"><span>C</span></span>Closed or restricted</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#2563eb" aria-hidden="true"><span>N</span></span>New rating</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>i</span></span>Rating not posted</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol is-rating" style="background:#6b7280" aria-hidden="true"><span>?</span></span>Status unknown</span>
+    <span class="tpchd-map__legend-title">Red points</span>
+    <span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#d6604d" aria-hidden="true"><span>!</span></span>36-50 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#c23030" aria-hidden="true"><span>!</span></span>51-75 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#9f1d2d" aria-hidden="true"><span>!</span></span>76-100 red points</span><span class="tpchd-map__legend-item"><span class="tpchd-map__legend-symbol" style="background:#67000d" aria-hidden="true"><span>!</span></span>101+ red points</span>
   </div>
   
-  <div class="tpchd-map__search">
-    <label class="tpchd-map__group tpchd-map__search-label">Search restaurant or address <input data-role="search" type="search" autocomplete="off" placeholder="Search restaurant or address"></label>
-    <button type="button" class="tpchd-map__reset" data-role="reset">Reset</button>
-    <div class="tpchd-map__results" data-role="search-results" aria-live="polite" hidden></div>
-  </div>
-  <div class="tpchd-map__controls">
-    <label class="tpchd-map__group">Time period <select data-role="period"><option value="recent90">Last 90 days</option><option value="ytd">Year to date</option><option value="all">All available records</option></select></label>
-    <label class="tpchd-map__group">Minimum red points <input data-role="min-red" type="number" min="0" step="1"></label>
-    <button type="button" class="tpchd-map__near" data-role="near-me">Use my location</button>
-  </div>
   <div class="tpchd-map__stage">
     <div class="tpchd-map__canvas" aria-label="Interactive map of TPCHD restaurant inspections with more than 35 red points"></div>
     <button type="button" class="tpchd-map__interaction" data-role="interaction-overlay">Tap to explore the map. Use Done when you want to keep scrolling.</button>
@@ -98,10 +88,10 @@
   var wrapper = script && script.previousElementSibling;
   while (wrapper && !wrapper.classList.contains("tpchd-map")) wrapper = wrapper.previousElementSibling;
   if (!wrapper) return;
-  var mode = wrapper.getAttribute("data-mode") || "evergreen";
-  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/manifest.json";
+  var mode = wrapper.getAttribute("data-mode") || "alert";
+  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/tpchd-736bc6a4973c.geojson";
   var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
-  var ratingCategories = [{"id": "status_follow_up_needed", "label": "Follow-up still needed", "color": "#8f1520", "letter": "!", "shape": "diamond"}, {"id": "rating_great", "label": "Current rating: Great", "color": "#2e7d32", "letter": "G", "shape": "circle"}, {"id": "rating_okay", "label": "Current rating: Okay", "color": "#d88c1f", "letter": "O", "shape": "circle"}, {"id": "rating_needs_improve", "label": "Current rating: Needs to improve", "color": "#b61f2d", "letter": "N", "shape": "circle"}, {"id": "rating_closed", "label": "Closed or restricted", "color": "#4b5563", "letter": "C", "shape": "circle"}, {"id": "rating_new", "label": "New rating", "color": "#2563eb", "letter": "N", "shape": "circle"}, {"id": "rating_not_posted", "label": "Rating not posted", "color": "#6b7280", "letter": "i", "shape": "circle"}, {"id": "rating_unknown", "label": "Status unknown", "color": "#6b7280", "letter": "?", "shape": "circle"}];
+  var ratingCategories = [{"id": "rating_great", "label": "Great", "color": "#2e7d32", "letter": "G", "shape": "circle"}, {"id": "rating_okay", "label": "Okay", "color": "#d88c1f", "letter": "O", "shape": "circle"}, {"id": "rating_needs_improve", "label": "Needs to improve", "color": "#b61f2d", "letter": "N", "shape": "circle"}, {"id": "rating_closed", "label": "Closed", "color": "#4b5563", "letter": "C", "shape": "circle"}, {"id": "rating_new", "label": "New", "color": "#2563eb", "letter": "N", "shape": "circle"}, {"id": "rating_not_posted", "label": "Rating not posted", "color": "#6b7280", "letter": "i", "shape": "circle"}, {"id": "rating_unknown", "label": "Status unknown", "color": "#6b7280", "letter": "?", "shape": "circle"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
   var status = wrapper.querySelector(".tpchd-map__status");
   var shown = wrapper.querySelector('[data-role="shown"]');

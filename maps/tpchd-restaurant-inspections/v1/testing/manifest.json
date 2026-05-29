@@ -1,57 +1,65 @@
 {
   "available_years": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "coverage_note": "This map shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records. Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points.",
-  "data_version": "live-batch-smoke",
+  "coverage_note": "Evergreen markers are facilities with at least one parsed report above 35 red points. Marker status is based on the latest scraper-observed current status, parsed follow-up PDF fields, and later inspections for the same facility. Blank TPCHD grade fields are shown as rating not posted, not as zero.",
+  "data_version": "20260529175127Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections over the newsroom red-point threshold.",
   "entrypoints": {
     "by_year": {
+      "2019": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2019.geojson",
+      "2020": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2020.geojson",
+      "2021": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2021.geojson",
+      "2022": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2022.geojson",
+      "2023": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2023.geojson",
+      "2024": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2024.geojson",
+      "2025": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2025.geojson",
       "2026": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2026.geojson"
     },
     "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/embed.html",
     "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-live-batch-smoke.html",
-    "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/geocode_cache.json",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/latest.geojson",
-    "run_embeds": {
-      "sample-copy-2026-05-13-to-2026-05-27": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27/embed.html"
-    },
     "run_previews": {
-      "sample-copy-2026-05-13-to-2026-05-27": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27/preview.html"
+      "tpchd-736bc6a4973c": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/tpchd-736bc6a4973c/preview.html"
     },
     "runs": {
-      "sample-copy-2026-05-13-to-2026-05-27": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27.geojson"
+      "tpchd-736bc6a4973c": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/tpchd-736bc6a4973c.geojson"
     }
   },
   "environment": "testing",
-  "features_total": 21,
+  "features_total": 53,
   "files": {
     "by_year": {
+      "2019": "by-year/2019.geojson",
+      "2020": "by-year/2020.geojson",
+      "2021": "by-year/2021.geojson",
+      "2022": "by-year/2022.geojson",
+      "2023": "by-year/2023.geojson",
+      "2024": "by-year/2024.geojson",
+      "2025": "by-year/2025.geojson",
       "2026": "by-year/2026.geojson"
     },
     "evergreen_embed": "embed/evergreen/embed.html",
     "evergreen_preview": "embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "embed/evergreen/preview-live-batch-smoke.html",
-    "geocode_cache": "geocode_cache.json",
     "latest": "latest.geojson",
-    "run_embeds": {
-      "sample-copy-2026-05-13-to-2026-05-27": "embed/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27/embed.html"
-    },
-    "run_previews": {
-      "sample-copy-2026-05-13-to-2026-05-27": "embed/runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27/preview.html"
-    },
     "runs": {
-      "sample-copy-2026-05-13-to-2026-05-27": "runs/live-batch-smoke/sample-copy-2026-05-13-to-2026-05-27.geojson"
+      "tpchd-736bc6a4973c": "runs/tpchd-736bc6a4973c.geojson"
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-05-29T15:02:14Z",
-  "geometry_precision": "facility address from TPCHD inspection records",
-  "map_cannot_show": "This map does not include source records not yet collected by the scraper.",
-  "map_claim": "Shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points, with timeline context where available.",
+  "generated_at": "2026-05-29T17:51:27Z",
+  "geometry_precision": "reviewed facility address geocode",
+  "map_cannot_show": "This map does not show neighborhood-level health risk, all below-threshold facilities, or rows without reviewed coordinates.",
+  "map_claim": "Shows geocoded public restaurant facilities with at least one parsed inspection above 35 red points, with current TPCHD status and later observed inspection context where available.",
   "privacy": {
     "excludes": [
       "Google Sheet IDs",
@@ -65,10 +73,10 @@
     "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
   },
   "project": "tpchd-restaurant-inspections",
-  "records_above_threshold": 20,
-  "records_excluded_by_threshold": 0,
-  "records_excluded_unparsed": 1,
-  "records_total": 21,
+  "records_above_threshold": 1368,
+  "records_excluded_by_threshold": 26593,
+  "records_excluded_unparsed": 4778,
+  "records_total": 32739,
   "red_point_threshold": 35,
   "schema": {
     "geometry": "Point coordinates from reviewed geocodes of TPCHD facility addresses.",
@@ -86,36 +94,6 @@
       "inspection_years",
       "inspection_type",
       "inspection_result",
-      "latest_red_points",
-      "latest_total_points",
-      "latest_repeat_red_points",
-      "latest_inspection_date",
-      "latest_inspection_type",
-      "latest_inspection_result",
-      "latest_report_availability",
-      "latest_result_status",
-      "latest_result_status_label",
-      "latest_result_status_group",
-      "default_action_status",
-      "closure_context",
-      "closure_status_raw",
-      "closure_reason_summary",
-      "closure_reader_label",
-      "closure_reader_explanation",
-      "closure_actionable",
-      "closure_event_type",
-      "resolution_status",
-      "resolution_date",
-      "resolution_source_url",
-      "next_later_inspection_date",
-      "next_later_inspection_type",
-      "next_later_inspection_result",
-      "next_later_report_url",
-      "latest_observed_inspection_date",
-      "latest_observed_inspection_type",
-      "latest_observed_inspection_result",
-      "latest_observed_report_url",
-      "needs_review_reason",
       "current_score",
       "current_grade",
       "current_last_inspection_date",
@@ -126,7 +104,6 @@
       "worst_inspection_date",
       "latest_over_threshold_date",
       "over_threshold_count",
-      "inspection_count",
       "red_point_severity",
       "red_point_severity_label",
       "current_rating_category",
@@ -147,9 +124,6 @@
       "current_status_timing",
       "current_status_timing_label",
       "report_url",
-      "fallback_report_url",
-      "fallback_report_date",
-      "fallback_report_label",
       "facility_detail_url",
       "report_fetch_status",
       "geocode_status",
@@ -158,7 +132,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-05-29T15:17:14Z",
+  "stale_after": "2026-05-29T18:06:27Z",
   "symbology": {
     "alert_categories": [
       {
@@ -204,127 +178,63 @@
     ],
     "evergreen_categories": [
       {
-        "color": "#7f1d1d",
-        "filter_group": "needs_attention",
-        "id": "closed_until_approved_to_reopen",
-        "label": "Closed until approved to reopen",
-        "legend_label": "Closed until reopen",
-        "letter": "C",
-        "rank": 10,
-        "shape": "square"
-      },
-      {
-        "color": "#374151",
-        "filter_group": "closed",
-        "id": "closed_permanently",
-        "label": "Permanently closed",
-        "legend_label": "Permanently closed",
-        "letter": "P",
-        "rank": 9,
-        "shape": "square"
-      },
-      {
-        "color": "#991b1b",
-        "filter_group": "closed",
-        "id": "not_permitted_to_operate",
-        "label": "Not permitted to operate",
-        "legend_label": "Not permitted",
-        "letter": "N",
-        "rank": 8,
-        "shape": "square"
-      },
-      {
-        "color": "#9f1239",
-        "filter_group": "closed",
-        "id": "closed_for_fixed_period",
-        "label": "Closed for fixed period",
-        "legend_label": "Fixed-period closure",
-        "letter": "T",
-        "rank": 8,
-        "shape": "square"
-      },
-      {
-        "color": "#b91c1c",
-        "filter_group": "needs_attention",
-        "id": "reinspection_required",
-        "label": "Reinspection required",
-        "legend_label": "Reinspection required",
+        "color": "#8f1520",
+        "id": "status_follow_up_needed",
+        "label": "Follow-up still needed",
         "letter": "!",
-        "rank": 7,
         "shape": "diamond"
       },
       {
-        "color": "#be123c",
-        "filter_group": "needs_attention",
-        "id": "preopening_failed",
-        "label": "Failed pre-opening inspection",
-        "legend_label": "Pre-opening failed",
-        "letter": "P",
-        "rank": 7,
-        "shape": "diamond"
+        "color": "#2e7d32",
+        "id": "rating_great",
+        "label": "Current rating: Great",
+        "letter": "G",
+        "shape": "circle"
       },
       {
-        "color": "#c2410c",
-        "filter_group": "needs_attention",
-        "id": "compliance_order_issued",
-        "label": "Compliance order issued",
-        "legend_label": "Compliance order",
+        "color": "#d88c1f",
+        "id": "rating_okay",
+        "label": "Current rating: Okay",
         "letter": "O",
-        "rank": 6,
-        "shape": "diamond"
+        "shape": "circle"
       },
       {
-        "color": "#1d4ed8",
-        "filter_group": "needs_attention",
-        "id": "follow_up_scheduled",
-        "label": "Follow-up/reinspection scheduled",
-        "legend_label": "Follow-up scheduled",
-        "letter": "S",
-        "rank": 5,
+        "color": "#b61f2d",
+        "id": "rating_needs_improve",
+        "label": "Current rating: Needs to improve",
+        "letter": "N",
+        "shape": "circle"
+      },
+      {
+        "color": "#4b5563",
+        "id": "rating_closed",
+        "label": "Closed or restricted",
+        "letter": "C",
         "shape": "circle"
       },
       {
         "color": "#2563eb",
-        "filter_group": "scheduled",
-        "id": "scheduled_pending",
-        "label": "Inspection scheduled",
-        "legend_label": "Scheduled",
-        "letter": "S",
-        "rank": 4,
-        "shape": "circle"
-      },
-      {
-        "color": "#2e7d32",
-        "filter_group": "meets",
-        "id": "meets_standards",
-        "label": "Meets TPCHD standards",
-        "legend_label": "Later met standards",
-        "letter": "G",
-        "rank": 3,
-        "shape": "circle"
-      },
-      {
-        "color": "#64748b",
-        "filter_group": "administrative",
-        "id": "administrative_or_not_applicable",
-        "label": "Administrative or not applicable",
-        "legend_label": "Administrative",
-        "letter": "i",
-        "rank": 2,
+        "id": "rating_new",
+        "label": "New rating",
+        "letter": "N",
         "shape": "circle"
       },
       {
         "color": "#6b7280",
-        "filter_group": "unknown",
-        "id": "current_result_unknown",
-        "label": "Current result unavailable",
-        "legend_label": "Unavailable",
+        "id": "rating_not_posted",
+        "label": "Rating not posted",
+        "letter": "i",
+        "shape": "circle"
+      },
+      {
+        "color": "#6b7280",
+        "id": "rating_unknown",
+        "label": "Status unknown",
         "letter": "?",
-        "rank": 1,
         "shape": "circle"
       }
     ],
-    "note": "Evergreen markers use latest TPCHD result/action status as the color, shape and letter encoding. Red-point totals appear in the selected restaurant details when available. Alert/run maps are static per-alert layers and use fixed red-point classes.",
+    "note": "Evergreen markers use current/actionable TPCHD status as the primary color/letter encoding. Historical red-point severity is shown in popups and filters. Alert/run maps use fixed red-point classes with darker red for higher totals.",
     "rating_categories": [
       {
         "color": "#2e7d32",
@@ -364,7 +274,7 @@
       {
         "color": "#6b7280",
         "id": "rating_not_posted",
-        "label": "No grade shown by TPCHD",
+        "label": "Rating not posted",
         "letter": "i",
         "shape": "circle"
       },
@@ -379,7 +289,9 @@
   },
   "threshold_label": "More than 35 red points",
   "threshold_rule": "red_points > 35",
-  "title": "Tacoma-Pierce County restaurant inspection action status",
-  "unmapped_records": 0,
-  "unmapped_records_by_reason": {}
+  "title": "Tacoma-Pierce County restaurant inspections with more than 35 red points",
+  "unmapped_records": 809,
+  "unmapped_records_by_reason": {
+    "missing_coordinates": 809
+  }
 }
