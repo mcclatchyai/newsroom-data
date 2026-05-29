@@ -1,7 +1,7 @@
 {
   "context_packet": {
     "filing_id": "20033783",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "issuer_name": "Diamondback Energy, Inc. - Common Stock",
     "packet": {
       "caveats": [
@@ -16,27 +16,19 @@
         ],
         "lda_context": {
           "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Diamondback+Energy%2C+Inc.+-+Common+Stock",
-          "query_payload": {
-            "client_name": "Diamondback Energy, Inc. - Common Stock",
-            "page_size": 5
-          },
+          "reason": "no_fixture_data",
           "records": [],
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://lda.senate.gov/api/",
-          "status": "available"
+          "status": "unavailable"
         },
         "member_committee_context": {
           "committees": [],
-          "confidence": 0.85,
-          "member": {
-            "bioguide_id": "W000816",
-            "district": "25",
-            "match_method": "name_state_district",
-            "name": "Roger Williams",
-            "state": "TX"
-          },
+          "confidence": 0.0,
+          "member": {},
+          "reason": "no_fixture_data",
           "source_url": "https://github.com/unitedstates/congress-legislators",
-          "status": "available"
+          "status": "unavailable"
         },
         "reporter_flags": {
           "committee_context_available": false,
@@ -44,17 +36,16 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
-        "retrieved_at": "2026-05-28T19:57:40Z",
+        "retrieved_at": "2026-05-29T15:02:01Z",
         "sec_issuer_identity": {
-          "cik": "0001539838",
-          "confidence": 1.0,
-          "match_method": "ticker_exact",
-          "sec_title": "Diamondback Energy, Inc.",
+          "confidence": 0.0,
+          "issuer_name": "Diamondback Energy, Inc. - Common Stock",
+          "reason": "no_fixture_data",
           "source_url": "https://www.sec.gov/files/company_tickers.json",
-          "status": "available",
+          "status": "unavailable",
           "ticker": "FANG"
         },
-        "source": "official",
+        "source": "fixture",
         "source_links": [
           {
             "label": "SEC EDGAR APIs",
@@ -77,15 +68,13 @@
             "url": "https://github.com/unitedstates/congress-legislators"
           }
         ],
-        "status": "partial",
+        "status": "unavailable",
         "usaspending_context": {
           "awards": [],
-          "query_payload": {
-            "search_text": "Diamondback Energy, Inc. - Common Stock"
-          },
-          "reason": "no_recipient_candidates",
+          "query_payload": {},
+          "reason": "no_fixture_data",
           "recipient_candidates": [],
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "selected_recipient": null,
           "source_url": "https://api.usaspending.gov/docs/",
           "status": "unavailable"
@@ -127,206 +116,65 @@
         "state": "TX"
       },
       "news_context": {
-        "filtered_out_count": 25,
         "issuer_name": "Diamondback Energy, Inc. - Common Stock",
-        "min_relevance_score": 20,
-        "provider": "gdelt_doc_2_0",
-        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Diamondback+Energy+Inc%22+OR+FANG%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
-        "query": "(\"Diamondback Energy Inc\" OR FANG)",
-        "raw_result_count": 25,
-        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "provider": "fixture",
+        "query": "",
+        "reason": "no_fixture_data",
+        "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
         "result_count": 0,
         "results": [],
-        "retrieved_at": "2026-05-28T19:57:40Z",
+        "retrieved_at": "2026-05-29T15:02:01Z",
         "schema_version": 1,
-        "source": "gdelt_doc_2_0",
+        "source": "fixture",
         "source_links": [],
-        "status": "no_results",
+        "status": "unavailable",
         "ticker": "FANG",
         "window": {
-          "end_date": "2026-03-01",
-          "start_date": "2025-12-08"
+          "end_date": "",
+          "start_date": ""
         }
       },
       "packet_version": 1,
       "policy_context": {
         "caveats": [
           "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+          "Committee jurisdiction and issuer relevance must be verified before publication."
         ],
         "committee_issuer_overlap_status": {
           "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
-          "confidence": 0.45,
-          "matched_bill_count": 4,
+          "confidence": 0.2,
+          "matched_bill_count": 0,
           "matched_committee_count": 0,
-          "matched_hearing_count": 4,
-          "matched_terms": [
-            "energy"
-          ],
-          "status": "policy_activity_found",
-          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+          "matched_hearing_count": 0,
+          "matched_terms": [],
+          "status": "no_overlap_found",
+          "summary": "No committee/policy overlap was found in this automated pass."
         },
         "committee_jurisdiction_context": {
           "committees_checked": [],
           "confidence": 0.0,
           "matched_committees": [],
-          "reason": "committee_context_unavailable",
+          "reason": "no_fixture_data",
           "source_url": "https://www.congress.gov/committees",
           "status": "unavailable"
         },
         "congressgov_bills": {
-          "items": [
-            {
-              "api_url": "https://api.congress.gov/v3/bill/119/hres/7?format=json",
-              "congress": 119,
-              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/7",
-              "latest_action_date": "2025-01-03",
-              "latest_action_text": "Referred to the House Committee on Energy and Commerce.",
-              "matched_terms": [
-                "energy"
-              ],
-              "number": "7",
-              "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
-              "type": "HRES"
-            },
-            {
-              "api_url": "https://api.congress.gov/v3/bill/119/hr/123?format=json",
-              "congress": 119,
-              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/123",
-              "latest_action_date": "2025-01-03",
-              "latest_action_text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-              "matched_terms": [
-                "energy"
-              ],
-              "number": "123",
-              "title": "Improving Science in Chemical Assessments Act",
-              "type": "HR"
-            },
-            {
-              "api_url": "https://api.congress.gov/v3/bill/119/hr/78?format=json",
-              "congress": 119,
-              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/78",
-              "latest_action_date": "2025-01-03",
-              "latest_action_text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-              "matched_terms": [
-                "energy"
-              ],
-              "number": "78",
-              "title": "Pregnant Women Health and Safety Act of 2025",
-              "type": "HR"
-            },
-            {
-              "api_url": "https://api.congress.gov/v3/bill/118/s/3027?format=json",
-              "congress": 118,
-              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3027",
-              "latest_action_date": "2023-10-04",
-              "latest_action_text": "Read twice and referred to the Committee on Finance.",
-              "matched_terms": [
-                "energy"
-              ],
-              "number": "3027",
-              "title": "A bill to amend the Internal Revenue Code of 1986 to extend the energy credit for qualified fuel cell property.",
-              "type": "S"
-            }
-          ],
+          "items": [],
           "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-          "query_payload": {
-            "congresses": [
-              119,
-              118
-            ],
-            "limit": 50,
-            "terms": [
-              "fang",
-              "diamondback",
-              "energy"
-            ]
-          },
-          "reason": "matched_terms",
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "query_payload": {},
+          "reason": "no_fixture_data",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://api.congress.gov/",
-          "status": "available"
+          "status": "unavailable"
         },
         "congressgov_hearings": {
-          "items": [
-            {
-              "api_url": "",
-              "chamber": "House",
-              "committee_names": [],
-              "congress": 119,
-              "date": "2026-05-20T15:00:00Z",
-              "event_id": "119319",
-              "matched_terms": [
-                "energy"
-              ],
-              "meeting_status": "Scheduled",
-              "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill",
-              "type": "Markup"
-            },
-            {
-              "api_url": "",
-              "chamber": "House",
-              "committee_names": [],
-              "congress": 118,
-              "date": "2024-12-04T19:30:00Z",
-              "event_id": "117746",
-              "matched_terms": [
-                "energy"
-              ],
-              "meeting_status": "Scheduled",
-              "title": "“Exposing the Truth on LNG: How the Administration Played Politics with America’s Energy Future”",
-              "type": "Hearing"
-            },
-            {
-              "api_url": "",
-              "chamber": "House",
-              "committee_names": [],
-              "congress": 118,
-              "date": "2024-11-19T19:00:00Z",
-              "event_id": "117718",
-              "matched_terms": [
-                "energy"
-              ],
-              "meeting_status": "Scheduled",
-              "title": "Legislative hearing on the following bills:\r\n\r\n• H.R. 6441 (Rep. Vasquez), “Ranching Without Red Tape Act of 2023”;\r\n• H.R. 7666 (Rep. LaMalfa), To require the Secretary of Agriculture to develop a strategy to increase opportunities to utilize livestock grazing as a means of wildfire risk reduction;\r\n• H.R. 8182 (Rep. Austin Scott of GA), “Ocmulgee Mounds National Park and Preserve Establishment Act”;\r\n• H.R. 8517 (Rep. Gosar), “La Paz County Solar Energy and Job Creation Act”;\r\n• H.R. 9062 (Rep. Curtis), “Operational Flexibility Grazing Management Program Act”;\r\n• H.R. 9165 (Rep. Maloy), “Public Land Search and Rescue Act”;\r\n• H.R. 9528 (Rep. Pallone), To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.;\r\n• H.R. 10082 (Rep. Bentz), “Oregon Owyhee Wilderness and Community Protection Act”; and\r\n• H.R. 10084 (Rep. Clyburn), “Renewing the African American Civil Rights Network Act”.",
-              "type": "Meeting"
-            },
-            {
-              "api_url": "",
-              "chamber": "Senate",
-              "committee_names": [],
-              "congress": 118,
-              "date": "2024-11-19T14:30:00Z",
-              "event_id": "336261",
-              "matched_terms": [
-                "energy"
-              ],
-              "meeting_status": "Scheduled",
-              "title": "Business meeting to consider S.254, to amend the Omnibus Parks and Public Lands Management Act of 1996 to provide for the establishment of a Ski Area Fee Retention Account, S.373, to modify the disposition of certain outer Continental Shelf revenues and to open Federal financial sharing to heighten opportunities for renewable energy, S.482, to amend the Klamath Basin Water Supply Enhancement Act of 2000 to provide the Secretary of the Interior with certain authorities with respect to projects affecting the Klamath Basin watershed, S.620, to provide for the distribution of certain outer Continental Shelf revenues to the State of Alaska, S.739, to clarify jurisdiction with respect to certain Bureau of Reclamation pumped storage development, S.914, to establish an energy threat analysis center in the Department of Energy, S.1553, to amend the Federal Land Policy and Management Act of 1976 to improve the management of grazing permits and leases, S.1764, to improve Federal activities relating to wildfires, S.2132, to require the Secretary of Agriculture to establish a pilot program for the establishment and use of a pre-fire-suppression stand density index, S.2151, to amend the Southwest Forest Health and Wildlife Prevention Act of 2004 to require the establishment of an additional Institute under that Act, S.2156, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to authorize additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.2160, to amend the Omnibus Public Land Management Act of 2009 to authorize certain extraordinary operation and maintenance work for urban canals of concern, S.2169, to authorize the Secretary of the Interior to carry out watershed pilots, S.2620, to establish the Chesapeake National Recreation Area as a unit of the National Park System, S.2742, to establish the Fort Ontario National Monument in the State of New York as a unit of the National Park System, S.2743, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, S.2784, to amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, S.2867, to address the forest health crisis on the National Forest System and public lands, S.2927, to amend the Omnibus Public Land Management Act of 2009 to increase Tribal access to water conservation and efficiency grants, S.2991, to improve revegetation and carbon sequestration activities in the United States, S.3123, to provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, S.3195, to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, S.3241, to establish the Grand Village of the Natchez Indians and Jefferson College as affiliated areas of the Natchez Historical Park, S.3346, to amend the Wild and Scenic Rivers Act to designate certain streams in the greater Yellowstone ecosystem and Smith River system in the State of Montana as components of the Wild and Scenic Rivers System, S.3474, to redesignate the Hulls Cove Visitor Center at Acadia National Park as the \"George J. Mitchell, Jr., Visitor Center\", S.3534, to authorize the Pines Foundation to establish the Fire Island AIDS Memorial, S.3542, to amend the Atchafalaya National Heritage Area Act to modify the boundary of the Atchafalaya National Heritage Area, S.3543, to establish the Historic Greenwood District-Black Wall Street National Monument in the State of Oklahoma, S.3544, to designate the visitor and education center at Fort McHenry National Monument and Historic Shrine as the \"Paul S. Sarbanes Visitor and Education Center\", S.3593, to provide for economic development and conservation in Washoe County, Nevada, S.3596, to amend the Mineral Leasing Act to amend references of gilsonite to asphaltite, S.3617, to provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, S.3631, to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies, S.3985, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.4016, to amend the Boulder Canyon Project Act to authorize the Secretary of the Interior to expend amounts in the Colorado River Dam fund, S.4129, to contribute funds and artifacts to the Theodore Roosevelt Presidential Library in Medora, North Dakota, S.4164, to authorize the Secretary of the Interior to conduct a special resource study of",
-              "type": "Meeting"
-            }
-          ],
+          "items": [],
           "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-          "query_payload": {
-            "chambers": [
-              "house",
-              "senate"
-            ],
-            "congresses": [
-              119,
-              118
-            ],
-            "limit": 50,
-            "terms": [
-              "fang",
-              "diamondback",
-              "energy"
-            ]
-          },
-          "reason": "matched_terms",
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "query_payload": {},
+          "reason": "no_fixture_data",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://api.congress.gov/",
-          "status": "available"
+          "status": "unavailable"
         },
         "issuer_policy_terms": [
           {
@@ -347,11 +195,11 @@
         ],
         "reporter_flags": {
           "committee_policy_overlap_check_needed": false,
-          "congressgov_bills_found": true,
-          "congressgov_hearings_found": true
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": false
         },
-        "retrieved_at": "2026-05-28T19:57:40Z",
-        "source": "official",
+        "retrieved_at": "2026-05-29T15:02:01Z",
+        "source": "fixture",
         "source_links": [
           {
             "label": "Congress.gov API",
@@ -366,7 +214,7 @@
             "url": "https://www.congress.gov/search"
           }
         ],
-        "status": "available"
+        "status": "unavailable"
       },
       "reporter_checks": [
         "Verify who directed the trade and whether the account is adviser-managed.",
@@ -449,27 +297,19 @@
     ],
     "lda_context": {
       "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Diamondback+Energy%2C+Inc.+-+Common+Stock",
-      "query_payload": {
-        "client_name": "Diamondback Energy, Inc. - Common Stock",
-        "page_size": 5
-      },
+      "reason": "no_fixture_data",
       "records": [],
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://lda.senate.gov/api/",
-      "status": "available"
+      "status": "unavailable"
     },
     "member_committee_context": {
       "committees": [],
-      "confidence": 0.85,
-      "member": {
-        "bioguide_id": "W000816",
-        "district": "25",
-        "match_method": "name_state_district",
-        "name": "Roger Williams",
-        "state": "TX"
-      },
+      "confidence": 0.0,
+      "member": {},
+      "reason": "no_fixture_data",
       "source_url": "https://github.com/unitedstates/congress-legislators",
-      "status": "available"
+      "status": "unavailable"
     },
     "reporter_flags": {
       "committee_context_available": false,
@@ -477,17 +317,16 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "retrieved_at": "2026-05-28T19:57:40Z",
+    "retrieved_at": "2026-05-29T15:02:01Z",
     "sec_issuer_identity": {
-      "cik": "0001539838",
-      "confidence": 1.0,
-      "match_method": "ticker_exact",
-      "sec_title": "Diamondback Energy, Inc.",
+      "confidence": 0.0,
+      "issuer_name": "Diamondback Energy, Inc. - Common Stock",
+      "reason": "no_fixture_data",
       "source_url": "https://www.sec.gov/files/company_tickers.json",
-      "status": "available",
+      "status": "unavailable",
       "ticker": "FANG"
     },
-    "source": "official",
+    "source": "fixture",
     "source_links": [
       {
         "label": "SEC EDGAR APIs",
@@ -510,15 +349,13 @@
         "url": "https://github.com/unitedstates/congress-legislators"
       }
     ],
-    "status": "partial",
+    "status": "unavailable",
     "usaspending_context": {
       "awards": [],
-      "query_payload": {
-        "search_text": "Diamondback Energy, Inc. - Common Stock"
-      },
-      "reason": "no_recipient_candidates",
+      "query_payload": {},
+      "reason": "no_fixture_data",
       "recipient_candidates": [],
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "selected_recipient": null,
       "source_url": "https://api.usaspending.gov/docs/",
       "status": "unavailable"
@@ -537,7 +374,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "member_name": "Hon. Roger Williams",
     "pdf_sha256": "",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
@@ -563,7 +400,7 @@
     "article_starter": {
       "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
       "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
-      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
+      "evidence_context": "No high-signal federal or committee context was found in this automated pass.",
       "headline_candidate": "Hon. Roger Williams's FANG sale",
       "lede": "Hon. Roger Williams reported a sale of Diamondback Energy, Inc (FANG) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026.",
       "market_context": "Market movement is unavailable for this transaction.",
@@ -585,14 +422,14 @@
       "committee_context_available": false,
       "committee_overlap_check_needed": false,
       "committee_policy_overlap_check_needed": false,
-      "congressgov_bills_found": true,
-      "congressgov_hearings_found": true,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": false,
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
-    "grounded_summary": "Hon. Roger Williams reported a sale of Diamondback Energy, Inc (FANG) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "grounded_summary": "Hon. Roger Williams reported a sale of Diamondback Energy, Inc (FANG) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. No high-signal federal or committee context was found in this automated pass. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
     "headline": "Hon. Roger Williams's FANG sale",
     "issuer_name": "Diamondback Energy, Inc",
     "market_context": {
@@ -602,23 +439,23 @@
       "latest_price_date": null,
       "percent_change_trade_to_filing": null,
       "percent_change_trade_to_latest": null,
-      "publication_license_status": "confirmed",
+      "publication_license_status": "not_confirmed_internal_only",
       "publication_ready": false,
-      "source": "finazon_us_stocks_essential",
+      "source": "fixture",
       "status": "unavailable",
       "trade_date_close": null,
       "trade_date_price_date": null
     },
     "member_name": "Hon. Roger Williams",
     "news_context": {
-      "provider": "gdelt_doc_2_0",
-      "query": "(\"Diamondback Energy Inc\" OR FANG)",
+      "provider": "fixture",
+      "query": "",
       "result_count": 0,
       "results": [],
-      "status": "no_results",
+      "status": "unavailable",
       "window": {
-        "end_date": "2026-03-01",
-        "start_date": "2025-12-08"
+        "end_date": "",
+        "start_date": ""
       }
     },
     "owner": "Self",
@@ -631,54 +468,25 @@
     "reporter_context": {
       "committees": [],
       "lda": {
-        "reason": "",
+        "reason": "no_fixture_data",
         "record_count": 0,
         "records": [],
-        "status": "available"
+        "status": "unavailable"
       },
       "news": {
-        "query": "(\"Diamondback Energy Inc\" OR FANG)",
+        "query": "",
         "result_count": 0,
-        "status": "no_results",
+        "status": "unavailable",
         "window": {
-          "end_date": "2026-03-01",
-          "start_date": "2025-12-08"
+          "end_date": "",
+          "start_date": ""
         }
       },
       "policy": {
-        "bills": [
-          {
-            "latest_action": "",
-            "number": "7",
-            "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages."
-          },
-          {
-            "latest_action": "",
-            "number": "123",
-            "title": "Improving Science in Chemical Assessments Act"
-          },
-          {
-            "latest_action": "",
-            "number": "78",
-            "title": "Pregnant Women Health and Safety Act of 2025"
-          }
-        ],
-        "hearings": [
-          {
-            "date": "2026-05-20T15:00:00Z",
-            "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill"
-          },
-          {
-            "date": "2024-12-04T19:30:00Z",
-            "title": "“Exposing the Truth on LNG: How the Administration Played Politics with America’s Energy Future”"
-          },
-          {
-            "date": "2024-11-19T19:00:00Z",
-            "title": "Legislative hearing on the following bills:\r\n\r\n• H.R. 6441 (Rep. Vasquez), “Ranching Without Red Tape Act of 2023”;\r\n• H.R. 7666 (Rep. LaMalfa), To require the Secretary of Agriculture to develop a strategy to increase opportunities to utilize livestock grazing as a means of wildfire risk reduction;\r\n• H.R. 8182 (Rep. Austin Scott of GA), “Ocmulgee Mounds National Park and Preserve Establishment Act”;\r\n• H.R. 8517 (Rep. Gosar), “La Paz County Solar Energy and Job Creation Act”;\r\n• H.R. 9062 (Rep. Curtis), “Operational Flexibility Grazing Management Program Act”;\r\n• H.R. 9165 (Rep. Maloy), “Public Land Search and Rescue Act”;\r\n• H.R. 9528 (Rep. Pallone), To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.;\r\n• H.R. 10082 (Rep. Bentz), “Oregon Owyhee Wilderness and Community Protection Act”; and\r\n• H.R. 10084 (Rep. Clyburn), “Renewing the African American Civil Rights Network Act”."
-          }
-        ],
-        "overlap_reason": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass.",
-        "overlap_status": "policy_activity_found",
+        "bills": [],
+        "hearings": [],
+        "overlap_reason": "No committee/policy overlap was found in this automated pass.",
+        "overlap_status": "no_overlap_found",
         "terms": [
           "fang",
           "diamondback",
@@ -686,27 +494,24 @@
         ]
       },
       "sec": {
-        "cik": "0001539838",
-        "confidence": 1.0,
-        "reason": "",
-        "status": "available",
+        "cik": "",
+        "confidence": 0.0,
+        "reason": "no_fixture_data",
+        "status": "unavailable",
         "ticker": "FANG",
-        "title": "Diamondback Energy, Inc."
+        "title": ""
       },
       "usaspending": {
         "award_count": 0,
         "awards": [],
-        "reason": "no_recipient_candidates",
+        "reason": "no_fixture_data",
         "recipient": "",
         "status": "unavailable"
       }
     },
     "schema_version": 1,
-    "score": 4,
-    "score_reasons": [
-      "Congress.gov bill context was found",
-      "Congress.gov hearing context was found"
-    ],
+    "score": 0,
+    "score_reasons": [],
     "slug": "hon-roger-williams-fang-sale-12-22-2025-201055c067ab68d3",
     "source_links": [
       {
@@ -747,226 +552,85 @@
       }
     ],
     "state": "TX",
-    "status": "candidate",
+    "status": "low_priority",
     "ticker": "FANG",
     "trade_date": "12/22/2025",
     "transaction_id": "201055c067ab68d3"
   },
   "market_context": {
-    "adjusted_price_mode": "adjust=all",
+    "adjusted_price_mode": "close",
     "benchmark_symbol": "SPY",
     "chart": {
       "markers": [],
       "series": []
     },
-    "publication_license_status": "confirmed",
+    "publication_license_status": "not_confirmed_internal_only",
     "publication_ready": false,
-    "reason": "provider_error: Finazon request failed for FANG: status=403",
-    "retrieved_at": "2026-05-28T19:57:40Z",
-    "source": "finazon_us_stocks_essential",
+    "reason": "no_price_series",
+    "retrieved_at": "2026-05-29T15:02:01Z",
+    "source": "fixture",
     "status": "unavailable",
     "ticker": "FANG"
   },
   "news_context": {
-    "filtered_out_count": 25,
     "issuer_name": "Diamondback Energy, Inc. - Common Stock",
-    "min_relevance_score": 20,
-    "provider": "gdelt_doc_2_0",
-    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Diamondback+Energy+Inc%22+OR+FANG%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
-    "query": "(\"Diamondback Energy Inc\" OR FANG)",
-    "raw_result_count": 25,
-    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "provider": "fixture",
+    "query": "",
+    "reason": "no_fixture_data",
+    "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
     "result_count": 0,
     "results": [],
-    "retrieved_at": "2026-05-28T19:57:40Z",
+    "retrieved_at": "2026-05-29T15:02:01Z",
     "schema_version": 1,
-    "source": "gdelt_doc_2_0",
+    "source": "fixture",
     "source_links": [],
-    "status": "no_results",
+    "status": "unavailable",
     "ticker": "FANG",
     "window": {
-      "end_date": "2026-03-01",
-      "start_date": "2025-12-08"
+      "end_date": "",
+      "start_date": ""
     }
   },
   "policy_context": {
     "caveats": [
       "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+      "Committee jurisdiction and issuer relevance must be verified before publication."
     ],
     "committee_issuer_overlap_status": {
       "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
-      "confidence": 0.45,
-      "matched_bill_count": 4,
+      "confidence": 0.2,
+      "matched_bill_count": 0,
       "matched_committee_count": 0,
-      "matched_hearing_count": 4,
-      "matched_terms": [
-        "energy"
-      ],
-      "status": "policy_activity_found",
-      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+      "matched_hearing_count": 0,
+      "matched_terms": [],
+      "status": "no_overlap_found",
+      "summary": "No committee/policy overlap was found in this automated pass."
     },
     "committee_jurisdiction_context": {
       "committees_checked": [],
       "confidence": 0.0,
       "matched_committees": [],
-      "reason": "committee_context_unavailable",
+      "reason": "no_fixture_data",
       "source_url": "https://www.congress.gov/committees",
       "status": "unavailable"
     },
     "congressgov_bills": {
-      "items": [
-        {
-          "api_url": "https://api.congress.gov/v3/bill/119/hres/7?format=json",
-          "congress": 119,
-          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/7",
-          "latest_action_date": "2025-01-03",
-          "latest_action_text": "Referred to the House Committee on Energy and Commerce.",
-          "matched_terms": [
-            "energy"
-          ],
-          "number": "7",
-          "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
-          "type": "HRES"
-        },
-        {
-          "api_url": "https://api.congress.gov/v3/bill/119/hr/123?format=json",
-          "congress": 119,
-          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/123",
-          "latest_action_date": "2025-01-03",
-          "latest_action_text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "matched_terms": [
-            "energy"
-          ],
-          "number": "123",
-          "title": "Improving Science in Chemical Assessments Act",
-          "type": "HR"
-        },
-        {
-          "api_url": "https://api.congress.gov/v3/bill/119/hr/78?format=json",
-          "congress": 119,
-          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/78",
-          "latest_action_date": "2025-01-03",
-          "latest_action_text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "matched_terms": [
-            "energy"
-          ],
-          "number": "78",
-          "title": "Pregnant Women Health and Safety Act of 2025",
-          "type": "HR"
-        },
-        {
-          "api_url": "https://api.congress.gov/v3/bill/118/s/3027?format=json",
-          "congress": 118,
-          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3027",
-          "latest_action_date": "2023-10-04",
-          "latest_action_text": "Read twice and referred to the Committee on Finance.",
-          "matched_terms": [
-            "energy"
-          ],
-          "number": "3027",
-          "title": "A bill to amend the Internal Revenue Code of 1986 to extend the energy credit for qualified fuel cell property.",
-          "type": "S"
-        }
-      ],
+      "items": [],
       "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-      "query_payload": {
-        "congresses": [
-          119,
-          118
-        ],
-        "limit": 50,
-        "terms": [
-          "fang",
-          "diamondback",
-          "energy"
-        ]
-      },
-      "reason": "matched_terms",
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "query_payload": {},
+      "reason": "no_fixture_data",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://api.congress.gov/",
-      "status": "available"
+      "status": "unavailable"
     },
     "congressgov_hearings": {
-      "items": [
-        {
-          "api_url": "",
-          "chamber": "House",
-          "committee_names": [],
-          "congress": 119,
-          "date": "2026-05-20T15:00:00Z",
-          "event_id": "119319",
-          "matched_terms": [
-            "energy"
-          ],
-          "meeting_status": "Scheduled",
-          "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill",
-          "type": "Markup"
-        },
-        {
-          "api_url": "",
-          "chamber": "House",
-          "committee_names": [],
-          "congress": 118,
-          "date": "2024-12-04T19:30:00Z",
-          "event_id": "117746",
-          "matched_terms": [
-            "energy"
-          ],
-          "meeting_status": "Scheduled",
-          "title": "“Exposing the Truth on LNG: How the Administration Played Politics with America’s Energy Future”",
-          "type": "Hearing"
-        },
-        {
-          "api_url": "",
-          "chamber": "House",
-          "committee_names": [],
-          "congress": 118,
-          "date": "2024-11-19T19:00:00Z",
-          "event_id": "117718",
-          "matched_terms": [
-            "energy"
-          ],
-          "meeting_status": "Scheduled",
-          "title": "Legislative hearing on the following bills:\r\n\r\n• H.R. 6441 (Rep. Vasquez), “Ranching Without Red Tape Act of 2023”;\r\n• H.R. 7666 (Rep. LaMalfa), To require the Secretary of Agriculture to develop a strategy to increase opportunities to utilize livestock grazing as a means of wildfire risk reduction;\r\n• H.R. 8182 (Rep. Austin Scott of GA), “Ocmulgee Mounds National Park and Preserve Establishment Act”;\r\n• H.R. 8517 (Rep. Gosar), “La Paz County Solar Energy and Job Creation Act”;\r\n• H.R. 9062 (Rep. Curtis), “Operational Flexibility Grazing Management Program Act”;\r\n• H.R. 9165 (Rep. Maloy), “Public Land Search and Rescue Act”;\r\n• H.R. 9528 (Rep. Pallone), To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.;\r\n• H.R. 10082 (Rep. Bentz), “Oregon Owyhee Wilderness and Community Protection Act”; and\r\n• H.R. 10084 (Rep. Clyburn), “Renewing the African American Civil Rights Network Act”.",
-          "type": "Meeting"
-        },
-        {
-          "api_url": "",
-          "chamber": "Senate",
-          "committee_names": [],
-          "congress": 118,
-          "date": "2024-11-19T14:30:00Z",
-          "event_id": "336261",
-          "matched_terms": [
-            "energy"
-          ],
-          "meeting_status": "Scheduled",
-          "title": "Business meeting to consider S.254, to amend the Omnibus Parks and Public Lands Management Act of 1996 to provide for the establishment of a Ski Area Fee Retention Account, S.373, to modify the disposition of certain outer Continental Shelf revenues and to open Federal financial sharing to heighten opportunities for renewable energy, S.482, to amend the Klamath Basin Water Supply Enhancement Act of 2000 to provide the Secretary of the Interior with certain authorities with respect to projects affecting the Klamath Basin watershed, S.620, to provide for the distribution of certain outer Continental Shelf revenues to the State of Alaska, S.739, to clarify jurisdiction with respect to certain Bureau of Reclamation pumped storage development, S.914, to establish an energy threat analysis center in the Department of Energy, S.1553, to amend the Federal Land Policy and Management Act of 1976 to improve the management of grazing permits and leases, S.1764, to improve Federal activities relating to wildfires, S.2132, to require the Secretary of Agriculture to establish a pilot program for the establishment and use of a pre-fire-suppression stand density index, S.2151, to amend the Southwest Forest Health and Wildlife Prevention Act of 2004 to require the establishment of an additional Institute under that Act, S.2156, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to authorize additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.2160, to amend the Omnibus Public Land Management Act of 2009 to authorize certain extraordinary operation and maintenance work for urban canals of concern, S.2169, to authorize the Secretary of the Interior to carry out watershed pilots, S.2620, to establish the Chesapeake National Recreation Area as a unit of the National Park System, S.2742, to establish the Fort Ontario National Monument in the State of New York as a unit of the National Park System, S.2743, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, S.2784, to amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, S.2867, to address the forest health crisis on the National Forest System and public lands, S.2927, to amend the Omnibus Public Land Management Act of 2009 to increase Tribal access to water conservation and efficiency grants, S.2991, to improve revegetation and carbon sequestration activities in the United States, S.3123, to provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, S.3195, to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, S.3241, to establish the Grand Village of the Natchez Indians and Jefferson College as affiliated areas of the Natchez Historical Park, S.3346, to amend the Wild and Scenic Rivers Act to designate certain streams in the greater Yellowstone ecosystem and Smith River system in the State of Montana as components of the Wild and Scenic Rivers System, S.3474, to redesignate the Hulls Cove Visitor Center at Acadia National Park as the \"George J. Mitchell, Jr., Visitor Center\", S.3534, to authorize the Pines Foundation to establish the Fire Island AIDS Memorial, S.3542, to amend the Atchafalaya National Heritage Area Act to modify the boundary of the Atchafalaya National Heritage Area, S.3543, to establish the Historic Greenwood District-Black Wall Street National Monument in the State of Oklahoma, S.3544, to designate the visitor and education center at Fort McHenry National Monument and Historic Shrine as the \"Paul S. Sarbanes Visitor and Education Center\", S.3593, to provide for economic development and conservation in Washoe County, Nevada, S.3596, to amend the Mineral Leasing Act to amend references of gilsonite to asphaltite, S.3617, to provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, S.3631, to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies, S.3985, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.4016, to amend the Boulder Canyon Project Act to authorize the Secretary of the Interior to expend amounts in the Colorado River Dam fund, S.4129, to contribute funds and artifacts to the Theodore Roosevelt Presidential Library in Medora, North Dakota, S.4164, to authorize the Secretary of the Interior to conduct a special resource study of",
-          "type": "Meeting"
-        }
-      ],
+      "items": [],
       "public_search_url": "https://www.congress.gov/search?q=fang+OR+diamondback+OR+energy",
-      "query_payload": {
-        "chambers": [
-          "house",
-          "senate"
-        ],
-        "congresses": [
-          119,
-          118
-        ],
-        "limit": 50,
-        "terms": [
-          "fang",
-          "diamondback",
-          "energy"
-        ]
-      },
-      "reason": "matched_terms",
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "query_payload": {},
+      "reason": "no_fixture_data",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://api.congress.gov/",
-      "status": "available"
+      "status": "unavailable"
     },
     "issuer_policy_terms": [
       {
@@ -987,11 +651,11 @@
     ],
     "reporter_flags": {
       "committee_policy_overlap_check_needed": false,
-      "congressgov_bills_found": true,
-      "congressgov_hearings_found": true
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": false
     },
-    "retrieved_at": "2026-05-28T19:57:40Z",
-    "source": "official",
+    "retrieved_at": "2026-05-29T15:02:01Z",
+    "source": "fixture",
     "source_links": [
       {
         "label": "Congress.gov API",
@@ -1006,19 +670,19 @@
         "url": "https://www.congress.gov/search"
       }
     ],
-    "status": "available"
+    "status": "unavailable"
   },
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T145717Z",
+    "data_version": "20260529T183053Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T14:57:17Z",
+    "generated_at": "2026-05-29T18:30:53Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/20/10/201055c067ab68d3.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T15:12:17Z"
+    "stale_after": "2026-05-29T18:45:53Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033783.json",
@@ -1036,7 +700,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "issuer_name": "Diamondback Energy, Inc. - Common Stock",
     "member_name": "Hon. Roger Williams",
     "notification_date": "12/22/2025",

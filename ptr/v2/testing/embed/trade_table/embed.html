@@ -1,4 +1,4 @@
-<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="20260529T145717Z">
+<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="20260529T183053Z" data-ptr-title="Congressional trade tracker">
   <style>
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
@@ -57,6 +57,7 @@
     var main = root.querySelector("main");
     var dataUrl = root.getAttribute("data-ptr-data-url") || "";
     var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    var configuredTitle = root.getAttribute("data-ptr-title") || "Congressional trade tracker";
     function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
     function esc(value) {
       return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; });
@@ -173,7 +174,7 @@
         if (text(row.politician)) politicians[text(row.politician)] = true;
         if (text(row.ticker || row.issuer)) issuers[text(row.ticker || row.issuer)] = true;
       });
-      main.innerHTML = '<section class="hero"><p class="sub">Static public PTR data</p><h1>Congressional trade tracker</h1><p>Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.</p><div class="controls"><input type="search" data-filter="politician" placeholder="Find by politician" /><input type="search" data-filter="issuer" placeholder="Find by issuer or ticker" /><select data-filter="type"><option value="">Transaction type</option>' + options(rows, "type") + '</select><select data-filter="owner"><option value="">Owner</option>' + options(rows, "owner") + '</select></div></section>'
+      main.innerHTML = '<section class="hero"><p class="sub">Static public PTR data</p><h1>' + esc(configuredTitle) + '</h1><p>Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.</p><div class="controls"><input type="search" data-filter="politician" placeholder="Find by politician" /><input type="search" data-filter="issuer" placeholder="Find by issuer or ticker" /><select data-filter="type"><option value="">Transaction type</option>' + options(rows, "type") + '</select><select data-filter="owner"><option value="">Owner</option>' + options(rows, "owner") + '</select></div></section>'
         + '<section class="summary"><div class="stat"><strong data-visible-count>' + rows.length + '</strong><span>Visible trades</span></div><div class="stat"><strong>' + Object.keys(filings).length + '</strong><span>Filings</span></div><div class="stat"><strong>' + Object.keys(politicians).length + '</strong><span>Politicians</span></div><div class="stat"><strong>' + Object.keys(issuers).length + '</strong><span>Issuers</span></div></section>'
         + '<div class="table-wrap"><table><thead><tr><th>Politician</th><th>Traded issuer</th><th>Filed</th><th>Traded</th><th>Filed after</th><th>Owner</th><th>Type</th><th>Size</th><th>Trade-date price</th><th>Return to latest</th></tr></thead><tbody>' + renderRows(rows) + '</tbody></table></div><div class="mobile-cards">' + renderCards(rows) + '</div><div class="empty" data-empty>No trades match the selected filters.</div><p class="caveat">PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.</p>';
       attachFilters();

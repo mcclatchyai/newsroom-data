@@ -20,10 +20,20 @@
     .cue-copy-panel--dark .cue-copy-warning { border-color: #f2b84b; background: #271b07; color: #ffe7ae; }
     .cue-copy-button { min-height: 44px; border: 0; border-radius: 999px; padding: 0 16px; font-weight: 800; cursor: pointer; color: #fff; background: #243f5a; }
     .cue-copy-panel--dark .cue-copy-button { background: #13a8ff; color: #06111c; }
+    .cue-configurator { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(180px, .8fr) minmax(180px, 1fr) minmax(260px, 1.4fr); gap: 10px; padding: 12px; border-radius: 14px; border: 1px dashed #c8b99f; background: rgba(255,255,255,.45); }
+    .cue-copy-panel--dark .cue-configurator { border-color: #314154; background: rgba(255,255,255,.04); }
+    .cue-configurator__intro { grid-column: 1 / -1; }
+    .cue-configurator h3 { margin: 2px 0 4px; font-size: 16px; line-height: 1.2; }
+    .cue-configurator label { display: grid; gap: 5px; font-weight: 800; color: inherit; }
+    .cue-configurator select, .cue-configurator input { width: 100%; min-height: 40px; border: 1px solid #c8b99f; border-radius: 10px; padding: 0 10px; font: 13px/1.2 Arial, sans-serif; color: #18212b; background: #fffdf8; }
+    .cue-copy-panel--dark .cue-configurator select, .cue-copy-panel--dark .cue-configurator input { border-color: #314154; color: #eef5fb; background: #071018; }
+    .cue-configurator__note { grid-column: 1 / -1; color: #65717d; font-size: 13px; }
+    .cue-copy-panel--dark .cue-configurator__note { color: #9fb0c0; }
     .cue-copy-code { grid-column: 1 / -1; width: 100%; min-height: 180px; resize: vertical; border-radius: 12px; border: 1px solid #c8b99f; padding: 12px; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #18212b; background: #fffdf8; white-space: pre; overflow: auto; }
     .cue-copy-panel--dark .cue-copy-code { border-color: #314154; color: #eef5fb; background: #071018; }
     .cue-copy-status { grid-column: 1 / -1; min-height: 20px; color: #65717d; }
     .cue-copy-panel--dark .cue-copy-status { color: #9fb0c0; }
+    @media (max-width: 760px) { .cue-configurator { grid-template-columns: 1fr; } }
     @media (max-width: 640px) { .cue-copy-panel { grid-template-columns: 1fr; padding: 12px; } .cue-copy-button { width: 100%; } .cue-copy-code { min-height: 220px; } }
 
     @media (max-width: 640px) { body { padding: 10px; } }
@@ -40,7 +50,30 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-leaderboards&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json&quot; data-ptr-data-version=&quot;20260529T145717Z&quot;&gt;
+
+    <div class="cue-configurator" data-cue-configurator>
+      <div class="cue-configurator__intro">
+        <p class="cue-copy-eyebrow">Optional preview configurator</p>
+        <h3>Customize the copy/paste embed code</h3>
+        <p>These controls only rewrite the HTML snippet below. They do not save to Sheets, GitHub, Slack, or production data.</p>
+      </div>
+      <label>Newsroom preset
+        <select data-cue-config-preset><option value="0">Generated default</option>
+<option value="1">Fort Worth Star-Telegram</option>
+<option value="2">Washington state newsrooms</option>
+<option value="3">Miami Herald</option>
+<option value="4">Kansas City Star</option></select>
+      </label>
+      <label>Embed title
+        <input type="text" data-cue-config-title />
+      </label>
+      <label>Public data URL
+        <input type="url" data-cue-config-data-url />
+      </label>
+      <p class="cue-configurator__note">For persistent newsroom rosters, save the selected roster/config through the project pipeline later. This demo page is intentionally read-only.</p>
+    </div>
+
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-leaderboards&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json&quot; data-ptr-data-version=&quot;20260529T183053Z&quot; data-ptr-title=&quot;Congressional trading leaderboards&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:&quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; color:var(--ink); margin:24px 0; }
     .mcc-ptr-leaderboards * { box-sizing:border-box; }
@@ -96,6 +129,7 @@
     var main = root.querySelector(&quot;main&quot;);
     var dataUrl = root.getAttribute(&quot;data-ptr-data-url&quot;) || &quot;&quot;;
     var dataVersion = root.getAttribute(&quot;data-ptr-data-version&quot;) || &quot;&quot;;
+    var configuredTitle = root.getAttribute(&quot;data-ptr-title&quot;) || &quot;Congressional trading leaderboards&quot;;
     function text(value) { return value === null || value === undefined ? &quot;&quot; : String(value).trim(); }
     function esc(value) { return text(value).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function(char) { return {&quot;&amp;&quot;:&quot;&amp;amp;&quot;,&quot;&lt;&quot;:&quot;&amp;lt;&quot;,&quot;&gt;&quot;:&quot;&amp;gt;&quot;,&quot;\&quot;&quot;:&quot;&amp;quot;&quot;,&quot;&#x27;&quot;:&quot;&amp;#39;&quot;}[char]; }); }
     function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf(&quot;./&quot;) === 0 || url.indexOf(&quot;../&quot;) === 0 || url.charAt(0) === &quot;/&quot; ? url : &quot;&quot;; }
@@ -159,7 +193,7 @@
       var scope = data.scope || {};
       var boards = data.leaderboards || {};
       var caveats = Array.isArray(data.caveats) ? data.caveats.join(&quot; &quot;) : &quot;PTR values are ranges. Possible late flags require reporter verification.&quot;;
-      main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;p class=&quot;eyebrow&quot;&gt;PTR leaderboard | evergreen reporter asset&lt;/p&gt;&lt;h1&gt;Congressional trading leaderboards&lt;/h1&gt;&lt;p&gt;Rankings are built from processed congressional Periodic Transaction Report data&#x27; + (scope.newsroom ? &#x27; scoped to &#x27; + esc(scope.newsroom) : &#x27;&#x27;) + &#x27;. Use these as story leads and verification targets, not as proof of motive or wrongdoing.&lt;/p&gt;&lt;/section&gt;&#x27;
+      main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;p class=&quot;eyebrow&quot;&gt;PTR leaderboard | evergreen reporter asset&lt;/p&gt;&lt;h1&gt;&#x27; + esc(configuredTitle) + &#x27;&lt;/h1&gt;&lt;p&gt;Rankings are built from processed congressional Periodic Transaction Report data&#x27; + (scope.newsroom ? &#x27; scoped to &#x27; + esc(scope.newsroom) : &#x27;&#x27;) + &#x27;. Use these as story leads and verification targets, not as proof of motive or wrongdoing.&lt;/p&gt;&lt;/section&gt;&#x27;
         + &#x27;&lt;section class=&quot;summary&quot;&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(summary.transactions || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;Transactions&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(summary.politicians || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;Politicians&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(summary.issuers || 0) + &#x27;&lt;/strong&gt;&lt;span&gt;Issuers&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + esc(money(summary.estimated_min_volume) + &#x27;-&#x27; + money(summary.estimated_max_volume)) + &#x27;&lt;/strong&gt;&lt;span&gt;Volume range&lt;/span&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
         + &#x27;&lt;section class=&quot;section-grid&quot;&gt;&#x27; + active(Array.isArray(boards.active_traders) ? boards.active_traders : []) + issuers(Array.isArray(boards.top_issuers) ? boards.top_issuers : []) + lag(Array.isArray(boards.filing_lag_leaders) ? boards.filing_lag_leaders : [], &quot;filing_lag_leaders&quot;, &quot;Filing lag leaders&quot;) + lag(Array.isArray(boards.possible_late_filings) ? boards.possible_late_filings : [], &quot;possible_late_filings&quot;, &quot;Possible late filings&quot;) + &#x27;&lt;/section&gt;&lt;p class=&quot;caveat&quot;&gt;&#x27; + esc(caveats) + &#x27;&lt;/p&gt;&#x27;;
     }
@@ -179,11 +213,50 @@
       var textarea = panel.querySelector(".cue-copy-code");
       var status = panel.querySelector(".cue-copy-status");
       if (!button || !textarea) return;
+      function done(message) {
+        if (status) status.textContent = message;
+      }
+
+      var config = {"root_selector": ".mcc-ptr-leaderboards", "data_url_attribute": "data-ptr-data-url", "title_attribute": "data-ptr-title", "default_title": "PTR leaderboards", "default_data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json", "presets": [{"newsroom": "current", "label": "Generated default", "title": "PTR leaderboards", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json"}, {"newsroom": "fort_worth", "label": "Fort Worth Star-Telegram", "title": "Fort Worth-area congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/fort_worth/leaderboards.json"}, {"newsroom": "washington", "label": "Washington state newsrooms", "title": "Washington congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/washington/leaderboards.json"}, {"newsroom": "miami", "label": "Miami Herald", "title": "South Florida congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/miami/leaderboards.json"}, {"newsroom": "kansas_city", "label": "Kansas City Star", "title": "Kansas and Missouri congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/kansas_city/leaderboards.json"}]};
+      var configBox = panel.querySelector("[data-cue-configurator]");
+      var presetSelect = panel.querySelector("[data-cue-config-preset]");
+      var titleInput = panel.querySelector("[data-cue-config-title]");
+      var dataUrlInput = panel.querySelector("[data-cue-config-data-url]");
+      var presets = Array.isArray(config.presets) ? config.presets : [];
+      function setEmbedAttribute(html, attr, value) {
+        if (!attr) return html;
+        var tmp = document.createElement("template");
+        tmp.innerHTML = html;
+        var root = tmp.content.querySelector(config.root_selector || ".mcc-ptr-embed");
+        if (!root) return html;
+        if (value === null || value === undefined || String(value).trim() === "") root.removeAttribute(attr);
+        else root.setAttribute(attr, String(value).trim());
+        return tmp.innerHTML.trim();
+      }
+      function applyPreset(index) {
+        var row = presets[index] || presets[0] || {};
+        if (titleInput) titleInput.value = row.title || config.default_title || "";
+        if (dataUrlInput) dataUrlInput.value = row.data_url || config.default_data_url || "";
+        updateSnippet();
+      }
+      function updateSnippet() {
+        if (!textarea) return;
+        var html = textarea.getAttribute("data-original-code") || textarea.value || "";
+        html = setEmbedAttribute(html, config.data_url_attribute || "data-ptr-data-url", dataUrlInput ? dataUrlInput.value : "");
+        html = setEmbedAttribute(html, config.title_attribute || "data-ptr-title", titleInput ? titleInput.value : "");
+        textarea.value = html;
+        done("Embed code updated for the selected configuration.");
+      }
+      if (textarea && !textarea.getAttribute("data-original-code")) textarea.setAttribute("data-original-code", textarea.value || "");
+      if (configBox) {
+        if (presetSelect) presetSelect.addEventListener("change", function() { applyPreset(Number(presetSelect.value || 0)); });
+        if (titleInput) titleInput.addEventListener("input", updateSnippet);
+        if (dataUrlInput) dataUrlInput.addEventListener("input", updateSnippet);
+        applyPreset(0);
+      }
+
       button.addEventListener("click", function() {
         var text = textarea.value || "";
-        function done(message) {
-          if (status) status.textContent = message;
-        }
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(text).then(function() {
             done("Embed code copied.");
@@ -206,7 +279,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="20260529T145717Z">
+<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="20260529T183053Z" data-ptr-title="Congressional trading leaderboards">
   <style>
     .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:"Avenir Next", "Gill Sans", Verdana, sans-serif; color:var(--ink); margin:24px 0; }
     .mcc-ptr-leaderboards * { box-sizing:border-box; }
@@ -262,6 +335,7 @@
     var main = root.querySelector("main");
     var dataUrl = root.getAttribute("data-ptr-data-url") || "";
     var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    var configuredTitle = root.getAttribute("data-ptr-title") || "Congressional trading leaderboards";
     function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
     function esc(value) { return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; }); }
     function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf("./") === 0 || url.indexOf("../") === 0 || url.charAt(0) === "/" ? url : ""; }
@@ -325,7 +399,7 @@
       var scope = data.scope || {};
       var boards = data.leaderboards || {};
       var caveats = Array.isArray(data.caveats) ? data.caveats.join(" ") : "PTR values are ranges. Possible late flags require reporter verification.";
-      main.innerHTML = '<section class="hero"><p class="eyebrow">PTR leaderboard | evergreen reporter asset</p><h1>Congressional trading leaderboards</h1><p>Rankings are built from processed congressional Periodic Transaction Report data' + (scope.newsroom ? ' scoped to ' + esc(scope.newsroom) : '') + '. Use these as story leads and verification targets, not as proof of motive or wrongdoing.</p></section>'
+      main.innerHTML = '<section class="hero"><p class="eyebrow">PTR leaderboard | evergreen reporter asset</p><h1>' + esc(configuredTitle) + '</h1><p>Rankings are built from processed congressional Periodic Transaction Report data' + (scope.newsroom ? ' scoped to ' + esc(scope.newsroom) : '') + '. Use these as story leads and verification targets, not as proof of motive or wrongdoing.</p></section>'
         + '<section class="summary"><div class="stat"><strong>' + esc(summary.transactions || 0) + '</strong><span>Transactions</span></div><div class="stat"><strong>' + esc(summary.politicians || 0) + '</strong><span>Politicians</span></div><div class="stat"><strong>' + esc(summary.issuers || 0) + '</strong><span>Issuers</span></div><div class="stat"><strong>' + esc(money(summary.estimated_min_volume) + '-' + money(summary.estimated_max_volume)) + '</strong><span>Volume range</span></div></section>'
         + '<section class="section-grid">' + active(Array.isArray(boards.active_traders) ? boards.active_traders : []) + issuers(Array.isArray(boards.top_issuers) ? boards.top_issuers : []) + lag(Array.isArray(boards.filing_lag_leaders) ? boards.filing_lag_leaders : [], "filing_lag_leaders", "Filing lag leaders") + lag(Array.isArray(boards.possible_late_filings) ? boards.possible_late_filings : [], "possible_late_filings", "Possible late filings") + '</section><p class="caveat">' + esc(caveats) + '</p>';
     }

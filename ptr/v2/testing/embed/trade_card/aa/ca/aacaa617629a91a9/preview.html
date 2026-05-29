@@ -20,10 +20,20 @@
     .cue-copy-panel--dark .cue-copy-warning { border-color: #f2b84b; background: #271b07; color: #ffe7ae; }
     .cue-copy-button { min-height: 44px; border: 0; border-radius: 999px; padding: 0 16px; font-weight: 800; cursor: pointer; color: #fff; background: #243f5a; }
     .cue-copy-panel--dark .cue-copy-button { background: #13a8ff; color: #06111c; }
+    .cue-configurator { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(180px, .8fr) minmax(180px, 1fr) minmax(260px, 1.4fr); gap: 10px; padding: 12px; border-radius: 14px; border: 1px dashed #c8b99f; background: rgba(255,255,255,.45); }
+    .cue-copy-panel--dark .cue-configurator { border-color: #314154; background: rgba(255,255,255,.04); }
+    .cue-configurator__intro { grid-column: 1 / -1; }
+    .cue-configurator h3 { margin: 2px 0 4px; font-size: 16px; line-height: 1.2; }
+    .cue-configurator label { display: grid; gap: 5px; font-weight: 800; color: inherit; }
+    .cue-configurator select, .cue-configurator input { width: 100%; min-height: 40px; border: 1px solid #c8b99f; border-radius: 10px; padding: 0 10px; font: 13px/1.2 Arial, sans-serif; color: #18212b; background: #fffdf8; }
+    .cue-copy-panel--dark .cue-configurator select, .cue-copy-panel--dark .cue-configurator input { border-color: #314154; color: #eef5fb; background: #071018; }
+    .cue-configurator__note { grid-column: 1 / -1; color: #65717d; font-size: 13px; }
+    .cue-copy-panel--dark .cue-configurator__note { color: #9fb0c0; }
     .cue-copy-code { grid-column: 1 / -1; width: 100%; min-height: 180px; resize: vertical; border-radius: 12px; border: 1px solid #c8b99f; padding: 12px; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #18212b; background: #fffdf8; white-space: pre; overflow: auto; }
     .cue-copy-panel--dark .cue-copy-code { border-color: #314154; color: #eef5fb; background: #071018; }
     .cue-copy-status { grid-column: 1 / -1; min-height: 20px; color: #65717d; }
     .cue-copy-panel--dark .cue-copy-status { color: #9fb0c0; }
+    @media (max-width: 760px) { .cue-configurator { grid-template-columns: 1fr; } }
     @media (max-width: 640px) { .cue-copy-panel { grid-template-columns: 1fr; padding: 12px; } .cue-copy-button { width: 100%; } .cue-copy-code { min-height: 220px; } }
 
     @media (max-width: 640px) { body { padding: 10px; } }
@@ -40,7 +50,8 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-card&quot; data-ptr-card-render-mode=&quot;fetch&quot; data-ptr-card-transaction-id=&quot;aacaa617629a91a9&quot; data-ptr-filing-id=&quot;20033783&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/aa/ca/aacaa617629a91a9.json&quot; data-ptr-data-version=&quot;20260529T145717Z&quot;&gt;
+
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-card&quot; data-ptr-card-render-mode=&quot;fetch&quot; data-ptr-card-transaction-id=&quot;aacaa617629a91a9&quot; data-ptr-filing-id=&quot;20033783&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/aa/ca/aacaa617629a91a9.json&quot; data-ptr-data-version=&quot;20260529T183053Z&quot;&gt;
   &lt;section class=&quot;ptr-card-loading&quot; style=&quot;font-family: Avenir Next, Gill Sans, Verdana, sans-serif; padding: 16px; border: 1px solid #dbcdb7; border-radius: 14px; background: #fffaf1;&quot;&gt;Loading congressional trade card...&lt;/section&gt;
   &lt;script&gt;
   (function () {
@@ -77,11 +88,12 @@
       var textarea = panel.querySelector(".cue-copy-code");
       var status = panel.querySelector(".cue-copy-status");
       if (!button || !textarea) return;
+      function done(message) {
+        if (status) status.textContent = message;
+      }
+
       button.addEventListener("click", function() {
         var text = textarea.value || "";
-        function done(message) {
-          if (status) status.textContent = message;
-        }
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(text).then(function() {
             done("Embed code copied.");
@@ -104,7 +116,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-trade-card" data-ptr-card-render-mode="fetch" data-ptr-card-transaction-id="aacaa617629a91a9" data-ptr-filing-id="20033783" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/aa/ca/aacaa617629a91a9.json" data-ptr-data-version="20260529T145717Z">
+<div class="mcc-ptr-trade-card" data-ptr-card-render-mode="fetch" data-ptr-card-transaction-id="aacaa617629a91a9" data-ptr-filing-id="20033783" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/aa/ca/aacaa617629a91a9.json" data-ptr-data-version="20260529T183053Z">
   <section class="ptr-card-loading" style="font-family: Avenir Next, Gill Sans, Verdana, sans-serif; padding: 16px; border: 1px solid #dbcdb7; border-radius: 14px; background: #fffaf1;">Loading congressional trade card...</section>
   <script>
   (function () {

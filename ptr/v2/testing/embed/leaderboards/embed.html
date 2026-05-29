@@ -1,4 +1,4 @@
-<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="20260529T145717Z">
+<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json" data-ptr-data-version="20260529T183053Z" data-ptr-title="Congressional trading leaderboards">
   <style>
     .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:"Avenir Next", "Gill Sans", Verdana, sans-serif; color:var(--ink); margin:24px 0; }
     .mcc-ptr-leaderboards * { box-sizing:border-box; }
@@ -54,6 +54,7 @@
     var main = root.querySelector("main");
     var dataUrl = root.getAttribute("data-ptr-data-url") || "";
     var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    var configuredTitle = root.getAttribute("data-ptr-title") || "Congressional trading leaderboards";
     function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
     function esc(value) { return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; }); }
     function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf("./") === 0 || url.indexOf("../") === 0 || url.charAt(0) === "/" ? url : ""; }
@@ -117,7 +118,7 @@
       var scope = data.scope || {};
       var boards = data.leaderboards || {};
       var caveats = Array.isArray(data.caveats) ? data.caveats.join(" ") : "PTR values are ranges. Possible late flags require reporter verification.";
-      main.innerHTML = '<section class="hero"><p class="eyebrow">PTR leaderboard | evergreen reporter asset</p><h1>Congressional trading leaderboards</h1><p>Rankings are built from processed congressional Periodic Transaction Report data' + (scope.newsroom ? ' scoped to ' + esc(scope.newsroom) : '') + '. Use these as story leads and verification targets, not as proof of motive or wrongdoing.</p></section>'
+      main.innerHTML = '<section class="hero"><p class="eyebrow">PTR leaderboard | evergreen reporter asset</p><h1>' + esc(configuredTitle) + '</h1><p>Rankings are built from processed congressional Periodic Transaction Report data' + (scope.newsroom ? ' scoped to ' + esc(scope.newsroom) : '') + '. Use these as story leads and verification targets, not as proof of motive or wrongdoing.</p></section>'
         + '<section class="summary"><div class="stat"><strong>' + esc(summary.transactions || 0) + '</strong><span>Transactions</span></div><div class="stat"><strong>' + esc(summary.politicians || 0) + '</strong><span>Politicians</span></div><div class="stat"><strong>' + esc(summary.issuers || 0) + '</strong><span>Issuers</span></div><div class="stat"><strong>' + esc(money(summary.estimated_min_volume) + '-' + money(summary.estimated_max_volume)) + '</strong><span>Volume range</span></div></section>'
         + '<section class="section-grid">' + active(Array.isArray(boards.active_traders) ? boards.active_traders : []) + issuers(Array.isArray(boards.top_issuers) ? boards.top_issuers : []) + lag(Array.isArray(boards.filing_lag_leaders) ? boards.filing_lag_leaders : [], "filing_lag_leaders", "Filing lag leaders") + lag(Array.isArray(boards.possible_late_filings) ? boards.possible_late_filings : [], "possible_late_filings", "Possible late filings") + '</section><p class="caveat">' + esc(caveats) + '</p>';
     }

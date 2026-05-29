@@ -1,7 +1,7 @@
 {
   "context_packet": {
     "filing_id": "20033783",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "issuer_name": "Chevron Corporation Common Stock",
     "packet": {
       "caveats": [
@@ -16,27 +16,19 @@
         ],
         "lda_context": {
           "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Chevron+Corporation+Common+Stock",
-          "query_payload": {
-            "client_name": "Chevron Corporation Common Stock",
-            "page_size": 5
-          },
+          "reason": "no_fixture_data",
           "records": [],
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://lda.senate.gov/api/",
-          "status": "available"
+          "status": "unavailable"
         },
         "member_committee_context": {
           "committees": [],
-          "confidence": 0.85,
-          "member": {
-            "bioguide_id": "W000816",
-            "district": "25",
-            "match_method": "name_state_district",
-            "name": "Roger Williams",
-            "state": "TX"
-          },
+          "confidence": 0.0,
+          "member": {},
+          "reason": "no_fixture_data",
           "source_url": "https://github.com/unitedstates/congress-legislators",
-          "status": "available"
+          "status": "unavailable"
         },
         "reporter_flags": {
           "committee_context_available": false,
@@ -44,17 +36,16 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
-        "retrieved_at": "2026-05-28T19:57:40Z",
+        "retrieved_at": "2026-05-29T15:02:01Z",
         "sec_issuer_identity": {
-          "cik": "0000093410",
-          "confidence": 1.0,
-          "match_method": "ticker_exact",
-          "sec_title": "CHEVRON CORP",
+          "confidence": 0.0,
+          "issuer_name": "Chevron Corporation Common Stock",
+          "reason": "no_fixture_data",
           "source_url": "https://www.sec.gov/files/company_tickers.json",
-          "status": "available",
+          "status": "unavailable",
           "ticker": "CVX"
         },
-        "source": "official",
+        "source": "fixture",
         "source_links": [
           {
             "label": "SEC EDGAR APIs",
@@ -77,15 +68,13 @@
             "url": "https://github.com/unitedstates/congress-legislators"
           }
         ],
-        "status": "partial",
+        "status": "unavailable",
         "usaspending_context": {
           "awards": [],
-          "query_payload": {
-            "search_text": "Chevron Corporation Common Stock"
-          },
-          "reason": "no_recipient_candidates",
+          "query_payload": {},
+          "reason": "no_fixture_data",
           "recipient_candidates": [],
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "selected_recipient": null,
           "source_url": "https://api.usaspending.gov/docs/",
           "status": "unavailable"
@@ -127,108 +116,29 @@
         "state": "TX"
       },
       "news_context": {
-        "filtered_out_count": 22,
         "issuer_name": "Chevron Corporation Common Stock",
-        "min_relevance_score": 20,
-        "provider": "gdelt_doc_2_0",
-        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Chevron+Corporation%22+OR+CVX%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
-        "query": "(\"Chevron Corporation\" OR CVX)",
-        "raw_result_count": 25,
-        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
-        "result_count": 3,
-        "results": [
-          {
-            "domain": "dailypolitical.com",
-            "language": "English",
-            "matched_terms": [
-              "CVX",
-              "chevron",
-              "chevron corporation"
-            ],
-            "published_at": "20260302T140000Z",
-            "relevance_label": "medium",
-            "relevance_score": 67,
-            "source_country": "United States",
-            "source_type": "general_news_or_web",
-            "title": "Kingsview Wealth Management LLC Sells 12 , 235 Shares of Chevron Corporation $CVX",
-            "url": "https://www.dailypolitical.com/2026/03/02/kingsview-wealth-management-llc-sells-12235-shares-of-chevron-corporation-cvx.html",
-            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-            "why_ranked": [
-              "issuer name appears in headline",
-              "issuer-name tokens appear in headline, domain, or URL",
-              "ticker appears as a distinct term"
-            ]
-          },
-          {
-            "domain": "themarketsdaily.com",
-            "language": "English",
-            "matched_terms": [
-              "CVX",
-              "chevron"
-            ],
-            "published_at": "20260302T223000Z",
-            "relevance_label": "low",
-            "relevance_score": 22,
-            "source_country": "United States",
-            "source_type": "general_news_or_web",
-            "title": "Chevron ( NYSE : CVX ) Trading 1 . 5 % Higher on Analyst Upgrade",
-            "url": "https://www.themarketsdaily.com/2026/03/02/chevron-nysecvx-trading-1-5-higher-on-analyst-upgrade.html",
-            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-            "why_ranked": [
-              "issuer-name tokens appear in headline, domain, or URL",
-              "ticker appears as a distinct term"
-            ]
-          },
-          {
-            "domain": "benzinga.com",
-            "language": "English",
-            "matched_terms": [
-              "CVX",
-              "chevron"
-            ],
-            "published_at": "20260302T210000Z",
-            "relevance_label": "low",
-            "relevance_score": 22,
-            "source_country": "United States",
-            "source_type": "general_news_or_web",
-            "title": "Chevron Has  Clearest Line Of Sight  In Venezuela - Chevron ( NYSE : CVX )",
-            "url": "https://www.benzinga.com/markets/commodities/26/03/50980675/exclusive-chevron-has-the-clearest-line-of-sight-in-venezuela-recovery",
-            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-            "why_ranked": [
-              "issuer-name tokens appear in headline, domain, or URL",
-              "ticker appears as a distinct term"
-            ]
-          }
-        ],
-        "retrieved_at": "2026-05-28T19:57:40Z",
+        "provider": "fixture",
+        "query": "",
+        "reason": "no_fixture_data",
+        "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+        "result_count": 0,
+        "results": [],
+        "retrieved_at": "2026-05-29T15:02:01Z",
         "schema_version": 1,
-        "source": "gdelt_doc_2_0",
-        "source_links": [
-          {
-            "label": "Kingsview Wealth Management LLC Sells 12 , 235 Shares of Chevron Corporation $CVX",
-            "url": "https://www.dailypolitical.com/2026/03/02/kingsview-wealth-management-llc-sells-12235-shares-of-chevron-corporation-cvx.html"
-          },
-          {
-            "label": "Chevron ( NYSE : CVX ) Trading 1 . 5 % Higher on Analyst Upgrade",
-            "url": "https://www.themarketsdaily.com/2026/03/02/chevron-nysecvx-trading-1-5-higher-on-analyst-upgrade.html"
-          },
-          {
-            "label": "Chevron Has  Clearest Line Of Sight  In Venezuela - Chevron ( NYSE : CVX )",
-            "url": "https://www.benzinga.com/markets/commodities/26/03/50980675/exclusive-chevron-has-the-clearest-line-of-sight-in-venezuela-recovery"
-          }
-        ],
-        "status": "available",
+        "source": "fixture",
+        "source_links": [],
+        "status": "unavailable",
         "ticker": "CVX",
         "window": {
-          "end_date": "2026-03-01",
-          "start_date": "2025-12-08"
+          "end_date": "",
+          "start_date": ""
         }
       },
       "packet_version": 1,
       "policy_context": {
         "caveats": [
           "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+          "Committee jurisdiction and issuer relevance must be verified before publication."
         ],
         "committee_issuer_overlap_status": {
           "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
@@ -244,51 +154,25 @@
           "committees_checked": [],
           "confidence": 0.0,
           "matched_committees": [],
-          "reason": "committee_context_unavailable",
+          "reason": "no_fixture_data",
           "source_url": "https://www.congress.gov/committees",
           "status": "unavailable"
         },
         "congressgov_bills": {
           "items": [],
-          "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron+OR+chevron+corporation",
-          "query_payload": {
-            "congresses": [
-              119,
-              118
-            ],
-            "limit": 50,
-            "terms": [
-              "cvx",
-              "chevron",
-              "chevron corporation"
-            ]
-          },
-          "reason": "no_matching_recent_bills",
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron",
+          "query_payload": {},
+          "reason": "no_fixture_data",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://api.congress.gov/",
           "status": "unavailable"
         },
         "congressgov_hearings": {
           "items": [],
-          "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron+OR+chevron+corporation",
-          "query_payload": {
-            "chambers": [
-              "house",
-              "senate"
-            ],
-            "congresses": [
-              119,
-              118
-            ],
-            "limit": 50,
-            "terms": [
-              "cvx",
-              "chevron",
-              "chevron corporation"
-            ]
-          },
-          "reason": "no_matching_recent_hearings",
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron",
+          "query_payload": {},
+          "reason": "no_fixture_data",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://api.congress.gov/",
           "status": "unavailable"
         },
@@ -302,11 +186,6 @@
             "confidence": 0.6,
             "source": "issuer_name",
             "term": "chevron"
-          },
-          {
-            "confidence": 0.55,
-            "source": "news_context",
-            "term": "chevron corporation"
           }
         ],
         "reporter_flags": {
@@ -314,8 +193,8 @@
           "congressgov_bills_found": false,
           "congressgov_hearings_found": false
         },
-        "retrieved_at": "2026-05-28T19:57:40Z",
-        "source": "official",
+        "retrieved_at": "2026-05-29T15:02:01Z",
+        "source": "fixture",
         "source_links": [
           {
             "label": "Congress.gov API",
@@ -413,27 +292,19 @@
     ],
     "lda_context": {
       "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Chevron+Corporation+Common+Stock",
-      "query_payload": {
-        "client_name": "Chevron Corporation Common Stock",
-        "page_size": 5
-      },
+      "reason": "no_fixture_data",
       "records": [],
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://lda.senate.gov/api/",
-      "status": "available"
+      "status": "unavailable"
     },
     "member_committee_context": {
       "committees": [],
-      "confidence": 0.85,
-      "member": {
-        "bioguide_id": "W000816",
-        "district": "25",
-        "match_method": "name_state_district",
-        "name": "Roger Williams",
-        "state": "TX"
-      },
+      "confidence": 0.0,
+      "member": {},
+      "reason": "no_fixture_data",
       "source_url": "https://github.com/unitedstates/congress-legislators",
-      "status": "available"
+      "status": "unavailable"
     },
     "reporter_flags": {
       "committee_context_available": false,
@@ -441,17 +312,16 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "retrieved_at": "2026-05-28T19:57:40Z",
+    "retrieved_at": "2026-05-29T15:02:01Z",
     "sec_issuer_identity": {
-      "cik": "0000093410",
-      "confidence": 1.0,
-      "match_method": "ticker_exact",
-      "sec_title": "CHEVRON CORP",
+      "confidence": 0.0,
+      "issuer_name": "Chevron Corporation Common Stock",
+      "reason": "no_fixture_data",
       "source_url": "https://www.sec.gov/files/company_tickers.json",
-      "status": "available",
+      "status": "unavailable",
       "ticker": "CVX"
     },
-    "source": "official",
+    "source": "fixture",
     "source_links": [
       {
         "label": "SEC EDGAR APIs",
@@ -474,15 +344,13 @@
         "url": "https://github.com/unitedstates/congress-legislators"
       }
     ],
-    "status": "partial",
+    "status": "unavailable",
     "usaspending_context": {
       "awards": [],
-      "query_payload": {
-        "search_text": "Chevron Corporation Common Stock"
-      },
-      "reason": "no_recipient_candidates",
+      "query_payload": {},
+      "reason": "no_fixture_data",
       "recipient_candidates": [],
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "selected_recipient": null,
       "source_url": "https://api.usaspending.gov/docs/",
       "status": "unavailable"
@@ -501,7 +369,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "member_name": "Hon. Roger Williams",
     "pdf_sha256": "",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
@@ -531,12 +399,11 @@
       "headline_candidate": "Hon. Roger Williams's CVX sale",
       "lede": "Hon. Roger Williams reported a sale of Chevron Corporation (CVX) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026.",
       "market_context": "Market movement is unavailable for this transaction.",
-      "news_context": "3 related company/news links were found around the trade and filing window.",
+      "news_context": "No ranked company-news links are available for this transaction.",
       "nut_graf": "The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
       "reporter_checks": [
         "Confirm the trade details against the source disclosure PDF.",
         "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
-        "Review the news/event links and verify which items are directly about the issuer and time window.",
         "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
         "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
       ],
@@ -557,7 +424,7 @@
     },
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
-    "grounded_summary": "Hon. Roger Williams reported a sale of Chevron Corporation (CVX) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. No high-signal federal or committee context was found in this automated pass. 3 related company/news links were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "grounded_summary": "Hon. Roger Williams reported a sale of Chevron Corporation (CVX) through Self on Dec 22, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. No high-signal federal or committee context was found in this automated pass. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
     "headline": "Hon. Roger Williams's CVX sale",
     "issuer_name": "Chevron Corporation",
     "market_context": {
@@ -567,111 +434,47 @@
       "latest_price_date": null,
       "percent_change_trade_to_filing": null,
       "percent_change_trade_to_latest": null,
-      "publication_license_status": "confirmed",
+      "publication_license_status": "not_confirmed_internal_only",
       "publication_ready": false,
-      "source": "finazon_us_stocks_essential",
+      "source": "fixture",
       "status": "unavailable",
       "trade_date_close": null,
       "trade_date_price_date": null
     },
     "member_name": "Hon. Roger Williams",
     "news_context": {
-      "provider": "gdelt_doc_2_0",
-      "query": "(\"Chevron Corporation\" OR CVX)",
-      "result_count": 3,
-      "results": [
-        {
-          "domain": "dailypolitical.com",
-          "language": "English",
-          "matched_terms": [
-            "CVX",
-            "chevron",
-            "chevron corporation"
-          ],
-          "published_at": "20260302T140000Z",
-          "relevance_label": "medium",
-          "relevance_score": 67,
-          "source_country": "United States",
-          "source_type": "general_news_or_web",
-          "title": "Kingsview Wealth Management LLC Sells 12 , 235 Shares of Chevron Corporation $CVX",
-          "url": "https://www.dailypolitical.com/2026/03/02/kingsview-wealth-management-llc-sells-12235-shares-of-chevron-corporation-cvx.html",
-          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-          "why_ranked": [
-            "issuer name appears in headline",
-            "issuer-name tokens appear in headline, domain, or URL",
-            "ticker appears as a distinct term"
-          ]
-        },
-        {
-          "domain": "themarketsdaily.com",
-          "language": "English",
-          "matched_terms": [
-            "CVX",
-            "chevron"
-          ],
-          "published_at": "20260302T223000Z",
-          "relevance_label": "low",
-          "relevance_score": 22,
-          "source_country": "United States",
-          "source_type": "general_news_or_web",
-          "title": "Chevron ( NYSE : CVX ) Trading 1 . 5 % Higher on Analyst Upgrade",
-          "url": "https://www.themarketsdaily.com/2026/03/02/chevron-nysecvx-trading-1-5-higher-on-analyst-upgrade.html",
-          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-          "why_ranked": [
-            "issuer-name tokens appear in headline, domain, or URL",
-            "ticker appears as a distinct term"
-          ]
-        },
-        {
-          "domain": "benzinga.com",
-          "language": "English",
-          "matched_terms": [
-            "CVX",
-            "chevron"
-          ],
-          "published_at": "20260302T210000Z",
-          "relevance_label": "low",
-          "relevance_score": 22,
-          "source_country": "United States",
-          "source_type": "general_news_or_web",
-          "title": "Chevron Has  Clearest Line Of Sight  In Venezuela - Chevron ( NYSE : CVX )",
-          "url": "https://www.benzinga.com/markets/commodities/26/03/50980675/exclusive-chevron-has-the-clearest-line-of-sight-in-venezuela-recovery",
-          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-          "why_ranked": [
-            "issuer-name tokens appear in headline, domain, or URL",
-            "ticker appears as a distinct term"
-          ]
-        }
-      ],
-      "status": "available",
+      "provider": "fixture",
+      "query": "",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
       "window": {
-        "end_date": "2026-03-01",
-        "start_date": "2025-12-08"
+        "end_date": "",
+        "start_date": ""
       }
     },
     "owner": "Self",
     "reporter_checks": [
       "Confirm the trade details against the source disclosure PDF.",
       "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
-      "Review the news/event links and verify which items are directly about the issuer and time window.",
       "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
       "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
     ],
     "reporter_context": {
       "committees": [],
       "lda": {
-        "reason": "",
+        "reason": "no_fixture_data",
         "record_count": 0,
         "records": [],
-        "status": "available"
+        "status": "unavailable"
       },
       "news": {
-        "query": "(\"Chevron Corporation\" OR CVX)",
-        "result_count": 3,
-        "status": "available",
+        "query": "",
+        "result_count": 0,
+        "status": "unavailable",
         "window": {
-          "end_date": "2026-03-01",
-          "start_date": "2025-12-08"
+          "end_date": "",
+          "start_date": ""
         }
       },
       "policy": {
@@ -681,32 +484,28 @@
         "overlap_status": "no_overlap_found",
         "terms": [
           "cvx",
-          "chevron",
-          "chevron corporation"
+          "chevron"
         ]
       },
       "sec": {
-        "cik": "0000093410",
-        "confidence": 1.0,
-        "reason": "",
-        "status": "available",
+        "cik": "",
+        "confidence": 0.0,
+        "reason": "no_fixture_data",
+        "status": "unavailable",
         "ticker": "CVX",
-        "title": "CHEVRON CORP"
+        "title": ""
       },
       "usaspending": {
         "award_count": 0,
         "awards": [],
-        "reason": "no_recipient_candidates",
+        "reason": "no_fixture_data",
         "recipient": "",
         "status": "unavailable"
       }
     },
     "schema_version": 1,
-    "score": 2,
-    "score_reasons": [
-      "news/event context links are available",
-      "linked company/news context is available"
-    ],
+    "score": 0,
+    "score_reasons": [],
     "slug": "hon-roger-williams-cvx-sale-12-22-2025-aacaa617629a91a9",
     "source_links": [
       {
@@ -744,18 +543,6 @@
       {
         "label": "Policy/context: Congress.gov search",
         "url": "https://www.congress.gov/search"
-      },
-      {
-        "label": "News/context: Kingsview Wealth Management LLC Sells 12 , 235 Shares of Chevron Corporation $CVX",
-        "url": "https://www.dailypolitical.com/2026/03/02/kingsview-wealth-management-llc-sells-12235-shares-of-chevron-corporation-cvx.html"
-      },
-      {
-        "label": "News/context: Chevron ( NYSE : CVX ) Trading 1 . 5 % Higher on Analyst Upgrade",
-        "url": "https://www.themarketsdaily.com/2026/03/02/chevron-nysecvx-trading-1-5-higher-on-analyst-upgrade.html"
-      },
-      {
-        "label": "News/context: Chevron Has  Clearest Line Of Sight  In Venezuela - Chevron ( NYSE : CVX )",
-        "url": "https://www.benzinga.com/markets/commodities/26/03/50980675/exclusive-chevron-has-the-clearest-line-of-sight-in-venezuela-recovery"
       }
     ],
     "state": "TX",
@@ -765,122 +552,43 @@
     "transaction_id": "aacaa617629a91a9"
   },
   "market_context": {
-    "adjusted_price_mode": "adjust=all",
+    "adjusted_price_mode": "close",
     "benchmark_symbol": "SPY",
     "chart": {
       "markers": [],
       "series": []
     },
-    "publication_license_status": "confirmed",
+    "publication_license_status": "not_confirmed_internal_only",
     "publication_ready": false,
-    "reason": "provider_error: Finazon request failed for CVX: status=403",
-    "retrieved_at": "2026-05-28T19:57:40Z",
-    "source": "finazon_us_stocks_essential",
+    "reason": "no_price_series",
+    "retrieved_at": "2026-05-29T15:02:01Z",
+    "source": "fixture",
     "status": "unavailable",
     "ticker": "CVX"
   },
   "news_context": {
-    "filtered_out_count": 22,
     "issuer_name": "Chevron Corporation Common Stock",
-    "min_relevance_score": 20,
-    "provider": "gdelt_doc_2_0",
-    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Chevron+Corporation%22+OR+CVX%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
-    "query": "(\"Chevron Corporation\" OR CVX)",
-    "raw_result_count": 25,
-    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
-    "result_count": 3,
-    "results": [
-      {
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "matched_terms": [
-          "CVX",
-          "chevron",
-          "chevron corporation"
-        ],
-        "published_at": "20260302T140000Z",
-        "relevance_label": "medium",
-        "relevance_score": 67,
-        "source_country": "United States",
-        "source_type": "general_news_or_web",
-        "title": "Kingsview Wealth Management LLC Sells 12 , 235 Shares of Chevron Corporation $CVX",
-        "url": "https://www.dailypolitical.com/2026/03/02/kingsview-wealth-management-llc-sells-12235-shares-of-chevron-corporation-cvx.html",
-        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-        "why_ranked": [
-          "issuer name appears in headline",
-          "issuer-name tokens appear in headline, domain, or URL",
-          "ticker appears as a distinct term"
-        ]
-      },
-      {
-        "domain": "themarketsdaily.com",
-        "language": "English",
-        "matched_terms": [
-          "CVX",
-          "chevron"
-        ],
-        "published_at": "20260302T223000Z",
-        "relevance_label": "low",
-        "relevance_score": 22,
-        "source_country": "United States",
-        "source_type": "general_news_or_web",
-        "title": "Chevron ( NYSE : CVX ) Trading 1 . 5 % Higher on Analyst Upgrade",
-        "url": "https://www.themarketsdaily.com/2026/03/02/chevron-nysecvx-trading-1-5-higher-on-analyst-upgrade.html",
-        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-        "why_ranked": [
-          "issuer-name tokens appear in headline, domain, or URL",
-          "ticker appears as a distinct term"
-        ]
-      },
-      {
-        "domain": "benzinga.com",
-        "language": "English",
-        "matched_terms": [
-          "CVX",
-          "chevron"
-        ],
-        "published_at": "20260302T210000Z",
-        "relevance_label": "low",
-        "relevance_score": 22,
-        "source_country": "United States",
-        "source_type": "general_news_or_web",
-        "title": "Chevron Has  Clearest Line Of Sight  In Venezuela - Chevron ( NYSE : CVX )",
-        "url": "https://www.benzinga.com/markets/commodities/26/03/50980675/exclusive-chevron-has-the-clearest-line-of-sight-in-venezuela-recovery",
-        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-        "why_ranked": [
-          "issuer-name tokens appear in headline, domain, or URL",
-          "ticker appears as a distinct term"
-        ]
-      }
-    ],
-    "retrieved_at": "2026-05-28T19:57:40Z",
+    "provider": "fixture",
+    "query": "",
+    "reason": "no_fixture_data",
+    "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+    "result_count": 0,
+    "results": [],
+    "retrieved_at": "2026-05-29T15:02:01Z",
     "schema_version": 1,
-    "source": "gdelt_doc_2_0",
-    "source_links": [
-      {
-        "label": "Kingsview Wealth Management LLC Sells 12 , 235 Shares of Chevron Corporation $CVX",
-        "url": "https://www.dailypolitical.com/2026/03/02/kingsview-wealth-management-llc-sells-12235-shares-of-chevron-corporation-cvx.html"
-      },
-      {
-        "label": "Chevron ( NYSE : CVX ) Trading 1 . 5 % Higher on Analyst Upgrade",
-        "url": "https://www.themarketsdaily.com/2026/03/02/chevron-nysecvx-trading-1-5-higher-on-analyst-upgrade.html"
-      },
-      {
-        "label": "Chevron Has  Clearest Line Of Sight  In Venezuela - Chevron ( NYSE : CVX )",
-        "url": "https://www.benzinga.com/markets/commodities/26/03/50980675/exclusive-chevron-has-the-clearest-line-of-sight-in-venezuela-recovery"
-      }
-    ],
-    "status": "available",
+    "source": "fixture",
+    "source_links": [],
+    "status": "unavailable",
     "ticker": "CVX",
     "window": {
-      "end_date": "2026-03-01",
-      "start_date": "2025-12-08"
+      "end_date": "",
+      "start_date": ""
     }
   },
   "policy_context": {
     "caveats": [
       "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+      "Committee jurisdiction and issuer relevance must be verified before publication."
     ],
     "committee_issuer_overlap_status": {
       "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
@@ -896,51 +604,25 @@
       "committees_checked": [],
       "confidence": 0.0,
       "matched_committees": [],
-      "reason": "committee_context_unavailable",
+      "reason": "no_fixture_data",
       "source_url": "https://www.congress.gov/committees",
       "status": "unavailable"
     },
     "congressgov_bills": {
       "items": [],
-      "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron+OR+chevron+corporation",
-      "query_payload": {
-        "congresses": [
-          119,
-          118
-        ],
-        "limit": 50,
-        "terms": [
-          "cvx",
-          "chevron",
-          "chevron corporation"
-        ]
-      },
-      "reason": "no_matching_recent_bills",
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron",
+      "query_payload": {},
+      "reason": "no_fixture_data",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://api.congress.gov/",
       "status": "unavailable"
     },
     "congressgov_hearings": {
       "items": [],
-      "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron+OR+chevron+corporation",
-      "query_payload": {
-        "chambers": [
-          "house",
-          "senate"
-        ],
-        "congresses": [
-          119,
-          118
-        ],
-        "limit": 50,
-        "terms": [
-          "cvx",
-          "chevron",
-          "chevron corporation"
-        ]
-      },
-      "reason": "no_matching_recent_hearings",
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "public_search_url": "https://www.congress.gov/search?q=cvx+OR+chevron",
+      "query_payload": {},
+      "reason": "no_fixture_data",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://api.congress.gov/",
       "status": "unavailable"
     },
@@ -954,11 +636,6 @@
         "confidence": 0.6,
         "source": "issuer_name",
         "term": "chevron"
-      },
-      {
-        "confidence": 0.55,
-        "source": "news_context",
-        "term": "chevron corporation"
       }
     ],
     "reporter_flags": {
@@ -966,8 +643,8 @@
       "congressgov_bills_found": false,
       "congressgov_hearings_found": false
     },
-    "retrieved_at": "2026-05-28T19:57:40Z",
-    "source": "official",
+    "retrieved_at": "2026-05-29T15:02:01Z",
+    "source": "fixture",
     "source_links": [
       {
         "label": "Congress.gov API",
@@ -987,14 +664,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T145717Z",
+    "data_version": "20260529T183053Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T14:57:17Z",
+    "generated_at": "2026-05-29T18:30:53Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/aa/ca/aacaa617629a91a9.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T15:12:17Z"
+    "stale_after": "2026-05-29T18:45:53Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033783.json",
@@ -1012,7 +689,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "issuer_name": "Chevron Corporation Common Stock",
     "member_name": "Hon. Roger Williams",
     "notification_date": "12/22/2025",

@@ -20,10 +20,20 @@
     .cue-copy-panel--dark .cue-copy-warning { border-color: #f2b84b; background: #271b07; color: #ffe7ae; }
     .cue-copy-button { min-height: 44px; border: 0; border-radius: 999px; padding: 0 16px; font-weight: 800; cursor: pointer; color: #fff; background: #243f5a; }
     .cue-copy-panel--dark .cue-copy-button { background: #13a8ff; color: #06111c; }
+    .cue-configurator { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(180px, .8fr) minmax(180px, 1fr) minmax(260px, 1.4fr); gap: 10px; padding: 12px; border-radius: 14px; border: 1px dashed #c8b99f; background: rgba(255,255,255,.45); }
+    .cue-copy-panel--dark .cue-configurator { border-color: #314154; background: rgba(255,255,255,.04); }
+    .cue-configurator__intro { grid-column: 1 / -1; }
+    .cue-configurator h3 { margin: 2px 0 4px; font-size: 16px; line-height: 1.2; }
+    .cue-configurator label { display: grid; gap: 5px; font-weight: 800; color: inherit; }
+    .cue-configurator select, .cue-configurator input { width: 100%; min-height: 40px; border: 1px solid #c8b99f; border-radius: 10px; padding: 0 10px; font: 13px/1.2 Arial, sans-serif; color: #18212b; background: #fffdf8; }
+    .cue-copy-panel--dark .cue-configurator select, .cue-copy-panel--dark .cue-configurator input { border-color: #314154; color: #eef5fb; background: #071018; }
+    .cue-configurator__note { grid-column: 1 / -1; color: #65717d; font-size: 13px; }
+    .cue-copy-panel--dark .cue-configurator__note { color: #9fb0c0; }
     .cue-copy-code { grid-column: 1 / -1; width: 100%; min-height: 180px; resize: vertical; border-radius: 12px; border: 1px solid #c8b99f; padding: 12px; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #18212b; background: #fffdf8; white-space: pre; overflow: auto; }
     .cue-copy-panel--dark .cue-copy-code { border-color: #314154; color: #eef5fb; background: #071018; }
     .cue-copy-status { grid-column: 1 / -1; min-height: 20px; color: #65717d; }
     .cue-copy-panel--dark .cue-copy-status { color: #9fb0c0; }
+    @media (max-width: 760px) { .cue-configurator { grid-template-columns: 1fr; } }
     @media (max-width: 640px) { .cue-copy-panel { grid-template-columns: 1fr; padding: 12px; } .cue-copy-button { width: 100%; } .cue-copy-code { min-height: 220px; } }
 
     @media (max-width: 640px) { body { padding: 10px; } }
@@ -40,7 +50,30 @@
       <p>This is the exact generated <code>embed.html</code> content. The rendered embed appears below.</p>
     </div>
     <button type="button" class="cue-copy-button">Copy embed code</button>
-    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-table&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json&quot; data-ptr-data-version=&quot;20260529T145717Z&quot;&gt;
+
+    <div class="cue-configurator" data-cue-configurator>
+      <div class="cue-configurator__intro">
+        <p class="cue-copy-eyebrow">Optional preview configurator</p>
+        <h3>Customize the copy/paste embed code</h3>
+        <p>These controls only rewrite the HTML snippet below. They do not save to Sheets, GitHub, Slack, or production data.</p>
+      </div>
+      <label>Newsroom preset
+        <select data-cue-config-preset><option value="0">Generated default</option>
+<option value="1">Fort Worth Star-Telegram</option>
+<option value="2">Washington state newsrooms</option>
+<option value="3">Miami Herald</option>
+<option value="4">Kansas City Star</option></select>
+      </label>
+      <label>Embed title
+        <input type="text" data-cue-config-title />
+      </label>
+      <label>Public data URL
+        <input type="url" data-cue-config-data-url />
+      </label>
+      <p class="cue-configurator__note">For persistent newsroom rosters, save the selected roster/config through the project pipeline later. This demo page is intentionally read-only.</p>
+    </div>
+
+    <textarea class="cue-copy-code" readonly spellcheck="false" aria-label="CUE embed HTML">&lt;div class=&quot;mcc-ptr-trade-table&quot; data-ptr-render-mode=&quot;fetch&quot; data-ptr-data-url=&quot;https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json&quot; data-ptr-data-version=&quot;20260529T183053Z&quot; data-ptr-title=&quot;Congressional trade tracker&quot;&gt;
   &lt;style&gt;
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: &quot;Avenir Next&quot;, &quot;Gill Sans&quot;, Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
@@ -99,6 +132,7 @@
     var main = root.querySelector(&quot;main&quot;);
     var dataUrl = root.getAttribute(&quot;data-ptr-data-url&quot;) || &quot;&quot;;
     var dataVersion = root.getAttribute(&quot;data-ptr-data-version&quot;) || &quot;&quot;;
+    var configuredTitle = root.getAttribute(&quot;data-ptr-title&quot;) || &quot;Congressional trade tracker&quot;;
     function text(value) { return value === null || value === undefined ? &quot;&quot; : String(value).trim(); }
     function esc(value) {
       return text(value).replace(/[&amp;&lt;&gt;&quot;&#x27;]/g, function(char) { return {&quot;&amp;&quot;:&quot;&amp;amp;&quot;,&quot;&lt;&quot;:&quot;&amp;lt;&quot;,&quot;&gt;&quot;:&quot;&amp;gt;&quot;,&quot;\&quot;&quot;:&quot;&amp;quot;&quot;,&quot;&#x27;&quot;:&quot;&amp;#39;&quot;}[char]; });
@@ -215,7 +249,7 @@
         if (text(row.politician)) politicians[text(row.politician)] = true;
         if (text(row.ticker || row.issuer)) issuers[text(row.ticker || row.issuer)] = true;
       });
-      main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;p class=&quot;sub&quot;&gt;Static public PTR data&lt;/p&gt;&lt;h1&gt;Congressional trade tracker&lt;/h1&gt;&lt;p&gt;Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.&lt;/p&gt;&lt;div class=&quot;controls&quot;&gt;&lt;input type=&quot;search&quot; data-filter=&quot;politician&quot; placeholder=&quot;Find by politician&quot; /&gt;&lt;input type=&quot;search&quot; data-filter=&quot;issuer&quot; placeholder=&quot;Find by issuer or ticker&quot; /&gt;&lt;select data-filter=&quot;type&quot;&gt;&lt;option value=&quot;&quot;&gt;Transaction type&lt;/option&gt;&#x27; + options(rows, &quot;type&quot;) + &#x27;&lt;/select&gt;&lt;select data-filter=&quot;owner&quot;&gt;&lt;option value=&quot;&quot;&gt;Owner&lt;/option&gt;&#x27; + options(rows, &quot;owner&quot;) + &#x27;&lt;/select&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
+      main.innerHTML = &#x27;&lt;section class=&quot;hero&quot;&gt;&lt;p class=&quot;sub&quot;&gt;Static public PTR data&lt;/p&gt;&lt;h1&gt;&#x27; + esc(configuredTitle) + &#x27;&lt;/h1&gt;&lt;p&gt;Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.&lt;/p&gt;&lt;div class=&quot;controls&quot;&gt;&lt;input type=&quot;search&quot; data-filter=&quot;politician&quot; placeholder=&quot;Find by politician&quot; /&gt;&lt;input type=&quot;search&quot; data-filter=&quot;issuer&quot; placeholder=&quot;Find by issuer or ticker&quot; /&gt;&lt;select data-filter=&quot;type&quot;&gt;&lt;option value=&quot;&quot;&gt;Transaction type&lt;/option&gt;&#x27; + options(rows, &quot;type&quot;) + &#x27;&lt;/select&gt;&lt;select data-filter=&quot;owner&quot;&gt;&lt;option value=&quot;&quot;&gt;Owner&lt;/option&gt;&#x27; + options(rows, &quot;owner&quot;) + &#x27;&lt;/select&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
         + &#x27;&lt;section class=&quot;summary&quot;&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong data-visible-count&gt;&#x27; + rows.length + &#x27;&lt;/strong&gt;&lt;span&gt;Visible trades&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + Object.keys(filings).length + &#x27;&lt;/strong&gt;&lt;span&gt;Filings&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + Object.keys(politicians).length + &#x27;&lt;/strong&gt;&lt;span&gt;Politicians&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;stat&quot;&gt;&lt;strong&gt;&#x27; + Object.keys(issuers).length + &#x27;&lt;/strong&gt;&lt;span&gt;Issuers&lt;/span&gt;&lt;/div&gt;&lt;/section&gt;&#x27;
         + &#x27;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Politician&lt;/th&gt;&lt;th&gt;Traded issuer&lt;/th&gt;&lt;th&gt;Filed&lt;/th&gt;&lt;th&gt;Traded&lt;/th&gt;&lt;th&gt;Filed after&lt;/th&gt;&lt;th&gt;Owner&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Size&lt;/th&gt;&lt;th&gt;Trade-date price&lt;/th&gt;&lt;th&gt;Return to latest&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&#x27; + renderRows(rows) + &#x27;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class=&quot;mobile-cards&quot;&gt;&#x27; + renderCards(rows) + &#x27;&lt;/div&gt;&lt;div class=&quot;empty&quot; data-empty&gt;No trades match the selected filters.&lt;/div&gt;&lt;p class=&quot;caveat&quot;&gt;PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.&lt;/p&gt;&#x27;;
       attachFilters();
@@ -244,11 +278,50 @@
       var textarea = panel.querySelector(".cue-copy-code");
       var status = panel.querySelector(".cue-copy-status");
       if (!button || !textarea) return;
+      function done(message) {
+        if (status) status.textContent = message;
+      }
+
+      var config = {"root_selector": ".mcc-ptr-trade-table", "data_url_attribute": "data-ptr-data-url", "title_attribute": "data-ptr-title", "default_title": "PTR trade table", "default_data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json", "presets": [{"newsroom": "current", "label": "Generated default", "title": "PTR trade table", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json"}, {"newsroom": "fort_worth", "label": "Fort Worth Star-Telegram", "title": "Fort Worth-area congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/fort_worth/trade_table.json"}, {"newsroom": "washington", "label": "Washington state newsrooms", "title": "Washington congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/washington/trade_table.json"}, {"newsroom": "miami", "label": "Miami Herald", "title": "South Florida congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/miami/trade_table.json"}, {"newsroom": "kansas_city", "label": "Kansas City Star", "title": "Kansas and Missouri congressional stock disclosures", "data_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/newsroom/kansas_city/trade_table.json"}]};
+      var configBox = panel.querySelector("[data-cue-configurator]");
+      var presetSelect = panel.querySelector("[data-cue-config-preset]");
+      var titleInput = panel.querySelector("[data-cue-config-title]");
+      var dataUrlInput = panel.querySelector("[data-cue-config-data-url]");
+      var presets = Array.isArray(config.presets) ? config.presets : [];
+      function setEmbedAttribute(html, attr, value) {
+        if (!attr) return html;
+        var tmp = document.createElement("template");
+        tmp.innerHTML = html;
+        var root = tmp.content.querySelector(config.root_selector || ".mcc-ptr-embed");
+        if (!root) return html;
+        if (value === null || value === undefined || String(value).trim() === "") root.removeAttribute(attr);
+        else root.setAttribute(attr, String(value).trim());
+        return tmp.innerHTML.trim();
+      }
+      function applyPreset(index) {
+        var row = presets[index] || presets[0] || {};
+        if (titleInput) titleInput.value = row.title || config.default_title || "";
+        if (dataUrlInput) dataUrlInput.value = row.data_url || config.default_data_url || "";
+        updateSnippet();
+      }
+      function updateSnippet() {
+        if (!textarea) return;
+        var html = textarea.getAttribute("data-original-code") || textarea.value || "";
+        html = setEmbedAttribute(html, config.data_url_attribute || "data-ptr-data-url", dataUrlInput ? dataUrlInput.value : "");
+        html = setEmbedAttribute(html, config.title_attribute || "data-ptr-title", titleInput ? titleInput.value : "");
+        textarea.value = html;
+        done("Embed code updated for the selected configuration.");
+      }
+      if (textarea && !textarea.getAttribute("data-original-code")) textarea.setAttribute("data-original-code", textarea.value || "");
+      if (configBox) {
+        if (presetSelect) presetSelect.addEventListener("change", function() { applyPreset(Number(presetSelect.value || 0)); });
+        if (titleInput) titleInput.addEventListener("input", updateSnippet);
+        if (dataUrlInput) dataUrlInput.addEventListener("input", updateSnippet);
+        applyPreset(0);
+      }
+
       button.addEventListener("click", function() {
         var text = textarea.value || "";
-        function done(message) {
-          if (status) status.textContent = message;
-        }
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(text).then(function() {
             done("Embed code copied.");
@@ -271,7 +344,7 @@
     })();
   </script>
 
-<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="20260529T145717Z">
+<div class="mcc-ptr-trade-table" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade_table.json" data-ptr-data-version="20260529T183053Z" data-ptr-title="Congressional trade tracker">
   <style>
     .mcc-ptr-trade-table { --bg: #0d1115; --panel: #121820; --panel2: #182638; --line: #293542; --ink: #eef5fb; --muted: #91a0ad; --blue: #13a8ff; --teal: #1fd0bf; --gold: #f2b84b; --red: #ff805f; font-family: "Avenir Next", "Gill Sans", Verdana, sans-serif; color: var(--ink); margin: 24px 0; }
     .mcc-ptr-trade-table * { box-sizing: border-box; }
@@ -330,6 +403,7 @@
     var main = root.querySelector("main");
     var dataUrl = root.getAttribute("data-ptr-data-url") || "";
     var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    var configuredTitle = root.getAttribute("data-ptr-title") || "Congressional trade tracker";
     function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
     function esc(value) {
       return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; });
@@ -446,7 +520,7 @@
         if (text(row.politician)) politicians[text(row.politician)] = true;
         if (text(row.ticker || row.issuer)) issuers[text(row.ticker || row.issuer)] = true;
       });
-      main.innerHTML = '<section class="hero"><p class="sub">Static public PTR data</p><h1>Congressional trade tracker</h1><p>Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.</p><div class="controls"><input type="search" data-filter="politician" placeholder="Find by politician" /><input type="search" data-filter="issuer" placeholder="Find by issuer or ticker" /><select data-filter="type"><option value="">Transaction type</option>' + options(rows, "type") + '</select><select data-filter="owner"><option value="">Owner</option>' + options(rows, "owner") + '</select></div></section>'
+      main.innerHTML = '<section class="hero"><p class="sub">Static public PTR data</p><h1>' + esc(configuredTitle) + '</h1><p>Evergreen table of processed congressional disclosure trades. Use the filters to narrow by politician, issuer, owner, or transaction type.</p><div class="controls"><input type="search" data-filter="politician" placeholder="Find by politician" /><input type="search" data-filter="issuer" placeholder="Find by issuer or ticker" /><select data-filter="type"><option value="">Transaction type</option>' + options(rows, "type") + '</select><select data-filter="owner"><option value="">Owner</option>' + options(rows, "owner") + '</select></div></section>'
         + '<section class="summary"><div class="stat"><strong data-visible-count>' + rows.length + '</strong><span>Visible trades</span></div><div class="stat"><strong>' + Object.keys(filings).length + '</strong><span>Filings</span></div><div class="stat"><strong>' + Object.keys(politicians).length + '</strong><span>Politicians</span></div><div class="stat"><strong>' + Object.keys(issuers).length + '</strong><span>Issuers</span></div></section>'
         + '<div class="table-wrap"><table><thead><tr><th>Politician</th><th>Traded issuer</th><th>Filed</th><th>Traded</th><th>Filed after</th><th>Owner</th><th>Type</th><th>Size</th><th>Trade-date price</th><th>Return to latest</th></tr></thead><tbody>' + renderRows(rows) + '</tbody></table></div><div class="mobile-cards">' + renderCards(rows) + '</div><div class="empty" data-empty>No trades match the selected filters.</div><p class="caveat">PTR values are reported as ranges. Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.</p>';
       attachFilters();

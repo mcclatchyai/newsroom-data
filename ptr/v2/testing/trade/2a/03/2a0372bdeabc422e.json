@@ -1,7 +1,7 @@
 {
   "context_packet": {
     "filing_id": "20033783",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "issuer_name": "RTX Corporation Common Stock",
     "packet": {
       "caveats": [
@@ -16,27 +16,19 @@
         ],
         "lda_context": {
           "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=RTX+Corporation+Common+Stock",
-          "query_payload": {
-            "client_name": "RTX Corporation Common Stock",
-            "page_size": 5
-          },
+          "reason": "no_fixture_data",
           "records": [],
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://lda.senate.gov/api/",
-          "status": "available"
+          "status": "unavailable"
         },
         "member_committee_context": {
           "committees": [],
-          "confidence": 0.85,
-          "member": {
-            "bioguide_id": "W000816",
-            "district": "25",
-            "match_method": "name_state_district",
-            "name": "Roger Williams",
-            "state": "TX"
-          },
+          "confidence": 0.0,
+          "member": {},
+          "reason": "no_fixture_data",
           "source_url": "https://github.com/unitedstates/congress-legislators",
-          "status": "available"
+          "status": "unavailable"
         },
         "reporter_flags": {
           "committee_context_available": false,
@@ -44,17 +36,16 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
-        "retrieved_at": "2026-05-28T19:57:40Z",
+        "retrieved_at": "2026-05-29T15:02:01Z",
         "sec_issuer_identity": {
-          "cik": "0000101829",
-          "confidence": 1.0,
-          "match_method": "ticker_exact",
-          "sec_title": "RTX Corp",
+          "confidence": 0.0,
+          "issuer_name": "RTX Corporation Common Stock",
+          "reason": "no_fixture_data",
           "source_url": "https://www.sec.gov/files/company_tickers.json",
-          "status": "available",
+          "status": "unavailable",
           "ticker": "RTX"
         },
-        "source": "official",
+        "source": "fixture",
         "source_links": [
           {
             "label": "SEC EDGAR APIs",
@@ -77,15 +68,13 @@
             "url": "https://github.com/unitedstates/congress-legislators"
           }
         ],
-        "status": "partial",
+        "status": "unavailable",
         "usaspending_context": {
           "awards": [],
-          "query_payload": {
-            "search_text": "RTX Corporation Common Stock"
-          },
-          "reason": "no_recipient_candidates",
+          "query_payload": {},
+          "reason": "no_fixture_data",
           "recipient_candidates": [],
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "selected_recipient": null,
           "source_url": "https://api.usaspending.gov/docs/",
           "status": "unavailable"
@@ -128,28 +117,28 @@
       },
       "news_context": {
         "issuer_name": "RTX Corporation Common Stock",
-        "provider": "gdelt_doc_2_0",
-        "query": "(\"RTX Corporation\" OR RTX)",
-        "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22RTX+Corporation%22+OR+RTX%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
+        "provider": "fixture",
+        "query": "",
+        "reason": "no_fixture_data",
         "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
         "result_count": 0,
         "results": [],
-        "retrieved_at": "2026-05-28T19:57:40Z",
+        "retrieved_at": "2026-05-29T15:02:01Z",
         "schema_version": 1,
-        "source": "gdelt_doc_2_0",
+        "source": "fixture",
         "source_links": [],
         "status": "unavailable",
         "ticker": "RTX",
         "window": {
-          "end_date": "2026-03-01",
-          "start_date": "2025-12-08"
+          "end_date": "",
+          "start_date": ""
         }
       },
       "packet_version": 1,
       "policy_context": {
         "caveats": [
           "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+          "Committee jurisdiction and issuer relevance must be verified before publication."
         ],
         "committee_issuer_overlap_status": {
           "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
@@ -165,47 +154,25 @@
           "committees_checked": [],
           "confidence": 0.0,
           "matched_committees": [],
-          "reason": "committee_context_unavailable",
+          "reason": "no_fixture_data",
           "source_url": "https://www.congress.gov/committees",
           "status": "unavailable"
         },
         "congressgov_bills": {
           "items": [],
           "public_search_url": "https://www.congress.gov/search?q=rtx",
-          "query_payload": {
-            "congresses": [
-              119,
-              118
-            ],
-            "limit": 50,
-            "terms": [
-              "rtx"
-            ]
-          },
-          "reason": "no_matching_recent_bills",
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "query_payload": {},
+          "reason": "no_fixture_data",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://api.congress.gov/",
           "status": "unavailable"
         },
         "congressgov_hearings": {
           "items": [],
           "public_search_url": "https://www.congress.gov/search?q=rtx",
-          "query_payload": {
-            "chambers": [
-              "house",
-              "senate"
-            ],
-            "congresses": [
-              119,
-              118
-            ],
-            "limit": 50,
-            "terms": [
-              "rtx"
-            ]
-          },
-          "reason": "no_matching_recent_hearings",
-          "retrieved_at": "2026-05-28T19:57:40Z",
+          "query_payload": {},
+          "reason": "no_fixture_data",
+          "retrieved_at": "2026-05-29T15:02:01Z",
           "source_url": "https://api.congress.gov/",
           "status": "unavailable"
         },
@@ -221,8 +188,8 @@
           "congressgov_bills_found": false,
           "congressgov_hearings_found": false
         },
-        "retrieved_at": "2026-05-28T19:57:40Z",
-        "source": "official",
+        "retrieved_at": "2026-05-29T15:02:01Z",
+        "source": "fixture",
         "source_links": [
           {
             "label": "Congress.gov API",
@@ -320,27 +287,19 @@
     ],
     "lda_context": {
       "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=RTX+Corporation+Common+Stock",
-      "query_payload": {
-        "client_name": "RTX Corporation Common Stock",
-        "page_size": 5
-      },
+      "reason": "no_fixture_data",
       "records": [],
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://lda.senate.gov/api/",
-      "status": "available"
+      "status": "unavailable"
     },
     "member_committee_context": {
       "committees": [],
-      "confidence": 0.85,
-      "member": {
-        "bioguide_id": "W000816",
-        "district": "25",
-        "match_method": "name_state_district",
-        "name": "Roger Williams",
-        "state": "TX"
-      },
+      "confidence": 0.0,
+      "member": {},
+      "reason": "no_fixture_data",
       "source_url": "https://github.com/unitedstates/congress-legislators",
-      "status": "available"
+      "status": "unavailable"
     },
     "reporter_flags": {
       "committee_context_available": false,
@@ -348,17 +307,16 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "retrieved_at": "2026-05-28T19:57:40Z",
+    "retrieved_at": "2026-05-29T15:02:01Z",
     "sec_issuer_identity": {
-      "cik": "0000101829",
-      "confidence": 1.0,
-      "match_method": "ticker_exact",
-      "sec_title": "RTX Corp",
+      "confidence": 0.0,
+      "issuer_name": "RTX Corporation Common Stock",
+      "reason": "no_fixture_data",
       "source_url": "https://www.sec.gov/files/company_tickers.json",
-      "status": "available",
+      "status": "unavailable",
       "ticker": "RTX"
     },
-    "source": "official",
+    "source": "fixture",
     "source_links": [
       {
         "label": "SEC EDGAR APIs",
@@ -381,15 +339,13 @@
         "url": "https://github.com/unitedstates/congress-legislators"
       }
     ],
-    "status": "partial",
+    "status": "unavailable",
     "usaspending_context": {
       "awards": [],
-      "query_payload": {
-        "search_text": "RTX Corporation Common Stock"
-      },
-      "reason": "no_recipient_candidates",
+      "query_payload": {},
+      "reason": "no_fixture_data",
       "recipient_candidates": [],
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "selected_recipient": null,
       "source_url": "https://api.usaspending.gov/docs/",
       "status": "unavailable"
@@ -408,7 +364,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "member_name": "Hon. Roger Williams",
     "pdf_sha256": "",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
@@ -473,23 +429,23 @@
       "latest_price_date": null,
       "percent_change_trade_to_filing": null,
       "percent_change_trade_to_latest": null,
-      "publication_license_status": "confirmed",
+      "publication_license_status": "not_confirmed_internal_only",
       "publication_ready": false,
-      "source": "finazon_us_stocks_essential",
+      "source": "fixture",
       "status": "unavailable",
       "trade_date_close": null,
       "trade_date_price_date": null
     },
     "member_name": "Hon. Roger Williams",
     "news_context": {
-      "provider": "gdelt_doc_2_0",
-      "query": "(\"RTX Corporation\" OR RTX)",
+      "provider": "fixture",
+      "query": "",
       "result_count": 0,
       "results": [],
       "status": "unavailable",
       "window": {
-        "end_date": "2026-03-01",
-        "start_date": "2025-12-08"
+        "end_date": "",
+        "start_date": ""
       }
     },
     "owner": "Self",
@@ -502,18 +458,18 @@
     "reporter_context": {
       "committees": [],
       "lda": {
-        "reason": "",
+        "reason": "no_fixture_data",
         "record_count": 0,
         "records": [],
-        "status": "available"
+        "status": "unavailable"
       },
       "news": {
-        "query": "(\"RTX Corporation\" OR RTX)",
+        "query": "",
         "result_count": 0,
         "status": "unavailable",
         "window": {
-          "end_date": "2026-03-01",
-          "start_date": "2025-12-08"
+          "end_date": "",
+          "start_date": ""
         }
       },
       "policy": {
@@ -526,17 +482,17 @@
         ]
       },
       "sec": {
-        "cik": "0000101829",
-        "confidence": 1.0,
-        "reason": "",
-        "status": "available",
+        "cik": "",
+        "confidence": 0.0,
+        "reason": "no_fixture_data",
+        "status": "unavailable",
         "ticker": "RTX",
-        "title": "RTX Corp"
+        "title": ""
       },
       "usaspending": {
         "award_count": 0,
         "awards": [],
-        "reason": "no_recipient_candidates",
+        "reason": "no_fixture_data",
         "recipient": "",
         "status": "unavailable"
       }
@@ -590,43 +546,43 @@
     "transaction_id": "2a0372bdeabc422e"
   },
   "market_context": {
-    "adjusted_price_mode": "adjust=all",
+    "adjusted_price_mode": "close",
     "benchmark_symbol": "SPY",
     "chart": {
       "markers": [],
       "series": []
     },
-    "publication_license_status": "confirmed",
+    "publication_license_status": "not_confirmed_internal_only",
     "publication_ready": false,
-    "reason": "provider_error: Finazon request failed for RTX: status=403",
-    "retrieved_at": "2026-05-28T19:57:40Z",
-    "source": "finazon_us_stocks_essential",
+    "reason": "no_price_series",
+    "retrieved_at": "2026-05-29T15:02:01Z",
+    "source": "fixture",
     "status": "unavailable",
     "ticker": "RTX"
   },
   "news_context": {
     "issuer_name": "RTX Corporation Common Stock",
-    "provider": "gdelt_doc_2_0",
-    "query": "(\"RTX Corporation\" OR RTX)",
-    "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22RTX+Corporation%22+OR+RTX%29&mode=artlist&format=json&startdatetime=20251208000000&enddatetime=20260301235959&maxrecords=25&sort=DateDesc",
+    "provider": "fixture",
+    "query": "",
+    "reason": "no_fixture_data",
     "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
     "result_count": 0,
     "results": [],
-    "retrieved_at": "2026-05-28T19:57:40Z",
+    "retrieved_at": "2026-05-29T15:02:01Z",
     "schema_version": 1,
-    "source": "gdelt_doc_2_0",
+    "source": "fixture",
     "source_links": [],
     "status": "unavailable",
     "ticker": "RTX",
     "window": {
-      "end_date": "2026-03-01",
-      "start_date": "2025-12-08"
+      "end_date": "",
+      "start_date": ""
     }
   },
   "policy_context": {
     "caveats": [
       "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
-      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+      "Committee jurisdiction and issuer relevance must be verified before publication."
     ],
     "committee_issuer_overlap_status": {
       "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
@@ -642,47 +598,25 @@
       "committees_checked": [],
       "confidence": 0.0,
       "matched_committees": [],
-      "reason": "committee_context_unavailable",
+      "reason": "no_fixture_data",
       "source_url": "https://www.congress.gov/committees",
       "status": "unavailable"
     },
     "congressgov_bills": {
       "items": [],
       "public_search_url": "https://www.congress.gov/search?q=rtx",
-      "query_payload": {
-        "congresses": [
-          119,
-          118
-        ],
-        "limit": 50,
-        "terms": [
-          "rtx"
-        ]
-      },
-      "reason": "no_matching_recent_bills",
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "query_payload": {},
+      "reason": "no_fixture_data",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://api.congress.gov/",
       "status": "unavailable"
     },
     "congressgov_hearings": {
       "items": [],
       "public_search_url": "https://www.congress.gov/search?q=rtx",
-      "query_payload": {
-        "chambers": [
-          "house",
-          "senate"
-        ],
-        "congresses": [
-          119,
-          118
-        ],
-        "limit": 50,
-        "terms": [
-          "rtx"
-        ]
-      },
-      "reason": "no_matching_recent_hearings",
-      "retrieved_at": "2026-05-28T19:57:40Z",
+      "query_payload": {},
+      "reason": "no_fixture_data",
+      "retrieved_at": "2026-05-29T15:02:01Z",
       "source_url": "https://api.congress.gov/",
       "status": "unavailable"
     },
@@ -698,8 +632,8 @@
       "congressgov_bills_found": false,
       "congressgov_hearings_found": false
     },
-    "retrieved_at": "2026-05-28T19:57:40Z",
-    "source": "official",
+    "retrieved_at": "2026-05-29T15:02:01Z",
+    "source": "fixture",
     "source_links": [
       {
         "label": "Congress.gov API",
@@ -719,14 +653,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T145717Z",
+    "data_version": "20260529T183053Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T14:57:17Z",
+    "generated_at": "2026-05-29T18:30:53Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/2a/03/2a0372bdeabc422e.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T15:12:17Z"
+    "stale_after": "2026-05-29T18:45:53Z"
   },
   "public_urls": {
     "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20033783.json",
@@ -744,7 +678,7 @@
     "filing_date": "01/15/2026",
     "filing_id": "20033783",
     "filing_type": "P",
-    "ingested_at": "2026-05-28T19:57:40Z",
+    "ingested_at": "2026-05-29T15:02:01Z",
     "issuer_name": "RTX Corporation Common Stock",
     "member_name": "Hon. Roger Williams",
     "notification_date": "12/22/2025",

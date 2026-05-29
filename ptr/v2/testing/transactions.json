@@ -2,14 +2,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T145717Z",
+    "data_version": "20260529T183053Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T14:57:17Z",
+    "generated_at": "2026-05-29T18:30:53Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/transactions.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T15:12:17Z"
+    "stale_after": "2026-05-29T18:45:53Z"
   },
   "transactions": [
     {
@@ -23,7 +23,7 @@
       "filing_date": "01/15/2026",
       "filing_id": "20033783",
       "filing_type": "P",
-      "ingested_at": "2026-05-28T19:57:40Z",
+      "ingested_at": "2026-05-29T15:02:01Z",
       "issuer_name": "Chevron Corporation Common Stock",
       "member_name": "Hon. Roger Williams",
       "notification_date": "12/22/2025",
@@ -50,7 +50,7 @@
       "filing_date": "01/15/2026",
       "filing_id": "20033783",
       "filing_type": "P",
-      "ingested_at": "2026-05-28T19:57:40Z",
+      "ingested_at": "2026-05-29T15:02:01Z",
       "issuer_name": "Diamondback Energy, Inc. - Common Stock",
       "member_name": "Hon. Roger Williams",
       "notification_date": "12/22/2025",
@@ -77,7 +77,7 @@
       "filing_date": "01/15/2026",
       "filing_id": "20033783",
       "filing_type": "P",
-      "ingested_at": "2026-05-28T19:57:40Z",
+      "ingested_at": "2026-05-29T15:02:01Z",
       "issuer_name": "JP Morgan Chase & Co. Common Stock",
       "member_name": "Hon. Roger Williams",
       "notification_date": "12/22/2025",
@@ -104,7 +104,7 @@
       "filing_date": "01/15/2026",
       "filing_id": "20033783",
       "filing_type": "P",
-      "ingested_at": "2026-05-28T19:57:40Z",
+      "ingested_at": "2026-05-29T15:02:01Z",
       "issuer_name": "RTX Corporation Common Stock",
       "member_name": "Hon. Roger Williams",
       "notification_date": "12/22/2025",

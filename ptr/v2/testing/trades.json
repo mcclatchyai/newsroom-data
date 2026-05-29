@@ -2,14 +2,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T145717Z",
+    "data_version": "20260529T183053Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T14:57:17Z",
+    "generated_at": "2026-05-29T18:30:53Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trades.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T15:12:17Z"
+    "stale_after": "2026-05-29T18:45:53Z"
   },
   "trades": [
     {
@@ -31,8 +31,8 @@
         "committee_context_available": false,
         "committee_overlap_check_needed": false,
         "committee_policy_overlap_check_needed": false,
-        "congressgov_bills_found": true,
-        "congressgov_hearings_found": true,
+        "congressgov_bills_found": false,
+        "congressgov_hearings_found": false,
         "federal_awards_found": false,
         "lobbying_records_found": false
       },
@@ -86,7 +86,7 @@
       "issuer_name": "JP Morgan Chase & Co. Common Stock",
       "market_status": "unavailable",
       "member_name": "Hon. Roger Williams",
-      "news_result_count": 4,
+      "news_result_count": 0,
       "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/4b/ed/4beda97b21516dcb.json",
       "publication_ready": false,
       "reporter_flags": {
@@ -94,7 +94,7 @@
         "committee_overlap_check_needed": false,
         "committee_policy_overlap_check_needed": false,
         "congressgov_bills_found": false,
-        "congressgov_hearings_found": true,
+        "congressgov_hearings_found": false,
         "federal_awards_found": false,
         "lobbying_records_found": false
       },
@@ -117,7 +117,7 @@
       "issuer_name": "Chevron Corporation Common Stock",
       "market_status": "unavailable",
       "member_name": "Hon. Roger Williams",
-      "news_result_count": 3,
+      "news_result_count": 0,
       "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/aa/ca/aacaa617629a91a9.json",
       "publication_ready": false,
       "reporter_flags": {
