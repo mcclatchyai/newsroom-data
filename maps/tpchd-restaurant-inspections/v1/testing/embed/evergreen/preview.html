@@ -878,9 +878,9 @@
     if (mode === &quot;evergreen&quot;) {
       parts.push(&quot;The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.&quot;);
       parts.push(&quot;Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.&quot;);
-      parts.push(&quot;The date window is based on inspection/result dates in TPCHD records collected for this publication, not a separate date search on TPCHD&#x27;s site.&quot;);
+
     }
-    parts.push(mode === &quot;evergreen&quot; ? &quot;Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points.&quot; : &quot;The map includes facilities with inspections with more than 35 red points.&quot;);
+    parts.push(mode === &quot;evergreen&quot; ? &quot;Locations come from facility addresses shown in TPCHD inspection records.&quot; : &quot;The map includes facilities with inspections with more than 35 red points.&quot;);
     if (unmapped) parts.push(unmapped + &quot; source record&quot; + (unmapped === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; in the dataset but not drawn because no reviewed coordinate was available.&quot;);
     if (excluded) parts.push(excluded + &quot; inspection&quot; + (excluded === 1 ? &quot; has&quot; : &quot;s have&quot;) + &quot; 35 or fewer red points and &quot; + (excluded === 1 ? &quot;is&quot; : &quot;are&quot;) + &quot; not drawn on this map.&quot;);
     if (coverageNote) coverageNote.textContent = parts.join(&quot; &quot;);
@@ -1927,9 +1927,9 @@
     if (mode === "evergreen") {
       parts.push("The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.");
       parts.push("Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.");
-      parts.push("The date window is based on inspection/result dates in TPCHD records collected for this publication, not a separate date search on TPCHD's site.");
+      parts.push("");
     }
-    parts.push(mode === "evergreen" ? "Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points." : "The map includes facilities with inspections with more than 35 red points.");
+    parts.push(mode === "evergreen" ? "Locations come from facility addresses shown in TPCHD inspection records." : "The map includes facilities with inspections with more than 35 red points.");
     if (unmapped) parts.push(unmapped + " source record" + (unmapped === 1 ? " is" : "s are") + " in the dataset but not drawn because no reviewed coordinate was available.");
     if (excluded) parts.push(excluded + " inspection" + (excluded === 1 ? " has" : "s have") + " 35 or fewer red points and " + (excluded === 1 ? "is" : "are") + " not drawn on this map.");
     if (coverageNote) coverageNote.textContent = parts.join(" ");

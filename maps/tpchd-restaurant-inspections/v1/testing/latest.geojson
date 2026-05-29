@@ -2938,7 +2938,7 @@
     "available_years": [
       "2026"
     ],
-    "coverage_note": "This map shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records. Each point represents one TPCHD facility/license record. If TPCHD lists multiple licensed food operations at the same address, they may appear as separate points.",
+    "coverage_note": "This map shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records. Locations come from facility addresses shown in TPCHD inspection records.",
     "data_universe": "TPCHD Accela food-facility inspection records observed by this publication run with parsed PDF reports and facility inspection-history pages; this public evergreen layer is one mapped point per facility.",
     "data_version": "20260529181221Z",
     "facilities_above_threshold": 20,
