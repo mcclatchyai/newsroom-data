@@ -101055,12 +101055,7 @@
   ],
   "metadata": {
     "available_years": [
-      "2021",
-      "2022",
-      "2023",
-      "2024",
-      "2025",
-      "2026"
+      "2025"
     ],
     "building_footprints_attribution": "OpenStreetMap contributors; Overture Maps Foundation",
     "building_footprints_license": "ODbL",
@@ -101068,14 +101063,27 @@
     "building_footprints_note": "Open building footprints may lag current conditions and can include ML-derived features.",
     "building_footprints_returned": 1058,
     "building_footprints_source": "Overture Maps",
+    "category_filter": "compasskc_demo",
+    "category_filter_note": "Includes only the explicit CompassKC demolition permit and demolition-review categories used by /compasskc demo.",
+    "category_filter_record_types": [
+      "Complete Building Demolition - Commercial",
+      "Complete Building or Structure Demolition - Residential",
+      "Partial Building Demolition - Commercial",
+      "Partial Building Demolition - Residential",
+      "Pre-Demolition Inspection - Commercial",
+      "Pre-Demolition Inspection - Residential",
+      "Demolition Review, Administrative",
+      "Demolition Review, Regular"
+    ],
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
     "etag": "0fc7b1945ae25d1b",
     "features_returned": 454,
-    "generated_at": "2026-05-28T18:30:54Z",
+    "generated_at": "2026-05-29T14:41:54Z",
     "parcel_polygon_features": 454,
     "point_fallback_features": 0,
     "project": "kc-demolitions",
+    "records_excluded_by_category": 0,
     "records_total": 454,
     "source": "CompassKC + KCMO parcels + Overture Maps buildings",
     "unmapped_records": 0,

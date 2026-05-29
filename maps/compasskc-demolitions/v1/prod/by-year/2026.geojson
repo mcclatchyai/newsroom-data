@@ -43587,135 +43587,6 @@
         "coordinates": [
           [
             [
-              -94.58746390245143,
-              38.97943195249348
-            ],
-            [
-              -94.58713717653218,
-              38.979419452112
-            ],
-            [
-              -94.58712812886967,
-              38.97959610086997
-            ],
-            [
-              -94.58745473915792,
-              38.97960867000622
-            ],
-            [
-              -94.58746390245143,
-              38.97943195249348
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "activity_date": "2026-05-19",
-        "activity_date_basis": "issue_date",
-        "activity_date_label": "Permit issued",
-        "activity_stage": "issued",
-        "address": "210 E 82nd St Kansas City MO 64114",
-        "apply_date": "2026-05-15T13:11:13.467",
-        "building_footprints": {
-          "features": [
-            {
-              "geometry": {
-                "coordinates": [
-                  [
-                    [
-                      -94.5872141,
-                      38.9794589
-                    ],
-                    [
-                      -94.5874281,
-                      38.979465
-                    ],
-                    [
-                      -94.5874244,
-                      38.9795436
-                    ],
-                    [
-                      -94.5872104,
-                      38.9795375
-                    ],
-                    [
-                      -94.5872141,
-                      38.9794589
-                    ]
-                  ]
-                ],
-                "type": "Polygon"
-              },
-              "properties": {
-                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
-                "class": "detached",
-                "fetched_at_utc": "2026-05-19T20:34:06Z",
-                "overture_id": "8d92a01b-e189-466a-8713-ae053193d217",
-                "source": "Overture Maps",
-                "source_release": "2026-04-15.0",
-                "subtype": "residential"
-              },
-              "type": "Feature"
-            }
-          ],
-          "metadata": {
-            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
-            "feature_count": 1,
-            "fetched_at_utc": "2026-05-19T20:34:06Z",
-            "license": "ODbL",
-            "license_url": "https://opendatacommons.org/licenses/odbl/",
-            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
-            "release": "2026-04-15.0",
-            "release_date": "2026-04-15",
-            "source": "Overture Maps",
-            "source_url": "https://docs.overturemaps.org/guides/buildings/"
-          },
-          "type": "FeatureCollection"
-        },
-        "case_number": "CPDR-2026-00117",
-        "category": "Interior Demolition - Residential",
-        "date": "2026-05-19",
-        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/permit/fc4925f1-b95b-4a27-b61b-5c9d1be8fe53",
-        "external_id": "fc4925f1-b95b-4a27-b61b-5c9d1be8fe53",
-        "geometry_source": "KCMO parcels",
-        "has_parcel_polygon": true,
-        "issue_date": "2026-05-19T09:00:04.127",
-        "match_method": "parcel_id",
-        "match_status": "matched",
-        "parcel_address": "210 E 82nd St",
-        "parcel_id": "119121",
-        "post_demo_confidence": "possible",
-        "post_demo_evidence": [
-          {
-            "application_date": "2026-05-15T13:08:35.067",
-            "issue_date": "",
-            "project": "",
-            "record_number": "CPBR-2026-01176",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
-            "source": "Open Data KC City Issued Permits",
-            "status": "In Review",
-            "work_class": "Single Family - Interior Remodel"
-          }
-        ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
-        "record_id": "case:fc4925f1-b95b-4a27-b61b-5c9d1be8fe53",
-        "record_type": "Interior Demolition - Residential",
-        "replacement_use": "housing",
-        "status": "Issued",
-        "timing_note": "CompassKC lists the permit issue date; an actual demolition date was not posted.",
-        "year": "2026"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
               -94.55536854533773,
               39.06360828060042
             ],
@@ -44637,245 +44508,40 @@
         "year": "2026"
       },
       "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -94.55348113852675,
-              39.10955472653919
-            ],
-            [
-              -94.55305645899789,
-              39.10953991086878
-            ],
-            [
-              -94.55304524686865,
-              39.109744629182565
-            ],
-            [
-              -94.55346983915523,
-              39.10975896443931
-            ],
-            [
-              -94.55348113852675,
-              39.10955472653919
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "activity_date": "2026-05-22",
-        "activity_date_basis": "complete_date",
-        "activity_date_label": "Review approved",
-        "activity_stage": "review",
-        "address": "333 Olive St Kansas City MO 64124",
-        "apply_date": "2026-05-14T11:01:02.86",
-        "building_footprints": {
-          "features": [
-            {
-              "geometry": {
-                "coordinates": [
-                  [
-                    [
-                      -94.5533546,
-                      39.1097518
-                    ],
-                    [
-                      -94.5532576,
-                      39.1097491
-                    ],
-                    [
-                      -94.5532582,
-                      39.1097362
-                    ],
-                    [
-                      -94.553152,
-                      39.1097332
-                    ],
-                    [
-                      -94.5531564,
-                      39.1096376
-                    ],
-                    [
-                      -94.5532578,
-                      39.1096405
-                    ],
-                    [
-                      -94.5532585,
-                      39.1096254
-                    ],
-                    [
-                      -94.553375,
-                      39.1096286
-                    ],
-                    [
-                      -94.5533744,
-                      39.1096416
-                    ],
-                    [
-                      -94.5534224,
-                      39.109643
-                    ],
-                    [
-                      -94.5534178,
-                      39.1097415
-                    ],
-                    [
-                      -94.553376,
-                      39.1097404
-                    ],
-                    [
-                      -94.5533546,
-                      39.1097518
-                    ]
-                  ]
-                ],
-                "type": "Polygon"
-              },
-              "properties": {
-                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
-                "class": "detached",
-                "fetched_at_utc": "2026-05-19T20:34:06Z",
-                "height": 6.329596996307373,
-                "overture_id": "649e90ef-dd12-49b8-8a25-8551ac7a7c9b",
-                "source": "Overture Maps",
-                "source_release": "2026-04-15.0",
-                "subtype": "residential"
-              },
-              "type": "Feature"
-            },
-            {
-              "geometry": {
-                "coordinates": [
-                  [
-                    [
-                      -94.5531559,
-                      39.1097579
-                    ],
-                    [
-                      -94.5533823,
-                      39.1097657
-                    ],
-                    [
-                      -94.55338171140399,
-                      39.10977600043023
-                    ],
-                    [
-                      -94.55315528680322,
-                      39.10976835579116
-                    ],
-                    [
-                      -94.5531559,
-                      39.1097579
-                    ]
-                  ]
-                ],
-                "type": "Polygon"
-              },
-              "properties": {
-                "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
-                "class": "detached",
-                "fetched_at_utc": "2026-05-19T20:34:06Z",
-                "height": 6.451808929443359,
-                "overture_id": "d6bbc3b3-e004-47bf-b411-25346f064ee1",
-                "source": "Overture Maps",
-                "source_release": "2026-04-15.0",
-                "subtype": "residential"
-              },
-              "type": "Feature"
-            }
-          ],
-          "metadata": {
-            "attribution": "OpenStreetMap contributors; Overture Maps Foundation",
-            "feature_count": 2,
-            "fetched_at_utc": "2026-05-19T20:34:06Z",
-            "license": "ODbL",
-            "license_url": "https://opendatacommons.org/licenses/odbl/",
-            "note": "Open building footprints may lag current conditions and can include ML-derived features.",
-            "release": "2026-04-15.0",
-            "release_date": "2026-04-15",
-            "source": "Overture Maps",
-            "source_url": "https://docs.overturemaps.org/guides/buildings/"
-          },
-          "type": "FeatureCollection"
-        },
-        "case_number": "CH-DR-2026-00037",
-        "category": "Historic Preservation, Administrative Review",
-        "complete_date": "2026-05-22T11:03:13",
-        "date": "2026-05-22",
-        "detail_url": "https://compasskc.kcmo.org/EnerGov_Prod/SelfService#/plan/405b0f91-e4d1-4430-8c69-8f6b642e8618",
-        "external_id": "405b0f91-e4d1-4430-8c69-8f6b642e8618",
-        "geometry_source": "KCMO parcels",
-        "has_parcel_polygon": true,
-        "match_method": "parcel_id",
-        "match_status": "matched",
-        "parcel_address": "333 Olive St",
-        "parcel_id": "40264",
-        "post_demo_confidence": "possible",
-        "post_demo_evidence": [
-          {
-            "application_date": "2026-05-14T10:28:17.917",
-            "issue_date": "2026-05-15T12:01:02.573",
-            "project": "",
-            "record_number": "CPBR-2026-01160",
-            "record_type": "CPPU - Building (Residential)",
-            "relation": "possible_reuse_or_remodel",
-            "source": "Open Data KC City Issued Permits",
-            "status": "Issued",
-            "work_class": "Single Family - Interior Remodel"
-          }
-        ],
-        "post_demo_last_checked": "2026-05-26T19:10:05Z",
-        "post_demo_status": "possible_reuse_or_remodel",
-        "post_demo_summary": "Same-parcel permit history includes recent repair, renovation or reuse activity.",
-        "record_id": "case:405b0f91-e4d1-4430-8c69-8f6b642e8618",
-        "record_type": "Historic Preservation, Administrative Review",
-        "replacement_use": "housing",
-        "status": "Approved",
-        "story_angle_clues": [
-          {
-            "angle": "Historic / preservation",
-            "context": "Historic Preservation, Administrative Review",
-            "field": "permit type",
-            "matched_text": "Historic"
-          }
-        ],
-        "story_angles": [
-          "Historic / preservation"
-        ],
-        "timing_note": "CompassKC lists a demolition-review milestone; an actual demolition date was not posted.",
-        "year": "2026"
-      },
-      "type": "Feature"
     }
   ],
   "metadata": {
     "available_years": [
-      "2021",
-      "2022",
-      "2023",
-      "2024",
-      "2025",
       "2026"
     ],
     "building_footprints_attribution": "OpenStreetMap contributors; Overture Maps Foundation",
     "building_footprints_license": "ODbL",
     "building_footprints_license_url": "https://opendatacommons.org/licenses/odbl/",
     "building_footprints_note": "Open building footprints may lag current conditions and can include ML-derived features.",
-    "building_footprints_returned": 521,
+    "building_footprints_returned": 518,
     "building_footprints_source": "Overture Maps",
+    "category_filter": "compasskc_demo",
+    "category_filter_note": "Includes only the explicit CompassKC demolition permit and demolition-review categories used by /compasskc demo.",
+    "category_filter_record_types": [
+      "Complete Building Demolition - Commercial",
+      "Complete Building or Structure Demolition - Residential",
+      "Partial Building Demolition - Commercial",
+      "Partial Building Demolition - Residential",
+      "Pre-Demolition Inspection - Commercial",
+      "Pre-Demolition Inspection - Residential",
+      "Demolition Review, Administrative",
+      "Demolition Review, Regular"
+    ],
     "dataset": "compasskc-demolition-parcels",
     "error_records": 0,
-    "etag": "bb90978db420fd95",
-    "features_returned": 184,
-    "generated_at": "2026-05-28T18:31:00Z",
-    "parcel_polygon_features": 184,
+    "etag": "9f0efe12b395bbf3",
+    "features_returned": 182,
+    "generated_at": "2026-05-29T14:41:59Z",
+    "parcel_polygon_features": 182,
     "point_fallback_features": 0,
     "project": "kc-demolitions",
-    "records_total": 184,
+    "records_excluded_by_category": 2,
+    "records_total": 182,
     "source": "CompassKC + KCMO parcels + Overture Maps buildings",
     "unmapped_records": 0,
     "unmapped_records_by_reason": {},
