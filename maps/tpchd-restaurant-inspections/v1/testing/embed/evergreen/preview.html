@@ -119,7 +119,7 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   &lt;/style&gt;
-  &lt;div class=&quot;tpchd-map__title&quot;&gt;Tacoma-Pierce County restaurant inspection action status&lt;/div&gt;
+  &lt;div class=&quot;tpchd-map__title&quot;&gt;Recent Tacoma-Pierce County restaurant inspections&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__lede&quot;&gt;This map shows facilities with recent notable TPCHD action statuses or an inspection above 35 red points in the last 60 days. Marker color, shape and letter show the latest observed TPCHD result/status.&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__legend&quot; data-role=&quot;legend&quot; aria-label=&quot;Map legend&quot;&gt;
     &lt;div class=&quot;tpchd-map__legend-row&quot;&gt;
@@ -878,7 +878,6 @@
     if (mode === &quot;evergreen&quot;) {
       parts.push(&quot;The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.&quot;);
       parts.push(&quot;Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.&quot;);
-
     }
     parts.push(mode === &quot;evergreen&quot; ? &quot;Locations come from facility addresses shown in TPCHD inspection records.&quot; : &quot;The map includes facilities with inspections with more than 35 red points.&quot;);
     if (unmapped) parts.push(unmapped + &quot; source record&quot; + (unmapped === 1 ? &quot; is&quot; : &quot;s are&quot;) + &quot; in the dataset but not drawn because no reviewed coordinate was available.&quot;);
@@ -1168,7 +1167,7 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">Tacoma-Pierce County restaurant inspection action status</div>
+  <div class="tpchd-map__title">Recent Tacoma-Pierce County restaurant inspections</div>
   <div class="tpchd-map__lede">This map shows facilities with recent notable TPCHD action statuses or an inspection above 35 red points in the last 60 days. Marker color, shape and letter show the latest observed TPCHD result/status.</div>
   <div class="tpchd-map__legend" data-role="legend" aria-label="Map legend">
     <div class="tpchd-map__legend-row">
@@ -1927,7 +1926,6 @@
     if (mode === "evergreen") {
       parts.push("The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.");
       parts.push("Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.");
-      parts.push("");
     }
     parts.push(mode === "evergreen" ? "Locations come from facility addresses shown in TPCHD inspection records." : "The map includes facilities with inspections with more than 35 red points.");
     if (unmapped) parts.push(unmapped + " source record" + (unmapped === 1 ? " is" : "s are") + " in the dataset but not drawn because no reviewed coordinate was available.");
