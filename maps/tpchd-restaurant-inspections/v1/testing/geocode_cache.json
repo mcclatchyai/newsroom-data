@@ -1,4 +1,68 @@
 {
+  "11012 canyon rd e ste 48 puyallup wa 98373 united states puyallup 98373": {
+    "formatted_address": "11012 Canyon Rd E STE 48, Puyallup, WA 98373, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:53Z",
+    "latitude": 47.15606930000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.3591839,
+    "place_id": "ChIJ__-_8Oj9kFQRtPHdR1Thnio",
+    "provider": "google_geocoding",
+    "query": "11012 Canyon RD E STE 48 Puyallup WA 98373 United States Puyallup 98373",
+    "status": "ok"
+  },
+  "113 e main ave puyallup wa 98372 united states puyallup 98372": {
+    "formatted_address": "113 E Main Ave, Puyallup, WA 98372, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:54Z",
+    "latitude": 47.1919929,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2930737,
+    "place_id": "ChIJj8DHTqr-kFQRZvY0u-1NJeI",
+    "provider": "google_geocoding",
+    "query": "113 E Main Ave Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
+  "1924 pacific ave tacoma wa 98402 united states tacoma 98402": {
+    "formatted_address": "Cherry Parkes (CP), 1924 Pacific Ave, Tacoma, WA 98402, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:55Z",
+    "latitude": 47.2442009,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4367802,
+    "place_id": "ChIJ1RzhMXdVkFQRiYwhpINprqk",
+    "provider": "google_geocoding",
+    "query": "1924 Pacific AVE Tacoma WA 98402 United States Tacoma 98402",
+    "status": "ok"
+  },
+  "323 garfield st s tacoma wa 98444 united states tacoma 98444": {
+    "formatted_address": "323 Garfield St S, Tacoma, WA 98444, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:53Z",
+    "latitude": 47.1463926,
+    "location_type": "ROOFTOP",
+    "longitude": -122.435861,
+    "place_id": "ChIJkak734cBkVQRWkkkElWqhFk",
+    "provider": "google_geocoding",
+    "query": "323 Garfield ST S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
+  "602 112th st s tacoma wa 98444 united states tacoma 98444": {
+    "formatted_address": "602 112th St S, Tacoma, WA 98444, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:54Z",
+    "latitude": 47.1552848,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4398342,
+    "place_id": "ChIJtUTzwZEBkVQRpiJIGI5JKdw",
+    "provider": "google_geocoding",
+    "query": "602 112th St S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
+  "7102 stinson ave gig harbor wa 98335 united states gig harbor 98335": {
+    "formatted_address": "7102 Stinson Ave, Gig Harbor, WA 98335, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:55Z",
+    "location_type": "GEOMETRIC_CENTER",
+    "place_id": "ChIJeZ8aTdBSkFQRWfQvSgJTHO8",
+    "provider": "google_geocoding",
+    "query": "7102 Stinson AVE Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "low_precision_geometric_center"
+  },
   "FEP2025-00019": {
     "latitude": 47.2070231,
     "longitude": -122.5064691,
@@ -269,6 +333,28 @@
     "longitude": -122.4403333,
     "status": "ok"
   },
+  "PR0002803": {
+    "formatted_address": "602 112th St S, Tacoma, WA 98444, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:54Z",
+    "latitude": 47.1552848,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4398342,
+    "place_id": "ChIJtUTzwZEBkVQRpiJIGI5JKdw",
+    "provider": "google_geocoding",
+    "query": "602 112th St S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
+  "PR0002803|151178": {
+    "formatted_address": "602 112th St S, Tacoma, WA 98444, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:54Z",
+    "latitude": 47.1552848,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4398342,
+    "place_id": "ChIJtUTzwZEBkVQRpiJIGI5JKdw",
+    "provider": "google_geocoding",
+    "query": "602 112th St S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
   "PR0020135": {
     "latitude": 47.2486293,
     "longitude": -122.3103926,
@@ -357,6 +443,28 @@
   "PR0034691|420021": {
     "latitude": 47.3184233,
     "longitude": -122.5853862,
+    "status": "ok"
+  },
+  "PR0034897": {
+    "formatted_address": "323 Garfield St S, Tacoma, WA 98444, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:53Z",
+    "latitude": 47.1463926,
+    "location_type": "ROOFTOP",
+    "longitude": -122.435861,
+    "place_id": "ChIJkak734cBkVQRWkkkElWqhFk",
+    "provider": "google_geocoding",
+    "query": "323 Garfield ST S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
+  "PR0034897|73802": {
+    "formatted_address": "323 Garfield St S, Tacoma, WA 98444, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:53Z",
+    "latitude": 47.1463926,
+    "location_type": "ROOFTOP",
+    "longitude": -122.435861,
+    "place_id": "ChIJkak734cBkVQRWkkkElWqhFk",
+    "provider": "google_geocoding",
+    "query": "323 Garfield ST S Tacoma WA 98444 United States Tacoma 98444",
     "status": "ok"
   },
   "PR0035984": {
@@ -569,6 +677,28 @@
     "longitude": -122.4369063,
     "status": "ok"
   },
+  "PR0038573": {
+    "formatted_address": "113 E Main Ave, Puyallup, WA 98372, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:54Z",
+    "latitude": 47.1919929,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2930737,
+    "place_id": "ChIJj8DHTqr-kFQRZvY0u-1NJeI",
+    "provider": "google_geocoding",
+    "query": "113 E Main Ave Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
+  "PR0038573|698895": {
+    "formatted_address": "113 E Main Ave, Puyallup, WA 98372, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:54Z",
+    "latitude": 47.1919929,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2930737,
+    "place_id": "ChIJj8DHTqr-kFQRZvY0u-1NJeI",
+    "provider": "google_geocoding",
+    "query": "113 E Main Ave Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
   "PR0038654": {
     "latitude": 47.1443611,
     "longitude": -122.5589393,
@@ -677,6 +807,28 @@
   "PR0038920|828014": {
     "latitude": 47.2419106,
     "longitude": -122.415501,
+    "status": "ok"
+  },
+  "PR0038933": {
+    "formatted_address": "11012 Canyon Rd E STE 48, Puyallup, WA 98373, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:53Z",
+    "latitude": 47.15606930000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.3591839,
+    "place_id": "ChIJ__-_8Oj9kFQRtPHdR1Thnio",
+    "provider": "google_geocoding",
+    "query": "11012 Canyon RD E STE 48 Puyallup WA 98373 United States Puyallup 98373",
+    "status": "ok"
+  },
+  "PR0038933|693738": {
+    "formatted_address": "11012 Canyon Rd E STE 48, Puyallup, WA 98373, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:53Z",
+    "latitude": 47.15606930000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.3591839,
+    "place_id": "ChIJ__-_8Oj9kFQRtPHdR1Thnio",
+    "provider": "google_geocoding",
+    "query": "11012 Canyon RD E STE 48 Puyallup WA 98373 United States Puyallup 98373",
     "status": "ok"
   },
   "PR0038994": {
@@ -1239,6 +1391,24 @@
     "longitude": -122.4916877,
     "status": "ok"
   },
+  "PR0040929": {
+    "formatted_address": "7102 Stinson Ave, Gig Harbor, WA 98335, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:55Z",
+    "location_type": "GEOMETRIC_CENTER",
+    "place_id": "ChIJeZ8aTdBSkFQRWfQvSgJTHO8",
+    "provider": "google_geocoding",
+    "query": "7102 Stinson AVE Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "low_precision_geometric_center"
+  },
+  "PR0040929|333142": {
+    "formatted_address": "7102 Stinson Ave, Gig Harbor, WA 98335, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:55Z",
+    "location_type": "GEOMETRIC_CENTER",
+    "place_id": "ChIJeZ8aTdBSkFQRWfQvSgJTHO8",
+    "provider": "google_geocoding",
+    "query": "7102 Stinson AVE Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "low_precision_geometric_center"
+  },
   "PR0040933": {
     "latitude": 47.3851383,
     "longitude": -122.6275622,
@@ -1247,6 +1417,28 @@
   "PR0040933|786978": {
     "latitude": 47.3851383,
     "longitude": -122.6275622,
+    "status": "ok"
+  },
+  "PR0040965": {
+    "formatted_address": "Cherry Parkes (CP), 1924 Pacific Ave, Tacoma, WA 98402, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:55Z",
+    "latitude": 47.2442009,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4367802,
+    "place_id": "ChIJ1RzhMXdVkFQRiYwhpINprqk",
+    "provider": "google_geocoding",
+    "query": "1924 Pacific AVE Tacoma WA 98402 United States Tacoma 98402",
+    "status": "ok"
+  },
+  "PR0040965|650854": {
+    "formatted_address": "Cherry Parkes (CP), 1924 Pacific Ave, Tacoma, WA 98402, USA",
+    "geocoded_at_utc": "2026-06-01T17:59:55Z",
+    "latitude": 47.2442009,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4367802,
+    "place_id": "ChIJ1RzhMXdVkFQRiYwhpINprqk",
+    "provider": "google_geocoding",
+    "query": "1924 Pacific AVE Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
   }
 }
