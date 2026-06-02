@@ -9,7 +9,7 @@
   ],
   "cache_ttl_seconds": 900,
   "coverage_note": "This map shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records.",
-  "data_version": "20260601185559Z",
+  "data_version": "20260602211633Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections with more than 35 red points.",
   "entrypoints": {
@@ -23,18 +23,10 @@
     },
     "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/embed.html",
     "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260601185559z.html",
+    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260602211633z.html",
     "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/geocode_cache.json",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/latest.geojson",
-    "run_embeds": {
-      "tpchd-fd1974ea239f": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601185559z/tpchd-fd1974ea239f/embed.html"
-    },
-    "run_previews": {
-      "tpchd-fd1974ea239f": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601185559z/tpchd-fd1974ea239f/preview.html"
-    },
-    "runs": {
-      "tpchd-fd1974ea239f": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson"
-    }
+    "runs": {}
   },
   "environment": "testing",
   "features_total": 33,
@@ -49,21 +41,13 @@
     },
     "evergreen_embed": "embed/evergreen/embed.html",
     "evergreen_preview": "embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "embed/evergreen/preview-20260601185559z.html",
+    "evergreen_versioned_preview": "embed/evergreen/preview-20260602211633z.html",
     "geocode_cache": "geocode_cache.json",
     "latest": "latest.geojson",
-    "run_embeds": {
-      "tpchd-fd1974ea239f": "embed/runs/20260601185559z/tpchd-fd1974ea239f/embed.html"
-    },
-    "run_previews": {
-      "tpchd-fd1974ea239f": "embed/runs/20260601185559z/tpchd-fd1974ea239f/preview.html"
-    },
-    "runs": {
-      "tpchd-fd1974ea239f": "runs/20260601185559z/tpchd-fd1974ea239f.geojson"
-    }
+    "runs": {}
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-06-01T18:55:59Z",
+  "generated_at": "2026-06-02T21:16:33Z",
   "geometry_precision": "facility address from TPCHD inspection records",
   "map_cannot_show": "This map does not include TPCHD source records not yet collected in the inspection data store.",
   "map_claim": "Shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points, with timeline context where available.",
@@ -80,10 +64,10 @@
     "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
   },
   "project": "tpchd-restaurant-inspections",
-  "records_above_threshold": 77,
-  "records_excluded_by_threshold": 0,
-  "records_excluded_unparsed": 1,
-  "records_total": 78,
+  "records_above_threshold": 61,
+  "records_excluded_by_threshold": 45,
+  "records_excluded_unparsed": 85,
+  "records_total": 191,
   "red_point_threshold": 35,
   "schema": {
     "geometry": "Point coordinates from reviewed geocodes of TPCHD facility addresses.",
@@ -108,6 +92,9 @@
       "latest_inspection_type",
       "latest_inspection_result",
       "latest_report_availability",
+      "latest_report_quality_status",
+      "latest_parser_quality_notes",
+      "latest_point_total_conflict",
       "latest_result_status",
       "latest_result_status_label",
       "latest_result_status_group",
@@ -118,6 +105,10 @@
       "closure_reader_label",
       "closure_reader_explanation",
       "closure_actionable",
+      "closure_duration_text",
+      "closure_duration_hours",
+      "closure_duration_days",
+      "closure_reopen_date",
       "closure_event_type",
       "resolution_status",
       "resolution_date",
@@ -140,6 +131,17 @@
       "worst_red_points",
       "worst_inspection_date",
       "latest_over_threshold_date",
+      "recent_high_red_points",
+      "recent_high_red_total_points",
+      "recent_high_red_repeat_red_points",
+      "recent_high_red_inspection_date",
+      "recent_high_red_inspection_date_label",
+      "recent_high_red_inspection_type",
+      "recent_high_red_inspection_result",
+      "recent_high_red_inspection_identity",
+      "recent_high_red_report_id",
+      "recent_high_red_report_url",
+      "recent_high_red_report_availability",
       "over_threshold_count",
       "inspection_count",
       "red_point_severity",
@@ -167,13 +169,16 @@
       "fallback_report_label",
       "facility_detail_url",
       "report_fetch_status",
+      "report_quality_status",
+      "parser_quality_notes",
+      "point_total_conflict",
       "geocode_status",
       "source"
     ]
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-06-01T19:10:59Z",
+  "stale_after": "2026-06-02T21:31:33Z",
   "symbology": {
     "alert_categories": [
       {
@@ -259,14 +264,15 @@
         "shape": "square"
       },
       {
-        "color": "#b91c1c",
+        "color": "#f59e0b",
         "filter_group": "needs_attention",
         "id": "reinspection_required",
         "label": "Reinspection required",
         "legend_label": "Reinspection required",
         "letter": "!",
         "rank": 7,
-        "shape": "diamond"
+        "shape": "diamond",
+        "text_color": "#111827"
       },
       {
         "color": "#be123c",
@@ -289,14 +295,15 @@
         "shape": "diamond"
       },
       {
-        "color": "#1d4ed8",
+        "color": "#fbbf24",
         "filter_group": "needs_attention",
         "id": "follow_up_scheduled",
         "label": "Follow-up/reinspection scheduled",
         "legend_label": "Follow-up scheduled",
         "letter": "S",
         "rank": 5,
-        "shape": "circle"
+        "shape": "circle",
+        "text_color": "#111827"
       },
       {
         "color": "#2563eb",
