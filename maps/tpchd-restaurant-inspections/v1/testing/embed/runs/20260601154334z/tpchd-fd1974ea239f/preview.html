@@ -15,13 +15,21 @@
     .copy-panel textarea { width: 100%; min-height: 220px; resize: vertical; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; border: 1px solid #ccd4de; padding: 10px; }
     .copy-panel button { min-height: 40px; border: 0; background: #0b5d7e; color: #fff; font-weight: 800; padding: 8px 12px; cursor: pointer; margin: 0 0 10px; }
     .preview { background: #fff; border: 1px solid #d2d9e3; padding: 14px; }
+    .preview-header { margin: 0 0 12px; }
+    .preview-header h2 { font-size: 22px; line-height: 1.2; margin: 0 0 6px; }
+    .preview-header p { color: #34465a; font-size: 14px; line-height: 1.4; margin: 0; max-width: 780px; }
   </style>
 </head>
 <body>
 <main>
   <section class="copy-panel" aria-label="CUE embed copy panel">
+<<<<<<< HEAD:maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601154334z/tpchd-fd1974ea239f/preview.html
     <h1>TPCHD inspections over 35 red points: May 27-29, 2026 preview</h1>
     <p class="warning">Testing only until this per-alert map URL is included in scheduled emails.</p>
+=======
+    <h1>TPCHD inspections over 35 red points: May 13-18, 2026 preview</h1>
+    <p class="warning">Testing preview. This map is static for the alert/run shown.</p>
+>>>>>>> fe8a230 (Refresh TPCHD testing map embeds):maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260529181221z/sample-copy-2026-05-13-to-2026-05-27/preview.html
     <p>Copy this HTML into a CUE HTML Embed asset. The rendered embed appears below.</p>
     <button type="button" data-role="copy">Copy embed code</button>
     <textarea readonly spellcheck="false" aria-label="Embed HTML">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;&gt;
@@ -29,8 +37,6 @@
   &lt;style&gt;
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
-    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
-    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
     .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
     .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
     .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
@@ -101,7 +107,6 @@
     .tpchd-map__timeline span { color: #4b5b6d; }
     .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
     @media (max-width: 640px) {
-      .tpchd-map__title { font-size: 20px; }
       .tpchd-map__search { grid-template-columns: 1fr; }
       .tpchd-map__reset { width: 100%; min-height: 44px; }
       .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
@@ -119,8 +124,11 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   &lt;/style&gt;
+<<<<<<< HEAD:maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601154334z/tpchd-fd1974ea239f/preview.html
   &lt;div class=&quot;tpchd-map__title&quot;&gt;TPCHD inspections over 35 red points: May 27-29, 2026&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__lede&quot;&gt;This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.&lt;/div&gt;
+=======
+>>>>>>> fe8a230 (Refresh TPCHD testing map embeds):maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260529181221z/sample-copy-2026-05-13-to-2026-05-27/preview.html
   &lt;div class=&quot;tpchd-map__legend&quot; data-role=&quot;legend&quot; aria-label=&quot;Map legend&quot;&gt;
     &lt;div class=&quot;tpchd-map__legend-row&quot;&gt;
       &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Red points&lt;/span&gt;
@@ -295,11 +303,28 @@
   function redPointsText(value, fallback) {
     return hasValue(value) ? String(value) + &quot; red points&quot; : (fallback || &quot;Not available in this map dataset&quot;);
   }
-  function latestInspectionText(props) {
+  function latestInspectionRedPointsText(props) {
     props = props || {};
+    if (hasValue(props.latest_red_points)) return String(props.latest_red_points) + &quot; red points&quot;;
+    var quality = String(props.latest_report_quality_status || props.report_quality_status || props.report_fetch_status || &quot;&quot;).toLowerCase();
+    var availability = String(props.latest_report_availability || props.report_availability_label || &quot;&quot;).toLowerCase();
+    if (quality.indexOf(&quot;source_no_document&quot;) &gt;= 0 || availability.indexOf(&quot;not available from tpchd&quot;) &gt;= 0) {
+      return &quot;red points not available from TPCHD report&quot;;
+    }
+    if (quality.indexOf(&quot;parse_missing_points&quot;) &gt;= 0 || quality.indexOf(&quot;parse_conflict&quot;) &gt;= 0) {
+      return &quot;red points need parser review&quot;;
+    }
+    if (quality.indexOf(&quot;not_fetched&quot;) &gt;= 0) return &quot;red points not downloaded yet&quot;;
+    return &quot;red points not available in this map dataset&quot;;
+  }
+  function latestInspectionText(props, options) {
+    props = props || {};
+    options = options || {};
     var type = props.latest_inspection_type || props.inspection_type || &quot;Inspection&quot;;
     var date = props.latest_inspection_date || props.inspection_date_iso || props.inspection_date || &quot;&quot;;
-    return String(type) + (date ? &quot; on &quot; + formatDateText(date) : &quot;&quot;);
+    var text = String(type) + (date ? &quot; on &quot; + formatDateText(date) : &quot;&quot;);
+    if (options.includeRedPoints) text += &quot;; &quot; + latestInspectionRedPointsText(props);
+    return text;
   }
   function setViewResetVisible(visible) {
     if (!viewResetButton) return;
@@ -446,10 +471,48 @@
     if (hasValue(worstValue)) parts.push(&quot;worst inspection shown &quot; + redPointsText(worstValue));
     return parts.join(&quot;, &quot;);
   }
+  function closureDurationText(props) {
+    props = props || {};
+    if (hasValue(props.closure_duration_text)) return String(props.closure_duration_text);
+    var text = normalizeSearch([props.closure_reason_summary, props.closure_status_raw, props.current_status_explanation].filter(Boolean).join(&quot; &quot;));
+    var match = /\b(?:closed|close|closure) for (\d+|one|two|three|four|five|six|seven|eight|nine|ten) (hours?|hrs?|days?)\b/.exec(text);
+    if (!match) match = /\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten) (hours?|hrs?|days?) closure\b/.exec(text);
+    if (!match) return &quot;&quot;;
+    var count = match[1];
+    var unit = match[2].indexOf(&quot;day&quot;) === 0 ? &quot;day&quot; : &quot;hour&quot;;
+    var plural = count === &quot;1&quot; || count === &quot;one&quot; ? &quot;&quot; : &quot;s&quot;;
+    return count + &quot; &quot; + unit + plural;
+  }
+  function closureLabelText(props) {
+    props = props || {};
+    var context = String(props.closure_context || &quot;&quot;);
+    var duration = closureDurationText(props);
+    if (context === &quot;closed_for_fixed_period&quot; &amp;&amp; duration) return &quot;Closed for &quot; + duration;
+    if (props.closure_reader_label) return String(props.closure_reader_label);
+    return context ? context.replace(/_/g, &quot; &quot;) : &quot;&quot;;
+  }
+  function closureExplanationText(props) {
+    props = props || {};
+    var duration = closureDurationText(props);
+    if (String(props.closure_context || &quot;&quot;) === &quot;closed_for_fixed_period&quot; &amp;&amp; duration) {
+      return &quot;Source text says the facility was closed for &quot; + duration + &quot;. Check the source timeline before describing it as currently closed.&quot;;
+    }
+    return String(props.closure_reader_explanation || &quot;&quot;);
+  }
+  function currentStatusExplanationText(props) {
+    props = props || {};
+    if (String(props.closure_context || &quot;&quot;) === &quot;closed_for_fixed_period&quot; &amp;&amp; closureDurationText(props)) {
+      return closureExplanationText(props);
+    }
+    return String(props.current_status_explanation || &quot;&quot;);
+  }
   function currentStatusLabel(props) {
     props = props || {};
     if (props.current_status_label || props.latest_result_status_label) {
-      var statusParts = [String(props.current_status_label || props.latest_result_status_label)];
+      var firstStatus = String(props.current_status_label || props.latest_result_status_label);
+      var closureDisplay = closureLabelText(props);
+      if (closureDisplay &amp;&amp; firstStatus === &quot;Closed for fixed period&quot;) firstStatus = closureDisplay;
+      var statusParts = [firstStatus];
       if (props.latest_inspection_result) statusParts.push(String(props.latest_inspection_result));
       if (props.current_score !== undefined &amp;&amp; props.current_score !== null &amp;&amp; String(props.current_score).trim() !== &quot;&quot;) {
         statusParts.push(&quot;score &quot; + String(props.current_score));
@@ -497,7 +560,8 @@
     var shape = String(item.shape || &quot;&quot;);
     var shapeClass = shape === &quot;circle&quot; ? &quot; is-rating&quot; : (shape === &quot;square&quot; ? &quot; is-square&quot; : &quot;&quot;);
     var color = String(item.color || &quot;#6b7280&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
-    var style = &quot;background:&quot; + color;
+    var textColor = String(item.text_color || &quot;#fff&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+    var style = &quot;background:&quot; + color + &quot;;color:&quot; + textColor;
     var countText = count == null ? &quot;&quot; : &quot; (&quot; + count + &quot;)&quot;;
     return &#x27;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&#x27; +
       &#x27;&lt;span class=&quot;tpchd-map__legend-symbol&#x27; + shapeClass + &#x27;&quot; style=&quot;&#x27; + style + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + esc(item.letter || &quot;?&quot;) + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27; +
@@ -563,12 +627,13 @@
     if (mode === &quot;evergreen&quot;) {
       var rating = ratingCategory(feature.properties || {});
       var ratingColor = String(rating.color || &quot;#6b7280&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+      var ratingTextColor = String(rating.text_color || &quot;#fff&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
       var letter = esc(rating.letter || &quot;?&quot;);
       var shape = String(rating.shape || &quot;circle&quot;);
       var shapeClass = shape === &quot;circle&quot; ? &quot; is-rating&quot; : (shape === &quot;square&quot; ? &quot; is-square&quot; : &quot;&quot;);
       return L.divIcon({
         className: &quot;tpchd-map-marker&quot;,
-        html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&#x27; + shapeClass + &#x27;&quot; style=&quot;background:&#x27; + ratingColor + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + letter + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27;,
+        html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&#x27; + shapeClass + &#x27;&quot; style=&quot;background:&#x27; + ratingColor + &#x27;;color:&#x27; + ratingTextColor + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + letter + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27;,
         iconSize: [22, 22],
         iconAnchor: [11, 11],
         popupAnchor: [0, -12]
@@ -608,7 +673,7 @@
       if (item.is_latest_observed) badges.push(&quot;latest observed&quot;);
       html += &#x27;&lt;li&gt;&#x27; + parts.join(&quot; | &quot;);
       if (item.inspection_result) html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(item.inspection_result) + &#x27;&lt;/span&gt;&#x27;;
-      if (item.closure_reader_label) html += &#x27;&lt;br&gt;&lt;span&gt;Closure context: &#x27; + esc(item.closure_reader_label) + &#x27;&lt;/span&gt;&#x27;;
+      if (item.closure_reader_label || item.closure_context) html += &#x27;&lt;br&gt;&lt;span&gt;Closure context: &#x27; + esc(closureLabelText(item)) + &#x27;&lt;/span&gt;&#x27;;
       if (item.closure_reason_summary) html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(item.closure_reason_summary) + &#x27;&lt;/span&gt;&#x27;;
       if (item.follow_up_comment_summary) html += &#x27;&lt;br&gt;&lt;span&gt;&#x27; + esc(item.follow_up_comment_summary) + &#x27;&lt;/span&gt;&#x27;;
       if (item.next_follow_up_date) html += &#x27;&lt;br&gt;&lt;span&gt;Next follow-up date observed: &#x27; + esc(item.next_follow_up_date) + &#x27;&lt;/span&gt;&#x27;;
@@ -678,13 +743,14 @@
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
+    var currentStatusExplanation = currentStatusExplanationText(p);
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || &quot;&quot;;
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
     var followUp = followUpLabelText(p.follow_up_label || &quot;&quot;);
-    var closureLabel = p.closure_reader_label || &quot;&quot;;
+    var closureLabel = closureLabelText(p);
     var closureReason = p.closure_reason_summary || &quot;&quot;;
-    var closureExplanation = p.closure_reader_explanation || &quot;&quot;;
+    var closureExplanation = closureExplanationText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var processingNote = p.needs_review_reason || &quot;&quot;;
     var summaryItems = [];
@@ -709,13 +775,13 @@
       &#x27;&lt;h2&gt;&#x27; + esc(p.business_name || &quot;Unnamed restaurant&quot;) + &#x27;&lt;/h2&gt;&#x27; +
       &#x27;&lt;p&gt;&#x27; + esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;/p&gt;&#x27; +
       (currentStatus ? &#x27;&lt;p&gt;&lt;strong&gt;Latest TPCHD result:&lt;/strong&gt; &#x27; + esc(currentStatus) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
-      (p.current_status_explanation ? &#x27;&lt;p&gt;&#x27; + esc(p.current_status_explanation) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (currentStatusExplanation ? &#x27;&lt;p&gt;&#x27; + esc(currentStatusExplanation) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       (closureLabel ? &#x27;&lt;p&gt;&lt;strong&gt;Closure context:&lt;/strong&gt; &#x27; + esc(closureLabel) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       (closureExplanation ? &#x27;&lt;p&gt;&#x27; + esc(closureExplanation) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       (closureReason ? &#x27;&lt;p&gt;&lt;strong&gt;Source comment:&lt;/strong&gt; &#x27; + esc(closureReason) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       (resolutionLabel ? &#x27;&lt;p&gt;&lt;strong&gt;Resolution evidence:&lt;/strong&gt; &#x27; + esc(resolutionLabel) + (p.resolution_date ? &#x27; &#x27; + esc(formatDateText(p.resolution_date)) : &#x27;&#x27;) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       (p.latest_observed_inspection_date ? &#x27;&lt;p&gt;&lt;strong&gt;Latest observed inspection:&lt;/strong&gt; &#x27; + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? &#x27; | &#x27; + esc(p.latest_observed_inspection_result) : &#x27;&#x27;) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
-      &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p)) + &#x27;&lt;/p&gt;&#x27; +
+      &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p, { includeRedPoints: true })) + &#x27;&lt;/p&gt;&#x27; +
       &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;/p&gt;&#x27; +
       (processingNote ? &#x27;&lt;p&gt;&lt;strong&gt;Processing note:&lt;/strong&gt; &#x27; + esc(processingNote) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       &#x27;&lt;div class=&quot;tpchd-map__detail-summary&quot;&gt;&#x27; +
@@ -753,7 +819,7 @@
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
     var followUp = followUpLabelText(p.follow_up_label || &quot;&quot;);
-    var closureLabel = p.closure_reader_label || &quot;&quot;;
+    var closureLabel = closureLabelText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var links = [];
     if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
@@ -764,7 +830,7 @@
       return &#x27;&lt;strong&gt;&#x27; + esc(p.business_name) + &#x27;&lt;/strong&gt;&lt;br&gt;&#x27; +
         esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;br&gt;&#x27; +
         (currentStatus ? &#x27;&lt;strong&gt;Latest TPCHD result:&lt;/strong&gt; &#x27; + esc(currentStatus) + &#x27;&lt;br&gt;&#x27; : &#x27;&#x27;) +
-        &#x27;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p)) + &#x27;&lt;br&gt;&#x27; +
+        &#x27;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p, { includeRedPoints: true })) + &#x27;&lt;br&gt;&#x27; +
         &#x27;&lt;strong&gt;Latest report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;br&gt;&#x27; +
         worstInspectionHtml(p) +
         &#x27;&lt;strong&gt;Total inspections observed:&lt;/strong&gt; &#x27; + esc(inspectionCount(feature)) +
@@ -1072,13 +1138,16 @@
 &lt;/script&gt;</textarea>
     <p data-role="status" aria-live="polite"></p>
   </section>
+<<<<<<< HEAD:maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601154334z/tpchd-fd1974ea239f/preview.html
   <section class="preview"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson">
+=======
+  <section class="preview"><header class="preview-header"><h2>TPCHD inspections over 35 red points: May 13-18, 2026</h2><p>This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</p></header><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260529181221z/sample-copy-2026-05-13-to-2026-05-27.geojson">
+>>>>>>> fe8a230 (Refresh TPCHD testing map embeds):maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260529181221z/sample-copy-2026-05-13-to-2026-05-27/preview.html
   <style>
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
-    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
-    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
     .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
     .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
     .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
@@ -1149,7 +1218,6 @@
     .tpchd-map__timeline span { color: #4b5b6d; }
     .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
     @media (max-width: 640px) {
-      .tpchd-map__title { font-size: 20px; }
       .tpchd-map__search { grid-template-columns: 1fr; }
       .tpchd-map__reset { width: 100%; min-height: 44px; }
       .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
@@ -1167,8 +1235,11 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
+<<<<<<< HEAD:maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601154334z/tpchd-fd1974ea239f/preview.html
   <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 27-29, 2026</div>
   <div class="tpchd-map__lede">This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</div>
+=======
+>>>>>>> fe8a230 (Refresh TPCHD testing map embeds):maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260529181221z/sample-copy-2026-05-13-to-2026-05-27/preview.html
   <div class="tpchd-map__legend" data-role="legend" aria-label="Map legend">
     <div class="tpchd-map__legend-row">
       <span class="tpchd-map__legend-title">Red points</span>
@@ -1343,11 +1414,28 @@
   function redPointsText(value, fallback) {
     return hasValue(value) ? String(value) + " red points" : (fallback || "Not available in this map dataset");
   }
-  function latestInspectionText(props) {
+  function latestInspectionRedPointsText(props) {
     props = props || {};
+    if (hasValue(props.latest_red_points)) return String(props.latest_red_points) + " red points";
+    var quality = String(props.latest_report_quality_status || props.report_quality_status || props.report_fetch_status || "").toLowerCase();
+    var availability = String(props.latest_report_availability || props.report_availability_label || "").toLowerCase();
+    if (quality.indexOf("source_no_document") >= 0 || availability.indexOf("not available from tpchd") >= 0) {
+      return "red points not available from TPCHD report";
+    }
+    if (quality.indexOf("parse_missing_points") >= 0 || quality.indexOf("parse_conflict") >= 0) {
+      return "red points need parser review";
+    }
+    if (quality.indexOf("not_fetched") >= 0) return "red points not downloaded yet";
+    return "red points not available in this map dataset";
+  }
+  function latestInspectionText(props, options) {
+    props = props || {};
+    options = options || {};
     var type = props.latest_inspection_type || props.inspection_type || "Inspection";
     var date = props.latest_inspection_date || props.inspection_date_iso || props.inspection_date || "";
-    return String(type) + (date ? " on " + formatDateText(date) : "");
+    var text = String(type) + (date ? " on " + formatDateText(date) : "");
+    if (options.includeRedPoints) text += "; " + latestInspectionRedPointsText(props);
+    return text;
   }
   function setViewResetVisible(visible) {
     if (!viewResetButton) return;
@@ -1494,10 +1582,48 @@
     if (hasValue(worstValue)) parts.push("worst inspection shown " + redPointsText(worstValue));
     return parts.join(", ");
   }
+  function closureDurationText(props) {
+    props = props || {};
+    if (hasValue(props.closure_duration_text)) return String(props.closure_duration_text);
+    var text = normalizeSearch([props.closure_reason_summary, props.closure_status_raw, props.current_status_explanation].filter(Boolean).join(" "));
+    var match = /\b(?:closed|close|closure) for (\d+|one|two|three|four|five|six|seven|eight|nine|ten) (hours?|hrs?|days?)\b/.exec(text);
+    if (!match) match = /\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten) (hours?|hrs?|days?) closure\b/.exec(text);
+    if (!match) return "";
+    var count = match[1];
+    var unit = match[2].indexOf("day") === 0 ? "day" : "hour";
+    var plural = count === "1" || count === "one" ? "" : "s";
+    return count + " " + unit + plural;
+  }
+  function closureLabelText(props) {
+    props = props || {};
+    var context = String(props.closure_context || "");
+    var duration = closureDurationText(props);
+    if (context === "closed_for_fixed_period" && duration) return "Closed for " + duration;
+    if (props.closure_reader_label) return String(props.closure_reader_label);
+    return context ? context.replace(/_/g, " ") : "";
+  }
+  function closureExplanationText(props) {
+    props = props || {};
+    var duration = closureDurationText(props);
+    if (String(props.closure_context || "") === "closed_for_fixed_period" && duration) {
+      return "Source text says the facility was closed for " + duration + ". Check the source timeline before describing it as currently closed.";
+    }
+    return String(props.closure_reader_explanation || "");
+  }
+  function currentStatusExplanationText(props) {
+    props = props || {};
+    if (String(props.closure_context || "") === "closed_for_fixed_period" && closureDurationText(props)) {
+      return closureExplanationText(props);
+    }
+    return String(props.current_status_explanation || "");
+  }
   function currentStatusLabel(props) {
     props = props || {};
     if (props.current_status_label || props.latest_result_status_label) {
-      var statusParts = [String(props.current_status_label || props.latest_result_status_label)];
+      var firstStatus = String(props.current_status_label || props.latest_result_status_label);
+      var closureDisplay = closureLabelText(props);
+      if (closureDisplay && firstStatus === "Closed for fixed period") firstStatus = closureDisplay;
+      var statusParts = [firstStatus];
       if (props.latest_inspection_result) statusParts.push(String(props.latest_inspection_result));
       if (props.current_score !== undefined && props.current_score !== null && String(props.current_score).trim() !== "") {
         statusParts.push("score " + String(props.current_score));
@@ -1545,7 +1671,8 @@
     var shape = String(item.shape || "");
     var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
     var color = String(item.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
-    var style = "background:" + color;
+    var textColor = String(item.text_color || "#fff").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    var style = "background:" + color + ";color:" + textColor;
     var countText = count == null ? "" : " (" + count + ")";
     return '<span class="tpchd-map__legend-item">' +
       '<span class="tpchd-map__legend-symbol' + shapeClass + '" style="' + style + '" aria-hidden="true"><span>' + esc(item.letter || "?") + '</span></span>' +
@@ -1611,12 +1738,13 @@
     if (mode === "evergreen") {
       var rating = ratingCategory(feature.properties || {});
       var ratingColor = String(rating.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+      var ratingTextColor = String(rating.text_color || "#fff").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
       var letter = esc(rating.letter || "?");
       var shape = String(rating.shape || "circle");
       var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
       return L.divIcon({
         className: "tpchd-map-marker",
-        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
+        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + ';color:' + ratingTextColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
         iconSize: [22, 22],
         iconAnchor: [11, 11],
         popupAnchor: [0, -12]
@@ -1656,7 +1784,7 @@
       if (item.is_latest_observed) badges.push("latest observed");
       html += '<li>' + parts.join(" | ");
       if (item.inspection_result) html += '<br><span>' + esc(item.inspection_result) + '</span>';
-      if (item.closure_reader_label) html += '<br><span>Closure context: ' + esc(item.closure_reader_label) + '</span>';
+      if (item.closure_reader_label || item.closure_context) html += '<br><span>Closure context: ' + esc(closureLabelText(item)) + '</span>';
       if (item.closure_reason_summary) html += '<br><span>' + esc(item.closure_reason_summary) + '</span>';
       if (item.follow_up_comment_summary) html += '<br><span>' + esc(item.follow_up_comment_summary) + '</span>';
       if (item.next_follow_up_date) html += '<br><span>Next follow-up date observed: ' + esc(item.next_follow_up_date) + '</span>';
@@ -1726,13 +1854,14 @@
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
+    var currentStatusExplanation = currentStatusExplanationText(p);
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
     var followUp = followUpLabelText(p.follow_up_label || "");
-    var closureLabel = p.closure_reader_label || "";
+    var closureLabel = closureLabelText(p);
     var closureReason = p.closure_reason_summary || "";
-    var closureExplanation = p.closure_reader_explanation || "";
+    var closureExplanation = closureExplanationText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var processingNote = p.needs_review_reason || "";
     var summaryItems = [];
@@ -1757,13 +1886,13 @@
       '<h2>' + esc(p.business_name || "Unnamed restaurant") + '</h2>' +
       '<p>' + esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '</p>' +
       (currentStatus ? '<p><strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '</p>' : '') +
-      (p.current_status_explanation ? '<p>' + esc(p.current_status_explanation) + '</p>' : '') +
+      (currentStatusExplanation ? '<p>' + esc(currentStatusExplanation) + '</p>' : '') +
       (closureLabel ? '<p><strong>Closure context:</strong> ' + esc(closureLabel) + '</p>' : '') +
       (closureExplanation ? '<p>' + esc(closureExplanation) + '</p>' : '') +
       (closureReason ? '<p><strong>Source comment:</strong> ' + esc(closureReason) + '</p>' : '') +
       (resolutionLabel ? '<p><strong>Resolution evidence:</strong> ' + esc(resolutionLabel) + (p.resolution_date ? ' ' + esc(formatDateText(p.resolution_date)) : '') + '</p>' : '') +
       (p.latest_observed_inspection_date ? '<p><strong>Latest observed inspection:</strong> ' + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? ' | ' + esc(p.latest_observed_inspection_result) : '') + '</p>' : '') +
-      '<p><strong>Latest inspection:</strong> ' + esc(latestInspectionText(p)) + '</p>' +
+      '<p><strong>Latest inspection:</strong> ' + esc(latestInspectionText(p, { includeRedPoints: true })) + '</p>' +
       '<p><strong>Latest inspection report:</strong> ' + esc(reportAvailabilityLabel(p)) + '</p>' +
       (processingNote ? '<p><strong>Processing note:</strong> ' + esc(processingNote) + '</p>' : '') +
       '<div class="tpchd-map__detail-summary">' +
@@ -1801,7 +1930,7 @@
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
     var followUp = followUpLabelText(p.follow_up_label || "");
-    var closureLabel = p.closure_reader_label || "";
+    var closureLabel = closureLabelText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
@@ -1812,7 +1941,7 @@
       return '<strong>' + esc(p.business_name) + '</strong><br>' +
         esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
         (currentStatus ? '<strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '<br>' : '') +
-        '<strong>Latest inspection:</strong> ' + esc(latestInspectionText(p)) + '<br>' +
+        '<strong>Latest inspection:</strong> ' + esc(latestInspectionText(p, { includeRedPoints: true })) + '<br>' +
         '<strong>Latest report:</strong> ' + esc(reportAvailabilityLabel(p)) + '<br>' +
         worstInspectionHtml(p) +
         '<strong>Total inspections observed:</strong> ' + esc(inspectionCount(feature)) +
