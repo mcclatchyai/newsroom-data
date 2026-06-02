@@ -3,8 +3,6 @@
   <style>
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
-    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
-    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
     .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
     .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
     .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
@@ -75,7 +73,6 @@
     .tpchd-map__timeline span { color: #4b5b6d; }
     .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
     @media (max-width: 640px) {
-      .tpchd-map__title { font-size: 20px; }
       .tpchd-map__search { grid-template-columns: 1fr; }
       .tpchd-map__reset { width: 100%; min-height: 44px; }
       .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
@@ -93,8 +90,6 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 27-29, 2026</div>
-  <div class="tpchd-map__lede">This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</div>
   <div class="tpchd-map__legend" data-role="legend" aria-label="Map legend">
     <div class="tpchd-map__legend-row">
       <span class="tpchd-map__legend-title">Red points</span>
@@ -471,7 +466,8 @@
     var shape = String(item.shape || "");
     var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
     var color = String(item.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
-    var style = "background:" + color;
+    var textColor = String(item.text_color || "#fff").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    var style = "background:" + color + ";color:" + textColor;
     var countText = count == null ? "" : " (" + count + ")";
     return '<span class="tpchd-map__legend-item">' +
       '<span class="tpchd-map__legend-symbol' + shapeClass + '" style="' + style + '" aria-hidden="true"><span>' + esc(item.letter || "?") + '</span></span>' +
@@ -537,12 +533,13 @@
     if (mode === "evergreen") {
       var rating = ratingCategory(feature.properties || {});
       var ratingColor = String(rating.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+      var ratingTextColor = String(rating.text_color || "#fff").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
       var letter = esc(rating.letter || "?");
       var shape = String(rating.shape || "circle");
       var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
       return L.divIcon({
         className: "tpchd-map-marker",
-        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
+        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + ';color:' + ratingTextColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
         iconSize: [22, 22],
         iconAnchor: [11, 11],
         popupAnchor: [0, -12]

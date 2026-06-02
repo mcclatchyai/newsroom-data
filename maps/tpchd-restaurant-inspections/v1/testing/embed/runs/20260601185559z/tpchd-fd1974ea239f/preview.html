@@ -15,6 +15,9 @@
     .copy-panel textarea { width: 100%; min-height: 220px; resize: vertical; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; border: 1px solid #ccd4de; padding: 10px; }
     .copy-panel button { min-height: 40px; border: 0; background: #0b5d7e; color: #fff; font-weight: 800; padding: 8px 12px; cursor: pointer; margin: 0 0 10px; }
     .preview { background: #fff; border: 1px solid #d2d9e3; padding: 14px; }
+    .preview-header { margin: 0 0 12px; }
+    .preview-header h2 { font-size: 22px; line-height: 1.2; margin: 0 0 6px; }
+    .preview-header p { color: #34465a; font-size: 14px; line-height: 1.4; margin: 0; max-width: 780px; }
   </style>
 </head>
 <body>
@@ -29,8 +32,6 @@
   &lt;style&gt;
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
-    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
-    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
     .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
     .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
     .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
@@ -101,7 +102,6 @@
     .tpchd-map__timeline span { color: #4b5b6d; }
     .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
     @media (max-width: 640px) {
-      .tpchd-map__title { font-size: 20px; }
       .tpchd-map__search { grid-template-columns: 1fr; }
       .tpchd-map__reset { width: 100%; min-height: 44px; }
       .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
@@ -119,8 +119,6 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   &lt;/style&gt;
-  &lt;div class=&quot;tpchd-map__title&quot;&gt;TPCHD inspections over 35 red points: May 27-29, 2026&lt;/div&gt;
-  &lt;div class=&quot;tpchd-map__lede&quot;&gt;This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.&lt;/div&gt;
   &lt;div class=&quot;tpchd-map__legend&quot; data-role=&quot;legend&quot; aria-label=&quot;Map legend&quot;&gt;
     &lt;div class=&quot;tpchd-map__legend-row&quot;&gt;
       &lt;span class=&quot;tpchd-map__legend-title&quot;&gt;Red points&lt;/span&gt;
@@ -497,7 +495,8 @@
     var shape = String(item.shape || &quot;&quot;);
     var shapeClass = shape === &quot;circle&quot; ? &quot; is-rating&quot; : (shape === &quot;square&quot; ? &quot; is-square&quot; : &quot;&quot;);
     var color = String(item.color || &quot;#6b7280&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
-    var style = &quot;background:&quot; + color;
+    var textColor = String(item.text_color || &quot;#fff&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+    var style = &quot;background:&quot; + color + &quot;;color:&quot; + textColor;
     var countText = count == null ? &quot;&quot; : &quot; (&quot; + count + &quot;)&quot;;
     return &#x27;&lt;span class=&quot;tpchd-map__legend-item&quot;&gt;&#x27; +
       &#x27;&lt;span class=&quot;tpchd-map__legend-symbol&#x27; + shapeClass + &#x27;&quot; style=&quot;&#x27; + style + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + esc(item.letter || &quot;?&quot;) + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27; +
@@ -563,12 +562,13 @@
     if (mode === &quot;evergreen&quot;) {
       var rating = ratingCategory(feature.properties || {});
       var ratingColor = String(rating.color || &quot;#6b7280&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
+      var ratingTextColor = String(rating.text_color || &quot;#fff&quot;).replace(/[^#A-Za-z0-9(),.%\s-]/g, &quot;&quot;);
       var letter = esc(rating.letter || &quot;?&quot;);
       var shape = String(rating.shape || &quot;circle&quot;);
       var shapeClass = shape === &quot;circle&quot; ? &quot; is-rating&quot; : (shape === &quot;square&quot; ? &quot; is-square&quot; : &quot;&quot;);
       return L.divIcon({
         className: &quot;tpchd-map-marker&quot;,
-        html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&#x27; + shapeClass + &#x27;&quot; style=&quot;background:&#x27; + ratingColor + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + letter + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27;,
+        html: &#x27;&lt;span class=&quot;tpchd-map-marker__shape&#x27; + shapeClass + &#x27;&quot; style=&quot;background:&#x27; + ratingColor + &#x27;;color:&#x27; + ratingTextColor + &#x27;&quot; aria-hidden=&quot;true&quot;&gt;&lt;span&gt;&#x27; + letter + &#x27;&lt;/span&gt;&lt;/span&gt;&#x27;,
         iconSize: [22, 22],
         iconAnchor: [11, 11],
         popupAnchor: [0, -12]
@@ -1072,13 +1072,11 @@
 &lt;/script&gt;</textarea>
     <p data-role="status" aria-live="polite"></p>
   </section>
-  <section class="preview"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <section class="preview"><header class="preview-header"><h2>TPCHD inspections over 35 red points: May 27-29, 2026</h2><p>This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</p></header><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson">
   <style>
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
-    .tpchd-map__title { font-size: 22px; line-height: 1.2; font-weight: 800; margin: 0 0 6px; }
-    .tpchd-map__lede { font-size: 14px; line-height: 1.4; color: #34465a; margin: 0 0 10px; max-width: 780px; }
     .tpchd-map__legend { display: grid; gap: 6px; font-size: 13px; line-height: 1.35; margin: 0 0 12px; }
     .tpchd-map__legend-row { align-items: center; display: flex; flex-wrap: wrap; gap: 7px 10px; }
     .tpchd-map__legend-title { font-weight: 800; color: #27384a; }
@@ -1149,7 +1147,6 @@
     .tpchd-map__timeline span { color: #4b5b6d; }
     .tpchd-map__timeline em { color: #7a1f2b; font-style: normal; font-weight: 800; }
     @media (max-width: 640px) {
-      .tpchd-map__title { font-size: 20px; }
       .tpchd-map__search { grid-template-columns: 1fr; }
       .tpchd-map__reset { width: 100%; min-height: 44px; }
       .tpchd-map__controls { display: grid; grid-template-columns: 1fr; }
@@ -1167,8 +1164,6 @@
       .tpchd-map.is-map-active .tpchd-map__done { display: block; position: absolute; top: 10px; right: 10px; z-index: 610; min-height: 40px; border: 1px solid #111827; background: #fff; color: #111827; font-weight: 800; padding: 7px 10px; cursor: pointer; }
     }
   </style>
-  <div class="tpchd-map__title">TPCHD inspections over 35 red points: May 27-29, 2026</div>
-  <div class="tpchd-map__lede">This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</div>
   <div class="tpchd-map__legend" data-role="legend" aria-label="Map legend">
     <div class="tpchd-map__legend-row">
       <span class="tpchd-map__legend-title">Red points</span>
@@ -1545,7 +1540,8 @@
     var shape = String(item.shape || "");
     var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
     var color = String(item.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
-    var style = "background:" + color;
+    var textColor = String(item.text_color || "#fff").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    var style = "background:" + color + ";color:" + textColor;
     var countText = count == null ? "" : " (" + count + ")";
     return '<span class="tpchd-map__legend-item">' +
       '<span class="tpchd-map__legend-symbol' + shapeClass + '" style="' + style + '" aria-hidden="true"><span>' + esc(item.letter || "?") + '</span></span>' +
@@ -1611,12 +1607,13 @@
     if (mode === "evergreen") {
       var rating = ratingCategory(feature.properties || {});
       var ratingColor = String(rating.color || "#6b7280").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+      var ratingTextColor = String(rating.text_color || "#fff").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
       var letter = esc(rating.letter || "?");
       var shape = String(rating.shape || "circle");
       var shapeClass = shape === "circle" ? " is-rating" : (shape === "square" ? " is-square" : "");
       return L.divIcon({
         className: "tpchd-map-marker",
-        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
+        html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + ratingColor + ';color:' + ratingTextColor + '" aria-hidden="true"><span>' + letter + '</span></span>',
         iconSize: [22, 22],
         iconAnchor: [11, 11],
         popupAnchor: [0, -12]
