@@ -26,7 +26,15 @@
     "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260602211633z.html",
     "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/geocode_cache.json",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/latest.geojson",
-    "runs": {}
+    "run_embeds": {
+      "tpchd-fd1974ea239f": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601185559z/tpchd-fd1974ea239f/embed.html"
+    },
+    "run_previews": {
+      "tpchd-fd1974ea239f": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260601185559z/tpchd-fd1974ea239f/preview.html"
+    },
+    "runs": {
+      "tpchd-fd1974ea239f": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson"
+    }
   },
   "environment": "testing",
   "features_total": 33,
@@ -44,7 +52,15 @@
     "evergreen_versioned_preview": "embed/evergreen/preview-20260602211633z.html",
     "geocode_cache": "geocode_cache.json",
     "latest": "latest.geojson",
-    "runs": {}
+    "run_embeds": {
+      "tpchd-fd1974ea239f": "embed/runs/20260601185559z/tpchd-fd1974ea239f/embed.html"
+    },
+    "run_previews": {
+      "tpchd-fd1974ea239f": "embed/runs/20260601185559z/tpchd-fd1974ea239f/preview.html"
+    },
+    "runs": {
+      "tpchd-fd1974ea239f": "runs/20260601185559z/tpchd-fd1974ea239f.geojson"
+    }
   },
   "format": "GeoJSON FeatureCollection",
   "generated_at": "2026-06-02T21:16:33Z",
