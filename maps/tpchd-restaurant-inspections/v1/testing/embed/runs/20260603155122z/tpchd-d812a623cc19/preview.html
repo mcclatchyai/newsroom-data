@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
-  <title>TPCHD inspections over 35 red points: May 27-29, 2026 preview</title>
+  <title>TPCHD inspections over 35 red points: December 11, 2025-June 1, 2026 preview</title>
   <style>
     body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #18212b; background: #f5f7fa; }
     main { max-width: 1180px; margin: 0 auto; padding: 18px; }
@@ -23,12 +23,12 @@
 <body>
 <main>
   <section class="copy-panel" aria-label="CUE embed copy panel">
-    <h1>TPCHD inspections over 35 red points: May 27-29, 2026 preview</h1>
-    <p class="warning">Testing preview. This map is static for the alert/run shown.</p>
+    <h1>TPCHD inspections over 35 red points: December 11, 2025-June 1, 2026 preview</h1>
+    <p class="warning">Testing only until this per-alert map URL is included in scheduled emails.</p>
     <p>Copy this HTML into a CUE HTML Embed asset. The rendered embed appears below.</p>
     <button type="button" data-role="copy">Copy embed code</button>
     <textarea readonly spellcheck="false" aria-label="Embed HTML">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;&gt;
-&lt;div class=&quot;tpchd-map&quot; data-mode=&quot;alert&quot; data-url=&quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson&quot;&gt;
+&lt;div class=&quot;tpchd-map&quot; data-mode=&quot;alert&quot; data-url=&quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260603155122z/tpchd-d812a623cc19.geojson&quot;&gt;
   &lt;style&gt;
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
@@ -150,7 +150,7 @@
   while (wrapper &amp;&amp; !wrapper.classList.contains(&quot;tpchd-map&quot;)) wrapper = wrapper.previousElementSibling;
   if (!wrapper) return;
   var mode = wrapper.getAttribute(&quot;data-mode&quot;) || &quot;alert&quot;;
-  var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson&quot;;
+  var dataUrl = &quot;https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260603155122z/tpchd-d812a623cc19.geojson&quot;;
   var severityBins = [{&quot;id&quot;: &quot;red_points_36_50&quot;, &quot;label&quot;: &quot;36-50 red points&quot;, &quot;min&quot;: 36, &quot;max&quot;: 50, &quot;color&quot;: &quot;#d6604d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_51_75&quot;, &quot;label&quot;: &quot;51-75 red points&quot;, &quot;min&quot;: 51, &quot;max&quot;: 75, &quot;color&quot;: &quot;#c23030&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_76_100&quot;, &quot;label&quot;: &quot;76-100 red points&quot;, &quot;min&quot;: 76, &quot;max&quot;: 100, &quot;color&quot;: &quot;#9f1d2d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}, {&quot;id&quot;: &quot;red_points_101_plus&quot;, &quot;label&quot;: &quot;101+ red points&quot;, &quot;min&quot;: 101, &quot;max&quot;: null, &quot;color&quot;: &quot;#67000d&quot;, &quot;stroke&quot;: &quot;#ffffff&quot;, &quot;shape&quot;: &quot;diamond&quot;, &quot;icon&quot;: &quot;exclamation&quot;}];
   var ratingCategories = [{&quot;id&quot;: &quot;rating_great&quot;, &quot;label&quot;: &quot;Great&quot;, &quot;color&quot;: &quot;#2e7d32&quot;, &quot;letter&quot;: &quot;G&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_okay&quot;, &quot;label&quot;: &quot;Okay&quot;, &quot;color&quot;: &quot;#d88c1f&quot;, &quot;letter&quot;: &quot;O&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_needs_improve&quot;, &quot;label&quot;: &quot;Needs to improve&quot;, &quot;color&quot;: &quot;#b61f2d&quot;, &quot;letter&quot;: &quot;N&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_closed&quot;, &quot;label&quot;: &quot;Closed&quot;, &quot;color&quot;: &quot;#4b5563&quot;, &quot;letter&quot;: &quot;C&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_new&quot;, &quot;label&quot;: &quot;New&quot;, &quot;color&quot;: &quot;#2563eb&quot;, &quot;letter&quot;: &quot;N&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_not_posted&quot;, &quot;label&quot;: &quot;No grade shown by TPCHD&quot;, &quot;color&quot;: &quot;#6b7280&quot;, &quot;letter&quot;: &quot;i&quot;, &quot;shape&quot;: &quot;circle&quot;}, {&quot;id&quot;: &quot;rating_unknown&quot;, &quot;label&quot;: &quot;Status unknown&quot;, &quot;color&quot;: &quot;#6b7280&quot;, &quot;letter&quot;: &quot;?&quot;, &quot;shape&quot;: &quot;circle&quot;}];
   var canvas = wrapper.querySelector(&quot;.tpchd-map__canvas&quot;);
@@ -371,6 +371,23 @@
       html += &#x27;&lt;strong&gt;Over-35 inspections observed:&lt;/strong&gt; &#x27; + esc(count) + &#x27;&lt;br&gt;&#x27;;
     }
     return html;
+  }
+  function recentHighRedInspectionText(props) {
+    props = props || {};
+    if (!hasValue(props.recent_high_red_points)) return &quot;&quot;;
+    var date = props.recent_high_red_inspection_date || props.latest_over_threshold_date || &quot;&quot;;
+    var type = props.recent_high_red_inspection_type || &quot;Inspection&quot;;
+    var parts = [String(props.recent_high_red_points) + &quot; red points&quot;];
+    if (date) parts.push(&quot;on &quot; + formatDateText(date));
+    if (type) parts.push(type);
+    return parts.join(&quot; &quot;);
+  }
+  function recentHighRedReportLabel(props) {
+    props = props || {};
+    if (safeUrl(props.recent_high_red_report_url)) {
+      return &quot;Recent over-35 inspection report link available.&quot;;
+    }
+    return props.recent_high_red_report_availability || &quot;&quot;;
   }
   function featureDate(feature) {
     var props = feature.properties || {};
@@ -730,6 +747,7 @@
   function selectedDetailHtml(feature) {
     var p = feature.properties || {};
     var reportUrl = safeUrl(p.report_url);
+    var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
@@ -737,6 +755,8 @@
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || &quot;&quot;;
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
+    var recentHighRed = recentHighRedInspectionText(p);
+    var recentHighRedReport = recentHighRedReportLabel(p);
     var followUp = followUpLabelText(p.follow_up_label || &quot;&quot;);
     var closureLabel = closureLabelText(p);
     var closureReason = p.closure_reason_summary || &quot;&quot;;
@@ -746,6 +766,9 @@
     var summaryItems = [];
     if (hasValue(p.latest_red_points)) {
       summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(p.latest_red_points) + &#x27;&lt;/strong&gt;&lt;span&gt;latest red points&lt;/span&gt;&lt;/div&gt;&#x27;);
+    }
+    if (hasValue(p.recent_high_red_points)) {
+      summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(p.recent_high_red_points) + &#x27;&lt;/strong&gt;&lt;span&gt;recent over-35 red points&lt;/span&gt;&lt;/div&gt;&#x27;);
     }
     summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(latestDate ? formatDateText(latestDate) : &quot;Date unavailable&quot;) + &#x27;&lt;/strong&gt;&lt;span&gt;latest inspection date&lt;/span&gt;&lt;/div&gt;&#x27;);
     if (hasValue(p.worst_red_points)) {
@@ -758,7 +781,8 @@
     summaryItems.push(&#x27;&lt;div&gt;&lt;strong&gt;&#x27; + esc(inspectionCount(feature)) + &#x27;&lt;/strong&gt;&lt;span&gt;total inspections observed&lt;/span&gt;&lt;/div&gt;&#x27;);
     var links = [];
     if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
-    if (reportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download latest report&lt;/a&gt;&#x27;);
+    if (highRedReportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + highRedReportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download recent over-35 inspection report&lt;/a&gt;&#x27;);
+    else if (reportUrl &amp;&amp; !recentHighRed) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download latest report&lt;/a&gt;&#x27;);
     else if (fallbackLink) links.push(fallbackLink);
     if (safeUrl(p.resolution_source_url) &amp;&amp; safeUrl(p.resolution_source_url) !== reportUrl &amp;&amp; safeUrl(p.resolution_source_url) !== detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + safeUrl(p.resolution_source_url) + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Resolution source&lt;/a&gt;&#x27;);
     var html = &#x27;&lt;div class=&quot;tpchd-map__detail-kicker&quot;&gt;Selected restaurant&lt;/div&gt;&#x27; +
@@ -772,7 +796,8 @@
       (resolutionLabel ? &#x27;&lt;p&gt;&lt;strong&gt;Resolution evidence:&lt;/strong&gt; &#x27; + esc(resolutionLabel) + (p.resolution_date ? &#x27; &#x27; + esc(formatDateText(p.resolution_date)) : &#x27;&#x27;) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       (p.latest_observed_inspection_date ? &#x27;&lt;p&gt;&lt;strong&gt;Latest observed inspection:&lt;/strong&gt; &#x27; + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? &#x27; | &#x27; + esc(p.latest_observed_inspection_result) : &#x27;&#x27;) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p, { includeRedPoints: true })) + &#x27;&lt;/p&gt;&#x27; +
-      &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;/p&gt;&#x27; +
+      (recentHighRed ? &#x27;&lt;p&gt;&lt;strong&gt;Recent over-35 inspection:&lt;/strong&gt; &#x27; + esc(recentHighRed) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
+      (recentHighRedReport ? &#x27;&lt;p&gt;&lt;strong&gt;Recent over-35 report:&lt;/strong&gt; &#x27; + esc(recentHighRedReport) + &#x27;&lt;/p&gt;&#x27; : &#x27;&lt;p&gt;&lt;strong&gt;Latest inspection report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;/p&gt;&#x27;) +
       (processingNote ? &#x27;&lt;p&gt;&lt;strong&gt;Processing note:&lt;/strong&gt; &#x27; + esc(processingNote) + &#x27;&lt;/p&gt;&#x27; : &#x27;&#x27;) +
       &#x27;&lt;div class=&quot;tpchd-map__detail-summary&quot;&gt;&#x27; +
       summaryItems.join(&#x27;&#x27;) +
@@ -802,18 +827,22 @@
   function popupHtml(feature) {
     var p = feature.properties || {};
     var reportUrl = safeUrl(p.report_url);
+    var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || &quot;&quot;;
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || &quot;&quot;;
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || &quot;&quot;;
+    var recentHighRed = recentHighRedInspectionText(p);
+    var recentHighRedReport = recentHighRedReportLabel(p);
     var followUp = followUpLabelText(p.follow_up_label || &quot;&quot;);
     var closureLabel = closureLabelText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var links = [];
     if (detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + detailUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Facility page&lt;/a&gt;&#x27;);
-    if (reportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download latest report&lt;/a&gt;&#x27;);
+    if (highRedReportUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + highRedReportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download recent over-35 inspection report&lt;/a&gt;&#x27;);
+    else if (reportUrl &amp;&amp; !recentHighRed) links.push(&#x27;&lt;a href=&quot;&#x27; + reportUrl + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Download latest report&lt;/a&gt;&#x27;);
     else if (fallbackLink) links.push(fallbackLink);
     if (safeUrl(p.resolution_source_url) &amp;&amp; safeUrl(p.resolution_source_url) !== reportUrl &amp;&amp; safeUrl(p.resolution_source_url) !== detailUrl) links.push(&#x27;&lt;a href=&quot;&#x27; + safeUrl(p.resolution_source_url) + &#x27;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Resolution source&lt;/a&gt;&#x27;);
     if (mode === &quot;evergreen&quot;) {
@@ -821,7 +850,8 @@
         esc([p.address, p.city, p.zip].filter(Boolean).join(&quot; &quot;)) + &#x27;&lt;br&gt;&#x27; +
         (currentStatus ? &#x27;&lt;strong&gt;Latest TPCHD result:&lt;/strong&gt; &#x27; + esc(currentStatus) + &#x27;&lt;br&gt;&#x27; : &#x27;&#x27;) +
         &#x27;&lt;strong&gt;Latest inspection:&lt;/strong&gt; &#x27; + esc(latestInspectionText(p, { includeRedPoints: true })) + &#x27;&lt;br&gt;&#x27; +
-        &#x27;&lt;strong&gt;Latest report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;br&gt;&#x27; +
+        (recentHighRed ? &#x27;&lt;strong&gt;Recent over-35 inspection:&lt;/strong&gt; &#x27; + esc(recentHighRed) + &#x27;&lt;br&gt;&#x27; : &#x27;&#x27;) +
+        (recentHighRedReport ? &#x27;&lt;strong&gt;Recent over-35 report:&lt;/strong&gt; &#x27; + esc(recentHighRedReport) + &#x27;&lt;br&gt;&#x27; : &#x27;&lt;strong&gt;Latest report:&lt;/strong&gt; &#x27; + esc(reportAvailabilityLabel(p)) + &#x27;&lt;br&gt;&#x27;) +
         worstInspectionHtml(p) +
         &#x27;&lt;strong&gt;Total inspections observed:&lt;/strong&gt; &#x27; + esc(inspectionCount(feature)) +
         (closureLabel ? &#x27;&lt;br&gt;&lt;strong&gt;Closure context:&lt;/strong&gt; &#x27; + esc(closureLabel) : &#x27;&#x27;) +
@@ -1128,8 +1158,8 @@
 &lt;/script&gt;</textarea>
     <p data-role="status" aria-live="polite"></p>
   </section>
-  <section class="preview"><header class="preview-header"><h2>TPCHD inspections over 35 red points: May 27-29, 2026</h2><p>This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</p></header><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson">
+  <section class="preview"><header class="preview-header"><h2>TPCHD inspections over 35 red points: December 11, 2025-June 1, 2026</h2><p>This map shows facilities with inspections that had more than 35 red points in TPCHD inspection reports.</p></header><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div class="tpchd-map" data-mode="alert" data-url="https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260603155122z/tpchd-d812a623cc19.geojson">
   <style>
     .tpchd-map { font-family: Arial, Helvetica, sans-serif; color: #1f2a36; max-width: 100%; }
     .tpchd-map * { box-sizing: border-box; }
@@ -1251,7 +1281,7 @@
   while (wrapper && !wrapper.classList.contains("tpchd-map")) wrapper = wrapper.previousElementSibling;
   if (!wrapper) return;
   var mode = wrapper.getAttribute("data-mode") || "alert";
-  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260601185559z/tpchd-fd1974ea239f.geojson";
+  var dataUrl = "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260603155122z/tpchd-d812a623cc19.geojson";
   var severityBins = [{"id": "red_points_36_50", "label": "36-50 red points", "min": 36, "max": 50, "color": "#d6604d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_51_75", "label": "51-75 red points", "min": 51, "max": 75, "color": "#c23030", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_76_100", "label": "76-100 red points", "min": 76, "max": 100, "color": "#9f1d2d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}, {"id": "red_points_101_plus", "label": "101+ red points", "min": 101, "max": null, "color": "#67000d", "stroke": "#ffffff", "shape": "diamond", "icon": "exclamation"}];
   var ratingCategories = [{"id": "rating_great", "label": "Great", "color": "#2e7d32", "letter": "G", "shape": "circle"}, {"id": "rating_okay", "label": "Okay", "color": "#d88c1f", "letter": "O", "shape": "circle"}, {"id": "rating_needs_improve", "label": "Needs to improve", "color": "#b61f2d", "letter": "N", "shape": "circle"}, {"id": "rating_closed", "label": "Closed", "color": "#4b5563", "letter": "C", "shape": "circle"}, {"id": "rating_new", "label": "New", "color": "#2563eb", "letter": "N", "shape": "circle"}, {"id": "rating_not_posted", "label": "No grade shown by TPCHD", "color": "#6b7280", "letter": "i", "shape": "circle"}, {"id": "rating_unknown", "label": "Status unknown", "color": "#6b7280", "letter": "?", "shape": "circle"}];
   var canvas = wrapper.querySelector(".tpchd-map__canvas");
@@ -1472,6 +1502,23 @@
       html += '<strong>Over-35 inspections observed:</strong> ' + esc(count) + '<br>';
     }
     return html;
+  }
+  function recentHighRedInspectionText(props) {
+    props = props || {};
+    if (!hasValue(props.recent_high_red_points)) return "";
+    var date = props.recent_high_red_inspection_date || props.latest_over_threshold_date || "";
+    var type = props.recent_high_red_inspection_type || "Inspection";
+    var parts = [String(props.recent_high_red_points) + " red points"];
+    if (date) parts.push("on " + formatDateText(date));
+    if (type) parts.push(type);
+    return parts.join(" ");
+  }
+  function recentHighRedReportLabel(props) {
+    props = props || {};
+    if (safeUrl(props.recent_high_red_report_url)) {
+      return "Recent over-35 inspection report link available.";
+    }
+    return props.recent_high_red_report_availability || "";
   }
   function featureDate(feature) {
     var props = feature.properties || {};
@@ -1831,6 +1878,7 @@
   function selectedDetailHtml(feature) {
     var p = feature.properties || {};
     var reportUrl = safeUrl(p.report_url);
+    var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
@@ -1838,6 +1886,8 @@
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
+    var recentHighRed = recentHighRedInspectionText(p);
+    var recentHighRedReport = recentHighRedReportLabel(p);
     var followUp = followUpLabelText(p.follow_up_label || "");
     var closureLabel = closureLabelText(p);
     var closureReason = p.closure_reason_summary || "";
@@ -1847,6 +1897,9 @@
     var summaryItems = [];
     if (hasValue(p.latest_red_points)) {
       summaryItems.push('<div><strong>' + esc(p.latest_red_points) + '</strong><span>latest red points</span></div>');
+    }
+    if (hasValue(p.recent_high_red_points)) {
+      summaryItems.push('<div><strong>' + esc(p.recent_high_red_points) + '</strong><span>recent over-35 red points</span></div>');
     }
     summaryItems.push('<div><strong>' + esc(latestDate ? formatDateText(latestDate) : "Date unavailable") + '</strong><span>latest inspection date</span></div>');
     if (hasValue(p.worst_red_points)) {
@@ -1859,7 +1912,8 @@
     summaryItems.push('<div><strong>' + esc(inspectionCount(feature)) + '</strong><span>total inspections observed</span></div>');
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
-    if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
+    if (highRedReportUrl) links.push('<a href="' + highRedReportUrl + '" target="_blank" rel="noopener">Download recent over-35 inspection report</a>');
+    else if (reportUrl && !recentHighRed) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
     else if (fallbackLink) links.push(fallbackLink);
     if (safeUrl(p.resolution_source_url) && safeUrl(p.resolution_source_url) !== reportUrl && safeUrl(p.resolution_source_url) !== detailUrl) links.push('<a href="' + safeUrl(p.resolution_source_url) + '" target="_blank" rel="noopener">Resolution source</a>');
     var html = '<div class="tpchd-map__detail-kicker">Selected restaurant</div>' +
@@ -1873,7 +1927,8 @@
       (resolutionLabel ? '<p><strong>Resolution evidence:</strong> ' + esc(resolutionLabel) + (p.resolution_date ? ' ' + esc(formatDateText(p.resolution_date)) : '') + '</p>' : '') +
       (p.latest_observed_inspection_date ? '<p><strong>Latest observed inspection:</strong> ' + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? ' | ' + esc(p.latest_observed_inspection_result) : '') + '</p>' : '') +
       '<p><strong>Latest inspection:</strong> ' + esc(latestInspectionText(p, { includeRedPoints: true })) + '</p>' +
-      '<p><strong>Latest inspection report:</strong> ' + esc(reportAvailabilityLabel(p)) + '</p>' +
+      (recentHighRed ? '<p><strong>Recent over-35 inspection:</strong> ' + esc(recentHighRed) + '</p>' : '') +
+      (recentHighRedReport ? '<p><strong>Recent over-35 report:</strong> ' + esc(recentHighRedReport) + '</p>' : '<p><strong>Latest inspection report:</strong> ' + esc(reportAvailabilityLabel(p)) + '</p>') +
       (processingNote ? '<p><strong>Processing note:</strong> ' + esc(processingNote) + '</p>' : '') +
       '<div class="tpchd-map__detail-summary">' +
       summaryItems.join('') +
@@ -1903,18 +1958,22 @@
   function popupHtml(feature) {
     var p = feature.properties || {};
     var reportUrl = safeUrl(p.report_url);
+    var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
     var latestDate = p.latest_inspection_date || p.inspection_date_iso || p.inspection_date || "";
     var worstDate = p.worst_inspection_date || p.latest_over_threshold_date || "";
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
+    var recentHighRed = recentHighRedInspectionText(p);
+    var recentHighRedReport = recentHighRedReportLabel(p);
     var followUp = followUpLabelText(p.follow_up_label || "");
     var closureLabel = closureLabelText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
-    if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
+    if (highRedReportUrl) links.push('<a href="' + highRedReportUrl + '" target="_blank" rel="noopener">Download recent over-35 inspection report</a>');
+    else if (reportUrl && !recentHighRed) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
     else if (fallbackLink) links.push(fallbackLink);
     if (safeUrl(p.resolution_source_url) && safeUrl(p.resolution_source_url) !== reportUrl && safeUrl(p.resolution_source_url) !== detailUrl) links.push('<a href="' + safeUrl(p.resolution_source_url) + '" target="_blank" rel="noopener">Resolution source</a>');
     if (mode === "evergreen") {
@@ -1922,7 +1981,8 @@
         esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
         (currentStatus ? '<strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '<br>' : '') +
         '<strong>Latest inspection:</strong> ' + esc(latestInspectionText(p, { includeRedPoints: true })) + '<br>' +
-        '<strong>Latest report:</strong> ' + esc(reportAvailabilityLabel(p)) + '<br>' +
+        (recentHighRed ? '<strong>Recent over-35 inspection:</strong> ' + esc(recentHighRed) + '<br>' : '') +
+        (recentHighRedReport ? '<strong>Recent over-35 report:</strong> ' + esc(recentHighRedReport) + '<br>' : '<strong>Latest report:</strong> ' + esc(reportAvailabilityLabel(p)) + '<br>') +
         worstInspectionHtml(p) +
         '<strong>Total inspections observed:</strong> ' + esc(inspectionCount(feature)) +
         (closureLabel ? '<br><strong>Closure context:</strong> ' + esc(closureLabel) : '') +
