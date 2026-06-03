@@ -1,0 +1,305 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 7
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Christian D. Menefee",
+    "district": "TX18",
+    "facebook": "",
+    "member_id": "christian_d_menefee-tx-tx18",
+    "member_name": "Hon. Christian D. Menefee",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 180000.0,
+        "label": "Feb 2026",
+        "month": "2026-02",
+        "other": 0,
+        "sell": 5,
+        "trades": 5
+      },
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "label": "May 2026",
+        "month": "2026-05",
+        "other": 0,
+        "sell": 1,
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "label": "Jun 2026",
+        "month": "2026-06",
+        "other": 0,
+        "sell": 1,
+        "trades": 1
+      }
+    ],
+    "news_context": [],
+    "official_url": "",
+    "owner_breakdown": {
+      "JT": 2,
+      "SP": 5
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": -10.0,
+        "filing_id": "20034099",
+        "issuer": "Pinterest, Inc. Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "PINS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/11/2026",
+        "transaction_id": "ba9bbc43771763dd",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20034099",
+        "issuer": "Pinterest, Inc. Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "PINS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/28/2026",
+        "transaction_id": "1e420db5db5d4bcb",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 98.0,
+        "filing_id": "20034099",
+        "issuer": "Pinterest, Inc. Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "PINS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "02/23/2026",
+        "transaction_id": "97d0302b39f76f42",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 104.0,
+        "filing_id": "20034099",
+        "issuer": "Pinterest, Inc. Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "PINS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "02/17/2026",
+        "transaction_id": "3a6988f74d93be33",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 111.0,
+        "filing_id": "20034099",
+        "issuer": "Berkshire Hathaway Inc. New Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "BRK.B",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "02/10/2026",
+        "transaction_id": "85564e4eb0f4d172",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 111.0,
+        "filing_id": "20034099",
+        "issuer": "Berkshire Hathaway Inc. New Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "BRK.B",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "02/10/2026",
+        "transaction_id": "f88e84ac7a597416",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 111.0,
+        "filing_id": "20034099",
+        "issuer": "Berkshire Hathaway Inc. New Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "06/01/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "BRK.B",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "02/10/2026",
+        "transaction_id": "ce8336e8e9a31489",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 280000.0,
+      "estimated_min_volume": 77007.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 2,
+      "last_traded": "06/11/2026",
+      "market_context_available": 0,
+      "news_context_available": 0,
+      "tickers": 2,
+      "trades": 7
+    },
+    "top_issuers": [
+      {
+        "count": 4,
+        "issuer": "Pinterest, Inc. Class A Common Stock"
+      },
+      {
+        "count": 3,
+        "issuer": "Berkshire Hathaway Inc. New Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 4,
+        "ticker": "PINS"
+      },
+      {
+        "count": 3,
+        "ticker": "BRK.B"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 115000.0,
+        "estimated_min": 31003.0,
+        "other": 0,
+        "sell": 3,
+        "traded_date": "2026-02-10",
+        "trades": 3
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-02-17",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-02-23",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-05-28",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-06-11",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260603T132558Z",
+    "environment": "testing",
+    "generated_at": "2026-06-03T13:27:22Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/christian_d_menefee-tx-tx18.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-06-03T13:42:22Z"
+  }
+}

@@ -2,47 +2,44 @@
   "filings": [
     {
       "action_counts": {
-        "Purchase": 2,
-        "S (partial)": 2
+        "Sale": 7
       },
-      "action_counts_json": "{\"Purchase\": 2, \"S (partial)\": 2}",
-      "disclosure_lag_days": 24,
-      "district": "TX25",
-      "estimated_max_total": 95000,
-      "estimated_min_total": 18004,
-      "filing_date": "01/15/2026",
-      "filing_id": "20033783",
+      "action_counts_json": "{\"Sale\": 7}",
+      "disclosure_lag_days": 111,
+      "district": "TX18",
+      "estimated_max_total": 280000,
+      "estimated_min_total": 77007,
+      "filing_date": "06/01/2026",
+      "filing_id": "20034099",
       "filing_type": "P",
-      "ingested_at": "2026-05-29T15:02:01Z",
-      "member_name": "Hon. Roger Williams",
-      "pdf_sha256": "",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
-      "possible_late": false,
+      "ingested_at": "2026-06-03T13:21:35Z",
+      "member_name": "Hon. Christian D. Menefee",
+      "pdf_sha256": "69219043ed6d51d11053ab62fd0069657ce32a0627133ab19cad862f8ce758e0",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034099.pdf",
+      "possible_late": true,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
       "state": "TX",
       "tickers": [
-        "CVX",
-        "FANG",
-        "JPM",
-        "RTX"
+        "BRK.B",
+        "PINS"
       ],
-      "tickers_json": "[\"CVX\", \"FANG\", \"JPM\", \"RTX\"]",
-      "transaction_count": 4,
-      "transaction_date_max": "2025-12-22",
-      "transaction_date_min": "2025-12-22"
+      "tickers_json": "[\"BRK.B\", \"PINS\"]",
+      "transaction_count": 7,
+      "transaction_date_max": "2026-06-11",
+      "transaction_date_min": "2026-02-10"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T183053Z",
+    "data_version": "20260603T132558Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T18:30:53Z",
+    "generated_at": "2026-06-03T13:27:22Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T18:45:53Z"
+    "stale_after": "2026-06-03T13:42:22Z"
   }
 }

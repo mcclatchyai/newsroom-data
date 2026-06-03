@@ -1,44 +1,30 @@
 {
   "issuers": [
     {
-      "issuer_name": "Chevron Corporation Common Stock",
+      "issuer_name": "Berkshire Hathaway Inc. New Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CVX.json",
-      "ticker": "CVX",
-      "trade_count": 1
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/BRK.B.json",
+      "ticker": "BRK.B",
+      "trade_count": 3
     },
     {
-      "issuer_name": "Diamondback Energy, Inc. - Common Stock",
+      "issuer_name": "Pinterest, Inc. Class A Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/FANG.json",
-      "ticker": "FANG",
-      "trade_count": 1
-    },
-    {
-      "issuer_name": "JP Morgan Chase & Co. Common Stock",
-      "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/JPM.json",
-      "ticker": "JPM",
-      "trade_count": 1
-    },
-    {
-      "issuer_name": "RTX Corporation Common Stock",
-      "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/RTX.json",
-      "ticker": "RTX",
-      "trade_count": 1
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PINS.json",
+      "ticker": "PINS",
+      "trade_count": 4
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260529T183053Z",
+    "data_version": "20260603T132558Z",
     "environment": "testing",
-    "generated_at": "2026-05-29T18:30:53Z",
+    "generated_at": "2026-06-03T13:27:22Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-05-29T18:45:53Z"
+    "stale_after": "2026-06-03T13:42:22Z"
   }
 }
