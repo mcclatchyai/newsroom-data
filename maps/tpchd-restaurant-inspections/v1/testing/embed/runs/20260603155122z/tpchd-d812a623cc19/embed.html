@@ -339,7 +339,7 @@
       html += '<strong>Worst inspection shown:</strong> ' + esc(redPointsText(value)) + (date ? ' on ' + esc(formatDateText(date)) : '') + '<br>';
     }
     if (count > 0) {
-      html += '<strong>Over-35 inspections observed:</strong> ' + esc(count) + '<br>';
+      html += '<strong>Over-35 inspections in this map dataset:</strong> ' + esc(count) + '<br>';
     }
     return html;
   }
@@ -353,12 +353,55 @@
     if (type) parts.push(type);
     return parts.join(" ");
   }
+  function recentHighRedInspectionHtml(props) {
+    props = props || {};
+    if (!hasValue(props.recent_high_red_points)) return "";
+    var date = props.recent_high_red_inspection_date || props.latest_over_threshold_date || "";
+    var type = props.recent_high_red_inspection_type || "Inspection";
+    var html = '<em>' + esc(String(props.recent_high_red_points) + " red points") + '</em>';
+    if (date) html += ' on ' + esc(formatDateText(date));
+    if (type) html += ' ' + esc(type);
+    return html;
+  }
   function recentHighRedReportLabel(props) {
     props = props || {};
     if (safeUrl(props.recent_high_red_report_url)) {
-      return "Recent over-35 inspection report link available.";
+      return "";
     }
     return props.recent_high_red_report_availability || "";
+  }
+  function earlierHighRedInspectionText(props) {
+    props = props || {};
+    if (!hasValue(props.earlier_high_red_points)) return "";
+    var date = props.earlier_high_red_inspection_date || props.latest_over_threshold_date || "";
+    var type = props.earlier_high_red_inspection_type || "Inspection";
+    var parts = [String(props.earlier_high_red_points) + " red points"];
+    if (date) parts.push("on " + formatDateText(date));
+    if (type) parts.push(type);
+    return parts.join(" ");
+  }
+  function earlierHighRedInspectionHtml(props) {
+    props = props || {};
+    if (!hasValue(props.earlier_high_red_points)) return "";
+    var date = props.earlier_high_red_inspection_date || props.latest_over_threshold_date || "";
+    var type = props.earlier_high_red_inspection_type || "Inspection";
+    var html = '<em>' + esc(String(props.earlier_high_red_points) + " red points") + '</em>';
+    if (date) html += ' on ' + esc(formatDateText(date));
+    if (type) html += ' ' + esc(type);
+    return html;
+  }
+  function earlierHighRedReportLabel(props) {
+    props = props || {};
+    if (safeUrl(props.earlier_high_red_report_url)) {
+      return "";
+    }
+    return props.earlier_high_red_report_availability || "";
+  }
+  function whyMappedHtml(props) {
+    props = props || {};
+    var reasons = Array.isArray(props.map_eligibility_reasons) ? props.map_eligibility_reasons : [];
+    var text = reasons.filter(Boolean).join("; ") || props.map_eligibility_summary || "";
+    return text ? esc(text) : "";
   }
   function featureDate(feature) {
     var props = feature.properties || {};
@@ -719,6 +762,7 @@
     var p = feature.properties || {};
     var reportUrl = safeUrl(p.report_url);
     var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
+    var earlierHighRedReportUrl = safeUrl(p.earlier_high_red_report_url);
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
@@ -728,6 +772,9 @@
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
     var recentHighRed = recentHighRedInspectionText(p);
     var recentHighRedReport = recentHighRedReportLabel(p);
+    var earlierHighRed = earlierHighRedInspectionText(p);
+    var earlierHighRedReport = earlierHighRedReportLabel(p);
+    var whyMapped = whyMappedHtml(p);
     var followUp = followUpLabelText(p.follow_up_label || "");
     var closureLabel = closureLabelText(p);
     var closureReason = p.closure_reason_summary || "";
@@ -741,24 +788,29 @@
     if (hasValue(p.recent_high_red_points)) {
       summaryItems.push('<div><strong>' + esc(p.recent_high_red_points) + '</strong><span>recent over-35 red points</span></div>');
     }
+    if (!hasValue(p.recent_high_red_points) && hasValue(p.earlier_high_red_points)) {
+      summaryItems.push('<div><strong>' + esc(p.earlier_high_red_points) + '</strong><span>earlier over-35 red points</span></div>');
+    }
     summaryItems.push('<div><strong>' + esc(latestDate ? formatDateText(latestDate) : "Date unavailable") + '</strong><span>latest inspection date</span></div>');
     if (hasValue(p.worst_red_points)) {
       summaryItems.push('<div><strong>' + esc(p.worst_red_points) + '</strong><span>worst inspection points shown</span></div>');
       summaryItems.push('<div><strong>' + esc(worstDate ? formatDateText(worstDate) : "Date unavailable") + '</strong><span>worst inspection date</span></div>');
     }
     if (parseInt(p.over_threshold_count || 0, 10) > 0) {
-      summaryItems.push('<div><strong>' + esc(p.over_threshold_count || 0) + '</strong><span>inspections over 35 red points</span></div>');
+      summaryItems.push('<div><strong>' + esc(p.over_threshold_count || 0) + '</strong><span>over-35 inspections in this map dataset</span></div>');
     }
-    summaryItems.push('<div><strong>' + esc(inspectionCount(feature)) + '</strong><span>total inspections observed</span></div>');
+    summaryItems.push('<div><strong>' + esc(inspectionCount(feature)) + '</strong><span>total inspections in this map dataset</span></div>');
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
     if (highRedReportUrl) links.push('<a href="' + highRedReportUrl + '" target="_blank" rel="noopener">Download recent over-35 inspection report</a>');
+    else if (earlierHighRedReportUrl) links.push('<a href="' + earlierHighRedReportUrl + '" target="_blank" rel="noopener">Download earlier over-35 inspection report</a>');
     else if (reportUrl && !recentHighRed) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
     else if (fallbackLink) links.push(fallbackLink);
     if (safeUrl(p.resolution_source_url) && safeUrl(p.resolution_source_url) !== reportUrl && safeUrl(p.resolution_source_url) !== detailUrl) links.push('<a href="' + safeUrl(p.resolution_source_url) + '" target="_blank" rel="noopener">Resolution source</a>');
     var html = '<div class="tpchd-map__detail-kicker">Selected restaurant</div>' +
       '<h2>' + esc(p.business_name || "Unnamed restaurant") + '</h2>' +
       '<p>' + esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '</p>' +
+      (whyMapped ? '<p><strong>Why this facility is shown:</strong> ' + whyMapped + '</p>' : '') +
       (currentStatus ? '<p><strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '</p>' : '') +
       (currentStatusExplanation ? '<p>' + esc(currentStatusExplanation) + '</p>' : '') +
       (closureLabel ? '<p><strong>Closure context:</strong> ' + esc(closureLabel) + '</p>' : '') +
@@ -767,8 +819,9 @@
       (resolutionLabel ? '<p><strong>Resolution evidence:</strong> ' + esc(resolutionLabel) + (p.resolution_date ? ' ' + esc(formatDateText(p.resolution_date)) : '') + '</p>' : '') +
       (p.latest_observed_inspection_date ? '<p><strong>Latest observed inspection:</strong> ' + esc(formatDateText(p.latest_observed_inspection_date)) + (p.latest_observed_inspection_result ? ' | ' + esc(p.latest_observed_inspection_result) : '') + '</p>' : '') +
       '<p><strong>Latest inspection:</strong> ' + esc(latestInspectionText(p, { includeRedPoints: true })) + '</p>' +
-      (recentHighRed ? '<p><strong>Recent over-35 inspection:</strong> ' + esc(recentHighRed) + '</p>' : '') +
-      (recentHighRedReport ? '<p><strong>Recent over-35 report:</strong> ' + esc(recentHighRedReport) + '</p>' : '<p><strong>Latest inspection report:</strong> ' + esc(reportAvailabilityLabel(p)) + '</p>') +
+      (recentHighRed ? '<p><strong>Recent over-35 inspection:</strong> ' + recentHighRedInspectionHtml(p) + '</p>' : '') +
+      (!recentHighRed && earlierHighRed ? '<p><strong>Earlier over-35 inspection in available history:</strong> ' + earlierHighRedInspectionHtml(p) + '</p>' : '') +
+      (recentHighRedReport ? '<p><strong>Recent over-35 report:</strong> ' + esc(recentHighRedReport) + '</p>' : (earlierHighRedReport ? '<p><strong>Earlier over-35 report:</strong> ' + esc(earlierHighRedReport) + '</p>' : '<p><strong>Latest inspection report:</strong> ' + esc(reportAvailabilityLabel(p)) + '</p>')) +
       (processingNote ? '<p><strong>Processing note:</strong> ' + esc(processingNote) + '</p>' : '') +
       '<div class="tpchd-map__detail-summary">' +
       summaryItems.join('') +
@@ -799,6 +852,7 @@
     var p = feature.properties || {};
     var reportUrl = safeUrl(p.report_url);
     var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
+    var earlierHighRedReportUrl = safeUrl(p.earlier_high_red_report_url);
     var fallbackLink = fallbackReportLink(feature);
     var detailUrl = safeUrl(p.facility_detail_url);
     var currentStatus = currentStatusLabel(p);
@@ -807,24 +861,30 @@
     var inspectionDate = p.inspection_date_iso || p.inspection_date || latestDate || "";
     var recentHighRed = recentHighRedInspectionText(p);
     var recentHighRedReport = recentHighRedReportLabel(p);
+    var earlierHighRed = earlierHighRedInspectionText(p);
+    var earlierHighRedReport = earlierHighRedReportLabel(p);
+    var whyMapped = whyMappedHtml(p);
     var followUp = followUpLabelText(p.follow_up_label || "");
     var closureLabel = closureLabelText(p);
     var resolutionLabel = resolutionStatusLabel(p.resolution_status);
     var links = [];
     if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
     if (highRedReportUrl) links.push('<a href="' + highRedReportUrl + '" target="_blank" rel="noopener">Download recent over-35 inspection report</a>');
+    else if (earlierHighRedReportUrl) links.push('<a href="' + earlierHighRedReportUrl + '" target="_blank" rel="noopener">Download earlier over-35 inspection report</a>');
     else if (reportUrl && !recentHighRed) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download latest report</a>');
     else if (fallbackLink) links.push(fallbackLink);
     if (safeUrl(p.resolution_source_url) && safeUrl(p.resolution_source_url) !== reportUrl && safeUrl(p.resolution_source_url) !== detailUrl) links.push('<a href="' + safeUrl(p.resolution_source_url) + '" target="_blank" rel="noopener">Resolution source</a>');
     if (mode === "evergreen") {
       return '<strong>' + esc(p.business_name) + '</strong><br>' +
         esc([p.address, p.city, p.zip].filter(Boolean).join(" ")) + '<br>' +
+        (whyMapped ? '<strong>Why this facility is shown:</strong> ' + whyMapped + '<br>' : '') +
         (currentStatus ? '<strong>Latest TPCHD result:</strong> ' + esc(currentStatus) + '<br>' : '') +
         '<strong>Latest inspection:</strong> ' + esc(latestInspectionText(p, { includeRedPoints: true })) + '<br>' +
-        (recentHighRed ? '<strong>Recent over-35 inspection:</strong> ' + esc(recentHighRed) + '<br>' : '') +
-        (recentHighRedReport ? '<strong>Recent over-35 report:</strong> ' + esc(recentHighRedReport) + '<br>' : '<strong>Latest report:</strong> ' + esc(reportAvailabilityLabel(p)) + '<br>') +
+        (recentHighRed ? '<strong>Recent over-35 inspection:</strong> ' + recentHighRedInspectionHtml(p) + '<br>' : '') +
+        (!recentHighRed && earlierHighRed ? '<strong>Earlier over-35 inspection in available history:</strong> ' + earlierHighRedInspectionHtml(p) + '<br>' : '') +
+        (recentHighRedReport ? '<strong>Recent over-35 report:</strong> ' + esc(recentHighRedReport) + '<br>' : (earlierHighRedReport ? '<strong>Earlier over-35 report:</strong> ' + esc(earlierHighRedReport) + '<br>' : '<strong>Latest report:</strong> ' + esc(reportAvailabilityLabel(p)) + '<br>')) +
         worstInspectionHtml(p) +
-        '<strong>Total inspections observed:</strong> ' + esc(inspectionCount(feature)) +
+        '<strong>Total inspections in this map dataset:</strong> ' + esc(inspectionCount(feature)) +
         (closureLabel ? '<br><strong>Closure context:</strong> ' + esc(closureLabel) : '') +
         (followUp ? '<br><strong>Follow-up/reinspection:</strong> ' + esc(followUp) : '') +
         (resolutionLabel ? '<br><strong>Resolution evidence:</strong> ' + esc(resolutionLabel) + (p.resolution_date ? ' ' + esc(formatDateText(p.resolution_date)) : '') : '') +
@@ -932,8 +992,10 @@
     var excluded = Number(activeMetadata.records_excluded_by_threshold || 0);
     var unparsed = Number(activeMetadata.records_excluded_unparsed || 0);
     var parts = [];
+    var asOf = generatedAsOfLabel();
     if (mode === "evergreen") {
-      parts.push("The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure, required reinspection, a compliance order or scheduled follow-up.");
+      parts.push((asOf ? "Data last updated: " + asOf + "." : "Data last updated after the latest TPCHD inspection-data publication run.") + " This map typically updates once a week.");
+      parts.push("The default view shows facilities with a TPCHD inspection above 35 red points in the recent 60-day window, plus facilities whose latest observed TPCHD result/status in that window indicates closure or restricted operation, required reinspection, a compliance order or scheduled follow-up.");
       parts.push("Facilities can appear as Later met standards when they had a recent inspection above 35 red points but a later observed TPCHD result says they met minimum health standards.");
     }
     parts.push(mode === "evergreen" ? "Locations come from facility addresses shown in TPCHD inspection records." : "The map includes facilities with inspections with more than 35 red points.");
