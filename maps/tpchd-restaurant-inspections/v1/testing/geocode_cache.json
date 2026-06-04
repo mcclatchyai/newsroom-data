@@ -60,16 +60,14 @@
   },
   "10323 portland ave tacoma wa 98445 united states tacoma 98445": {
     "formatted_address": "10323 Portland Ave E, Tacoma, WA 98445, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-06-03T15:51:18Z",
-    "latitude": 47.1626751,
-    "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.4048733,
-    "place_id": "ChIJiY3_VfwBkVQRaSQqQah047Q",
-    "provider": "google_geocoding",
+    "geocode_precision": "address_point",
+    "geocoded_at_utc": "2026-06-04T20:03:06Z",
+    "latitude": 47.1625339,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.4049602,
+    "provider": "manual_review",
     "query": "10323 Portland Ave Tacoma WA 98445 United States Tacoma 98445",
-    "status": "ok"
+    "status": "reviewed"
   },
   "10427 gravelly lake dr sw ste a lakewood wa 98499 united states lakewood 98499": {
     "formatted_address": "10427 Gravelly Lake Dr SW a, Lakewood, WA 98499, USA",
@@ -108,16 +106,14 @@
   },
   "110 9th ave e puyallup wa 98371 united states puyallup 98371": {
     "formatted_address": "110 9th Ave SW, Puyallup, WA 98371, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-06-03T15:51:18Z",
-    "latitude": 47.1811583,
-    "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.2987687,
-    "place_id": "ChIJffN6XgP8kFQRiX0I7qJPg6A",
-    "provider": "google_geocoding",
+    "geocode_precision": "official_vendor_location",
+    "geocoded_at_utc": "2026-06-04T20:03:06Z",
+    "latitude": 47.18233745141976,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.29455599105457,
+    "provider": "manual_review",
     "query": "110 9th AVE E Puyallup WA 98371 United States Puyallup 98371",
-    "status": "ok"
+    "status": "reviewed"
   },
   "11012 canyon rd e ste 48 puyallup wa 98373 united states puyallup 98373": {
     "formatted_address": "11012 Canyon Rd E STE 48, Puyallup, WA 98373, USA",
@@ -1081,12 +1077,14 @@
   },
   "3500 s meridian ste #966 puyallup wa 98378 united states puyallup 98378": {
     "formatted_address": "3500 S Meridian #966, Puyallup, WA 98373, USA",
-    "geocoded_at_utc": "2026-05-29T13:58:39Z",
-    "location_type": "ROOFTOP",
-    "place_id": "Ei0zNTAwIFMgTWVyaWRpYW4gIzk2NiwgUHV5YWxsdXAsIFdBIDk4MzczLCBVU0EiHxodChYKFAoSCePwrnxF_JBUEQeRAwO_gPJFEgM5NjY",
-    "provider": "google_geocoding",
+    "geocode_precision": "mall_centroid",
+    "geocoded_at_utc": "2026-06-04T19:44:59Z",
+    "latitude": 47.162262,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.293003,
+    "provider": "manual_review",
     "query": "3500 S Meridian STE #966 Puyallup WA 98378 United States Puyallup 98378",
-    "status": "partial_match"
+    "status": "reviewed"
   },
   "3511 mckinley ave tacoma wa 98404 united states tacoma 98404": {
     "formatted_address": "3511 McKinley Ave, Tacoma, WA 98404, USA",
@@ -3565,29 +3563,25 @@
   },
   "PR0036347": {
     "formatted_address": "10323 Portland Ave E, Tacoma, WA 98445, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-06-03T15:51:18Z",
-    "latitude": 47.1626751,
-    "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.4048733,
-    "place_id": "ChIJiY3_VfwBkVQRaSQqQah047Q",
-    "provider": "google_geocoding",
+    "geocode_precision": "address_point",
+    "geocoded_at_utc": "2026-06-04T20:03:06Z",
+    "latitude": 47.1625339,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.4049602,
+    "provider": "manual_review",
     "query": "10323 Portland Ave Tacoma WA 98445 United States Tacoma 98445",
-    "status": "ok"
+    "status": "reviewed"
   },
   "PR0036347|806334": {
     "formatted_address": "10323 Portland Ave E, Tacoma, WA 98445, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-06-03T15:51:18Z",
-    "latitude": 47.1626751,
-    "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.4048733,
-    "place_id": "ChIJiY3_VfwBkVQRaSQqQah047Q",
-    "provider": "google_geocoding",
+    "geocode_precision": "address_point",
+    "geocoded_at_utc": "2026-06-04T20:03:06Z",
+    "latitude": 47.1625339,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.4049602,
+    "provider": "manual_review",
     "query": "10323 Portland Ave Tacoma WA 98445 United States Tacoma 98445",
-    "status": "ok"
+    "status": "reviewed"
   },
   "PR0036408": {
     "formatted_address": "905 Main St, Sumner, WA 98390, USA",
@@ -3771,29 +3765,25 @@
   },
   "PR0037412": {
     "formatted_address": "110 9th Ave SW, Puyallup, WA 98371, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-06-03T15:51:18Z",
-    "latitude": 47.1811583,
-    "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.2987687,
-    "place_id": "ChIJffN6XgP8kFQRiX0I7qJPg6A",
-    "provider": "google_geocoding",
+    "geocode_precision": "official_vendor_location",
+    "geocoded_at_utc": "2026-06-04T20:03:06Z",
+    "latitude": 47.18233745141976,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.29455599105457,
+    "provider": "manual_review",
     "query": "110 9th AVE E Puyallup WA 98371 United States Puyallup 98371",
-    "status": "ok"
+    "status": "reviewed"
   },
   "PR0037412|651535": {
     "formatted_address": "110 9th Ave SW, Puyallup, WA 98371, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-06-03T15:51:18Z",
-    "latitude": 47.1811583,
-    "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.2987687,
-    "place_id": "ChIJffN6XgP8kFQRiX0I7qJPg6A",
-    "provider": "google_geocoding",
+    "geocode_precision": "official_vendor_location",
+    "geocoded_at_utc": "2026-06-04T20:03:06Z",
+    "latitude": 47.18233745141976,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.29455599105457,
+    "provider": "manual_review",
     "query": "110 9th AVE E Puyallup WA 98371 United States Puyallup 98371",
-    "status": "ok"
+    "status": "reviewed"
   },
   "PR0037488": {
     "formatted_address": "203 Mashell Ave S #2, Eatonville, WA 98328, USA",
@@ -4305,21 +4295,25 @@
   },
   "PR0039129": {
     "formatted_address": "3500 S Meridian #966, Puyallup, WA 98373, USA",
-    "geocoded_at_utc": "2026-05-29T13:58:39Z",
-    "location_type": "ROOFTOP",
-    "place_id": "Ei0zNTAwIFMgTWVyaWRpYW4gIzk2NiwgUHV5YWxsdXAsIFdBIDk4MzczLCBVU0EiHxodChYKFAoSCePwrnxF_JBUEQeRAwO_gPJFEgM5NjY",
-    "provider": "google_geocoding",
+    "geocode_precision": "mall_centroid",
+    "geocoded_at_utc": "2026-06-04T19:44:59Z",
+    "latitude": 47.162262,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.293003,
+    "provider": "manual_review",
     "query": "3500 S Meridian STE #966 Puyallup WA 98378 United States Puyallup 98378",
-    "status": "partial_match"
+    "status": "reviewed"
   },
   "PR0039129|776098": {
     "formatted_address": "3500 S Meridian #966, Puyallup, WA 98373, USA",
-    "geocoded_at_utc": "2026-05-29T13:58:39Z",
-    "location_type": "ROOFTOP",
-    "place_id": "Ei0zNTAwIFMgTWVyaWRpYW4gIzk2NiwgUHV5YWxsdXAsIFdBIDk4MzczLCBVU0EiHxodChYKFAoSCePwrnxF_JBUEQeRAwO_gPJFEgM5NjY",
-    "provider": "google_geocoding",
+    "geocode_precision": "mall_centroid",
+    "geocoded_at_utc": "2026-06-04T19:44:59Z",
+    "latitude": 47.162262,
+    "location_type": "APPROXIMATE",
+    "longitude": -122.293003,
+    "provider": "manual_review",
     "query": "3500 S Meridian STE #966 Puyallup WA 98378 United States Puyallup 98378",
-    "status": "partial_match"
+    "status": "reviewed"
   },
   "PR0039190": {
     "formatted_address": "3829 6th Ave, Tacoma, WA 98406, USA",

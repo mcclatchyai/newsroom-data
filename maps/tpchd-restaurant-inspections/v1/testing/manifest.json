@@ -1,8 +1,21 @@
 {
   "available_years": [
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
     "2006",
     "2007",
     "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
     "2016",
     "2017",
     "2018",
@@ -16,15 +29,28 @@
     "2026"
   ],
   "cache_ttl_seconds": 900,
-  "coverage_note": "This map shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records.",
-  "data_version": "20260603155122Z",
+  "coverage_note": "This map shows facilities with recent TPCHD results indicating closure or restricted operation, required reinspection, compliance order, scheduled follow-up, or an inspection over 35 red points. Locations come from facility addresses shown in TPCHD inspection records.",
+  "data_version": "20260604202056Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections with more than 35 red points.",
   "entrypoints": {
     "by_year": {
+      "2000": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2000.geojson",
+      "2001": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2001.geojson",
+      "2002": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2002.geojson",
+      "2003": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2003.geojson",
+      "2004": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2004.geojson",
+      "2005": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2005.geojson",
       "2006": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2006.geojson",
       "2007": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2007.geojson",
       "2008": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2008.geojson",
+      "2009": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2009.geojson",
+      "2010": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2010.geojson",
+      "2011": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2011.geojson",
+      "2012": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2012.geojson",
+      "2013": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2013.geojson",
+      "2014": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2014.geojson",
+      "2015": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2015.geojson",
       "2016": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2016.geojson",
       "2017": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2017.geojson",
       "2018": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/by-year/2018.geojson",
@@ -39,26 +65,39 @@
     },
     "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/embed.html",
     "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260603155122z.html",
+    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/evergreen/preview-20260604202056z.html",
     "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/geocode_cache.json",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/latest.geojson",
     "run_embeds": {
-      "tpchd-d812a623cc19": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260603155122z/tpchd-d812a623cc19/embed.html"
+      "manual-evergreen-20260604T201500Z": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260604202056z/manual-evergreen-20260604t201500z/embed.html"
     },
     "run_previews": {
-      "tpchd-d812a623cc19": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260603155122z/tpchd-d812a623cc19/preview.html"
+      "manual-evergreen-20260604T201500Z": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/embed/runs/20260604202056z/manual-evergreen-20260604t201500z/preview.html"
     },
     "runs": {
-      "tpchd-d812a623cc19": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260603155122z/tpchd-d812a623cc19.geojson"
+      "manual-evergreen-20260604T201500Z": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/testing/runs/20260604202056z/manual-evergreen-20260604t201500z.geojson"
     }
   },
   "environment": "testing",
-  "features_total": 88,
+  "features_total": 68,
   "files": {
     "by_year": {
+      "2000": "by-year/2000.geojson",
+      "2001": "by-year/2001.geojson",
+      "2002": "by-year/2002.geojson",
+      "2003": "by-year/2003.geojson",
+      "2004": "by-year/2004.geojson",
+      "2005": "by-year/2005.geojson",
       "2006": "by-year/2006.geojson",
       "2007": "by-year/2007.geojson",
       "2008": "by-year/2008.geojson",
+      "2009": "by-year/2009.geojson",
+      "2010": "by-year/2010.geojson",
+      "2011": "by-year/2011.geojson",
+      "2012": "by-year/2012.geojson",
+      "2013": "by-year/2013.geojson",
+      "2014": "by-year/2014.geojson",
+      "2015": "by-year/2015.geojson",
       "2016": "by-year/2016.geojson",
       "2017": "by-year/2017.geojson",
       "2018": "by-year/2018.geojson",
@@ -73,24 +112,24 @@
     },
     "evergreen_embed": "embed/evergreen/embed.html",
     "evergreen_preview": "embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "embed/evergreen/preview-20260603155122z.html",
+    "evergreen_versioned_preview": "embed/evergreen/preview-20260604202056z.html",
     "geocode_cache": "geocode_cache.json",
     "latest": "latest.geojson",
     "run_embeds": {
-      "tpchd-d812a623cc19": "embed/runs/20260603155122z/tpchd-d812a623cc19/embed.html"
+      "manual-evergreen-20260604T201500Z": "embed/runs/20260604202056z/manual-evergreen-20260604t201500z/embed.html"
     },
     "run_previews": {
-      "tpchd-d812a623cc19": "embed/runs/20260603155122z/tpchd-d812a623cc19/preview.html"
+      "manual-evergreen-20260604T201500Z": "embed/runs/20260604202056z/manual-evergreen-20260604t201500z/preview.html"
     },
     "runs": {
-      "tpchd-d812a623cc19": "runs/20260603155122z/tpchd-d812a623cc19.geojson"
+      "manual-evergreen-20260604T201500Z": "runs/20260604202056z/manual-evergreen-20260604t201500z.geojson"
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-06-03T15:51:22Z",
+  "generated_at": "2026-06-04T20:20:56Z",
   "geometry_precision": "facility address from TPCHD inspection records",
   "map_cannot_show": "This map does not include TPCHD source records not yet collected in the inspection data store.",
-  "map_claim": "Shows facilities with recent notable TPCHD action statuses or an inspection over 35 red points, with timeline context where available.",
+  "map_claim": "Shows facilities with recent TPCHD results indicating closure or restricted operation, required reinspection, compliance order, scheduled follow-up, or an inspection over 35 red points, with timeline context where available.",
   "privacy": {
     "excludes": [
       "Google Sheet IDs",
@@ -104,10 +143,10 @@
     "review": "Exact restaurant locations are public commercial facility addresses from public inspection records."
   },
   "project": "tpchd-restaurant-inspections",
-  "records_above_threshold": 96,
-  "records_excluded_by_threshold": 538,
-  "records_excluded_unparsed": 84,
-  "records_total": 718,
+  "records_above_threshold": 0,
+  "records_excluded_by_threshold": 1,
+  "records_excluded_unparsed": 1569,
+  "records_total": 1570,
   "red_point_threshold": 35,
   "schema": {
     "geometry": "Point coordinates from reviewed geocodes of TPCHD facility addresses.",
@@ -133,6 +172,13 @@
       "latest_inspection_result",
       "latest_report_availability",
       "latest_report_quality_status",
+      "latest_original_report_quality_status",
+      "latest_report_quality_reviewed",
+      "latest_red_point_evidence_reviewed",
+      "latest_official_red_points_authoritative",
+      "latest_report_quality_review_source",
+      "latest_report_quality_review_note",
+      "latest_report_quality_reviewed_at",
       "latest_parser_quality_notes",
       "latest_point_total_conflict",
       "latest_result_status",
@@ -171,6 +217,9 @@
       "worst_red_points",
       "worst_inspection_date",
       "latest_over_threshold_date",
+      "map_eligibility_reason_ids",
+      "map_eligibility_reasons",
+      "map_eligibility_summary",
       "recent_high_red_points",
       "recent_high_red_total_points",
       "recent_high_red_repeat_red_points",
@@ -182,6 +231,17 @@
       "recent_high_red_report_id",
       "recent_high_red_report_url",
       "recent_high_red_report_availability",
+      "earlier_high_red_points",
+      "earlier_high_red_total_points",
+      "earlier_high_red_repeat_red_points",
+      "earlier_high_red_inspection_date",
+      "earlier_high_red_inspection_date_label",
+      "earlier_high_red_inspection_type",
+      "earlier_high_red_inspection_result",
+      "earlier_high_red_inspection_identity",
+      "earlier_high_red_report_id",
+      "earlier_high_red_report_url",
+      "earlier_high_red_report_availability",
       "over_threshold_count",
       "inspection_count",
       "red_point_severity",
@@ -218,7 +278,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-06-03T16:06:22Z",
+  "stale_after": "2026-06-04T20:35:56Z",
   "symbology": {
     "alert_categories": [
       {
@@ -442,8 +502,6 @@
   "threshold_label": "More than 35 red points",
   "threshold_rule": "red_points > 35",
   "title": "Recent Tacoma-Pierce County restaurant inspections",
-  "unmapped_records": 1,
-  "unmapped_records_by_reason": {
-    "missing_coordinates": 1
-  }
+  "unmapped_records": 0,
+  "unmapped_records_by_reason": {}
 }
