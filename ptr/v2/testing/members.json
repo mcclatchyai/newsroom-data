@@ -1,26 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Christian D. Menefee",
-      "district": "TX18",
-      "issuers": 2,
-      "member_id": "christian_d_menefee-tx-tx18",
-      "member_name": "Hon. Christian D. Menefee",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/christian_d_menefee-tx-tx18.json",
+      "display_name": "Hon. Lloyd Doggett",
+      "district": "TX37",
+      "issuers": 1,
+      "member_id": "lloyd_doggett-tx-tx37",
+      "member_name": "Hon. Lloyd Doggett",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/lloyd_doggett-tx-tx37.json",
       "state": "TX",
-      "trades": 7
+      "trades": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260603T132558Z",
+    "data_version": "20260605T162305Z",
     "environment": "testing",
-    "generated_at": "2026-06-03T13:27:22Z",
+    "generated_at": "2026-06-05T16:24:18Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-03T13:42:22Z"
+    "stale_after": "2026-06-05T16:39:18Z"
   }
 }
