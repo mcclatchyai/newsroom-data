@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project": "pulse-kc-star-royals-demo",
+  "environment": "testing",
+  "generated_at": "2026-06-11T18:20:46.525Z",
+  "data_version": "20250610-777572",
+  "cache_ttl_seconds": 3600,
+  "stale_after": null,
+  "entrypoints": {
+    "preview": "preview.html",
+    "embed": "embed.html",
+    "data": "data/game.json",
+    "manifest": "data/manifest.json"
+  },
+  "caveats": [
+    "Technical demo built from public MLB Stats API metadata and Baseball Savant Statcast CSV rows.",
+    "Treat as internal/sample material until McClatchy confirms rights for publishing derived visuals from the selected source.",
+    "Historical fixture used because the same-day 2026 Statcast endpoint returned no usable rows during this build."
+  ]
+}

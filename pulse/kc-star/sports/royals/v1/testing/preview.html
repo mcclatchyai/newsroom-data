@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KC Star Royals Visual Demo</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/royals-demo.css">
+</head>
+<body>
+<main class="pulse-royals-preview-shell">
+  <div class="pulse-royals-demo" data-data-url="data/game.json"></div>
+  <section class="pulse-royals-copy-panel" aria-label="CUE embed copy panel">
+    <div>
+      <h2>CUE Embed Fragment</h2>
+      <p>Use this only after rights/source review. The fragment fetches sanitized JSON and keeps styles scoped to the widget.</p>
+    </div>
+    <textarea data-embed-code readonly aria-label="CUE embed HTML"></textarea>
+  </section>
+</main>
+<script src="assets/royals-demo.js" defer></script>
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  var base = new URL(".", window.location.href).href.replace(/\/$/, "");
+  var textarea = document.querySelector("[data-embed-code]");
+  if (!textarea) return;
+  textarea.value = '<div class="pulse-royals-demo" data-data-url="' + base + '/data/game.json"></div>\n' +
+    '<link rel="stylesheet" href="' + base + '/assets/royals-demo.css">\n' +
+    '<script src="' + base + '/assets/royals-demo.js" defer><\\/script>';
+});
+</script>
+</body>
+</html>

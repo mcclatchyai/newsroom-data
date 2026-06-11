@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680" role="img" aria-labelledby="title desc">
+  <title id="title">Royals demo pitch zone</title>
+  <desc id="desc">Static placeholder SVG generated with data metadata. Open preview.html for the interactive version.</desc>
+  <rect width="980" height="680" fill="#f7f4ed"/>
+  <text x="48" y="80" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#17212b">KC Star Royals visual demo</text>
+  <text x="48" y="122" font-family="Arial, sans-serif" font-size="18" fill="#4a5561">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
+  <text x="48" y="178" font-family="Arial, sans-serif" font-size="20" fill="#17212b">Interactive pitch-zone card is available in preview.html.</text>
+  <text x="48" y="232" font-family="Arial, sans-serif" font-size="16" fill="#5d6875">Batted balls: 64 · Pitches: 333 · Hard-hit balls: 18</text>
+</svg>
