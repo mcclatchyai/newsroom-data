@@ -22,6 +22,9 @@
     dimensionLine: "#edf5e8",
     dimensionMarker: "#637d54",
     dimensionText: "#52685a",
+    beyondWall: "#e8ddc8",
+    wallTrack: "#d7b983",
+    wall: "#4f6a47",
     dirt: "#c99052",
     dirtStroke: "#9f6b36",
     chalk: "#fffdf4",
@@ -144,6 +147,14 @@
     return fieldToSvg(field.x, field.y);
   }
 
+  function pathFromPoints(points) {
+    return points.map((point, index) => `${index === 0 ? "M" : "L"} ${pathPoint(point)}`).join(" ");
+  }
+
+  function beyondWallPath(points, view = FIELD_GEOMETRY.view) {
+    return `${pathFromPoints(points)} L ${view.width} 0 L 0 0 Z`;
+  }
+
   function contactPoint(event) {
     const field = event.field_x_ft !== null && event.field_y_ft !== null
       ? { x: event.field_x_ft, y: event.field_y_ft }
@@ -169,6 +180,9 @@
     const leftFoul = fieldToSvg(leftFoulField.x, leftFoulField.y);
     const rightFoul = fieldToSvg(rightFoulField.x, rightFoulField.y);
     const basepath = `M ${pathPoint(home)} L ${pathPoint(first)} L ${pathPoint(second)} L ${pathPoint(third)} Z`;
+    const wallPoints = dimensions.map((dimension) => dimensionPointToSvg(dimension));
+    const wallPath = pathFromPoints(wallPoints);
+    const outOfPlayPath = beyondWallPath(wallPoints);
     const dimensionGroups = dimensions.map((dimension) => {
       const point = dimensionPointToSvg(dimension);
       return svgEl("g", {}, [
@@ -180,6 +194,23 @@
 
     svg.append(
       svgEl("rect", { x: 0, y: 0, width: 760, height: 560, fill: FIELD_COLORS.grass }),
+      svgEl("path", { d: outOfPlayPath, fill: FIELD_COLORS.beyondWall }),
+      svgEl("path", {
+        d: wallPath,
+        fill: "none",
+        stroke: FIELD_COLORS.wallTrack,
+        "stroke-width": 13,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+      }),
+      svgEl("path", {
+        d: wallPath,
+        fill: "none",
+        stroke: FIELD_COLORS.wall,
+        "stroke-width": 4,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+      }),
       svgEl("path", {
         d: `M ${pathPoint(home)} L ${pathPoint(leftFoul)} M ${pathPoint(home)} L ${pathPoint(rightFoul)}`,
         fill: "none",
@@ -395,7 +426,7 @@
     const methodNotes = [
       ["Field geometry", "The base square uses 90-foot baselines; the mound marker is placed at 60 feet 6 inches from home plate."],
       ["Batted-ball placement", "Locations use Statcast hit distance in feet plus spray angle derived from hc_x/hc_y."],
-      ["Kauffman dimensions", "The field shows Kauffman Stadium dimension markers for the season of the game; it does not invent an unsourced wall trace between published points."],
+      ["Outfield wall", "The dark wall line connects published Kauffman Stadium dimension points for the season of the game; it is exact at labeled markers and intentionally avoids claiming a surveyed wall trace between them."],
       ["Pitch zone", "Pitches use Statcast plate_x/plate_z in feet with a median batter strike-zone reference from sz_top/sz_bot."],
     ];
 
@@ -494,7 +525,7 @@
         ]),
         el("p", { class: "pulse-royals-note" }, [document.createTextNode("Rights note: this is an internal/sample technical demo. Public publishing of derived visuals should wait for McClatchy source and licensing review.")]),
         el("footer", { class: "pulse-royals-footer" }, [
-          document.createTextNode("Sources: MLB Stats API schedule and boxscore metadata; Baseball Savant Statcast CSV. Data shown is a historical fixture because the same-day 2026 Statcast endpoint returned no usable rows during the build. Field contact locations use Statcast hit distance plus spray angle derived from hc_x/hc_y. Kauffman Stadium dimensions are season-specific published markers, not an invented full wall trace."),
+          document.createTextNode("Sources: MLB Stats API schedule and boxscore metadata; Baseball Savant Statcast CSV. Data shown is a historical fixture because the same-day 2026 Statcast endpoint returned no usable rows during the build. Field contact locations use Statcast hit distance plus spray angle derived from hc_x/hc_y. The outfield wall line connects season-specific published Kauffman Stadium dimension points; it is exact at labeled markers, not a surveyed trace between them."),
         ]),
       ]),
     );

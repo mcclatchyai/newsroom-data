@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "pulse-kc-star-royals-demo",
   "environment": "testing",
-  "generated_at": "2026-06-11T19:05:45.433Z",
+  "generated_at": "2026-06-11T19:18:04.981Z",
   "data_version": "20250610-777572",
   "status": "internal_prototype",
   "caveats": [
@@ -140,7 +140,7 @@
           }
         ]
       },
-      "note": "The infield diamond uses official baseball dimensions. Outfield context uses published Kauffman Stadium dimension markers for the season of the game, without inventing a full wall trace between those points."
+      "note": "The infield diamond uses official baseball dimensions. The outfield wall line connects published Kauffman Stadium dimension points for the season of the game; it is exact at labeled markers and is not a surveyed trace between them."
     },
     "contact_coordinates": {
       "source_fields": [

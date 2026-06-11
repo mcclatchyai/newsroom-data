@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680" role="img" aria-labelledby="title desc">
   <title id="title">Royals postgame contact map</title>
-  <desc id="desc">Batted-ball locations for New York Yankees 10, Kansas City Royals 2 · 2025-06-10, plotted from Statcast hit distance and spray angle, with Kauffman Stadium 2025 published dimension markers.</desc>
+  <desc id="desc">Batted-ball locations for New York Yankees 10, Kansas City Royals 2 · 2025-06-10, plotted from Statcast hit distance and spray angle, with a wall line connecting Kauffman Stadium 2025 published dimension points.</desc>
   <rect width="980" height="680" fill="#f7f3ea"/>
   <text x="48" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17212b">Royals postgame contact map</text>
   <text x="48" y="90" font-family="Arial, sans-serif" font-size="16" fill="#5c6773">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
   <rect x="48" y="110" width="884" height="490" fill="#cfe2c3" stroke="#9fbd90" stroke-width="2"/>
+  <path d="M 177.5 331.7 L 247.6 251.5 L 356.5 193.1 L 490.0 155.0 L 623.5 193.1 L 732.4 251.5 L 802.5 331.7 L 932.0 110.0 L 48.0 110.0 Z" fill="#e8ddc8"/>
+  <path d="M 177.5 331.7 L 247.6 251.5 L 356.5 193.1 L 490.0 155.0 L 623.5 193.1 L 732.4 251.5 L 802.5 331.7" fill="none" stroke="#d7b983" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 177.5 331.7 L 247.6 251.5 L 356.5 193.1 L 490.0 155.0 L 623.5 193.1 L 732.4 251.5 L 802.5 331.7" fill="none" stroke="#4f6a47" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 490.0 565.0 L 177.5 331.7 M 490.0 565.0 L 802.5 331.7" fill="none" stroke="#fffdf4" stroke-width="3"/>
   <g font-family="Arial, sans-serif" font-size="11" fill="#52685a">
     <line x1="490.0" y1="565.0" x2="177.5" y2="331.7" stroke="#edf5e8" stroke-width="1"/>
