@@ -31,7 +31,9 @@
     base: "#fffdf8",
     plateStroke: "#bfc7bd",
     zoneBg: "#fffdf8",
+    zonePanel: "#fff8eb",
     zoneGrid: "#d6ddd5",
+    zonePlateGuide: "#b89458",
     plateFill: "#ead6b8",
   };
   const STATCAST_FIELD_TRANSFORM = {
@@ -64,7 +66,9 @@
       topFt: 4.8,
       bottomFt: 0.5,
     },
-    plateHalfWidthReferenceFt: 0.83,
+    homePlateHalfWidthFt: 17 / 24,
+    ballCenterHalfWidthReferenceFt: (17 / 24) + (1.45 / 12),
+    plateHalfWidthReferenceFt: (17 / 24) + (1.45 / 12),
   };
 
   function el(tag, attrs = {}, children = []) {
@@ -281,15 +285,25 @@
     };
   }
 
+  function pitchInIndividualZone(event, halfWidth = PITCH_GEOMETRY.ballCenterHalfWidthReferenceFt) {
+    if ([event.plate_x, event.plate_z, event.sz_top, event.sz_bot].some((value) => value === null || value === undefined)) {
+      return null;
+    }
+    return Math.abs(event.plate_x) <= halfWidth && event.plate_z >= event.sz_bot && event.plate_z <= event.sz_top;
+  }
+
   function drawPitchZone(container, data, filter) {
     container.innerHTML = "";
     const tooltip = document.querySelector(".pulse-royals-tooltip");
     const svg = svgEl("svg", { viewBox: "0 0 520 480", role: "img", "aria-label": "Pitch location zone chart" });
     const zoneTop = data.summary.pitch_zone?.median_sz_top_ft || 3.5;
     const zoneBot = data.summary.pitch_zone?.median_sz_bot_ft || 1.5;
-    const halfWidth = data.summary.pitch_zone?.plate_half_width_reference_ft || PITCH_GEOMETRY.plateHalfWidthReferenceFt;
+    const halfWidth = data.summary.pitch_zone?.ball_center_half_width_reference_ft || PITCH_GEOMETRY.ballCenterHalfWidthReferenceFt;
+    const plateHalfWidth = data.summary.pitch_zone?.home_plate_half_width_ft || PITCH_GEOMETRY.homePlateHalfWidthFt;
     const zoneTopLeft = pitchToSvg(-halfWidth, zoneTop);
     const zoneBottomRight = pitchToSvg(halfWidth, zoneBot);
+    const plateTopLeft = pitchToSvg(-plateHalfWidth, zoneTop);
+    const plateBottomRight = pitchToSvg(plateHalfWidth, zoneBot);
     const zone = {
       x: zoneTopLeft.x,
       y: zoneTopLeft.y,
@@ -300,14 +314,16 @@
     const plateRight = pitchToSvg(0.708, 0.78);
     const platePoint = pitchToSvg(0, 0.56);
     svg.append(
-      svgEl("rect", { x: 0, y: 0, width: 520, height: 480, fill: FIELD_COLORS.zoneBg }),
-      svgEl("rect", { x: zone.x, y: zone.y, width: zone.w, height: zone.h, fill: "#ffffff", stroke: "#17212b", "stroke-width": 2 }),
+      svgEl("rect", { x: 0, y: 0, width: 520, height: 480, fill: "#f3ead9" }),
+      svgEl("rect", { x: 18, y: 18, width: 484, height: 420, rx: 10, fill: FIELD_COLORS.zonePanel, stroke: "#dfd3c1" }),
+      svgEl("rect", { x: zone.x, y: zone.y, width: zone.w, height: zone.h, fill: "#ffffff", opacity: 0.88, stroke: "#17212b", "stroke-width": 2.4 }),
+      svgEl("line", { x1: plateTopLeft.x, y1: zone.y, x2: plateTopLeft.x, y2: zone.y + zone.h, stroke: FIELD_COLORS.zonePlateGuide, "stroke-width": 1.4, "stroke-dasharray": "5 5" }),
+      svgEl("line", { x1: plateBottomRight.x, y1: zone.y, x2: plateBottomRight.x, y2: zone.y + zone.h, stroke: FIELD_COLORS.zonePlateGuide, "stroke-width": 1.4, "stroke-dasharray": "5 5" }),
       svgEl("line", { x1: zone.x + zone.w / 3, y1: zone.y, x2: zone.x + zone.w / 3, y2: zone.y + zone.h, stroke: FIELD_COLORS.zoneGrid }),
       svgEl("line", { x1: zone.x + (zone.w * 2) / 3, y1: zone.y, x2: zone.x + (zone.w * 2) / 3, y2: zone.y + zone.h, stroke: FIELD_COLORS.zoneGrid }),
       svgEl("line", { x1: zone.x, y1: zone.y + zone.h / 3, x2: zone.x + zone.w, y2: zone.y + zone.h / 3, stroke: FIELD_COLORS.zoneGrid }),
       svgEl("line", { x1: zone.x, y1: zone.y + (zone.h * 2) / 3, x2: zone.x + zone.w, y2: zone.y + (zone.h * 2) / 3, stroke: FIELD_COLORS.zoneGrid }),
       svgEl("path", { d: `M ${plateLeft.x.toFixed(1)} ${plateLeft.y.toFixed(1)} H ${plateRight.x.toFixed(1)} L ${(plateRight.x - 21).toFixed(1)} ${(plateRight.y + 35).toFixed(1)} L ${platePoint.x.toFixed(1)} ${platePoint.y.toFixed(1)} L ${(plateLeft.x + 21).toFixed(1)} ${(plateLeft.y + 35).toFixed(1)} Z`, fill: FIELD_COLORS.plateFill, stroke: FIELD_COLORS.dirtStroke }),
-      svgEl("text", { x: 260, y: 455, "text-anchor": "middle", fill: "#5c6670", "font-size": 13 }, [document.createTextNode("Catcher view · median batter zone")]),
     );
 
     const events = data.events.pitches.filter((event) => {
@@ -318,17 +334,19 @@
     });
     for (const event of events) {
       const point = pitchPoint(event);
+      const inIndividualZone = event.in_individual_zone ?? pitchInIndividualZone(event, halfWidth);
       const circle = svgEl("circle", {
         cx: point.x.toFixed(1),
         cy: point.y.toFixed(1),
         r: event.class_name === "in_play" ? 5.8 : 4.4,
         fill: PITCH_COLORS[event.class_name] || PITCH_COLORS.other,
-        opacity: 0.76,
-        stroke: "#fff",
-        "stroke-width": 1,
+        opacity: inIndividualZone ? 0.88 : 0.62,
+        stroke: inIndividualZone ? "#17212b" : "#fffdf8",
+        "stroke-width": inIndividualZone ? 1.4 : 1,
         tabindex: 0,
       });
-      const tip = `<strong>${event.pitch_name}</strong><br>${event.pitcher_name} vs. ${event.batter_name}<br>${label(event.description)}${event.result ? ` · ${label(event.result)}` : ""}<br>${fmt(event.release_speed, " mph")}`;
+      const zoneLabel = inIndividualZone === null ? "zone n/a" : inIndividualZone ? "inside own Statcast zone" : "outside own Statcast zone";
+      const tip = `<strong>${event.pitch_name}</strong><br>${event.pitcher_name} vs. ${event.batter_name}<br>${label(event.description)}${event.result ? ` · ${label(event.result)}` : ""}<br>${fmt(event.release_speed, " mph")} · ${zoneLabel}<br>sz_bot ${fmt(event.sz_bot, " ft")} · sz_top ${fmt(event.sz_top, " ft")}`;
       circle.addEventListener("mousemove", (mouseEvent) => showTooltip(tooltip, tip, mouseEvent));
       circle.addEventListener("mouseleave", () => hideTooltip(tooltip));
       circle.addEventListener("focus", (focusEvent) => showTooltip(tooltip, tip, focusEvent));
@@ -427,7 +445,7 @@
       ["Field geometry", "The base square uses 90-foot baselines; the mound marker is placed at 60 feet 6 inches from home plate."],
       ["Batted-ball placement", "Locations use Statcast hit distance in feet plus spray angle derived from hc_x/hc_y."],
       ["Outfield wall", "The dark wall line connects published Kauffman Stadium dimension points for the season of the game; it is exact at labeled markers and intentionally avoids claiming a surveyed wall trace between them."],
-      ["Pitch zone", "Pitches use Statcast plate_x/plate_z in feet with a median batter strike-zone reference from sz_top/sz_bot."],
+      ["Pitch zone", "Pitches use Statcast plate_x/plate_z in feet. The box is a median ball-center zone; each pitch is also tested against its own Statcast sz_top/sz_bot."],
     ];
 
     root.innerHTML = "";
@@ -474,7 +492,7 @@
               el("div", { class: "pulse-royals-panel-header" }, [
                 el("div", {}, [
                   el("h2", {}, [document.createTextNode("Pitch Zone")]),
-                  el("p", {}, [document.createTextNode("Catcher-view pitch locations, colored by pitch result.")]),
+                  el("p", {}, [document.createTextNode("Catcher-view pitch locations; dark outline means inside that pitch's own Statcast zone.")]),
                 ]),
                 pitchControls,
               ]),
