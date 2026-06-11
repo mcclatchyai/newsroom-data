@@ -1,20 +1,35 @@
 (function () {
   const SVG_NS = "http://www.w3.org/2000/svg";
   const CONTACT_COLORS = {
-    home_run: "#b94141",
-    hit: "#1f5f9f",
-    hard_out: "#b7842a",
-    out: "#5c6773",
-    contact: "#317b58",
+    home_run: "#cf3e3e",
+    hit: "#1268b3",
+    hard_out: "#c88f2d",
+    out: "#5c6670",
+    contact: "#2e856e",
   };
   const PITCH_COLORS = {
-    whiff: "#b94141",
-    called_strike: "#1f5f9f",
-    in_play: "#317b58",
-    ball: "#a5742b",
-    foul: "#6a55a3",
-    result: "#5c6773",
-    other: "#7b8793",
+    whiff: "#cf3e3e",
+    called_strike: "#1268b3",
+    in_play: "#2e856e",
+    ball: "#9f6b36",
+    foul: "#7b5eb4",
+    result: "#5c6670",
+    other: "#7a838c",
+  };
+  const FIELD_COLORS = {
+    grass: "#cfe2c3",
+    grassStroke: "#9fbd90",
+    dimensionLine: "#edf5e8",
+    dimensionMarker: "#637d54",
+    dimensionText: "#52685a",
+    dirt: "#c99052",
+    dirtStroke: "#9f6b36",
+    chalk: "#fffdf4",
+    base: "#fffdf8",
+    plateStroke: "#bfc7bd",
+    zoneBg: "#fffdf8",
+    zoneGrid: "#d6ddd5",
+    plateFill: "#ead6b8",
   };
   const STATCAST_FIELD_TRANSFORM = {
     centerX: 125.42,
@@ -31,10 +46,10 @@
     view: {
       width: 760,
       height: 560,
-      leftFt: -310,
-      rightFt: 310,
-      topFt: 430,
-      bottomFt: -30,
+      leftFt: -330,
+      rightFt: 330,
+      topFt: 455,
+      bottomFt: -35,
     },
   };
   const PITCH_GEOMETRY = {
@@ -157,39 +172,39 @@
     const dimensionGroups = dimensions.map((dimension) => {
       const point = dimensionPointToSvg(dimension);
       return svgEl("g", {}, [
-        svgEl("line", { x1: home.x.toFixed(1), y1: home.y.toFixed(1), x2: point.x.toFixed(1), y2: point.y.toFixed(1), stroke: "#eef4eb", "stroke-width": 1 }),
-        svgEl("circle", { cx: point.x.toFixed(1), cy: point.y.toFixed(1), r: 4, fill: "#557150", stroke: "#fff", "stroke-width": 1.4 }),
-        svgEl("text", { x: point.x.toFixed(1), y: (point.y - 8).toFixed(1), "text-anchor": "middle", fill: "#52685a", "font-size": 10 }, [document.createTextNode(`${dimension.label} ${dimension.distance_ft}`)]),
+        svgEl("line", { x1: home.x.toFixed(1), y1: home.y.toFixed(1), x2: point.x.toFixed(1), y2: point.y.toFixed(1), stroke: FIELD_COLORS.dimensionLine, "stroke-width": 1 }),
+        svgEl("circle", { cx: point.x.toFixed(1), cy: point.y.toFixed(1), r: 4, fill: FIELD_COLORS.dimensionMarker, stroke: FIELD_COLORS.chalk, "stroke-width": 1.4 }),
+        svgEl("text", { x: point.x.toFixed(1), y: (point.y - 8).toFixed(1), "text-anchor": "middle", fill: FIELD_COLORS.dimensionText, "font-size": 10 }, [document.createTextNode(`${dimension.label} ${dimension.distance_ft}`)]),
       ]);
     });
 
     svg.append(
-      svgEl("rect", { x: 0, y: 0, width: 760, height: 560, fill: "#dbe8d2" }),
+      svgEl("rect", { x: 0, y: 0, width: 760, height: 560, fill: FIELD_COLORS.grass }),
       svgEl("path", {
         d: `M ${pathPoint(home)} L ${pathPoint(leftFoul)} M ${pathPoint(home)} L ${pathPoint(rightFoul)}`,
         fill: "none",
-        stroke: "#f8f8f2",
+        stroke: FIELD_COLORS.chalk,
         "stroke-width": 3,
       }),
       ...dimensionGroups,
       svgEl("path", {
         d: basepath,
         fill: "none",
-        stroke: "#d8b37d",
+        stroke: FIELD_COLORS.dirt,
         "stroke-width": 17,
         "stroke-linejoin": "round",
         "stroke-linecap": "round",
       }),
-      svgEl("path", { d: basepath, fill: "none", stroke: "#ffffff", "stroke-width": 2, "stroke-linejoin": "round" }),
-      svgEl("circle", { cx: mound.x.toFixed(1), cy: mound.y.toFixed(1), r: 11, fill: "#d8b37d", stroke: "#b89058" }),
-      svgEl("line", { x1: (mound.x - 10).toFixed(1), y1: mound.y.toFixed(1), x2: (mound.x + 10).toFixed(1), y2: mound.y.toFixed(1), stroke: "#fff", "stroke-width": 3 }),
-      svgEl("rect", { x: (first.x - 4).toFixed(1), y: (first.y - 4).toFixed(1), width: 8, height: 8, fill: "#fff", transform: `rotate(45 ${first.x.toFixed(1)} ${first.y.toFixed(1)})` }),
-      svgEl("rect", { x: (second.x - 4).toFixed(1), y: (second.y - 4).toFixed(1), width: 8, height: 8, fill: "#fff", transform: `rotate(45 ${second.x.toFixed(1)} ${second.y.toFixed(1)})` }),
-      svgEl("rect", { x: (third.x - 4).toFixed(1), y: (third.y - 4).toFixed(1), width: 8, height: 8, fill: "#fff", transform: `rotate(45 ${third.x.toFixed(1)} ${third.y.toFixed(1)})` }),
+      svgEl("path", { d: basepath, fill: "none", stroke: FIELD_COLORS.chalk, "stroke-width": 2, "stroke-linejoin": "round" }),
+      svgEl("circle", { cx: mound.x.toFixed(1), cy: mound.y.toFixed(1), r: 11, fill: FIELD_COLORS.dirt, stroke: FIELD_COLORS.dirtStroke }),
+      svgEl("line", { x1: (mound.x - 10).toFixed(1), y1: mound.y.toFixed(1), x2: (mound.x + 10).toFixed(1), y2: mound.y.toFixed(1), stroke: FIELD_COLORS.chalk, "stroke-width": 3 }),
+      svgEl("rect", { x: (first.x - 4).toFixed(1), y: (first.y - 4).toFixed(1), width: 8, height: 8, fill: FIELD_COLORS.base, transform: `rotate(45 ${first.x.toFixed(1)} ${first.y.toFixed(1)})` }),
+      svgEl("rect", { x: (second.x - 4).toFixed(1), y: (second.y - 4).toFixed(1), width: 8, height: 8, fill: FIELD_COLORS.base, transform: `rotate(45 ${second.x.toFixed(1)} ${second.y.toFixed(1)})` }),
+      svgEl("rect", { x: (third.x - 4).toFixed(1), y: (third.y - 4).toFixed(1), width: 8, height: 8, fill: FIELD_COLORS.base, transform: `rotate(45 ${third.x.toFixed(1)} ${third.y.toFixed(1)})` }),
       svgEl("path", {
         d: `M ${(home.x - 6).toFixed(1)} ${(home.y - 2).toFixed(1)} H ${(home.x + 6).toFixed(1)} L ${(home.x + 5).toFixed(1)} ${(home.y + 7).toFixed(1)} L ${home.x.toFixed(1)} ${(home.y + 10).toFixed(1)} L ${(home.x - 5).toFixed(1)} ${(home.y + 7).toFixed(1)} Z`,
-        fill: "#fff",
-        stroke: "#bfc7bd",
+        fill: FIELD_COLORS.base,
+        stroke: FIELD_COLORS.plateStroke,
       }),
     );
   }
@@ -254,14 +269,14 @@
     const plateRight = pitchToSvg(0.708, 0.78);
     const platePoint = pitchToSvg(0, 0.56);
     svg.append(
-      svgEl("rect", { x: 0, y: 0, width: 520, height: 480, fill: "#fbfaf7" }),
-      svgEl("rect", { x: zone.x, y: zone.y, width: zone.w, height: zone.h, fill: "#fff", stroke: "#17212b", "stroke-width": 2 }),
-      svgEl("line", { x1: zone.x + zone.w / 3, y1: zone.y, x2: zone.x + zone.w / 3, y2: zone.y + zone.h, stroke: "#d8ded7" }),
-      svgEl("line", { x1: zone.x + (zone.w * 2) / 3, y1: zone.y, x2: zone.x + (zone.w * 2) / 3, y2: zone.y + zone.h, stroke: "#d8ded7" }),
-      svgEl("line", { x1: zone.x, y1: zone.y + zone.h / 3, x2: zone.x + zone.w, y2: zone.y + zone.h / 3, stroke: "#d8ded7" }),
-      svgEl("line", { x1: zone.x, y1: zone.y + (zone.h * 2) / 3, x2: zone.x + zone.w, y2: zone.y + (zone.h * 2) / 3, stroke: "#d8ded7" }),
-      svgEl("path", { d: `M ${plateLeft.x.toFixed(1)} ${plateLeft.y.toFixed(1)} H ${plateRight.x.toFixed(1)} L ${(plateRight.x - 21).toFixed(1)} ${(plateRight.y + 35).toFixed(1)} L ${platePoint.x.toFixed(1)} ${platePoint.y.toFixed(1)} L ${(plateLeft.x + 21).toFixed(1)} ${(plateLeft.y + 35).toFixed(1)} Z`, fill: "#e7d3b1", stroke: "#b89058" }),
-      svgEl("text", { x: 260, y: 455, "text-anchor": "middle", fill: "#5c6773", "font-size": 13 }, [document.createTextNode("Catcher view · median batter zone")]),
+      svgEl("rect", { x: 0, y: 0, width: 520, height: 480, fill: FIELD_COLORS.zoneBg }),
+      svgEl("rect", { x: zone.x, y: zone.y, width: zone.w, height: zone.h, fill: "#ffffff", stroke: "#17212b", "stroke-width": 2 }),
+      svgEl("line", { x1: zone.x + zone.w / 3, y1: zone.y, x2: zone.x + zone.w / 3, y2: zone.y + zone.h, stroke: FIELD_COLORS.zoneGrid }),
+      svgEl("line", { x1: zone.x + (zone.w * 2) / 3, y1: zone.y, x2: zone.x + (zone.w * 2) / 3, y2: zone.y + zone.h, stroke: FIELD_COLORS.zoneGrid }),
+      svgEl("line", { x1: zone.x, y1: zone.y + zone.h / 3, x2: zone.x + zone.w, y2: zone.y + zone.h / 3, stroke: FIELD_COLORS.zoneGrid }),
+      svgEl("line", { x1: zone.x, y1: zone.y + (zone.h * 2) / 3, x2: zone.x + zone.w, y2: zone.y + (zone.h * 2) / 3, stroke: FIELD_COLORS.zoneGrid }),
+      svgEl("path", { d: `M ${plateLeft.x.toFixed(1)} ${plateLeft.y.toFixed(1)} H ${plateRight.x.toFixed(1)} L ${(plateRight.x - 21).toFixed(1)} ${(plateRight.y + 35).toFixed(1)} L ${platePoint.x.toFixed(1)} ${platePoint.y.toFixed(1)} L ${(plateLeft.x + 21).toFixed(1)} ${(plateLeft.y + 35).toFixed(1)} Z`, fill: FIELD_COLORS.plateFill, stroke: FIELD_COLORS.dirtStroke }),
+      svgEl("text", { x: 260, y: 455, "text-anchor": "middle", fill: "#5c6670", "font-size": 13 }, [document.createTextNode("Catcher view · median batter zone")]),
     );
 
     const events = data.events.pitches.filter((event) => {

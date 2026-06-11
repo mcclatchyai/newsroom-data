@@ -10,18 +10,21 @@
 .pulse-royals-demo {
   --pr-ink: #17212b;
   --pr-muted: #5c6773;
-  --pr-border: #d8ded7;
-  --pr-paper: #fbfaf7;
-  --pr-panel: #ffffff;
-  --pr-field: #dbe8d2;
-  --pr-field-dark: #b6d0a7;
-  --pr-dirt: #d8b37d;
-  --pr-royals: #1f5f9f;
-  --pr-away: #9b3f32;
-  --pr-green: #317b58;
-  --pr-gold: #b7842a;
-  --pr-red: #b94141;
-  --pr-blue-soft: #eaf2f9;
+  --pr-border: #d9ddda;
+  --pr-paper: #f7f3ea;
+  --pr-panel: #fffdf8;
+  --pr-field: #cfe2c3;
+  --pr-field-dark: #afcb9d;
+  --pr-dirt: #c99052;
+  --pr-dirt-dark: #9f6b36;
+  --pr-royals: #1268b3;
+  --pr-away: #923a35;
+  --pr-green: #2e856e;
+  --pr-gold: #c88f2d;
+  --pr-red: #cf3e3e;
+  --pr-purple: #7b5eb4;
+  --pr-slate: #5c6670;
+  --pr-blue-soft: #e7f1fb;
   --pr-font: Arial, Helvetica, sans-serif;
   color: var(--pr-ink);
   font-family: var(--pr-font);
@@ -194,8 +197,8 @@
 
 .pulse-royals-chart-wrap {
   aspect-ratio: 1.34 / 1;
-  background: #f3f6ef;
-  border: 1px solid #ccd9c8;
+  background: #f6f1e8;
+  border: 1px solid #ccd8c5;
   border-radius: 6px;
   overflow: hidden;
   position: relative;
@@ -375,7 +378,7 @@
   background: #f7f9fb;
   border: 1px solid #cbd9e7;
   border-radius: 8px;
-  color: #1f5f9f;
+  color: #1268b3;
   font-weight: 700;
   padding: 14px;
   text-decoration: none;
