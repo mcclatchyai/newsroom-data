@@ -1,10 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680" role="img" aria-labelledby="title desc">
-  <title id="title">Royals demo pitch zone</title>
-  <desc id="desc">Static placeholder SVG generated with data metadata. Open preview.html for the interactive version.</desc>
-  <rect width="980" height="680" fill="#f7f4ed"/>
-  <text x="48" y="80" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#17212b">KC Star Royals visual demo</text>
-  <text x="48" y="122" font-family="Arial, sans-serif" font-size="18" fill="#4a5561">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
-  <text x="48" y="178" font-family="Arial, sans-serif" font-size="20" fill="#17212b">Interactive pitch-zone card is available in preview.html.</text>
-  <text x="48" y="232" font-family="Arial, sans-serif" font-size="16" fill="#5d6875">Batted balls: 64 · Pitches: 333 · Hard-hit balls: 18</text>
+  <title id="title">Royals pitch-zone card</title>
+  <desc id="desc">Pitch locations for New York Yankees 10, Kansas City Royals 2 · 2025-06-10, colored by pitch result.</desc>
+  <rect width="980" height="680" fill="#fbfaf7"/>
+  <text x="48" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17212b">Royals pitch-zone card</text>
+  <text x="48" y="90" font-family="Arial, sans-serif" font-size="16" fill="#5c6773">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
+  <rect x="110" y="92" width="760" height="510" fill="#fff" stroke="#d8ded7"/>
+  <rect x="350" y="188" width="280" height="305" fill="none" stroke="#17212b" stroke-width="3"/>
+  <line x1="443.3" y1="188" x2="443.3" y2="493" stroke="#d8ded7"/>
+  <line x1="536.6" y1="188" x2="536.6" y2="493" stroke="#d8ded7"/>
+  <line x1="350" y1="289.6" x2="630" y2="289.6" stroke="#d8ded7"/>
+  <line x1="350" y1="391.3" x2="630" y2="391.3" stroke="#d8ded7"/>
+  <path d="M425 548 H555 L524 600 H456 Z" fill="#e7d3b1" stroke="#b89058"/>
+  <circle cx="490.5" cy="460.8" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, field_out</title></circle>
+    <circle cx="592.6" cy="175.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="344.1" cy="215.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="425.5" cy="492.4" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: swinging_strike</title></circle>
+    <circle cx="168.7" cy="427.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="433.3" cy="338.5" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, double</title></circle>
+    <circle cx="402.4" cy="398.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="374.9" cy="507.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="482.4" cy="418.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="471.6" cy="221.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="425.5" cy="537.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="335.8" cy="445.7" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike_blocked, strikeout</title></circle>
+    <circle cx="346.8" cy="123.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="430.0" cy="238.2" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="531.8" cy="400.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: foul</title></circle>
+    <circle cx="405.8" cy="244.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="316.2" cy="301.3" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul_tip, strikeout</title></circle>
+    <circle cx="410.8" cy="371.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="479.0" cy="216.1" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike</title></circle>
+    <circle cx="376.9" cy="353.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="447.5" cy="536.6" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="262.6" cy="313.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="594.5" cy="301.0" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: called_strike</title></circle>
+    <circle cx="561.8" cy="362.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: hit_into_play, field_out</title></circle>
+    <circle cx="553.3" cy="375.3" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: swinging_strike, strikeout</title></circle>
+    <circle cx="499.2" cy="379.9" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: called_strike</title></circle>
+    <circle cx="334.1" cy="622.6" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="478.8" cy="311.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="415.6" cy="541.3" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="440.3" cy="298.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, single</title></circle>
+    <circle cx="281.3" cy="401.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="326.6" cy="411.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="413.2" cy="542.5" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: swinging_strike</title></circle>
+    <circle cx="546.6" cy="379.1" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul_tip, strikeout</title></circle>
+    <circle cx="480.4" cy="266.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="197.4" cy="621.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="332.9" cy="794.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: blocked_ball</title></circle>
+    <circle cx="457.2" cy="278.2" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: foul</title></circle>
+    <circle cx="394.0" cy="504.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="376.2" cy="288.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="487.1" cy="425.6" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="466.0" cy="392.0" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: foul</title></circle>
+    <circle cx="479.8" cy="354.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="412.9" cy="392.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="445.8" cy="512.2" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="528.8" cy="310.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, home_run</title></circle>
+    <circle cx="544.9" cy="368.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: hit_into_play, force_out</title></circle>
+    <circle cx="509.8" cy="318.1" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="450.0" cy="340.0" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: hit_into_play, single</title></circle>
+    <circle cx="533.2" cy="356.9" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, home_run</title></circle>
+    <circle cx="477.7" cy="352.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="210.2" cy="446.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="415.3" cy="319.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="397.1" cy="375.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="515.6" cy="211.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="429.1" cy="324.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: foul</title></circle>
+    <circle cx="315.4" cy="403.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="368.6" cy="634.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: blocked_ball</title></circle>
+    <circle cx="756.2" cy="176.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="387.4" cy="142.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="422.7" cy="303.6" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="371.4" cy="557.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: blocked_ball</title></circle>
+    <circle cx="461.2" cy="343.4" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="611.4" cy="325.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: called_strike, strikeout</title></circle>
+    <circle cx="387.2" cy="270.2" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, single</title></circle>
+    <circle cx="491.5" cy="361.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="510.6" cy="333.2" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="475.6" cy="271.2" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, single</title></circle>
+    <circle cx="549.8" cy="260.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul_tip</title></circle>
+    <circle cx="629.5" cy="407.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="557.6" cy="502.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="633.8" cy="476.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="355.6" cy="594.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="505.9" cy="499.2" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: foul</title></circle>
+    <circle cx="550.7" cy="481.8" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: hit_into_play, single</title></circle>
+    <circle cx="441.6" cy="555.1" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="356.9" cy="400.0" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="252.1" cy="427.6" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="676.4" cy="326.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="565.8" cy="347.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="461.6" cy="284.8" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, field_out</title></circle>
+    <circle cx="377.2" cy="385.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: foul</title></circle>
+    <circle cx="557.3" cy="485.1" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul_tip</title></circle>
+    <circle cx="451.4" cy="553.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="304.3" cy="743.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="424.2" cy="343.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="395.4" cy="242.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="712.5" cy="222.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: ball</title></circle>
+    <circle cx="484.4" cy="381.2" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="501.8" cy="262.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: hit_into_play, field_out</title></circle>
+    <circle cx="343.5" cy="558.3" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike, strikeout</title></circle>
+    <circle cx="434.3" cy="250.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: foul</title></circle>
+    <circle cx="440.8" cy="405.7" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: called_strike</title></circle>
+    <circle cx="458.3" cy="420.5" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: hit_into_play, field_out</title></circle>
+    <circle cx="421.4" cy="313.7" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: called_strike</title></circle>
+    <circle cx="735.6" cy="390.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="436.0" cy="236.9" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="467.4" cy="299.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="732.3" cy="368.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="468.7" cy="215.2" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike</title></circle>
+    <circle cx="442.5" cy="278.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="284.4" cy="622.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="707.7" cy="251.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="435.3" cy="354.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="497.3" cy="311.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="475.5" cy="391.0" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="419.1" cy="502.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="676.3" cy="393.2" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="321.5" cy="474.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="506.4" cy="334.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="384.8" cy="387.3" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="353.9" cy="464.0" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: swinging_strike, strikeout</title></circle>
+    <circle cx="613.3" cy="271.6" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="473.6" cy="221.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="398.8" cy="277.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="780.7" cy="516.9" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball, walk</title></circle>
+    <circle cx="713.8" cy="350.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="476.7" cy="427.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="618.6" cy="263.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="386.1" cy="294.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="433.5" cy="576.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: blocked_ball</title></circle>
+    <circle cx="537.6" cy="559.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="340.8" cy="339.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="559.5" cy="611.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="585.2" cy="171.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="340.8" cy="440.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="439.6" cy="366.7" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: swinging_strike, strikeout</title></circle>
+    <circle cx="704.7" cy="130.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="468.7" cy="296.7" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="498.1" cy="218.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="508.2" cy="692.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: blocked_ball</title></circle>
+    <circle cx="635.0" cy="422.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="488.0" cy="187.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="674.1" cy="428.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="388.4" cy="456.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: foul</title></circle>
+    <circle cx="564.8" cy="284.1" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="470.7" cy="285.4" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="549.4" cy="269.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, single</title></circle>
+    <circle cx="545.1" cy="297.1" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="526.6" cy="394.0" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="529.0" cy="247.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="560.3" cy="494.5" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, force_out</title></circle>
+    <circle cx="698.8" cy="545.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="527.0" cy="405.5" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, field_out</title></circle>
+    <circle cx="478.0" cy="253.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="348.0" cy="462.5" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike, strikeout</title></circle>
+    <circle cx="547.4" cy="306.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="646.5" cy="565.6" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: blocked_ball</title></circle>
+    <circle cx="302.8" cy="431.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: ball</title></circle>
+    <circle cx="640.5" cy="338.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="557.5" cy="317.9" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="524.1" cy="321.7" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="347.5" cy="362.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="409.0" cy="366.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="444.9" cy="233.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="316.8" cy="402.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="410.5" cy="352.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: called_strike</title></circle>
+    <circle cx="386.4" cy="346.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, double</title></circle>
+    <circle cx="546.7" cy="422.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="620.5" cy="509.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="535.2" cy="334.0" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, single</title></circle>
+    <circle cx="295.8" cy="185.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="442.2" cy="264.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, single</title></circle>
+    <circle cx="380.1" cy="506.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="722.4" cy="400.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="367.7" cy="486.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="429.5" cy="367.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="460.7" cy="380.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, single</title></circle>
+    <circle cx="531.8" cy="256.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, single</title></circle>
+    <circle cx="545.2" cy="281.1" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="651.3" cy="703.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="442.2" cy="471.6" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="568.6" cy="394.4" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="464.1" cy="300.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="502.3" cy="212.9" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike</title></circle>
+    <circle cx="459.8" cy="259.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="515.8" cy="254.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="770.6" cy="523.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="353.2" cy="554.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="537.0" cy="442.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="374.0" cy="211.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="414.4" cy="183.0" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: swinging_strike, strikeout</title></circle>
+    <circle cx="548.2" cy="249.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="634.5" cy="612.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: blocked_ball</title></circle>
+    <circle cx="610.6" cy="382.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="551.4" cy="430.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, field_out</title></circle>
+    <circle cx="332.3" cy="290.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="677.7" cy="259.2" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: hit_into_play, field_out</title></circle>
+    <circle cx="607.4" cy="415.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="704.4" cy="570.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: blocked_ball</title></circle>
+    <circle cx="521.9" cy="524.3" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: swinging_strike, strikeout</title></circle>
+    <circle cx="664.2" cy="320.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="638.0" cy="272.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="612.9" cy="495.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="623.9" cy="568.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: blocked_ball</title></circle>
+    <circle cx="336.7" cy="401.0" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="470.1" cy="618.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: blocked_ball</title></circle>
+    <circle cx="693.7" cy="619.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: blocked_ball</title></circle>
+    <circle cx="614.0" cy="405.1" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, single</title></circle>
+    <circle cx="482.4" cy="287.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="500.0" cy="424.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: hit_into_play, single</title></circle>
+    <circle cx="366.2" cy="416.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="655.3" cy="187.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="699.3" cy="577.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: blocked_ball</title></circle>
+    <circle cx="519.4" cy="523.1" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: swinging_strike</title></circle>
+    <circle cx="776.6" cy="527.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="569.8" cy="343.9" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="515.2" cy="397.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="639.4" cy="371.7" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="489.5" cy="407.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="406.3" cy="372.6" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Knuckle Curve: called_strike</title></circle>
+    <circle cx="548.2" cy="293.8" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: swinging_strike</title></circle>
+    <circle cx="512.1" cy="508.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="546.9" cy="417.2" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: swinging_strike</title></circle>
+    <circle cx="508.4" cy="336.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, single</title></circle>
+    <circle cx="415.0" cy="335.3" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike, strikeout</title></circle>
+    <circle cx="558.5" cy="326.8" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, force_out</title></circle>
+    <circle cx="245.0" cy="301.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="629.3" cy="409.2" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="598.8" cy="304.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="547.8" cy="403.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="477.0" cy="393.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="373.0" cy="455.4" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="440.0" cy="109.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="351.3" cy="418.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: called_strike</title></circle>
+    <circle cx="479.1" cy="460.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="456.3" cy="499.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="508.6" cy="369.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, double</title></circle>
+    <circle cx="303.5" cy="449.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="476.1" cy="368.9" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: hit_into_play, single</title></circle>
+    <circle cx="417.0" cy="395.0" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, field_out</title></circle>
+    <circle cx="528.9" cy="380.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="473.3" cy="386.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, single</title></circle>
+    <circle cx="421.1" cy="281.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, double</title></circle>
+    <circle cx="491.0" cy="205.1" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="456.6" cy="401.4" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="358.2" cy="149.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="357.4" cy="486.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="460.5" cy="461.7" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="363.8" cy="419.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="397.3" cy="292.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: hit_into_play, field_out</title></circle>
+    <circle cx="372.5" cy="307.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="265.8" cy="179.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="422.6" cy="302.3" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="484.8" cy="496.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="430.4" cy="313.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="316.8" cy="254.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="267.0" cy="327.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="406.0" cy="592.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: blocked_ball</title></circle>
+    <circle cx="303.0" cy="438.2" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball, walk</title></circle>
+    <circle cx="445.4" cy="361.0" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="322.5" cy="267.9" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="404.5" cy="381.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="490.7" cy="492.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="472.2" cy="318.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sweeper: called_strike</title></circle>
+    <circle cx="515.9" cy="401.1" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="99.0" cy="489.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="510.7" cy="442.6" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: hit_into_play, field_out</title></circle>
+    <circle cx="776.6" cy="428.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="249.9" cy="315.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="428.7" cy="594.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: blocked_ball</title></circle>
+    <circle cx="368.6" cy="181.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="526.9" cy="507.2" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball, walk</title></circle>
+    <circle cx="574.1" cy="289.1" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: called_strike</title></circle>
+    <circle cx="503.9" cy="333.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="487.6" cy="335.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="324.0" cy="436.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="393.4" cy="451.3" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: called_strike</title></circle>
+    <circle cx="611.2" cy="439.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, force_out</title></circle>
+    <circle cx="434.8" cy="314.3" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, home_run</title></circle>
+    <circle cx="445.3" cy="336.1" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="689.5" cy="426.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="484.6" cy="473.9" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: swinging_strike</title></circle>
+    <circle cx="266.5" cy="200.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="362.7" cy="385.9" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: foul</title></circle>
+    <circle cx="319.9" cy="544.2" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="589.2" cy="440.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: called_strike</title></circle>
+    <circle cx="612.1" cy="403.8" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="673.7" cy="379.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="399.9" cy="322.9" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, single</title></circle>
+    <circle cx="663.9" cy="403.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="614.0" cy="515.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="610.9" cy="269.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="496.2" cy="253.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="342.6" cy="454.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="544.0" cy="203.8" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball, walk</title></circle>
+    <circle cx="360.0" cy="167.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="590.6" cy="493.2" r="4.2" fill="#5c6773" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball, walk</title></circle>
+    <circle cx="321.3" cy="494.1" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike, strikeout</title></circle>
+    <circle cx="701.8" cy="389.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="697.7" cy="488.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="349.6" cy="306.1" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="196.0" cy="497.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="556.2" cy="253.6" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="548.4" cy="283.5" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="523.3" cy="258.4" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="540.0" cy="338.5" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="475.0" cy="308.3" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="588.7" cy="444.2" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="569.9" cy="371.8" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: hit_into_play, single</title></circle>
+    <circle cx="599.6" cy="199.4" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike, strikeout</title></circle>
+    <circle cx="511.3" cy="259.5" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, single</title></circle>
+    <circle cx="423.6" cy="412.4" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="434.5" cy="378.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: foul</title></circle>
+    <circle cx="496.0" cy="216.6" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="496.3" cy="404.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="344.8" cy="340.4" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="358.7" cy="418.5" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: swinging_strike</title></circle>
+    <circle cx="544.6" cy="516.9" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="533.3" cy="378.7" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: foul</title></circle>
+    <circle cx="336.2" cy="436.7" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike</title></circle>
+    <circle cx="333.0" cy="302.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="348.3" cy="335.7" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out</title></circle>
+    <circle cx="428.1" cy="571.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Curveball: ball</title></circle>
+    <circle cx="614.2" cy="549.8" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: blocked_ball</title></circle>
+    <circle cx="501.3" cy="698.6" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Changeup: ball</title></circle>
+    <circle cx="315.7" cy="323.5" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="350.2" cy="329.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="642.7" cy="466.2" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="684.4" cy="356.0" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: foul</title></circle>
+    <circle cx="365.6" cy="347.8" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="451.8" cy="286.0" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="477.6" cy="282.0" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: called_strike</title></circle>
+    <circle cx="352.4" cy="406.4" r="5.7" fill="#317b58" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: hit_into_play, field_out</title></circle>
+    <circle cx="531.1" cy="472.3" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: called_strike</title></circle>
+    <circle cx="370.9" cy="370.9" r="4.2" fill="#b94141" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: swinging_strike</title></circle>
+    <circle cx="663.4" cy="441.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Slider: ball</title></circle>
+    <circle cx="364.9" cy="239.0" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Cutter: ball</title></circle>
+    <circle cx="417.1" cy="127.6" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: ball</title></circle>
+    <circle cx="559.2" cy="220.3" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+    <circle cx="600.2" cy="317.0" r="4.2" fill="#1f5f9f" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: called_strike</title></circle>
+    <circle cx="572.3" cy="341.5" r="4.2" fill="#6a55a3" opacity="0.76" stroke="#fff" stroke-width="1"><title>4-Seam Fastball: foul</title></circle>
+    <circle cx="657.2" cy="366.7" r="4.2" fill="#a5742b" opacity="0.76" stroke="#fff" stroke-width="1"><title>Sinker: ball</title></circle>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#36414d">
+    <circle cx="54" cy="638" r="6" fill="#b94141"/><text x="68" y="642">Whiff</text>
+    <circle cx="130" cy="638" r="6" fill="#1f5f9f"/><text x="144" y="642">Called strike</text>
+    <circle cx="248" cy="638" r="6" fill="#317b58"/><text x="262" y="642">In play</text>
+    <circle cx="328" cy="638" r="6" fill="#a5742b"/><text x="342" y="642">Ball</text>
+  </g>
+  <text x="926" y="642" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5c6773">Internal prototype · rights review needed</text>
 </svg>

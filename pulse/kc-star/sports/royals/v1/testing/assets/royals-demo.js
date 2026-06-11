@@ -264,6 +264,11 @@
       ["Roster or player trend story", "Reuse the same renderer across rolling windows for Bobby Witt Jr., Salvador Perez, prospects or opposing pitchers."],
       ["Editor handoff", "Send a preview link, source note and caveat with the morning or postgame desk readout."],
     ];
+    const feedbackQuestions = [
+      "Would this help a Royals recap or follow-up?",
+      "What should the color encode: result, run value, exit velocity or something else?",
+      "Would you want a PNG/SVG, CUE embed or dashboard link?",
+    ];
 
     root.innerHTML = "";
     root.append(
@@ -327,6 +332,14 @@
                 el("li", {}, [
                   el("strong", {}, [document.createTextNode(heading)]),
                   el("span", {}, [document.createTextNode(text)]),
+                ]),
+              )),
+            ]),
+            el("article", { class: "pulse-royals-panel" }, [
+              el("h3", {}, [document.createTextNode("Reporter Feedback Prompt")]),
+              el("ul", { class: "pulse-royals-list" }, feedbackQuestions.map((question) =>
+                el("li", {}, [
+                  el("strong", {}, [document.createTextNode(question)]),
                 ]),
               )),
             ]),

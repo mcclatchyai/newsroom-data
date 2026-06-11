@@ -1,10 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680" role="img" aria-labelledby="title desc">
-  <title id="title">Royals demo contact map</title>
-  <desc id="desc">Static placeholder SVG generated with data metadata. Open preview.html for the interactive version.</desc>
-  <rect width="980" height="680" fill="#f7f4ed"/>
-  <text x="48" y="80" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#17212b">KC Star Royals visual demo</text>
-  <text x="48" y="122" font-family="Arial, sans-serif" font-size="18" fill="#4a5561">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
-  <text x="48" y="178" font-family="Arial, sans-serif" font-size="20" fill="#17212b">Interactive contact map is available in preview.html.</text>
-  <text x="48" y="232" font-family="Arial, sans-serif" font-size="16" fill="#5d6875">Batted balls: 64 · Pitches: 333 · Hard-hit balls: 18</text>
+  <title id="title">Royals postgame contact map</title>
+  <desc id="desc">Batted-ball locations for New York Yankees 10, Kansas City Royals 2 · 2025-06-10, colored by result and sized by exit velocity.</desc>
+  <rect width="980" height="680" fill="#fbfaf7"/>
+  <text x="48" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17212b">Royals postgame contact map</text>
+  <text x="48" y="90" font-family="Arial, sans-serif" font-size="16" fill="#5c6773">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
+  <path d="M490 580 L118 220 Q490 34 862 220 Z" fill="#dbe8d2" stroke="#9fba97" stroke-width="2"/>
+  <path d="M490 580 L318 418 L490 256 L662 418 Z" fill="#d8b37d" stroke="#b89058" stroke-width="2"/>
+  <path d="M490 580 L118 220 M490 580 L862 220" fill="none" stroke="#fff" stroke-width="4"/>
+  <path d="M318 418 L490 256 L662 418" fill="none" stroke="#fff" stroke-width="2"/>
+  <circle cx="490" cy="405" r="18" fill="#c79c64"/>
+  <rect x="481" y="571" width="18" height="18" fill="#fff" transform="rotate(45 490 580)"/>
+  <text x="490" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#557150">Outfield</text>
+  <circle cx="437.2" cy="498.8" r="11.0" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jasson Domínguez: field out, 94.2 mph</title></circle>
+    <circle cx="660.0" cy="239.9" r="12.6" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jazz Chisholm Jr.: double, 108.1 mph</title></circle>
+    <circle cx="468.2" cy="438.0" r="10.8" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Anthony Volpe: field out, 92.5 mph</title></circle>
+    <circle cx="448.9" cy="451.0" r="10.5" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Freddy Fermin: field out, 89.9 mph</title></circle>
+    <circle cx="596.8" cy="455.2" r="9.7" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jac Caglianone: field out, 83.5 mph</title></circle>
+    <circle cx="571.6" cy="444.5" r="8.1" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Mark Canha: field out, 69.9 mph</title></circle>
+    <circle cx="451.4" cy="474.2" r="8.3" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Salvador Perez: single, 71.8 mph</title></circle>
+    <circle cx="560.0" cy="478.1" r="10.9" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Trent Grisham: field out, 93.4 mph</title></circle>
+    <circle cx="455.3" cy="279.1" r="11.1" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Paul Goldschmidt: field out, 95.8 mph</title></circle>
+    <circle cx="698.6" cy="244.3" r="11.7" fill="#b94141" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Austin Wells: home run, 100.2 mph</title></circle>
+    <circle cx="456.6" cy="471.7" r="8.7" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Maikel Garcia: force out, 75 mph</title></circle>
+    <circle cx="439.6" cy="306.8" r="11.4" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Bobby Witt Jr.: single, 98 mph</title></circle>
+    <circle cx="444.6" cy="154.3" r="12.2" fill="#b94141" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jonathan India: home run, 104.6 mph</title></circle>
+    <circle cx="498.8" cy="309.3" r="11.7" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY DJ LeMahieu: single, 101 mph</title></circle>
+    <circle cx="627.1" cy="429.9" r="8.4" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jasson Domínguez: single, 72.6 mph</title></circle>
+    <circle cx="383.3" cy="331.5" r="11.0" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Freddy Fermin: single, 94.2 mph</title></circle>
+    <circle cx="603.9" cy="341.3" r="11.4" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jazz Chisholm Jr.: field out, 98.1 mph</title></circle>
+    <circle cx="427.0" cy="414.8" r="12.1" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jac Caglianone: field out, 104.4 mph</title></circle>
+    <circle cx="608.3" cy="422.2" r="8.7" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Mark Canha: field out, 75.1 mph</title></circle>
+    <circle cx="426.9" cy="501.4" r="10.2" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Salvador Perez: field out, 88.1 mph</title></circle>
+    <circle cx="455.3" cy="461.3" r="11.0" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Cody Bellinger: field out, 95 mph</title></circle>
+    <circle cx="354.5" cy="496.2" r="9.5" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Vinnie Pasquantino: field out, 82 mph</title></circle>
+    <circle cx="468.3" cy="430.5" r="7.9" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Maikel Garcia: field out, 67.7 mph</title></circle>
+    <circle cx="562.6" cy="473.0" r="10.0" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY J.C. Escarra: field out, 85.8 mph</title></circle>
+    <circle cx="364.2" cy="251.3" r="10.8" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Bobby Witt Jr.: field out, 92.5 mph</title></circle>
+    <circle cx="541.9" cy="462.6" r="7.7" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Anthony Volpe: field out, 65.8 mph</title></circle>
+    <circle cx="484.3" cy="320.0" r="8.3" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Drew Waters: single, 71.7 mph</title></circle>
+    <circle cx="434.6" cy="489.7" r="7.9" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Freddy Fermin: force out, 67.8 mph</title></circle>
+    <circle cx="475.2" cy="512.0" r="11.5" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jonathan India: field out, 98.6 mph</title></circle>
+    <circle cx="389.8" cy="446.1" r="11.0" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Ben Rice: field out, 94.5 mph</title></circle>
+    <circle cx="475.4" cy="567.6" r="7.4" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Drew Waters: field out, 64 mph</title></circle>
+    <circle cx="416.3" cy="235.4" r="11.1" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY DJ LeMahieu: double, 95.5 mph</title></circle>
+    <circle cx="553.3" cy="318.5" r="8.7" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Cody Bellinger: single, 74.6 mph</title></circle>
+    <circle cx="648.9" cy="439.2" r="8.5" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Aaron Judge: single, 72.9 mph</title></circle>
+    <circle cx="447.6" cy="515.6" r="9.2" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Austin Wells: field out, 79.3 mph</title></circle>
+    <circle cx="478.6" cy="558.2" r="10.9" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Freddy Fermin: field out, 93.4 mph</title></circle>
+    <circle cx="646.6" cy="363.1" r="10.9" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Trent Grisham: single, 93.8 mph</title></circle>
+    <circle cx="617.1" cy="397.9" r="12.9" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jac Caglianone: single, 110.7 mph</title></circle>
+    <circle cx="476.0" cy="575.0" r="9.9" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Mark Canha: field out, 84.8 mph</title></circle>
+    <circle cx="592.3" cy="458.0" r="12.4" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jasson Domínguez: field out, 106.9 mph</title></circle>
+    <circle cx="481.2" cy="537.5" r="7.3" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY DJ LeMahieu: field out, 62.5 mph</title></circle>
+    <circle cx="548.4" cy="484.6" r="6.0" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jac Caglianone: field out, 44.6 mph</title></circle>
+    <circle cx="620.3" cy="430.9" r="8.5" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jasson Domínguez: single, 72.7 mph</title></circle>
+    <circle cx="460.5" cy="542.7" r="7.7" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Paul Goldschmidt: single, 66.4 mph</title></circle>
+    <circle cx="376.0" cy="468.3" r="11.5" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Paul Goldschmidt: field out, 98.9 mph</title></circle>
+    <circle cx="444.6" cy="527.0" r="6.3" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Anthony Volpe: single, 54.4 mph</title></circle>
+    <circle cx="530.8" cy="419.5" r="10.8" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Mark Canha: force out, 92.8 mph</title></circle>
+    <circle cx="572.7" cy="397.2" r="10.3" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Vinnie Pasquantino: field out, 88.2 mph</title></circle>
+    <circle cx="686.6" cy="391.5" r="12.8" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Austin Wells: double, 110.5 mph</title></circle>
+    <circle cx="457.0" cy="339.7" r="9.6" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Salvador Perez: single, 82.9 mph</title></circle>
+    <circle cx="562.6" cy="469.1" r="11.1" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jazz Chisholm Jr.: field out, 95.2 mph</title></circle>
+    <circle cx="453.1" cy="523.7" r="6.0" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Vinnie Pasquantino: single, 31.1 mph</title></circle>
+    <circle cx="675.3" cy="405.8" r="10.8" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Anthony Volpe: double, 93.1 mph</title></circle>
+    <circle cx="530.3" cy="453.5" r="10.9" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Maikel Garcia: field out, 93.5 mph</title></circle>
+    <circle cx="566.4" cy="473.0" r="12.3" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Cody Bellinger: field out, 105.5 mph</title></circle>
+    <circle cx="333.1" cy="412.8" r="10.3" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Cody Bellinger: field out, 88.3 mph</title></circle>
+    <circle cx="438.5" cy="479.4" r="12.0" fill="#b7842a" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Bobby Witt Jr.: field out, 103.5 mph</title></circle>
+    <circle cx="535.4" cy="460.0" r="7.8" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Aaron Judge: force out, 66.8 mph</title></circle>
+    <circle cx="530.5" cy="301.7" r="10.6" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Jasson Domínguez: single, 91 mph</title></circle>
+    <circle cx="635.5" cy="426.5" r="10.0" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Tyler Tolbert: field out, 86.3 mph</title></circle>
+    <circle cx="424.0" cy="448.7" r="10.2" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Tyler Tolbert: single, 87.9 mph</title></circle>
+    <circle cx="536.5" cy="272.0" r="10.5" fill="#1f5f9f" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Trent Grisham: single, 90 mph</title></circle>
+    <circle cx="443.7" cy="475.5" r="8.8" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.82"><title>NYY Paul Goldschmidt: field out, 75.6 mph</title></circle>
+    <circle cx="594.4" cy="442.0" r="7.1" fill="#5c6773" stroke="#fff" stroke-width="2" opacity="0.96"><title>KC Jonathan India: field out, 60.7 mph</title></circle>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#36414d">
+    <circle cx="54" cy="638" r="6" fill="#b94141"/><text x="68" y="642">Home run</text>
+    <circle cx="164" cy="638" r="6" fill="#1f5f9f"/><text x="178" y="642">Hit</text>
+    <circle cx="228" cy="638" r="6" fill="#b7842a"/><text x="242" y="642">Hard out</text>
+    <circle cx="320" cy="638" r="6" fill="#5c6773"/><text x="334" y="642">Other out/contact</text>
+  </g>
+  <text x="926" y="642" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5c6773">Internal prototype · rights review needed</text>
 </svg>
