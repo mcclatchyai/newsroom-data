@@ -2,14 +2,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260612T133319Z",
+    "data_version": "20260612T133605Z",
     "environment": "testing",
-    "generated_at": "2026-06-12T13:34:36Z",
+    "generated_at": "2026-06-12T13:37:14Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trades.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-12T13:49:36Z"
+    "stale_after": "2026-06-12T13:52:14Z"
   },
   "trades": [
     {
@@ -724,6 +724,37 @@
       "ticker": "",
       "transaction_date": "05/11/2026",
       "transaction_id": "dcad9a8e0d7217d8"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$500,001 - $1,000,000",
+      "disclosure_lag_days": -718,
+      "district": "WA01",
+      "estimated_max": 1000000,
+      "estimated_min": 500001,
+      "filing_date": "06/11/2026",
+      "filing_id": "20034727",
+      "issuer_name": "Pacific Co B1 Bond - Trimble",
+      "market_status": "unavailable",
+      "member_name": "Hon. Suzan K. DelBene",
+      "news_result_count": 0,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/dd/16/dd163be4199aaa0f.json",
+      "publication_ready": false,
+      "reporter_flags": {
+        "committee_context_available": false,
+        "committee_overlap_check_needed": false,
+        "committee_policy_overlap_check_needed": false,
+        "congressgov_bills_found": false,
+        "congressgov_hearings_found": true,
+        "federal_awards_found": false,
+        "lobbying_records_found": false
+      },
+      "return_trade_to_filing": null,
+      "return_trade_to_latest": null,
+      "state": "WA",
+      "ticker": "B1",
+      "transaction_date": "05/29/28",
+      "transaction_id": "dd163be4199aaa0f"
     },
     {
       "action": "Exchange",

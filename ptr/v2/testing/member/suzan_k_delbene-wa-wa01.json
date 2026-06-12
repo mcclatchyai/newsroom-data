@@ -1,7 +1,7 @@
 {
   "member": {
     "action_breakdown": {
-      "sell": 1
+      "buy": 1
     },
     "asset_type": "ptr_member_profile",
     "campaign_url": "",
@@ -11,27 +11,27 @@
       "Roster metadata is optional and should be verified before publication."
     ],
     "chamber": "House",
-    "display_name": "Hon. Chip Roy",
-    "district": "TX21",
+    "display_name": "Hon. Suzan K. DelBene",
+    "district": "WA01",
     "facebook": "",
-    "member_id": "chip_roy-tx-tx21",
-    "member_name": "Hon. Chip Roy",
+    "member_id": "suzan_k_delbene-wa-wa01",
+    "member_name": "Hon. Suzan K. DelBene",
     "metadata_source": "",
     "monthly_activity": [
       {
-        "buy": 0,
-        "estimated_max": 250000.0,
-        "label": "May 2026",
-        "month": "2026-05",
+        "buy": 1,
+        "estimated_max": 1000000.0,
+        "label": "May 2028",
+        "month": "2028-05",
         "other": 0,
-        "sell": 1,
+        "sell": 0,
         "trades": 1
       }
     ],
     "news_context": [],
     "official_url": "",
     "owner_breakdown": {
-      "Self": 1
+      "JT": 1
     },
     "party": "",
     "photo_url": "",
@@ -39,37 +39,37 @@
     "price_movements": [],
     "recent_trades": [
       {
-        "estimated_max": 250000.0,
-        "estimated_min": 100001.0,
-        "filed_after_days": 28.0,
-        "filing_id": "20034762",
-        "issuer": "Atlas Energy Solutions Inc. Common Stock",
+        "estimated_max": 1000000.0,
+        "estimated_min": 500001.0,
+        "filed_after_days": -718.0,
+        "filing_id": "20034727",
+        "issuer": "Pacific Co B1 Bond - Trimble",
         "latest_close": null,
         "latest_price_date": null,
         "news_result_count": 0,
-        "owner": "Self",
-        "published_date": "06/10/2026",
+        "owner": "JT",
+        "published_date": "06/11/2026",
         "return_trade_to_filing": null,
         "return_trade_to_latest": null,
-        "size": "$100,001 - $250,000",
-        "ticker": "AESI",
+        "size": "$500,001 - $1,000,000",
+        "ticker": "B1",
         "trade_date_close": null,
         "trade_price_date": null,
-        "traded_date": "05/13/2026",
-        "transaction_id": "c84ec2d4498c9a1c",
-        "type": "sell"
+        "traded_date": "05/29/28",
+        "transaction_id": "dd163be4199aaa0f",
+        "type": "buy"
       }
     ],
     "related_insights": [],
     "schema_version": 1,
-    "state": "TX",
+    "state": "WA",
     "stats": {
-      "estimated_max_volume": 250000.0,
-      "estimated_min_volume": 100001.0,
+      "estimated_max_volume": 1000000.0,
+      "estimated_min_volume": 500001.0,
       "filings": 1,
       "flagged_trades": 0,
       "issuers": 1,
-      "last_traded": "05/13/2026",
+      "last_traded": "05/29/28",
       "market_context_available": 0,
       "news_context_available": 0,
       "tickers": 1,
@@ -78,23 +78,23 @@
     "top_issuers": [
       {
         "count": 1,
-        "issuer": "Atlas Energy Solutions Inc. Common Stock"
+        "issuer": "Pacific Co B1 Bond - Trimble"
       }
     ],
     "top_tickers": [
       {
         "count": 1,
-        "ticker": "AESI"
+        "ticker": "B1"
       }
     ],
     "trade_activity_by_date": [
       {
-        "buy": 0,
-        "estimated_max": 250000.0,
-        "estimated_min": 100001.0,
+        "buy": 1,
+        "estimated_max": 1000000.0,
+        "estimated_min": 500001.0,
         "other": 0,
-        "sell": 1,
-        "traded_date": "2026-05-13",
+        "sell": 0,
+        "traded_date": "2028-05-29",
         "trades": 1
       }
     ],
@@ -104,13 +104,13 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260612T133319Z",
+    "data_version": "20260612T133605Z",
     "environment": "testing",
-    "generated_at": "2026-06-12T13:34:36Z",
+    "generated_at": "2026-06-12T13:37:14Z",
     "project": "ptr",
-    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/chip_roy-tx-tx21.json",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-12T13:49:36Z"
+    "stale_after": "2026-06-12T13:52:14Z"
   }
 }

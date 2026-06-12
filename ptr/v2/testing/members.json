@@ -1,36 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Michael T. McCaul",
-      "district": "TX10",
-      "issuers": 21,
-      "member_id": "michael_t_mccaul-tx-tx10",
-      "member_name": "Hon. Michael T. McCaul",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/michael_t_mccaul-tx-tx10.json",
-      "state": "TX",
-      "trades": 26
-    },
-    {
-      "display_name": "Hon. Chip Roy",
-      "district": "TX21",
+      "display_name": "Hon. Suzan K. DelBene",
+      "district": "WA01",
       "issuers": 1,
-      "member_id": "chip_roy-tx-tx21",
-      "member_name": "Hon. Chip Roy",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/chip_roy-tx-tx21.json",
-      "state": "TX",
+      "member_id": "suzan_k_delbene-wa-wa01",
+      "member_name": "Hon. Suzan K. DelBene",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
+      "state": "WA",
       "trades": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260612T133319Z",
+    "data_version": "20260612T133605Z",
     "environment": "testing",
-    "generated_at": "2026-06-12T13:34:36Z",
+    "generated_at": "2026-06-12T13:37:14Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-12T13:49:36Z"
+    "stale_after": "2026-06-12T13:52:14Z"
   }
 }

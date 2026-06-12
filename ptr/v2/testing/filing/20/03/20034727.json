@@ -1,0 +1,108 @@
+{
+  "context_packet_count": 1,
+  "context_packets": [
+    {
+      "filing_id": "20034727",
+      "issuer_name": "Pacific Co B1 Bond - Trimble",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "B1",
+      "transaction_id": "dd163be4199aaa0f"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 1
+    },
+    "action_counts_json": "{\"Purchase\": 1}",
+    "disclosure_lag_days": -718,
+    "district": "WA01",
+    "estimated_max_total": 1000000,
+    "estimated_min_total": 500001,
+    "filing_date": "06/11/2026",
+    "filing_id": "20034727",
+    "filing_type": "P",
+    "ingested_at": "2026-06-12T13:35:31Z",
+    "member_name": "Hon. Suzan K. DelBene",
+    "pdf_sha256": "bbf37c10031714ff4e5b9b42d2d3a460ff0d58e4817606821cd98802684f509b",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "WA",
+    "tickers": [
+      "B1"
+    ],
+    "tickers_json": "[\"B1\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2028-05-29",
+    "transaction_date_min": "2028-05-29"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260612T133605Z",
+    "environment": "testing",
+    "generated_at": "2026-06-12T13:37:14Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034727.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-06-12T13:52:14Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20034727.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$500,001 - $1,000,000",
+      "disclosure_lag_days": -718,
+      "district": "WA01",
+      "estimated_max": 1000000,
+      "estimated_min": 500001,
+      "filed_after_due_date": false,
+      "filing_date": "06/11/2026",
+      "filing_id": "20034727",
+      "filing_type": "P",
+      "ingested_at": "2026-06-12T13:35:31Z",
+      "issuer_name": "Pacific Co B1 Bond - Trimble",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "05/28/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Pacific Co B1 Bond - Trimble 05/29/28 [CS] P 05/28/2026 $500,001 - $1,000,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-06-27",
+      "ticker": "B1",
+      "transaction_date": "05/29/28",
+      "transaction_id": "dd163be4199aaa0f"
+    }
+  ]
+}

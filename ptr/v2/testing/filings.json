@@ -2,69 +2,43 @@
   "filings": [
     {
       "action_counts": {
-        "Exchange": 26
+        "Purchase": 1
       },
-      "action_counts_json": "{\"Exchange\": 26}",
-      "disclosure_lag_days": 40,
-      "district": "TX10",
-      "estimated_max_total": null,
-      "estimated_min_total": null,
-      "filing_date": "06/10/2026",
-      "filing_id": "9116141",
+      "action_counts_json": "{\"Purchase\": 1}",
+      "disclosure_lag_days": -718,
+      "district": "WA01",
+      "estimated_max_total": 1000000,
+      "estimated_min_total": 500001,
+      "filing_date": "06/11/2026",
+      "filing_id": "20034727",
       "filing_type": "P",
-      "ingested_at": "2026-06-12T13:22:31Z",
-      "member_name": "Hon. Michael T. McCaul",
-      "pdf_sha256": "716cdcc10bd57c400f10d8bb4133eb667931a9699fb1835ed3b7deca010a36a1",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116141.pdf",
+      "ingested_at": "2026-06-12T13:35:31Z",
+      "member_name": "Hon. Suzan K. DelBene",
+      "pdf_sha256": "bbf37c10031714ff4e5b9b42d2d3a460ff0d58e4817606821cd98802684f509b",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf",
       "possible_late": false,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
-      "state": "TX",
-      "tickers": [],
-      "tickers_json": "[]",
-      "transaction_count": 26,
-      "transaction_date_max": "2026-05-28",
-      "transaction_date_min": "2026-05-01"
-    },
-    {
-      "action_counts": {
-        "S (partial)": 1
-      },
-      "action_counts_json": "{\"S (partial)\": 1}",
-      "disclosure_lag_days": 28,
-      "district": "TX21",
-      "estimated_max_total": 250000,
-      "estimated_min_total": 100001,
-      "filing_date": "06/10/2026",
-      "filing_id": "20034762",
-      "filing_type": "P",
-      "ingested_at": "2026-06-12T13:22:31Z",
-      "member_name": "Hon. Chip Roy",
-      "pdf_sha256": "545c837953739c72700df0599c2dc431762d8e7b04a57a2c433c29d5960d53f6",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034762.pdf",
-      "possible_late": false,
-      "schema_version": "1",
-      "source": "house_disclosure_pdf",
-      "state": "TX",
+      "state": "WA",
       "tickers": [
-        "AESI"
+        "B1"
       ],
-      "tickers_json": "[\"AESI\"]",
+      "tickers_json": "[\"B1\"]",
       "transaction_count": 1,
-      "transaction_date_max": "2026-05-13",
-      "transaction_date_min": "2026-05-13"
+      "transaction_date_max": "2028-05-29",
+      "transaction_date_min": "2028-05-29"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260612T133319Z",
+    "data_version": "20260612T133605Z",
     "environment": "testing",
-    "generated_at": "2026-06-12T13:34:36Z",
+    "generated_at": "2026-06-12T13:37:14Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-12T13:49:36Z"
+    "stale_after": "2026-06-12T13:52:14Z"
   }
 }
