@@ -1,358 +1,358 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680" role="img" aria-labelledby="title desc">
   <title id="title">Royals pitch-zone card</title>
-  <desc id="desc">Pitch locations for New York Yankees 10, Kansas City Royals 2 · 2025-06-10, colored by pitch result. Dark outlines show pitches inside their own Statcast sz_top/sz_bot zone.</desc>
+  <desc id="desc">Fixed-size pitch locations for New York Yankees 10, Kansas City Royals 2 · 2025-06-10, colored by pitch result. Dark outlines show pitches inside their own Statcast sz_top/sz_bot zone.</desc>
   <rect width="980" height="680" fill="#f7f3ea"/>
   <text x="48" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17212b">Royals pitch-zone card</text>
   <text x="48" y="90" font-family="Arial, sans-serif" font-size="16" fill="#5c6773">New York Yankees 10, Kansas City Royals 2 · 2025-06-10</text>
   <rect x="110" y="92" width="760" height="510" fill="#f3ead9" stroke="#d8ded7"/>
   <rect x="136" y="118" width="708" height="438" rx="10" fill="#fff8eb" stroke="#dfd3c1"/>
-  <rect x="346.8" y="242.6" width="286.4" height="223.0" fill="#ffffff" opacity="0.88" stroke="#17212b" stroke-width="3"/>
-  <line x1="367.7" y1="242.6" x2="367.7" y2="465.6" stroke="#b89458" stroke-width="1.7" stroke-dasharray="6 6"/>
-  <line x1="612.3" y1="242.6" x2="612.3" y2="465.6" stroke="#b89458" stroke-width="1.7" stroke-dasharray="6 6"/>
-  <line x1="442.3" y1="242.6" x2="442.3" y2="465.6" stroke="#d6ddd5"/>
-  <line x1="537.7" y1="242.6" x2="537.7" y2="465.6" stroke="#d6ddd5"/>
-  <line x1="346.8" y1="317.0" x2="633.2" y2="317.0" stroke="#d6ddd5"/>
-  <line x1="346.8" y1="391.3" x2="633.2" y2="391.3" stroke="#d6ddd5"/>
-  <path d="M 367.7 568.8 H 612.3 L 586.3 610.8 L 490.0 594.9 L 393.7 610.8 Z" fill="#ead6b8" stroke="#9f6b36"/>
-  <circle cx="490.6" cy="469.4" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="606.6" cy="177.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="324.2" cy="218.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="416.7" cy="501.7" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: swinging_strike, outside individual zone</title></circle>
-    <circle cx="124.9" cy="435.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="425.6" cy="344.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, double, inside individual zone</title></circle>
-    <circle cx="390.5" cy="405.6" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="359.1" cy="517.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="481.3" cy="425.9" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="469.1" cy="224.8" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: foul, outside individual zone</title></circle>
-    <circle cx="416.7" cy="548.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="314.8" cy="453.9" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike_blocked, strikeout, outside individual zone</title></circle>
-    <circle cx="327.2" cy="124.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="421.8" cy="241.6" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
-    <circle cx="537.5" cy="407.5" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
-    <circle cx="394.3" cy="248.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="292.5" cy="306.2" r="4.2" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: foul_tip, strikeout, outside individual zone</title></circle>
-    <circle cx="400.0" cy="378.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="477.4" cy="219.0" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
-    <circle cx="361.5" cy="359.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="441.7" cy="547.0" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
-    <circle cx="231.6" cy="318.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="608.8" cy="305.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
-    <circle cx="571.6" cy="368.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="561.9" cy="381.9" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: swinging_strike, strikeout, inside individual zone</title></circle>
-    <circle cx="500.5" cy="386.6" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
-    <circle cx="312.8" cy="634.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="477.3" cy="316.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="405.5" cy="551.8" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
-    <circle cx="433.6" cy="303.1" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="252.8" cy="409.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="304.3" cy="419.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="402.7" cy="552.9" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: swinging_strike, outside individual zone</title></circle>
-    <circle cx="554.4" cy="385.7" r="4.2" fill="#5c6670" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul_tip, strikeout, inside individual zone</title></circle>
-    <circle cx="479.1" cy="270.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="157.5" cy="634.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="311.4" cy="810.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: blocked_ball, outside individual zone</title></circle>
-    <circle cx="452.7" cy="282.5" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
-    <circle cx="380.9" cy="513.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="360.7" cy="293.5" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="486.7" cy="433.3" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="462.8" cy="399.0" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: foul, inside individual zone</title></circle>
-    <circle cx="478.4" cy="360.9" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="402.4" cy="399.1" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="439.8" cy="522.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="534.0" cy="315.5" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, home_run, inside individual zone</title></circle>
-    <circle cx="552.3" cy="374.8" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: hit_into_play, force_out, inside individual zone</title></circle>
-    <circle cx="512.5" cy="323.4" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="444.5" cy="345.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="539.1" cy="363.1" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, home_run, inside individual zone</title></circle>
-    <circle cx="476.0" cy="358.8" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="172.0" cy="454.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="405.1" cy="325.0" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="384.4" cy="382.1" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="519.1" cy="214.2" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
-    <circle cx="420.8" cy="329.9" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
-    <circle cx="291.6" cy="410.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="352.0" cy="647.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: blocked_ball, outside individual zone</title></circle>
-    <circle cx="792.5" cy="178.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="373.4" cy="143.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="413.6" cy="308.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="355.3" cy="567.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
-    <circle cx="457.2" cy="349.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="627.9" cy="331.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, strikeout, inside individual zone</title></circle>
-    <circle cx="373.2" cy="274.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="491.7" cy="368.2" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="513.4" cy="338.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="473.6" cy="275.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="558.0" cy="264.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul_tip, inside individual zone</title></circle>
-    <circle cx="648.6" cy="414.7" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="566.8" cy="512.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="653.4" cy="485.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="337.3" cy="606.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="508.0" cy="508.6" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: foul, outside individual zone</title></circle>
-    <circle cx="559.0" cy="490.9" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: hit_into_play, single, outside individual zone</title></circle>
-    <circle cx="434.9" cy="565.9" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
-    <circle cx="338.8" cy="407.1" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: foul, outside individual zone</title></circle>
-    <circle cx="219.7" cy="435.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="701.8" cy="332.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="576.2" cy="353.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: foul, inside individual zone</title></circle>
-    <circle cx="457.7" cy="289.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="361.8" cy="392.4" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
-    <circle cx="566.5" cy="494.2" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul_tip, outside individual zone</title></circle>
-    <circle cx="446.1" cy="564.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="278.9" cy="758.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="415.2" cy="349.3" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="382.4" cy="246.1" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="742.9" cy="225.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sweeper: ball, outside individual zone</title></circle>
-    <circle cx="483.6" cy="387.9" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: swinging_strike, inside individual zone</title></circle>
-    <circle cx="503.4" cy="266.6" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="323.5" cy="569.1" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="426.7" cy="254.4" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: foul, outside individual zone</title></circle>
-    <circle cx="434.1" cy="413.0" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
-    <circle cx="454.0" cy="428.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="412.1" cy="318.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
-    <circle cx="769.1" cy="397.6" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="428.6" cy="240.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="464.3" cy="304.2" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: foul, inside individual zone</title></circle>
-    <circle cx="765.3" cy="375.0" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="465.8" cy="218.1" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
-    <circle cx="436.0" cy="283.2" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="256.4" cy="635.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="737.4" cy="254.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="427.8" cy="361.0" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="498.3" cy="316.5" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="473.5" cy="397.9" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="409.4" cy="511.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="701.7" cy="400.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="298.5" cy="483.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="508.6" cy="340.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="370.4" cy="394.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="335.3" cy="472.6" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="630.1" cy="275.7" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="471.3" cy="224.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="386.4" cy="281.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="820.3" cy="526.8" r="4.2" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, walk, outside individual zone</title></circle>
-    <circle cx="744.3" cy="356.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="474.9" cy="435.3" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="636.2" cy="267.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="371.9" cy="299.0" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="425.8" cy="587.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
-    <circle cx="544.1" cy="569.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="320.4" cy="345.5" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="568.9" cy="623.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="598.1" cy="173.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="320.5" cy="448.7" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="432.7" cy="373.1" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: swinging_strike, strikeout, inside individual zone</title></circle>
-    <circle cx="734.0" cy="131.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="465.8" cy="301.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="499.2" cy="220.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="510.6" cy="706.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
-    <circle cx="654.8" cy="430.5" r="4.2" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: called_strike, outside individual zone</title></circle>
-    <circle cx="487.7" cy="189.9" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
-    <circle cx="699.2" cy="436.2" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="374.6" cy="465.1" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sweeper: foul, outside individual zone</title></circle>
-    <circle cx="575.0" cy="288.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="468.1" cy="289.9" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: swinging_strike, inside individual zone</title></circle>
-    <circle cx="557.5" cy="273.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="552.6" cy="301.9" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="531.5" cy="401.0" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="534.3" cy="251.1" r="4.2" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: ball, inside individual zone</title></circle>
-    <circle cx="569.9" cy="503.9" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: hit_into_play, force_out, outside individual zone</title></circle>
-    <circle cx="727.3" cy="556.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="532.1" cy="412.8" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="476.3" cy="257.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="328.6" cy="471.1" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="555.2" cy="311.4" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="667.8" cy="576.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
-    <circle cx="277.3" cy="439.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sweeper: ball, outside individual zone</title></circle>
-    <circle cx="661.0" cy="344.1" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="566.7" cy="323.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="528.8" cy="327.0" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="328.1" cy="368.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="397.9" cy="373.1" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="438.8" cy="237.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="293.2" cy="410.2" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: foul, outside individual zone</title></circle>
-    <circle cx="399.6" cy="358.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: called_strike, inside individual zone</title></circle>
-    <circle cx="372.3" cy="352.0" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, double, inside individual zone</title></circle>
-    <circle cx="554.4" cy="430.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="638.3" cy="518.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="541.3" cy="339.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="269.3" cy="188.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="435.6" cy="268.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="365.1" cy="515.8" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="754.1" cy="407.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="351.0" cy="495.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="421.2" cy="373.5" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="456.7" cy="387.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="537.4" cy="260.1" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="552.7" cy="285.5" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="673.3" cy="717.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="435.7" cy="480.4" r="4.2" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: called_strike, outside individual zone</title></circle>
-    <circle cx="579.3" cy="401.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="460.6" cy="305.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="503.9" cy="215.7" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
-    <circle cx="455.7" cy="263.8" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: foul, inside individual zone</title></circle>
-    <circle cx="519.3" cy="258.7" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="808.9" cy="533.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="334.6" cy="565.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="543.4" cy="450.6" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="358.2" cy="214.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="404.1" cy="185.1" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="556.2" cy="253.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="654.2" cy="624.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
-    <circle cx="627.0" cy="389.6" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="559.7" cy="438.6" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="310.8" cy="295.0" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: foul, outside individual zone</title></circle>
-    <circle cx="703.3" cy="263.1" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="623.4" cy="423.1" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="733.7" cy="581.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
-    <circle cx="526.3" cy="534.4" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="688.0" cy="325.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="658.2" cy="277.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="629.7" cy="504.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="642.1" cy="579.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: blocked_ball, outside individual zone</title></circle>
-    <circle cx="315.8" cy="408.2" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: foul, outside individual zone</title></circle>
-    <circle cx="467.4" cy="630.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: blocked_ball, outside individual zone</title></circle>
-    <circle cx="721.5" cy="631.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
-    <circle cx="630.9" cy="412.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="481.3" cy="292.2" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="501.4" cy="432.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="349.3" cy="424.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="677.9" cy="190.0" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="727.8" cy="588.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
-    <circle cx="523.4" cy="533.1" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: swinging_strike, outside individual zone</title></circle>
-    <circle cx="815.7" cy="537.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="580.7" cy="349.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="518.6" cy="404.4" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="659.7" cy="378.2" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
-    <circle cx="489.4" cy="415.1" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
-    <circle cx="394.8" cy="379.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Knuckle Curve: called_strike, inside individual zone</title></circle>
-    <circle cx="556.2" cy="298.5" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: swinging_strike, inside individual zone</title></circle>
-    <circle cx="515.1" cy="518.3" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: foul, outside individual zone</title></circle>
-    <circle cx="554.7" cy="424.8" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: swinging_strike, inside individual zone</title></circle>
-    <circle cx="510.9" cy="342.0" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="404.8" cy="341.0" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, strikeout, inside individual zone</title></circle>
-    <circle cx="567.8" cy="332.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, force_out, inside individual zone</title></circle>
-    <circle cx="211.6" cy="306.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="648.3" cy="416.6" r="4.2" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: called_strike, outside individual zone</title></circle>
-    <circle cx="613.7" cy="309.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="555.6" cy="410.5" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="475.3" cy="400.6" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
-    <circle cx="357.0" cy="463.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="433.2" cy="110.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="332.4" cy="426.1" r="4.2" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: called_strike, outside individual zone</title></circle>
-    <circle cx="477.6" cy="468.9" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="451.7" cy="509.3" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="511.1" cy="375.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, double, inside individual zone</title></circle>
-    <circle cx="278.1" cy="457.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="474.2" cy="375.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="407.0" cy="402.0" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="534.2" cy="387.2" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="471.1" cy="393.5" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="411.7" cy="285.7" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, double, inside individual zone</title></circle>
-    <circle cx="491.1" cy="207.8" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
-    <circle cx="452.0" cy="408.6" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="340.2" cy="150.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="339.3" cy="495.6" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="456.4" cy="470.3" r="4.2" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: called_strike, outside individual zone</title></circle>
-    <circle cx="346.6" cy="427.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="384.7" cy="297.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="356.4" cy="312.7" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="235.3" cy="181.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="413.4" cy="307.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="484.1" cy="505.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="422.2" cy="318.6" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="293.1" cy="258.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="236.6" cy="333.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="394.6" cy="604.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
-    <circle cx="277.4" cy="446.3" r="4.2" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, walk, outside individual zone</title></circle>
-    <circle cx="439.3" cy="367.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="299.7" cy="272.0" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="392.8" cy="388.1" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="490.8" cy="502.2" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="469.8" cy="324.0" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: called_strike, inside individual zone</title></circle>
-    <circle cx="519.4" cy="408.3" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="45.7" cy="498.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="513.5" cy="450.8" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="815.7" cy="436.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="217.1" cy="320.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="420.3" cy="605.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
-    <circle cx="352.1" cy="183.7" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
-    <circle cx="532.0" cy="516.9" r="4.2" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, walk, outside individual zone</title></circle>
-    <circle cx="585.6" cy="293.6" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
-    <circle cx="505.8" cy="339.5" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="487.2" cy="341.1" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="301.4" cy="444.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="380.2" cy="459.7" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
-    <circle cx="627.7" cy="447.5" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: hit_into_play, force_out, outside individual zone</title></circle>
-    <circle cx="427.3" cy="319.5" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, home_run, inside individual zone</title></circle>
-    <circle cx="439.2" cy="341.8" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="716.7" cy="434.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="483.9" cy="482.8" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: swinging_strike, outside individual zone</title></circle>
-    <circle cx="236.1" cy="203.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="345.3" cy="392.7" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
-    <circle cx="296.7" cy="554.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="602.7" cy="448.6" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
-    <circle cx="628.7" cy="411.1" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="698.8" cy="386.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="387.6" cy="328.2" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="687.6" cy="410.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="630.9" cy="525.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="627.4" cy="273.8" r="4.2" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: ball, inside individual zone</title></circle>
-    <circle cx="497.1" cy="257.4" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="322.6" cy="463.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="551.4" cy="206.4" r="4.2" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, walk, outside individual zone</title></circle>
-    <circle cx="342.3" cy="169.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="604.3" cy="502.5" r="4.2" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, walk, outside individual zone</title></circle>
-    <circle cx="298.3" cy="503.5" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="730.7" cy="396.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="726.1" cy="497.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="330.4" cy="311.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="155.9" cy="507.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="565.2" cy="257.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="556.4" cy="288.0" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="527.9" cy="262.3" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="546.8" cy="344.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
-    <circle cx="472.9" cy="313.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="602.2" cy="452.4" r="4.2" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: ball, inside individual zone</title></circle>
-    <circle cx="580.8" cy="378.3" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="614.6" cy="201.9" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, strikeout, outside individual zone</title></circle>
-    <circle cx="514.2" cy="263.4" r="5.7" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
-    <circle cx="414.5" cy="419.8" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
-    <circle cx="427.0" cy="385.2" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
-    <circle cx="496.8" cy="219.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="497.2" cy="411.8" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
-    <circle cx="325.0" cy="346.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="340.8" cy="426.1" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
-    <circle cx="552.1" cy="526.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="539.2" cy="385.4" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
-    <circle cx="315.2" cy="444.7" r="4.2" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
-    <circle cx="311.6" cy="307.6" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="328.9" cy="341.4" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="419.7" cy="582.2" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
-    <circle cx="631.2" cy="560.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
-    <circle cx="502.9" cy="712.7" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
-    <circle cx="291.9" cy="328.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="331.1" cy="335.3" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="663.5" cy="474.9" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
-    <circle cx="711.0" cy="362.2" r="4.2" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: foul, outside individual zone</title></circle>
-    <circle cx="348.6" cy="353.8" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="446.6" cy="290.5" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
-    <circle cx="475.9" cy="286.4" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: called_strike, inside individual zone</title></circle>
-    <circle cx="333.6" cy="413.7" r="5.7" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: hit_into_play, field_out, outside individual zone</title></circle>
-    <circle cx="536.7" cy="481.1" r="4.2" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: called_strike, outside individual zone</title></circle>
-    <circle cx="354.7" cy="377.3" r="4.2" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: swinging_strike, inside individual zone</title></circle>
-    <circle cx="687.1" cy="449.8" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
-    <circle cx="347.8" cy="242.4" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
-    <circle cx="407.2" cy="128.5" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
-    <circle cx="568.6" cy="223.3" r="4.2" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: ball, inside individual zone</title></circle>
-    <circle cx="615.3" cy="322.2" r="4.2" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
-    <circle cx="583.5" cy="347.3" r="4.2" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
-    <circle cx="680.0" cy="373.1" r="4.2" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+  <rect x="398.1" y="209.1" width="242.3" height="149.8" fill="#ffffff" opacity="0.88" stroke="#17212b" stroke-width="3"/>
+  <line x1="415.8" y1="209.1" x2="415.8" y2="359.0" stroke="#b89458" stroke-width="1.7" stroke-dasharray="6 6"/>
+  <line x1="622.7" y1="209.1" x2="622.7" y2="359.0" stroke="#b89458" stroke-width="1.7" stroke-dasharray="6 6"/>
+  <line x1="478.8" y1="209.1" x2="478.8" y2="359.0" stroke="#d6ddd5"/>
+  <line x1="559.6" y1="209.1" x2="559.6" y2="359.0" stroke="#d6ddd5"/>
+  <line x1="398.1" y1="259.1" x2="640.4" y2="259.1" stroke="#d6ddd5"/>
+  <line x1="398.1" y1="309.0" x2="640.4" y2="309.0" stroke="#d6ddd5"/>
+  <path d="M 415.8 428.3 H 622.7 L 596.7 470.3 L 519.2 445.8 L 441.8 470.3 Z" fill="#ead6b8" stroke="#9f6b36"/>
+  <circle cx="519.7" cy="361.5" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="617.9" cy="165.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="378.9" cy="193.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="457.2" cy="383.2" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: swinging_strike, outside individual zone</title></circle>
+    <circle cx="210.3" cy="338.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="464.7" cy="277.4" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, double, inside individual zone</title></circle>
+    <circle cx="435.0" cy="318.6" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="408.5" cy="393.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="511.9" cy="332.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="501.6" cy="197.2" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: foul, outside individual zone</title></circle>
+    <circle cx="457.2" cy="414.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="381.5" cy="129.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="371.0" cy="351.1" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike_blocked, strikeout, outside individual zone</title></circle>
+    <circle cx="559.4" cy="319.9" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
+    <circle cx="461.5" cy="208.4" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
+    <circle cx="352.1" cy="251.8" r="4.6" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: foul_tip, strikeout, outside individual zone</title></circle>
+    <circle cx="438.3" cy="212.9" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="508.6" cy="193.3" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
+    <circle cx="443.1" cy="300.3" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="410.5" cy="287.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="478.4" cy="413.6" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
+    <circle cx="300.6" cy="260.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="619.7" cy="251.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
+    <circle cx="580.1" cy="302.7" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: swinging_strike, strikeout, inside individual zone</title></circle>
+    <circle cx="588.3" cy="293.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="369.3" cy="472.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="528.1" cy="305.9" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
+    <circle cx="447.7" cy="416.8" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
+    <circle cx="508.5" cy="258.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="318.5" cy="320.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="471.5" cy="249.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="445.3" cy="417.6" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: swinging_strike, outside individual zone</title></circle>
+    <circle cx="362.1" cy="327.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="573.7" cy="305.3" r="4.6" fill="#5c6670" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul_tip, strikeout, inside individual zone</title></circle>
+    <circle cx="510.0" cy="228.0" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="368.1" cy="590.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: blocked_ball, outside individual zone</title></circle>
+    <circle cx="237.9" cy="472.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="427.0" cy="391.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="487.7" cy="235.9" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
+    <circle cx="516.5" cy="337.3" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="409.8" cy="243.3" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="496.2" cy="314.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: foul, inside individual zone</title></circle>
+    <circle cx="509.4" cy="288.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="445.1" cy="314.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="476.7" cy="396.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="556.5" cy="258.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, home_run, inside individual zone</title></circle>
+    <circle cx="572.0" cy="297.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: hit_into_play, force_out, inside individual zone</title></circle>
+    <circle cx="538.2" cy="263.4" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="480.8" cy="278.4" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="560.7" cy="290.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, home_run, inside individual zone</title></circle>
+    <circle cx="507.4" cy="287.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="447.4" cy="264.5" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="250.1" cy="351.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="543.9" cy="190.0" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
+    <circle cx="429.9" cy="302.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="460.7" cy="267.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
+    <circle cx="351.4" cy="321.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="402.5" cy="481.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: blocked_ball, outside individual zone</title></circle>
+    <circle cx="775.2" cy="165.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="454.6" cy="253.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="420.6" cy="142.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="491.5" cy="280.8" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="405.2" cy="427.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
+    <circle cx="635.9" cy="268.7" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, strikeout, inside individual zone</title></circle>
+    <circle cx="420.4" cy="230.4" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="539.0" cy="273.7" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="520.7" cy="293.5" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="505.4" cy="231.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="576.8" cy="223.7" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul_tip, inside individual zone</title></circle>
+    <circle cx="653.4" cy="324.7" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="584.2" cy="390.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="657.5" cy="372.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="390.0" cy="453.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="577.6" cy="376.0" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: hit_into_play, single, outside individual zone</title></circle>
+    <circle cx="534.5" cy="387.9" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: foul, outside individual zone</title></circle>
+    <circle cx="391.3" cy="319.7" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: foul, outside individual zone</title></circle>
+    <circle cx="472.6" cy="426.3" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
+    <circle cx="698.5" cy="269.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="290.5" cy="338.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="592.2" cy="283.5" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: foul, inside individual zone</title></circle>
+    <circle cx="491.9" cy="240.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="584.0" cy="378.2" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul_tip, outside individual zone</title></circle>
+    <circle cx="410.8" cy="309.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: foul, inside individual zone</title></circle>
+    <circle cx="482.1" cy="425.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="340.6" cy="555.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="455.9" cy="280.8" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="428.2" cy="211.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="513.8" cy="306.7" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: swinging_strike, inside individual zone</title></circle>
+    <circle cx="733.2" cy="197.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sweeper: ball, outside individual zone</title></circle>
+    <circle cx="378.4" cy="428.5" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="530.5" cy="225.2" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="465.7" cy="217.0" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: foul, outside individual zone</title></circle>
+    <circle cx="471.9" cy="323.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
+    <circle cx="453.3" cy="260.3" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
+    <circle cx="488.8" cy="333.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="467.3" cy="207.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="755.4" cy="313.3" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="752.2" cy="298.0" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="497.5" cy="250.5" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: foul, inside individual zone</title></circle>
+    <circle cx="498.8" cy="192.7" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
+    <circle cx="473.5" cy="236.4" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="728.6" cy="217.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="321.6" cy="472.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="466.6" cy="288.7" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="526.2" cy="258.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="451.1" cy="389.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="505.3" cy="313.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="698.4" cy="315.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="357.2" cy="370.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="535.0" cy="274.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="418.1" cy="311.0" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="388.4" cy="363.7" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="637.7" cy="231.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="431.5" cy="235.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="503.4" cy="196.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="798.7" cy="400.1" r="4.6" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, walk, outside individual zone</title></circle>
+    <circle cx="642.9" cy="225.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="506.4" cy="338.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="734.4" cy="285.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="419.3" cy="247.0" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="464.9" cy="441.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
+    <circle cx="375.8" cy="278.3" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="565.0" cy="429.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="470.7" cy="296.8" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: swinging_strike, strikeout, inside individual zone</title></circle>
+    <circle cx="375.8" cy="347.6" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="586.0" cy="465.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="610.7" cy="162.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="527.0" cy="194.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="725.7" cy="134.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="536.7" cy="521.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
+    <circle cx="498.7" cy="248.7" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="421.6" cy="358.6" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sweeper: foul, outside individual zone</title></circle>
+    <circle cx="658.6" cy="335.4" r="4.6" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: called_strike, outside individual zone</title></circle>
+    <circle cx="696.3" cy="339.2" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="591.1" cy="240.0" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="517.3" cy="173.7" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
+    <circle cx="576.4" cy="229.7" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="556.8" cy="214.8" r="4.6" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: ball, inside individual zone</title></circle>
+    <circle cx="500.7" cy="240.9" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: swinging_strike, inside individual zone</title></circle>
+    <circle cx="572.2" cy="249.0" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="554.4" cy="315.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="382.7" cy="362.6" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="554.9" cy="323.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="507.7" cy="219.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="586.9" cy="384.7" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: hit_into_play, force_out, outside individual zone</title></circle>
+    <circle cx="720.0" cy="420.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="574.4" cy="255.4" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="669.7" cy="433.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
+    <circle cx="663.9" cy="277.3" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="339.2" cy="341.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sweeper: ball, outside individual zone</title></circle>
+    <circle cx="584.1" cy="263.3" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="382.2" cy="293.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="475.9" cy="205.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="352.7" cy="321.7" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: foul, outside individual zone</title></circle>
+    <circle cx="441.3" cy="296.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="552.0" cy="265.9" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="419.7" cy="282.6" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, double, inside individual zone</title></circle>
+    <circle cx="562.7" cy="274.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="573.7" cy="335.3" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="644.7" cy="394.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="442.7" cy="287.0" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: called_strike, inside individual zone</title></circle>
+    <circle cx="401.6" cy="379.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="473.2" cy="226.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="332.5" cy="172.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="413.5" cy="392.6" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="742.7" cy="320.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="491.0" cy="306.4" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="461.0" cy="297.0" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="572.3" cy="238.0" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="674.3" cy="528.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="559.4" cy="220.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="494.4" cy="251.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="531.0" cy="191.1" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
+    <circle cx="490.2" cy="223.3" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: foul, inside individual zone</title></circle>
+    <circle cx="594.8" cy="315.9" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="473.3" cy="368.9" r="4.6" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: called_strike, outside individual zone</title></circle>
+    <circle cx="387.7" cy="425.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="544.0" cy="219.9" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="407.7" cy="190.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="564.4" cy="348.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="789.1" cy="404.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="578.2" cy="340.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="635.1" cy="307.9" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="446.6" cy="170.5" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="575.2" cy="216.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="658.2" cy="465.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
+    <circle cx="725.4" cy="437.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
+    <circle cx="367.6" cy="244.4" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: foul, outside individual zone</title></circle>
+    <circle cx="549.9" cy="405.1" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="632.1" cy="330.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="699.8" cy="222.9" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="371.8" cy="320.4" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: foul, outside individual zone</title></circle>
+    <circle cx="686.8" cy="264.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="648.0" cy="435.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: blocked_ball, outside individual zone</title></circle>
+    <circle cx="661.5" cy="232.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="637.4" cy="385.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="528.9" cy="336.6" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="715.1" cy="470.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
+    <circle cx="638.5" cy="323.2" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="500.1" cy="469.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: blocked_ball, outside individual zone</title></circle>
+    <circle cx="511.9" cy="242.4" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="720.5" cy="441.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
+    <circle cx="547.5" cy="404.3" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: swinging_strike, outside individual zone</title></circle>
+    <circle cx="596.0" cy="281.1" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="400.2" cy="331.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="794.8" cy="407.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="678.2" cy="173.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="540.5" cy="394.4" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: foul, outside individual zone</title></circle>
+    <circle cx="438.7" cy="300.9" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Knuckle Curve: called_strike, inside individual zone</title></circle>
+    <circle cx="543.5" cy="317.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="518.7" cy="325.0" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
+    <circle cx="575.2" cy="246.7" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: swinging_strike, inside individual zone</title></circle>
+    <circle cx="662.9" cy="300.2" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
+    <circle cx="574.0" cy="331.5" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: swinging_strike, inside individual zone</title></circle>
+    <circle cx="653.2" cy="326.0" r="4.6" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: called_strike, outside individual zone</title></circle>
+    <circle cx="283.7" cy="252.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="447.1" cy="275.2" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, strikeout, inside individual zone</title></circle>
+    <circle cx="536.9" cy="275.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="585.0" cy="269.4" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, force_out, inside individual zone</title></circle>
+    <circle cx="385.9" cy="332.4" r="4.6" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: called_strike, outside individual zone</title></circle>
+    <circle cx="506.8" cy="315.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
+    <circle cx="623.9" cy="254.0" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="471.1" cy="120.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="574.8" cy="321.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="406.7" cy="357.7" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="505.9" cy="298.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="537.1" cy="298.6" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, double, inside individual zone</title></circle>
+    <circle cx="449.0" cy="316.2" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="486.8" cy="388.3" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="508.7" cy="361.1" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="339.9" cy="353.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="487.1" cy="320.7" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="520.2" cy="185.7" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
+    <circle cx="392.5" cy="147.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="503.2" cy="310.5" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="452.9" cy="238.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, double, inside individual zone</title></circle>
+    <circle cx="556.6" cy="306.3" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="430.1" cy="245.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="391.7" cy="379.1" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="490.8" cy="362.1" r="4.6" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: called_strike, outside individual zone</title></circle>
+    <circle cx="397.9" cy="333.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="303.7" cy="168.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="406.2" cy="256.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="514.2" cy="386.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="352.7" cy="219.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="304.8" cy="270.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="438.5" cy="452.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
+    <circle cx="461.9" cy="260.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="454.4" cy="252.5" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="339.4" cy="346.0" r="4.6" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, walk, outside individual zone</title></circle>
+    <circle cx="476.4" cy="292.9" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="358.2" cy="228.9" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="519.9" cy="383.5" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="502.1" cy="263.8" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sweeper: called_strike, inside individual zone</title></circle>
+    <circle cx="437.0" cy="306.9" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="288.3" cy="261.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="544.1" cy="320.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="460.3" cy="453.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: blocked_ball, outside individual zone</title></circle>
+    <circle cx="539.1" cy="349.0" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="794.8" cy="339.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="143.3" cy="380.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="554.7" cy="393.4" r="4.6" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, walk, outside individual zone</title></circle>
+    <circle cx="359.7" cy="344.5" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="402.5" cy="169.5" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: foul, outside individual zone</title></circle>
+    <circle cx="516.9" cy="275.3" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="600.1" cy="243.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Curveball: called_strike, inside individual zone</title></circle>
+    <circle cx="532.6" cy="274.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="466.2" cy="260.8" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, home_run, inside individual zone</title></circle>
+    <circle cx="711.1" cy="337.9" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="476.2" cy="275.8" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="635.8" cy="346.8" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: hit_into_play, force_out, outside individual zone</title></circle>
+    <circle cx="426.3" cy="355.0" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: called_strike, inside individual zone</title></circle>
+    <circle cx="514.0" cy="370.5" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: swinging_strike, outside individual zone</title></circle>
+    <circle cx="396.8" cy="310.0" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: foul, outside individual zone</title></circle>
+    <circle cx="614.6" cy="347.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Changeup: called_strike, inside individual zone</title></circle>
+    <circle cx="695.9" cy="305.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="304.4" cy="182.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="636.6" cy="322.3" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="355.7" cy="418.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="635.5" cy="230.1" r="4.6" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: ball, inside individual zone</title></circle>
+    <circle cx="377.5" cy="357.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="638.5" cy="399.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="525.2" cy="219.1" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="432.6" cy="266.6" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="686.5" cy="321.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="394.2" cy="159.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="571.2" cy="184.8" r="4.6" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, walk, outside individual zone</title></circle>
+    <circle cx="616.0" cy="383.7" r="4.6" fill="#5c6670" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, walk, outside individual zone</title></circle>
+    <circle cx="357.0" cy="384.4" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="722.9" cy="312.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="719.0" cy="380.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="236.5" cy="387.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="567.3" cy="277.4" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, field_out, inside individual zone</title></circle>
+    <circle cx="551.3" cy="222.4" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="384.2" cy="255.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="504.8" cy="256.6" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="582.9" cy="219.0" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="575.4" cy="239.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="614.2" cy="350.1" r="4.6" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: ball, inside individual zone</title></circle>
+    <circle cx="539.7" cy="223.1" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="455.3" cy="328.2" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
+    <circle cx="525.0" cy="193.6" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="596.0" cy="300.3" r="4.6" fill="#2e856e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: hit_into_play, single, inside individual zone</title></circle>
+    <circle cx="624.6" cy="181.8" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, strikeout, outside individual zone</title></circle>
+    <circle cx="465.9" cy="304.9" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: foul, inside individual zone</title></circle>
+    <circle cx="371.3" cy="344.9" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: swinging_strike, outside individual zone</title></circle>
+    <circle cx="571.8" cy="400.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="560.9" cy="305.1" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: foul, inside individual zone</title></circle>
+    <circle cx="525.3" cy="322.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: foul, inside individual zone</title></circle>
+    <circle cx="393.0" cy="332.4" r="4.6" fill="#cf3e3e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: swinging_strike, outside individual zone</title></circle>
+    <circle cx="379.6" cy="278.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="368.3" cy="252.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="384.8" cy="271.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="638.7" cy="422.7" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: blocked_ball, outside individual zone</title></circle>
+    <circle cx="351.6" cy="267.1" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="666.1" cy="365.2" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="459.7" cy="437.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Curveball: ball, outside individual zone</title></circle>
+    <circle cx="530.1" cy="525.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Changeup: ball, outside individual zone</title></circle>
+    <circle cx="383.0" cy="275.5" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="558.8" cy="369.4" r="4.6" fill="#1268b3" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: called_strike, outside individual zone</title></circle>
+    <circle cx="482.5" cy="241.3" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Slider: called_strike, inside individual zone</title></circle>
+    <circle cx="706.2" cy="289.5" r="4.6" fill="#7b5eb4" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: foul, outside individual zone</title></circle>
+    <circle cx="507.3" cy="238.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: called_strike, inside individual zone</title></circle>
+    <circle cx="386.9" cy="324.1" r="4.6" fill="#2e856e" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: hit_into_play, field_out, outside individual zone</title></circle>
+    <circle cx="399.6" cy="283.8" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="404.7" cy="299.7" r="4.6" fill="#cf3e3e" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Cutter: swinging_strike, inside individual zone</title></circle>
+    <circle cx="598.4" cy="279.5" r="4.6" fill="#7b5eb4" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>4-Seam Fastball: foul, inside individual zone</title></circle>
+    <circle cx="686.0" cy="348.3" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Slider: ball, outside individual zone</title></circle>
+    <circle cx="625.2" cy="262.6" r="4.6" fill="#1268b3" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: called_strike, inside individual zone</title></circle>
+    <circle cx="680.0" cy="296.8" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Sinker: ball, outside individual zone</title></circle>
+    <circle cx="449.2" cy="132.4" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>4-Seam Fastball: ball, outside individual zone</title></circle>
+    <circle cx="398.9" cy="209.0" r="4.6" fill="#9f6b36" opacity="0.62" stroke="#fffdf8" stroke-width="1"><title>Cutter: ball, outside individual zone</title></circle>
+    <circle cx="585.8" cy="196.2" r="4.6" fill="#9f6b36" opacity="0.88" stroke="#17212b" stroke-width="1.4"><title>Sinker: ball, inside individual zone</title></circle>
   <g font-family="Arial, sans-serif" font-size="13" fill="#36414d">
     <circle cx="54" cy="638" r="6" fill="#cf3e3e"/><text x="68" y="642">Whiff</text>
     <circle cx="130" cy="638" r="6" fill="#1268b3"/><text x="144" y="642">Called strike</text>
     <circle cx="248" cy="638" r="6" fill="#2e856e"/><text x="262" y="642">In play</text>
     <circle cx="328" cy="638" r="6" fill="#9f6b36"/><text x="342" y="642">Ball</text>
   </g>
-  <text x="54" y="666" font-family="Arial, sans-serif" font-size="11" fill="#5c6773">Median zone reference · dark outline = inside pitch's own Statcast zone · rights review needed</text>
+  <text x="54" y="666" font-family="Arial, sans-serif" font-size="11" fill="#5c6773">Fixed-size dots · median zone reference · dark outline = inside pitch's own Statcast zone · rights review needed</text>
 </svg>

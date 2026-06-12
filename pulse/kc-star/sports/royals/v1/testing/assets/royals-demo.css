@@ -13,9 +13,9 @@
   --pr-border: #d9ddda;
   --pr-paper: #f7f3ea;
   --pr-panel: #fffdf8;
-  --pr-field: #cfe2c3;
-  --pr-field-dark: #afcb9d;
-  --pr-dirt: #c99052;
+  --pr-field: #7dad67;
+  --pr-field-dark: #679957;
+  --pr-dirt: #c7965d;
   --pr-dirt-dark: #9f6b36;
   --pr-royals: #1268b3;
   --pr-away: #923a35;
@@ -197,8 +197,8 @@
 
 .pulse-royals-chart-wrap {
   aspect-ratio: 1.34 / 1;
-  background: #f6f1e8;
-  border: 1px solid #ccd8c5;
+  background: #efe5d4;
+  border: 1px solid #cad3c5;
   border-radius: 6px;
   overflow: hidden;
   position: relative;

@@ -17,15 +17,16 @@
     other: "#7a838c",
   };
   const FIELD_COLORS = {
-    grass: "#cfe2c3",
-    grassStroke: "#9fbd90",
-    dimensionLine: "#edf5e8",
-    dimensionMarker: "#637d54",
-    dimensionText: "#52685a",
-    beyondWall: "#e8ddc8",
-    wallTrack: "#d7b983",
-    wall: "#4f6a47",
-    dirt: "#c99052",
+    grass: "#7dad67",
+    grassStripe: "#679957",
+    grassStroke: "#5f8c54",
+    dimensionLine: "#e9f3e5",
+    dimensionMarker: "#49693f",
+    dimensionText: "#405442",
+    beyondWall: "#efe5d4",
+    wallTrack: "#d2ac74",
+    wall: "#3f6038",
+    dirt: "#c7965d",
     dirtStroke: "#9f6b36",
     chalk: "#fffdf4",
     base: "#fffdf8",
@@ -57,14 +58,16 @@
       bottomFt: -35,
     },
   };
+  const CONTACT_MARK_RADIUS = 6.2;
+  const PITCH_MARK_RADIUS = 4.8;
   const PITCH_GEOMETRY = {
     view: {
       width: 520,
       height: 480,
-      leftFt: -2.2,
-      rightFt: 2.2,
-      topFt: 4.8,
-      bottomFt: 0.5,
+      leftFt: -2.8,
+      rightFt: 2.4,
+      topFt: 5,
+      bottomFt: -1.4,
     },
     homePlateHalfWidthFt: 17 / 24,
     ballCenterHalfWidthReferenceFt: (17 / 24) + (1.45 / 12),
@@ -155,8 +158,18 @@
     return points.map((point, index) => `${index === 0 ? "M" : "L"} ${pathPoint(point)}`).join(" ");
   }
 
-  function beyondWallPath(points, view = FIELD_GEOMETRY.view) {
-    return `${pathFromPoints(points)} L ${view.width} 0 L 0 0 Z`;
+  function fairTerritoryPath(home, wallPoints) {
+    return `M ${pathPoint(home)} L ${wallPoints.map(pathPoint).join(" L ")} L ${pathPoint(home)} Z`;
+  }
+
+  function wallSegmentStripePaths(home, wallPoints) {
+    return wallPoints.slice(0, -1).map((point, index) => {
+      const next = wallPoints[index + 1];
+      return {
+        d: `M ${pathPoint(home)} L ${pathPoint(point)} L ${pathPoint(next)} Z`,
+        index,
+      };
+    });
   }
 
   function contactPoint(event) {
@@ -186,19 +199,23 @@
     const basepath = `M ${pathPoint(home)} L ${pathPoint(first)} L ${pathPoint(second)} L ${pathPoint(third)} Z`;
     const wallPoints = dimensions.map((dimension) => dimensionPointToSvg(dimension));
     const wallPath = pathFromPoints(wallPoints);
-    const outOfPlayPath = beyondWallPath(wallPoints);
+    const fairPath = fairTerritoryPath(home, wallPoints);
+    const stripePaths = wallSegmentStripePaths(home, wallPoints);
     const dimensionGroups = dimensions.map((dimension) => {
       const point = dimensionPointToSvg(dimension);
       return svgEl("g", {}, [
-        svgEl("line", { x1: home.x.toFixed(1), y1: home.y.toFixed(1), x2: point.x.toFixed(1), y2: point.y.toFixed(1), stroke: FIELD_COLORS.dimensionLine, "stroke-width": 1 }),
+        svgEl("line", { x1: home.x.toFixed(1), y1: home.y.toFixed(1), x2: point.x.toFixed(1), y2: point.y.toFixed(1), stroke: FIELD_COLORS.dimensionLine, "stroke-width": 1, "stroke-opacity": 0.72 }),
         svgEl("circle", { cx: point.x.toFixed(1), cy: point.y.toFixed(1), r: 4, fill: FIELD_COLORS.dimensionMarker, stroke: FIELD_COLORS.chalk, "stroke-width": 1.4 }),
         svgEl("text", { x: point.x.toFixed(1), y: (point.y - 8).toFixed(1), "text-anchor": "middle", fill: FIELD_COLORS.dimensionText, "font-size": 10 }, [document.createTextNode(`${dimension.label} ${dimension.distance_ft}`)]),
       ]);
     });
 
     svg.append(
-      svgEl("rect", { x: 0, y: 0, width: 760, height: 560, fill: FIELD_COLORS.grass }),
-      svgEl("path", { d: outOfPlayPath, fill: FIELD_COLORS.beyondWall }),
+      svgEl("rect", { x: 0, y: 0, width: 760, height: 560, fill: FIELD_COLORS.beyondWall }),
+      svgEl("path", { d: fairPath, fill: FIELD_COLORS.grass, stroke: FIELD_COLORS.grassStroke, "stroke-width": 1.4, "stroke-linejoin": "round" }),
+      ...stripePaths
+        .filter(({ index }) => index % 2 === 0)
+        .map(({ d }) => svgEl("path", { d, fill: FIELD_COLORS.grassStripe, opacity: 0.24 })),
       svgEl("path", {
         d: wallPath,
         fill: "none",
@@ -253,11 +270,10 @@
     for (const event of events) {
       const point = contactPoint(event);
       if (!point) continue;
-      const radius = event.launch_speed !== null ? Math.max(5, Math.min(13, event.launch_speed / 9)) : 6;
       const circle = svgEl("circle", {
         cx: point.x.toFixed(1),
         cy: point.y.toFixed(1),
-        r: radius.toFixed(1),
+        r: CONTACT_MARK_RADIUS.toFixed(1),
         fill: CONTACT_COLORS[event.class_name] || CONTACT_COLORS.contact,
         stroke: "#fff",
         "stroke-width": 1.8,
@@ -338,7 +354,7 @@
       const circle = svgEl("circle", {
         cx: point.x.toFixed(1),
         cy: point.y.toFixed(1),
-        r: event.class_name === "in_play" ? 5.8 : 4.4,
+        r: PITCH_MARK_RADIUS.toFixed(1),
         fill: PITCH_COLORS[event.class_name] || PITCH_COLORS.other,
         opacity: inIndividualZone ? 0.88 : 0.62,
         stroke: inIndividualZone ? "#17212b" : "#fffdf8",
@@ -444,6 +460,7 @@
     const methodNotes = [
       ["Field geometry", "The base square uses 90-foot baselines; the mound marker is placed at 60 feet 6 inches from home plate."],
       ["Batted-ball placement", "Locations use Statcast hit distance in feet plus spray angle derived from hc_x/hc_y."],
+      ["Mark encoding", "Dot size is fixed in both charts so area does not imply exit velocity, pitch value or confidence; color carries the event category."],
       ["Outfield wall", "The dark wall line connects published Kauffman Stadium dimension points for the season of the game; it is exact at labeled markers and intentionally avoids claiming a surveyed wall trace between them."],
       ["Pitch zone", "Pitches use Statcast plate_x/plate_z in feet. The box is a median ball-center zone; each pitch is also tested against its own Statcast sz_top/sz_bot."],
     ];
@@ -475,7 +492,7 @@
             el("div", { class: "pulse-royals-panel-header" }, [
               el("div", {}, [
                 el("h2", {}, [document.createTextNode("Contact Map")]),
-                el("p", {}, [document.createTextNode("Each dot is a batted ball, positioned by Statcast field coordinates and sized by exit velocity.")]),
+                el("p", {}, [document.createTextNode("Each fixed-size dot is one batted ball, positioned by Statcast hit distance plus spray angle; color carries the result.")]),
               ]),
               contactControls,
             ]),
@@ -492,7 +509,7 @@
               el("div", { class: "pulse-royals-panel-header" }, [
                 el("div", {}, [
                   el("h2", {}, [document.createTextNode("Pitch Zone")]),
-                  el("p", {}, [document.createTextNode("Catcher-view pitch locations; dark outline means inside that pitch's own Statcast zone.")]),
+                  el("p", {}, [document.createTextNode("Catcher-view pitch locations with fixed-size marks; dark outline means inside that pitch's own Statcast zone.")]),
                 ]),
                 pitchControls,
               ]),
