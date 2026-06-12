@@ -1,0 +1,116 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 1
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Chip Roy",
+    "district": "TX21",
+    "facebook": "",
+    "member_id": "chip_roy-tx-tx21",
+    "member_name": "Hon. Chip Roy",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 250000.0,
+        "label": "May 2026",
+        "month": "2026-05",
+        "other": 0,
+        "sell": 1,
+        "trades": 1
+      }
+    ],
+    "news_context": [],
+    "official_url": "",
+    "owner_breakdown": {
+      "Self": 1
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 28.0,
+        "filing_id": "20034762",
+        "issuer": "Atlas Energy Solutions Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Self",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "AESI",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/13/2026",
+        "transaction_id": "c84ec2d4498c9a1c",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 250000.0,
+      "estimated_min_volume": 100001.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 1,
+      "last_traded": "05/13/2026",
+      "market_context_available": 0,
+      "news_context_available": 0,
+      "tickers": 1,
+      "trades": 1
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Atlas Energy Solutions Inc. Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 1,
+        "ticker": "AESI"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-05-13",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260612T133319Z",
+    "environment": "testing",
+    "generated_at": "2026-06-12T13:34:36Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/chip_roy-tx-tx21.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-06-12T13:49:36Z"
+  }
+}

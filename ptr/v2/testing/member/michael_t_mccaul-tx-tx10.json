@@ -1,0 +1,1324 @@
+{
+  "member": {
+    "action_breakdown": {
+      "other": 26
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Michael T. McCaul",
+    "district": "TX10",
+    "facebook": "",
+    "member_id": "michael_t_mccaul-tx-tx10",
+    "member_name": "Hon. Michael T. McCaul",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "label": "May 2026",
+        "month": "2026-05",
+        "other": 26,
+        "sell": 0,
+        "trades": 26
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "CARLISLE COMPANIES INC",
+        "query": "\"CARLISLE COMPANIES INC\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "carlisle",
+              "carlisle companies inc",
+              "companies"
+            ],
+            "published_at": "20260507T114500Z",
+            "relevance_label": "high",
+            "relevance_score": 77,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Carlisle Companies Incorporated $CSL Shares Sold by Robeco Schweiz AG",
+            "url": "https://www.dailypolitical.com/2026/05/07/carlisle-companies-incorporated-csl-shares-sold-by-robeco-schweiz-ag.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "carlisle",
+              "carlisle companies inc",
+              "companies"
+            ],
+            "published_at": "20260510T113000Z",
+            "relevance_label": "high",
+            "relevance_score": 73,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Sumitomo Mitsui DS Asset Management Company Ltd Decreases Stock Position in Carlisle Companies Incorporated $CSL",
+            "url": "https://www.dailypolitical.com/2026/05/10/sumitomo-mitsui-ds-asset-management-company-ltd-decreases-stock-position-in-carlisle-companies-incorporated-csl.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "finanzen.ch",
+            "language": "English",
+            "matched_terms": [
+              "carlisle",
+              "carlisle companies inc",
+              "companies"
+            ],
+            "published_at": "20260423T214500Z",
+            "relevance_label": "high",
+            "relevance_score": 73,
+            "source_country": "Switzerland",
+            "source_type": "general_news_or_web",
+            "title": "Carlisle Companies Inc . Profit Retreats In Q1",
+            "url": "https://www.finanzen.ch/nachrichten/aktien/carlisle-companies-inc-profit-retreats-in-q1-1036056874",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/01/2026",
+        "transaction_id": "f15e8157db64dd8c",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-04-17"
+        }
+      },
+      {
+        "issuer": "MUELLER WATER PRODUCTS INC",
+        "query": "\"MUELLER WATER PRODUCTS INC\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "mueller",
+              "products",
+              "water"
+            ],
+            "published_at": "20260604T144500Z",
+            "relevance_label": "medium",
+            "relevance_score": 53,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Market Rewarded Mueller Water Products ( MWA ) for Execution Excellence",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/market-rewarded-mueller-water-products-141202490.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "mueller",
+              "products",
+              "water"
+            ],
+            "published_at": "20260513T120000Z",
+            "relevance_label": "medium",
+            "relevance_score": 42,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Versor Investments LP Purchases 19 , 950 Shares of Mueller Water Products $MWA",
+            "url": "https://www.dailypolitical.com/2026/05/13/versor-investments-lp-purchases-19950-shares-of-mueller-water-products-mwa.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "mueller",
+              "products",
+              "water"
+            ],
+            "published_at": "20260604T144500Z",
+            "relevance_label": "low",
+            "relevance_score": 38,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Market Rewarded Mueller Water Products ( MWA ) for Execution Excellence",
+            "url": "https://www.insidermonkey.com/blog/market-rewarded-mueller-water-products-mwa-for-execution-excellence-1774884/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/18/2026",
+        "transaction_id": "878aa0a0fe522d98",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-05-04"
+        }
+      },
+      {
+        "issuer": "META PLATFORMS INC CLASS A",
+        "query": "\"META PLATFORMS INC\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "meta"
+            ],
+            "published_at": "20260610T044500Z",
+            "relevance_label": "low",
+            "relevance_score": 33,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Meta ( META ) Delays Key AI Rollout , Raising Concerns",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/meta-meta-delays-key-ai-171209235.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "meta",
+              "platforms"
+            ],
+            "published_at": "20260612T043000Z",
+            "relevance_label": "low",
+            "relevance_score": 28,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "This is why Morgan Stanley Views Meta Platforms , Inc . ( META ) as one of the Best Forever Stocks to buy",
+            "url": "https://www.insidermonkey.com/blog/this-is-why-morgan-stanley-views-meta-platforms-inc-meta-as-one-of-the-best-forever-stocks-to-buy-1779323/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "meta",
+              "platforms"
+            ],
+            "published_at": "20260610T174500Z",
+            "relevance_label": "low",
+            "relevance_score": 28,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Is Meta Platforms , Inc . ( META ) A Good Stock To Buy Now ?",
+            "url": "https://www.insidermonkey.com/blog/is-meta-platforms-inc-meta-a-good-stock-to-buy-now-1758812/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/28/2026",
+        "transaction_id": "ad04d29bc5fb9db6",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-05-14"
+        }
+      },
+      {
+        "issuer": "ATI INC",
+        "query": "\"ATI INC\"",
+        "result_count": 1,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "ati",
+              "ati inc"
+            ],
+            "published_at": "20260610T121500Z",
+            "relevance_label": "medium",
+            "relevance_score": 63,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Intech Investment Management LLC Has $578 , 000 Stake in ATI Inc . $ATI",
+            "url": "https://www.tickerreport.com/banking-finance/13469538/intech-investment-management-llc-has-578000-stake-in-ati-inc-ati.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/22/2026",
+        "transaction_id": "0ff977d6f565e4c8",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-05-08"
+        }
+      },
+      {
+        "issuer": "S&P GLOBAL INC",
+        "query": "\"S&P GLOBAL INC\"",
+        "result_count": 3,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "global"
+            ],
+            "published_at": "20260526T144500Z",
+            "relevance_label": "low",
+            "relevance_score": 33,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Is S & P Global ( SPGI ) One of the Top Picks for a Dividend Stock Portfolio For Retirement ?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-one-top-140722963.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "global"
+            ],
+            "published_at": "20260602T034500Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "How Is S & P Global Stock Performance Compared to Other Financial Stocks ?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-globals-stock-performance-compared-185229548.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "global"
+            ],
+            "published_at": "20260529T144500Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Investor Sentiment Declines , Leading to S & P Global ( SPGI ) Slide",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/investor-sentiment-declines-leading-p-140038318.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/05/2026",
+        "transaction_id": "af8a0db300c414e4",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-04-21"
+        }
+      },
+      {
+        "issuer": "EVERQUOTE, INC, CLASS A",
+        "query": "\"EVERQUOTE INC\"",
+        "result_count": 4,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "everquote"
+            ],
+            "published_at": "20260516T204500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "EverQuote Sees Insurance Carrier Comeback Fueling Growth Toward $1B Revenue",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/everquote-sees-insurance-carrier-comeback-200550168.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "everquote"
+            ],
+            "published_at": "20260504T224500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "EverQuote Q1 Earnings Call Highlights",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/everquote-q1-earnings-call-highlights-221752050.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "everquote"
+            ],
+            "published_at": "20260517T211500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "EverQuote Sees Insurance Carrier Comeback Fueling Growth Toward $1B Revenue",
+            "url": "https://www.tickerreport.com/banking-finance/13445535/everquote-sees-insurance-carrier-comeback-fueling-growth-toward-1b-revenue.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/11/2026",
+        "transaction_id": "dcad9a8e0d7217d8",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-04-27"
+        }
+      },
+      {
+        "issuer": "KEYSIGHT TECHNOLOGIES INC",
+        "query": "\"KEYSIGHT TECHNOLOGIES INC\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "keysight",
+              "keysight technologies inc",
+              "technologies"
+            ],
+            "published_at": "20260608T101500Z",
+            "relevance_label": "high",
+            "relevance_score": 73,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "ING Groep NV Has $9 . 59 Million Stake in Keysight Technologies Inc . $KEYS",
+            "url": "https://www.tickerreport.com/banking-finance/13466949/ing-groep-nv-has-9-59-million-stake-in-keysight-technologies-inc-keys.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "keysight",
+              "keysight technologies inc",
+              "technologies"
+            ],
+            "published_at": "20260604T100000Z",
+            "relevance_label": "high",
+            "relevance_score": 73,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Natixis Advisors LLC Has $58 . 65 Million Position in Keysight Technologies Inc . $KEYS",
+            "url": "https://www.themarketsdaily.com/2026/06/04/natixis-advisors-llc-has-58-65-million-position-in-keysight-technologies-inc-keys.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "keysight",
+              "keysight technologies inc",
+              "technologies"
+            ],
+            "published_at": "20260513T110000Z",
+            "relevance_label": "high",
+            "relevance_score": 73,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Madison Asset Management LLC Has $105 . 52 Million Stake in Keysight Technologies Inc . $KEYS",
+            "url": "https://www.tickerreport.com/banking-finance/13439137/madison-asset-management-llc-has-105-52-million-stake-in-keysight-technologies-inc-keys.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/22/2026",
+        "transaction_id": "654fabdc864d6cc7",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-05-08"
+        }
+      },
+      {
+        "issuer": "COHERENT CORP",
+        "query": "\"COHERENT CORP\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "coherent",
+              "coherent corp"
+            ],
+            "published_at": "20260527T043000Z",
+            "relevance_label": "high",
+            "relevance_score": 78,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Coherent Corp . ( COHR ) Reports Q3 Fiscal 2026 Results",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-corp-cohr-reports-q3-180701659.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "coherent",
+              "coherent corp"
+            ],
+            "published_at": "20260525T191500Z",
+            "relevance_label": "medium",
+            "relevance_score": 63,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Coherent Corp . ( COHR ) Reports Q3 Fiscal 2026 Results",
+            "url": "https://www.insidermonkey.com/blog/coherent-corp-cohr-reports-q3-fiscal-2026-results-1768756/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "coherent",
+              "coherent corp"
+            ],
+            "published_at": "20260530T214500Z",
+            "relevance_label": "medium",
+            "relevance_score": 59,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Coherent Corp . ( COHR ): Leopold Aschenbrenner Changes Bullish Stance",
+            "url": "https://www.insidermonkey.com/blog/coherent-corp-cohr-leopold-aschenbrenner-changes-bullish-stance-1771610/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "05/07/2026",
+        "transaction_id": "86f8cec2bcbbd307",
+        "window": {
+          "end_date": "2026-07-25",
+          "start_date": "2026-04-23"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "SP": 26
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 13.0,
+        "filing_id": "9116141",
+        "issuer": "HAYWARD HLDGS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/28/2026",
+        "transaction_id": "0853cdf5afe66e0f",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 13.0,
+        "filing_id": "9116141",
+        "issuer": "FAIR ISAAC CORP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/28/2026",
+        "transaction_id": "e46141925dcff943",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 13.0,
+        "filing_id": "9116141",
+        "issuer": "META PLATFORMS INC CLASS A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/28/2026",
+        "transaction_id": "ad04d29bc5fb9db6",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 15.0,
+        "filing_id": "9116141",
+        "issuer": "ATI INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/26/2026",
+        "transaction_id": "e004dd1e9e8c028b",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 15.0,
+        "filing_id": "9116141",
+        "issuer": "ENTEGRIS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/26/2026",
+        "transaction_id": "47d21140f990486c",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 19.0,
+        "filing_id": "9116141",
+        "issuer": "AMPHENOL CORP CLASS A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/22/2026",
+        "transaction_id": "51052116fdb368b0",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 19.0,
+        "filing_id": "9116141",
+        "issuer": "ATI INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 1,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/22/2026",
+        "transaction_id": "0ff977d6f565e4c8",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 19.0,
+        "filing_id": "9116141",
+        "issuer": "KEYSIGHT TECHNOLOGIES INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/22/2026",
+        "transaction_id": "654fabdc864d6cc7",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 19.0,
+        "filing_id": "9116141",
+        "issuer": "SIEMENS ENERGY AG SPON ADS",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "5/22/2026",
+        "transaction_id": "5d4332d3f24b0258",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 19.0,
+        "filing_id": "9116141",
+        "issuer": "Mays-Allocate 2025 LP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "5/22/2026",
+        "transaction_id": "ecfc01ff7785a2a5",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 19.0,
+        "filing_id": "9116141",
+        "issuer": "SPOTIFY TECHNOLOGY S.A.",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/22/2026",
+        "transaction_id": "30f94df924455bd1",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 21.0,
+        "filing_id": "9116141",
+        "issuer": "ARTHUR J. GALLAGHER & CO.",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/20/2026",
+        "transaction_id": "bd7444e0f29bfe04",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 23.0,
+        "filing_id": "9116141",
+        "issuer": "MUELLER WATER PRODUCTS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/18/2026",
+        "transaction_id": "878aa0a0fe522d98",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 23.0,
+        "filing_id": "9116141",
+        "issuer": "MASTERCARD INCORPORATED CL A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/18/2026",
+        "transaction_id": "25715ba0144b5e45",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 23.0,
+        "filing_id": "9116141",
+        "issuer": "Mays-Allocate 2025 LP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "5/18/2026",
+        "transaction_id": "d8574a6d1721fe83",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 26.0,
+        "filing_id": "9116141",
+        "issuer": "MSA SAFETY INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/15/2026",
+        "transaction_id": "d260d6cdac60bdc4",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 27.0,
+        "filing_id": "9116141",
+        "issuer": "S&P GLOBAL INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/14/2026",
+        "transaction_id": "06b0a385f6967786",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 28.0,
+        "filing_id": "9116141",
+        "issuer": "MASTERCARD INCORPORATED CL A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/13/2026",
+        "transaction_id": "677fed7c19b9963b",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 30.0,
+        "filing_id": "9116141",
+        "issuer": "EVERQUOTE, INC, CLASS A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 4,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/11/2026",
+        "transaction_id": "dcad9a8e0d7217d8",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 30.0,
+        "filing_id": "9116141",
+        "issuer": "CHARTER COMMUNICATIONS INC NEW CL A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/11/2026",
+        "transaction_id": "5e3c43413d9bd609",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 34.0,
+        "filing_id": "9116141",
+        "issuer": "COHERENT CORP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/07/2026",
+        "transaction_id": "86f8cec2bcbbd307",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 35.0,
+        "filing_id": "9116141",
+        "issuer": "ARISTA NETWORKS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/06/2026",
+        "transaction_id": "129408138751a0fc",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 36.0,
+        "filing_id": "9116141",
+        "issuer": "COHERENT CORP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/05/2026",
+        "transaction_id": "6bba516df718360f",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 36.0,
+        "filing_id": "9116141",
+        "issuer": "S&P GLOBAL INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 3,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/05/2026",
+        "transaction_id": "af8a0db300c414e4",
+        "type": "other"
+      },
+      {
+        "estimated_max": null,
+        "estimated_min": null,
+        "filed_after_days": 40.0,
+        "filing_id": "9116141",
+        "issuer": "CARLISLE COMPANIES INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "SP",
+        "published_date": "06/10/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/01/2026",
+        "transaction_id": "f15e8157db64dd8c",
+        "type": "other"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 0,
+      "estimated_min_volume": 0,
+      "filings": 1,
+      "flagged_trades": 13,
+      "issuers": 21,
+      "last_traded": "05/28/2026",
+      "market_context_available": 0,
+      "news_context_available": 8,
+      "tickers": 0,
+      "trades": 26
+    },
+    "top_issuers": [
+      {
+        "count": 2,
+        "issuer": "ATI INC"
+      },
+      {
+        "count": 2,
+        "issuer": "COHERENT CORP"
+      },
+      {
+        "count": 2,
+        "issuer": "MASTERCARD INCORPORATED CL A"
+      },
+      {
+        "count": 2,
+        "issuer": "S&P GLOBAL INC"
+      },
+      {
+        "count": 2,
+        "issuer": "Mays-Allocate 2025 LP"
+      },
+      {
+        "count": 1,
+        "issuer": "CARLISLE COMPANIES INC"
+      },
+      {
+        "count": 1,
+        "issuer": "HAYWARD HLDGS INC"
+      },
+      {
+        "count": 1,
+        "issuer": "FTI CONSULTING INC"
+      }
+    ],
+    "top_tickers": [],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 2,
+        "sell": 0,
+        "traded_date": "2026-05-01",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 2,
+        "sell": 0,
+        "traded_date": "2026-05-05",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 1,
+        "sell": 0,
+        "traded_date": "2026-05-06",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 1,
+        "sell": 0,
+        "traded_date": "2026-05-07",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 2,
+        "sell": 0,
+        "traded_date": "2026-05-11",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 1,
+        "sell": 0,
+        "traded_date": "2026-05-13",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 1,
+        "sell": 0,
+        "traded_date": "2026-05-14",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 1,
+        "sell": 0,
+        "traded_date": "2026-05-15",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 3,
+        "sell": 0,
+        "traded_date": "2026-05-18",
+        "trades": 3
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 1,
+        "sell": 0,
+        "traded_date": "2026-05-20",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 6,
+        "sell": 0,
+        "traded_date": "2026-05-22",
+        "trades": 6
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 2,
+        "sell": 0,
+        "traded_date": "2026-05-26",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 0.0,
+        "estimated_min": 0.0,
+        "other": 3,
+        "sell": 0,
+        "traded_date": "2026-05-28",
+        "trades": 3
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260612T133319Z",
+    "environment": "testing",
+    "generated_at": "2026-06-12T13:34:36Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/michael_t_mccaul-tx-tx10.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-06-12T13:49:36Z"
+  }
+}

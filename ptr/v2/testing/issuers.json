@@ -1,23 +1,23 @@
 {
   "issuers": [
     {
-      "issuer_name": "Procter & Gamble Company",
+      "issuer_name": "Atlas Energy Solutions Inc. Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PG.json",
-      "ticker": "PG",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AESI.json",
+      "ticker": "AESI",
       "trade_count": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260605T162305Z",
+    "data_version": "20260612T133319Z",
     "environment": "testing",
-    "generated_at": "2026-06-05T16:24:18Z",
+    "generated_at": "2026-06-12T13:34:36Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-05T16:39:18Z"
+    "stale_after": "2026-06-12T13:49:36Z"
   }
 }
