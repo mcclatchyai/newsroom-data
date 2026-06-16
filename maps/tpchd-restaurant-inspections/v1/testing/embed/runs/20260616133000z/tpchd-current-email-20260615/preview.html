@@ -1039,7 +1039,7 @@
       features = allFeatures.filter(function (feature) {
         if (!periodMatches(feature, period, newest)) return false;
         if (mode === &quot;evergreen&quot; &amp;&amp; !statusMatches(feature, statusFilter)) return false;
-        return mode === &quot;evergreen&quot; ? true : redPoints(feature) &gt; 35;
+        return mode === &quot;evergreen&quot; ? true : redPoints(feature) &gt;= 35;
       });
     }
     if (normalizedQuery) {
@@ -2224,7 +2224,7 @@
       features = allFeatures.filter(function (feature) {
         if (!periodMatches(feature, period, newest)) return false;
         if (mode === "evergreen" && !statusMatches(feature, statusFilter)) return false;
-        return mode === "evergreen" ? true : redPoints(feature) > 35;
+        return mode === "evergreen" ? true : redPoints(feature) >= 35;
       });
     }
     if (normalizedQuery) {
