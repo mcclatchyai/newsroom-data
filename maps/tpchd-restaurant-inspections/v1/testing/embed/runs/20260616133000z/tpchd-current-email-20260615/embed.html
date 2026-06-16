@@ -65,8 +65,11 @@
     .tpchd-map-marker__shape.is-rating { border-radius: 999px; transform: none; }
     .tpchd-map-marker__shape.is-square { border-radius: 3px; transform: none; }
     .tpchd-map-marker__shape.is-rating span, .tpchd-map-marker__shape.is-square span { transform: none; font-size: 10px; }
+    .tpchd-map-marker__shape.is-count span { font-size: 10px; }
     .tpchd-map .leaflet-popup-content-wrapper { max-height: min(72vh, 520px); overflow: hidden; }
     .tpchd-map .leaflet-popup-content { font-size: 13px; line-height: 1.35; max-height: min(60vh, 430px) !important; overflow-y: auto; padding-right: 4px; }
+    .tpchd-map__co-located { margin: 7px 0 0 18px; padding: 0; }
+    .tpchd-map__co-located li { margin: 0 0 8px; }
     .tpchd-map__timeline { border-top: 1px solid #d8dee6; margin-top: 8px; padding-top: 8px; }
     .tpchd-map__timeline ol { margin: 5px 0 0 18px; padding: 0; }
     .tpchd-map__timeline li { margin: 0 0 7px; }
@@ -269,7 +272,7 @@
     if (hasValue(props.latest_red_points)) return String(props.latest_red_points) + " red points";
     var quality = String(props.latest_report_quality_status || props.report_quality_status || props.report_fetch_status || "").toLowerCase();
     var availability = String(props.latest_report_availability || props.report_availability_label || "").toLowerCase();
-    if (quality.indexOf("source_no_document") >= 0 || availability.indexOf("not available from tpchd") >= 0) {
+    if (quality.indexOf("source_") >= 0 || availability.indexOf("not available from tpchd") >= 0) {
       return "red points not available from TPCHD report";
     }
     if (quality.indexOf("parse_missing_points") >= 0 || quality.indexOf("parse_conflict") >= 0) {
@@ -462,7 +465,7 @@
     return new Date(Math.max.apply(null, dates.map(function (date) { return date.getTime(); })));
   }
   function periodMatches(feature, period, newest) {
-    period = period || "recent60";
+    period = period || "all";
     if (period === "all") return true;
     if (period.indexOf("year:") === 0) {
       var wanted = period.slice(5);
@@ -482,8 +485,68 @@
     }
     return true;
   }
+  function locationKey(feature) {
+    var coords = feature && feature.geometry && feature.geometry.coordinates || [];
+    var lng = Number(coords[0]);
+    var lat = Number(coords[1]);
+    if (isNaN(lat) || isNaN(lng)) return "";
+    return lng.toFixed(7) + "," + lat.toFixed(7);
+  }
+  function locationInspectionFeatures(feature) {
+    var items = feature && feature.properties && feature.properties.co_located_inspections;
+    return Array.isArray(items) ? items : [];
+  }
+  function alertLocationFeatures(features) {
+    if (mode === "evergreen") return features || [];
+    var groups = {};
+    var order = [];
+    (features || []).forEach(function (feature) {
+      var key = locationKey(feature);
+      if (!key) {
+        key = "record:" + String((feature.properties || {}).record_id || order.length);
+      }
+      if (!groups[key]) {
+        groups[key] = [];
+        order.push(key);
+      }
+      groups[key].push(feature);
+    });
+    return order.map(function (key) {
+      var group = groups[key] || [];
+      if (group.length <= 1) return group[0];
+      group.sort(function (a, b) {
+        return redPoints(b) - redPoints(a) || String((a.properties || {}).business_name || "").localeCompare(String((b.properties || {}).business_name || ""));
+      });
+      var top = group[0] || {};
+      var props = {};
+      Object.keys(top.properties || {}).forEach(function (name) {
+        props[name] = top.properties[name];
+      });
+      props.record_id = "location:" + key;
+      props.business_name = group.length + " inspections at this location";
+      props.red_points = Math.max.apply(null, group.map(redPoints).concat([0]));
+      props.location_inspection_count = group.length;
+      props.co_located_inspections = group.map(function (item) {
+        var itemProps = {};
+        Object.keys(item.properties || {}).forEach(function (name) {
+          itemProps[name] = item.properties[name];
+        });
+        return itemProps;
+      });
+      return {
+        type: "Feature",
+        geometry: top.geometry,
+        properties: props
+      };
+    });
+  }
   function markerTitle(feature) {
     var p = feature.properties || {};
+    var locationInspections = locationInspectionFeatures(feature);
+    if (mode !== "evergreen" && locationInspections.length > 1) {
+      var address = [p.address, p.city, p.zip].filter(Boolean).join(" ");
+      return locationInspections.length + " 35+ red point inspections" + (address ? " at " + address : " at this location");
+    }
     var name = p.business_name || "TPCHD inspection";
     var statusText = p.current_status_label || p.latest_result_status_label || p.current_rating_label || "latest result unavailable";
     var parts = [name, statusText, "latest inspection: " + latestInspectionText(p)];
@@ -662,9 +725,12 @@
     }
     var bin = severityBin(redPoints(feature));
     var color = String(bin.color || "#b61f2d").replace(/[^#A-Za-z0-9(),.%\s-]/g, "");
+    var inspectionCount = Number((feature.properties || {}).location_inspection_count || 0);
+    var markerText = inspectionCount > 1 ? String(inspectionCount) : "!";
+    var shapeClass = inspectionCount > 1 ? " is-count" : "";
     return L.divIcon({
       className: "tpchd-map-marker",
-      html: '<span class="tpchd-map-marker__shape" style="background:' + color + '" aria-hidden="true"><span>!</span></span>',
+      html: '<span class="tpchd-map-marker__shape' + shapeClass + '" style="background:' + color + '" aria-hidden="true"><span>' + esc(markerText) + '</span></span>',
       iconSize: [22, 22],
       iconAnchor: [11, 11],
       popupAnchor: [0, -12]
@@ -736,7 +802,7 @@
     if (safeUrl(item.report_url)) return "Inspection report link available.";
     var status = String(item.report_fetch_status || "").toLowerCase();
     var resultText = String([item.inspection_type, item.inspection_result].filter(Boolean).join(" ")).toLowerCase();
-    if (status.indexOf("source_no_document") >= 0 || status.indexOf("no_document") >= 0 || status.indexOf("no documents") >= 0) {
+    if (status.indexOf("source_") >= 0 || status.indexOf("no_document") >= 0 || status.indexOf("no documents") >= 0) {
       return "Report not available from TPCHD for this inspection.";
     }
     if (resultText.indexOf("scheduled") >= 0 || resultText.indexOf("rescheduled") >= 0) {
@@ -841,8 +907,42 @@
     if (!detailPanel || mode !== "evergreen") return;
     detailPanel.innerHTML = '<p class="tpchd-map__detail-empty">Select a restaurant marker to see the inspection timeline, current TPCHD status and source links here.</p>';
   }
+  function alertInspectionItemHtml(item) {
+    item = item || {};
+    var reportUrl = safeUrl(item.report_url);
+    var detailUrl = safeUrl(item.facility_detail_url);
+    var date = item.inspection_date_iso || item.inspection_date || item.date || "";
+    var links = [];
+    if (detailUrl) links.push('<a href="' + detailUrl + '" target="_blank" rel="noopener">Facility page</a>');
+    if (reportUrl) links.push('<a href="' + reportUrl + '" target="_blank" rel="noopener">Download report</a>');
+    var line = [];
+    if (hasValue(item.red_points)) line.push(esc(item.red_points) + " red points");
+    if (date) line.push(esc(formatDateText(date)));
+    if (item.inspection_type) line.push(esc(item.inspection_type));
+    var html = '<li><strong>' + esc(item.business_name || "Unnamed restaurant") + '</strong>';
+    if (line.length) html += '<br><span>' + line.join(" | ") + '</span>';
+    if (item.inspection_result) html += '<br><span>' + esc(item.inspection_result) + '</span>';
+    if (item.current_status_label || item.latest_result_status_label) html += '<br><span>Current TPCHD status: ' + esc(currentStatusLabel(item)) + '</span>';
+    if (links.length) html += '<br>' + links.join(' | ');
+    else html += '<br><span>' + esc(reportAvailabilityLabel(item)) + '</span>';
+    html += '</li>';
+    return html;
+  }
+  function coLocatedAlertPopupHtml(feature) {
+    var p = feature.properties || {};
+    var inspections = locationInspectionFeatures(feature);
+    if (mode === "evergreen" || inspections.length <= 1) return "";
+    var address = [p.address, p.city, p.zip].filter(Boolean).join(" ");
+    return '<strong>' + inspections.length + ' inspections at this location</strong>' +
+      (address ? '<br>' + esc(address) : '') +
+      '<ol class="tpchd-map__co-located">' +
+      inspections.map(alertInspectionItemHtml).join('') +
+      '</ol>';
+  }
   function popupHtml(feature) {
     var p = feature.properties || {};
+    var coLocatedPopup = coLocatedAlertPopupHtml(feature);
+    if (coLocatedPopup) return coLocatedPopup;
     var reportUrl = safeUrl(p.report_url);
     var highRedReportUrl = safeUrl(p.recent_high_red_report_url);
     var earlierHighRedReportUrl = safeUrl(p.earlier_high_red_report_url);
@@ -933,12 +1033,14 @@
   }
   function render(features) {
     if (!map) return;
-    renderedFeatures = features || [];
+    features = features || [];
+    var markerFeatures = alertLocationFeatures(features);
+    renderedFeatures = features;
     if (layer) map.removeLayer(layer);
     markerByRecordId = {};
     featureByRecordId = {};
     clearSelectedDetail();
-    layer = L.geoJSON({ type: "FeatureCollection", features: features }, {
+    layer = L.geoJSON({ type: "FeatureCollection", features: markerFeatures }, {
       pointToLayer: function (feature, latlng) {
         var title = markerTitle(feature);
         return L.marker(latlng, { icon: markerIcon(feature), title: title, alt: title, keyboard: true });
@@ -960,7 +1062,7 @@
         }
       }
     }).addTo(map);
-    fitMapToFeatures(features);
+    fitMapToFeatures(markerFeatures);
     setFact(shown, features.length);
     setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
     updateLegend(features);
@@ -968,10 +1070,18 @@
     if (windowFact) windowFact.textContent = renderedDateLabel;
     if (dateOverlay) dateOverlay.textContent = features.length ? "Latest inspections: " + renderedDateLabel : "No matching inspections";
     if (features.length) {
-      var shownLabel = mode === "evergreen"
-        ? " mapped " + (features.length === 1 ? "facility." : "facilities.")
-        : " 35+ red point inspection " + (features.length === 1 ? "location." : "locations.");
-      setStatus("Showing " + features.length + shownLabel);
+      if (mode === "evergreen") {
+        setStatus("Showing " + features.length + " mapped " + (features.length === 1 ? "facility." : "facilities."));
+      } else if (markerFeatures.length !== features.length) {
+        setStatus(
+          "Showing " + features.length + " 35+ red point " +
+          (features.length === 1 ? "inspection" : "inspections") +
+          " at " + markerFeatures.length + " " +
+          (markerFeatures.length === 1 ? "location." : "locations.")
+        );
+      } else {
+        setStatus("Showing " + features.length + " 35+ red point inspection " + (features.length === 1 ? "location." : "locations."));
+      }
     } else {
       setStatus("No mapped inspections match the current filters.");
     }
@@ -996,7 +1106,7 @@
     if (coverageNote) coverageNote.textContent = parts.join(" ");
   }
   function applyFilters() {
-    var period = periodControl ? periodControl.value : (mode === "evergreen" ? "recent60" : "all");
+    var period = periodControl ? periodControl.value : (mode === "evergreen" ? "all" : "all");
     var statusFilter = statusControl ? statusControl.value : "all";
     var query = searchInput ? searchInput.value : "";
     var normalizedQuery = normalizeSearch(query);
@@ -1092,14 +1202,14 @@
         option.textContent = year;
         periodControl.appendChild(option);
       });
-      periodControl.value = "recent60";
+      periodControl.value = "all";
       periodControl.addEventListener("change", applyFilters);
     }
     if (statusControl) statusControl.addEventListener("change", applyFilters);
     if (searchInput) searchInput.addEventListener("input", applyFilters);
     if (resetButton) resetButton.addEventListener("click", function () {
       if (searchInput) searchInput.value = "";
-      if (periodControl) periodControl.value = "recent60";
+      if (periodControl) periodControl.value = "all";
       if (statusControl) statusControl.value = "all";
       userLocation = null;
       applyFilters();
