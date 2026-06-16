@@ -488,6 +488,10 @@
     if (!dates.length) return &quot;No dates&quot;;
     return dates[0] === dates[dates.length - 1] ? formatDateText(dates[0]) : formatDateText(dates[0]) + &quot; to &quot; + formatDateText(dates[dates.length - 1]);
   }
+  function evergreenWindowLabel() {
+    if (!activeMetadata || !activeMetadata.evergreen_recency_window_start || !activeMetadata.evergreen_recency_window_end) return &quot;&quot;;
+    return formatDateText(activeMetadata.evergreen_recency_window_start) + &quot; to &quot; + formatDateText(activeMetadata.evergreen_recency_window_end);
+  }
   function newestDate(features) {
     var dates = features.map(function (feature) { return parseDateValue(featureDate(feature)); }).filter(Boolean);
     if (!dates.length) return null;
@@ -1096,8 +1100,13 @@
     setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
     updateLegend(features);
     var renderedDateLabel = dateLabel(features);
-    if (windowFact) windowFact.textContent = renderedDateLabel;
-    if (dateOverlay) dateOverlay.textContent = features.length ? &quot;Latest inspections: &quot; + renderedDateLabel : &quot;No matching inspections&quot;;
+    var overlayDateLabel = mode === &quot;evergreen&quot; ? (evergreenWindowLabel() || renderedDateLabel) : renderedDateLabel;
+    if (windowFact) windowFact.textContent = overlayDateLabel;
+    if (dateOverlay) {
+      dateOverlay.textContent = features.length
+        ? (mode === &quot;evergreen&quot; ? &quot;60-day window: &quot; : &quot;Latest inspections: &quot;) + overlayDateLabel
+        : &quot;No matching inspections&quot;;
+    }
     if (features.length) {
       if (mode === &quot;evergreen&quot;) {
         setStatus(&quot;Showing &quot; + features.length + &quot; mapped &quot; + (features.length === 1 ? &quot;facility.&quot; : &quot;facilities.&quot;));
@@ -1783,6 +1792,10 @@
     if (!dates.length) return "No dates";
     return dates[0] === dates[dates.length - 1] ? formatDateText(dates[0]) : formatDateText(dates[0]) + " to " + formatDateText(dates[dates.length - 1]);
   }
+  function evergreenWindowLabel() {
+    if (!activeMetadata || !activeMetadata.evergreen_recency_window_start || !activeMetadata.evergreen_recency_window_end) return "";
+    return formatDateText(activeMetadata.evergreen_recency_window_start) + " to " + formatDateText(activeMetadata.evergreen_recency_window_end);
+  }
   function newestDate(features) {
     var dates = features.map(function (feature) { return parseDateValue(featureDate(feature)); }).filter(Boolean);
     if (!dates.length) return null;
@@ -2391,8 +2404,13 @@
     setFact(maxRed, Math.max.apply(null, features.map(redPoints).concat([0])));
     updateLegend(features);
     var renderedDateLabel = dateLabel(features);
-    if (windowFact) windowFact.textContent = renderedDateLabel;
-    if (dateOverlay) dateOverlay.textContent = features.length ? "Latest inspections: " + renderedDateLabel : "No matching inspections";
+    var overlayDateLabel = mode === "evergreen" ? (evergreenWindowLabel() || renderedDateLabel) : renderedDateLabel;
+    if (windowFact) windowFact.textContent = overlayDateLabel;
+    if (dateOverlay) {
+      dateOverlay.textContent = features.length
+        ? (mode === "evergreen" ? "60-day window: " : "Latest inspections: ") + overlayDateLabel
+        : "No matching inspections";
+    }
     if (features.length) {
       if (mode === "evergreen") {
         setStatus("Showing " + features.length + " mapped " + (features.length === 1 ? "facility." : "facilities."));
