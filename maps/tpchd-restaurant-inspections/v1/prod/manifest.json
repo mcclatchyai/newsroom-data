@@ -30,7 +30,7 @@
   ],
   "cache_ttl_seconds": 900,
   "coverage_note": "This map shows facilities with recent TPCHD results indicating closure or restricted operation, required reinspection, compliance order, scheduled follow-up, or an inspection with 35 or more red points. Locations come from facility addresses shown in TPCHD inspection records.",
-  "data_version": "20260623171604Z",
+  "data_version": "20260623174141Z",
   "dataset": "tpchd-restaurant-inspections",
   "description": "Sanitized public GeoJSON and copy/paste Leaflet embed assets for TPCHD restaurant inspections with 35 or more red points.",
   "entrypoints": {
@@ -65,17 +65,17 @@
     },
     "evergreen_embed": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/evergreen/embed.html",
     "evergreen_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/evergreen/preview-20260623171604z.html",
+    "evergreen_versioned_preview": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/evergreen/preview-20260623174141z.html",
     "geocode_cache": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/geocode_cache.json",
     "latest": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/latest.geojson",
     "run_embeds": {
-      "tpchd-weekly-20260622-repair": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/runs/20260623171604z/tpchd-weekly-20260622-repair/embed.html"
+      "tpchd-weekly-20260622-clean": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/runs/20260623174141z/tpchd-weekly-20260622-clean/embed.html"
     },
     "run_previews": {
-      "tpchd-weekly-20260622-repair": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/runs/20260623171604z/tpchd-weekly-20260622-repair/preview.html"
+      "tpchd-weekly-20260622-clean": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/embed/runs/20260623174141z/tpchd-weekly-20260622-clean/preview.html"
     },
     "runs": {
-      "tpchd-weekly-20260622-repair": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/runs/20260623171604z/tpchd-weekly-20260622-repair.geojson"
+      "tpchd-weekly-20260622-clean": "https://mcclatchyai.github.io/newsroom-data/maps/tpchd-restaurant-inspections/v1/prod/runs/20260623174141z/tpchd-weekly-20260622-clean.geojson"
     }
   },
   "environment": "prod",
@@ -112,21 +112,21 @@
     },
     "evergreen_embed": "embed/evergreen/embed.html",
     "evergreen_preview": "embed/evergreen/preview.html",
-    "evergreen_versioned_preview": "embed/evergreen/preview-20260623171604z.html",
+    "evergreen_versioned_preview": "embed/evergreen/preview-20260623174141z.html",
     "geocode_cache": "geocode_cache.json",
     "latest": "latest.geojson",
     "run_embeds": {
-      "tpchd-weekly-20260622-repair": "embed/runs/20260623171604z/tpchd-weekly-20260622-repair/embed.html"
+      "tpchd-weekly-20260622-clean": "embed/runs/20260623174141z/tpchd-weekly-20260622-clean/embed.html"
     },
     "run_previews": {
-      "tpchd-weekly-20260622-repair": "embed/runs/20260623171604z/tpchd-weekly-20260622-repair/preview.html"
+      "tpchd-weekly-20260622-clean": "embed/runs/20260623174141z/tpchd-weekly-20260622-clean/preview.html"
     },
     "runs": {
-      "tpchd-weekly-20260622-repair": "runs/20260623171604z/tpchd-weekly-20260622-repair.geojson"
+      "tpchd-weekly-20260622-clean": "runs/20260623174141z/tpchd-weekly-20260622-clean.geojson"
     }
   },
   "format": "GeoJSON FeatureCollection",
-  "generated_at": "2026-06-23T17:16:04Z",
+  "generated_at": "2026-06-23T17:41:41Z",
   "geometry_precision": "facility address from TPCHD inspection records",
   "map_cannot_show": "This map does not include TPCHD source records not yet collected in the inspection data store.",
   "map_claim": "Shows facilities with recent TPCHD results indicating closure or restricted operation, required reinspection, compliance order, scheduled follow-up, or an inspection with 35 or more red points, with timeline context where available.",
@@ -278,7 +278,7 @@
   },
   "schema_version": 1,
   "source": "TPCHD Accela food-facility inspection reports",
-  "stale_after": "2026-06-23T17:31:04Z",
+  "stale_after": "2026-06-23T17:56:41Z",
   "symbology": {
     "alert_categories": [
       {
