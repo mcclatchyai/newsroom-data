@@ -384,6 +384,19 @@
     "query": "1320 Broadway Plaza Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
   },
+  "13204 country club dr sw lakewood wa 98498 united states lakewood 98498": {
+    "formatted_address": "13204 Country Club Dr SW, Lakewood, WA 98498, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:01Z",
+    "latitude": 47.1370399,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5337502,
+    "place_id": "ChIJj7NNQsgGkVQRNUbNZjr5CAg",
+    "provider": "google_geocoding",
+    "query": "13204 Country Club DR SW Lakewood WA 98498 United States Lakewood 98498",
+    "status": "ok"
+  },
   "13701 24th st e #a1 sumner wa 98390 united states sumner 98390": {
     "formatted_address": "13701 24th St E A1, Sumner, WA 98390, USA",
     "geocoded_at_utc": "2026-05-22T22:20:03Z",
@@ -818,6 +831,19 @@
     "place_id": "Ei8yMDMgTWFzaGVsbCBBdmUgUyAjMiwgRWF0b252aWxsZSwgV0EgOTgzMjgsIFVTQSIdGhsKFgoUChIJ0V1ozW8jkVQRbM0TTcoK3yMSATI",
     "provider": "google_geocoding",
     "query": "203 N Mashell AVE Unit #2 Eatonville WA 98328 United States Eatonville 98328",
+    "status": "ok"
+  },
+  "203 tacoma ave s tacoma wa 98402 united states tacoma 98402": {
+    "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:02Z",
+    "latitude": 47.2618756,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4461253,
+    "place_id": "ChIJX0gmiKhVkFQRiZSZVdrWHf0",
+    "provider": "google_geocoding",
+    "query": "203 Tacoma AVE S Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
   },
   "204 center st e eatonville wa 98328 united states eatonville 98328": {
@@ -1301,6 +1327,19 @@
     "query": "3610 S Pine ST STE A Tacoma WA 98409 United States Tacoma 98409",
     "status": "ok"
   },
+  "3611 s 56th st tacoma wa 98409 united states tacoma 98409": {
+    "formatted_address": "3611 S 56th St, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:03Z",
+    "latitude": 47.2063478,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4845706,
+    "place_id": "ChIJQeJ95g0AkVQRvC6zqBCDfw0",
+    "provider": "google_geocoding",
+    "query": "3611 S 56th ST Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
   "3812 s wright ave tacoma wa 98409 tacoma 98409": {
     "formatted_address": "3812 S Wright Ave, Tacoma, WA 98409, USA",
     "geocoded_at_utc": "2026-05-21T20:41:32Z",
@@ -1507,6 +1546,19 @@
     "query": "4818 N 45th St Tacoma WA 98407 United States Tacoma 98407",
     "status": "ok"
   },
+  "4827 point fosdick dr gig harbor wa 98335 united states gig harbor 98335": {
+    "formatted_address": "4827 Point Fosdick Dr, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:02Z",
+    "latitude": 47.3024686,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5776925,
+    "place_id": "ChIJFWgLNjNTkFQRMP5XZh3bw4o",
+    "provider": "google_geocoding",
+    "query": "4827 Point Fosdick DR Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
   "4901 point fosdick dr n ste b600 gig harbor wa 98335 united states gig harbor 98335": {
     "formatted_address": "4901 Point Fosdick Dr b600, Gig Harbor, WA 98335, USA",
     "geocoded_at_utc": "2026-05-22T22:20:04Z",
@@ -1540,6 +1592,22 @@
     "place_id": "ChIJz9zCPM2skVQRhW6t-gpbWSQ",
     "provider": "google_geocoding",
     "query": "5010 Point Fosdick DR Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
+  "5013 s 56th st ste c-d tacoma wa 98409 united states tacoma 98409": {
+    "formatted_address": "5013 South 56th Street, Tacoma, WA 98409, United States",
+    "geocode_precision": "address_building_centroid",
+    "geocode_rule_version": "manual-osm-address-centroid-v1",
+    "geocoded_at_utc": "2026-06-23T17:10:00Z",
+    "latitude": 47.2071326,
+    "location_type": "ADDRESS_LEVEL",
+    "longitude": -122.5039816,
+    "place_id": "osm:way:45463469",
+    "provider": "manual_osm_nominatim",
+    "query": "5013 S 56th ST STE C-D Tacoma WA 98409 United States Tacoma 98409",
+    "result_types": [
+      "building"
+    ],
     "status": "ok"
   },
   "5102 n pearl st tacoma wa 98407 united states tacoma 98407": {
@@ -2105,6 +2173,19 @@
     "query": "905 Main ST Sumner WA 98390 United States Sumner 98390",
     "status": "ok"
   },
+  "9111 346th st ste 6 roy wa 98580 united states roy 98580": {
+    "formatted_address": "9111 346th St S #6, Roy, WA 98580, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:04Z",
+    "latitude": 46.94351950000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5517807,
+    "place_id": "ChIJIypx308RkVQR3ecGdKHDZrA",
+    "provider": "google_geocoding",
+    "query": "9111 346th ST STE 6 Roy WA 98580 United States Roy 98580",
+    "status": "ok"
+  },
   "9124 veterans dr sw lakewood wa 98498 united states lakewood 98498": {
     "formatted_address": "9124 Veterans Dr SW, Tacoma, WA 98498, USA",
     "geocoded_at_utc": "2026-05-21T20:41:42Z",
@@ -2125,6 +2206,19 @@
     "place_id": "ChIJW1Wij94GkVQR-RZSMgUu690",
     "provider": "google_geocoding",
     "query": "9124 Veterans DR SW Tacoma WA 98498 United States Tacoma 98498",
+    "status": "ok"
+  },
+  "918 72nd st e tacoma wa 98404 united states tacoma 98404": {
+    "formatted_address": "918 72nd St E, Tacoma, WA 98404, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:03Z",
+    "latitude": 47.1915754,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4173465,
+    "place_id": "ChIJ3WVHgTL-kFQRDplhtIm-Q6U",
+    "provider": "google_geocoding",
+    "query": "918 72nd St E Tacoma WA 98404 United States Tacoma 98404",
     "status": "ok"
   },
   "9205 south tacoma way ste 101 lakewood wa 98499 united states lakewood 98499": {
@@ -3443,6 +3537,32 @@
     "query": "5977 6th AVE Tacoma WA 98406 United States Tacoma 98406",
     "status": "ok"
   },
+  "PR0030540": {
+    "formatted_address": "13204 Country Club Dr SW, Lakewood, WA 98498, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:01Z",
+    "latitude": 47.1370399,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5337502,
+    "place_id": "ChIJj7NNQsgGkVQRNUbNZjr5CAg",
+    "provider": "google_geocoding",
+    "query": "13204 Country Club DR SW Lakewood WA 98498 United States Lakewood 98498",
+    "status": "ok"
+  },
+  "PR0030540|381813": {
+    "formatted_address": "13204 Country Club Dr SW, Lakewood, WA 98498, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:01Z",
+    "latitude": 47.1370399,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5337502,
+    "place_id": "ChIJj7NNQsgGkVQRNUbNZjr5CAg",
+    "provider": "google_geocoding",
+    "query": "13204 Country Club DR SW Lakewood WA 98498 United States Lakewood 98498",
+    "status": "ok"
+  },
   "PR0030843": {
     "formatted_address": "2309 6th Ave, Tacoma, WA 98403, USA",
     "geocoded_at_utc": "2026-05-29T13:58:28Z",
@@ -3529,6 +3649,32 @@
     "place_id": "ChIJNU3yWwGokVQRiAh-rMFVe4E",
     "provider": "google_geocoding",
     "query": "11019 Country Club DR Anderson Island WA 98303 United States Anderson Island 98303",
+    "status": "ok"
+  },
+  "PR0032633": {
+    "formatted_address": "4827 Point Fosdick Dr, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:02Z",
+    "latitude": 47.3024686,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5776925,
+    "place_id": "ChIJFWgLNjNTkFQRMP5XZh3bw4o",
+    "provider": "google_geocoding",
+    "query": "4827 Point Fosdick DR Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
+  "PR0032633|629455": {
+    "formatted_address": "4827 Point Fosdick Dr, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:02Z",
+    "latitude": 47.3024686,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5776925,
+    "place_id": "ChIJFWgLNjNTkFQRMP5XZh3bw4o",
+    "provider": "google_geocoding",
+    "query": "4827 Point Fosdick DR Gig Harbor WA 98335 United States Gig Harbor 98335",
     "status": "ok"
   },
   "PR0033013": {
@@ -4085,6 +4231,54 @@
     "query": "565 Broadway Tacoma WA 98403 United States Tacoma 98403",
     "status": "ok"
   },
+  "PR0036189": {
+    "formatted_address": "5013 South 56th Street, Tacoma, WA 98409, United States",
+    "geocode_precision": "address_building_centroid",
+    "geocode_rule_version": "manual-osm-address-centroid-v1",
+    "geocoded_at_utc": "2026-06-23T17:10:00Z",
+    "latitude": 47.2071326,
+    "location_type": "ADDRESS_LEVEL",
+    "longitude": -122.5039816,
+    "place_id": "osm:way:45463469",
+    "provider": "manual_osm_nominatim",
+    "query": "5013 S 56th ST STE C-D Tacoma WA 98409 United States Tacoma 98409",
+    "result_types": [
+      "building"
+    ],
+    "status": "ok"
+  },
+  "PR0036189|380182": {
+    "formatted_address": "5013 South 56th Street, Tacoma, WA 98409, United States",
+    "geocode_precision": "address_building_centroid",
+    "geocode_rule_version": "manual-osm-address-centroid-v1",
+    "geocoded_at_utc": "2026-06-23T17:10:00Z",
+    "latitude": 47.2071326,
+    "location_type": "ADDRESS_LEVEL",
+    "longitude": -122.5039816,
+    "place_id": "osm:way:45463469",
+    "provider": "manual_osm_nominatim",
+    "query": "5013 S 56th ST STE C-D Tacoma WA 98409 United States Tacoma 98409",
+    "result_types": [
+      "building"
+    ],
+    "status": "ok"
+  },
+  "PR0036189|4847": {
+    "formatted_address": "5013 South 56th Street, Tacoma, WA 98409, United States",
+    "geocode_precision": "address_building_centroid",
+    "geocode_rule_version": "manual-osm-address-centroid-v1",
+    "geocoded_at_utc": "2026-06-23T17:10:00Z",
+    "latitude": 47.2071326,
+    "location_type": "ADDRESS_LEVEL",
+    "longitude": -122.5039816,
+    "place_id": "osm:way:45463469",
+    "provider": "manual_osm_nominatim",
+    "query": "5013 S 56th ST STE C-D Tacoma WA 98409 United States Tacoma 98409",
+    "result_types": [
+      "building"
+    ],
+    "status": "ok"
+  },
   "PR0036220": {
     "formatted_address": "616 St Helens Ave #101, Tacoma, WA 98402, USA",
     "geocoded_at_utc": "2026-05-29T13:58:26Z",
@@ -4385,6 +4579,32 @@
     "place_id": "ChIJS5sSWbbvkFQRU4alCoFvVTc",
     "provider": "google_geocoding",
     "query": "331 State Route 410 S Buckley WA 98321 United States Buckley 98321",
+    "status": "ok"
+  },
+  "PR0037406": {
+    "formatted_address": "918 72nd St E, Tacoma, WA 98404, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:03Z",
+    "latitude": 47.1915754,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4173465,
+    "place_id": "ChIJ3WVHgTL-kFQRDplhtIm-Q6U",
+    "provider": "google_geocoding",
+    "query": "918 72nd St E Tacoma WA 98404 United States Tacoma 98404",
+    "status": "ok"
+  },
+  "PR0037406|776097": {
+    "formatted_address": "918 72nd St E, Tacoma, WA 98404, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:03Z",
+    "latitude": 47.1915754,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4173465,
+    "place_id": "ChIJ3WVHgTL-kFQRDplhtIm-Q6U",
+    "provider": "google_geocoding",
+    "query": "918 72nd St E Tacoma WA 98404 United States Tacoma 98404",
     "status": "ok"
   },
   "PR0037412": {
@@ -4907,6 +5127,32 @@
     "query": "1175 Center DR STE 140 Dupont WA 98327 United States Dupont 98327",
     "status": "ok"
   },
+  "PR0038743": {
+    "formatted_address": "3611 S 56th St, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:03Z",
+    "latitude": 47.2063478,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4845706,
+    "place_id": "ChIJQeJ95g0AkVQRvC6zqBCDfw0",
+    "provider": "google_geocoding",
+    "query": "3611 S 56th ST Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
+  "PR0038743|238268": {
+    "formatted_address": "3611 S 56th St, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:03Z",
+    "latitude": 47.2063478,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4845706,
+    "place_id": "ChIJQeJ95g0AkVQRvC6zqBCDfw0",
+    "provider": "google_geocoding",
+    "query": "3611 S 56th ST Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
   "PR0038773": {
     "formatted_address": "17106 Pacific Ave S, Spanaway, WA 98387, USA",
     "geocoded_at_utc": "2026-05-21T20:41:40Z",
@@ -5141,6 +5387,32 @@
     "place_id": "ChIJNcIlJCFVkFQRi5KcZ5z1U9o",
     "provider": "google_geocoding",
     "query": "3829 6th AVE Tacoma WA 98406 United States Tacoma 98406",
+    "status": "ok"
+  },
+  "PR0039197": {
+    "formatted_address": "9111 346th St S #6, Roy, WA 98580, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:04Z",
+    "latitude": 46.94351950000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5517807,
+    "place_id": "ChIJIypx308RkVQR3ecGdKHDZrA",
+    "provider": "google_geocoding",
+    "query": "9111 346th ST STE 6 Roy WA 98580 United States Roy 98580",
+    "status": "ok"
+  },
+  "PR0039197|846095": {
+    "formatted_address": "9111 346th St S #6, Roy, WA 98580, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:04Z",
+    "latitude": 46.94351950000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5517807,
+    "place_id": "ChIJIypx308RkVQR3ecGdKHDZrA",
+    "provider": "google_geocoding",
+    "query": "9111 346th ST STE 6 Roy WA 98580 United States Roy 98580",
     "status": "ok"
   },
   "PR0039274": {
@@ -6351,6 +6623,32 @@
     "place_id": "ChIJg2ygMLOqkVQRcOpS1hmixS8",
     "provider": "google_geocoding",
     "query": "3812 S Wright AVE Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
+  "PR0040837": {
+    "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:02Z",
+    "latitude": 47.2618756,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4461253,
+    "place_id": "ChIJX0gmiKhVkFQRiZSZVdrWHf0",
+    "provider": "google_geocoding",
+    "query": "203 Tacoma AVE S Tacoma WA 98402 United States Tacoma 98402",
+    "status": "ok"
+  },
+  "PR0040837|719": {
+    "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-23T17:16:02Z",
+    "latitude": 47.2618756,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4461253,
+    "place_id": "ChIJX0gmiKhVkFQRiZSZVdrWHf0",
+    "provider": "google_geocoding",
+    "query": "203 Tacoma AVE S Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
   },
   "PR0040840": {
