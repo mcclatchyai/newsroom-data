@@ -279,6 +279,19 @@
     "query": "11919 Pacific HWY SW Lakewood WA 98499 United States Lakewood 98499",
     "status": "ok"
   },
+  "1201 1/2 regents blvd fircrest wa 98466 united states fircrest 98466": {
+    "formatted_address": "1201 1/2 Regents Blvd W, Fircrest, WA 98466, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:27Z",
+    "latitude": 47.2390199,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5199454,
+    "place_id": "ChIJzaFn59qqkVQR5STjFF4q2c0",
+    "provider": "google_geocoding",
+    "query": "1201 1/2 Regents BLVD Fircrest WA 98466 United States Fircrest 98466",
+    "status": "ok"
+  },
   "1205 19th ave milton wa 98354 united states milton 98354": {
     "formatted_address": "1205 19th Ave, Milton, WA 98354, USA",
     "geocoded_at_utc": "2026-05-22T22:20:03Z",
@@ -439,6 +452,19 @@
     "place_id": "ChIJ7YKsbnzvkFQRC7LhkEwYe5Y",
     "provider": "google_geocoding",
     "query": "14204 State Route 165 E Buckley WA 98321 United States Buckley 98321",
+    "status": "ok"
+  },
+  "14511 sherman dr nw gig harbor wa 98335 united states gig harbor 98335": {
+    "formatted_address": "14511 Sherman Dr NW, Gig Harbor, WA 98332, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.39025660000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.6266889,
+    "place_id": "ChIJI4SE6_1MkFQRVmuCx8DkG5I",
+    "provider": "google_geocoding",
+    "query": "14511 Sherman Dr NW Gig Harbor WA 98335 United States Gig Harbor 98335",
     "status": "ok"
   },
   "1472 olney ave se port orchard wa 98366 united states port orchard 98366": {
@@ -833,6 +859,19 @@
     "query": "203 N Mashell AVE Unit #2 Eatonville WA 98328 United States Eatonville 98328",
     "status": "ok"
   },
+  "203 tacoma ave s tacoma wa 98402 tacoma 98402": {
+    "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:27Z",
+    "latitude": 47.2618756,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4461253,
+    "place_id": "ChIJX0gmiKhVkFQRiZSZVdrWHf0",
+    "provider": "google_geocoding",
+    "query": "203 TACOMA AVE S Tacoma WA 98402 Tacoma 98402",
+    "status": "ok"
+  },
   "203 tacoma ave s tacoma wa 98402 united states tacoma 98402": {
     "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
     "geocode_precision": "rooftop",
@@ -942,6 +981,19 @@
     "query": "22219 Mountain HWY E #F Spanaway WA 98387 United States Spanaway 98387",
     "status": "ok"
   },
+  "22219 mountain hwy e ste d spanaway wa 98387 united states spanaway 98387": {
+    "formatted_address": "22219 Mountain Hwy E D, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.0558941,
+    "location_type": "ROOFTOP",
+    "longitude": -122.3994724,
+    "place_id": "ChIJ_YWeAaUckVQRAPCqngz-D1s",
+    "provider": "google_geocoding",
+    "query": "22219 Mountain HWY E STE D Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
   "22223 mountain hwy e spanaway wa 98387 united states spanaway 98387": {
     "formatted_address": "22223 Mountain Hwy E, Spanaway, WA 98387, USA",
     "geocoded_at_utc": "2026-05-29T13:58:31Z",
@@ -962,6 +1014,19 @@
     "place_id": "ChIJC6NW66QckVQRTCvIHi2o3Y0",
     "provider": "google_geocoding",
     "query": "22303 MOUNTAIN HWY Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
+  "2302 fawcett ave tacoma wa 98402 tacoma 98402": {
+    "formatted_address": "2302 Fawcett Ave, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.2407889,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4405877,
+    "place_id": "ChIJsZa_oXpVkFQRgW8NlD1gqMk",
+    "provider": "google_geocoding",
+    "query": "2302 FAWCETT AVE Tacoma WA 98402 Tacoma 98402",
     "status": "ok"
   },
   "2309 6th ave tacoma wa 98403 united states tacoma 98403": {
@@ -997,6 +1062,19 @@
     "place_id": "ChIJDyr8sntVkFQR_8X3vv_0Dsk",
     "provider": "google_geocoding",
     "query": "2401 Pacific AVE Tacoma WA 98402 United States Tacoma 98402",
+    "status": "ok"
+  },
+  "2505 s 38th st ste a-101 tacoma wa 98409 united states tacoma 98409": {
+    "formatted_address": "2505 S 38th St Ste A101, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.222916,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4709595,
+    "place_id": "ChIJTWwsrFVVkFQRk6Qusujb8C4",
+    "provider": "google_geocoding",
+    "query": "2505 S 38th ST STE A-101 Tacoma WA 98409 United States Tacoma 98409",
     "status": "ok"
   },
   "2505 s 38th st tacoma wa tacoma": {
@@ -1056,6 +1134,19 @@
     "place_id": "ChIJlQtchhlVkFQRf3nSotrZ_r8",
     "provider": "google_geocoding",
     "query": "2618 6th Ave Tacoma WA 98406 United States Tacoma 98406",
+    "status": "ok"
+  },
+  "2645 s 298th st federal way wa 98003 federal way 98003": {
+    "formatted_address": "2645 S 298th St, Federal Way, WA 98003, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:23Z",
+    "latitude": 47.3346548,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2982342,
+    "place_id": "ChIJh2igrMRZkFQRy0R0tKLXhLw",
+    "provider": "google_geocoding",
+    "query": "2645 S 298th ST Federal Way WA 98003 Federal Way 98003",
     "status": "ok"
   },
   "26620 mountain hwy e spanaway wa 98387 united states spanaway 98387": {
@@ -1143,6 +1234,19 @@
     "place_id": "ChIJY3mBrUj-kFQRaCeQ0o0Wxwc",
     "provider": "google_geocoding",
     "query": "2901 72nd ST E Tacoma WA 98404 United States Tacoma 98404",
+    "status": "ok"
+  },
+  "29297 state route 410 hwy ste a buckley wa 98321 united states buckley 98321": {
+    "formatted_address": "29297 WA-410 Ste a, Buckley, WA 98321, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.158295,
+    "location_type": "ROOFTOP",
+    "longitude": -122.037983,
+    "place_id": "ChIJbeD4frfvkFQRsuDR6m2EJq0",
+    "provider": "google_geocoding",
+    "query": "29297 State Route 410 HWY STE A Buckley WA 98321 United States Buckley 98321",
     "status": "ok"
   },
   "29297 state route 410 ste a buckley wa 98321 united states buckley 98321": {
@@ -1522,6 +1626,19 @@
     "query": "4704 S Oakes ST STE 101 Tacoma WA 98409 United States Tacoma 98409",
     "status": "ok"
   },
+  "4747 point fosdick dr #600 gig harbor wa 98335 united states gig harbor 98335": {
+    "formatted_address": "4747 Point Fosdick Dr #600, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.3008747,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5757415,
+    "place_id": "ChIJa5IisjRTkFQRVG22NnpsLcU",
+    "provider": "google_geocoding",
+    "query": "4747 Point Fosdick DR #600 Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
   "4816 pacific ave tacoma wa 98408 united states tacoma 98408": {
     "formatted_address": "4816 Pacific Ave, Tacoma, WA 98408, USA",
     "geocode_precision": "rooftop",
@@ -1570,6 +1687,30 @@
     "query": "4901 Point Fosdick DR N STE B600 Gig Harbor WA 98335 United States Gig Harbor 98335",
     "status": "ok"
   },
+  "4901 point fosdick dr nw #b 100 gig harbor wa 98026 united states gig harbor 98026": {
+    "formatted_address": "4901 Point Fosdick Dr NW Suite B100, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "same_building_manual_review",
+    "geocode_rule_version": "manual-reviewed-building-coordinate-v1",
+    "geocoded_at_utc": "2026-06-29T16:44:52Z",
+    "latitude": 47.3030301,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5787864,
+    "provider": "manual_review",
+    "query": "4901 Point Fosdick DR NW #B 100 Gig Harbor WA 98026 United States Gig Harbor 98026",
+    "status": "reviewed"
+  },
+  "4901 point fosdick dr nw suite b100 gig harbor wa 98335": {
+    "formatted_address": "4901 Point Fosdick Dr NW Suite B100, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "same_building_manual_review",
+    "geocode_rule_version": "manual-reviewed-building-coordinate-v1",
+    "geocoded_at_utc": "2026-06-29T16:44:52Z",
+    "latitude": 47.3030301,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5787864,
+    "provider": "manual_review",
+    "query": "4901 Point Fosdick Dr NW Suite B100 Gig Harbor WA 98335",
+    "status": "reviewed"
+  },
   "4916 center st suite a tacoma wa 98409 tacoma 98409": {
     "formatted_address": "4916 Center St #A, Tacoma, WA 98409, USA",
     "geocoded_at_utc": "2026-05-29T13:58:30Z",
@@ -1579,6 +1720,19 @@
     "place_id": "ChIJg0r-tsmqkVQRvGwn2P6uA00",
     "provider": "google_geocoding",
     "query": "4916 CENTER ST Suite A Tacoma WA 98409 Tacoma 98409",
+    "status": "ok"
+  },
+  "5005 main st ste 105 tacoma wa 98407 united states tacoma 98407": {
+    "formatted_address": "5005 Main St #105, Tacoma, WA 98407, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.297625,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5029772,
+    "place_id": "ChIJs5LMIH5TkFQR1Af4nBB5ssY",
+    "provider": "google_geocoding",
+    "query": "5005 Main ST STE 105 Tacoma WA 98407 United States Tacoma 98407",
     "status": "ok"
   },
   "5010 point fosdick dr gig harbor wa 98335 united states gig harbor 98335": {
@@ -2845,6 +2999,32 @@
     "query": "4916 CENTER ST Suite A Tacoma WA 98409 Tacoma 98409",
     "status": "ok"
   },
+  "FEP2026-00233": {
+    "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:27Z",
+    "latitude": 47.2618756,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4461253,
+    "place_id": "ChIJX0gmiKhVkFQRiZSZVdrWHf0",
+    "provider": "google_geocoding",
+    "query": "203 TACOMA AVE S Tacoma WA 98402 Tacoma 98402",
+    "status": "ok"
+  },
+  "FEP2026-00233|830654": {
+    "formatted_address": "203 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:27Z",
+    "latitude": 47.2618756,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4461253,
+    "place_id": "ChIJX0gmiKhVkFQRiZSZVdrWHf0",
+    "provider": "google_geocoding",
+    "query": "203 TACOMA AVE S Tacoma WA 98402 Tacoma 98402",
+    "status": "ok"
+  },
   "FEP2026-00234": {
     "formatted_address": "618 N 1st St, Tacoma, WA 98403, USA",
     "geocode_precision": "rooftop",
@@ -2869,6 +3049,58 @@
     "place_id": "ChIJl64dpqlVkFQR7hyAWjY3ORM",
     "provider": "google_geocoding",
     "query": "618 N 1st ST Tacoma WA 98403 Tacoma 98403",
+    "status": "ok"
+  },
+  "FEP2026-00243": {
+    "formatted_address": "2645 S 298th St, Federal Way, WA 98003, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:23Z",
+    "latitude": 47.3346548,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2982342,
+    "place_id": "ChIJh2igrMRZkFQRy0R0tKLXhLw",
+    "provider": "google_geocoding",
+    "query": "2645 S 298th ST Federal Way WA 98003 Federal Way 98003",
+    "status": "ok"
+  },
+  "FEP2026-00243|841655": {
+    "formatted_address": "2645 S 298th St, Federal Way, WA 98003, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:23Z",
+    "latitude": 47.3346548,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2982342,
+    "place_id": "ChIJh2igrMRZkFQRy0R0tKLXhLw",
+    "provider": "google_geocoding",
+    "query": "2645 S 298th ST Federal Way WA 98003 Federal Way 98003",
+    "status": "ok"
+  },
+  "FEP2026-00245": {
+    "formatted_address": "2302 Fawcett Ave, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.2407889,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4405877,
+    "place_id": "ChIJsZa_oXpVkFQRgW8NlD1gqMk",
+    "provider": "google_geocoding",
+    "query": "2302 FAWCETT AVE Tacoma WA 98402 Tacoma 98402",
+    "status": "ok"
+  },
+  "FEP2026-00245|841659": {
+    "formatted_address": "2302 Fawcett Ave, Tacoma, WA 98402, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.2407889,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4405877,
+    "place_id": "ChIJsZa_oXpVkFQRgW8NlD1gqMk",
+    "provider": "google_geocoding",
+    "query": "2302 FAWCETT AVE Tacoma WA 98402 Tacoma 98402",
     "status": "ok"
   },
   "PR0000002": {
@@ -2957,6 +3189,32 @@
     "place_id": "ChIJK6eKYp4AkVQRnKloLmgy3hc",
     "provider": "google_geocoding",
     "query": "8102 Zircon Dr SW Lakewood WA 98498 United States Lakewood 98498",
+    "status": "ok"
+  },
+  "PR0000468": {
+    "formatted_address": "14511 Sherman Dr NW, Gig Harbor, WA 98332, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.39025660000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.6266889,
+    "place_id": "ChIJI4SE6_1MkFQRVmuCx8DkG5I",
+    "provider": "google_geocoding",
+    "query": "14511 Sherman Dr NW Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
+  "PR0000468|724935": {
+    "formatted_address": "14511 Sherman Dr NW, Gig Harbor, WA 98332, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.39025660000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.6266889,
+    "place_id": "ChIJI4SE6_1MkFQRVmuCx8DkG5I",
+    "provider": "google_geocoding",
+    "query": "14511 Sherman Dr NW Gig Harbor WA 98335 United States Gig Harbor 98335",
     "status": "ok"
   },
   "PR0000499": {
@@ -3159,6 +3417,32 @@
     "place_id": "ChIJC6NW66QckVQRTCvIHi2o3Y0",
     "provider": "google_geocoding",
     "query": "22303 MOUNTAIN HWY Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
+  "PR0002673": {
+    "formatted_address": "22219 Mountain Hwy E D, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.0558941,
+    "location_type": "ROOFTOP",
+    "longitude": -122.3994724,
+    "place_id": "ChIJ_YWeAaUckVQRAPCqngz-D1s",
+    "provider": "google_geocoding",
+    "query": "22219 Mountain HWY E STE D Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
+  "PR0002673|25740": {
+    "formatted_address": "22219 Mountain Hwy E D, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.0558941,
+    "location_type": "ROOFTOP",
+    "longitude": -122.3994724,
+    "place_id": "ChIJ_YWeAaUckVQRAPCqngz-D1s",
+    "provider": "google_geocoding",
+    "query": "22219 Mountain HWY E STE D Spanaway WA 98387 United States Spanaway 98387",
     "status": "ok"
   },
   "PR0002803": {
@@ -3677,6 +3961,42 @@
     "query": "4827 Point Fosdick DR Gig Harbor WA 98335 United States Gig Harbor 98335",
     "status": "ok"
   },
+  "PR0032988": {
+    "formatted_address": "4901 Point Fosdick Dr NW Suite B100, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "same_building_manual_review",
+    "geocode_rule_version": "manual-reviewed-building-coordinate-v1",
+    "geocoded_at_utc": "2026-06-29T16:44:52Z",
+    "latitude": 47.3030301,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5787864,
+    "provider": "manual_review",
+    "query": "4901 Point Fosdick Dr NW Suite B100 Gig Harbor WA 98335",
+    "status": "reviewed"
+  },
+  "PR0032988|443884": {
+    "formatted_address": "4901 Point Fosdick Dr NW Suite B100, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "same_building_manual_review",
+    "geocode_rule_version": "manual-reviewed-building-coordinate-v1",
+    "geocoded_at_utc": "2026-06-29T16:44:52Z",
+    "latitude": 47.3030301,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5787864,
+    "provider": "manual_review",
+    "query": "4901 Point Fosdick Dr NW Suite B100 Gig Harbor WA 98335",
+    "status": "reviewed"
+  },
+  "PR0032988|643455": {
+    "formatted_address": "4901 Point Fosdick Dr NW Suite B100, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "same_building_manual_review",
+    "geocode_rule_version": "manual-reviewed-building-coordinate-v1",
+    "geocoded_at_utc": "2026-06-29T16:44:52Z",
+    "latitude": 47.3030301,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5787864,
+    "provider": "manual_review",
+    "query": "4901 Point Fosdick Dr NW Suite B100 Gig Harbor WA 98335",
+    "status": "reviewed"
+  },
   "PR0033013": {
     "formatted_address": "858 S 38th St, Tacoma, WA 98418, USA",
     "geocoded_at_utc": "2026-05-29T13:58:28Z",
@@ -4091,6 +4411,32 @@
     "query": "1502 S Meridian Puyallup WA 98371 United States Puyallup 98371",
     "status": "ok"
   },
+  "PR0035650": {
+    "formatted_address": "5005 Main St #105, Tacoma, WA 98407, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.297625,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5029772,
+    "place_id": "ChIJs5LMIH5TkFQR1Af4nBB5ssY",
+    "provider": "google_geocoding",
+    "query": "5005 Main ST STE 105 Tacoma WA 98407 United States Tacoma 98407",
+    "status": "ok"
+  },
+  "PR0035650|694215": {
+    "formatted_address": "5005 Main St #105, Tacoma, WA 98407, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.297625,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5029772,
+    "place_id": "ChIJs5LMIH5TkFQR1Af4nBB5ssY",
+    "provider": "google_geocoding",
+    "query": "5005 Main ST STE 105 Tacoma WA 98407 United States Tacoma 98407",
+    "status": "ok"
+  },
   "PR0035685": {
     "formatted_address": "2618 6th Ave, Tacoma, WA 98405, USA",
     "geocoded_at_utc": "2026-05-29T13:58:29Z",
@@ -4369,6 +4715,32 @@
     "place_id": "ChIJ1Y8rpNf7kFQR8xB6pj04NFo",
     "provider": "google_geocoding",
     "query": "905 Main ST Sumner WA 98390 United States Sumner 98390",
+    "status": "ok"
+  },
+  "PR0036586": {
+    "formatted_address": "2505 S 38th St Ste A101, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.222916,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4709595,
+    "place_id": "ChIJTWwsrFVVkFQRk6Qusujb8C4",
+    "provider": "google_geocoding",
+    "query": "2505 S 38th ST STE A-101 Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
+  "PR0036586|792814": {
+    "formatted_address": "2505 S 38th St Ste A101, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:24Z",
+    "latitude": 47.222916,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4709595,
+    "place_id": "ChIJTWwsrFVVkFQRk6Qusujb8C4",
+    "provider": "google_geocoding",
+    "query": "2505 S 38th ST STE A-101 Tacoma WA 98409 United States Tacoma 98409",
     "status": "ok"
   },
   "PR0036632": {
@@ -5341,6 +5713,32 @@
     "query": "3500 S Meridian STE #966 Puyallup WA 98378 United States Puyallup 98378",
     "status": "reviewed"
   },
+  "PR0039156": {
+    "formatted_address": "29297 WA-410 Ste a, Buckley, WA 98321, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.158295,
+    "location_type": "ROOFTOP",
+    "longitude": -122.037983,
+    "place_id": "ChIJbeD4frfvkFQRsuDR6m2EJq0",
+    "provider": "google_geocoding",
+    "query": "29297 State Route 410 HWY STE A Buckley WA 98321 United States Buckley 98321",
+    "status": "ok"
+  },
+  "PR0039156|703775": {
+    "formatted_address": "29297 WA-410 Ste a, Buckley, WA 98321, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.158295,
+    "location_type": "ROOFTOP",
+    "longitude": -122.037983,
+    "place_id": "ChIJbeD4frfvkFQRsuDR6m2EJq0",
+    "provider": "google_geocoding",
+    "query": "29297 State Route 410 HWY STE A Buckley WA 98321 United States Buckley 98321",
+    "status": "ok"
+  },
   "PR0039157": {
     "formatted_address": "1701 Division Ave, Tacoma, WA 98403, USA",
     "geocode_precision": "rooftop",
@@ -6029,6 +6427,32 @@
     "query": "1310 Tacoma AVE S Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
   },
+  "PR0040054": {
+    "formatted_address": "4747 Point Fosdick Dr #600, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.3008747,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5757415,
+    "place_id": "ChIJa5IisjRTkFQRVG22NnpsLcU",
+    "provider": "google_geocoding",
+    "query": "4747 Point Fosdick DR #600 Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
+  "PR0040054|734975": {
+    "formatted_address": "4747 Point Fosdick Dr #600, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:25Z",
+    "latitude": 47.3008747,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5757415,
+    "place_id": "ChIJa5IisjRTkFQRVG22NnpsLcU",
+    "provider": "google_geocoding",
+    "query": "4747 Point Fosdick DR #600 Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
   "PR0040056": {
     "formatted_address": "3610 S Pine St Suite A, Tacoma, WA 98409, USA",
     "geocoded_at_utc": "2026-05-29T13:58:37Z",
@@ -6597,6 +7021,32 @@
     "place_id": "EicyODEyMCBXQS00MTAgIzQsIEJ1Y2tsZXksIFdBIDk4MzIxLCBVU0EiHRobChYKFAoSCQN2MifA75BUEROgxy33YekxEgE0",
     "provider": "google_geocoding",
     "query": "28120 State Route 410 E STE 4 Buckley WA 98321 United States Buckley 98321",
+    "status": "ok"
+  },
+  "PR0040820": {
+    "formatted_address": "1201 1/2 Regents Blvd W, Fircrest, WA 98466, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:27Z",
+    "latitude": 47.2390199,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5199454,
+    "place_id": "ChIJzaFn59qqkVQR5STjFF4q2c0",
+    "provider": "google_geocoding",
+    "query": "1201 1/2 Regents BLVD Fircrest WA 98466 United States Fircrest 98466",
+    "status": "ok"
+  },
+  "PR0040820|151070": {
+    "formatted_address": "1201 1/2 Regents Blvd W, Fircrest, WA 98466, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-06-29T16:59:27Z",
+    "latitude": 47.2390199,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5199454,
+    "place_id": "ChIJzaFn59qqkVQR5STjFF4q2c0",
+    "provider": "google_geocoding",
+    "query": "1201 1/2 Regents BLVD Fircrest WA 98466 United States Fircrest 98466",
     "status": "ok"
   },
   "PR0040826": {
