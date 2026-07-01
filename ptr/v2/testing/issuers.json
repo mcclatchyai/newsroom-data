@@ -1,30 +1,51 @@
 {
   "issuers": [
     {
-      "issuer_name": "Atlas Energy Solutions Inc. Common Stock",
+      "issuer_name": "GenuineParts Co",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AESI.json",
-      "ticker": "AESI",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GPC.json",
+      "ticker": "GPC",
       "trade_count": 1
     },
     {
-      "issuer_name": "Pacific Co B1 Bond - Trimble",
+      "issuer_name": "Merck & Co, Inc",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/B1.json",
-      "ticker": "B1",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MRK.json",
+      "ticker": "MRK",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "NVIDIA Corp",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/NVDA.json",
+      "ticker": "NVDA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Pepsico INC",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PEP.json",
+      "ticker": "PEP",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "AT&T Inc",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/T.json",
+      "ticker": "T",
       "trade_count": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260612T133605Z",
+    "data_version": "20260701T222454Z",
     "environment": "testing",
-    "generated_at": "2026-06-12T13:37:14Z",
+    "generated_at": "2026-07-01T22:26:02Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-06-12T13:52:14Z"
+    "stale_after": "2026-07-01T22:41:02Z"
   }
 }
