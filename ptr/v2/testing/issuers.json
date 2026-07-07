@@ -1,51 +1,44 @@
 {
   "issuers": [
     {
-      "issuer_name": "GenuineParts Co",
+      "issuer_name": "Home Depot, Inc.",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GPC.json",
-      "ticker": "GPC",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/HD.json",
+      "ticker": "HD",
       "trade_count": 1
     },
     {
-      "issuer_name": "Merck & Co, Inc",
+      "issuer_name": "International Business Machines Corporation Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MRK.json",
-      "ticker": "MRK",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/IBM.json",
+      "ticker": "IBM",
       "trade_count": 1
     },
     {
-      "issuer_name": "NVIDIA Corp",
+      "issuer_name": "Johnson & Johnson Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/NVDA.json",
-      "ticker": "NVDA",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/JNJ.json",
+      "ticker": "JNJ",
       "trade_count": 1
     },
     {
-      "issuer_name": "Pepsico INC",
+      "issuer_name": "PPG Industries, Inc. Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PEP.json",
-      "ticker": "PEP",
-      "trade_count": 1
-    },
-    {
-      "issuer_name": "AT&T Inc",
-      "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/T.json",
-      "ticker": "T",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PPG.json",
+      "ticker": "PPG",
       "trade_count": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260701T222454Z",
+    "data_version": "20260707T222545Z",
     "environment": "testing",
-    "generated_at": "2026-07-01T22:26:02Z",
+    "generated_at": "2026-07-07T22:27:01Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-01T22:41:02Z"
+    "stale_after": "2026-07-07T22:42:01Z"
   }
 }

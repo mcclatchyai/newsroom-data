@@ -1,26 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Keith Alan Self",
-      "district": "TX03",
-      "issuers": 5,
-      "member_id": "keith_alan_self-tx-tx03",
-      "member_name": "Hon. Keith Alan Self",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/keith_alan_self-tx-tx03.json",
+      "display_name": "Hon. Lloyd Doggett",
+      "district": "TX37",
+      "issuers": 4,
+      "member_id": "lloyd_doggett-tx-tx37",
+      "member_name": "Hon. Lloyd Doggett",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/lloyd_doggett-tx-tx37.json",
       "state": "TX",
-      "trades": 5
+      "trades": 4
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260701T222454Z",
+    "data_version": "20260707T222545Z",
     "environment": "testing",
-    "generated_at": "2026-07-01T22:26:02Z",
+    "generated_at": "2026-07-07T22:27:01Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-01T22:41:02Z"
+    "stale_after": "2026-07-07T22:42:01Z"
   }
 }

@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "9116197",
-      "issuer_name": "AT&T Inc",
+      "filing_id": "20034923",
+      "issuer_name": "Home Depot, Inc.",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116197.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,17 +27,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "T",
-      "transaction_id": "96088cb0fe5e8d64"
+      "ticker": "HD",
+      "transaction_id": "94d671e027dd1e25"
     },
     {
-      "filing_id": "9116197",
-      "issuer_name": "GenuineParts Co",
+      "filing_id": "20034923",
+      "issuer_name": "International Business Machines Corporation Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116197.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -57,17 +57,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "GPC",
-      "transaction_id": "e912d404cdde63b3"
+      "ticker": "IBM",
+      "transaction_id": "bf3b861beab3e93c"
     },
     {
-      "filing_id": "9116197",
-      "issuer_name": "Merck & Co, Inc",
+      "filing_id": "20034923",
+      "issuer_name": "Johnson & Johnson Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116197.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -87,17 +87,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "MRK",
-      "transaction_id": "b362ddce00c55779"
+      "ticker": "JNJ",
+      "transaction_id": "21a8d725c8ed8209"
     },
     {
-      "filing_id": "9116197",
-      "issuer_name": "NVIDIA Corp",
+      "filing_id": "20034923",
+      "issuer_name": "PPG Industries, Inc. Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116197.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -117,50 +117,20 @@
         }
       ],
       "status": "source_only",
-      "ticker": "NVDA",
-      "transaction_id": "452748733ad69e05"
-    },
-    {
-      "filing_id": "9116197",
-      "issuer_name": "Pepsico INC",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116197.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "PEP",
-      "transaction_id": "8def393c076a1bbe"
+      "ticker": "PPG",
+      "transaction_id": "ff52af9a16d8b438"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260701T222454Z",
+    "data_version": "20260707T222545Z",
     "environment": "testing",
-    "generated_at": "2026-07-01T22:26:02Z",
+    "generated_at": "2026-07-07T22:27:01Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-01T22:41:02Z"
+    "stale_after": "2026-07-07T22:42:01Z"
   }
 }
