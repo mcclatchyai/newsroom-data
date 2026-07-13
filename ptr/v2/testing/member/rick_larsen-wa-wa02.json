@@ -1,0 +1,358 @@
+{
+  "member": {
+    "action_breakdown": {
+      "buy": 2,
+      "sell": 2
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Rick Larsen",
+    "district": "WA02",
+    "facebook": "",
+    "member_id": "rick_larsen-wa-wa02",
+    "member_name": "Hon. Rick Larsen",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 2,
+        "estimated_max": 60000.0,
+        "label": "Jul 2026",
+        "month": "2026-07",
+        "other": 0,
+        "sell": 2,
+        "trades": 4
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "McKesson Corporation Common Stock",
+        "query": "(\"McKesson Corporation\" OR MCK)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "MCK",
+              "mckesson",
+              "mckesson corporation"
+            ],
+            "published_at": "20260629T200000Z",
+            "relevance_label": "high",
+            "relevance_score": 75,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Is McKesson Corporation ( MCK ) A Good Stock To Buy Now ?",
+            "url": "https://www.insidermonkey.com/blog/is-mckesson-corporation-mck-a-good-stock-to-buy-now-1788332/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "mckesson"
+            ],
+            "published_at": "20260710T064500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "McKesson Stock Is Shrinking , And That The Point",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/mckesson-stock-shrinking-thats-point-182421681.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "the-star.co.ke",
+            "language": "English",
+            "matched_terms": [
+              "MCK"
+            ],
+            "published_at": "20260709T194500Z",
+            "relevance_label": "low",
+            "relevance_score": 24,
+            "source_country": "Kenya",
+            "source_type": "general_news_or_web",
+            "title": "MCK launches framework to honour media veterans",
+            "url": "https://www.the-star.co.ke/news/2026-07-09-mck-launches-framework-to-honour-media-veterans",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "MCK",
+        "traded_date": "07/08/2026",
+        "transaction_id": "d8d257bdfa0c056e",
+        "window": {
+          "end_date": "2026-08-26",
+          "start_date": "2026-06-24"
+        }
+      },
+      {
+        "issuer": "S&P Global Inc. Common Stock",
+        "query": "(\"S&P Global Inc\" OR SPGI)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "SPGI",
+              "global"
+            ],
+            "published_at": "20260629T134500Z",
+            "relevance_label": "medium",
+            "relevance_score": 45,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "S & P Global ( SPGI ) Takes a New Step in AI - Powered Risk Intelligence",
+            "url": "https://finance.yahoo.com/technology/ai/articles/p-global-spgi-takes-step-125736526.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "global"
+            ],
+            "published_at": "20260709T021500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "How S & P Global Quietly Collects a Toll on Wall Street",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-quietly-collects-toll-142000644.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "SPGI",
+              "global"
+            ],
+            "published_at": "20260713T134500Z",
+            "relevance_label": "low",
+            "relevance_score": 34,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Parr Mcknight Wealth Management Group LLC Sells 5 , 028 Shares of S & P Global Inc . $SPGI",
+            "url": "https://www.dailypolitical.com/2026/07/13/parr-mcknight-wealth-management-group-llc-sells-5028-shares-of-sp-global-inc-spgi.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "SPGI",
+        "traded_date": "07/08/2026",
+        "transaction_id": "9a512a7150d0df88",
+        "window": {
+          "end_date": "2026-08-26",
+          "start_date": "2026-06-24"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "Richard R Larsen IRA": 4
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20034977",
+        "issuer": "Abbott Laboratories Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Richard R Larsen IRA",
+        "published_date": "07/12/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "ABT",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "07/08/2026",
+        "transaction_id": "a6f6f4559d90eb1c",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20034977",
+        "issuer": "Amphenol Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Richard R Larsen IRA",
+        "published_date": "07/12/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "APH",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "07/08/2026",
+        "transaction_id": "ca2049c6a8aa62fd",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20034977",
+        "issuer": "McKesson Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Richard R Larsen IRA",
+        "published_date": "07/12/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "MCK",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "07/08/2026",
+        "transaction_id": "d8d257bdfa0c056e",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20034977",
+        "issuer": "S&P Global Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Richard R Larsen IRA",
+        "published_date": "07/12/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "SPGI",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "07/08/2026",
+        "transaction_id": "9a512a7150d0df88",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "WA",
+    "stats": {
+      "estimated_max_volume": 60000.0,
+      "estimated_min_volume": 4004.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 4,
+      "last_traded": "07/08/2026",
+      "market_context_available": 0,
+      "news_context_available": 2,
+      "tickers": 4,
+      "trades": 4
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Abbott Laboratories Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Amphenol Corporation Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "McKesson Corporation Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "S&P Global Inc. Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 1,
+        "ticker": "ABT"
+      },
+      {
+        "count": 1,
+        "ticker": "APH"
+      },
+      {
+        "count": 1,
+        "ticker": "MCK"
+      },
+      {
+        "count": 1,
+        "ticker": "SPGI"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 2,
+        "estimated_max": 60000.0,
+        "estimated_min": 4004.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-07-08",
+        "trades": 4
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260713T193945Z",
+    "environment": "testing",
+    "generated_at": "2026-07-13T19:40:55Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/rick_larsen-wa-wa02.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-07-13T19:55:55Z"
+  }
+}

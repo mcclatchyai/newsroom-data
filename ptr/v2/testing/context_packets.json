@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20034923",
-      "issuer_name": "Home Depot, Inc.",
+      "filing_id": "20034977",
+      "issuer_name": "Abbott Laboratories Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,17 +27,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "HD",
-      "transaction_id": "94d671e027dd1e25"
+      "ticker": "ABT",
+      "transaction_id": "a6f6f4559d90eb1c"
     },
     {
-      "filing_id": "20034923",
-      "issuer_name": "International Business Machines Corporation Common Stock",
+      "filing_id": "20034977",
+      "issuer_name": "Amphenol Corporation Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -57,17 +57,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "IBM",
-      "transaction_id": "bf3b861beab3e93c"
+      "ticker": "APH",
+      "transaction_id": "ca2049c6a8aa62fd"
     },
     {
-      "filing_id": "20034923",
-      "issuer_name": "Johnson & Johnson Common Stock",
+      "filing_id": "20034977",
+      "issuer_name": "McKesson Corporation Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -87,17 +87,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "JNJ",
-      "transaction_id": "21a8d725c8ed8209"
+      "ticker": "MCK",
+      "transaction_id": "d8d257bdfa0c056e"
     },
     {
-      "filing_id": "20034923",
-      "issuer_name": "PPG Industries, Inc. Common Stock",
+      "filing_id": "20034977",
+      "issuer_name": "S&P Global Inc. Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -117,20 +117,20 @@
         }
       ],
       "status": "source_only",
-      "ticker": "PPG",
-      "transaction_id": "ff52af9a16d8b438"
+      "ticker": "SPGI",
+      "transaction_id": "9a512a7150d0df88"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260707T222545Z",
+    "data_version": "20260713T193945Z",
     "environment": "testing",
-    "generated_at": "2026-07-07T22:27:01Z",
+    "generated_at": "2026-07-13T19:40:55Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-07T22:42:01Z"
+    "stale_after": "2026-07-13T19:55:55Z"
   }
 }
