@@ -1,0 +1,2704 @@
+{
+  "context_packet": {
+    "filing_id": "9116211",
+    "ingested_at": "2026-07-13T19:22:37Z",
+    "issuer_name": "FTI CONSULTING INC",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=FTI+CONSULTING+INC",
+          "query_payload": {
+            "client_name": "FTI CONSULTING INC",
+            "page_size": 5
+          },
+          "records": [
+            {
+              "client_name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+              "filing_period": "first_quarter",
+              "filing_type": "RR",
+              "filing_uuid": "86204fbb-fd94-4177-bab8-fbb27030598e",
+              "filing_year": 2021,
+              "posted_date": "2021-04-19T22:46:00-04:00",
+              "raw": {
+                "affiliated_organizations": [
+                  {
+                    "address_1": "102 South Canyon",
+                    "address_2": null,
+                    "address_3": null,
+                    "address_4": null,
+                    "city": "Carlsbad",
+                    "country": "US",
+                    "country_display": "United States of America",
+                    "name": "EDDY COUNTY, NEW MEXICO",
+                    "ppb_city": null,
+                    "ppb_country": "US",
+                    "ppb_country_display": "United States of America",
+                    "ppb_state": "NM",
+                    "ppb_state_display": "New Mexico",
+                    "state": "NM",
+                    "state_display": "New Mexico",
+                    "url": null,
+                    "zip": "88220"
+                  }
+                ],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 36,
+                  "client_self_select": null,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2021-02-02",
+                  "general_description": "Business Advisory firm",
+                  "id": 209673,
+                  "name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": "DC",
+                  "ppb_state_display": "District of Columbia",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/clients/209673/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "2021-04-19T22:46:00-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "text/html",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/86204fbb-fd94-4177-bab8-fbb27030598e/print/",
+                "filing_period": "first_quarter",
+                "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+                "filing_type": "RR",
+                "filing_type_display": "Registration",
+                "filing_uuid": "86204fbb-fd94-4177-bab8-fbb27030598e",
+                "filing_year": 2021,
+                "foreign_entities": [],
+                "income": null,
+                "lobbying_activities": [
+                  {
+                    "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "ENG",
+                    "general_issue_code_display": "Energy/Nuclear",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": "Jefferies Murray",
+                "registrant": {
+                  "address_1": "410 New Jersey Ave. SE",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Washington",
+                  "contact_name": "JEFFERIES MURRAY",
+                  "contact_telephone": "+1 202-550-1931",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Government Relations Consulting",
+                  "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+                  "house_registrant_id": null,
+                  "id": 401105906,
+                  "name": "535 GROUP, LLC",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+                  "zip": "20003"
+                },
+                "registrant_address_1": "800 North Capitol Street NW",
+                "registrant_address_2": "#800",
+                "registrant_city": "Washington",
+                "registrant_country": "United States of America",
+                "registrant_different_address": null,
+                "registrant_ppb_country": null,
+                "registrant_state": "DC",
+                "registrant_zip": "20002",
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/86204fbb-fd94-4177-bab8-fbb27030598e/"
+              },
+              "registrant_name": "535 GROUP, LLC",
+              "url": "https://lda.senate.gov/api/v1/filings/86204fbb-fd94-4177-bab8-fbb27030598e/"
+            },
+            {
+              "client_name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+              "filing_period": "first_quarter",
+              "filing_type": "RR",
+              "filing_uuid": "cd5e8484-1455-4435-af30-d0c709216266",
+              "filing_year": 2021,
+              "posted_date": "2021-04-19T22:56:16-04:00",
+              "raw": {
+                "affiliated_organizations": [
+                  {
+                    "address_1": "102 South Canyon",
+                    "address_2": null,
+                    "address_3": null,
+                    "address_4": null,
+                    "city": "Carlsbad",
+                    "country": "US",
+                    "country_display": "United States of America",
+                    "name": "CITY OF CARLSBAD, NEW MEXICO",
+                    "ppb_city": null,
+                    "ppb_country": "US",
+                    "ppb_country_display": "United States of America",
+                    "ppb_state": "NM",
+                    "ppb_state_display": "New Mexico",
+                    "state": "NM",
+                    "state_display": "New Mexico",
+                    "url": null,
+                    "zip": "88220"
+                  }
+                ],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 48,
+                  "client_self_select": null,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2021-02-02",
+                  "general_description": "Business Advisory firm",
+                  "id": 209674,
+                  "name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": "NM",
+                  "ppb_state_display": "New Mexico",
+                  "state": "NM",
+                  "state_display": "New Mexico",
+                  "url": "https://lda.senate.gov/api/v1/clients/209674/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "2021-04-19T22:56:16-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "text/html",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/cd5e8484-1455-4435-af30-d0c709216266/print/",
+                "filing_period": "first_quarter",
+                "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+                "filing_type": "RR",
+                "filing_type_display": "Registration",
+                "filing_uuid": "cd5e8484-1455-4435-af30-d0c709216266",
+                "filing_year": 2021,
+                "foreign_entities": [],
+                "income": null,
+                "lobbying_activities": [
+                  {
+                    "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "ENG",
+                    "general_issue_code_display": "Energy/Nuclear",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": "Jefferies Murray",
+                "registrant": {
+                  "address_1": "410 New Jersey Ave. SE",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Washington",
+                  "contact_name": "JEFFERIES MURRAY",
+                  "contact_telephone": "+1 202-550-1931",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Government Relations Consulting",
+                  "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+                  "house_registrant_id": null,
+                  "id": 401105906,
+                  "name": "535 GROUP, LLC",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+                  "zip": "20003"
+                },
+                "registrant_address_1": "800 North Capitol Street NW",
+                "registrant_address_2": "#800",
+                "registrant_city": "Washington",
+                "registrant_country": "United States of America",
+                "registrant_different_address": null,
+                "registrant_ppb_country": null,
+                "registrant_state": "DC",
+                "registrant_zip": "20002",
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/cd5e8484-1455-4435-af30-d0c709216266/"
+              },
+              "registrant_name": "535 GROUP, LLC",
+              "url": "https://lda.senate.gov/api/v1/filings/cd5e8484-1455-4435-af30-d0c709216266/"
+            },
+            {
+              "client_name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+              "filing_period": "first_quarter",
+              "filing_type": "Q1",
+              "filing_uuid": "d445d66a-d38b-4cab-8e10-c527d1e28f03",
+              "filing_year": 2021,
+              "posted_date": "2021-04-20T10:18:33.763000-04:00",
+              "raw": {
+                "affiliated_organizations": [
+                  {
+                    "address_1": "102 South Canyon",
+                    "address_2": null,
+                    "address_3": null,
+                    "address_4": null,
+                    "city": "Carlsbad",
+                    "country": "US",
+                    "country_display": "United States of America",
+                    "name": "EDDY COUNTY, NEW MEXICO",
+                    "ppb_city": null,
+                    "ppb_country": "US",
+                    "ppb_country_display": "United States of America",
+                    "ppb_state": "NM",
+                    "ppb_state_display": "New Mexico",
+                    "state": "NM",
+                    "state_display": "New Mexico",
+                    "url": null,
+                    "zip": "88220"
+                  }
+                ],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 36,
+                  "client_self_select": null,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2021-02-02",
+                  "general_description": "Business Advisory firm",
+                  "id": 209673,
+                  "name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": "DC",
+                  "ppb_state_display": "District of Columbia",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/clients/209673/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "2021-04-20T10:18:33.763000-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "text/html",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/d445d66a-d38b-4cab-8e10-c527d1e28f03/print/",
+                "filing_period": "first_quarter",
+                "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+                "filing_type": "Q1",
+                "filing_type_display": "1st Quarter - Report",
+                "filing_uuid": "d445d66a-d38b-4cab-8e10-c527d1e28f03",
+                "filing_year": 2021,
+                "foreign_entities": [],
+                "income": null,
+                "lobbying_activities": [
+                  {
+                    "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                    "foreign_entity_issues": "",
+                    "general_issue_code": "ENG",
+                    "general_issue_code_display": "Energy/Nuclear",
+                    "government_entities": [
+                      {
+                        "id": 2,
+                        "name": "HOUSE OF REPRESENTATIVES"
+                      },
+                      {
+                        "id": 1,
+                        "name": "SENATE"
+                      }
+                    ],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": false
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": "Jefferies Murray",
+                "registrant": {
+                  "address_1": "410 New Jersey Ave. SE",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Washington",
+                  "contact_name": "JEFFERIES MURRAY",
+                  "contact_telephone": "+1 202-550-1931",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Government Relations Consulting",
+                  "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+                  "house_registrant_id": null,
+                  "id": 401105906,
+                  "name": "535 GROUP, LLC",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+                  "zip": "20003"
+                },
+                "registrant_address_1": "800 North Capitol Street NW",
+                "registrant_address_2": "#800",
+                "registrant_city": "Washington",
+                "registrant_country": "United States of America",
+                "registrant_different_address": false,
+                "registrant_ppb_country": null,
+                "registrant_state": "DC",
+                "registrant_zip": "20002",
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/d445d66a-d38b-4cab-8e10-c527d1e28f03/"
+              },
+              "registrant_name": "535 GROUP, LLC",
+              "url": "https://lda.senate.gov/api/v1/filings/d445d66a-d38b-4cab-8e10-c527d1e28f03/"
+            },
+            {
+              "client_name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+              "filing_period": "first_quarter",
+              "filing_type": "Q1",
+              "filing_uuid": "f88ea230-6231-464e-901e-70add5e3831d",
+              "filing_year": 2021,
+              "posted_date": "2021-04-20T10:28:24.993000-04:00",
+              "raw": {
+                "affiliated_organizations": [
+                  {
+                    "address_1": "102 South Canyon",
+                    "address_2": null,
+                    "address_3": null,
+                    "address_4": null,
+                    "city": "Carlsbad",
+                    "country": "US",
+                    "country_display": "United States of America",
+                    "name": "CITY OF CARLSBAD, NEW MEXICO",
+                    "ppb_city": null,
+                    "ppb_country": "US",
+                    "ppb_country_display": "United States of America",
+                    "ppb_state": "NM",
+                    "ppb_state_display": "New Mexico",
+                    "state": "NM",
+                    "state_display": "New Mexico",
+                    "url": null,
+                    "zip": "88220"
+                  }
+                ],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 48,
+                  "client_self_select": null,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2021-02-02",
+                  "general_description": "Business Advisory firm",
+                  "id": 209674,
+                  "name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": "NM",
+                  "ppb_state_display": "New Mexico",
+                  "state": "NM",
+                  "state_display": "New Mexico",
+                  "url": "https://lda.senate.gov/api/v1/clients/209674/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "2021-04-20T10:28:24.993000-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "text/html",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/f88ea230-6231-464e-901e-70add5e3831d/print/",
+                "filing_period": "first_quarter",
+                "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+                "filing_type": "Q1",
+                "filing_type_display": "1st Quarter - Report",
+                "filing_uuid": "f88ea230-6231-464e-901e-70add5e3831d",
+                "filing_year": 2021,
+                "foreign_entities": [],
+                "income": "10000.00",
+                "lobbying_activities": [
+                  {
+                    "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                    "foreign_entity_issues": "",
+                    "general_issue_code": "ENG",
+                    "general_issue_code_display": "Energy/Nuclear",
+                    "government_entities": [
+                      {
+                        "id": 2,
+                        "name": "HOUSE OF REPRESENTATIVES"
+                      },
+                      {
+                        "id": 1,
+                        "name": "SENATE"
+                      }
+                    ],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": false
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": "Jefferies Murray",
+                "registrant": {
+                  "address_1": "410 New Jersey Ave. SE",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Washington",
+                  "contact_name": "JEFFERIES MURRAY",
+                  "contact_telephone": "+1 202-550-1931",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Government Relations Consulting",
+                  "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+                  "house_registrant_id": null,
+                  "id": 401105906,
+                  "name": "535 GROUP, LLC",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+                  "zip": "20003"
+                },
+                "registrant_address_1": "800 North Capitol Street NW",
+                "registrant_address_2": "#800",
+                "registrant_city": "Washington",
+                "registrant_country": "United States of America",
+                "registrant_different_address": false,
+                "registrant_ppb_country": null,
+                "registrant_state": "DC",
+                "registrant_zip": "20002",
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/f88ea230-6231-464e-901e-70add5e3831d/"
+              },
+              "registrant_name": "535 GROUP, LLC",
+              "url": "https://lda.senate.gov/api/v1/filings/f88ea230-6231-464e-901e-70add5e3831d/"
+            },
+            {
+              "client_name": "FTI CONSULTING, INC. ON BEHALF OF FTI CONSULTING (GOVERNMENT AFFAIRS), LLC",
+              "filing_period": "first_quarter",
+              "filing_type": "RR",
+              "filing_uuid": "ea2c214b-c059-4c27-a0ab-9ccaf337fcd9",
+              "filing_year": 2021,
+              "posted_date": "2021-04-20T11:04:00-04:00",
+              "raw": {
+                "affiliated_organizations": [
+                  {
+                    "address_1": "555 12th Street NW, Suite 700",
+                    "address_2": null,
+                    "address_3": null,
+                    "address_4": null,
+                    "city": "Washington",
+                    "country": "US",
+                    "country_display": "United States of America",
+                    "name": "FTI CONSULTING (GOVERNMENT AFFAIRS), LLC",
+                    "ppb_city": null,
+                    "ppb_country": "US",
+                    "ppb_country_display": "United States of America",
+                    "ppb_state": "DC",
+                    "ppb_state_display": "District of Columbia",
+                    "state": "DC",
+                    "state_display": "District of Columbia",
+                    "url": null,
+                    "zip": "20004"
+                  }
+                ],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 51,
+                  "client_self_select": null,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2021-02-02",
+                  "general_description": "Business Advisory Firm",
+                  "id": 209699,
+                  "name": "FTI CONSULTING, INC. ON BEHALF OF FTI CONSULTING (GOVERNMENT AFFAIRS), LLC",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": "DC",
+                  "ppb_state_display": "District of Columbia",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/clients/209699/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "2021-04-20T11:04:00-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "text/html",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/ea2c214b-c059-4c27-a0ab-9ccaf337fcd9/print/",
+                "filing_period": "first_quarter",
+                "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+                "filing_type": "RR",
+                "filing_type_display": "Registration",
+                "filing_uuid": "ea2c214b-c059-4c27-a0ab-9ccaf337fcd9",
+                "filing_year": 2021,
+                "foreign_entities": [],
+                "income": null,
+                "lobbying_activities": [
+                  {
+                    "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "AGR",
+                    "general_issue_code_display": "Agriculture",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "ENG",
+                    "general_issue_code_display": "Energy/Nuclear",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "DEF",
+                    "general_issue_code_display": "Defense",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "HCR",
+                    "general_issue_code_display": "Health Issues",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "BUD",
+                    "general_issue_code_display": "Budget/Appropriations",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                        "lobbyist": {
+                          "first_name": "JEFFERIES",
+                          "id": 93141,
+                          "last_name": "MURRAY",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": "Jefferies Murray",
+                "registrant": {
+                  "address_1": "410 New Jersey Ave. SE",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Washington",
+                  "contact_name": "JEFFERIES MURRAY",
+                  "contact_telephone": "+1 202-550-1931",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Government Relations Consulting",
+                  "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+                  "house_registrant_id": null,
+                  "id": 401105906,
+                  "name": "535 GROUP, LLC",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+                  "zip": "20003"
+                },
+                "registrant_address_1": "800 North Capitol Street NW",
+                "registrant_address_2": "#800",
+                "registrant_city": "Washington",
+                "registrant_country": "United States of America",
+                "registrant_different_address": null,
+                "registrant_ppb_country": null,
+                "registrant_state": "DC",
+                "registrant_zip": "20002",
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/ea2c214b-c059-4c27-a0ab-9ccaf337fcd9/"
+              },
+              "registrant_name": "535 GROUP, LLC",
+              "url": "https://lda.senate.gov/api/v1/filings/ea2c214b-c059-4c27-a0ab-9ccaf337fcd9/"
+            }
+          ],
+          "retrieved_at": "2026-07-13T19:22:37Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "available"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "M001157",
+            "district": "10",
+            "match_method": "name_state_district",
+            "name": "Michael T. McCaul",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": true
+        },
+        "retrieved_at": "2026-07-13T19:22:37Z",
+        "sec_issuer_identity": {
+          "cik": "0000887936",
+          "confidence": 0.75,
+          "match_method": "issuer_name_exact",
+          "sec_title": "FTI CONSULTING, INC",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "FCN"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "available",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "award_search": {
+              "fields": [
+                "Award ID",
+                "Recipient Name",
+                "Recipient UEI",
+                "Award Amount",
+                "Start Date",
+                "End Date",
+                "Awarding Agency",
+                "Awarding Sub Agency",
+                "Funding Agency",
+                "Funding Sub Agency",
+                "Award Type",
+                "Description"
+              ],
+              "filters": {
+                "recipient_search_text": [
+                  "FTI CONSULTING, INC."
+                ],
+                "time_period": [
+                  {
+                    "end_date": "2026-07-08",
+                    "start_date": "2024-07-18"
+                  }
+                ]
+              },
+              "limit": 5,
+              "order": "desc",
+              "page": 1,
+              "sort": "Award Amount"
+            },
+            "recipient_autocomplete": {
+              "search_text": "FTI CONSULTING INC"
+            }
+          },
+          "reason": "award_search_failed_status_422",
+          "recipient_candidates": [
+            {
+              "match_confidence": 1.0,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "FTI CONSULTING, INC.",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "FTI CONSULTING, INC.",
+              "uei": ""
+            }
+          ],
+          "retrieved_at": "2026-07-13T19:22:37Z",
+          "selected_recipient": {
+            "match_confidence": 1.0,
+            "recipient_hash": "",
+            "recipient_name": "FTI CONSULTING, INC.",
+            "uei": ""
+          },
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "available"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "9116211",
+      "issuer": {
+        "name": "FTI CONSULTING INC",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": ""
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX10",
+        "name": "Hon. Michael T. McCaul",
+        "state": "TX"
+      },
+      "news_context": {
+        "filtered_out_count": 13,
+        "issuer_name": "FTI CONSULTING INC",
+        "min_relevance_score": 20,
+        "provider": "gdelt_doc_2_0",
+        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22FTI+CONSULTING+INC%22&mode=artlist&format=json&startdatetime=20260604000000&enddatetime=20260822235959&maxrecords=25&sort=DateDesc",
+        "query": "\"FTI CONSULTING INC\"",
+        "raw_result_count": 21,
+        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260622T183000Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+            "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "manilatimes.net",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260618T064500Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "Philippines",
+            "source_type": "general_news_or_web",
+            "title": "FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+            "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "stockhouse.com",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260618T063000Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+            "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "manilatimes.net",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260709T123000Z",
+            "relevance_label": "low",
+            "relevance_score": 28,
+            "source_country": "Philippines",
+            "source_type": "general_news_or_web",
+            "title": "FTI Consulting to Release Second Quarter 2026 Results and Host Conference Call",
+            "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/fti-consulting-to-release-second-quarter-2026-results-and-host-conference-call/2381544",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "stockhouse.com",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260708T091500Z",
+            "relevance_label": "low",
+            "relevance_score": 28,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "2026 - 07 - 08 | FTI Consulting Expands united kingdom TMT Leadership to Help Companies Navigate Regulatory Scrutiny , Transformation and Stakeholder Pressure | NYSE : FCN",
+            "url": "https://stockhouse.com/news/press-releases/2026/07/08/fti-consulting-expands-uk-tmt-leadership-to-help-companies-navigate-regulatory",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "retrieved_at": "2026-07-13T19:22:37Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [
+          {
+            "label": "FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+            "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html"
+          },
+          {
+            "label": "FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+            "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112"
+          },
+          {
+            "label": "2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+            "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo"
+          },
+          {
+            "label": "FTI Consulting to Release Second Quarter 2026 Results and Host Conference Call",
+            "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/fti-consulting-to-release-second-quarter-2026-results-and-host-conference-call/2381544"
+          },
+          {
+            "label": "2026 - 07 - 08 | FTI Consulting Expands united kingdom TMT Leadership to Help Companies Navigate Regulatory Scrutiny , Transformation and Stakeholder Pressure | NYSE : FCN",
+            "url": "https://stockhouse.com/news/press-releases/2026/07/08/fti-consulting-expands-uk-tmt-leadership-to-help-companies-navigate-regulatory"
+          }
+        ],
+        "status": "available",
+        "ticker": "",
+        "window": {
+          "end_date": "2026-08-22",
+          "start_date": "2026-06-04"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.2,
+          "matched_bill_count": 0,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 0,
+          "matched_terms": [],
+          "status": "no_overlap_found",
+          "summary": "No committee/policy overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [],
+          "public_search_url": "https://www.congress.gov/search?q=fcn+OR+fti+OR+consulting",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "fcn",
+              "fti",
+              "consulting"
+            ]
+          },
+          "reason": "no_matching_recent_bills",
+          "retrieved_at": "2026-07-13T19:22:37Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "unavailable"
+        },
+        "congressgov_hearings": {
+          "items": [],
+          "public_search_url": "https://www.congress.gov/search?q=fcn+OR+fti+OR+consulting",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "fcn",
+              "fti",
+              "consulting"
+            ]
+          },
+          "reason": "no_matching_recent_hearings",
+          "retrieved_at": "2026-07-13T19:22:37Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "unavailable"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "fcn"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "fti"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "consulting"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": false
+        },
+        "retrieved_at": "2026-07-13T19:22:37Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "unavailable"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Sale",
+        "amount_range": "$1,000 - $15,000",
+        "disclosure_lag_days": 20,
+        "estimated_max": 15000,
+        "estimated_min": 1000,
+        "filed_after_due_date": false,
+        "filing_date": "07/08/2026",
+        "notification_date": "7/5/2026",
+        "owner": "SP",
+        "page": 3,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+        "source_quote": "SP FTI CONSULTING INC x 06/18/2026 7/5/2026 x",
+        "stock_act_due_date": "2026-08-02",
+        "transaction_date": "06/18/2026"
+      },
+      "transaction_id": "74399e6d310e6c09"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "",
+    "transaction_id": "74399e6d310e6c09"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=FTI+CONSULTING+INC",
+      "query_payload": {
+        "client_name": "FTI CONSULTING INC",
+        "page_size": 5
+      },
+      "records": [
+        {
+          "client_name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+          "filing_period": "first_quarter",
+          "filing_type": "RR",
+          "filing_uuid": "86204fbb-fd94-4177-bab8-fbb27030598e",
+          "filing_year": 2021,
+          "posted_date": "2021-04-19T22:46:00-04:00",
+          "raw": {
+            "affiliated_organizations": [
+              {
+                "address_1": "102 South Canyon",
+                "address_2": null,
+                "address_3": null,
+                "address_4": null,
+                "city": "Carlsbad",
+                "country": "US",
+                "country_display": "United States of America",
+                "name": "EDDY COUNTY, NEW MEXICO",
+                "ppb_city": null,
+                "ppb_country": "US",
+                "ppb_country_display": "United States of America",
+                "ppb_state": "NM",
+                "ppb_state_display": "New Mexico",
+                "state": "NM",
+                "state_display": "New Mexico",
+                "url": null,
+                "zip": "88220"
+              }
+            ],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 36,
+              "client_self_select": null,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2021-02-02",
+              "general_description": "Business Advisory firm",
+              "id": 209673,
+              "name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": "DC",
+              "ppb_state_display": "District of Columbia",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/clients/209673/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "2021-04-19T22:46:00-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "text/html",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/86204fbb-fd94-4177-bab8-fbb27030598e/print/",
+            "filing_period": "first_quarter",
+            "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+            "filing_type": "RR",
+            "filing_type_display": "Registration",
+            "filing_uuid": "86204fbb-fd94-4177-bab8-fbb27030598e",
+            "filing_year": 2021,
+            "foreign_entities": [],
+            "income": null,
+            "lobbying_activities": [
+              {
+                "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                "foreign_entity_issues": null,
+                "general_issue_code": "ENG",
+                "general_issue_code_display": "Energy/Nuclear",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": "Jefferies Murray",
+            "registrant": {
+              "address_1": "410 New Jersey Ave. SE",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Washington",
+              "contact_name": "JEFFERIES MURRAY",
+              "contact_telephone": "+1 202-550-1931",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Government Relations Consulting",
+              "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+              "house_registrant_id": null,
+              "id": 401105906,
+              "name": "535 GROUP, LLC",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+              "zip": "20003"
+            },
+            "registrant_address_1": "800 North Capitol Street NW",
+            "registrant_address_2": "#800",
+            "registrant_city": "Washington",
+            "registrant_country": "United States of America",
+            "registrant_different_address": null,
+            "registrant_ppb_country": null,
+            "registrant_state": "DC",
+            "registrant_zip": "20002",
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/86204fbb-fd94-4177-bab8-fbb27030598e/"
+          },
+          "registrant_name": "535 GROUP, LLC",
+          "url": "https://lda.senate.gov/api/v1/filings/86204fbb-fd94-4177-bab8-fbb27030598e/"
+        },
+        {
+          "client_name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+          "filing_period": "first_quarter",
+          "filing_type": "RR",
+          "filing_uuid": "cd5e8484-1455-4435-af30-d0c709216266",
+          "filing_year": 2021,
+          "posted_date": "2021-04-19T22:56:16-04:00",
+          "raw": {
+            "affiliated_organizations": [
+              {
+                "address_1": "102 South Canyon",
+                "address_2": null,
+                "address_3": null,
+                "address_4": null,
+                "city": "Carlsbad",
+                "country": "US",
+                "country_display": "United States of America",
+                "name": "CITY OF CARLSBAD, NEW MEXICO",
+                "ppb_city": null,
+                "ppb_country": "US",
+                "ppb_country_display": "United States of America",
+                "ppb_state": "NM",
+                "ppb_state_display": "New Mexico",
+                "state": "NM",
+                "state_display": "New Mexico",
+                "url": null,
+                "zip": "88220"
+              }
+            ],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 48,
+              "client_self_select": null,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2021-02-02",
+              "general_description": "Business Advisory firm",
+              "id": 209674,
+              "name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": "NM",
+              "ppb_state_display": "New Mexico",
+              "state": "NM",
+              "state_display": "New Mexico",
+              "url": "https://lda.senate.gov/api/v1/clients/209674/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "2021-04-19T22:56:16-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "text/html",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/cd5e8484-1455-4435-af30-d0c709216266/print/",
+            "filing_period": "first_quarter",
+            "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+            "filing_type": "RR",
+            "filing_type_display": "Registration",
+            "filing_uuid": "cd5e8484-1455-4435-af30-d0c709216266",
+            "filing_year": 2021,
+            "foreign_entities": [],
+            "income": null,
+            "lobbying_activities": [
+              {
+                "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                "foreign_entity_issues": null,
+                "general_issue_code": "ENG",
+                "general_issue_code_display": "Energy/Nuclear",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": "Jefferies Murray",
+            "registrant": {
+              "address_1": "410 New Jersey Ave. SE",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Washington",
+              "contact_name": "JEFFERIES MURRAY",
+              "contact_telephone": "+1 202-550-1931",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Government Relations Consulting",
+              "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+              "house_registrant_id": null,
+              "id": 401105906,
+              "name": "535 GROUP, LLC",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+              "zip": "20003"
+            },
+            "registrant_address_1": "800 North Capitol Street NW",
+            "registrant_address_2": "#800",
+            "registrant_city": "Washington",
+            "registrant_country": "United States of America",
+            "registrant_different_address": null,
+            "registrant_ppb_country": null,
+            "registrant_state": "DC",
+            "registrant_zip": "20002",
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/cd5e8484-1455-4435-af30-d0c709216266/"
+          },
+          "registrant_name": "535 GROUP, LLC",
+          "url": "https://lda.senate.gov/api/v1/filings/cd5e8484-1455-4435-af30-d0c709216266/"
+        },
+        {
+          "client_name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+          "filing_period": "first_quarter",
+          "filing_type": "Q1",
+          "filing_uuid": "d445d66a-d38b-4cab-8e10-c527d1e28f03",
+          "filing_year": 2021,
+          "posted_date": "2021-04-20T10:18:33.763000-04:00",
+          "raw": {
+            "affiliated_organizations": [
+              {
+                "address_1": "102 South Canyon",
+                "address_2": null,
+                "address_3": null,
+                "address_4": null,
+                "city": "Carlsbad",
+                "country": "US",
+                "country_display": "United States of America",
+                "name": "EDDY COUNTY, NEW MEXICO",
+                "ppb_city": null,
+                "ppb_country": "US",
+                "ppb_country_display": "United States of America",
+                "ppb_state": "NM",
+                "ppb_state_display": "New Mexico",
+                "state": "NM",
+                "state_display": "New Mexico",
+                "url": null,
+                "zip": "88220"
+              }
+            ],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 36,
+              "client_self_select": null,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2021-02-02",
+              "general_description": "Business Advisory firm",
+              "id": 209673,
+              "name": "FTI CONSULTING, INC. ON BEHALF OF EDDY COUNTY, NEW MEXICO",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": "DC",
+              "ppb_state_display": "District of Columbia",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/clients/209673/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "2021-04-20T10:18:33.763000-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "text/html",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/d445d66a-d38b-4cab-8e10-c527d1e28f03/print/",
+            "filing_period": "first_quarter",
+            "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+            "filing_type": "Q1",
+            "filing_type_display": "1st Quarter - Report",
+            "filing_uuid": "d445d66a-d38b-4cab-8e10-c527d1e28f03",
+            "filing_year": 2021,
+            "foreign_entities": [],
+            "income": null,
+            "lobbying_activities": [
+              {
+                "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                "foreign_entity_issues": "",
+                "general_issue_code": "ENG",
+                "general_issue_code_display": "Energy/Nuclear",
+                "government_entities": [
+                  {
+                    "id": 2,
+                    "name": "HOUSE OF REPRESENTATIVES"
+                  },
+                  {
+                    "id": 1,
+                    "name": "SENATE"
+                  }
+                ],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": false
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": "Jefferies Murray",
+            "registrant": {
+              "address_1": "410 New Jersey Ave. SE",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Washington",
+              "contact_name": "JEFFERIES MURRAY",
+              "contact_telephone": "+1 202-550-1931",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Government Relations Consulting",
+              "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+              "house_registrant_id": null,
+              "id": 401105906,
+              "name": "535 GROUP, LLC",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+              "zip": "20003"
+            },
+            "registrant_address_1": "800 North Capitol Street NW",
+            "registrant_address_2": "#800",
+            "registrant_city": "Washington",
+            "registrant_country": "United States of America",
+            "registrant_different_address": false,
+            "registrant_ppb_country": null,
+            "registrant_state": "DC",
+            "registrant_zip": "20002",
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/d445d66a-d38b-4cab-8e10-c527d1e28f03/"
+          },
+          "registrant_name": "535 GROUP, LLC",
+          "url": "https://lda.senate.gov/api/v1/filings/d445d66a-d38b-4cab-8e10-c527d1e28f03/"
+        },
+        {
+          "client_name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+          "filing_period": "first_quarter",
+          "filing_type": "Q1",
+          "filing_uuid": "f88ea230-6231-464e-901e-70add5e3831d",
+          "filing_year": 2021,
+          "posted_date": "2021-04-20T10:28:24.993000-04:00",
+          "raw": {
+            "affiliated_organizations": [
+              {
+                "address_1": "102 South Canyon",
+                "address_2": null,
+                "address_3": null,
+                "address_4": null,
+                "city": "Carlsbad",
+                "country": "US",
+                "country_display": "United States of America",
+                "name": "CITY OF CARLSBAD, NEW MEXICO",
+                "ppb_city": null,
+                "ppb_country": "US",
+                "ppb_country_display": "United States of America",
+                "ppb_state": "NM",
+                "ppb_state_display": "New Mexico",
+                "state": "NM",
+                "state_display": "New Mexico",
+                "url": null,
+                "zip": "88220"
+              }
+            ],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 48,
+              "client_self_select": null,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2021-02-02",
+              "general_description": "Business Advisory firm",
+              "id": 209674,
+              "name": "FTI CONSULTING, INC. ON BEHALF OF CITY OF CARLSBAD, NEW MEXICO",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": "NM",
+              "ppb_state_display": "New Mexico",
+              "state": "NM",
+              "state_display": "New Mexico",
+              "url": "https://lda.senate.gov/api/v1/clients/209674/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "2021-04-20T10:28:24.993000-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "text/html",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/f88ea230-6231-464e-901e-70add5e3831d/print/",
+            "filing_period": "first_quarter",
+            "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+            "filing_type": "Q1",
+            "filing_type_display": "1st Quarter - Report",
+            "filing_uuid": "f88ea230-6231-464e-901e-70add5e3831d",
+            "filing_year": 2021,
+            "foreign_entities": [],
+            "income": "10000.00",
+            "lobbying_activities": [
+              {
+                "description": "Monitor Fiscal Year 2022 appropriations, Monitor CARES Act implementation, Implementation of National Defense Authorization Act, Monitor Department of the Interior Implementation of Executive Orders",
+                "foreign_entity_issues": "",
+                "general_issue_code": "ENG",
+                "general_issue_code_display": "Energy/Nuclear",
+                "government_entities": [
+                  {
+                    "id": 2,
+                    "name": "HOUSE OF REPRESENTATIVES"
+                  },
+                  {
+                    "id": 1,
+                    "name": "SENATE"
+                  }
+                ],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": false
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": "Jefferies Murray",
+            "registrant": {
+              "address_1": "410 New Jersey Ave. SE",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Washington",
+              "contact_name": "JEFFERIES MURRAY",
+              "contact_telephone": "+1 202-550-1931",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Government Relations Consulting",
+              "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+              "house_registrant_id": null,
+              "id": 401105906,
+              "name": "535 GROUP, LLC",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+              "zip": "20003"
+            },
+            "registrant_address_1": "800 North Capitol Street NW",
+            "registrant_address_2": "#800",
+            "registrant_city": "Washington",
+            "registrant_country": "United States of America",
+            "registrant_different_address": false,
+            "registrant_ppb_country": null,
+            "registrant_state": "DC",
+            "registrant_zip": "20002",
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/f88ea230-6231-464e-901e-70add5e3831d/"
+          },
+          "registrant_name": "535 GROUP, LLC",
+          "url": "https://lda.senate.gov/api/v1/filings/f88ea230-6231-464e-901e-70add5e3831d/"
+        },
+        {
+          "client_name": "FTI CONSULTING, INC. ON BEHALF OF FTI CONSULTING (GOVERNMENT AFFAIRS), LLC",
+          "filing_period": "first_quarter",
+          "filing_type": "RR",
+          "filing_uuid": "ea2c214b-c059-4c27-a0ab-9ccaf337fcd9",
+          "filing_year": 2021,
+          "posted_date": "2021-04-20T11:04:00-04:00",
+          "raw": {
+            "affiliated_organizations": [
+              {
+                "address_1": "555 12th Street NW, Suite 700",
+                "address_2": null,
+                "address_3": null,
+                "address_4": null,
+                "city": "Washington",
+                "country": "US",
+                "country_display": "United States of America",
+                "name": "FTI CONSULTING (GOVERNMENT AFFAIRS), LLC",
+                "ppb_city": null,
+                "ppb_country": "US",
+                "ppb_country_display": "United States of America",
+                "ppb_state": "DC",
+                "ppb_state_display": "District of Columbia",
+                "state": "DC",
+                "state_display": "District of Columbia",
+                "url": null,
+                "zip": "20004"
+              }
+            ],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 51,
+              "client_self_select": null,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2021-02-02",
+              "general_description": "Business Advisory Firm",
+              "id": 209699,
+              "name": "FTI CONSULTING, INC. ON BEHALF OF FTI CONSULTING (GOVERNMENT AFFAIRS), LLC",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": "DC",
+              "ppb_state_display": "District of Columbia",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/clients/209699/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "2021-04-20T11:04:00-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "text/html",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/ea2c214b-c059-4c27-a0ab-9ccaf337fcd9/print/",
+            "filing_period": "first_quarter",
+            "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+            "filing_type": "RR",
+            "filing_type_display": "Registration",
+            "filing_uuid": "ea2c214b-c059-4c27-a0ab-9ccaf337fcd9",
+            "filing_year": 2021,
+            "foreign_entities": [],
+            "income": null,
+            "lobbying_activities": [
+              {
+                "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                "foreign_entity_issues": null,
+                "general_issue_code": "AGR",
+                "general_issue_code_display": "Agriculture",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              },
+              {
+                "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                "foreign_entity_issues": null,
+                "general_issue_code": "ENG",
+                "general_issue_code_display": "Energy/Nuclear",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              },
+              {
+                "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                "foreign_entity_issues": null,
+                "general_issue_code": "DEF",
+                "general_issue_code_display": "Defense",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              },
+              {
+                "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                "foreign_entity_issues": null,
+                "general_issue_code": "HCR",
+                "general_issue_code_display": "Health Issues",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              },
+              {
+                "description": "Monitor Fiscal Year 2022 Appropriations, Monitor Labor/HHS/Education Fiscal Year 2022 Appropriations bill, Monitor CARES Act implementation, Monitor Fiscal Year 2022 Commerce, Justice, Science appropriations, Monitor issues related to climate change proposals, Implementation of the National Defense Authorization",
+                "foreign_entity_issues": null,
+                "general_issue_code": "BUD",
+                "general_issue_code_display": "Budget/Appropriations",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "Chief of Staff to Congressman Bud Cramer, Legislative Director to Congressman Bill Brewster",
+                    "lobbyist": {
+                      "first_name": "JEFFERIES",
+                      "id": 93141,
+                      "last_name": "MURRAY",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": "Jefferies Murray",
+            "registrant": {
+              "address_1": "410 New Jersey Ave. SE",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Washington",
+              "contact_name": "JEFFERIES MURRAY",
+              "contact_telephone": "+1 202-550-1931",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Government Relations Consulting",
+              "dt_updated": "2026-01-28T15:16:41.757542-05:00",
+              "house_registrant_id": null,
+              "id": 401105906,
+              "name": "535 GROUP, LLC",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/registrants/401105906/",
+              "zip": "20003"
+            },
+            "registrant_address_1": "800 North Capitol Street NW",
+            "registrant_address_2": "#800",
+            "registrant_city": "Washington",
+            "registrant_country": "United States of America",
+            "registrant_different_address": null,
+            "registrant_ppb_country": null,
+            "registrant_state": "DC",
+            "registrant_zip": "20002",
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/ea2c214b-c059-4c27-a0ab-9ccaf337fcd9/"
+          },
+          "registrant_name": "535 GROUP, LLC",
+          "url": "https://lda.senate.gov/api/v1/filings/ea2c214b-c059-4c27-a0ab-9ccaf337fcd9/"
+        }
+      ],
+      "retrieved_at": "2026-07-13T19:22:37Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "available"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "M001157",
+        "district": "10",
+        "match_method": "name_state_district",
+        "name": "Michael T. McCaul",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": true
+    },
+    "retrieved_at": "2026-07-13T19:22:37Z",
+    "sec_issuer_identity": {
+      "cik": "0000887936",
+      "confidence": 0.75,
+      "match_method": "issuer_name_exact",
+      "sec_title": "FTI CONSULTING, INC",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "FCN"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "available",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "award_search": {
+          "fields": [
+            "Award ID",
+            "Recipient Name",
+            "Recipient UEI",
+            "Award Amount",
+            "Start Date",
+            "End Date",
+            "Awarding Agency",
+            "Awarding Sub Agency",
+            "Funding Agency",
+            "Funding Sub Agency",
+            "Award Type",
+            "Description"
+          ],
+          "filters": {
+            "recipient_search_text": [
+              "FTI CONSULTING, INC."
+            ],
+            "time_period": [
+              {
+                "end_date": "2026-07-08",
+                "start_date": "2024-07-18"
+              }
+            ]
+          },
+          "limit": 5,
+          "order": "desc",
+          "page": 1,
+          "sort": "Award Amount"
+        },
+        "recipient_autocomplete": {
+          "search_text": "FTI CONSULTING INC"
+        }
+      },
+      "reason": "award_search_failed_status_422",
+      "recipient_candidates": [
+        {
+          "match_confidence": 1.0,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "FTI CONSULTING, INC.",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "FTI CONSULTING, INC.",
+          "uei": ""
+        }
+      ],
+      "retrieved_at": "2026-07-13T19:22:37Z",
+      "selected_recipient": {
+        "match_confidence": 1.0,
+        "recipient_hash": "",
+        "recipient_name": "FTI CONSULTING, INC.",
+        "uei": ""
+      },
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "available"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Sale": 31
+    },
+    "action_counts_json": "{\"Sale\": 31}",
+    "disclosure_lag_days": 36,
+    "district": "TX10",
+    "estimated_max_total": 465000,
+    "estimated_min_total": 31000,
+    "filing_date": "07/08/2026",
+    "filing_id": "9116211",
+    "filing_type": "P",
+    "ingested_at": "2026-07-13T19:22:37Z",
+    "member_name": "Hon. Michael T. McCaul",
+    "pdf_sha256": "4b9b6aff9ef8f857ea3483be1643667994bfdeee625679dab290f6332afacebe",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [],
+    "tickers_json": "[]",
+    "transaction_count": 31,
+    "transaction_date_max": "2026-06-29",
+    "transaction_date_min": "2026-06-02"
+  },
+  "insight_candidate": {
+    "action": "Sale",
+    "action_type": "sale",
+    "amount_range": "$1,000 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "Lobbying context is present in the evidence packet.",
+      "evidence_context": "The evidence context flags that lobbying context is present.",
+      "headline_candidate": "Hon. Michael T. McCaul's issuer sale",
+      "lede": "Hon. Michael T. McCaul reported a sale of FTI CONSULTING INC through SP on Jun 18, 2026, according to a periodic transaction report filed Jul 8, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "5 related company/news links were found around the trade and filing window.",
+      "nut_graf": "The transaction was reported in the $1,000 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Review the news/event links and verify which items are directly about the issuer and time window.",
+        "Review LDA records and identify the specific lobbying issues before publishing.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "Lobbying context is present in the evidence packet.",
+    "disclosure_lag_days": 20.0,
+    "district": "TX10",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": true
+    },
+    "filing_date": "07/08/2026",
+    "filing_id": "9116211",
+    "grounded_summary": "Hon. Michael T. McCaul reported a sale of FTI CONSULTING INC through SP on Jun 18, 2026, according to a periodic transaction report filed Jul 8, 2026. The transaction was reported in the $1,000 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that lobbying context is present. 5 related company/news links were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Michael T. McCaul's issuer sale",
+    "issuer_name": "FTI CONSULTING INC",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Michael T. McCaul",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "\"FTI CONSULTING INC\"",
+      "result_count": 5,
+      "results": [
+        {
+          "domain": "tickerreport.com",
+          "language": "English",
+          "matched_terms": [
+            "consulting",
+            "fti"
+          ],
+          "published_at": "20260622T183000Z",
+          "relevance_label": "low",
+          "relevance_score": 32,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+          "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "manilatimes.net",
+          "language": "English",
+          "matched_terms": [
+            "consulting",
+            "fti"
+          ],
+          "published_at": "20260618T064500Z",
+          "relevance_label": "low",
+          "relevance_score": 32,
+          "source_country": "Philippines",
+          "source_type": "general_news_or_web",
+          "title": "FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+          "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "stockhouse.com",
+          "language": "English",
+          "matched_terms": [
+            "consulting",
+            "fti"
+          ],
+          "published_at": "20260618T063000Z",
+          "relevance_label": "low",
+          "relevance_score": 32,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+          "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "manilatimes.net",
+          "language": "English",
+          "matched_terms": [
+            "consulting",
+            "fti"
+          ],
+          "published_at": "20260709T123000Z",
+          "relevance_label": "low",
+          "relevance_score": 28,
+          "source_country": "Philippines",
+          "source_type": "general_news_or_web",
+          "title": "FTI Consulting to Release Second Quarter 2026 Results and Host Conference Call",
+          "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/fti-consulting-to-release-second-quarter-2026-results-and-host-conference-call/2381544",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within three weeks of reported trade date"
+          ]
+        },
+        {
+          "domain": "stockhouse.com",
+          "language": "English",
+          "matched_terms": [
+            "consulting",
+            "fti"
+          ],
+          "published_at": "20260708T091500Z",
+          "relevance_label": "low",
+          "relevance_score": 28,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "2026 - 07 - 08 | FTI Consulting Expands united kingdom TMT Leadership to Help Companies Navigate Regulatory Scrutiny , Transformation and Stakeholder Pressure | NYSE : FCN",
+          "url": "https://stockhouse.com/news/press-releases/2026/07/08/fti-consulting-expands-uk-tmt-leadership-to-help-companies-navigate-regulatory",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within three weeks of reported trade date"
+          ]
+        }
+      ],
+      "status": "available",
+      "window": {
+        "end_date": "2026-08-22",
+        "start_date": "2026-06-04"
+      }
+    },
+    "owner": "SP",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Review the news/event links and verify which items are directly about the issuer and time window.",
+      "Review LDA records and identify the specific lobbying issues before publishing.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 5,
+    "score_reasons": [
+      "lobbying context was found",
+      "news/event context links are available",
+      "linked company/news context is available"
+    ],
+    "slug": "hon-michael-t-mccaul-sale-06-18-2026-74399e6d310e6c09",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      },
+      {
+        "label": "News/context: FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+        "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html"
+      },
+      {
+        "label": "News/context: FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+        "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112"
+      },
+      {
+        "label": "News/context: 2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+        "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo"
+      },
+      {
+        "label": "News/context: FTI Consulting to Release Second Quarter 2026 Results and Host Conference Call",
+        "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/fti-consulting-to-release-second-quarter-2026-results-and-host-conference-call/2381544"
+      },
+      {
+        "label": "News/context: 2026 - 07 - 08 | FTI Consulting Expands united kingdom TMT Leadership to Help Companies Navigate Regulatory Scrutiny , Transformation and Stakeholder Pressure | NYSE : FCN",
+        "url": "https://stockhouse.com/news/press-releases/2026/07/08/fti-consulting-expands-uk-tmt-leadership-to-help-companies-navigate-regulatory"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "",
+    "trade_date": "06/18/2026",
+    "transaction_id": "74399e6d310e6c09"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "missing_ticker",
+    "retrieved_at": "2026-07-13T19:22:37Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": ""
+  },
+  "news_context": {
+    "filtered_out_count": 13,
+    "issuer_name": "FTI CONSULTING INC",
+    "min_relevance_score": 20,
+    "provider": "gdelt_doc_2_0",
+    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22FTI+CONSULTING+INC%22&mode=artlist&format=json&startdatetime=20260604000000&enddatetime=20260822235959&maxrecords=25&sort=DateDesc",
+    "query": "\"FTI CONSULTING INC\"",
+    "raw_result_count": 21,
+    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "result_count": 5,
+    "results": [
+      {
+        "domain": "tickerreport.com",
+        "language": "English",
+        "matched_terms": [
+          "consulting",
+          "fti"
+        ],
+        "published_at": "20260622T183000Z",
+        "relevance_label": "low",
+        "relevance_score": 32,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+        "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "manilatimes.net",
+        "language": "English",
+        "matched_terms": [
+          "consulting",
+          "fti"
+        ],
+        "published_at": "20260618T064500Z",
+        "relevance_label": "low",
+        "relevance_score": 32,
+        "source_country": "Philippines",
+        "source_type": "general_news_or_web",
+        "title": "FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+        "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "stockhouse.com",
+        "language": "English",
+        "matched_terms": [
+          "consulting",
+          "fti"
+        ],
+        "published_at": "20260618T063000Z",
+        "relevance_label": "low",
+        "relevance_score": 32,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+        "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "manilatimes.net",
+        "language": "English",
+        "matched_terms": [
+          "consulting",
+          "fti"
+        ],
+        "published_at": "20260709T123000Z",
+        "relevance_label": "low",
+        "relevance_score": 28,
+        "source_country": "Philippines",
+        "source_type": "general_news_or_web",
+        "title": "FTI Consulting to Release Second Quarter 2026 Results and Host Conference Call",
+        "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/fti-consulting-to-release-second-quarter-2026-results-and-host-conference-call/2381544",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within three weeks of reported trade date"
+        ]
+      },
+      {
+        "domain": "stockhouse.com",
+        "language": "English",
+        "matched_terms": [
+          "consulting",
+          "fti"
+        ],
+        "published_at": "20260708T091500Z",
+        "relevance_label": "low",
+        "relevance_score": 28,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "2026 - 07 - 08 | FTI Consulting Expands united kingdom TMT Leadership to Help Companies Navigate Regulatory Scrutiny , Transformation and Stakeholder Pressure | NYSE : FCN",
+        "url": "https://stockhouse.com/news/press-releases/2026/07/08/fti-consulting-expands-uk-tmt-leadership-to-help-companies-navigate-regulatory",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within three weeks of reported trade date"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-07-13T19:22:37Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [
+      {
+        "label": "FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+        "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html"
+      },
+      {
+        "label": "FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+        "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112"
+      },
+      {
+        "label": "2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+        "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo"
+      },
+      {
+        "label": "FTI Consulting to Release Second Quarter 2026 Results and Host Conference Call",
+        "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/fti-consulting-to-release-second-quarter-2026-results-and-host-conference-call/2381544"
+      },
+      {
+        "label": "2026 - 07 - 08 | FTI Consulting Expands united kingdom TMT Leadership to Help Companies Navigate Regulatory Scrutiny , Transformation and Stakeholder Pressure | NYSE : FCN",
+        "url": "https://stockhouse.com/news/press-releases/2026/07/08/fti-consulting-expands-uk-tmt-leadership-to-help-companies-navigate-regulatory"
+      }
+    ],
+    "status": "available",
+    "ticker": "",
+    "window": {
+      "end_date": "2026-08-22",
+      "start_date": "2026-06-04"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.2,
+      "matched_bill_count": 0,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 0,
+      "matched_terms": [],
+      "status": "no_overlap_found",
+      "summary": "No committee/policy overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [],
+      "public_search_url": "https://www.congress.gov/search?q=fcn+OR+fti+OR+consulting",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "fcn",
+          "fti",
+          "consulting"
+        ]
+      },
+      "reason": "no_matching_recent_bills",
+      "retrieved_at": "2026-07-13T19:22:37Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "unavailable"
+    },
+    "congressgov_hearings": {
+      "items": [],
+      "public_search_url": "https://www.congress.gov/search?q=fcn+OR+fti+OR+consulting",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "fcn",
+          "fti",
+          "consulting"
+        ]
+      },
+      "reason": "no_matching_recent_hearings",
+      "retrieved_at": "2026-07-13T19:22:37Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "unavailable"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "fcn"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "fti"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "consulting"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": false
+    },
+    "retrieved_at": "2026-07-13T19:22:37Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "unavailable"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260713T194050Z",
+    "environment": "testing",
+    "generated_at": "2026-07-13T19:42:12Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/74/39/74399e6d310e6c09.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-07-13T19:57:12Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/91/16/9116211.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/74/39/74399e6d310e6c09.json"
+  },
+  "transaction": {
+    "action": "Sale",
+    "amount_range": "$1,000 - $15,000",
+    "disclosure_lag_days": 20,
+    "district": "TX10",
+    "estimated_max": 15000,
+    "estimated_min": 1000,
+    "filed_after_due_date": false,
+    "filing_date": "07/08/2026",
+    "filing_id": "9116211",
+    "filing_type": "P",
+    "ingested_at": "2026-07-13T19:22:37Z",
+    "issuer_name": "FTI CONSULTING INC",
+    "member_name": "Hon. Michael T. McCaul",
+    "notification_date": "7/5/2026",
+    "owner": "SP",
+    "page": 3,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "SP FTI CONSULTING INC x 06/18/2026 7/5/2026 x",
+    "state": "TX",
+    "stock_act_due_date": "2026-08-02",
+    "ticker": "",
+    "transaction_date": "06/18/2026",
+    "transaction_id": "74399e6d310e6c09"
+  }
+}

@@ -2,47 +2,41 @@
   "filings": [
     {
       "action_counts": {
-        "Purchase": 2,
-        "Sale": 2
+        "Sale": 31
       },
-      "action_counts_json": "{\"Purchase\": 2, \"Sale\": 2}",
-      "disclosure_lag_days": 4,
-      "district": "WA02",
-      "estimated_max_total": 60000,
-      "estimated_min_total": 4004,
-      "filing_date": "07/12/2026",
-      "filing_id": "20034977",
+      "action_counts_json": "{\"Sale\": 31}",
+      "disclosure_lag_days": 36,
+      "district": "TX10",
+      "estimated_max_total": 465000,
+      "estimated_min_total": 31000,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
       "filing_type": "P",
-      "ingested_at": "2026-07-13T19:36:16Z",
-      "member_name": "Hon. Rick Larsen",
-      "pdf_sha256": "67cec68aa0e276adb820919205ac98193e272550372d3fd1d1bf4802bfb6392c",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "member_name": "Hon. Michael T. McCaul",
+      "pdf_sha256": "4b9b6aff9ef8f857ea3483be1643667994bfdeee625679dab290f6332afacebe",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
       "possible_late": false,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
-      "state": "WA",
-      "tickers": [
-        "ABT",
-        "APH",
-        "MCK",
-        "SPGI"
-      ],
-      "tickers_json": "[\"ABT\", \"APH\", \"MCK\", \"SPGI\"]",
-      "transaction_count": 4,
-      "transaction_date_max": "2026-07-08",
-      "transaction_date_min": "2026-07-08"
+      "state": "TX",
+      "tickers": [],
+      "tickers_json": "[]",
+      "transaction_count": 31,
+      "transaction_date_max": "2026-06-29",
+      "transaction_date_min": "2026-06-02"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260713T193945Z",
+    "data_version": "20260713T194050Z",
     "environment": "testing",
-    "generated_at": "2026-07-13T19:40:55Z",
+    "generated_at": "2026-07-13T19:42:12Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-13T19:55:55Z"
+    "stale_after": "2026-07-13T19:57:12Z"
   }
 }

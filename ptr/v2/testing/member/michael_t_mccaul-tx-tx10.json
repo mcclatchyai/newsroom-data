@@ -1,0 +1,1071 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 31
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Michael T. McCaul",
+    "district": "TX10",
+    "facebook": "",
+    "member_id": "michael_t_mccaul-tx-tx10",
+    "member_name": "Hon. Michael T. McCaul",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 465000.0,
+        "label": "Jun 2026",
+        "month": "2026-06",
+        "other": 0,
+        "sell": 31,
+        "trades": 31
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "AERCAP HOLDINGS N V",
+        "query": "\"AERCAP HOLDINGS N V\"",
+        "result_count": 3,
+        "results": [
+          {
+            "domain": "finanznachrichten.de",
+            "language": "English",
+            "matched_terms": [
+              "aercap"
+            ],
+            "published_at": "20260626T093000Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "Germany",
+            "source_type": "general_news_or_web",
+            "title": "AerCap Delivers First Airbus A321neo To Azerbaijan Airlines",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68873057-aercap-delivers-first-airbus-a321neo-to-azerbaijan-airlines-020.htm",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "prnewswire.com",
+            "language": "English",
+            "matched_terms": [
+              "aercap"
+            ],
+            "published_at": "20260626T084500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "AerCap Delivers First of Three New Airbus A321neo Aircraft to Azerbaijan Airlines",
+            "url": "http://www.prnewswire.com/news-releases/aercap-delivers-first-of-three-new-airbus-a321neo-aircraft-to-azerbaijan-airlines-302811667.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "aercap"
+            ],
+            "published_at": "20260618T130000Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Aristotle Capital Boston LLC Has $42 . 83 Million Stock Position in Aercap Holdings N . V . $AER",
+            "url": "https://www.themarketsdaily.com/2026/06/18/aristotle-capital-boston-llc-has-42-83-million-stock-position-in-aercap-holdings-n-v-aer.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "06/25/2026",
+        "transaction_id": "19d67f67c509446e",
+        "window": {
+          "end_date": "2026-08-22",
+          "start_date": "2026-06-11"
+        }
+      },
+      {
+        "issuer": "FTI CONSULTING INC",
+        "query": "\"FTI CONSULTING INC\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260622T183000Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "FTI Consulting ( NYSE : FCN ) Reaches New 12 - Month Low – What Next ?",
+            "url": "https://www.tickerreport.com/banking-finance/13483448/fti-consulting-nysefcn-reaches-new-12-month-low-whats-next.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "manilatimes.net",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260618T064500Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "Philippines",
+            "source_type": "general_news_or_web",
+            "title": "FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi",
+            "url": "https://www.manilatimes.net/2026/06/18/tmt-newswire/globenewswire/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo-siliprandi/2368112",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "stockhouse.com",
+            "language": "English",
+            "matched_terms": [
+              "consulting",
+              "fti"
+            ],
+            "published_at": "20260618T063000Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "2026 - 06 - 18 | FTI Consulting Adds Energy Advisory Offering in Italy With Hire of Riccardo Siliprandi | NYSE : FCN",
+            "url": "https://stockhouse.com/news/press-releases/2026/06/18/fti-consulting-adds-energy-advisory-offering-in-italy-with-hire-of-riccardo",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "06/18/2026",
+        "transaction_id": "74399e6d310e6c09",
+        "window": {
+          "end_date": "2026-08-22",
+          "start_date": "2026-06-04"
+        }
+      },
+      {
+        "issuer": "FORTUNE BRANDS INNOVATIONS INC",
+        "query": "\"FORTUNE BRANDS INNOVATIONS INC\"",
+        "result_count": 2,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "brands",
+              "fortune",
+              "innovations"
+            ],
+            "published_at": "20260713T151500Z",
+            "relevance_label": "medium",
+            "relevance_score": 49,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Market Favored Fortune Brands Innovations ( FBIN ) Despite Soft Earnings",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/market-favored-fortune-brands-innovations-142702248.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "brands",
+              "fortune",
+              "innovations"
+            ],
+            "published_at": "20260616T094500Z",
+            "relevance_label": "medium",
+            "relevance_score": 42,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Landscape Capital Management L . L . C . Lowers Stake in Fortune Brands Innovations , Inc . $FBIN",
+            "url": "https://www.themarketsdaily.com/2026/06/16/landscape-capital-management-l-l-c-lowers-stake-in-fortune-brands-innovations-inc-fbin.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "06/18/2026",
+        "transaction_id": "622f3167b9e1e686",
+        "window": {
+          "end_date": "2026-08-22",
+          "start_date": "2026-06-04"
+        }
+      },
+      {
+        "issuer": "MERCADOLIBRE INC",
+        "query": "\"MERCADOLIBRE INC\"",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "mercadolibre",
+              "mercadolibre inc"
+            ],
+            "published_at": "20260614T204500Z",
+            "relevance_label": "high",
+            "relevance_score": 78,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "MercadoLibre Inc . ( MELI ) Shows Why Mexico Remains Central to Latin America E - Commerce Expansion",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/mercadolibre-inc-meli-shows-why-195949027.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "mercadolibre",
+              "mercadolibre inc"
+            ],
+            "published_at": "20260614T203000Z",
+            "relevance_label": "medium",
+            "relevance_score": 63,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "MercadoLibre Inc . ( MELI ) Shows Why Mexico Remains Central to Latin America E - Commerce Expansion",
+            "url": "https://www.insidermonkey.com/blog/mercadolibre-inc-meli-shows-why-mexico-remains-central-to-latin-americas-e-commerce-expansion-1781667/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "mercadolibre"
+            ],
+            "published_at": "20260531T201500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Why a Fintech - Focused Fund Just Added $44 Million of MercadoLibre Stock",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-fintech-focused-fund-just-193543998.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "06/02/2026",
+        "transaction_id": "e998aabf57dc7c2f",
+        "window": {
+          "end_date": "2026-08-22",
+          "start_date": "2026-05-19"
+        }
+      },
+      {
+        "issuer": "ROBERT HALF INC",
+        "query": "\"ROBERT HALF INC\"",
+        "result_count": 4,
+        "results": [
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "half",
+              "robert",
+              "robert half inc"
+            ],
+            "published_at": "20260610T113000Z",
+            "relevance_label": "high",
+            "relevance_score": 73,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Robert Half Inc . $RHI Stake Boosted by ING Groep NV",
+            "url": "https://www.themarketsdaily.com/2026/06/10/robert-half-inc-rhi-stake-boosted-by-ing-groep-nv.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "half",
+              "robert"
+            ],
+            "published_at": "20260713T174500Z",
+            "relevance_label": "low",
+            "relevance_score": 24,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Robert Half ( NYSE : RHI ) Shares Up 6 % – Still a Buy ?",
+            "url": "https://www.tickerreport.com/banking-finance/13502710/robert-half-nyserhi-shares-up-6-still-a-buy.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "half",
+              "robert"
+            ],
+            "published_at": "20260713T174500Z",
+            "relevance_label": "low",
+            "relevance_score": 24,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Robert Half ( NYSE : RHI ) Trading Up 6 % – Here What Happened",
+            "url": "https://www.dailypolitical.com/2026/07/13/robert-half-nyserhi-trading-up-6-heres-what-happened.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "",
+        "traded_date": "06/18/2026",
+        "transaction_id": "65c29a4343845c19",
+        "window": {
+          "end_date": "2026-08-22",
+          "start_date": "2026-06-04"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "SP": 31
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 9.0,
+        "filing_id": "9116211",
+        "issuer": "VANGUARD MUN BD FDS TAX EXEMPT BD",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/29/2026",
+        "transaction_id": "e09d20361aa448f1",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 12.0,
+        "filing_id": "9116211",
+        "issuer": "NORTHERN TAX ADVTG ULTRA SHRT FIXED INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/26/2026",
+        "transaction_id": "eddaeb0e13bf08d1",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 13.0,
+        "filing_id": "9116211",
+        "issuer": "AERCAP HOLDINGS N V",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 3,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/25/2026",
+        "transaction_id": "19d67f67c509446e",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 13.0,
+        "filing_id": "9116211",
+        "issuer": "DAWSON PORTFOLIO FINANCE 6 LP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/25/2026",
+        "transaction_id": "0f06a7335dc66697",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 13.0,
+        "filing_id": "9116211",
+        "issuer": "DAWSON PORTFOLIO FINANCE 7 LP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/25/2026",
+        "transaction_id": "84016789b8423067",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 13.0,
+        "filing_id": "9116211",
+        "issuer": "SPRUCE HOLDINGS LP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/25/2026",
+        "transaction_id": "209221d97db75420",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 14.0,
+        "filing_id": "9116211",
+        "issuer": "MAYS ALLOCATE LP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/24/2026",
+        "transaction_id": "4cb071a722aa3c8f",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 14.0,
+        "filing_id": "9116211",
+        "issuer": "PORT AUTH N Y & N J",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/24/2026",
+        "transaction_id": "bdf6c9f2650dc93d",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 16.0,
+        "filing_id": "9116211",
+        "issuer": "NEW YORK N Y CITY MUN WTR FIN AUTH WTR",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/22/2026",
+        "transaction_id": "600ee6016599d3d0",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "APTARGROUP INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "9680c4d91311ff00",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "BJS WHSL CLUB HLDGS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "d91e327706f4ed6e",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "CAVCO INDUSTRIES INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "60d175947403c5ed",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "CORE &MAIN INC CL A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "30c69f7aa5c0b7ec",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "FTI CONSULTING INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "74399e6d310e6c09",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "FORTUNE BRANDS INNOVATIONS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 2,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "622f3167b9e1e686",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "HAYWARD HLDGS INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "24044969da99b755",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "HENRY SCHEIN INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "51f4a3d8b1306bc3",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "HOULIHAN LOKEY INC CL A",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "424aa33042487cce",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "LOUISIANA PACIFIC CORP",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "69647a455cd8e23d",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "MSA SAFETY INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "2e732ec0fb279b5f",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "ROBERT HALF INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 4,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "65c29a4343845c19",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "SIMSON MFG INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "432046b669e2a3ea",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "SP GLOBAL INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "5758682e6229c3ce",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "3e7cb964c41b69f2",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "filed_after_days": 20.0,
+        "filing_id": "9116211",
+        "issuer": "VALVOLINE INC",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "SP",
+        "published_date": "07/08/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,000 - $15,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/18/2026",
+        "transaction_id": "cf8bcda4074ae62e",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 465000.0,
+      "estimated_min_volume": 31000.0,
+      "filings": 1,
+      "flagged_trades": 10,
+      "issuers": 31,
+      "last_traded": "06/29/2026",
+      "market_context_available": 0,
+      "news_context_available": 5,
+      "tickers": 0,
+      "trades": 31
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "APTARGROUP INC"
+      },
+      {
+        "count": 1,
+        "issuer": "AERCAP HOLDINGS N V"
+      },
+      {
+        "count": 1,
+        "issuer": "BJS WHSL CLUB HLDGS INC"
+      },
+      {
+        "count": 1,
+        "issuer": "CAVCO INDUSTRIES INC"
+      },
+      {
+        "count": 1,
+        "issuer": "CORE &MAIN INC CL A"
+      },
+      {
+        "count": 1,
+        "issuer": "DAWSON PORTFOLIO FINANCE 6 LP"
+      },
+      {
+        "count": 1,
+        "issuer": "DAWSON PORTFOLIO FINANCE 7 LP"
+      },
+      {
+        "count": 1,
+        "issuer": "DELL TECHNOLOGIES INC CL C"
+      }
+    ],
+    "top_tickers": [],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 30000.0,
+        "estimated_min": 2000.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-06-02",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 30000.0,
+        "estimated_min": 2000.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-06-05",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-06-15",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 255000.0,
+        "estimated_min": 17000.0,
+        "other": 0,
+        "sell": 17,
+        "traded_date": "2026-06-18",
+        "trades": 17
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-06-22",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 30000.0,
+        "estimated_min": 2000.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-06-24",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 60000.0,
+        "estimated_min": 4000.0,
+        "other": 0,
+        "sell": 4,
+        "traded_date": "2026-06-25",
+        "trades": 4
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-06-26",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1000.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-06-29",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260713T194050Z",
+    "environment": "testing",
+    "generated_at": "2026-07-13T19:42:12Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/michael_t_mccaul-tx-tx10.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-07-13T19:57:12Z"
+  }
+}

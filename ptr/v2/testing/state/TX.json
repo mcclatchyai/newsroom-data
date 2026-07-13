@@ -1,0 +1,1815 @@
+{
+  "context_packet_count": 31,
+  "context_packets": [
+    {
+      "filing_id": "9116211",
+      "issuer_name": "APTARGROUP INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "9680c4d91311ff00"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "AERCAP HOLDINGS N V",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "19d67f67c509446e"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "BJS WHSL CLUB HLDGS INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "d91e327706f4ed6e"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "CAVCO INDUSTRIES INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "60d175947403c5ed"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "CORE &MAIN INC CL A",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "30c69f7aa5c0b7ec"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "DAWSON PORTFOLIO FINANCE 6 LP",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "0f06a7335dc66697"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "DAWSON PORTFOLIO FINANCE 7 LP",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "84016789b8423067"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "DELL TECHNOLOGIES INC CL C",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "478389e6f721b690"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "FTI CONSULTING INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "74399e6d310e6c09"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "FORTUNE BRANDS INNOVATIONS INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "622f3167b9e1e686"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "HAYWARD HLDGS INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "24044969da99b755"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "HENRY SCHEIN INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "51f4a3d8b1306bc3"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "HOULIHAN LOKEY INC CL A",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "424aa33042487cce"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "INFINEON TECHNOLOGIES AG SPON ADR",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "dc751d05143f8101"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "KITSAP CNTY WASH SCH DIST NO 4 01",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "feabe1736aa5ccb5"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "LOUISIANA PACIFIC CORP",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "69647a455cd8e23d"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "MAYS ALLOCATE 2025 LP",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "201a8e2677a66a48"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "MAYS ALLOCATE LP",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "4cb071a722aa3c8f"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "MERCADOLIBRE INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "e998aabf57dc7c2f"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "MSA SAFETY INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "2e732ec0fb279b5f"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "NEW YORK N Y CITY MUN WTR FIN AUTH WTR",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "600ee6016599d3d0"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "NORTHERN TAX ADVTG ULTRA SHRT FIXED INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "eddaeb0e13bf08d1"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "PORT AUTH N Y & N J",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "bdf6c9f2650dc93d"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "ROBERT HALF INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "65c29a4343845c19"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "SIMSON MFG INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "432046b669e2a3ea"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "SP GLOBAL INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "5758682e6229c3ce"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "SPRUCE HOLDINGS LP",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "209221d97db75420"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "3e7cb964c41b69f2"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "VALVOLINE INC",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "cf8bcda4074ae62e"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "VANGUARD MUN BD FDS TAX EXEMPT BD",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "e09d20361aa448f1"
+    },
+    {
+      "filing_id": "9116211",
+      "issuer_name": "ZIONS BANCORPORATION",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "d8a308bc2ee6e341"
+    }
+  ],
+  "filings": [
+    {
+      "action_counts": {
+        "Sale": 31
+      },
+      "action_counts_json": "{\"Sale\": 31}",
+      "disclosure_lag_days": 36,
+      "district": "TX10",
+      "estimated_max_total": 465000,
+      "estimated_min_total": 31000,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "member_name": "Hon. Michael T. McCaul",
+      "pdf_sha256": "4b9b6aff9ef8f857ea3483be1643667994bfdeee625679dab290f6332afacebe",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "possible_late": false,
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "state": "TX",
+      "tickers": [],
+      "tickers_json": "[]",
+      "transaction_count": 31,
+      "transaction_date_max": "2026-06-29",
+      "transaction_date_min": "2026-06-02"
+    }
+  ],
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260713T194050Z",
+    "environment": "testing",
+    "generated_at": "2026-07-13T19:42:12Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/TX.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-07-13T19:57:12Z"
+  },
+  "state": "TX",
+  "transactions": [
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "APTARGROUP INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP APTARGROUP INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "9680c4d91311ff00"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 13,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "AERCAP HOLDINGS N V",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP AERCAP HOLDINGS N V x 06/25/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/25/2026",
+      "transaction_id": "19d67f67c509446e"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "BJS WHSL CLUB HLDGS INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP BJS WHSL CLUB HLDGS INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "d91e327706f4ed6e"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "CAVCO INDUSTRIES INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP CAVCO INDUSTRIES INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "60d175947403c5ed"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "CORE &MAIN INC CL A",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP CORE &MAIN INC CL A x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "30c69f7aa5c0b7ec"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 13,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "DAWSON PORTFOLIO FINANCE 6 LP",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP Dawson Portfolio Finance 6 LP x 6/25/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/25/2026",
+      "transaction_id": "0f06a7335dc66697"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 13,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "DAWSON PORTFOLIO FINANCE 7 LP",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP Dawson Portfolio Finance 7 LP x 6/25/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/25/2026",
+      "transaction_id": "84016789b8423067"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 36,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "DELL TECHNOLOGIES INC CL C",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP DELL TECHNOLOGIES INC CL C x 06/02/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-07-17",
+      "ticker": "",
+      "transaction_date": "06/02/2026",
+      "transaction_id": "478389e6f721b690"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "FTI CONSULTING INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP FTI CONSULTING INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "74399e6d310e6c09"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "FORTUNE BRANDS INNOVATIONS INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP FORTUNE BRANDS INNOVATIONS INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "622f3167b9e1e686"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "HAYWARD HLDGS INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP HAYWARD HLDGS INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "24044969da99b755"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "HENRY SCHEIN INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP HENRY SCHEIN INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "51f4a3d8b1306bc3"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "HOULIHAN LOKEY INC CL A",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP HOULIHAN LOKEY INC CL A x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "424aa33042487cce"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 23,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "INFINEON TECHNOLOGIES AG SPON ADR",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP INFINEON TECHNOLOGIES AG SPON ADR x 06/15/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-07-30",
+      "ticker": "",
+      "transaction_date": "06/15/2026",
+      "transaction_id": "dc751d05143f8101"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 33,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "KITSAP CNTY WASH SCH DIST NO 4 01",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP KITSAP CNTY WASH SCH DIST NO 4 01 x 06/05/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-07-20",
+      "ticker": "",
+      "transaction_date": "06/05/2026",
+      "transaction_id": "feabe1736aa5ccb5"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "LOUISIANA PACIFIC CORP",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP LOUISIANA PACIFIC CORP x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "69647a455cd8e23d"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 33,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "MAYS ALLOCATE 2025 LP",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP Mays Allocate 2025 LP x 6/5/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-07-20",
+      "ticker": "",
+      "transaction_date": "06/05/2026",
+      "transaction_id": "201a8e2677a66a48"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 14,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "MAYS ALLOCATE LP",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP Mays Allocate LP x 06/24/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/24/2026",
+      "transaction_id": "4cb071a722aa3c8f"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 36,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "MERCADOLIBRE INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP MERCADOLIBRE INC x 06/02/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-07-17",
+      "ticker": "",
+      "transaction_date": "06/02/2026",
+      "transaction_id": "e998aabf57dc7c2f"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "MSA SAFETY INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP MSA SAFETY INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "2e732ec0fb279b5f"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 16,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "NEW YORK N Y CITY MUN WTR FIN AUTH WTR",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP NEW YORK N Y CITY MUN WTR FIN AUTH WTR x 06/22/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/22/2026",
+      "transaction_id": "600ee6016599d3d0"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 12,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "NORTHERN TAX ADVTG ULTRA SHRT FIXED INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP NORTHERN TAX ADVTG ULTRA SHRT FIXED INC x 06/26/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/26/2026",
+      "transaction_id": "eddaeb0e13bf08d1"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 14,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "PORT AUTH N Y & N J",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP PORT AUTH N Y & N J x 06/24/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/24/2026",
+      "transaction_id": "bdf6c9f2650dc93d"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "ROBERT HALF INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP ROBERT HALF INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "65c29a4343845c19"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "SIMSON MFG INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP SIMPSON MFG INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "432046b669e2a3ea"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "SP GLOBAL INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP SP GLOBAL INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "5758682e6229c3ce"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 13,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "SPRUCE HOLDINGS LP",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP Spruce Holdings LP x 6/25/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/25/2026",
+      "transaction_id": "209221d97db75420"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "3e7cb964c41b69f2"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "VALVOLINE INC",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP VALVOLINE INC x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "cf8bcda4074ae62e"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 9,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "VANGUARD MUN BD FDS TAX EXEMPT BD",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP VANGUARD MUN BD FDS TAX EXEMPT BD x 06/29/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-04",
+      "ticker": "",
+      "transaction_date": "06/29/2026",
+      "transaction_id": "e09d20361aa448f1"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,000 - $15,000",
+      "disclosure_lag_days": 20,
+      "district": "TX10",
+      "estimated_max": 15000,
+      "estimated_min": 1000,
+      "filed_after_due_date": false,
+      "filing_date": "07/08/2026",
+      "filing_id": "9116211",
+      "filing_type": "P",
+      "ingested_at": "2026-07-13T19:22:37Z",
+      "issuer_name": "ZIONS BANCORPORATION",
+      "member_name": "Hon. Michael T. McCaul",
+      "notification_date": "7/5/2026",
+      "owner": "SP",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "SP ZIONS BANCORPORATION x 06/18/2026 7/5/2026 x",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-02",
+      "ticker": "",
+      "transaction_date": "06/18/2026",
+      "transaction_id": "d8a308bc2ee6e341"
+    }
+  ]
+}
