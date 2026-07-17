@@ -1,15 +1,58 @@
 {
-  "issuers": [],
+  "issuers": [
+    {
+      "issuer_name": "Apple Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AAPL.json",
+      "ticker": "AAPL",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Amazon.com, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AMZN.json",
+      "ticker": "AMZN",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "FAS",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/FAS.json",
+      "ticker": "FAS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Alphabet Inc. - Class C Capital Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GOOG.json",
+      "ticker": "GOOG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Meta Platforms, Inc. - Class A Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/META.json",
+      "ticker": "META",
+      "trade_count": 3
+    },
+    {
+      "issuer_name": "United States 3x Oil Fund",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/USOU.json",
+      "ticker": "USOU",
+      "trade_count": 1
+    }
+  ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260713T194050Z",
+    "data_version": "20260717T223831Z",
     "environment": "testing",
-    "generated_at": "2026-07-13T19:42:12Z",
+    "generated_at": "2026-07-17T22:39:38Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-13T19:57:12Z"
+    "stale_after": "2026-07-17T22:54:38Z"
   }
 }

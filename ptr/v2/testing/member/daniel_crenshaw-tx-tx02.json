@@ -1,0 +1,1381 @@
+{
+  "member": {
+    "action_breakdown": {
+      "buy": 2,
+      "sell": 6
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Daniel Crenshaw",
+    "district": "TX02",
+    "facebook": "",
+    "member_id": "daniel_crenshaw-tx-tx02",
+    "member_name": "Hon. Daniel Crenshaw",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "label": "Apr 2026",
+        "month": "2026-04",
+        "other": 0,
+        "sell": 0,
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "label": "May 2026",
+        "month": "2026-05",
+        "other": 0,
+        "sell": 1,
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 90000.0,
+        "label": "Jun 2026",
+        "month": "2026-06",
+        "other": 0,
+        "sell": 5,
+        "trades": 6
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "query": "(\"Alphabet Inc. - Capital Stock\" OR GOOG)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260717T161500Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Why Alphabet Stock Dropped on Friday",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-alphabet-stock-dropped-friday-154110767.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260717T083000Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Better Artificial Intelligence ( AI ) Stock : Amazon vs . Alphabet",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/better-artificial-intelligence-ai-stock-204000516.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260717T051500Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "SpaceX , Alphabet , and SK Hynix Are Quietly Flashing a Bullish Signal Investors Should Not Ignore",
+            "url": "https://finance.yahoo.com/technology/ai/articles/spacex-alphabet-sk-hynix-quietly-044500667.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "GOOG",
+        "traded_date": "06/01/2026",
+        "transaction_id": "da1655af108ca283",
+        "window": {
+          "end_date": "2026-08-30",
+          "start_date": "2026-05-18"
+        }
+      },
+      {
+        "issuer": "Apple Inc. - Common Stock",
+        "query": "(\"Apple Inc\" OR AAPL)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "apple"
+            ],
+            "published_at": "20260717T083000Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Apple Could Buy an AI Chip Company . Its Hot Stock Just Set a Fresh Record High",
+            "url": "https://finance.yahoo.com/technology/ai/articles/apple-could-buy-ai-chip-204803997.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "apple"
+            ],
+            "published_at": "20260717T083000Z",
+            "relevance_label": "low",
+            "relevance_score": 29,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Hardware Bears Are Wrong and That Why I Keep Buying Apple on Repeat",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/hardware-bears-wrong-why-keep-204252305.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "AAPL",
+              "apple"
+            ],
+            "published_at": "20260717T170000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "22 % Growth in iPhone Powers Apple ( AAPL ) Rally",
+            "url": "https://www.insidermonkey.com/blog/22-growth-in-iphone-powers-apples-aapl-rally-1802589/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "AAPL",
+        "traded_date": "06/01/2026",
+        "transaction_id": "14b0fb53bbdb63ae",
+        "window": {
+          "end_date": "2026-08-30",
+          "start_date": "2026-05-18"
+        }
+      },
+      {
+        "issuer": "FAS",
+        "query": "(FAS OR FAS)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "vedomosti.ru",
+            "language": "Russian",
+            "matched_terms": [
+              "FAS",
+              "fas"
+            ],
+            "published_at": "20260717T210000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "Russia",
+            "source_type": "general_news_or_web",
+            "title": "ФАС предложила изменить правила возврата железнодорожных билетов",
+            "url": "https://www.vedomosti.ru/business/news/2026/07/17/1214655-fas-predlozhila-izmenit",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "vm.ru",
+            "language": "Russian",
+            "matched_terms": [
+              "FAS",
+              "fas"
+            ],
+            "published_at": "20260717T201500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "Russia",
+            "source_type": "general_news_or_web",
+            "title": "ФАС разработала новые правила возврата ж / д билетов для защиты от перекупщиков",
+            "url": "https://vm.ru/news/1343375-fas-razrabotala-novye-pravila-vozvrata-zhd-biletov-dlya-zashity-ot-perekupshikov",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "rg.ru",
+            "language": "Russian",
+            "matched_terms": [
+              "FAS",
+              "fas"
+            ],
+            "published_at": "20260717T184500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "Russia",
+            "source_type": "general_news_or_web",
+            "title": "ФАС : Сбор за возврат ж / д билета не должен превышать 10 % его стоимости",
+            "url": "https://rg.ru/2026/07/17/fas-sbor-za-vozvrat-zhd-bileta-ne-dolzhen-prevyshat-10-ego-stoimosti.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "FAS",
+        "traded_date": "06/01/2026",
+        "transaction_id": "1b10f6505842ccb7",
+        "window": {
+          "end_date": "2026-08-30",
+          "start_date": "2026-05-18"
+        }
+      },
+      {
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock",
+        "query": "(\"Meta Platforms Inc\" OR META)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "theverge.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T213000Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Meta reportedly considers leasing computing power to Anthropic .",
+            "url": "https://www.theverge.com/tech/967281/meta-reportedly-considers-leasing-computing-power-to-anthropic",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source"
+            ]
+          },
+          {
+            "domain": "zerohedge.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T214500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Meta Eyes $10 Billion Deal To Lease AI Computing Power To Anthropic",
+            "url": "https://www.zerohedge.com/ai/meta-eyes-10-billion-deal-lease-ai-computing-power-anthropic",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "thenextweb.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T214500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Anthropic is in early talks to lease $10 billion in compute from Meta",
+            "url": "https://thenextweb.com/news/anthropic-meta-10-billion-compute-deal-talks",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          }
+        ],
+        "ticker": "META",
+        "traded_date": "04/28/2026",
+        "transaction_id": "0b0be2310656fce3",
+        "window": {
+          "end_date": "2026-08-30",
+          "start_date": "2026-04-14"
+        }
+      },
+      {
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock",
+        "query": "(\"Meta Platforms Inc\" OR META)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "theverge.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T213000Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Meta reportedly considers leasing computing power to Anthropic .",
+            "url": "https://www.theverge.com/tech/967281/meta-reportedly-considers-leasing-computing-power-to-anthropic",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source"
+            ]
+          },
+          {
+            "domain": "zerohedge.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T214500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Meta Eyes $10 Billion Deal To Lease AI Computing Power To Anthropic",
+            "url": "https://www.zerohedge.com/ai/meta-eyes-10-billion-deal-lease-ai-computing-power-anthropic",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          },
+          {
+            "domain": "thenextweb.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T214500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Anthropic is in early talks to lease $10 billion in compute from Meta",
+            "url": "https://thenextweb.com/news/anthropic-meta-10-billion-compute-deal-talks",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          }
+        ],
+        "ticker": "META",
+        "traded_date": "05/05/2026",
+        "transaction_id": "df4b875ae2db7943",
+        "window": {
+          "end_date": "2026-08-30",
+          "start_date": "2026-04-21"
+        }
+      },
+      {
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock",
+        "query": "(\"Meta Platforms Inc\" OR META)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "theverge.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T213000Z",
+            "relevance_label": "medium",
+            "relevance_score": 41,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Meta reportedly considers leasing computing power to Anthropic .",
+            "url": "https://www.theverge.com/tech/967281/meta-reportedly-considers-leasing-computing-power-to-anthropic",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "zerohedge.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T214500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Meta Eyes $10 Billion Deal To Lease AI Computing Power To Anthropic",
+            "url": "https://www.zerohedge.com/ai/meta-eyes-10-billion-deal-lease-ai-computing-power-anthropic",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "thenextweb.com",
+            "language": "English",
+            "matched_terms": [
+              "META",
+              "meta"
+            ],
+            "published_at": "20260717T214500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Anthropic is in early talks to lease $10 billion in compute from Meta",
+            "url": "https://thenextweb.com/news/anthropic-meta-10-billion-compute-deal-talks",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "META",
+        "traded_date": "06/01/2026",
+        "transaction_id": "2f478f3e326b5bb1",
+        "window": {
+          "end_date": "2026-08-30",
+          "start_date": "2026-05-18"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "Self": 8
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [
+      {
+        "issuer": "Apple Inc. - Common Stock",
+        "publication_license_status": "confirmed",
+        "publication_ready": true,
+        "series": [
+          {
+            "close": 271.0,
+            "date": "2026-04-17"
+          },
+          {
+            "close": 269.84,
+            "date": "2026-04-18"
+          },
+          {
+            "close": 272.0,
+            "date": "2026-04-20"
+          },
+          {
+            "close": 267.5,
+            "date": "2026-04-21"
+          },
+          {
+            "close": 273.0,
+            "date": "2026-04-22"
+          },
+          {
+            "close": 272.0,
+            "date": "2026-04-23"
+          },
+          {
+            "close": 271.0,
+            "date": "2026-04-24"
+          },
+          {
+            "close": 271.04,
+            "date": "2026-04-25"
+          },
+          {
+            "close": 268.0,
+            "date": "2026-04-27"
+          },
+          {
+            "close": 270.0,
+            "date": "2026-04-28"
+          },
+          {
+            "close": 270.0,
+            "date": "2026-04-29"
+          },
+          {
+            "close": 277.0,
+            "date": "2026-04-30"
+          },
+          {
+            "close": 280.0,
+            "date": "2026-05-01"
+          },
+          {
+            "close": 276.41,
+            "date": "2026-05-04"
+          },
+          {
+            "close": 283.0,
+            "date": "2026-05-05"
+          },
+          {
+            "close": 288.0,
+            "date": "2026-05-06"
+          },
+          {
+            "close": 288.0,
+            "date": "2026-05-07"
+          },
+          {
+            "close": 294.0,
+            "date": "2026-05-08"
+          },
+          {
+            "close": 292.63,
+            "date": "2026-05-11"
+          },
+          {
+            "close": 294.0,
+            "date": "2026-05-12"
+          },
+          {
+            "close": 298.0,
+            "date": "2026-05-13"
+          },
+          {
+            "close": 298.0,
+            "date": "2026-05-14"
+          },
+          {
+            "close": 300.0,
+            "date": "2026-05-15"
+          },
+          {
+            "close": 297.45,
+            "date": "2026-05-18"
+          },
+          {
+            "close": 299.0,
+            "date": "2026-05-19"
+          },
+          {
+            "close": 301.0,
+            "date": "2026-05-20"
+          },
+          {
+            "close": 306.0,
+            "date": "2026-05-21"
+          },
+          {
+            "close": 308.61,
+            "date": "2026-05-22"
+          },
+          {
+            "close": 308.0,
+            "date": "2026-05-26"
+          },
+          {
+            "close": 311.0,
+            "date": "2026-05-27"
+          },
+          {
+            "close": 312.0,
+            "date": "2026-05-28"
+          },
+          {
+            "close": 311.0,
+            "date": "2026-05-29"
+          },
+          {
+            "close": 312.0,
+            "date": "2026-05-30"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-06-01"
+          },
+          {
+            "close": 315.0,
+            "date": "2026-06-02"
+          },
+          {
+            "close": 314.0,
+            "date": "2026-06-03"
+          },
+          {
+            "close": 311.0,
+            "date": "2026-06-04"
+          },
+          {
+            "close": 308.1,
+            "date": "2026-06-05"
+          },
+          {
+            "close": 307.39,
+            "date": "2026-06-06"
+          },
+          {
+            "close": 301.0,
+            "date": "2026-06-08"
+          },
+          {
+            "close": 291.0,
+            "date": "2026-06-09"
+          },
+          {
+            "close": 291.0,
+            "date": "2026-06-10"
+          },
+          {
+            "close": 295.68,
+            "date": "2026-06-11"
+          },
+          {
+            "close": 292.0,
+            "date": "2026-06-12"
+          },
+          {
+            "close": 296.0,
+            "date": "2026-06-15"
+          },
+          {
+            "close": 299.0,
+            "date": "2026-06-16"
+          },
+          {
+            "close": 297.0,
+            "date": "2026-06-17"
+          },
+          {
+            "close": 297.0,
+            "date": "2026-06-18"
+          },
+          {
+            "close": 296.0,
+            "date": "2026-06-22"
+          },
+          {
+            "close": 294.0,
+            "date": "2026-06-23"
+          },
+          {
+            "close": 291.0,
+            "date": "2026-06-24"
+          },
+          {
+            "close": 277.0,
+            "date": "2026-06-25"
+          },
+          {
+            "close": 282.0,
+            "date": "2026-06-26"
+          },
+          {
+            "close": 283.77,
+            "date": "2026-06-27"
+          },
+          {
+            "close": 281.0,
+            "date": "2026-06-29"
+          },
+          {
+            "close": 289.0,
+            "date": "2026-06-30"
+          },
+          {
+            "close": 294.0,
+            "date": "2026-07-01"
+          },
+          {
+            "close": 308.0,
+            "date": "2026-07-02"
+          },
+          {
+            "close": 313.0,
+            "date": "2026-07-06"
+          },
+          {
+            "close": 312.0,
+            "date": "2026-07-07"
+          },
+          {
+            "close": 313.0,
+            "date": "2026-07-08"
+          },
+          {
+            "close": 316.0,
+            "date": "2026-07-09"
+          },
+          {
+            "close": 314.985,
+            "date": "2026-07-10"
+          },
+          {
+            "close": 300.42,
+            "date": "2026-07-11"
+          },
+          {
+            "close": 317.0,
+            "date": "2026-07-13"
+          },
+          {
+            "close": 315.0,
+            "date": "2026-07-14"
+          },
+          {
+            "close": 328.0,
+            "date": "2026-07-15"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-07-16"
+          },
+          {
+            "close": 334.0,
+            "date": "2026-07-17"
+          }
+        ],
+        "source": "finazon_us_stocks_essential",
+        "ticker": "AAPL"
+      },
+      {
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "publication_license_status": "confirmed",
+        "publication_ready": true,
+        "series": [
+          {
+            "close": 338.86,
+            "date": "2026-04-17"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-04-20"
+          },
+          {
+            "close": 332.0,
+            "date": "2026-04-21"
+          },
+          {
+            "close": 336.79,
+            "date": "2026-04-22"
+          },
+          {
+            "close": 338.0,
+            "date": "2026-04-23"
+          },
+          {
+            "close": 342.0,
+            "date": "2026-04-24"
+          },
+          {
+            "close": 342.38,
+            "date": "2026-04-25"
+          },
+          {
+            "close": 348.91,
+            "date": "2026-04-27"
+          },
+          {
+            "close": 347.0,
+            "date": "2026-04-28"
+          },
+          {
+            "close": 369.0,
+            "date": "2026-04-29"
+          },
+          {
+            "close": 382.0,
+            "date": "2026-04-30"
+          },
+          {
+            "close": 382.0,
+            "date": "2026-05-01"
+          },
+          {
+            "close": 379.0,
+            "date": "2026-05-04"
+          },
+          {
+            "close": 391.0,
+            "date": "2026-05-05"
+          },
+          {
+            "close": 395.0,
+            "date": "2026-05-06"
+          },
+          {
+            "close": 393.0,
+            "date": "2026-05-07"
+          },
+          {
+            "close": 396.0,
+            "date": "2026-05-08"
+          },
+          {
+            "close": 387.0,
+            "date": "2026-05-11"
+          },
+          {
+            "close": 387.0,
+            "date": "2026-05-12"
+          },
+          {
+            "close": 399.0,
+            "date": "2026-05-13"
+          },
+          {
+            "close": 397.0,
+            "date": "2026-05-14"
+          },
+          {
+            "close": 393.0,
+            "date": "2026-05-15"
+          },
+          {
+            "close": 395.71,
+            "date": "2026-05-18"
+          },
+          {
+            "close": 385.0,
+            "date": "2026-05-19"
+          },
+          {
+            "close": 384.0,
+            "date": "2026-05-20"
+          },
+          {
+            "close": 384.0,
+            "date": "2026-05-21"
+          },
+          {
+            "close": 379.0,
+            "date": "2026-05-22"
+          },
+          {
+            "close": 384.0,
+            "date": "2026-05-26"
+          },
+          {
+            "close": 385.0,
+            "date": "2026-05-27"
+          },
+          {
+            "close": 386.0,
+            "date": "2026-05-28"
+          },
+          {
+            "close": 377.0,
+            "date": "2026-05-29"
+          },
+          {
+            "close": 376.55,
+            "date": "2026-05-30"
+          },
+          {
+            "close": 370.0,
+            "date": "2026-06-01"
+          },
+          {
+            "close": 359.0,
+            "date": "2026-06-02"
+          },
+          {
+            "close": 354.0,
+            "date": "2026-06-03"
+          },
+          {
+            "close": 368.0,
+            "date": "2026-06-04"
+          },
+          {
+            "close": 362.0,
+            "date": "2026-06-05"
+          },
+          {
+            "close": 361.0,
+            "date": "2026-06-08"
+          },
+          {
+            "close": 362.0,
+            "date": "2026-06-09"
+          },
+          {
+            "close": 352.0,
+            "date": "2026-06-10"
+          },
+          {
+            "close": 359.0,
+            "date": "2026-06-11"
+          },
+          {
+            "close": 359.0,
+            "date": "2026-06-12"
+          },
+          {
+            "close": 367.0,
+            "date": "2026-06-15"
+          },
+          {
+            "close": 370.0,
+            "date": "2026-06-16"
+          },
+          {
+            "close": 364.0,
+            "date": "2026-06-17"
+          },
+          {
+            "close": 364.85,
+            "date": "2026-06-18"
+          },
+          {
+            "close": 345.0,
+            "date": "2026-06-22"
+          },
+          {
+            "close": 347.0,
+            "date": "2026-06-23"
+          },
+          {
+            "close": 342.0,
+            "date": "2026-06-24"
+          },
+          {
+            "close": 344.0,
+            "date": "2026-06-25"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-06-26"
+          },
+          {
+            "close": 351.0,
+            "date": "2026-06-29"
+          },
+          {
+            "close": 353.0,
+            "date": "2026-06-30"
+          },
+          {
+            "close": 357.0,
+            "date": "2026-07-01"
+          },
+          {
+            "close": 355.0,
+            "date": "2026-07-02"
+          },
+          {
+            "close": 364.0,
+            "date": "2026-07-06"
+          },
+          {
+            "close": 363.0,
+            "date": "2026-07-07"
+          },
+          {
+            "close": 358.0,
+            "date": "2026-07-08"
+          },
+          {
+            "close": 356.0,
+            "date": "2026-07-09"
+          },
+          {
+            "close": 355.0,
+            "date": "2026-07-10"
+          },
+          {
+            "close": 351.0,
+            "date": "2026-07-13"
+          },
+          {
+            "close": 357.0,
+            "date": "2026-07-14"
+          },
+          {
+            "close": 371.0,
+            "date": "2026-07-15"
+          },
+          {
+            "close": 357.0,
+            "date": "2026-07-16"
+          },
+          {
+            "close": 346.0,
+            "date": "2026-07-17"
+          }
+        ],
+        "source": "finazon_us_stocks_essential",
+        "ticker": "GOOG"
+      }
+    ],
+    "price_movements": [
+      {
+        "filing_date_close": 335.0,
+        "filing_price_date": "2026-07-16",
+        "issuer": "Apple Inc. - Common Stock",
+        "latest_close": 334.0,
+        "latest_price_date": "2026-07-17",
+        "return_trade_to_filing": 9.8,
+        "return_trade_to_latest": 9.5,
+        "ticker": "AAPL",
+        "trade_date_close": 305.0,
+        "trade_price_date": "2026-06-01",
+        "traded_date": "06/01/2026",
+        "transaction_id": "14b0fb53bbdb63ae",
+        "type": "sell"
+      },
+      {
+        "filing_date_close": 357.0,
+        "filing_price_date": "2026-07-16",
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "latest_close": 346.0,
+        "latest_price_date": "2026-07-17",
+        "return_trade_to_filing": -3.5,
+        "return_trade_to_latest": -6.5,
+        "ticker": "GOOG",
+        "trade_date_close": 370.0,
+        "trade_price_date": "2026-06-01",
+        "traded_date": "06/01/2026",
+        "transaction_id": "da1655af108ca283",
+        "type": "sell"
+      }
+    ],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 45.0,
+        "filing_id": "20035024",
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "latest_close": 346.0,
+        "latest_price_date": "2026-07-17",
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": -3.5,
+        "return_trade_to_latest": -6.5,
+        "size": "$1,001 - $15,000",
+        "ticker": "GOOG",
+        "trade_date_close": 370.0,
+        "trade_price_date": "2026-06-01",
+        "traded_date": "06/01/2026",
+        "transaction_id": "da1655af108ca283",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 45.0,
+        "filing_id": "20035024",
+        "issuer": "Amazon.com, Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "AMZN",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/01/2026",
+        "transaction_id": "c4daabfe4dde08c1",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 45.0,
+        "filing_id": "20035024",
+        "issuer": "Apple Inc. - Common Stock",
+        "latest_close": 334.0,
+        "latest_price_date": "2026-07-17",
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": 9.8,
+        "return_trade_to_latest": 9.5,
+        "size": "$1,001 - $15,000",
+        "ticker": "AAPL",
+        "trade_date_close": 305.0,
+        "trade_price_date": "2026-06-01",
+        "traded_date": "06/01/2026",
+        "transaction_id": "14b0fb53bbdb63ae",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 45.0,
+        "filing_id": "20035024",
+        "issuer": "FAS",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "FAS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/01/2026",
+        "transaction_id": "1b10f6505842ccb7",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 45.0,
+        "filing_id": "20035024",
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "META",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/01/2026",
+        "transaction_id": "2f478f3e326b5bb1",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 45.0,
+        "filing_id": "20035024",
+        "issuer": "United States 3x Oil Fund",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "USOU",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "06/01/2026",
+        "transaction_id": "110313960640f603",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 72.0,
+        "filing_id": "20035024",
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "META",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "05/05/2026",
+        "transaction_id": "df4b875ae2db7943",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 79.0,
+        "filing_id": "20035024",
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "07/16/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "META",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "04/28/2026",
+        "transaction_id": "0b0be2310656fce3",
+        "type": "buy"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 120000.0,
+      "estimated_min_volume": 8008.0,
+      "filings": 1,
+      "flagged_trades": 1,
+      "issuers": 6,
+      "last_traded": "06/01/2026",
+      "market_context_available": 2,
+      "news_context_available": 6,
+      "tickers": 6,
+      "trades": 8
+    },
+    "top_issuers": [
+      {
+        "count": 3,
+        "issuer": "Meta Platforms, Inc. - Class A Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Alphabet Inc. - Class C Capital Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Amazon.com, Inc. - Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Apple Inc. - Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "FAS"
+      },
+      {
+        "count": 1,
+        "issuer": "United States 3x Oil Fund"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 3,
+        "ticker": "META"
+      },
+      {
+        "count": 1,
+        "ticker": "GOOG"
+      },
+      {
+        "count": 1,
+        "ticker": "AMZN"
+      },
+      {
+        "count": 1,
+        "ticker": "AAPL"
+      },
+      {
+        "count": 1,
+        "ticker": "FAS"
+      },
+      {
+        "count": 1,
+        "ticker": "USOU"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-04-28",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-05-05",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 90000.0,
+        "estimated_min": 6006.0,
+        "other": 0,
+        "sell": 5,
+        "traded_date": "2026-06-01",
+        "trades": 6
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260717T223831Z",
+    "environment": "testing",
+    "generated_at": "2026-07-17T22:39:38Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/daniel_crenshaw-tx-tx02.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-07-17T22:54:38Z"
+  }
+}

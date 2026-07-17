@@ -2,41 +2,49 @@
   "filings": [
     {
       "action_counts": {
-        "Sale": 31
+        "Purchase": 2,
+        "Sale": 6
       },
-      "action_counts_json": "{\"Sale\": 31}",
-      "disclosure_lag_days": 36,
-      "district": "TX10",
-      "estimated_max_total": 465000,
-      "estimated_min_total": 31000,
-      "filing_date": "07/08/2026",
-      "filing_id": "9116211",
+      "action_counts_json": "{\"Purchase\": 2, \"Sale\": 6}",
+      "disclosure_lag_days": 79,
+      "district": "TX02",
+      "estimated_max_total": 120000,
+      "estimated_min_total": 8008,
+      "filing_date": "07/16/2026",
+      "filing_id": "20035024",
       "filing_type": "P",
-      "ingested_at": "2026-07-13T19:22:37Z",
-      "member_name": "Hon. Michael T. McCaul",
-      "pdf_sha256": "4b9b6aff9ef8f857ea3483be1643667994bfdeee625679dab290f6332afacebe",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
-      "possible_late": false,
+      "ingested_at": "2026-07-17T22:20:56Z",
+      "member_name": "Hon. Daniel Crenshaw",
+      "pdf_sha256": "08497b4fc6e9ee943195186061ed55ccf8a99c9e77eb22fca89b723f44c17ea5",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf",
+      "possible_late": true,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
       "state": "TX",
-      "tickers": [],
-      "tickers_json": "[]",
-      "transaction_count": 31,
-      "transaction_date_max": "2026-06-29",
-      "transaction_date_min": "2026-06-02"
+      "tickers": [
+        "GOOG",
+        "AMZN",
+        "AAPL",
+        "FAS",
+        "META",
+        "USOU"
+      ],
+      "tickers_json": "[\"GOOG\", \"AMZN\", \"AAPL\", \"FAS\", \"META\", \"USOU\"]",
+      "transaction_count": 8,
+      "transaction_date_max": "2026-06-01",
+      "transaction_date_min": "2026-04-28"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260713T194050Z",
+    "data_version": "20260717T223831Z",
     "environment": "testing",
-    "generated_at": "2026-07-13T19:42:12Z",
+    "generated_at": "2026-07-17T22:39:38Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-13T19:57:12Z"
+    "stale_after": "2026-07-17T22:54:38Z"
   }
 }
