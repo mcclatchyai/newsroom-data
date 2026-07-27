@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20035024",
-      "issuer_name": "Alphabet Inc. - Class C Capital Stock",
+      "filing_id": "20035068",
+      "issuer_name": "Ares Capital Corporation - Closed End Fund",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,230 +27,20 @@
         }
       ],
       "status": "source_only",
-      "ticker": "GOOG",
-      "transaction_id": "da1655af108ca283"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "Amazon.com, Inc. - Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "AMZN",
-      "transaction_id": "c4daabfe4dde08c1"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "Apple Inc. - Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "AAPL",
-      "transaction_id": "14b0fb53bbdb63ae"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "FAS",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "FAS",
-      "transaction_id": "1b10f6505842ccb7"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "Meta Platforms, Inc. - Class A Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "META",
-      "transaction_id": "0b0be2310656fce3"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "Meta Platforms, Inc. - Class A Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "META",
-      "transaction_id": "df4b875ae2db7943"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "Meta Platforms, Inc. - Class A Common Stock",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "META",
-      "transaction_id": "2f478f3e326b5bb1"
-    },
-    {
-      "filing_id": "20035024",
-      "issuer_name": "United States 3x Oil Fund",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "USOU",
-      "transaction_id": "110313960640f603"
+      "ticker": "ARCC",
+      "transaction_id": "f0b931b08a9a715c"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260717T223831Z",
+    "data_version": "20260727T192147Z",
     "environment": "testing",
-    "generated_at": "2026-07-17T22:39:38Z",
+    "generated_at": "2026-07-27T19:23:01Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-17T22:54:38Z"
+    "stale_after": "2026-07-27T19:38:01Z"
   }
 }

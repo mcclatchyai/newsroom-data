@@ -32,36 +32,34 @@
       "transaction_id": "f0b931b08a9a715c"
     }
   ],
-  "filings": [
-    {
-      "action_counts": {
-        "Sale": 1
-      },
-      "action_counts_json": "{\"Sale\": 1}",
-      "disclosure_lag_days": 0,
-      "district": "TX17",
-      "estimated_max_total": 15000,
-      "estimated_min_total": 1001,
-      "filing_date": "07/24/2026",
-      "filing_id": "20035068",
-      "filing_type": "P",
-      "ingested_at": "2026-07-27T19:20:43Z",
-      "member_name": "Hon. Pete Sessions",
-      "pdf_sha256": "574377910dff2c2718df0f5ae65308b0f8977066d9814afc1bd52a45f74d23ab",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf",
-      "possible_late": false,
-      "schema_version": "1",
-      "source": "house_disclosure_pdf",
-      "state": "TX",
-      "tickers": [
-        "ARCC"
-      ],
-      "tickers_json": "[\"ARCC\"]",
-      "transaction_count": 1,
-      "transaction_date_max": "2026-07-24",
-      "transaction_date_min": "2026-07-24"
-    }
-  ],
+  "filing": {
+    "action_counts": {
+      "Sale": 1
+    },
+    "action_counts_json": "{\"Sale\": 1}",
+    "disclosure_lag_days": 0,
+    "district": "TX17",
+    "estimated_max_total": 15000,
+    "estimated_min_total": 1001,
+    "filing_date": "07/24/2026",
+    "filing_id": "20035068",
+    "filing_type": "P",
+    "ingested_at": "2026-07-27T19:20:43Z",
+    "member_name": "Hon. Pete Sessions",
+    "pdf_sha256": "574377910dff2c2718df0f5ae65308b0f8977066d9814afc1bd52a45f74d23ab",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "ARCC"
+    ],
+    "tickers_json": "[\"ARCC\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2026-07-24",
+    "transaction_date_min": "2026-07-24"
+  },
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
@@ -69,12 +67,15 @@
     "environment": "testing",
     "generated_at": "2026-07-27T19:23:01Z",
     "project": "ptr",
-    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/TX.json",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035068.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
     "stale_after": "2026-07-27T19:38:01Z"
   },
-  "state": "TX",
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035068.json"
+  },
   "transactions": [
     {
       "action": "Sale",
