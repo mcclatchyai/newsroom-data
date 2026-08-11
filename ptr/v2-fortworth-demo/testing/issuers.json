@@ -1,0 +1,457 @@
+{
+  "issuers": [
+    {
+      "issuer_name": "AbbVie Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/ABBV.json",
+      "ticker": "ABBV",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Abbott Laboratories Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/ABT.json",
+      "ticker": "ABT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Analog Devices, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/ADI.json",
+      "ticker": "ADI",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Arthur J. Gallagher & Co. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/AJG.json",
+      "ticker": "AJG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Air Products and Chemicals, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/APD.json",
+      "ticker": "APD",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "American Express Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/AXP.json",
+      "ticker": "AXP",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Boeing Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/BA.json",
+      "ticker": "BA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Bank of America Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/BAC.json",
+      "ticker": "BAC",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "The Bank of New York Mellon Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/BK.json",
+      "ticker": "BK",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Bristol-Myers Squibb Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/BMY.json",
+      "ticker": "BMY",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Blackstone Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/BX.json",
+      "ticker": "BX",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Carrier Global Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/CARR.json",
+      "ticker": "CARR",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "The Cigna Group Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/CI.json",
+      "ticker": "CI",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Comcast Corporation - Class A Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/CMCSA.json",
+      "ticker": "CMCSA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "CME Group Inc. - Class A Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/CME.json",
+      "ticker": "CME",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "CMS Energy Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/CMS.json",
+      "ticker": "CMS",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Capital One Financial Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/COF.json",
+      "ticker": "COF",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "ConocoPhillips Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/COP.json",
+      "ticker": "COP",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Chevron Corporation Common Stock",
+      "member_count": 2,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/CVX.json",
+      "ticker": "CVX",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Deere & Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/DE.json",
+      "ticker": "DE",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Danaher Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/DHR.json",
+      "ticker": "DHR",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Dover Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/DOV.json",
+      "ticker": "DOV",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "EOG Resources, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/EOG.json",
+      "ticker": "EOG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Eaton Corporation, PLC Ordinary Shares",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/ETN.json",
+      "ticker": "ETN",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Diamondback Energy, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/FANG.json",
+      "ticker": "FANG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Fidelity National Information Services, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/FIS.json",
+      "ticker": "FIS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "General Dynamics Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/GD.json",
+      "ticker": "GD",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Alphabet Inc. - Class C Capital Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/GOOG.json",
+      "ticker": "GOOG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Goldman Sachs Group, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/GS.json",
+      "ticker": "GS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Home Depot, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/HD.json",
+      "ticker": "HD",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "International Business Machines Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/IBM.json",
+      "ticker": "IBM",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Johnson & Johnson Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/JNJ.json",
+      "ticker": "JNJ",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "JP Morgan Chase & Co. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/JPM.json",
+      "ticker": "JPM",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Eli Lilly and Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/LLY.json",
+      "ticker": "LLY",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "McDonald's Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MCD.json",
+      "ticker": "MCD",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MDLZ.json",
+      "ticker": "MDLZ",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Medtronic plc. Ordinary Shares",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MDT.json",
+      "ticker": "MDT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "3M Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MMM.json",
+      "ticker": "MMM",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Merck & Company, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MRK.json",
+      "ticker": "MRK",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Morgan Stanley Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MS.json",
+      "ticker": "MS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Microsoft Corporation - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/MSFT.json",
+      "ticker": "MSFT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "NextEra Energy, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/NEE.json",
+      "ticker": "NEE",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "ServiceNow, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/NOW.json",
+      "ticker": "NOW",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Norfolk Southern Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/NSC.json",
+      "ticker": "NSC",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "NXP Semiconductors N.V. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/NXPI.json",
+      "ticker": "NXPI",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Public Service Enterprise Group Incorporated Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/PEG.json",
+      "ticker": "PEG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Pepsico, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/PEP.json",
+      "ticker": "PEP",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Procter & Gamble Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/PG.json",
+      "ticker": "PG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Progressive Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/PGR.json",
+      "ticker": "PGR",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Packaging Corporation of America Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/PKG.json",
+      "ticker": "PKG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Philip Morris International Inc Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/PM.json",
+      "ticker": "PM",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Republic Services, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/RSG.json",
+      "ticker": "RSG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "RTX Corporation Common Stock",
+      "member_count": 2,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/RTX.json",
+      "ticker": "RTX",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Charles Schwab Corporation",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/SCHW.json",
+      "ticker": "SCHW",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Seagate Technology Holdings PLC - Ordinary Shares",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/STX.json",
+      "ticker": "STX",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "TJX Companies, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/TJX.json",
+      "ticker": "TJX",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Texas Instruments Incorporated - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/TXN.json",
+      "ticker": "TXN",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "UnitedHealth Group Incorporated Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/UNH.json",
+      "ticker": "UNH",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Union Pacific Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/UNP.json",
+      "ticker": "UNP",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Verizon Communications Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/VZ.json",
+      "ticker": "VZ",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Wells Fargo & Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/WFC.json",
+      "ticker": "WFC",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Walmart Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/WMT.json",
+      "ticker": "WMT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Xcel Energy Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuer/XEL.json",
+      "ticker": "XEL",
+      "trade_count": 1
+    }
+  ],
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "fort-worth-demo-20260811",
+    "environment": "testing",
+    "generated_at": "2026-08-11T15:50:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/issuers.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-11T16:05:41Z"
+  }
+}

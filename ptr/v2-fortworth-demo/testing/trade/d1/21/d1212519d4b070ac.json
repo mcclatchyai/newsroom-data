@@ -1,0 +1,2683 @@
+{
+  "context_packet": {
+    "filing_id": "20033789",
+    "ingested_at": "2026-05-26T21:06:17Z",
+    "issuer_name": "Boeing Company",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Boeing+Company",
+          "query_payload": {
+            "client_name": "Boeing Company",
+            "page_size": 3
+          },
+          "records": [
+            {
+              "client_name": "BOEING COMPANY",
+              "filing_period": "mid_year",
+              "filing_type": "RR",
+              "filing_uuid": "d6fea4ab-da37-4b36-891c-a611334dabc7",
+              "filing_year": 1999,
+              "posted_date": "1999-03-23T00:00:00-05:00",
+              "raw": {
+                "affiliated_organizations": [],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 253,
+                  "client_self_select": false,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2007-07-27",
+                  "general_description": null,
+                  "id": 114012,
+                  "name": "BOEING COMPANY",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": "VA",
+                  "ppb_state_display": "Virginia",
+                  "state": "VA",
+                  "state_display": "Virginia",
+                  "url": "https://lda.senate.gov/api/v1/clients/114012/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "1999-03-23T00:00:00-05:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "application/pdf",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/d6fea4ab-da37-4b36-891c-a611334dabc7/print/",
+                "filing_period": "mid_year",
+                "filing_period_display": "Mid-Year (Jan 1 - Jun 30)",
+                "filing_type": "RR",
+                "filing_type_display": "Registration",
+                "filing_uuid": "d6fea4ab-da37-4b36-891c-a611334dabc7",
+                "filing_year": 1999,
+                "foreign_entities": [],
+                "income": null,
+                "lobbying_activities": [
+                  {
+                    "description": null,
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "DEF",
+                    "general_issue_code_display": "Defense",
+                    "government_entities": [],
+                    "lobbyists": [
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "RICHARD",
+                          "id": 19975,
+                          "last_name": "COLLINS",
+                          "middle_name": "L",
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SHAY",
+                          "id": 26655,
+                          "last_name": "STAUTZ",
+                          "middle_name": "D",
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "JAMES",
+                          "id": 68786,
+                          "last_name": "BOND",
+                          "middle_name": "D",
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": true
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": null,
+                "registrant": {
+                  "address_1": "2111 Wilson Boulevard",
+                  "address_2": "Suite 700",
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Arlington",
+                  "contact_name": "T.L. ALEXIS WEARS",
+                  "contact_telephone": "",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Defense Consulting",
+                  "dt_updated": "2022-04-06T16:04:31.705675-04:00",
+                  "house_registrant_id": 32772,
+                  "id": 9922,
+                  "name": "RICHARD L. COLLINS & COMPANY, INC.",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "VA",
+                  "state_display": "Virginia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/9922/",
+                  "zip": "22201"
+                },
+                "registrant_address_1": null,
+                "registrant_address_2": null,
+                "registrant_city": null,
+                "registrant_country": "United States of America",
+                "registrant_different_address": null,
+                "registrant_ppb_country": "United States of America",
+                "registrant_state": null,
+                "registrant_zip": null,
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/d6fea4ab-da37-4b36-891c-a611334dabc7/"
+              },
+              "registrant_name": "RICHARD L. COLLINS & COMPANY, INC.",
+              "url": "https://lda.senate.gov/api/v1/filings/d6fea4ab-da37-4b36-891c-a611334dabc7/"
+            },
+            {
+              "client_name": "BOEING COMPANY",
+              "filing_period": "mid_year",
+              "filing_type": "MMY",
+              "filing_uuid": "7ed72cd2-8c13-416d-83c0-c9cc6e237cb1",
+              "filing_year": 1999,
+              "posted_date": "1999-08-09T00:00:00-04:00",
+              "raw": {
+                "affiliated_organizations": [],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 24,
+                  "client_self_select": false,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2007-08-05",
+                  "general_description": null,
+                  "id": 104823,
+                  "name": "BOEING COMPANY",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": null,
+                  "ppb_state_display": null,
+                  "state": null,
+                  "state_display": null,
+                  "url": "https://lda.senate.gov/api/v1/clients/104823/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "1999-08-09T00:00:00-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "application/pdf",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/7ed72cd2-8c13-416d-83c0-c9cc6e237cb1/print/",
+                "filing_period": "mid_year",
+                "filing_period_display": "Mid-Year (Jan 1 - Jun 30)",
+                "filing_type": "MMY",
+                "filing_type_display": "Mid-Year Report (No Activity)",
+                "filing_uuid": "7ed72cd2-8c13-416d-83c0-c9cc6e237cb1",
+                "filing_year": 1999,
+                "foreign_entities": [],
+                "income": null,
+                "lobbying_activities": [],
+                "posted_by_name": null,
+                "registrant": {
+                  "address_1": "9094 Blue Jug Landing",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Burke",
+                  "contact_name": "JAMES N. ASHMORE",
+                  "contact_telephone": "+1 703-517-5439",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "sole propritorship, business and government affairs consulting",
+                  "dt_updated": "2022-04-06T16:04:31.966717-04:00",
+                  "house_registrant_id": 33246,
+                  "id": 4391,
+                  "name": "JAMES NICHOLAS ASHMORE & ASSOCIATES",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "VA",
+                  "state_display": "Virginia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/4391/",
+                  "zip": "22015-2106"
+                },
+                "registrant_address_1": null,
+                "registrant_address_2": null,
+                "registrant_city": null,
+                "registrant_country": "United States of America",
+                "registrant_different_address": null,
+                "registrant_ppb_country": "United States of America",
+                "registrant_state": null,
+                "registrant_zip": null,
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/7ed72cd2-8c13-416d-83c0-c9cc6e237cb1/"
+              },
+              "registrant_name": "JAMES NICHOLAS ASHMORE & ASSOCIATES",
+              "url": "https://lda.senate.gov/api/v1/filings/7ed72cd2-8c13-416d-83c0-c9cc6e237cb1/"
+            },
+            {
+              "client_name": "BOEING COMPANY",
+              "filing_period": "mid_year",
+              "filing_type": "MM",
+              "filing_uuid": "18c6abaa-8d41-4195-95e0-c9ae56c1fa5e",
+              "filing_year": 1999,
+              "posted_date": "1999-08-10T00:00:00-04:00",
+              "raw": {
+                "affiliated_organizations": [],
+                "client": {
+                  "client_government_entity": false,
+                  "client_id": 36,
+                  "client_self_select": null,
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "effective_date": "2007-08-01",
+                  "general_description": null,
+                  "id": 133020,
+                  "name": "BOEING COMPANY",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "ppb_state": null,
+                  "ppb_state_display": null,
+                  "state": "IL",
+                  "state_display": "Illinois",
+                  "url": "https://lda.senate.gov/api/v1/clients/133020/"
+                },
+                "conviction_disclosures": [],
+                "dt_posted": "1999-08-10T00:00:00-04:00",
+                "expenses": null,
+                "expenses_method": null,
+                "expenses_method_display": null,
+                "filing_document_content_type": "application/pdf",
+                "filing_document_url": "https://lda.senate.gov/filings/public/filing/18c6abaa-8d41-4195-95e0-c9ae56c1fa5e/print/",
+                "filing_period": "mid_year",
+                "filing_period_display": "Mid-Year (Jan 1 - Jun 30)",
+                "filing_type": "MM",
+                "filing_type_display": "Mid-Year Report",
+                "filing_uuid": "18c6abaa-8d41-4195-95e0-c9ae56c1fa5e",
+                "filing_year": 1999,
+                "foreign_entities": [],
+                "income": "60000.00",
+                "lobbying_activities": [
+                  {
+                    "description": null,
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "AVI",
+                    "general_issue_code_display": "Aviation/Airlines/Airports",
+                    "government_entities": [
+                      {
+                        "id": 2,
+                        "name": "HOUSE OF REPRESENTATIVES"
+                      },
+                      {
+                        "id": 1,
+                        "name": "SENATE"
+                      }
+                    ],
+                    "lobbyists": [
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 12626,
+                          "last_name": "MATHIESEN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "ms",
+                          "prefix_display": "MS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 13954,
+                          "last_name": "MILLER",
+                          "middle_name": "BURGESS",
+                          "nickname": null,
+                          "prefix": "mrs",
+                          "prefix_display": "MRS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "TIMOTHY",
+                          "id": 15870,
+                          "last_name": "LOVAIN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "STEVE",
+                          "id": 25906,
+                          "last_name": "MCBEE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "FRED",
+                          "id": 30553,
+                          "last_name": "GREENE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "DENNY",
+                          "id": 44659,
+                          "last_name": "MILLER",
+                          "middle_name": "M",
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      }
+                    ]
+                  },
+                  {
+                    "description": null,
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "TRD",
+                    "general_issue_code_display": "Trade (domestic/foreign)",
+                    "government_entities": [
+                      {
+                        "id": 2,
+                        "name": "HOUSE OF REPRESENTATIVES"
+                      },
+                      {
+                        "id": 1,
+                        "name": "SENATE"
+                      }
+                    ],
+                    "lobbyists": [
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 12626,
+                          "last_name": "MATHIESEN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "ms",
+                          "prefix_display": "MS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 13954,
+                          "last_name": "MILLER",
+                          "middle_name": "BURGESS",
+                          "nickname": null,
+                          "prefix": "mrs",
+                          "prefix_display": "MRS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "TIMOTHY",
+                          "id": 15870,
+                          "last_name": "LOVAIN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "STEVE",
+                          "id": 25906,
+                          "last_name": "MCBEE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "FRED",
+                          "id": 30553,
+                          "last_name": "GREENE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "DENNY",
+                          "id": 44659,
+                          "last_name": "MILLER",
+                          "middle_name": "M",
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      }
+                    ]
+                  },
+                  {
+                    "description": null,
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "DEF",
+                    "general_issue_code_display": "Defense",
+                    "government_entities": [
+                      {
+                        "id": 2,
+                        "name": "HOUSE OF REPRESENTATIVES"
+                      },
+                      {
+                        "id": 1,
+                        "name": "SENATE"
+                      }
+                    ],
+                    "lobbyists": [
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 12626,
+                          "last_name": "MATHIESEN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "ms",
+                          "prefix_display": "MS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 13954,
+                          "last_name": "MILLER",
+                          "middle_name": "BURGESS",
+                          "nickname": null,
+                          "prefix": "mrs",
+                          "prefix_display": "MRS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "TIMOTHY",
+                          "id": 15870,
+                          "last_name": "LOVAIN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "STEVE",
+                          "id": 25906,
+                          "last_name": "MCBEE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "FRED",
+                          "id": 30553,
+                          "last_name": "GREENE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "DENNY",
+                          "id": 44659,
+                          "last_name": "MILLER",
+                          "middle_name": "M",
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      }
+                    ]
+                  },
+                  {
+                    "description": null,
+                    "foreign_entity_issues": null,
+                    "general_issue_code": "AER",
+                    "general_issue_code_display": "Aerospace",
+                    "government_entities": [
+                      {
+                        "id": 2,
+                        "name": "HOUSE OF REPRESENTATIVES"
+                      },
+                      {
+                        "id": 1,
+                        "name": "SENATE"
+                      }
+                    ],
+                    "lobbyists": [
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 12626,
+                          "last_name": "MATHIESEN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "ms",
+                          "prefix_display": "MS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "SANDRA",
+                          "id": 13954,
+                          "last_name": "MILLER",
+                          "middle_name": "BURGESS",
+                          "nickname": null,
+                          "prefix": "mrs",
+                          "prefix_display": "MRS.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "TIMOTHY",
+                          "id": 15870,
+                          "last_name": "LOVAIN",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "STEVE",
+                          "id": 25906,
+                          "last_name": "MCBEE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "FRED",
+                          "id": 30553,
+                          "last_name": "GREENE",
+                          "middle_name": null,
+                          "nickname": null,
+                          "prefix": null,
+                          "prefix_display": null,
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      },
+                      {
+                        "covered_position": "N/A",
+                        "lobbyist": {
+                          "first_name": "DENNY",
+                          "id": 44659,
+                          "last_name": "MILLER",
+                          "middle_name": "M",
+                          "nickname": null,
+                          "prefix": "mr",
+                          "prefix_display": "MR.",
+                          "suffix": null,
+                          "suffix_display": null
+                        },
+                        "new": null
+                      }
+                    ]
+                  }
+                ],
+                "posted_by_name": null,
+                "registrant": {
+                  "address_1": "400 N Capitol St, Ste 363",
+                  "address_2": null,
+                  "address_3": null,
+                  "address_4": null,
+                  "city": "Washington",
+                  "contact_name": "MELISSA BROWN",
+                  "contact_telephone": "+1 202-783-0280",
+                  "country": "US",
+                  "country_display": "United States of America",
+                  "description": "Lobbying, consulting and government relations",
+                  "dt_updated": "2022-04-06T16:06:34.952708-04:00",
+                  "house_registrant_id": 30761,
+                  "id": 25328,
+                  "name": "DENNY MILLER ASSOCIATES",
+                  "ppb_country": "US",
+                  "ppb_country_display": "United States of America",
+                  "state": "DC",
+                  "state_display": "District of Columbia",
+                  "url": "https://lda.senate.gov/api/v1/registrants/25328/",
+                  "zip": "20001"
+                },
+                "registrant_address_1": null,
+                "registrant_address_2": null,
+                "registrant_city": null,
+                "registrant_country": "United States of America",
+                "registrant_different_address": null,
+                "registrant_ppb_country": "United States of America",
+                "registrant_state": null,
+                "registrant_zip": null,
+                "termination_date": null,
+                "url": "https://lda.senate.gov/api/v1/filings/18c6abaa-8d41-4195-95e0-c9ae56c1fa5e/"
+              },
+              "registrant_name": "DENNY MILLER ASSOCIATES",
+              "url": "https://lda.senate.gov/api/v1/filings/18c6abaa-8d41-4195-95e0-c9ae56c1fa5e/"
+            }
+          ],
+          "retrieved_at": "2026-05-26T21:06:17Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "available"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "J000310",
+            "district": "32",
+            "match_method": "name_state_district",
+            "name": "Julie Johnson",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": true
+        },
+        "retrieved_at": "2026-05-26T21:06:17Z",
+        "sec_issuer_identity": {
+          "cik": "0000012927",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "BOEING CO",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "BA"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "available",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "award_search": {
+              "fields": [
+                "Award ID",
+                "Recipient Name",
+                "Recipient UEI",
+                "Award Amount",
+                "Start Date",
+                "End Date",
+                "Awarding Agency",
+                "Awarding Sub Agency",
+                "Funding Agency",
+                "Funding Sub Agency",
+                "Award Type",
+                "Description"
+              ],
+              "filters": {
+                "recipient_search_text": [
+                  "BOEING COMPANY"
+                ],
+                "time_period": [
+                  {
+                    "end_date": "2026-01-15",
+                    "start_date": "2024-01-26"
+                  }
+                ]
+              },
+              "limit": 3,
+              "order": "desc",
+              "page": 1,
+              "sort": "Award Amount"
+            },
+            "recipient_autocomplete": {
+              "search_text": "Boeing Company"
+            }
+          },
+          "reason": "award_search_failed_status_422",
+          "recipient_candidates": [
+            {
+              "match_confidence": 1.0,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "BOEING COMPANY",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "BOEING COMPANY",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "THE BOEING COMPANY",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "THE BOEING COMPANY",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "BOEING COMPANY, THE",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "BOEING COMPANY, THE",
+              "uei": ""
+            }
+          ],
+          "retrieved_at": "2026-05-26T21:06:17Z",
+          "selected_recipient": {
+            "match_confidence": 1.0,
+            "recipient_hash": "",
+            "recipient_name": "BOEING COMPANY",
+            "uei": ""
+          },
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "available"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20033789",
+      "issuer": {
+        "name": "Boeing Company",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "BA"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX32",
+        "name": "Hon. Julie Johnson",
+        "state": "TX"
+      },
+      "news_context": {
+        "filtered_out_count": 19,
+        "issuer_name": "Boeing Company",
+        "min_relevance_score": 30,
+        "provider": "gdelt_doc_2_0",
+        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Boeing+Company%22+OR+BA%29&mode=artlist&format=json&startdatetime=20251119000000&enddatetime=20260301235959&maxrecords=20&sort=DateDesc",
+        "query": "(\"Boeing Company\" OR BA)",
+        "raw_result_count": 20,
+        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "result_count": 1,
+        "results": [
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "BA",
+              "boeing",
+              "boeing company"
+            ],
+            "published_at": "20260226T024500Z",
+            "relevance_label": "medium",
+            "relevance_score": 67,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "The Boeing Company ( BA ): What Investors Should Know",
+            "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer name appears in headline",
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term"
+            ]
+          }
+        ],
+        "retrieved_at": "2026-05-26T21:06:17Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [
+          {
+            "label": "The Boeing Company ( BA ): What Investors Should Know",
+            "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/"
+          }
+        ],
+        "status": "available",
+        "ticker": "BA",
+        "window": {
+          "end_date": "2026-03-01",
+          "start_date": "2025-11-19"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 3,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 3,
+          "matched_terms": [
+            "ba"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [
+            {
+              "api_url": "https://api.congress.gov/v3/bill/118/sres/22?format=json",
+              "congress": 118,
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/22",
+              "latest_action_date": "2023-02-01",
+              "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S192-193; text: CR S210)",
+              "matched_terms": [
+                "ba"
+              ],
+              "number": "22",
+              "title": "A resolution congratulating the South Dakota State University Jackrabbits on winning the 2023 National Collegiate Athletic Association Division I Football Championship Subdivision title.",
+              "type": "SRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/118/sres/29?format=json",
+              "congress": 118,
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/29",
+              "latest_action_date": "2023-02-02",
+              "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S240; text: CR S238)",
+              "matched_terms": [
+                "ba"
+              ],
+              "number": "29",
+              "title": "A resolution designating the week beginning February 5, 2023, as \"National Tribal Colleges and Universities Week\".",
+              "type": "SRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/118/sres/16?format=json",
+              "congress": 118,
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/16",
+              "latest_action_date": "2023-01-26",
+              "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S127-128; text: CR S124)",
+              "matched_terms": [
+                "ba"
+              ],
+              "number": "16",
+              "title": "A resolution congratulating the University of Georgia Bulldogs football team for winning the 2023 National Collegiate Athletic Association College Football National Championship.",
+              "type": "SRES"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=ba+OR+boeing+OR+boeing+company",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 25,
+            "terms": [
+              "ba",
+              "boeing",
+              "boeing company"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-05-26T21:06:17Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-05-21T14:15:00Z",
+              "event_id": "119325",
+              "matched_terms": [
+                "ba"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Markup of H.R. 8736,\"Restoration of Employment Choice for Adults with Disabilities Act\"; H.R. 8705,\"Civics and History Advancement to Restore Learning, Integrity, and Education (CHARLIE) Act\"; H.R. 7362,\"Form 5500 Filing Simplification Act\"; H.R. 7895,\"PBM Kickback Prohibition Act\"; H.R. 8684, \"Transparency in Billing Act of 2026\"",
+              "type": "Markup"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-05-20T14:15:00Z",
+              "event_id": "119305",
+              "matched_terms": [
+                "ba"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "“Legislative Hearing on: H.R: 6733, The “VISN Reform Act of 2025”; H.R.6580, The “VA National Formulary Act of 2025”; H.R.6599, The “Leasing and Infrastructure Act of 2025”; H.R.6583, The “Research Reform Act of 2025”; H.R. 6549, The “VA Contracting and Procurement Act”; H.R.6740, The “VA TRUST Act”; H.R. 6764, The “Veterans Affairs Advisory Committee Oversight Act of 2025”; H.R. 6904, The “Veterans Readiness and Employment Improvement and Accountability Act of 2025”; H.R. 6843, The “Establishing the Veterans Economic Opportunity and Transition Administration Act of 2025”; H.R. 6833, The “Acquisition Reform and Cost Assessment Act of 2025”; H.R.2303, The “Board of Veterans’ Appeals Attorney Retention and Backlog Reduction Act”; H.R.210, The “Dental Care for Veterans Act”; H.R.3183, The “SAFE STEPS for Veterans Act of 2025”; H.R.5203, “To direct the Secretary of Veterans Affairs to update directives of the Department of Veterans Affairs regarding the management of acute sexual assault, and for other purposes; H.R.4114, The “EVEST Act”; H.R.3869, The “Every Veteran Housed Act”; H.R.2722, The “VA Funding and Workforce Protection Act”; H.R.1391, The “Student Veteran Benefit Restoration Act of 2025”; H.R.8044, The “Get Justice-Involved Veterans BACK HOME Act”; Discussion Draft: The “Toxic Exposure Advisory Committee Establishment Act”; Discussion Draft, “To amend title 38, United States Code, to establish the Advisory Committee on Toxic Exposure of the Department of Veterans Affairs”; Discussion Draft: The “Honor Vets Act”; Discussion Draft, “To provide for the modernization of the electronic health record system and other health information technology activities and systems of the Department of Veterans Affairs, and for other purposes.”",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-05-21T12:00:00Z",
+              "event_id": "119321",
+              "matched_terms": [
+                "ba"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Fiscal Year 2027 Transportation, and Housing and Urban Development, and Related Agencies Bill",
+              "type": "Markup"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=ba+OR+boeing+OR+boeing+company",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 25,
+            "terms": [
+              "ba",
+              "boeing",
+              "boeing company"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-05-26T21:06:17Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "ba"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "boeing"
+          },
+          {
+            "confidence": 0.55,
+            "source": "news_context",
+            "term": "boeing company"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-05-26T21:06:17Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Sale",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 43,
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filed_after_due_date": false,
+        "filing_date": "01/15/2026",
+        "notification_date": "01/09/2026",
+        "owner": "JT",
+        "page": 2,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf",
+        "source_quote": "S 12/03/202501/09/2026$1,001 - $15,000",
+        "stock_act_due_date": "2026-01-17",
+        "transaction_date": "12/03/2025"
+      },
+      "transaction_id": "d1212519d4b070ac"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "BA",
+    "transaction_id": "d1212519d4b070ac"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Boeing+Company",
+      "query_payload": {
+        "client_name": "Boeing Company",
+        "page_size": 3
+      },
+      "records": [
+        {
+          "client_name": "BOEING COMPANY",
+          "filing_period": "mid_year",
+          "filing_type": "RR",
+          "filing_uuid": "d6fea4ab-da37-4b36-891c-a611334dabc7",
+          "filing_year": 1999,
+          "posted_date": "1999-03-23T00:00:00-05:00",
+          "raw": {
+            "affiliated_organizations": [],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 253,
+              "client_self_select": false,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2007-07-27",
+              "general_description": null,
+              "id": 114012,
+              "name": "BOEING COMPANY",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": "VA",
+              "ppb_state_display": "Virginia",
+              "state": "VA",
+              "state_display": "Virginia",
+              "url": "https://lda.senate.gov/api/v1/clients/114012/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "1999-03-23T00:00:00-05:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "application/pdf",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/d6fea4ab-da37-4b36-891c-a611334dabc7/print/",
+            "filing_period": "mid_year",
+            "filing_period_display": "Mid-Year (Jan 1 - Jun 30)",
+            "filing_type": "RR",
+            "filing_type_display": "Registration",
+            "filing_uuid": "d6fea4ab-da37-4b36-891c-a611334dabc7",
+            "filing_year": 1999,
+            "foreign_entities": [],
+            "income": null,
+            "lobbying_activities": [
+              {
+                "description": null,
+                "foreign_entity_issues": null,
+                "general_issue_code": "DEF",
+                "general_issue_code_display": "Defense",
+                "government_entities": [],
+                "lobbyists": [
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "RICHARD",
+                      "id": 19975,
+                      "last_name": "COLLINS",
+                      "middle_name": "L",
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SHAY",
+                      "id": 26655,
+                      "last_name": "STAUTZ",
+                      "middle_name": "D",
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "JAMES",
+                      "id": 68786,
+                      "last_name": "BOND",
+                      "middle_name": "D",
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": true
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": null,
+            "registrant": {
+              "address_1": "2111 Wilson Boulevard",
+              "address_2": "Suite 700",
+              "address_3": null,
+              "address_4": null,
+              "city": "Arlington",
+              "contact_name": "T.L. ALEXIS WEARS",
+              "contact_telephone": "",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Defense Consulting",
+              "dt_updated": "2022-04-06T16:04:31.705675-04:00",
+              "house_registrant_id": 32772,
+              "id": 9922,
+              "name": "RICHARD L. COLLINS & COMPANY, INC.",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "VA",
+              "state_display": "Virginia",
+              "url": "https://lda.senate.gov/api/v1/registrants/9922/",
+              "zip": "22201"
+            },
+            "registrant_address_1": null,
+            "registrant_address_2": null,
+            "registrant_city": null,
+            "registrant_country": "United States of America",
+            "registrant_different_address": null,
+            "registrant_ppb_country": "United States of America",
+            "registrant_state": null,
+            "registrant_zip": null,
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/d6fea4ab-da37-4b36-891c-a611334dabc7/"
+          },
+          "registrant_name": "RICHARD L. COLLINS & COMPANY, INC.",
+          "url": "https://lda.senate.gov/api/v1/filings/d6fea4ab-da37-4b36-891c-a611334dabc7/"
+        },
+        {
+          "client_name": "BOEING COMPANY",
+          "filing_period": "mid_year",
+          "filing_type": "MMY",
+          "filing_uuid": "7ed72cd2-8c13-416d-83c0-c9cc6e237cb1",
+          "filing_year": 1999,
+          "posted_date": "1999-08-09T00:00:00-04:00",
+          "raw": {
+            "affiliated_organizations": [],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 24,
+              "client_self_select": false,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2007-08-05",
+              "general_description": null,
+              "id": 104823,
+              "name": "BOEING COMPANY",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": null,
+              "ppb_state_display": null,
+              "state": null,
+              "state_display": null,
+              "url": "https://lda.senate.gov/api/v1/clients/104823/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "1999-08-09T00:00:00-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "application/pdf",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/7ed72cd2-8c13-416d-83c0-c9cc6e237cb1/print/",
+            "filing_period": "mid_year",
+            "filing_period_display": "Mid-Year (Jan 1 - Jun 30)",
+            "filing_type": "MMY",
+            "filing_type_display": "Mid-Year Report (No Activity)",
+            "filing_uuid": "7ed72cd2-8c13-416d-83c0-c9cc6e237cb1",
+            "filing_year": 1999,
+            "foreign_entities": [],
+            "income": null,
+            "lobbying_activities": [],
+            "posted_by_name": null,
+            "registrant": {
+              "address_1": "9094 Blue Jug Landing",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Burke",
+              "contact_name": "JAMES N. ASHMORE",
+              "contact_telephone": "+1 703-517-5439",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "sole propritorship, business and government affairs consulting",
+              "dt_updated": "2022-04-06T16:04:31.966717-04:00",
+              "house_registrant_id": 33246,
+              "id": 4391,
+              "name": "JAMES NICHOLAS ASHMORE & ASSOCIATES",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "VA",
+              "state_display": "Virginia",
+              "url": "https://lda.senate.gov/api/v1/registrants/4391/",
+              "zip": "22015-2106"
+            },
+            "registrant_address_1": null,
+            "registrant_address_2": null,
+            "registrant_city": null,
+            "registrant_country": "United States of America",
+            "registrant_different_address": null,
+            "registrant_ppb_country": "United States of America",
+            "registrant_state": null,
+            "registrant_zip": null,
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/7ed72cd2-8c13-416d-83c0-c9cc6e237cb1/"
+          },
+          "registrant_name": "JAMES NICHOLAS ASHMORE & ASSOCIATES",
+          "url": "https://lda.senate.gov/api/v1/filings/7ed72cd2-8c13-416d-83c0-c9cc6e237cb1/"
+        },
+        {
+          "client_name": "BOEING COMPANY",
+          "filing_period": "mid_year",
+          "filing_type": "MM",
+          "filing_uuid": "18c6abaa-8d41-4195-95e0-c9ae56c1fa5e",
+          "filing_year": 1999,
+          "posted_date": "1999-08-10T00:00:00-04:00",
+          "raw": {
+            "affiliated_organizations": [],
+            "client": {
+              "client_government_entity": false,
+              "client_id": 36,
+              "client_self_select": null,
+              "country": "US",
+              "country_display": "United States of America",
+              "effective_date": "2007-08-01",
+              "general_description": null,
+              "id": 133020,
+              "name": "BOEING COMPANY",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "ppb_state": null,
+              "ppb_state_display": null,
+              "state": "IL",
+              "state_display": "Illinois",
+              "url": "https://lda.senate.gov/api/v1/clients/133020/"
+            },
+            "conviction_disclosures": [],
+            "dt_posted": "1999-08-10T00:00:00-04:00",
+            "expenses": null,
+            "expenses_method": null,
+            "expenses_method_display": null,
+            "filing_document_content_type": "application/pdf",
+            "filing_document_url": "https://lda.senate.gov/filings/public/filing/18c6abaa-8d41-4195-95e0-c9ae56c1fa5e/print/",
+            "filing_period": "mid_year",
+            "filing_period_display": "Mid-Year (Jan 1 - Jun 30)",
+            "filing_type": "MM",
+            "filing_type_display": "Mid-Year Report",
+            "filing_uuid": "18c6abaa-8d41-4195-95e0-c9ae56c1fa5e",
+            "filing_year": 1999,
+            "foreign_entities": [],
+            "income": "60000.00",
+            "lobbying_activities": [
+              {
+                "description": null,
+                "foreign_entity_issues": null,
+                "general_issue_code": "AVI",
+                "general_issue_code_display": "Aviation/Airlines/Airports",
+                "government_entities": [
+                  {
+                    "id": 2,
+                    "name": "HOUSE OF REPRESENTATIVES"
+                  },
+                  {
+                    "id": 1,
+                    "name": "SENATE"
+                  }
+                ],
+                "lobbyists": [
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 12626,
+                      "last_name": "MATHIESEN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "ms",
+                      "prefix_display": "MS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 13954,
+                      "last_name": "MILLER",
+                      "middle_name": "BURGESS",
+                      "nickname": null,
+                      "prefix": "mrs",
+                      "prefix_display": "MRS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "TIMOTHY",
+                      "id": 15870,
+                      "last_name": "LOVAIN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "STEVE",
+                      "id": 25906,
+                      "last_name": "MCBEE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "FRED",
+                      "id": 30553,
+                      "last_name": "GREENE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "DENNY",
+                      "id": 44659,
+                      "last_name": "MILLER",
+                      "middle_name": "M",
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  }
+                ]
+              },
+              {
+                "description": null,
+                "foreign_entity_issues": null,
+                "general_issue_code": "TRD",
+                "general_issue_code_display": "Trade (domestic/foreign)",
+                "government_entities": [
+                  {
+                    "id": 2,
+                    "name": "HOUSE OF REPRESENTATIVES"
+                  },
+                  {
+                    "id": 1,
+                    "name": "SENATE"
+                  }
+                ],
+                "lobbyists": [
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 12626,
+                      "last_name": "MATHIESEN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "ms",
+                      "prefix_display": "MS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 13954,
+                      "last_name": "MILLER",
+                      "middle_name": "BURGESS",
+                      "nickname": null,
+                      "prefix": "mrs",
+                      "prefix_display": "MRS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "TIMOTHY",
+                      "id": 15870,
+                      "last_name": "LOVAIN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "STEVE",
+                      "id": 25906,
+                      "last_name": "MCBEE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "FRED",
+                      "id": 30553,
+                      "last_name": "GREENE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "DENNY",
+                      "id": 44659,
+                      "last_name": "MILLER",
+                      "middle_name": "M",
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  }
+                ]
+              },
+              {
+                "description": null,
+                "foreign_entity_issues": null,
+                "general_issue_code": "DEF",
+                "general_issue_code_display": "Defense",
+                "government_entities": [
+                  {
+                    "id": 2,
+                    "name": "HOUSE OF REPRESENTATIVES"
+                  },
+                  {
+                    "id": 1,
+                    "name": "SENATE"
+                  }
+                ],
+                "lobbyists": [
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 12626,
+                      "last_name": "MATHIESEN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "ms",
+                      "prefix_display": "MS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 13954,
+                      "last_name": "MILLER",
+                      "middle_name": "BURGESS",
+                      "nickname": null,
+                      "prefix": "mrs",
+                      "prefix_display": "MRS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "TIMOTHY",
+                      "id": 15870,
+                      "last_name": "LOVAIN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "STEVE",
+                      "id": 25906,
+                      "last_name": "MCBEE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "FRED",
+                      "id": 30553,
+                      "last_name": "GREENE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "DENNY",
+                      "id": 44659,
+                      "last_name": "MILLER",
+                      "middle_name": "M",
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  }
+                ]
+              },
+              {
+                "description": null,
+                "foreign_entity_issues": null,
+                "general_issue_code": "AER",
+                "general_issue_code_display": "Aerospace",
+                "government_entities": [
+                  {
+                    "id": 2,
+                    "name": "HOUSE OF REPRESENTATIVES"
+                  },
+                  {
+                    "id": 1,
+                    "name": "SENATE"
+                  }
+                ],
+                "lobbyists": [
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 12626,
+                      "last_name": "MATHIESEN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "ms",
+                      "prefix_display": "MS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "SANDRA",
+                      "id": 13954,
+                      "last_name": "MILLER",
+                      "middle_name": "BURGESS",
+                      "nickname": null,
+                      "prefix": "mrs",
+                      "prefix_display": "MRS.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "TIMOTHY",
+                      "id": 15870,
+                      "last_name": "LOVAIN",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "STEVE",
+                      "id": 25906,
+                      "last_name": "MCBEE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "FRED",
+                      "id": 30553,
+                      "last_name": "GREENE",
+                      "middle_name": null,
+                      "nickname": null,
+                      "prefix": null,
+                      "prefix_display": null,
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  },
+                  {
+                    "covered_position": "N/A",
+                    "lobbyist": {
+                      "first_name": "DENNY",
+                      "id": 44659,
+                      "last_name": "MILLER",
+                      "middle_name": "M",
+                      "nickname": null,
+                      "prefix": "mr",
+                      "prefix_display": "MR.",
+                      "suffix": null,
+                      "suffix_display": null
+                    },
+                    "new": null
+                  }
+                ]
+              }
+            ],
+            "posted_by_name": null,
+            "registrant": {
+              "address_1": "400 N Capitol St, Ste 363",
+              "address_2": null,
+              "address_3": null,
+              "address_4": null,
+              "city": "Washington",
+              "contact_name": "MELISSA BROWN",
+              "contact_telephone": "+1 202-783-0280",
+              "country": "US",
+              "country_display": "United States of America",
+              "description": "Lobbying, consulting and government relations",
+              "dt_updated": "2022-04-06T16:06:34.952708-04:00",
+              "house_registrant_id": 30761,
+              "id": 25328,
+              "name": "DENNY MILLER ASSOCIATES",
+              "ppb_country": "US",
+              "ppb_country_display": "United States of America",
+              "state": "DC",
+              "state_display": "District of Columbia",
+              "url": "https://lda.senate.gov/api/v1/registrants/25328/",
+              "zip": "20001"
+            },
+            "registrant_address_1": null,
+            "registrant_address_2": null,
+            "registrant_city": null,
+            "registrant_country": "United States of America",
+            "registrant_different_address": null,
+            "registrant_ppb_country": "United States of America",
+            "registrant_state": null,
+            "registrant_zip": null,
+            "termination_date": null,
+            "url": "https://lda.senate.gov/api/v1/filings/18c6abaa-8d41-4195-95e0-c9ae56c1fa5e/"
+          },
+          "registrant_name": "DENNY MILLER ASSOCIATES",
+          "url": "https://lda.senate.gov/api/v1/filings/18c6abaa-8d41-4195-95e0-c9ae56c1fa5e/"
+        }
+      ],
+      "retrieved_at": "2026-05-26T21:06:17Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "available"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "J000310",
+        "district": "32",
+        "match_method": "name_state_district",
+        "name": "Julie Johnson",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": true
+    },
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "sec_issuer_identity": {
+      "cik": "0000012927",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "BOEING CO",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "BA"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "available",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "award_search": {
+          "fields": [
+            "Award ID",
+            "Recipient Name",
+            "Recipient UEI",
+            "Award Amount",
+            "Start Date",
+            "End Date",
+            "Awarding Agency",
+            "Awarding Sub Agency",
+            "Funding Agency",
+            "Funding Sub Agency",
+            "Award Type",
+            "Description"
+          ],
+          "filters": {
+            "recipient_search_text": [
+              "BOEING COMPANY"
+            ],
+            "time_period": [
+              {
+                "end_date": "2026-01-15",
+                "start_date": "2024-01-26"
+              }
+            ]
+          },
+          "limit": 3,
+          "order": "desc",
+          "page": 1,
+          "sort": "Award Amount"
+        },
+        "recipient_autocomplete": {
+          "search_text": "Boeing Company"
+        }
+      },
+      "reason": "award_search_failed_status_422",
+      "recipient_candidates": [
+        {
+          "match_confidence": 1.0,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "BOEING COMPANY",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "BOEING COMPANY",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "THE BOEING COMPANY",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "THE BOEING COMPANY",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "BOEING COMPANY, THE",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "BOEING COMPANY, THE",
+          "uei": ""
+        }
+      ],
+      "retrieved_at": "2026-05-26T21:06:17Z",
+      "selected_recipient": {
+        "match_confidence": 1.0,
+        "recipient_hash": "",
+        "recipient_name": "BOEING COMPANY",
+        "uei": ""
+      },
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "available"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Sale": 62
+    },
+    "action_counts_json": "{\"Sale\": 62}",
+    "disclosure_lag_days": 43,
+    "district": "TX32",
+    "estimated_max_total": 930000,
+    "estimated_min_total": 62062,
+    "filing_date": "01/15/2026",
+    "filing_id": "20033789",
+    "filing_type": "P",
+    "ingested_at": "2026-05-26T21:06:17Z",
+    "member_name": "Hon. Julie Johnson",
+    "pdf_sha256": "",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "MMM",
+      "ABT",
+      "ABBV",
+      "APD",
+      "GOOG",
+      "AXP",
+      "ADI",
+      "AJG",
+      "BAC",
+      "BX",
+      "BA",
+      "BMY",
+      "COF",
+      "CARR",
+      "SCHW",
+      "CVX",
+      "CME",
+      "CMS",
+      "CMCSA",
+      "COP",
+      "DHR",
+      "DE",
+      "DOV",
+      "ETN",
+      "LLY",
+      "EOG",
+      "FIS",
+      "GD",
+      "GS",
+      "HD",
+      "IBM",
+      "JNJ",
+      "MCD",
+      "MDT",
+      "MRK",
+      "MSFT",
+      "MDLZ",
+      "MS",
+      "NEE",
+      "NSC",
+      "NXPI",
+      "PKG",
+      "PEP",
+      "PM",
+      "PG",
+      "PGR",
+      "PEG",
+      "RSG",
+      "RTX",
+      "STX",
+      "NOW",
+      "TXN",
+      "BK",
+      "CI",
+      "TJX",
+      "UNP",
+      "UNH",
+      "VZ",
+      "WMT",
+      "WFC",
+      "XEL"
+    ],
+    "tickers_json": "[\"MMM\", \"ABT\", \"ABBV\", \"APD\", \"GOOG\", \"AXP\", \"ADI\", \"AJG\", \"BAC\", \"BX\", \"BA\", \"BMY\", \"COF\", \"CARR\", \"SCHW\", \"CVX\", \"CME\", \"CMS\", \"CMCSA\", \"COP\", \"DHR\", \"DE\", \"DOV\", \"ETN\", \"LLY\", \"EOG\", \"FIS\", \"GD\", \"GS\", \"HD\", \"IBM\", \"JNJ\", \"MCD\", \"MDT\", \"MRK\", \"MSFT\", \"MDLZ\", \"MS\", \"NEE\", \"NSC\", \"NXPI\", \"PKG\", \"PEP\", \"PM\", \"PG\", \"PGR\", \"PEG\", \"RSG\", \"RTX\", \"STX\", \"NOW\", \"TXN\", \"BK\", \"CI\", \"TJX\", \"UNP\", \"UNH\", \"VZ\", \"WMT\", \"WFC\", \"XEL\"]",
+    "transaction_count": 62,
+    "transaction_date_max": "2025-12-18",
+    "transaction_date_min": "2025-12-03"
+  },
+  "insight_candidate": {
+    "action": "Sale",
+    "action_type": "sale",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "Lobbying context is present in the evidence packet.",
+      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present, lobbying context is present.",
+      "headline_candidate": "Hon. Julie Johnson's BA sale",
+      "lede": "Hon. Julie Johnson reported a sale of Boeing Company (BA) through JT on Dec 3, 2025, according to a periodic transaction report filed Jan 15, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "1 related company/news link were found around the trade and filing window.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Review the news/event links and verify which items are directly about the issuer and time window.",
+        "Review LDA records and identify the specific lobbying issues before publishing.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "Lobbying context is present in the evidence packet.",
+    "disclosure_lag_days": 43.0,
+    "district": "TX32",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": true
+    },
+    "filing_date": "01/15/2026",
+    "filing_id": "20033789",
+    "grounded_summary": "Hon. Julie Johnson reported a sale of Boeing Company (BA) through JT on Dec 3, 2025, according to a periodic transaction report filed Jan 15, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present, lobbying context is present. 1 related company/news link were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Julie Johnson's BA sale",
+    "issuer_name": "Boeing Company",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Julie Johnson",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Boeing Company\" OR BA)",
+      "result_count": 1,
+      "results": [
+        {
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "matched_terms": [
+            "BA",
+            "boeing",
+            "boeing company"
+          ],
+          "published_at": "20260226T024500Z",
+          "relevance_label": "medium",
+          "relevance_score": 67,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "The Boeing Company ( BA ): What Investors Should Know",
+          "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer name appears in headline",
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term"
+          ]
+        }
+      ],
+      "status": "available",
+      "window": {
+        "end_date": "2026-03-01",
+        "start_date": "2025-11-19"
+      }
+    },
+    "owner": "JT",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Review the news/event links and verify which items are directly about the issuer and time window.",
+      "Review LDA records and identify the specific lobbying issues before publishing.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 10,
+    "score_reasons": [
+      "Congress.gov bill context was found",
+      "Congress.gov hearing context was found",
+      "lobbying context was found",
+      "news/event context links are available",
+      "disclosure lag was at least 30 days",
+      "linked company/news context is available"
+    ],
+    "slug": "hon-julie-johnson-ba-sale-12-03-2025-d1212519d4b070ac",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      },
+      {
+        "label": "News/context: The Boeing Company ( BA ): What Investors Should Know",
+        "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "BA",
+    "trade_date": "12/03/2025",
+    "transaction_id": "d1212519d4b070ac"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "market_data_unavailable",
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "BA"
+  },
+  "news_context": {
+    "filtered_out_count": 19,
+    "issuer_name": "Boeing Company",
+    "min_relevance_score": 30,
+    "provider": "gdelt_doc_2_0",
+    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Boeing+Company%22+OR+BA%29&mode=artlist&format=json&startdatetime=20251119000000&enddatetime=20260301235959&maxrecords=20&sort=DateDesc",
+    "query": "(\"Boeing Company\" OR BA)",
+    "raw_result_count": 20,
+    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "result_count": 1,
+    "results": [
+      {
+        "domain": "insidermonkey.com",
+        "language": "English",
+        "matched_terms": [
+          "BA",
+          "boeing",
+          "boeing company"
+        ],
+        "published_at": "20260226T024500Z",
+        "relevance_label": "medium",
+        "relevance_score": 67,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "The Boeing Company ( BA ): What Investors Should Know",
+        "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer name appears in headline",
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [
+      {
+        "label": "The Boeing Company ( BA ): What Investors Should Know",
+        "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-what-investors-should-know-1702893/"
+      }
+    ],
+    "status": "available",
+    "ticker": "BA",
+    "window": {
+      "end_date": "2026-03-01",
+      "start_date": "2025-11-19"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 3,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 3,
+      "matched_terms": [
+        "ba"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [
+        {
+          "api_url": "https://api.congress.gov/v3/bill/118/sres/22?format=json",
+          "congress": 118,
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/22",
+          "latest_action_date": "2023-02-01",
+          "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S192-193; text: CR S210)",
+          "matched_terms": [
+            "ba"
+          ],
+          "number": "22",
+          "title": "A resolution congratulating the South Dakota State University Jackrabbits on winning the 2023 National Collegiate Athletic Association Division I Football Championship Subdivision title.",
+          "type": "SRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/118/sres/29?format=json",
+          "congress": 118,
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/29",
+          "latest_action_date": "2023-02-02",
+          "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S240; text: CR S238)",
+          "matched_terms": [
+            "ba"
+          ],
+          "number": "29",
+          "title": "A resolution designating the week beginning February 5, 2023, as \"National Tribal Colleges and Universities Week\".",
+          "type": "SRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/118/sres/16?format=json",
+          "congress": 118,
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/16",
+          "latest_action_date": "2023-01-26",
+          "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S127-128; text: CR S124)",
+          "matched_terms": [
+            "ba"
+          ],
+          "number": "16",
+          "title": "A resolution congratulating the University of Georgia Bulldogs football team for winning the 2023 National Collegiate Athletic Association College Football National Championship.",
+          "type": "SRES"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=ba+OR+boeing+OR+boeing+company",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 25,
+        "terms": [
+          "ba",
+          "boeing",
+          "boeing company"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-05-26T21:06:17Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-05-21T14:15:00Z",
+          "event_id": "119325",
+          "matched_terms": [
+            "ba"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Markup of H.R. 8736,\"Restoration of Employment Choice for Adults with Disabilities Act\"; H.R. 8705,\"Civics and History Advancement to Restore Learning, Integrity, and Education (CHARLIE) Act\"; H.R. 7362,\"Form 5500 Filing Simplification Act\"; H.R. 7895,\"PBM Kickback Prohibition Act\"; H.R. 8684, \"Transparency in Billing Act of 2026\"",
+          "type": "Markup"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-05-20T14:15:00Z",
+          "event_id": "119305",
+          "matched_terms": [
+            "ba"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "“Legislative Hearing on: H.R: 6733, The “VISN Reform Act of 2025”; H.R.6580, The “VA National Formulary Act of 2025”; H.R.6599, The “Leasing and Infrastructure Act of 2025”; H.R.6583, The “Research Reform Act of 2025”; H.R. 6549, The “VA Contracting and Procurement Act”; H.R.6740, The “VA TRUST Act”; H.R. 6764, The “Veterans Affairs Advisory Committee Oversight Act of 2025”; H.R. 6904, The “Veterans Readiness and Employment Improvement and Accountability Act of 2025”; H.R. 6843, The “Establishing the Veterans Economic Opportunity and Transition Administration Act of 2025”; H.R. 6833, The “Acquisition Reform and Cost Assessment Act of 2025”; H.R.2303, The “Board of Veterans’ Appeals Attorney Retention and Backlog Reduction Act”; H.R.210, The “Dental Care for Veterans Act”; H.R.3183, The “SAFE STEPS for Veterans Act of 2025”; H.R.5203, “To direct the Secretary of Veterans Affairs to update directives of the Department of Veterans Affairs regarding the management of acute sexual assault, and for other purposes; H.R.4114, The “EVEST Act”; H.R.3869, The “Every Veteran Housed Act”; H.R.2722, The “VA Funding and Workforce Protection Act”; H.R.1391, The “Student Veteran Benefit Restoration Act of 2025”; H.R.8044, The “Get Justice-Involved Veterans BACK HOME Act”; Discussion Draft: The “Toxic Exposure Advisory Committee Establishment Act”; Discussion Draft, “To amend title 38, United States Code, to establish the Advisory Committee on Toxic Exposure of the Department of Veterans Affairs”; Discussion Draft: The “Honor Vets Act”; Discussion Draft, “To provide for the modernization of the electronic health record system and other health information technology activities and systems of the Department of Veterans Affairs, and for other purposes.”",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-05-21T12:00:00Z",
+          "event_id": "119321",
+          "matched_terms": [
+            "ba"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Fiscal Year 2027 Transportation, and Housing and Urban Development, and Related Agencies Bill",
+          "type": "Markup"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=ba+OR+boeing+OR+boeing+company",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 25,
+        "terms": [
+          "ba",
+          "boeing",
+          "boeing company"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-05-26T21:06:17Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "ba"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "boeing"
+      },
+      {
+        "confidence": 0.55,
+        "source": "news_context",
+        "term": "boeing company"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-05-26T21:06:17Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "fort-worth-demo-20260811",
+    "environment": "testing",
+    "generated_at": "2026-08-11T15:50:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/trade/d1/21/d1212519d4b070ac.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-11T16:05:41Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/filing/20/03/20033789.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/trade/d1/21/d1212519d4b070ac.json"
+  },
+  "transaction": {
+    "action": "Sale",
+    "amount_range": "$1,001 - $15,000",
+    "disclosure_lag_days": 43,
+    "district": "TX32",
+    "estimated_max": 15000,
+    "estimated_min": 1001,
+    "filed_after_due_date": false,
+    "filing_date": "01/15/2026",
+    "filing_id": "20033789",
+    "filing_type": "P",
+    "ingested_at": "2026-05-26T21:06:17Z",
+    "issuer_name": "Boeing Company",
+    "member_name": "Hon. Julie Johnson",
+    "notification_date": "01/09/2026",
+    "owner": "JT",
+    "page": 2,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "S 12/03/202501/09/2026$1,001 - $15,000",
+    "state": "TX",
+    "stock_act_due_date": "2026-01-17",
+    "ticker": "BA",
+    "transaction_date": "12/03/2025",
+    "transaction_id": "d1212519d4b070ac"
+  }
+}

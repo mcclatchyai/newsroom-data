@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "display_name": "Hon. Julie Johnson",
+      "district": "TX32",
+      "issuers": 61,
+      "member_id": "julie_johnson-tx-tx32",
+      "member_name": "Hon. Julie Johnson",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/member/julie_johnson-tx-tx32.json",
+      "state": "TX",
+      "trades": 62
+    },
+    {
+      "display_name": "Hon. Roger Williams",
+      "district": "TX25",
+      "issuers": 4,
+      "member_id": "roger_williams-tx-tx25",
+      "member_name": "Hon. Roger Williams",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/member/roger_williams-tx-tx25.json",
+      "state": "TX",
+      "trades": 4
+    }
+  ],
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "fort-worth-demo-20260811",
+    "environment": "testing",
+    "generated_at": "2026-08-11T15:50:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/members.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-11T16:05:41Z"
+  }
+}

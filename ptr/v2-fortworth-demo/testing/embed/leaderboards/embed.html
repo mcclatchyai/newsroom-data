@@ -1,0 +1,129 @@
+<div class="mcc-ptr-leaderboards" data-ptr-render-mode="fetch" data-ptr-data-url="https://mcclatchyai.github.io/newsroom-data/ptr/v2-fortworth-demo/testing/leaderboards.json" data-ptr-data-version="fort-worth-demo-20260811" data-ptr-title="Congressional trading leaderboards">
+  <style>
+    .mcc-ptr-leaderboards { --bg:#0d1115; --panel:#132235; --panel2:#1b3350; --line:#2c435c; --ink:#eef5fb; --muted:#9cadbb; --blue:#13a8ff; --teal:#1fd0bf; --gold:#f2b84b; --red:#ff805f; font-family:"Avenir Next", "Gill Sans", Verdana, sans-serif; color:var(--ink); margin:24px 0; }
+    .mcc-ptr-leaderboards * { box-sizing:border-box; }
+    .mcc-ptr-leaderboards, .mcc-ptr-leaderboards main, .mcc-ptr-leaderboards section, .mcc-ptr-leaderboards article { max-width:100%; min-width:0; }
+    .mcc-ptr-leaderboards main { width:min(100%, 1180px); margin:0 auto; background:var(--bg); border:1px solid #202a35; border-radius:24px; overflow:hidden; }
+    .mcc-ptr-leaderboards h1, .mcc-ptr-leaderboards h2, .mcc-ptr-leaderboards h3, .mcc-ptr-leaderboards p, .mcc-ptr-leaderboards td, .mcc-ptr-leaderboards th, .mcc-ptr-leaderboards strong { overflow-wrap:anywhere; }
+    .mcc-ptr-leaderboards .hero { padding:24px; background:linear-gradient(135deg, #102f50, #122334 55%, #111820); border-bottom:1px solid var(--line); }
+    .mcc-ptr-leaderboards .eyebrow { margin:0 0 8px; color:#b8c7d5; text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:900; }
+    .mcc-ptr-leaderboards h1 { margin:0 0 10px; font:900 clamp(30px, 5vw, 52px)/1 Georgia, "Times New Roman", serif; }
+    .mcc-ptr-leaderboards h2 { margin:0 0 12px; font:900 25px/1.05 Georgia, "Times New Roman", serif; }
+    .mcc-ptr-leaderboards p { margin:0; color:var(--muted); line-height:1.45; }
+    .mcc-ptr-leaderboards a, .mcc-ptr-leaderboards button, .mcc-ptr-leaderboards summary { min-height:44px; }
+    .mcc-ptr-leaderboards .summary { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:12px; padding:18px 24px; background:#132235; }
+    .mcc-ptr-leaderboards .stat { padding:14px; border-radius:14px; background:#1c324e; border:1px solid #28425f; }
+    .mcc-ptr-leaderboards .stat strong { display:block; font-size:24px; }
+    .mcc-ptr-leaderboards .stat span { display:block; color:var(--muted); font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .mcc-ptr-leaderboards .section-grid { display:grid; grid-template-columns:1fr; gap:18px; padding:22px 24px; }
+    .mcc-ptr-leaderboards .panel { border:1px solid var(--line); border-radius:18px; background:linear-gradient(145deg, #143152, #122236); padding:18px; }
+    .mcc-ptr-leaderboards .leaderboard-table-wrap { overflow-x:auto; }
+    .mcc-ptr-leaderboards table { width:100%; border-collapse:collapse; min-width:860px; }
+    .mcc-ptr-leaderboards th, .mcc-ptr-leaderboards td { text-align:left; border-bottom:1px solid var(--line); padding:12px 10px; vertical-align:top; }
+    .mcc-ptr-leaderboards th { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; white-space:nowrap; }
+    .mcc-ptr-leaderboards td { font-size:14px; }
+    .mcc-ptr-leaderboards .name { color:var(--blue); font-weight:900; }
+    .mcc-ptr-leaderboards .sub { display:block; color:var(--muted); font-size:12px; margin-top:2px; }
+    .mcc-ptr-leaderboards .buy { color:var(--teal); font-weight:900; }
+    .mcc-ptr-leaderboards .sell { color:var(--gold); font-weight:900; }
+    .mcc-ptr-leaderboards .late { color:var(--red); font-weight:900; }
+    .mcc-ptr-leaderboards .leaderboard-mobile-cards { display:none; }
+    .mcc-ptr-leaderboards .leader-card { margin:0 0 12px; padding:14px; border:1px solid #294766; border-radius:14px; background:#102033; }
+    .mcc-ptr-leaderboards .leader-card h3 { margin:0 0 6px; font-size:18px; line-height:1.15; }
+    .mcc-ptr-leaderboards .card-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:8px; }
+    .mcc-ptr-leaderboards .card-field { padding:10px; border-radius:10px; background:#1c324e; border:1px solid #28425f; }
+    .mcc-ptr-leaderboards .card-field span { display:block; color:var(--muted); font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.08em; }
+    .mcc-ptr-leaderboards .card-field strong { display:block; margin-top:3px; color:var(--ink); }
+    .mcc-ptr-leaderboards .empty { padding:14px; border-radius:12px; background:#102033; color:var(--muted); }
+    .mcc-ptr-leaderboards .caveat { padding:16px 24px 22px; color:var(--muted); font-size:12px; background:#0d1115; }
+    @media (max-width:760px) { .mcc-ptr-leaderboards { margin:16px 0; } .mcc-ptr-leaderboards main { border-radius:16px; } .mcc-ptr-leaderboards .hero, .mcc-ptr-leaderboards .summary, .mcc-ptr-leaderboards .section-grid, .mcc-ptr-leaderboards .caveat { padding-left:14px; padding-right:14px; } .mcc-ptr-leaderboards .summary { grid-template-columns:repeat(2, minmax(0, 1fr)); } .mcc-ptr-leaderboards h1 { font-size:32px; } .mcc-ptr-leaderboards .leaderboard-table-wrap { display:none; } .mcc-ptr-leaderboards .leaderboard-mobile-cards { display:block; } .mcc-ptr-leaderboards .card-grid { grid-template-columns:1fr; } }
+    @media (max-width:430px) { .mcc-ptr-leaderboards .summary { grid-template-columns:1fr; } }
+    </style>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">PTR leaderboard | evergreen reporter asset</p>
+      <h1>Congressional trading leaderboards</h1>
+      <p>Loading PTR leaderboards from sanitized public JSON...</p>
+    </section>
+  </main>
+  <script>
+  (function() {
+    var script = document.currentScript;
+    var root = script && script.closest ? script.closest(".mcc-ptr-leaderboards") : null;
+    if (!root) return;
+    var main = root.querySelector("main");
+    var dataUrl = root.getAttribute("data-ptr-data-url") || "";
+    var dataVersion = root.getAttribute("data-ptr-data-version") || "";
+    var configuredTitle = root.getAttribute("data-ptr-title") || "Congressional trading leaderboards";
+    function text(value) { return value === null || value === undefined ? "" : String(value).trim(); }
+    function esc(value) { return text(value).replace(/[&<>"']/g, function(char) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]; }); }
+    function safeUrl(value) { var url = text(value); return /^https?:\/\//i.test(url) || url.indexOf("./") === 0 || url.indexOf("../") === 0 || url.charAt(0) === "/" ? url : ""; }
+    function withVersion(url) { if (!url || !dataVersion || /[?&]v=/.test(url)) return url; return url + (url.indexOf("?") >= 0 ? "&" : "?") + "v=" + encodeURIComponent(dataVersion); }
+    function number(value) { var raw = text(value).replace(/,/g, ""); if (!raw) return null; var n = Number(raw); return Number.isFinite(n) ? n : null; }
+    function money(value) { var n = number(value); if (n === null) return "-"; var abs = Math.abs(n); if (abs >= 1000000000) return "$" + (n / 1000000000).toFixed(2) + "B"; if (abs >= 1000000) return "$" + (n / 1000000).toFixed(2) + "M"; if (abs >= 1000) return "$" + (n / 1000).toFixed(1) + "K"; return "$" + n.toLocaleString("en-US", {maximumFractionDigits:0}); }
+    function volume(row) { return money(row.estimated_min_volume) + "-" + money(row.estimated_max_volume); }
+    function dateLabel(value) { var raw = text(value); if (!raw) return "-"; var d = new Date(raw + "T00:00:00"); if (isNaN(d.getTime())) return raw; return d.toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"}); }
+    function openPdf(row) { return safeUrl(row.pdf_url) ? '<a href="' + esc(row.pdf_url) + '" target="_blank" rel="noopener">Open PDF</a>' : '<span class="sub">No PDF link</span>'; }
+    function section(id, title, headers, rowHtml, cardHtml) {
+      if (!rowHtml) { rowHtml = '<div class="empty">No rows found for this leaderboard in the current export and roster scope.</div>'; cardHtml = rowHtml; }
+      else { rowHtml = '<div class="leaderboard-table-wrap"><table><thead><tr>' + headers.map(function(h) { return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' + rowHtml + '</tbody></table></div>'; cardHtml = '<div class="leaderboard-mobile-cards">' + cardHtml + '</div>'; }
+      return '<section class="panel" data-leaderboard-section="' + esc(id) + '"><h2>' + esc(title) + '</h2>' + rowHtml + cardHtml + '</section>';
+    }
+    function card(title, fields) { return '<article class="leader-card"><h3>' + title + '</h3><div class="card-grid">' + fields.map(function(field) { return '<div class="card-field"><span>' + esc(field[0]) + '</span><strong>' + field[1] + '</strong></div>'; }).join('') + '</div></article>'; }
+    function active(rows) {
+      var trs = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span>';
+        var mix = '<span class="buy">' + esc(row.buy_count || 0) + ' buy</span><span class="sub"><span class="sell">' + esc(row.sell_count || 0) + ' sell</span> | ' + esc(row.other_count || 0) + ' other</span>';
+        return '<tr><td>' + politician + '</td><td><strong>' + esc(row.trades || 0) + '</strong></td><td>' + esc(row.filings || 0) + '</td><td>' + esc(row.issuers || 0) + '</td><td>' + esc(volume(row)) + '</td><td>' + esc(dateLabel(row.latest_traded_date)) + '</td><td>' + mix + '</td></tr>';
+      }).join('');
+      var cards = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span>';
+        return card(politician, [["Trades", esc(row.trades || 0)], ["Filings", esc(row.filings || 0)], ["Issuers", esc(row.issuers || 0)], ["Volume range", esc(volume(row))], ["Latest trade", esc(dateLabel(row.latest_traded_date))], ["Buy / sell", esc(row.buy_count || 0) + " / " + esc(row.sell_count || 0)]]);
+      }).join('');
+      return section("active_traders", "Active traders", ["Politician", "Trades", "Filings", "Issuers", "Volume range", "Latest trade", "Buy / sell"], trs, cards);
+    }
+    function issuers(rows) {
+      var trs = rows.map(function(row) {
+        var issuer = '<span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span>';
+        var mix = '<span class="buy">' + esc(row.buy_count || 0) + ' buy</span><span class="sub"><span class="sell">' + esc(row.sell_count || 0) + ' sell</span> | ' + esc(row.other_count || 0) + ' other</span>';
+        return '<tr><td>' + issuer + '</td><td><strong>' + esc(row.trades || 0) + '</strong></td><td>' + esc(row.members || 0) + '</td><td>' + esc(volume(row)) + '</td><td>' + mix + '</td><td>' + esc(dateLabel(row.latest_filing_date)) + '</td></tr>';
+      }).join('');
+      var cards = rows.map(function(row) {
+        var issuer = '<span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span>';
+        return card(issuer, [["Trades", esc(row.trades || 0)], ["Politicians", esc(row.members || 0)], ["Volume range", esc(volume(row))], ["Buy / sell", esc(row.buy_count || 0) + " / " + esc(row.sell_count || 0)], ["Latest filing", esc(dateLabel(row.latest_filing_date))]]);
+      }).join('');
+      return section("top_issuers", "Top traded issuers", ["Issuer", "Trades", "Politicians", "Volume range", "Buy / sell", "Latest filing"], trs, cards);
+    }
+    function lag(rows, id, title) {
+      var trs = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.state) + ' | ' + esc(row.district) + '</span>';
+        var issuer = '<span class="name">' + esc(row.issuer) + '</span><span class="sub">' + esc(row.ticker) + '</span>';
+        var late = row.possible_late ? '<span class="late">Possible late</span>' : '<span class="sub">No late flag</span>';
+        return '<tr><td>' + politician + '</td><td>' + issuer + '</td><td><strong>' + esc(row.filed_after_days !== null && row.filed_after_days !== undefined ? Math.round(Number(row.filed_after_days)) : "-") + '</strong><span class="sub">days</span></td><td>' + esc(dateLabel(row.traded_date)) + '</td><td>' + esc(dateLabel(row.published_date)) + '</td><td>' + esc(row.size) + '</td><td>' + late + '</td><td>' + openPdf(row) + '</td></tr>';
+      }).join('');
+      var cards = rows.map(function(row) {
+        var politician = '<span class="name">' + esc(row.politician) + '</span><span class="sub">' + esc(row.ticker || row.issuer) + '</span>';
+        var late = row.possible_late ? '<span class="late">Possible late</span>' : '<span class="sub">No late flag</span>';
+        return card(politician, [["Filed after", esc(row.filed_after_days !== null && row.filed_after_days !== undefined ? Math.round(Number(row.filed_after_days)) + " days" : "-")], ["Trade date", esc(dateLabel(row.traded_date))], ["Filing date", esc(dateLabel(row.published_date))], ["Size", esc(row.size)], ["Status", late], ["Source", openPdf(row)]]);
+      }).join('');
+      return section(id, title, ["Politician", "Issuer", "Filed after", "Traded", "Filed", "Size", "Flag", "Source"], trs, cards);
+    }
+    function normalize(payload) {
+      if (payload && payload.leaderboards && payload.leaderboards.asset_type === "ptr_leaderboards") return payload.leaderboards;
+      return payload || {};
+    }
+    function render(payload) {
+      var data = normalize(payload);
+      var summary = data.summary || {};
+      var scope = data.scope || {};
+      var boards = data.leaderboards || {};
+      var caveats = Array.isArray(data.caveats) ? data.caveats.join(" ") : "PTR values are ranges. Possible late flags require reporter verification.";
+      main.innerHTML = '<section class="hero"><p class="eyebrow">PTR leaderboard | evergreen reporter asset</p><h1>' + esc(configuredTitle) + '</h1><p>Rankings are built from processed congressional Periodic Transaction Report data' + (scope.newsroom ? ' scoped to ' + esc(scope.newsroom) : '') + '. Use these as story leads and verification targets, not as proof of motive or wrongdoing.</p></section>'
+        + '<section class="summary"><div class="stat"><strong>' + esc(summary.transactions || 0) + '</strong><span>Transactions</span></div><div class="stat"><strong>' + esc(summary.politicians || 0) + '</strong><span>Politicians</span></div><div class="stat"><strong>' + esc(summary.issuers || 0) + '</strong><span>Issuers</span></div><div class="stat"><strong>' + esc(money(summary.estimated_min_volume) + '-' + money(summary.estimated_max_volume)) + '</strong><span>Volume range</span></div></section>'
+        + '<section class="section-grid">' + active(Array.isArray(boards.active_traders) ? boards.active_traders : []) + issuers(Array.isArray(boards.top_issuers) ? boards.top_issuers : []) + lag(Array.isArray(boards.filing_lag_leaders) ? boards.filing_lag_leaders : [], "filing_lag_leaders", "Filing lag leaders") + lag(Array.isArray(boards.possible_late_filings) ? boards.possible_late_filings : [], "possible_late_filings", "Possible late filings") + '</section><p class="caveat">' + esc(caveats) + '</p>';
+    }
+    if (!safeUrl(dataUrl)) { main.innerHTML = '<section class="hero"><h1>Public leaderboard data URL missing</h1><p>Regenerate with PTR_PUBLIC_BASE_URL or a public bundle directory.</p></section>'; return; }
+    fetch(withVersion(dataUrl), {cache:"default"}).then(function(response) { if (!response.ok) throw new Error("HTTP " + response.status + " for " + dataUrl); return response.json(); }).then(render).catch(function(error) { main.innerHTML = '<section class="hero"><h1>Leaderboard data could not be loaded</h1><p>' + esc(error && error.message ? error.message : error) + '</p></section>'; });
+  }());
+  </script>
+</div>
