@@ -19,12 +19,12 @@
     }
   ],
   "cache_ttl_seconds": 900,
-  "data_version": "20260812004142Z",
+  "data_version": "20260812030940Z",
   "entrypoints": {
     "artifacts_index": "https://mcclatchyai.github.io/newsroom-data/maps/compasskc-map-artifacts/v1/prod/manifest.json"
   },
   "environment": "prod",
-  "generated_at": "2026-08-12T00:41:42Z",
+  "generated_at": "2026-08-12T03:09:40Z",
   "privacy": {
     "public_fields_only": true,
     "scope": "single-permit map GeoJSON and embed HTML; no owner, taxpayer, raw scrape, or internal payload fields"
@@ -32,5 +32,5 @@
   "project": "compasskc-map-artifacts",
   "schema_version": 1,
   "source": "CompassKC single-permit map artifacts exported from sanitized Cloud Run map endpoints",
-  "stale_after": "2026-08-12T00:56:42Z"
+  "stale_after": "2026-08-12T03:24:40Z"
 }
