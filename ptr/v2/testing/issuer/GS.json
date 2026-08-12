@@ -1,0 +1,53 @@
+{
+  "issuer": {
+    "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+    "member_count": 1,
+    "ticker": "GS",
+    "trade_count": 1,
+    "trades": [
+      {
+        "action": "Purchase",
+        "amount_range": "$250,001 - $500,000",
+        "disclosure_lag_days": 19,
+        "district": "WA01",
+        "estimated_max": 500000,
+        "estimated_min": 250001,
+        "filing_date": "08/11/2026",
+        "filing_id": "20035175",
+        "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+        "market_status": "unavailable",
+        "member_name": "Hon. Suzan K. DelBene",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ab/b5/abb5ce0f6e8b7fe9.json",
+        "publication_ready": false,
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "WA",
+        "ticker": "GS",
+        "transaction_date": "07/23/2026",
+        "transaction_id": "abb5ce0f6e8b7fe9"
+      }
+    ]
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260812T163640Z",
+    "environment": "testing",
+    "generated_at": "2026-08-12T16:37:56Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GS.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-12T16:52:56Z"
+  }
+}

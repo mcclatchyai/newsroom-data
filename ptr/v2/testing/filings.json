@@ -2,43 +2,43 @@
   "filings": [
     {
       "action_counts": {
-        "Sale": 1
+        "Purchase": 1
       },
-      "action_counts_json": "{\"Sale\": 1}",
-      "disclosure_lag_days": 0,
-      "district": "TX17",
-      "estimated_max_total": 15000,
-      "estimated_min_total": 1001,
-      "filing_date": "07/24/2026",
-      "filing_id": "20035068",
+      "action_counts_json": "{\"Purchase\": 1}",
+      "disclosure_lag_days": 19,
+      "district": "WA01",
+      "estimated_max_total": 500000,
+      "estimated_min_total": 250001,
+      "filing_date": "08/11/2026",
+      "filing_id": "20035175",
       "filing_type": "P",
-      "ingested_at": "2026-07-27T19:20:43Z",
-      "member_name": "Hon. Pete Sessions",
-      "pdf_sha256": "574377910dff2c2718df0f5ae65308b0f8977066d9814afc1bd52a45f74d23ab",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf",
+      "ingested_at": "2026-08-12T16:35:34Z",
+      "member_name": "Hon. Suzan K. DelBene",
+      "pdf_sha256": "bf9043d9724ba4b0304bc848493a729e802b7ad52c6184ac301468c67f519f57",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
       "possible_late": false,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
-      "state": "TX",
+      "state": "WA",
       "tickers": [
-        "ARCC"
+        "GS"
       ],
-      "tickers_json": "[\"ARCC\"]",
+      "tickers_json": "[\"GS\"]",
       "transaction_count": 1,
-      "transaction_date_max": "2026-07-24",
-      "transaction_date_min": "2026-07-24"
+      "transaction_date_max": "2026-07-23",
+      "transaction_date_min": "2026-07-23"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260727T192147Z",
+    "data_version": "20260812T163640Z",
     "environment": "testing",
-    "generated_at": "2026-07-27T19:23:01Z",
+    "generated_at": "2026-08-12T16:37:56Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-27T19:38:01Z"
+    "stale_after": "2026-08-12T16:52:56Z"
   }
 }

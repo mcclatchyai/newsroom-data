@@ -6,60 +6,60 @@
     "Possible late filing flags are reporter checks based on extracted dates; verify against the source PDF and ethics guidance before publication.",
     "Market movement and context flags do not establish motive, profit, wrongdoing, or use of nonpublic information."
   ],
-  "generated_at": "2026-07-27T19:23:01Z",
+  "generated_at": "2026-08-12T16:37:56Z",
   "leaderboards": {
     "active_traders": [
       {
-        "buy_count": 0,
-        "district": "TX17",
-        "estimated_max_volume": 15000.0,
-        "estimated_min_volume": 1001.0,
+        "buy_count": 1,
+        "district": "WA01",
+        "estimated_max_volume": 500000.0,
+        "estimated_min_volume": 250001.0,
         "filings": 1,
         "issuers": 1,
-        "latest_filing_date": "07/24/2026",
-        "latest_traded_date": "07/24/2026",
+        "latest_filing_date": "08/11/2026",
+        "latest_traded_date": "07/23/2026",
         "other_count": 0,
-        "politician": "Hon. Pete Sessions",
+        "politician": "Hon. Suzan K. DelBene",
         "possible_late_count": 0,
-        "sell_count": 1,
-        "state": "TX",
+        "sell_count": 0,
+        "state": "WA",
         "trades": 1
       }
     ],
     "filing_lag_leaders": [
       {
-        "district": "TX17",
-        "filed_after_days": 0.0,
+        "district": "WA01",
+        "filed_after_days": 19.0,
         "filed_after_due_date": false,
-        "filing_id": "20035068",
-        "issuer": "Ares Capital Corporation - Closed End Fund",
-        "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf",
-        "politician": "Hon. Pete Sessions",
+        "filing_id": "20035175",
+        "issuer": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+        "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
+        "politician": "Hon. Suzan K. DelBene",
         "possible_late": false,
-        "published_date": "07/24/2026",
-        "size": "$1,001 - $15,000",
-        "state": "TX",
-        "stock_act_due_date": "2026-08-23",
-        "ticker": "ARCC",
-        "traded_date": "07/24/2026",
-        "transaction_id": "f0b931b08a9a715c",
-        "type": "sell"
+        "published_date": "08/11/2026",
+        "size": "$250,001 - $500,000",
+        "state": "WA",
+        "stock_act_due_date": "2026-08-22",
+        "ticker": "GS",
+        "traded_date": "07/23/2026",
+        "transaction_id": "abb5ce0f6e8b7fe9",
+        "type": "buy"
       }
     ],
     "possible_late_filings": [],
     "top_issuers": [
       {
-        "buy_count": 0,
-        "estimated_max_volume": 15000.0,
-        "estimated_min_volume": 1001.0,
+        "buy_count": 1,
+        "estimated_max_volume": 500000.0,
+        "estimated_min_volume": 250001.0,
         "filings": 1,
-        "issuer": "Ares Capital Corporation - Closed End Fund",
-        "latest_filing_date": "07/24/2026",
-        "latest_traded_date": "07/24/2026",
+        "issuer": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+        "latest_filing_date": "08/11/2026",
+        "latest_traded_date": "07/23/2026",
         "members": 1,
         "other_count": 0,
-        "sell_count": 1,
-        "ticker": "ARCC",
+        "sell_count": 0,
+        "ticker": "GS",
         "trades": 1
       }
     ]
@@ -67,14 +67,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260727T192147Z",
+    "data_version": "20260812T163640Z",
     "environment": "testing",
-    "generated_at": "2026-07-27T19:23:01Z",
+    "generated_at": "2026-08-12T16:37:56Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-27T19:38:01Z"
+    "stale_after": "2026-08-12T16:52:56Z"
   },
   "schema_version": 1,
   "scope": {
@@ -84,16 +84,16 @@
   },
   "skipped": [],
   "summary": {
-    "buy_count": 0,
-    "estimated_max_volume": 15000.0,
-    "estimated_min_volume": 1001.0,
+    "buy_count": 1,
+    "estimated_max_volume": 500000.0,
+    "estimated_min_volume": 250001.0,
     "filings": 1,
     "issuers": 1,
-    "max_disclosure_lag_days": 0,
+    "max_disclosure_lag_days": 19,
     "other_count": 0,
     "politicians": 1,
     "possible_late_count": 0,
-    "sell_count": 1,
+    "sell_count": 0,
     "transactions": 1
   }
 }

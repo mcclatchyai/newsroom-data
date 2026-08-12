@@ -1,26 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Pete Sessions",
-      "district": "TX17",
+      "display_name": "Hon. Suzan K. DelBene",
+      "district": "WA01",
       "issuers": 1,
-      "member_id": "pete_sessions-tx-tx17",
-      "member_name": "Hon. Pete Sessions",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/pete_sessions-tx-tx17.json",
-      "state": "TX",
+      "member_id": "suzan_k_delbene-wa-wa01",
+      "member_name": "Hon. Suzan K. DelBene",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
+      "state": "WA",
       "trades": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260727T192147Z",
+    "data_version": "20260812T163640Z",
     "environment": "testing",
-    "generated_at": "2026-07-27T19:23:01Z",
+    "generated_at": "2026-08-12T16:37:56Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-07-27T19:38:01Z"
+    "stale_after": "2026-08-12T16:52:56Z"
   }
 }
