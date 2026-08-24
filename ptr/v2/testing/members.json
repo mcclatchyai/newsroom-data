@@ -3,24 +3,24 @@
     {
       "display_name": "Hon. Suzan K. DelBene",
       "district": "WA01",
-      "issuers": 1,
+      "issuers": 3,
       "member_id": "suzan_k_delbene-wa-wa01",
       "member_name": "Hon. Suzan K. DelBene",
       "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
       "state": "WA",
-      "trades": 1
+      "trades": 3
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260812T163640Z",
+    "data_version": "20260824T223750Z",
     "environment": "testing",
-    "generated_at": "2026-08-12T16:37:56Z",
+    "generated_at": "2026-08-24T22:39:10Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-08-12T16:52:56Z"
+    "stale_after": "2026-08-24T22:54:10Z"
   }
 }

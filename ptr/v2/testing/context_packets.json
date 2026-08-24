@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20035175",
-      "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+      "filing_id": "20035274",
+      "issuer_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -28,19 +28,79 @@
       ],
       "status": "source_only",
       "ticker": "GS",
-      "transaction_id": "abb5ce0f6e8b7fe9"
+      "transaction_id": "1cb714aae28162a4"
+    },
+    {
+      "filing_id": "20035274",
+      "issuer_name": "Southeast Energy Auth Coop Dist Ala 5.00% Due Sep 1, 2035",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "b93e2ca5010dc7d4"
+    },
+    {
+      "filing_id": "20035274",
+      "issuer_name": "Washington ST 5% Go Utx Due 08/01/30",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "41090fc2c11d0de5"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260812T163640Z",
+    "data_version": "20260824T223750Z",
     "environment": "testing",
-    "generated_at": "2026-08-12T16:37:56Z",
+    "generated_at": "2026-08-24T22:39:10Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-08-12T16:52:56Z"
+    "stale_after": "2026-08-24T22:54:10Z"
   }
 }

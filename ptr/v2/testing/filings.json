@@ -2,20 +2,21 @@
   "filings": [
     {
       "action_counts": {
-        "Purchase": 1
+        "Purchase": 2,
+        "Sale": 1
       },
-      "action_counts_json": "{\"Purchase\": 1}",
-      "disclosure_lag_days": 19,
+      "action_counts_json": "{\"Purchase\": 2, \"Sale\": 1}",
+      "disclosure_lag_days": 15,
       "district": "WA01",
-      "estimated_max_total": 500000,
-      "estimated_min_total": 250001,
-      "filing_date": "08/11/2026",
-      "filing_id": "20035175",
+      "estimated_max_total": 1500000,
+      "estimated_min_total": 750003,
+      "filing_date": "08/21/2026",
+      "filing_id": "20035274",
       "filing_type": "P",
-      "ingested_at": "2026-08-12T16:35:34Z",
+      "ingested_at": "2026-08-24T22:35:50Z",
       "member_name": "Hon. Suzan K. DelBene",
-      "pdf_sha256": "bf9043d9724ba4b0304bc848493a729e802b7ad52c6184ac301468c67f519f57",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
+      "pdf_sha256": "8010f25e6cc7ee60b87d0713807ea76b5ce9b4b11f3e9328d04b8fd316421fdb",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf",
       "possible_late": false,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
@@ -24,21 +25,21 @@
         "GS"
       ],
       "tickers_json": "[\"GS\"]",
-      "transaction_count": 1,
-      "transaction_date_max": "2026-07-23",
-      "transaction_date_min": "2026-07-23"
+      "transaction_count": 3,
+      "transaction_date_max": "2026-08-07",
+      "transaction_date_min": "2026-08-06"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260812T163640Z",
+    "data_version": "20260824T223750Z",
     "environment": "testing",
-    "generated_at": "2026-08-12T16:37:56Z",
+    "generated_at": "2026-08-24T22:39:10Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-08-12T16:52:56Z"
+    "stale_after": "2026-08-24T22:54:10Z"
   }
 }

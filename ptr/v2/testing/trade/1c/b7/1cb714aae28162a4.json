@@ -1,8 +1,8 @@
 {
   "context_packet": {
-    "filing_id": "20035175",
-    "ingested_at": "2026-08-12T16:35:34Z",
-    "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+    "filing_id": "20035274",
+    "ingested_at": "2026-08-24T22:35:50Z",
+    "issuer_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
     "packet": {
       "caveats": [
         "PTRs are self-reported disclosures.",
@@ -15,13 +15,13 @@
           "Company-to-government entity matching is conservative and should be verified before publication."
         ],
         "lda_context": {
-          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Fort+Bend+Tex+Indpt+SCH+Dist+Variable+Rate+Unltd+Tax+BLDG+Ref+BDS+Ser.+2024B",
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=California+CMNTY+Choice+Fing+Auth+5.00+%25+Due+Oct+1%2C+2056",
           "query_payload": {
-            "client_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+            "client_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
             "page_size": 5
           },
           "records": [],
-          "retrieved_at": "2026-08-12T16:35:34Z",
+          "retrieved_at": "2026-08-24T22:35:50Z",
           "source_url": "https://lda.senate.gov/api/",
           "status": "available"
         },
@@ -44,7 +44,7 @@
           "federal_awards_found": false,
           "lobbying_records_found": false
         },
-        "retrieved_at": "2026-08-12T16:35:34Z",
+        "retrieved_at": "2026-08-24T22:35:50Z",
         "sec_issuer_identity": {
           "cik": "0000886982",
           "confidence": 1.0,
@@ -81,11 +81,11 @@
         "usaspending_context": {
           "awards": [],
           "query_payload": {
-            "search_text": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B"
+            "search_text": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056"
           },
           "reason": "no_recipient_candidates",
           "recipient_candidates": [],
-          "retrieved_at": "2026-08-12T16:35:34Z",
+          "retrieved_at": "2026-08-24T22:35:50Z",
           "selected_recipient": null,
           "source_url": "https://api.usaspending.gov/docs/",
           "status": "unavailable"
@@ -99,9 +99,9 @@
         "status": "pending",
         "usaspending_awards": []
       },
-      "filing_id": "20035175",
+      "filing_id": "20035274",
       "issuer": {
-        "name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+        "name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
         "sec_cik": "",
         "source": "disclosure_pdf",
         "ticker": "GS"
@@ -127,22 +127,22 @@
         "state": "WA"
       },
       "news_context": {
-        "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+        "issuer_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
         "provider": "gdelt_doc_2_0",
-        "query": "(\"Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B\" OR GS)",
-        "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Fort+Bend+Tex+Indpt+SCH+Dist+Variable+Rate+Unltd+Tax+BLDG+Ref+BDS+Ser.+2024B%22+OR+GS%29&mode=artlist&format=json&startdatetime=20260709000000&enddatetime=20260925235959&maxrecords=25&sort=DateDesc",
+        "query": "(\"California CMNTY Choice Fing Auth 5.00 % Due Oct 1 2056\" OR GS)",
+        "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22California+CMNTY+Choice+Fing+Auth+5.00+%25+Due+Oct+1+2056%22+OR+GS%29&mode=artlist&format=json&startdatetime=20260723000000&enddatetime=20261005235959&maxrecords=25&sort=DateDesc",
         "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
         "result_count": 0,
         "results": [],
-        "retrieved_at": "2026-08-12T16:35:34Z",
+        "retrieved_at": "2026-08-24T22:35:50Z",
         "schema_version": 1,
         "source": "gdelt_doc_2_0",
         "source_links": [],
         "status": "unavailable",
         "ticker": "GS",
         "window": {
-          "end_date": "2026-09-25",
-          "start_date": "2026-07-09"
+          "end_date": "2026-10-05",
+          "start_date": "2026-07-23"
         }
       },
       "packet_version": 1,
@@ -154,13 +154,13 @@
         "committee_issuer_overlap_status": {
           "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
           "confidence": 0.45,
-          "matched_bill_count": 5,
+          "matched_bill_count": 3,
           "matched_committee_count": 0,
           "matched_hearing_count": 5,
           "matched_terms": [
-            "fort",
-            "gs",
-            "tex"
+            "california",
+            "fing",
+            "gs"
           ],
           "status": "policy_activity_found",
           "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
@@ -176,72 +176,46 @@
         "congressgov_bills": {
           "items": [
             {
-              "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
-              "congress": 119,
-              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
-              "latest_action_date": "2025-12-11",
-              "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+              "api_url": "https://api.congress.gov/v3/bill/118/s/3557?format=json",
+              "congress": 118,
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3557",
+              "latest_action_date": "2023-12-19",
+              "latest_action_text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
               "matched_terms": [
-                "tex"
+                "gs"
               ],
-              "number": "542",
-              "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
-              "type": "SRES"
-            },
-            {
-              "api_url": "https://api.congress.gov/v3/bill/119/hres/343?format=json",
-              "congress": 119,
-              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/343",
-              "latest_action_date": "2025-04-21",
-              "latest_action_text": "Referred to the House Committee on Oversight and Government Reform.",
-              "matched_terms": [
-                "tex"
-              ],
-              "number": "343",
-              "title": "Supporting the goals and ideals of San Jacinto Day in recognition of April 21, 1836, the date on which General Sam Houston and the Texan Army defeated the Mexican Army winning Texas independence from Mexico.",
-              "type": "HRES"
-            },
-            {
-              "api_url": "https://api.congress.gov/v3/bill/119/s/4008?format=json",
-              "congress": 119,
-              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4008",
-              "latest_action_date": "2026-03-05",
-              "latest_action_text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S887)",
-              "matched_terms": [
-                "tex"
-              ],
-              "number": "4008",
-              "title": "Promoting Dental Health Act",
+              "number": "3557",
+              "title": "A bill to require the Secretary of Health and Human Services to prepare a report that outlines a plan for completing a review of approved opioid analgesic drugs that considers the public health effects of such opioid drugs.",
               "type": "S"
             },
             {
-              "api_url": "https://api.congress.gov/v3/bill/118/sres/512?format=json",
+              "api_url": "https://api.congress.gov/v3/bill/118/hres/944?format=json",
               "congress": 118,
-              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/512",
-              "latest_action_date": "2023-12-18",
-              "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6029; text: CR S6023-6024)",
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/house-resolution/944",
+              "latest_action_date": "2023-12-22",
+              "latest_action_text": "Referred to the House Committee on Armed Services.",
               "matched_terms": [
-                "tex"
+                "fing"
               ],
-              "number": "512",
-              "title": "A resolution designating November 2023 as \"National Lung Cancer Awareness Month\" and expressing support for early detection and treatment of lung cancer.",
-              "type": "SRES"
+              "number": "944",
+              "title": "Directing the Secretary of Defense to provide a briefing to the Committee on Armed Services of the House of Representatives on plans to implement certain STEM education and outreach efforts.",
+              "type": "HRES"
             },
             {
-              "api_url": "https://api.congress.gov/v3/bill/118/sres/513?format=json",
+              "api_url": "https://api.congress.gov/v3/bill/118/s/3430?format=json",
               "congress": 118,
-              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/513",
-              "latest_action_date": "2023-12-18",
-              "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6029; text: CR S6024)",
+              "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3430",
+              "latest_action_date": "2023-12-07",
+              "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 265.",
               "matched_terms": [
-                "tex"
+                "gs"
               ],
-              "number": "513",
-              "title": "A resolution recognizing December 17 as \"Wright Brothers Day\" and commemorating the 120th anniversary of the first powered flight.",
-              "type": "SRES"
+              "number": "3430",
+              "title": "Better Mental Health Care, Lower-Cost Drugs, and Extenders Act of 2023",
+              "type": "S"
             }
           ],
-          "public_search_url": "https://www.congress.gov/search?q=gs+OR+fort+OR+bend+OR+tex+OR+indpt+OR+goldman+OR+sachs+OR+group",
+          "public_search_url": "https://www.congress.gov/search?q=gs+OR+california+OR+cmnty+OR+choice+OR+fing+OR+goldman+OR+sachs+OR+group",
           "query_payload": {
             "congresses": [
               119,
@@ -250,36 +224,22 @@
             "limit": 50,
             "terms": [
               "gs",
-              "fort",
-              "bend",
-              "tex",
-              "indpt",
+              "california",
+              "cmnty",
+              "choice",
+              "fing",
               "goldman",
               "sachs",
               "group"
             ]
           },
           "reason": "matched_terms",
-          "retrieved_at": "2026-08-12T16:35:34Z",
+          "retrieved_at": "2026-08-24T22:35:50Z",
           "source_url": "https://api.congress.gov/",
           "status": "available"
         },
         "congressgov_hearings": {
           "items": [
-            {
-              "api_url": "",
-              "chamber": "House",
-              "committee_names": [],
-              "congress": 119,
-              "date": "2026-07-21T14:00:00Z",
-              "event_id": "119481",
-              "matched_terms": [
-                "fort"
-              ],
-              "meeting_status": "Scheduled",
-              "title": "“Rewriting American History: Examining the Smithsonian’s Efforts to Reshape the Past”",
-              "type": "Hearing"
-            },
             {
               "api_url": "",
               "chamber": "Senate",
@@ -289,7 +249,7 @@
               "event_id": "338726",
               "matched_terms": [
                 "gs",
-                "tex"
+                "california"
               ],
               "meeting_status": "Scheduled",
               "title": "Business meeting to consider an original resolution regarding Contempt of Congress, S.2732, to strengthen employee cost savings suggestions programs within the Federal Government, S.2733, to require the Comptroller General of the United States to analyze certain legislation in order to prevent duplication of and overlap with existing Federal programs, offices, and initiatives, S.252, to increase access to agency guidance documents, S.164, to amend chapter 8 of title 5, United States Code, to provide for en bloc consideration in resolutions of disapproval for \"midnight rules\", H.R.5235, to amend title 41, United States Code, to prohibit minimum educational requirements for proposed contractor personnel in certain contract solicitations, S.3175, to establish a pilot program for ZIP Code boundary changes, S.4505, to require the United States Postal Service to designate ZIP Codes for certain communities, S.1735, to require certain agencies to include a page on the website of the agency relating to permit applications, S.5163, to amend title 39, United States Code, to prevent the awarding of bonuses to the Postmaster General and Deputy Postmaster General for a fiscal year in which the United States Postal Service does not meet or exceed each on-time mail delivery target, S.2542, to direct the Director of the Federal Protective Service to establish guidance relating to emergency protocols for buildings, S.3211, to require the Office of Management and Budget to consider revising the Standard Occupational Classification system to establish a separate code for direct support professionals, S.4079, to establish in U.S. Customs and Border Protection a pilot program to adopt dogs from local animal shelters to be trained as support dogs, S.3296, to amend chapter 81 of title 5, United States Code, to cover, for purposes of workers' compensation under such chapter, services by physician assistants and nurse practitioners provided to injured Federal workers, S.388, to amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act with respect to the implementation of building codes, S.3226, to provide for the creation of the missing Armed Forces and civilian personnel Records Collection at the National Archives, to require the expeditious public transmission to the Archivist and public disclosure of missing Armed Forces and civilian personnel records, S.24, to designate the facility of the United States Postal Service located at 154 First Avenue East in Jerome, Idaho, as the \"Representative Maxine Bell Post Office\", S.58, to designate the facility of the United States Postal Service located at 107 North Hoyne Avenue in Fritch, Texas, as the \"Chief Zeb Smith Post Office\", S.829, to designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\", S.917, to designate the facility of the United States Postal Service located at 620 East Pecan Boulevard in McAllen, Texas, as the \"Agent Raul H. Gonzalez Jr. Memorial Post Office\", S.2394, to designate the facility of the United States Postal Service located at 505 East 9th Avenue in Amarillo, Texas, as the \"Mayor Jerry H. Hodge Post Office Building\", S.2432, to designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\", S.3270 and H.R.6310, bills to designate the facility of the United States Postal Service located at 3570 Olney Laytonsville Road in Olney, Maryland, as the \"Edward L. Ramsey Olney Post Office Building\", S.3294 and H.R.6332, bills to designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\", S.3331, to designate the facility of the United States Postal Service located at 50 East 100 North in Moab, Utah, as the \"2nd Lieutenant Mitch Williams Post Office\", S.3373, to designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Duenez Jr. Post Office Building\", S.3444, to designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\", S.3630, to designate the facility of the United States Postal Service located at 46164 Westlake Drive in Sterling, Virginia, as the \"Firefighter Trevor Brown Post Office Building\", S.3835, to designate the facility of the United States Postal Service located at 10 East Main Street in Mahaffey, Pennsylvania, as the \"Robert Allen Bishop, Sr., Post Office Building\", S.4052, to designate the facility of the United States Postal Service located at 203 North Clay Street in Marshfield, Missouri, shall be known and designated as the \"Edwin P. Hubble Post Office\", S.4523, to designate the facility of the United States Postal Service located at 111 Sou",
@@ -328,6 +288,20 @@
               "chamber": "Senate",
               "committee_names": [],
               "congress": 119,
+              "date": "2026-08-05T18:00:00Z",
+              "event_id": "338720",
+              "matched_terms": [
+                "california"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.239, to take certain mineral interests into trust for the benefit of the Crow Tribe of Montana, S.1055, to amend the Indian Health Care Improvement Act to modify the notification requirement for emergency contract health services for certain beneficiaries, S.1514, to take certain land in the State of Washington into trust for the benefit of the Quinault Indian Nation, S.3219, to transfer certain Federal land into trust for certain Indian Pueblos in the State of New Mexico, and H.R.2400, to take certain Federal land in the State of California into trust for the benefit of the Pit River Tribe.",
+              "type": "Open Business Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
               "date": "2026-08-05T14:15:00Z",
               "event_id": "338700",
               "matched_terms": [
@@ -338,7 +312,7 @@
               "type": "Open Hearing"
             }
           ],
-          "public_search_url": "https://www.congress.gov/search?q=gs+OR+fort+OR+bend+OR+tex+OR+indpt+OR+goldman+OR+sachs+OR+group",
+          "public_search_url": "https://www.congress.gov/search?q=gs+OR+california+OR+cmnty+OR+choice+OR+fing+OR+goldman+OR+sachs+OR+group",
           "query_payload": {
             "chambers": [
               "house",
@@ -351,17 +325,17 @@
             "limit": 50,
             "terms": [
               "gs",
-              "fort",
-              "bend",
-              "tex",
-              "indpt",
+              "california",
+              "cmnty",
+              "choice",
+              "fing",
               "goldman",
               "sachs",
               "group"
             ]
           },
           "reason": "matched_terms",
-          "retrieved_at": "2026-08-12T16:35:34Z",
+          "retrieved_at": "2026-08-24T22:35:50Z",
           "source_url": "https://api.congress.gov/",
           "status": "available"
         },
@@ -374,22 +348,22 @@
           {
             "confidence": 0.6,
             "source": "issuer_name",
-            "term": "fort"
+            "term": "california"
           },
           {
             "confidence": 0.6,
             "source": "issuer_name",
-            "term": "bend"
+            "term": "cmnty"
           },
           {
             "confidence": 0.6,
             "source": "issuer_name",
-            "term": "tex"
+            "term": "choice"
           },
           {
             "confidence": 0.6,
             "source": "issuer_name",
-            "term": "indpt"
+            "term": "fing"
           },
           {
             "confidence": 0.6,
@@ -412,7 +386,7 @@
           "congressgov_bills_found": true,
           "congressgov_hearings_found": true
         },
-        "retrieved_at": "2026-08-12T16:35:34Z",
+        "retrieved_at": "2026-08-24T22:35:50Z",
         "source": "official",
         "source_links": [
           {
@@ -438,7 +412,7 @@
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -461,27 +435,27 @@
       "transaction": {
         "action": "Purchase",
         "amount_range": "$250,001 - $500,000",
-        "disclosure_lag_days": 19,
+        "disclosure_lag_days": 15,
         "estimated_max": 500000,
         "estimated_min": 250001,
         "filed_after_due_date": false,
-        "filing_date": "08/11/2026",
-        "notification_date": "07/23/2026",
+        "filing_date": "08/21/2026",
+        "notification_date": "08/06/2026",
         "owner": "JT",
         "page": 1,
-        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
-        "source_quote": "Fort Bend Tex Indpt SCH Dist Variable 04.00000% Rate Unltd Tax BLDG Ref BDS Ser. 2024B [GS]",
-        "stock_act_due_date": "2026-08-22",
-        "transaction_date": "07/23/2026"
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf",
+        "source_quote": "[GS]",
+        "stock_act_due_date": "2026-09-05",
+        "transaction_date": "08/06/2026"
       },
-      "transaction_id": "abb5ce0f6e8b7fe9"
+      "transaction_id": "1cb714aae28162a4"
     },
     "packet_version": 1,
     "schema_version": "1",
     "source_links": [
       {
         "label": "Source disclosure PDF",
-        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf"
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
       },
       {
         "label": "House Ethics PTR guidance",
@@ -502,7 +476,7 @@
     ],
     "status": "source_only",
     "ticker": "GS",
-    "transaction_id": "abb5ce0f6e8b7fe9"
+    "transaction_id": "1cb714aae28162a4"
   },
   "evidence_context": {
     "caveats": [
@@ -510,13 +484,13 @@
       "Company-to-government entity matching is conservative and should be verified before publication."
     ],
     "lda_context": {
-      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Fort+Bend+Tex+Indpt+SCH+Dist+Variable+Rate+Unltd+Tax+BLDG+Ref+BDS+Ser.+2024B",
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=California+CMNTY+Choice+Fing+Auth+5.00+%25+Due+Oct+1%2C+2056",
       "query_payload": {
-        "client_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+        "client_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
         "page_size": 5
       },
       "records": [],
-      "retrieved_at": "2026-08-12T16:35:34Z",
+      "retrieved_at": "2026-08-24T22:35:50Z",
       "source_url": "https://lda.senate.gov/api/",
       "status": "available"
     },
@@ -539,7 +513,7 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "retrieved_at": "2026-08-12T16:35:34Z",
+    "retrieved_at": "2026-08-24T22:35:50Z",
     "sec_issuer_identity": {
       "cik": "0000886982",
       "confidence": 1.0,
@@ -576,11 +550,11 @@
     "usaspending_context": {
       "awards": [],
       "query_payload": {
-        "search_text": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B"
+        "search_text": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056"
       },
       "reason": "no_recipient_candidates",
       "recipient_candidates": [],
-      "retrieved_at": "2026-08-12T16:35:34Z",
+      "retrieved_at": "2026-08-24T22:35:50Z",
       "selected_recipient": null,
       "source_url": "https://api.usaspending.gov/docs/",
       "status": "unavailable"
@@ -588,20 +562,21 @@
   },
   "filing": {
     "action_counts": {
-      "Purchase": 1
+      "Purchase": 2,
+      "Sale": 1
     },
-    "action_counts_json": "{\"Purchase\": 1}",
-    "disclosure_lag_days": 19,
+    "action_counts_json": "{\"Purchase\": 2, \"Sale\": 1}",
+    "disclosure_lag_days": 15,
     "district": "WA01",
-    "estimated_max_total": 500000,
-    "estimated_min_total": 250001,
-    "filing_date": "08/11/2026",
-    "filing_id": "20035175",
+    "estimated_max_total": 1500000,
+    "estimated_min_total": 750003,
+    "filing_date": "08/21/2026",
+    "filing_id": "20035274",
     "filing_type": "P",
-    "ingested_at": "2026-08-12T16:35:34Z",
+    "ingested_at": "2026-08-24T22:35:50Z",
     "member_name": "Hon. Suzan K. DelBene",
-    "pdf_sha256": "bf9043d9724ba4b0304bc848493a729e802b7ad52c6184ac301468c67f519f57",
-    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
+    "pdf_sha256": "8010f25e6cc7ee60b87d0713807ea76b5ce9b4b11f3e9328d04b8fd316421fdb",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf",
     "possible_late": false,
     "schema_version": "1",
     "source": "house_disclosure_pdf",
@@ -610,9 +585,9 @@
       "GS"
     ],
     "tickers_json": "[\"GS\"]",
-    "transaction_count": 1,
-    "transaction_date_max": "2026-07-23",
-    "transaction_date_min": "2026-07-23"
+    "transaction_count": 3,
+    "transaction_date_max": "2026-08-07",
+    "transaction_date_min": "2026-08-06"
   },
   "insight_candidate": {
     "action": "Purchase",
@@ -623,7 +598,7 @@
       "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
       "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
       "headline_candidate": "Hon. Suzan K. DelBene's GS purchase",
-      "lede": "Hon. Suzan K. DelBene reported a purchase of Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B (GS) through JT on Jul 23, 2026, according to a periodic transaction report filed Aug 11, 2026.",
+      "lede": "Hon. Suzan K. DelBene reported a purchase of California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056 (GS) through JT on Aug 6, 2026, according to a periodic transaction report filed Aug 21, 2026.",
       "market_context": "Market movement is unavailable for this transaction.",
       "news_context": "No ranked company-news links are available for this transaction.",
       "nut_graf": "The transaction was reported in the $250,001 - $500,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
@@ -637,7 +612,7 @@
     },
     "asset_type": "ptr_insight_candidate",
     "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
-    "disclosure_lag_days": 19.0,
+    "disclosure_lag_days": 15.0,
     "district": "WA01",
     "evidence_flags": {
       "committee_context_available": false,
@@ -648,11 +623,11 @@
       "federal_awards_found": false,
       "lobbying_records_found": false
     },
-    "filing_date": "08/11/2026",
-    "filing_id": "20035175",
-    "grounded_summary": "Hon. Suzan K. DelBene reported a purchase of Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B (GS) through JT on Jul 23, 2026, according to a periodic transaction report filed Aug 11, 2026. The transaction was reported in the $250,001 - $500,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "filing_date": "08/21/2026",
+    "filing_id": "20035274",
+    "grounded_summary": "Hon. Suzan K. DelBene reported a purchase of California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056 (GS) through JT on Aug 6, 2026, according to a periodic transaction report filed Aug 21, 2026. The transaction was reported in the $250,001 - $500,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
     "headline": "Hon. Suzan K. DelBene's GS purchase",
-    "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+    "issuer_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
     "market_context": {
       "filing_date_close": null,
       "filing_date_price_date": null,
@@ -670,13 +645,13 @@
     "member_name": "Hon. Suzan K. DelBene",
     "news_context": {
       "provider": "gdelt_doc_2_0",
-      "query": "(\"Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B\" OR GS)",
+      "query": "(\"California CMNTY Choice Fing Auth 5.00 % Due Oct 1 2056\" OR GS)",
       "result_count": 0,
       "results": [],
       "status": "unavailable",
       "window": {
-        "end_date": "2026-09-25",
-        "start_date": "2026-07-09"
+        "end_date": "2026-10-05",
+        "start_date": "2026-07-23"
       }
     },
     "owner": "JT",
@@ -692,11 +667,11 @@
       "Congress.gov bill context was found",
       "Congress.gov hearing context was found"
     ],
-    "slug": "hon-suzan-k-delbene-gs-purchase-07-23-2026-abb5ce0f6e8b7fe9",
+    "slug": "hon-suzan-k-delbene-gs-purchase-08-06-2026-1cb714aae28162a4",
     "source_links": [
       {
         "label": "Source disclosure PDF",
-        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf"
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
       },
       {
         "label": "SEC EDGAR APIs",
@@ -734,8 +709,8 @@
     "state": "WA",
     "status": "candidate",
     "ticker": "GS",
-    "trade_date": "07/23/2026",
-    "transaction_id": "abb5ce0f6e8b7fe9"
+    "trade_date": "08/06/2026",
+    "transaction_id": "1cb714aae28162a4"
   },
   "market_context": {
     "adjusted_price_mode": "adjust=all",
@@ -747,28 +722,28 @@
     "publication_license_status": "confirmed",
     "publication_ready": false,
     "reason": "provider_error: Finazon request failed for GS: status=403",
-    "retrieved_at": "2026-08-12T16:35:34Z",
+    "retrieved_at": "2026-08-24T22:35:50Z",
     "source": "finazon_us_stocks_essential",
     "status": "unavailable",
     "ticker": "GS"
   },
   "news_context": {
-    "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+    "issuer_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
     "provider": "gdelt_doc_2_0",
-    "query": "(\"Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B\" OR GS)",
-    "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Fort+Bend+Tex+Indpt+SCH+Dist+Variable+Rate+Unltd+Tax+BLDG+Ref+BDS+Ser.+2024B%22+OR+GS%29&mode=artlist&format=json&startdatetime=20260709000000&enddatetime=20260925235959&maxrecords=25&sort=DateDesc",
+    "query": "(\"California CMNTY Choice Fing Auth 5.00 % Due Oct 1 2056\" OR GS)",
+    "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22California+CMNTY+Choice+Fing+Auth+5.00+%25+Due+Oct+1+2056%22+OR+GS%29&mode=artlist&format=json&startdatetime=20260723000000&enddatetime=20261005235959&maxrecords=25&sort=DateDesc",
     "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
     "result_count": 0,
     "results": [],
-    "retrieved_at": "2026-08-12T16:35:34Z",
+    "retrieved_at": "2026-08-24T22:35:50Z",
     "schema_version": 1,
     "source": "gdelt_doc_2_0",
     "source_links": [],
     "status": "unavailable",
     "ticker": "GS",
     "window": {
-      "end_date": "2026-09-25",
-      "start_date": "2026-07-09"
+      "end_date": "2026-10-05",
+      "start_date": "2026-07-23"
     }
   },
   "policy_context": {
@@ -779,13 +754,13 @@
     "committee_issuer_overlap_status": {
       "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
       "confidence": 0.45,
-      "matched_bill_count": 5,
+      "matched_bill_count": 3,
       "matched_committee_count": 0,
       "matched_hearing_count": 5,
       "matched_terms": [
-        "fort",
-        "gs",
-        "tex"
+        "california",
+        "fing",
+        "gs"
       ],
       "status": "policy_activity_found",
       "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
@@ -801,72 +776,46 @@
     "congressgov_bills": {
       "items": [
         {
-          "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
-          "congress": 119,
-          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
-          "latest_action_date": "2025-12-11",
-          "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+          "api_url": "https://api.congress.gov/v3/bill/118/s/3557?format=json",
+          "congress": 118,
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3557",
+          "latest_action_date": "2023-12-19",
+          "latest_action_text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
           "matched_terms": [
-            "tex"
+            "gs"
           ],
-          "number": "542",
-          "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
-          "type": "SRES"
-        },
-        {
-          "api_url": "https://api.congress.gov/v3/bill/119/hres/343?format=json",
-          "congress": 119,
-          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/343",
-          "latest_action_date": "2025-04-21",
-          "latest_action_text": "Referred to the House Committee on Oversight and Government Reform.",
-          "matched_terms": [
-            "tex"
-          ],
-          "number": "343",
-          "title": "Supporting the goals and ideals of San Jacinto Day in recognition of April 21, 1836, the date on which General Sam Houston and the Texan Army defeated the Mexican Army winning Texas independence from Mexico.",
-          "type": "HRES"
-        },
-        {
-          "api_url": "https://api.congress.gov/v3/bill/119/s/4008?format=json",
-          "congress": 119,
-          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4008",
-          "latest_action_date": "2026-03-05",
-          "latest_action_text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S887)",
-          "matched_terms": [
-            "tex"
-          ],
-          "number": "4008",
-          "title": "Promoting Dental Health Act",
+          "number": "3557",
+          "title": "A bill to require the Secretary of Health and Human Services to prepare a report that outlines a plan for completing a review of approved opioid analgesic drugs that considers the public health effects of such opioid drugs.",
           "type": "S"
         },
         {
-          "api_url": "https://api.congress.gov/v3/bill/118/sres/512?format=json",
+          "api_url": "https://api.congress.gov/v3/bill/118/hres/944?format=json",
           "congress": 118,
-          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/512",
-          "latest_action_date": "2023-12-18",
-          "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6029; text: CR S6023-6024)",
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/house-resolution/944",
+          "latest_action_date": "2023-12-22",
+          "latest_action_text": "Referred to the House Committee on Armed Services.",
           "matched_terms": [
-            "tex"
+            "fing"
           ],
-          "number": "512",
-          "title": "A resolution designating November 2023 as \"National Lung Cancer Awareness Month\" and expressing support for early detection and treatment of lung cancer.",
-          "type": "SRES"
+          "number": "944",
+          "title": "Directing the Secretary of Defense to provide a briefing to the Committee on Armed Services of the House of Representatives on plans to implement certain STEM education and outreach efforts.",
+          "type": "HRES"
         },
         {
-          "api_url": "https://api.congress.gov/v3/bill/118/sres/513?format=json",
+          "api_url": "https://api.congress.gov/v3/bill/118/s/3430?format=json",
           "congress": 118,
-          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/513",
-          "latest_action_date": "2023-12-18",
-          "latest_action_text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6029; text: CR S6024)",
+          "congressgov_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3430",
+          "latest_action_date": "2023-12-07",
+          "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 265.",
           "matched_terms": [
-            "tex"
+            "gs"
           ],
-          "number": "513",
-          "title": "A resolution recognizing December 17 as \"Wright Brothers Day\" and commemorating the 120th anniversary of the first powered flight.",
-          "type": "SRES"
+          "number": "3430",
+          "title": "Better Mental Health Care, Lower-Cost Drugs, and Extenders Act of 2023",
+          "type": "S"
         }
       ],
-      "public_search_url": "https://www.congress.gov/search?q=gs+OR+fort+OR+bend+OR+tex+OR+indpt+OR+goldman+OR+sachs+OR+group",
+      "public_search_url": "https://www.congress.gov/search?q=gs+OR+california+OR+cmnty+OR+choice+OR+fing+OR+goldman+OR+sachs+OR+group",
       "query_payload": {
         "congresses": [
           119,
@@ -875,36 +824,22 @@
         "limit": 50,
         "terms": [
           "gs",
-          "fort",
-          "bend",
-          "tex",
-          "indpt",
+          "california",
+          "cmnty",
+          "choice",
+          "fing",
           "goldman",
           "sachs",
           "group"
         ]
       },
       "reason": "matched_terms",
-      "retrieved_at": "2026-08-12T16:35:34Z",
+      "retrieved_at": "2026-08-24T22:35:50Z",
       "source_url": "https://api.congress.gov/",
       "status": "available"
     },
     "congressgov_hearings": {
       "items": [
-        {
-          "api_url": "",
-          "chamber": "House",
-          "committee_names": [],
-          "congress": 119,
-          "date": "2026-07-21T14:00:00Z",
-          "event_id": "119481",
-          "matched_terms": [
-            "fort"
-          ],
-          "meeting_status": "Scheduled",
-          "title": "“Rewriting American History: Examining the Smithsonian’s Efforts to Reshape the Past”",
-          "type": "Hearing"
-        },
         {
           "api_url": "",
           "chamber": "Senate",
@@ -914,7 +849,7 @@
           "event_id": "338726",
           "matched_terms": [
             "gs",
-            "tex"
+            "california"
           ],
           "meeting_status": "Scheduled",
           "title": "Business meeting to consider an original resolution regarding Contempt of Congress, S.2732, to strengthen employee cost savings suggestions programs within the Federal Government, S.2733, to require the Comptroller General of the United States to analyze certain legislation in order to prevent duplication of and overlap with existing Federal programs, offices, and initiatives, S.252, to increase access to agency guidance documents, S.164, to amend chapter 8 of title 5, United States Code, to provide for en bloc consideration in resolutions of disapproval for \"midnight rules\", H.R.5235, to amend title 41, United States Code, to prohibit minimum educational requirements for proposed contractor personnel in certain contract solicitations, S.3175, to establish a pilot program for ZIP Code boundary changes, S.4505, to require the United States Postal Service to designate ZIP Codes for certain communities, S.1735, to require certain agencies to include a page on the website of the agency relating to permit applications, S.5163, to amend title 39, United States Code, to prevent the awarding of bonuses to the Postmaster General and Deputy Postmaster General for a fiscal year in which the United States Postal Service does not meet or exceed each on-time mail delivery target, S.2542, to direct the Director of the Federal Protective Service to establish guidance relating to emergency protocols for buildings, S.3211, to require the Office of Management and Budget to consider revising the Standard Occupational Classification system to establish a separate code for direct support professionals, S.4079, to establish in U.S. Customs and Border Protection a pilot program to adopt dogs from local animal shelters to be trained as support dogs, S.3296, to amend chapter 81 of title 5, United States Code, to cover, for purposes of workers' compensation under such chapter, services by physician assistants and nurse practitioners provided to injured Federal workers, S.388, to amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act with respect to the implementation of building codes, S.3226, to provide for the creation of the missing Armed Forces and civilian personnel Records Collection at the National Archives, to require the expeditious public transmission to the Archivist and public disclosure of missing Armed Forces and civilian personnel records, S.24, to designate the facility of the United States Postal Service located at 154 First Avenue East in Jerome, Idaho, as the \"Representative Maxine Bell Post Office\", S.58, to designate the facility of the United States Postal Service located at 107 North Hoyne Avenue in Fritch, Texas, as the \"Chief Zeb Smith Post Office\", S.829, to designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\", S.917, to designate the facility of the United States Postal Service located at 620 East Pecan Boulevard in McAllen, Texas, as the \"Agent Raul H. Gonzalez Jr. Memorial Post Office\", S.2394, to designate the facility of the United States Postal Service located at 505 East 9th Avenue in Amarillo, Texas, as the \"Mayor Jerry H. Hodge Post Office Building\", S.2432, to designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\", S.3270 and H.R.6310, bills to designate the facility of the United States Postal Service located at 3570 Olney Laytonsville Road in Olney, Maryland, as the \"Edward L. Ramsey Olney Post Office Building\", S.3294 and H.R.6332, bills to designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\", S.3331, to designate the facility of the United States Postal Service located at 50 East 100 North in Moab, Utah, as the \"2nd Lieutenant Mitch Williams Post Office\", S.3373, to designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Duenez Jr. Post Office Building\", S.3444, to designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\", S.3630, to designate the facility of the United States Postal Service located at 46164 Westlake Drive in Sterling, Virginia, as the \"Firefighter Trevor Brown Post Office Building\", S.3835, to designate the facility of the United States Postal Service located at 10 East Main Street in Mahaffey, Pennsylvania, as the \"Robert Allen Bishop, Sr., Post Office Building\", S.4052, to designate the facility of the United States Postal Service located at 203 North Clay Street in Marshfield, Missouri, shall be known and designated as the \"Edwin P. Hubble Post Office\", S.4523, to designate the facility of the United States Postal Service located at 111 Sou",
@@ -953,6 +888,20 @@
           "chamber": "Senate",
           "committee_names": [],
           "congress": 119,
+          "date": "2026-08-05T18:00:00Z",
+          "event_id": "338720",
+          "matched_terms": [
+            "california"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.239, to take certain mineral interests into trust for the benefit of the Crow Tribe of Montana, S.1055, to amend the Indian Health Care Improvement Act to modify the notification requirement for emergency contract health services for certain beneficiaries, S.1514, to take certain land in the State of Washington into trust for the benefit of the Quinault Indian Nation, S.3219, to transfer certain Federal land into trust for certain Indian Pueblos in the State of New Mexico, and H.R.2400, to take certain Federal land in the State of California into trust for the benefit of the Pit River Tribe.",
+          "type": "Open Business Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
           "date": "2026-08-05T14:15:00Z",
           "event_id": "338700",
           "matched_terms": [
@@ -963,7 +912,7 @@
           "type": "Open Hearing"
         }
       ],
-      "public_search_url": "https://www.congress.gov/search?q=gs+OR+fort+OR+bend+OR+tex+OR+indpt+OR+goldman+OR+sachs+OR+group",
+      "public_search_url": "https://www.congress.gov/search?q=gs+OR+california+OR+cmnty+OR+choice+OR+fing+OR+goldman+OR+sachs+OR+group",
       "query_payload": {
         "chambers": [
           "house",
@@ -976,17 +925,17 @@
         "limit": 50,
         "terms": [
           "gs",
-          "fort",
-          "bend",
-          "tex",
-          "indpt",
+          "california",
+          "cmnty",
+          "choice",
+          "fing",
           "goldman",
           "sachs",
           "group"
         ]
       },
       "reason": "matched_terms",
-      "retrieved_at": "2026-08-12T16:35:34Z",
+      "retrieved_at": "2026-08-24T22:35:50Z",
       "source_url": "https://api.congress.gov/",
       "status": "available"
     },
@@ -999,22 +948,22 @@
       {
         "confidence": 0.6,
         "source": "issuer_name",
-        "term": "fort"
+        "term": "california"
       },
       {
         "confidence": 0.6,
         "source": "issuer_name",
-        "term": "bend"
+        "term": "cmnty"
       },
       {
         "confidence": 0.6,
         "source": "issuer_name",
-        "term": "tex"
+        "term": "choice"
       },
       {
         "confidence": 0.6,
         "source": "issuer_name",
-        "term": "indpt"
+        "term": "fing"
       },
       {
         "confidence": 0.6,
@@ -1037,7 +986,7 @@
       "congressgov_bills_found": true,
       "congressgov_hearings_found": true
     },
-    "retrieved_at": "2026-08-12T16:35:34Z",
+    "retrieved_at": "2026-08-24T22:35:50Z",
     "source": "official",
     "source_links": [
       {
@@ -1058,45 +1007,45 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260812T163640Z",
+    "data_version": "20260824T223750Z",
     "environment": "testing",
-    "generated_at": "2026-08-12T16:37:56Z",
+    "generated_at": "2026-08-24T22:39:10Z",
     "project": "ptr",
-    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ab/b5/abb5ce0f6e8b7fe9.json",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/1c/b7/1cb714aae28162a4.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-08-12T16:52:56Z"
+    "stale_after": "2026-08-24T22:54:10Z"
   },
   "public_urls": {
-    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035175.json",
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035274.json",
     "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
-    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ab/b5/abb5ce0f6e8b7fe9.json"
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/1c/b7/1cb714aae28162a4.json"
   },
   "transaction": {
     "action": "Purchase",
     "amount_range": "$250,001 - $500,000",
-    "disclosure_lag_days": 19,
+    "disclosure_lag_days": 15,
     "district": "WA01",
     "estimated_max": 500000,
     "estimated_min": 250001,
     "filed_after_due_date": false,
-    "filing_date": "08/11/2026",
-    "filing_id": "20035175",
+    "filing_date": "08/21/2026",
+    "filing_id": "20035274",
     "filing_type": "P",
-    "ingested_at": "2026-08-12T16:35:34Z",
-    "issuer_name": "Fort Bend Tex Indpt SCH Dist Variable Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+    "ingested_at": "2026-08-24T22:35:50Z",
+    "issuer_name": "California CMNTY Choice Fing Auth 5.00 % Due Oct 1, 2056",
     "member_name": "Hon. Suzan K. DelBene",
-    "notification_date": "07/23/2026",
+    "notification_date": "08/06/2026",
     "owner": "JT",
     "page": 1,
-    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf",
     "schema_version": "1",
     "source": "house_disclosure_pdf",
-    "source_quote": "Fort Bend Tex Indpt SCH Dist Variable 04.00000% Rate Unltd Tax BLDG Ref BDS Ser. 2024B [GS]",
+    "source_quote": "[GS]",
     "state": "WA",
-    "stock_act_due_date": "2026-08-22",
+    "stock_act_due_date": "2026-09-05",
     "ticker": "GS",
-    "transaction_date": "07/23/2026",
-    "transaction_id": "abb5ce0f6e8b7fe9"
+    "transaction_date": "08/06/2026",
+    "transaction_id": "1cb714aae28162a4"
   }
 }
