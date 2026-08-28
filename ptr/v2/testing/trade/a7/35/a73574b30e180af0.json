@@ -1,0 +1,896 @@
+{
+  "context_packet": {
+    "filing_id": "20035035",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "issuer_name": "DaVita Inc. Common Stock",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=DaVita+Inc.+Common+Stock",
+          "query_payload": {
+            "client_name": "DaVita Inc. Common Stock",
+            "page_size": 5
+          },
+          "reason": "lda_api_failed_status_429",
+          "records": [],
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "unavailable"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "J000310",
+            "district": "32",
+            "match_method": "name_state_district",
+            "name": "Julie Johnson",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "sec_issuer_identity": {
+          "cik": "0000927066",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "DAVITA INC.",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "DVA"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "search_text": "DaVita Inc. Common Stock"
+          },
+          "reason": "no_recipient_candidates",
+          "recipient_candidates": [],
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "unavailable"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035035",
+      "issuer": {
+        "name": "DaVita Inc. Common Stock",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "DVA"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX32",
+        "name": "Hon. Julie Johnson",
+        "state": "TX"
+      },
+      "news_context": {
+        "issuer_name": "DaVita Inc. Common Stock",
+        "provider": "gdelt_doc_2_0",
+        "query": "(\"DaVita Inc\" OR DVA)",
+        "reason": "gdelt_request_failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22DaVita+Inc%22+OR+DVA%29&mode=artlist&format=json&startdatetime=20250909000000&enddatetime=20260919235959&maxrecords=25&sort=DateDesc (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))",
+        "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+        "result_count": 0,
+        "results": [],
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [],
+        "status": "unavailable",
+        "ticker": "DVA",
+        "window": {
+          "end_date": "2026-09-19",
+          "start_date": "2025-09-09"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 0,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 4,
+          "matched_terms": [
+            "dva"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [],
+          "public_search_url": "https://www.congress.gov/search?q=dva+OR+davita",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "dva",
+              "davita"
+            ]
+          },
+          "reason": "no_matching_recent_bills",
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "unavailable"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-02T14:00:00Z",
+              "event_id": "119532",
+              "matched_terms": [
+                "dva"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Powering the Nuclear Renaissance: Accelerating U.S. Leadership in Advanced Nuclear Reactors",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-07-22T20:00:00Z",
+              "event_id": "338668",
+              "matched_terms": [
+                "dva"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Hearings to examine advancing the mission, focusing on evaluating the future of VA research.",
+              "type": "Open Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-11-20T16:00:00Z",
+              "event_id": "336306",
+              "matched_terms": [
+                "dva"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.5310, to amend title 41, United States Code, to make changes with respect to the Federal Acquisition Security Council, S.2315, to provide for the creation of the missing Armed Forces and civilian personnel Records Collection at the National Archives, to require the expeditious public transmission to the Archivist and public disclosure of missing Armed Forces and civilian personnel records, S.2270, to establish and maintain a database within each agency for executive branch ethics records of noncareer appointees, S.5302, to amend title 5, United States Code, to address the responsibilities of the Administrator of General Services with respect to Federal advisory committees, S.5312, to require agencies to create consistent organizational hierarchies, S.5102, to require annual reports on counter illicit cross-border tunnel operations, S.5313, to improve section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act, S.5315, to direct the Secretary of Homeland Security to enhance border security by seeking to expand partnerships with appropriate law enforcement entities in Mexico and Central American and South American countries to combat human smuggling and trafficking operations in Mexico and such countries, S.5321, to amend the Homeland Security Act of 2002 to establish a DHS Cybersecurity Internship Program, S.5317, to direct the Comptroller General of the United States to conduct a review of the Homeland Security Information Network, S.5319, to amend the Homeland Security Act of 2002 to direct the Under Secretary for Intelligence and Analysis of the Department of Homeland Security to conduct an annual audit of the information systems and bulk data of the Office of Intelligence and Analysis of the Department, S.5028, to require Federal contractors to implement a vulnerability disclosure policy consistent with NIST guidelines, S.5019, to designate the facility of the United States Postal Service located at 340 South Loudon Avenue in Baltimore, Maryland, as the \"United States Representative Elijah E. Cummings Post Office Building\", H.R.6972, to amend title 5, United States Code, to require an Executive agency whose head is a member of the National Security Council to notify the Executive Office of the President, the Comptroller General of the United States, and congressional leadership of such head becoming medically incapacitated within 24 hours, H.R.7528, to amend section 206 of the E-Government Act of 2002 to improve the integrity and management of mass comments and computer-generated comments in the regulatory review process, H.R.9592, to amend title 44, United States Code, to modernize the Federal Register, H.R.3208, to amend the Homeland Security Act of 2002 to establish a DHS Cybersecurity On-the-Job Training Program, H.R.7832, to require the Secretary of Homeland Security to develop a plan to identify, integrate, and deploy new, innovative, disruptive, or other emerging or advanced technologies to enhance, or address capability gaps in, border security operations, H.R.6231, to amend the Homeland Security Act of 2002 to require a prioritized policy issuance review process for the Department of Homeland Security, H.R.8631, to prohibit the Secretary of Homeland Security from procuring certain foreign-made batteries, H.R.255, to amend the Disaster Recovery Reform Act of 2018 to develop a study regarding streamlining and consolidating information collection and preliminary damage assessments, H.R.9596, to amend title 41, United States Code, and title 10, United States Code, to provide best value through the multiple award schedule program, H.R.5867, to designate the facility of the United States Postal Service located at 109 Live Oaks Boulevard in Casselberry, Florida, as the \"Colonel Joseph William Kittinger II Post Office Building\", H.R.6162, to designate the facility of the United States Postal Service located at 379 North Oates Street in Dothan, Alabama, as the \"LaBruce 'Bruce' Tidwell Post Office Building\", H.R.6188, to designate the facility of the United States Postal Service located at 420 Highway 17 North in Surfside Beach, South Carolina, as the \"Nancy Yount Childs Post Office Building\", H.R.6633, to designate the facility of the United States Postal Service located at 9355 113th Street in Seminole, Florida, as the \"Army SSG Ryan Christian Knauss Memorial Post Office Building\", H.R.6750, to designate the facility of the United States Postal Service located at 501 Mercer Street Southwest in Wilson, North Carolina, as the \"Milton F. Fitch, Sr. Post Office Building\", H.R.8057, to designate the facility of the United States Postal Service located at 9317 Bolsa Avenue in Westminster, California, as the \"Little Saigon Vietnam War Veterans Memorial Post Office\", and the nominations of Val Butler Demings, of Florida, William Zollars, of Kansas, and Gordon Hartogensis, of Connecticut, each to be a Governor of the United States Postal Service, and James Gr",
+              "type": "Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-11-19T14:30:00Z",
+              "event_id": "336261",
+              "matched_terms": [
+                "dva"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.254, to amend the Omnibus Parks and Public Lands Management Act of 1996 to provide for the establishment of a Ski Area Fee Retention Account, S.373, to modify the disposition of certain outer Continental Shelf revenues and to open Federal financial sharing to heighten opportunities for renewable energy, S.482, to amend the Klamath Basin Water Supply Enhancement Act of 2000 to provide the Secretary of the Interior with certain authorities with respect to projects affecting the Klamath Basin watershed, S.620, to provide for the distribution of certain outer Continental Shelf revenues to the State of Alaska, S.739, to clarify jurisdiction with respect to certain Bureau of Reclamation pumped storage development, S.914, to establish an energy threat analysis center in the Department of Energy, S.1553, to amend the Federal Land Policy and Management Act of 1976 to improve the management of grazing permits and leases, S.1764, to improve Federal activities relating to wildfires, S.2132, to require the Secretary of Agriculture to establish a pilot program for the establishment and use of a pre-fire-suppression stand density index, S.2151, to amend the Southwest Forest Health and Wildlife Prevention Act of 2004 to require the establishment of an additional Institute under that Act, S.2156, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to authorize additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.2160, to amend the Omnibus Public Land Management Act of 2009 to authorize certain extraordinary operation and maintenance work for urban canals of concern, S.2169, to authorize the Secretary of the Interior to carry out watershed pilots, S.2620, to establish the Chesapeake National Recreation Area as a unit of the National Park System, S.2742, to establish the Fort Ontario National Monument in the State of New York as a unit of the National Park System, S.2743, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, S.2784, to amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, S.2867, to address the forest health crisis on the National Forest System and public lands, S.2927, to amend the Omnibus Public Land Management Act of 2009 to increase Tribal access to water conservation and efficiency grants, S.2991, to improve revegetation and carbon sequestration activities in the United States, S.3123, to provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, S.3195, to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, S.3241, to establish the Grand Village of the Natchez Indians and Jefferson College as affiliated areas of the Natchez Historical Park, S.3346, to amend the Wild and Scenic Rivers Act to designate certain streams in the greater Yellowstone ecosystem and Smith River system in the State of Montana as components of the Wild and Scenic Rivers System, S.3474, to redesignate the Hulls Cove Visitor Center at Acadia National Park as the \"George J. Mitchell, Jr., Visitor Center\", S.3534, to authorize the Pines Foundation to establish the Fire Island AIDS Memorial, S.3542, to amend the Atchafalaya National Heritage Area Act to modify the boundary of the Atchafalaya National Heritage Area, S.3543, to establish the Historic Greenwood District-Black Wall Street National Monument in the State of Oklahoma, S.3544, to designate the visitor and education center at Fort McHenry National Monument and Historic Shrine as the \"Paul S. Sarbanes Visitor and Education Center\", S.3593, to provide for economic development and conservation in Washoe County, Nevada, S.3596, to amend the Mineral Leasing Act to amend references of gilsonite to asphaltite, S.3617, to provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, S.3631, to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies, S.3985, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.4016, to amend the Boulder Canyon Project Act to authorize the Secretary of the Interior to expend amounts in the Colorado River Dam fund, S.4129, to contribute funds and artifacts to the Theodore Roosevelt Presidential Library in Medora, North Dakota, S.4164, to authorize the Secretary of the Interior to conduct a special resource study of",
+              "type": "Meeting"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=dva+OR+davita",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "dva",
+              "davita"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "dva"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "davita"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 316,
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filed_after_due_date": true,
+        "filing_date": "08/05/2026",
+        "notification_date": "10/07/2025",
+        "owner": "JT",
+        "page": 3,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+        "source_quote": "DaVita Inc. Common Stock (DVA) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+        "stock_act_due_date": "2025-11-06",
+        "transaction_date": "09/23/2025"
+      },
+      "transaction_id": "a73574b30e180af0"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "DVA",
+    "transaction_id": "a73574b30e180af0"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=DaVita+Inc.+Common+Stock",
+      "query_payload": {
+        "client_name": "DaVita Inc. Common Stock",
+        "page_size": 5
+      },
+      "reason": "lda_api_failed_status_429",
+      "records": [],
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "unavailable"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "J000310",
+        "district": "32",
+        "match_method": "name_state_district",
+        "name": "Julie Johnson",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "sec_issuer_identity": {
+      "cik": "0000927066",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "DAVITA INC.",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "DVA"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "search_text": "DaVita Inc. Common Stock"
+      },
+      "reason": "no_recipient_candidates",
+      "recipient_candidates": [],
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "unavailable"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Exchange": 1,
+      "Purchase": 38,
+      "S (partial)": 1,
+      "Sale": 37
+    },
+    "action_counts_json": "{\"Exchange\": 1, \"Purchase\": 38, \"S (partial)\": 1, \"Sale\": 37}",
+    "disclosure_lag_days": 508,
+    "district": "TX32",
+    "estimated_max_total": 1155000,
+    "estimated_min_total": 77077,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "member_name": "Hon. Julie Johnson",
+    "pdf_sha256": "820c98c17ead952abd59efc0db0fe973124f3584fff03cb5777dc02f1a96ca90",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+    "possible_late": true,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "MMM",
+      "AOS",
+      "ADBE",
+      "A",
+      "ALK",
+      "AEE",
+      "BA",
+      "CARR",
+      "CMS",
+      "CL",
+      "DVA",
+      "SRE",
+      "DE",
+      "EQIX",
+      "FFIV",
+      "FITB",
+      "FISV",
+      "GEN",
+      "HON",
+      "IP",
+      "KEY",
+      "KR",
+      "LYB",
+      "MKC",
+      "MDT",
+      "TAP",
+      "MDLZ",
+      "MNST",
+      "PAYX",
+      "PAYC",
+      "PEG",
+      "DGX",
+      "ROL",
+      "NOW",
+      "CI",
+      "UDR",
+      "VRSN",
+      "VRSK",
+      "WEC",
+      "WY"
+    ],
+    "tickers_json": "[\"MMM\", \"AOS\", \"ADBE\", \"A\", \"ALK\", \"AEE\", \"BA\", \"CARR\", \"CMS\", \"CL\", \"DVA\", \"SRE\", \"DE\", \"EQIX\", \"FFIV\", \"FITB\", \"FISV\", \"GEN\", \"HON\", \"IP\", \"KEY\", \"KR\", \"LYB\", \"MKC\", \"MDT\", \"TAP\", \"MDLZ\", \"MNST\", \"PAYX\", \"PAYC\", \"PEG\", \"DGX\", \"ROL\", \"NOW\", \"CI\", \"UDR\", \"VRSN\", \"VRSK\", \"WEC\", \"WY\"]",
+    "transaction_count": 77,
+    "transaction_date_max": "2026-02-02",
+    "transaction_date_min": "2025-03-15"
+  },
+  "insight_candidate": {
+    "action": "Purchase",
+    "action_type": "purchase",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Julie Johnson's DVA purchase",
+      "lede": "Hon. Julie Johnson reported a purchase of DaVita Inc (DVA) through JT on Sep 23, 2025, according to a periodic transaction report filed Aug 5, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "No ranked company-news links are available for this transaction.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 316.0,
+    "district": "TX32",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "grounded_summary": "Hon. Julie Johnson reported a purchase of DaVita Inc (DVA) through JT on Sep 23, 2025, according to a periodic transaction report filed Aug 5, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Julie Johnson's DVA purchase",
+    "issuer_name": "DaVita Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Julie Johnson",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"DaVita Inc\" OR DVA)",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
+      "window": {
+        "end_date": "2026-09-19",
+        "start_date": "2025-09-09"
+      }
+    },
+    "owner": "JT",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 3,
+    "score_reasons": [
+      "Congress.gov hearing context was found",
+      "disclosure lag was at least 30 days"
+    ],
+    "slug": "hon-julie-johnson-dva-purchase-09-23-2025-a73574b30e180af0",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "state": "TX",
+    "status": "low_priority",
+    "ticker": "DVA",
+    "trade_date": "09/23/2025",
+    "transaction_id": "a73574b30e180af0"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for DVA: status=429",
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "DVA"
+  },
+  "news_context": {
+    "issuer_name": "DaVita Inc. Common Stock",
+    "provider": "gdelt_doc_2_0",
+    "query": "(\"DaVita Inc\" OR DVA)",
+    "reason": "gdelt_request_failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22DaVita+Inc%22+OR+DVA%29&mode=artlist&format=json&startdatetime=20250909000000&enddatetime=20260919235959&maxrecords=25&sort=DateDesc (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))",
+    "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+    "result_count": 0,
+    "results": [],
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [],
+    "status": "unavailable",
+    "ticker": "DVA",
+    "window": {
+      "end_date": "2026-09-19",
+      "start_date": "2025-09-09"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 0,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 4,
+      "matched_terms": [
+        "dva"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [],
+      "public_search_url": "https://www.congress.gov/search?q=dva+OR+davita",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "dva",
+          "davita"
+        ]
+      },
+      "reason": "no_matching_recent_bills",
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "unavailable"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-02T14:00:00Z",
+          "event_id": "119532",
+          "matched_terms": [
+            "dva"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Powering the Nuclear Renaissance: Accelerating U.S. Leadership in Advanced Nuclear Reactors",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-07-22T20:00:00Z",
+          "event_id": "338668",
+          "matched_terms": [
+            "dva"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Hearings to examine advancing the mission, focusing on evaluating the future of VA research.",
+          "type": "Open Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-11-20T16:00:00Z",
+          "event_id": "336306",
+          "matched_terms": [
+            "dva"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.5310, to amend title 41, United States Code, to make changes with respect to the Federal Acquisition Security Council, S.2315, to provide for the creation of the missing Armed Forces and civilian personnel Records Collection at the National Archives, to require the expeditious public transmission to the Archivist and public disclosure of missing Armed Forces and civilian personnel records, S.2270, to establish and maintain a database within each agency for executive branch ethics records of noncareer appointees, S.5302, to amend title 5, United States Code, to address the responsibilities of the Administrator of General Services with respect to Federal advisory committees, S.5312, to require agencies to create consistent organizational hierarchies, S.5102, to require annual reports on counter illicit cross-border tunnel operations, S.5313, to improve section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act, S.5315, to direct the Secretary of Homeland Security to enhance border security by seeking to expand partnerships with appropriate law enforcement entities in Mexico and Central American and South American countries to combat human smuggling and trafficking operations in Mexico and such countries, S.5321, to amend the Homeland Security Act of 2002 to establish a DHS Cybersecurity Internship Program, S.5317, to direct the Comptroller General of the United States to conduct a review of the Homeland Security Information Network, S.5319, to amend the Homeland Security Act of 2002 to direct the Under Secretary for Intelligence and Analysis of the Department of Homeland Security to conduct an annual audit of the information systems and bulk data of the Office of Intelligence and Analysis of the Department, S.5028, to require Federal contractors to implement a vulnerability disclosure policy consistent with NIST guidelines, S.5019, to designate the facility of the United States Postal Service located at 340 South Loudon Avenue in Baltimore, Maryland, as the \"United States Representative Elijah E. Cummings Post Office Building\", H.R.6972, to amend title 5, United States Code, to require an Executive agency whose head is a member of the National Security Council to notify the Executive Office of the President, the Comptroller General of the United States, and congressional leadership of such head becoming medically incapacitated within 24 hours, H.R.7528, to amend section 206 of the E-Government Act of 2002 to improve the integrity and management of mass comments and computer-generated comments in the regulatory review process, H.R.9592, to amend title 44, United States Code, to modernize the Federal Register, H.R.3208, to amend the Homeland Security Act of 2002 to establish a DHS Cybersecurity On-the-Job Training Program, H.R.7832, to require the Secretary of Homeland Security to develop a plan to identify, integrate, and deploy new, innovative, disruptive, or other emerging or advanced technologies to enhance, or address capability gaps in, border security operations, H.R.6231, to amend the Homeland Security Act of 2002 to require a prioritized policy issuance review process for the Department of Homeland Security, H.R.8631, to prohibit the Secretary of Homeland Security from procuring certain foreign-made batteries, H.R.255, to amend the Disaster Recovery Reform Act of 2018 to develop a study regarding streamlining and consolidating information collection and preliminary damage assessments, H.R.9596, to amend title 41, United States Code, and title 10, United States Code, to provide best value through the multiple award schedule program, H.R.5867, to designate the facility of the United States Postal Service located at 109 Live Oaks Boulevard in Casselberry, Florida, as the \"Colonel Joseph William Kittinger II Post Office Building\", H.R.6162, to designate the facility of the United States Postal Service located at 379 North Oates Street in Dothan, Alabama, as the \"LaBruce 'Bruce' Tidwell Post Office Building\", H.R.6188, to designate the facility of the United States Postal Service located at 420 Highway 17 North in Surfside Beach, South Carolina, as the \"Nancy Yount Childs Post Office Building\", H.R.6633, to designate the facility of the United States Postal Service located at 9355 113th Street in Seminole, Florida, as the \"Army SSG Ryan Christian Knauss Memorial Post Office Building\", H.R.6750, to designate the facility of the United States Postal Service located at 501 Mercer Street Southwest in Wilson, North Carolina, as the \"Milton F. Fitch, Sr. Post Office Building\", H.R.8057, to designate the facility of the United States Postal Service located at 9317 Bolsa Avenue in Westminster, California, as the \"Little Saigon Vietnam War Veterans Memorial Post Office\", and the nominations of Val Butler Demings, of Florida, William Zollars, of Kansas, and Gordon Hartogensis, of Connecticut, each to be a Governor of the United States Postal Service, and James Gr",
+          "type": "Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-11-19T14:30:00Z",
+          "event_id": "336261",
+          "matched_terms": [
+            "dva"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.254, to amend the Omnibus Parks and Public Lands Management Act of 1996 to provide for the establishment of a Ski Area Fee Retention Account, S.373, to modify the disposition of certain outer Continental Shelf revenues and to open Federal financial sharing to heighten opportunities for renewable energy, S.482, to amend the Klamath Basin Water Supply Enhancement Act of 2000 to provide the Secretary of the Interior with certain authorities with respect to projects affecting the Klamath Basin watershed, S.620, to provide for the distribution of certain outer Continental Shelf revenues to the State of Alaska, S.739, to clarify jurisdiction with respect to certain Bureau of Reclamation pumped storage development, S.914, to establish an energy threat analysis center in the Department of Energy, S.1553, to amend the Federal Land Policy and Management Act of 1976 to improve the management of grazing permits and leases, S.1764, to improve Federal activities relating to wildfires, S.2132, to require the Secretary of Agriculture to establish a pilot program for the establishment and use of a pre-fire-suppression stand density index, S.2151, to amend the Southwest Forest Health and Wildlife Prevention Act of 2004 to require the establishment of an additional Institute under that Act, S.2156, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to authorize additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.2160, to amend the Omnibus Public Land Management Act of 2009 to authorize certain extraordinary operation and maintenance work for urban canals of concern, S.2169, to authorize the Secretary of the Interior to carry out watershed pilots, S.2620, to establish the Chesapeake National Recreation Area as a unit of the National Park System, S.2742, to establish the Fort Ontario National Monument in the State of New York as a unit of the National Park System, S.2743, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, S.2784, to amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, S.2867, to address the forest health crisis on the National Forest System and public lands, S.2927, to amend the Omnibus Public Land Management Act of 2009 to increase Tribal access to water conservation and efficiency grants, S.2991, to improve revegetation and carbon sequestration activities in the United States, S.3123, to provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, S.3195, to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, S.3241, to establish the Grand Village of the Natchez Indians and Jefferson College as affiliated areas of the Natchez Historical Park, S.3346, to amend the Wild and Scenic Rivers Act to designate certain streams in the greater Yellowstone ecosystem and Smith River system in the State of Montana as components of the Wild and Scenic Rivers System, S.3474, to redesignate the Hulls Cove Visitor Center at Acadia National Park as the \"George J. Mitchell, Jr., Visitor Center\", S.3534, to authorize the Pines Foundation to establish the Fire Island AIDS Memorial, S.3542, to amend the Atchafalaya National Heritage Area Act to modify the boundary of the Atchafalaya National Heritage Area, S.3543, to establish the Historic Greenwood District-Black Wall Street National Monument in the State of Oklahoma, S.3544, to designate the visitor and education center at Fort McHenry National Monument and Historic Shrine as the \"Paul S. Sarbanes Visitor and Education Center\", S.3593, to provide for economic development and conservation in Washoe County, Nevada, S.3596, to amend the Mineral Leasing Act to amend references of gilsonite to asphaltite, S.3617, to provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, S.3631, to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies, S.3985, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.4016, to amend the Boulder Canyon Project Act to authorize the Secretary of the Interior to expend amounts in the Colorado River Dam fund, S.4129, to contribute funds and artifacts to the Theodore Roosevelt Presidential Library in Medora, North Dakota, S.4164, to authorize the Secretary of the Interior to conduct a special resource study of",
+          "type": "Meeting"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=dva+OR+davita",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "dva",
+          "davita"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "dva"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "davita"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/a7/35/a73574b30e180af0.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035035.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/a7/35/a73574b30e180af0.json"
+  },
+  "transaction": {
+    "action": "Purchase",
+    "amount_range": "$1,001 - $15,000",
+    "disclosure_lag_days": 316,
+    "district": "TX32",
+    "estimated_max": 15000,
+    "estimated_min": 1001,
+    "filed_after_due_date": true,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "issuer_name": "DaVita Inc. Common Stock",
+    "member_name": "Hon. Julie Johnson",
+    "notification_date": "10/07/2025",
+    "owner": "JT",
+    "page": 3,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "DaVita Inc. Common Stock (DVA) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+    "state": "TX",
+    "stock_act_due_date": "2025-11-06",
+    "ticker": "DVA",
+    "transaction_date": "09/23/2025",
+    "transaction_id": "a73574b30e180af0"
+  }
+}

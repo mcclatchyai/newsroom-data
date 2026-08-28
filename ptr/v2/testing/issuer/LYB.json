@@ -1,0 +1,84 @@
+{
+  "issuer": {
+    "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+    "member_count": 1,
+    "ticker": "LYB",
+    "trade_count": 2,
+    "trades": [
+      {
+        "action": "Sale",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 316,
+        "district": "TX32",
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filing_date": "08/05/2026",
+        "filing_id": "20035035",
+        "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+        "market_status": "unavailable",
+        "member_name": "Hon. Julie Johnson",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/65/06/65069d454595200b.json",
+        "publication_ready": false,
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": true,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "TX",
+        "ticker": "LYB",
+        "transaction_date": "09/23/2025",
+        "transaction_id": "65069d454595200b"
+      },
+      {
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 316,
+        "district": "TX32",
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filing_date": "08/05/2026",
+        "filing_id": "20035035",
+        "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+        "market_status": "unavailable",
+        "member_name": "Hon. Julie Johnson",
+        "news_result_count": 0,
+        "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/ae/2c/ae2cfc46b62656b0.json",
+        "publication_ready": false,
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": true,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "state": "TX",
+        "ticker": "LYB",
+        "transaction_date": "09/23/2025",
+        "transaction_id": "ae2cfc46b62656b0"
+      }
+    ]
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/LYB.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  }
+}

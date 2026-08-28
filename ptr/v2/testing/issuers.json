@@ -1,23 +1,310 @@
 {
   "issuers": [
     {
-      "issuer_name": "Washington ST 5% Go Utx Due 08/01/30",
+      "issuer_name": "Agilent Technologies, Inc. Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GS.json",
-      "ticker": "GS",
-      "trade_count": 3
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/A.json",
+      "ticker": "A",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Adobe Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/ADBE.json",
+      "ticker": "ADBE",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Ameren Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AEE.json",
+      "ticker": "AEE",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Alaska Air Group, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/ALK.json",
+      "ticker": "ALK",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "A.O. Smith Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AOS.json",
+      "ticker": "AOS",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Boeing Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/BA.json",
+      "ticker": "BA",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Carrier Global Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CARR.json",
+      "ticker": "CARR",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "The Cigna Group Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CI.json",
+      "ticker": "CI",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Colgate-Palmolive Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CL.json",
+      "ticker": "CL",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "CMS Energy Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CMS.json",
+      "ticker": "CMS",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Deere & Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/DE.json",
+      "ticker": "DE",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Quest Diagnostics Incorporated Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/DGX.json",
+      "ticker": "DGX",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "DaVita Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/DVA.json",
+      "ticker": "DVA",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Equinix, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/EQIX.json",
+      "ticker": "EQIX",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "F5, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/FFIV.json",
+      "ticker": "FFIV",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Fiserv, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/FISV.json",
+      "ticker": "FISV",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Fifth Third Bancorp - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/FITB.json",
+      "ticker": "FITB",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Gen Digital Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GEN.json",
+      "ticker": "GEN",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Honeywell International Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/HON.json",
+      "ticker": "HON",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "International Paper Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/IP.json",
+      "ticker": "IP",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "KeyCorp Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/KEY.json",
+      "ticker": "KEY",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Coca-Cola Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/KO.json",
+      "ticker": "KO",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Kroger Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/KR.json",
+      "ticker": "KR",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/LYB.json",
+      "ticker": "LYB",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MDLZ.json",
+      "ticker": "MDLZ",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Medtronic plc. Ordinary Shares",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MDT.json",
+      "ticker": "MDT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "McCormick & Company, Incorporated Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MKC.json",
+      "ticker": "MKC",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "3M Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MMM.json",
+      "ticker": "MMM",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Monster Beverage Corporation - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MNST.json",
+      "ticker": "MNST",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "ServiceNow, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/NOW.json",
+      "ticker": "NOW",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Paycom Software, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PAYC.json",
+      "ticker": "PAYC",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Paychex, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PAYX.json",
+      "ticker": "PAYX",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Public Service Enterprise Group Incorporated Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PEG.json",
+      "ticker": "PEG",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Pinterest, Inc. Class A Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PINS.json",
+      "ticker": "PINS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Rollins, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/ROL.json",
+      "ticker": "ROL",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "DBA Sempra Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SRE.json",
+      "ticker": "SRE",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Molson Coors Beverage Company Class B Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/TAP.json",
+      "ticker": "TAP",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "UDR, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/UDR.json",
+      "ticker": "UDR",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Verisk Analytics, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/VRSK.json",
+      "ticker": "VRSK",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "VeriSign, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/VRSN.json",
+      "ticker": "VRSN",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "WEC Energy Group, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/WEC.json",
+      "ticker": "WEC",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Weyerhaeuser Company Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/WY.json",
+      "ticker": "WY",
+      "trade_count": 2
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260824T223750Z",
+    "data_version": "20260828T223255Z",
     "environment": "testing",
-    "generated_at": "2026-08-24T22:39:10Z",
+    "generated_at": "2026-08-28T22:34:34Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-08-24T22:54:10Z"
+    "stale_after": "2026-08-28T22:49:34Z"
   }
 }

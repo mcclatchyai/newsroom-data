@@ -1,0 +1,108 @@
+{
+  "context_packet_count": 1,
+  "context_packets": [
+    {
+      "filing_id": "20035136",
+      "issuer_name": "Coca-Cola Company",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "KO",
+      "transaction_id": "fbdf076d368e1095"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 1
+    },
+    "action_counts_json": "{\"Purchase\": 1}",
+    "disclosure_lag_days": 35,
+    "district": "TX37",
+    "estimated_max_total": 15000,
+    "estimated_min_total": 1001,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035136",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "member_name": "Hon. Lloyd Doggett",
+    "pdf_sha256": "447b1fcc6f6bb848d002bd47efeba371f3d8ed51bb33b5a09e750f5e3b52d588",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "KO"
+    ],
+    "tickers_json": "[\"KO\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2026-07-01",
+    "transaction_date_min": "2026-07-01"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035136.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035136.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 35,
+      "district": "TX37",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035136",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Coca-Cola Company",
+      "member_name": "Hon. Lloyd Doggett",
+      "notification_date": "08/05/2026",
+      "owner": "Self",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "$1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-08-15",
+      "ticker": "KO",
+      "transaction_date": "07/01/2026",
+      "transaction_id": "fbdf076d368e1095"
+    }
+  ]
+}

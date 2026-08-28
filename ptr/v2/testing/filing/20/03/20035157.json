@@ -1,0 +1,108 @@
+{
+  "context_packet_count": 1,
+  "context_packets": [
+    {
+      "filing_id": "20035157",
+      "issuer_name": "Pinterest, Inc. Class A Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035157.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PINS",
+      "transaction_id": "b32b3e609ce8b0e8"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Sale": 1
+    },
+    "action_counts_json": "{\"Sale\": 1}",
+    "disclosure_lag_days": 0,
+    "district": "TX18",
+    "estimated_max_total": 50000,
+    "estimated_min_total": 15001,
+    "filing_date": "08/07/2026",
+    "filing_id": "20035157",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "member_name": "Hon. Christian D. Menefee",
+    "pdf_sha256": "7a8c1c6a67bc738d70127ea2fe636e3bc9af7bf172c2d45b65a0db9529e8e312",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035157.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "PINS"
+    ],
+    "tickers_json": "[\"PINS\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2026-08-07",
+    "transaction_date_min": "2026-08-07"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035157.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035157.json"
+  },
+  "transactions": [
+    {
+      "action": "Sale",
+      "amount_range": "$15,001 - $50,000",
+      "disclosure_lag_days": 0,
+      "district": "TX18",
+      "estimated_max": 50000,
+      "estimated_min": 15001,
+      "filed_after_due_date": false,
+      "filing_date": "08/07/2026",
+      "filing_id": "20035157",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Pinterest, Inc. Class A Common Stock",
+      "member_name": "Hon. Christian D. Menefee",
+      "notification_date": "08/07/2026",
+      "owner": "Spouse",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035157.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "S 08/07/2026 08/07/2026 $15,001 - $50,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-09-06",
+      "ticker": "PINS",
+      "transaction_date": "08/07/2026",
+      "transaction_id": "b32b3e609ce8b0e8"
+    }
+  ]
+}

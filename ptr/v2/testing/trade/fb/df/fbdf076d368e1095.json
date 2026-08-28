@@ -1,0 +1,994 @@
+{
+  "context_packet": {
+    "filing_id": "20035136",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "issuer_name": "Coca-Cola Company",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Coca-Cola+Company",
+          "query_payload": {
+            "client_name": "Coca-Cola Company",
+            "page_size": 5
+          },
+          "reason": "lda_api_failed_status_429",
+          "records": [],
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "unavailable"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "D000399",
+            "district": "37",
+            "match_method": "name_state_district",
+            "name": "Lloyd Doggett",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "sec_issuer_identity": {
+          "cik": "0000021344",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "COCA COLA CO",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "KO"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "recipient_autocomplete": {
+              "search_text": "Coca-Cola Company"
+            }
+          },
+          "reason": "recipient_match_not_high_confidence",
+          "recipient_candidates": [
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "COCA-COLA BOTTLING COMPANY UNITED INC",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "COCA-COLA BOTTLING COMPANY UNITED INC",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "THE COCA-COLA COMPANY",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "THE COCA-COLA COMPANY",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "BCI COCA-COLA BOTTLING COMPANY OF LOS ANGELES",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "BCI COCA-COLA BOTTLING COMPANY OF LOS ANGELES",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "COCA-COLA BOTTLING COMPANY HIGH COUNTRY",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "COCA-COLA BOTTLING COMPANY HIGH COUNTRY",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "COCA-COLA BOTTLING COMPANY OF SANTA FE, INC.",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "COCA-COLA BOTTLING COMPANY OF SANTA FE, INC.",
+              "uei": ""
+            }
+          ],
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "ambiguous_recipient"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035136",
+      "issuer": {
+        "name": "Coca-Cola Company",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "KO"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX37",
+        "name": "Hon. Lloyd Doggett",
+        "state": "TX"
+      },
+      "news_context": {
+        "issuer_name": "Coca-Cola Company",
+        "provider": "gdelt_doc_2_0",
+        "query": "(\"Coca-Cola Company\" OR KO)",
+        "reason": "gdelt_request_failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22Coca-Cola+Company%22+OR+KO%29&mode=artlist&format=json&startdatetime=20260617000000&enddatetime=20260919235959&maxrecords=25&sort=DateDesc (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))",
+        "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+        "result_count": 0,
+        "results": [],
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [],
+        "status": "unavailable",
+        "ticker": "KO",
+        "window": {
+          "end_date": "2026-09-19",
+          "start_date": "2026-06-17"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 0,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 4,
+          "matched_terms": [
+            "ko"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [],
+          "public_search_url": "https://www.congress.gov/search?q=ko+OR+coca+OR+cola",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "ko",
+              "coca",
+              "cola"
+            ]
+          },
+          "reason": "no_matching_recent_bills",
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "unavailable"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-08-06T12:30:00Z",
+              "event_id": "338726",
+              "matched_terms": [
+                "ko"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider an original resolution regarding Contempt of Congress, S.2732, to strengthen employee cost savings suggestions programs within the Federal Government, S.2733, to require the Comptroller General of the United States to analyze certain legislation in order to prevent duplication of and overlap with existing Federal programs, offices, and initiatives, S.252, to increase access to agency guidance documents, S.164, to amend chapter 8 of title 5, United States Code, to provide for en bloc consideration in resolutions of disapproval for \"midnight rules\", H.R.5235, to amend title 41, United States Code, to prohibit minimum educational requirements for proposed contractor personnel in certain contract solicitations, S.3175, to establish a pilot program for ZIP Code boundary changes, S.4505, to require the United States Postal Service to designate ZIP Codes for certain communities, S.1735, to require certain agencies to include a page on the website of the agency relating to permit applications, S.5163, to amend title 39, United States Code, to prevent the awarding of bonuses to the Postmaster General and Deputy Postmaster General for a fiscal year in which the United States Postal Service does not meet or exceed each on-time mail delivery target, S.2542, to direct the Director of the Federal Protective Service to establish guidance relating to emergency protocols for buildings, S.3211, to require the Office of Management and Budget to consider revising the Standard Occupational Classification system to establish a separate code for direct support professionals, S.4079, to establish in U.S. Customs and Border Protection a pilot program to adopt dogs from local animal shelters to be trained as support dogs, S.3296, to amend chapter 81 of title 5, United States Code, to cover, for purposes of workers' compensation under such chapter, services by physician assistants and nurse practitioners provided to injured Federal workers, S.388, to amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act with respect to the implementation of building codes, S.3226, to provide for the creation of the missing Armed Forces and civilian personnel Records Collection at the National Archives, to require the expeditious public transmission to the Archivist and public disclosure of missing Armed Forces and civilian personnel records, S.24, to designate the facility of the United States Postal Service located at 154 First Avenue East in Jerome, Idaho, as the \"Representative Maxine Bell Post Office\", S.58, to designate the facility of the United States Postal Service located at 107 North Hoyne Avenue in Fritch, Texas, as the \"Chief Zeb Smith Post Office\", S.829, to designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\", S.917, to designate the facility of the United States Postal Service located at 620 East Pecan Boulevard in McAllen, Texas, as the \"Agent Raul H. Gonzalez Jr. Memorial Post Office\", S.2394, to designate the facility of the United States Postal Service located at 505 East 9th Avenue in Amarillo, Texas, as the \"Mayor Jerry H. Hodge Post Office Building\", S.2432, to designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\", S.3270 and H.R.6310, bills to designate the facility of the United States Postal Service located at 3570 Olney Laytonsville Road in Olney, Maryland, as the \"Edward L. Ramsey Olney Post Office Building\", S.3294 and H.R.6332, bills to designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\", S.3331, to designate the facility of the United States Postal Service located at 50 East 100 North in Moab, Utah, as the \"2nd Lieutenant Mitch Williams Post Office\", S.3373, to designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Duenez Jr. Post Office Building\", S.3444, to designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\", S.3630, to designate the facility of the United States Postal Service located at 46164 Westlake Drive in Sterling, Virginia, as the \"Firefighter Trevor Brown Post Office Building\", S.3835, to designate the facility of the United States Postal Service located at 10 East Main Street in Mahaffey, Pennsylvania, as the \"Robert Allen Bishop, Sr., Post Office Building\", S.4052, to designate the facility of the United States Postal Service located at 203 North Clay Street in Marshfield, Missouri, shall be known and designated as the \"Edwin P. Hubble Post Office\", S.4523, to designate the facility of the United States Postal Service located at 111 Sou",
+              "type": "Open Business Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-07-29T13:30:00Z",
+              "event_id": "338691",
+              "matched_terms": [
+                "ko"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.365 and H.R.1729, bills to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to allow for additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.764, to provide for the designation of certain wilderness areas, recreation management areas, and conservation areas in the State of Colorado, S.791, to establish the Justice Thurgood Marshall National Historic Site in the State of Maryland as an affiliated area of the National Park System, S.888, to designate certain land administered by the Bureau of Land Management and the Forest Service in the State of Oregon as wilderness and national recreation areas, to withdraw certain land located in Curry County and Josephine County, Oregon, from all forms of entry, appropriation, or disposal under the public land laws, location, entry, and patent under the mining laws, and operation under the mineral leasing and geothermal leasing laws, S.945, to amend the Smith River National Recreation Area Act to include certain additions to the Smith River National Recreation Area, to amend the Wild and Scenic Rivers Act to designate certain wild rivers in the State of Oregon, S.1005, to provide for conservation and economic development in the State of Nevada, S.1088, to provide that the memorial to commemorate the sacrifice and service of the women who worked on the home front to support the efforts of the United States military during World War II may be located on the National Mall, S.1195, to promote conservation, improve public land management, and provide for sensible development in Pershing County, Nevada, S.1257, to amend the Infrastructure Investment and Jobs Act to authorize the use of funds for certain additional Carey Act projects, S.1341, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.1349, to withdraw the National Forest System land in the Ruby Mountains subdistrict of the Humboldt-Toiyabe National Forest and the National Wildlife Refuge System land in Ruby Lake National Wildlife Refuge, Elko and White Pine Counties, Nevada, from operation under the mineral leasing laws, S.1476, to amend the Wild and Scenic Rivers Act to designate certain segments of the Gila River system in the State of New Mexico as components of the National Wild and Scenic Rivers System, to provide for the transfer of administrative jurisdiction over certain Federal land in the State of New Mexico, S.1737, to designate and expand wilderness areas in Olympic National Forest in the State of Washington, and to designate certain rivers in Olympic National Forest and Olympic National Park as wild and scenic rivers, S.1777, to amend the California Desert Protection Act of 1994 to expand the boundary of Joshua Tree National Park, to redesignate the Cottonwood Visitor Center at Joshua Tree National Park as the \"Dianne Feinstein Visitor Center\", S.1870, to adjust the boundary of the Santa Monica Mountains National Recreation Area to include the Rim of the Valley Corridor, S.2498, to authorize the Secretary of the Interior to extend certain leases within units of the National Park System without opening the lease to bidding, S.2767 and H.R.5254, bills to authorize the Secretary of the Interior to enter into an agreement with the Gateway Arch Park Foundation to host private events in Gateway Arch National Park buildings, S.2801, to authorize the Secretary of the Interior to conduct a study to assess the suitability and feasibility of designating the Canterbury Shaker Village National Heritage Area, S.2887, to amend the National Trails System Act to designate the Route 66 National Historic Trail, S.2933, to redesignate a playground in the New River Gorge National Park and Preserve in the State of West Virginia as the \"Hearts of Gold Playground: In Honor of West Virginia Children and Families Impacted by Childhood Cancer\", S.2968, to ensure access to certain public land, S.3194, to authorize the Secretary of the Interior to conduct a study to assess the suitability and feasibility of designating certain land in California as the Monterey Bay National Heritage Area, S.3313 and H.R.6365, bills to require the Secretary of the Interior to issue a right-of-way for an emergency exit on certain National Park Service land in the State of Virginia, S.3409, to reaffirm that the Bureau of Reclamation retains exclusive ownership, operational control, and financial responsibility for the Lower Yellowstone Fish Bypass Channel, ensuring long-term conservation of the endangered pallid sturgeon and other native aquatic species in the Yellowstone River while protecting the Lower Yellowstone Irrigation Project and District from undue financial and operational burdens, S.3635 and H.R. 7250, bills to reauthorize the Fort Peck Reservation Rural Water System Act of 2000, S.3715 and H.R.6380, bills to establish the Chiricahua N",
+              "type": "Open Business Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-07-23T14:30:00Z",
+              "event_id": "338678",
+              "matched_terms": [
+                "ko"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider the nominations of Francis Brooke, of Virginia, to be Deputy Secretary, Erin Browne, of New York, to be an Under Secretary, Sriprakash Kothari, of Massachusetts, to be an Assistant Secretary, and George McMaster, of South Carolina, to be an Assistant Secretary, all of the Department of the Treasury.",
+              "type": "Open Business Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-11-19T14:30:00Z",
+              "event_id": "336261",
+              "matched_terms": [
+                "ko"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.254, to amend the Omnibus Parks and Public Lands Management Act of 1996 to provide for the establishment of a Ski Area Fee Retention Account, S.373, to modify the disposition of certain outer Continental Shelf revenues and to open Federal financial sharing to heighten opportunities for renewable energy, S.482, to amend the Klamath Basin Water Supply Enhancement Act of 2000 to provide the Secretary of the Interior with certain authorities with respect to projects affecting the Klamath Basin watershed, S.620, to provide for the distribution of certain outer Continental Shelf revenues to the State of Alaska, S.739, to clarify jurisdiction with respect to certain Bureau of Reclamation pumped storage development, S.914, to establish an energy threat analysis center in the Department of Energy, S.1553, to amend the Federal Land Policy and Management Act of 1976 to improve the management of grazing permits and leases, S.1764, to improve Federal activities relating to wildfires, S.2132, to require the Secretary of Agriculture to establish a pilot program for the establishment and use of a pre-fire-suppression stand density index, S.2151, to amend the Southwest Forest Health and Wildlife Prevention Act of 2004 to require the establishment of an additional Institute under that Act, S.2156, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to authorize additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.2160, to amend the Omnibus Public Land Management Act of 2009 to authorize certain extraordinary operation and maintenance work for urban canals of concern, S.2169, to authorize the Secretary of the Interior to carry out watershed pilots, S.2620, to establish the Chesapeake National Recreation Area as a unit of the National Park System, S.2742, to establish the Fort Ontario National Monument in the State of New York as a unit of the National Park System, S.2743, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, S.2784, to amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, S.2867, to address the forest health crisis on the National Forest System and public lands, S.2927, to amend the Omnibus Public Land Management Act of 2009 to increase Tribal access to water conservation and efficiency grants, S.2991, to improve revegetation and carbon sequestration activities in the United States, S.3123, to provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, S.3195, to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, S.3241, to establish the Grand Village of the Natchez Indians and Jefferson College as affiliated areas of the Natchez Historical Park, S.3346, to amend the Wild and Scenic Rivers Act to designate certain streams in the greater Yellowstone ecosystem and Smith River system in the State of Montana as components of the Wild and Scenic Rivers System, S.3474, to redesignate the Hulls Cove Visitor Center at Acadia National Park as the \"George J. Mitchell, Jr., Visitor Center\", S.3534, to authorize the Pines Foundation to establish the Fire Island AIDS Memorial, S.3542, to amend the Atchafalaya National Heritage Area Act to modify the boundary of the Atchafalaya National Heritage Area, S.3543, to establish the Historic Greenwood District-Black Wall Street National Monument in the State of Oklahoma, S.3544, to designate the visitor and education center at Fort McHenry National Monument and Historic Shrine as the \"Paul S. Sarbanes Visitor and Education Center\", S.3593, to provide for economic development and conservation in Washoe County, Nevada, S.3596, to amend the Mineral Leasing Act to amend references of gilsonite to asphaltite, S.3617, to provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, S.3631, to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies, S.3985, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.4016, to amend the Boulder Canyon Project Act to authorize the Secretary of the Interior to expend amounts in the Colorado River Dam fund, S.4129, to contribute funds and artifacts to the Theodore Roosevelt Presidential Library in Medora, North Dakota, S.4164, to authorize the Secretary of the Interior to conduct a special resource study of",
+              "type": "Meeting"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=ko+OR+coca+OR+cola",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "ko",
+              "coca",
+              "cola"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "ko"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "coca"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "cola"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 35,
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filed_after_due_date": false,
+        "filing_date": "08/05/2026",
+        "notification_date": "08/05/2026",
+        "owner": "Self",
+        "page": 1,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf",
+        "source_quote": "$1,001 - $15,000",
+        "stock_act_due_date": "2026-08-15",
+        "transaction_date": "07/01/2026"
+      },
+      "transaction_id": "fbdf076d368e1095"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "KO",
+    "transaction_id": "fbdf076d368e1095"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Coca-Cola+Company",
+      "query_payload": {
+        "client_name": "Coca-Cola Company",
+        "page_size": 5
+      },
+      "reason": "lda_api_failed_status_429",
+      "records": [],
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "unavailable"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "D000399",
+        "district": "37",
+        "match_method": "name_state_district",
+        "name": "Lloyd Doggett",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "sec_issuer_identity": {
+      "cik": "0000021344",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "COCA COLA CO",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "KO"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "recipient_autocomplete": {
+          "search_text": "Coca-Cola Company"
+        }
+      },
+      "reason": "recipient_match_not_high_confidence",
+      "recipient_candidates": [
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "COCA-COLA BOTTLING COMPANY UNITED INC",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "COCA-COLA BOTTLING COMPANY UNITED INC",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "THE COCA-COLA COMPANY",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "THE COCA-COLA COMPANY",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "BCI COCA-COLA BOTTLING COMPANY OF LOS ANGELES",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "BCI COCA-COLA BOTTLING COMPANY OF LOS ANGELES",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "COCA-COLA BOTTLING COMPANY HIGH COUNTRY",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "COCA-COLA BOTTLING COMPANY HIGH COUNTRY",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "COCA-COLA BOTTLING COMPANY OF SANTA FE, INC.",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "COCA-COLA BOTTLING COMPANY OF SANTA FE, INC.",
+          "uei": ""
+        }
+      ],
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "ambiguous_recipient"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Purchase": 1
+    },
+    "action_counts_json": "{\"Purchase\": 1}",
+    "disclosure_lag_days": 35,
+    "district": "TX37",
+    "estimated_max_total": 15000,
+    "estimated_min_total": 1001,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035136",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "member_name": "Hon. Lloyd Doggett",
+    "pdf_sha256": "447b1fcc6f6bb848d002bd47efeba371f3d8ed51bb33b5a09e750f5e3b52d588",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "KO"
+    ],
+    "tickers_json": "[\"KO\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2026-07-01",
+    "transaction_date_min": "2026-07-01"
+  },
+  "insight_candidate": {
+    "action": "Purchase",
+    "action_type": "purchase",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Lloyd Doggett's KO purchase",
+      "lede": "Hon. Lloyd Doggett reported a purchase of Coca-Cola Company (KO) through Self on Jul 1, 2026, according to a periodic transaction report filed Aug 5, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "No ranked company-news links are available for this transaction.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 35.0,
+    "district": "TX37",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "08/05/2026",
+    "filing_id": "20035136",
+    "grounded_summary": "Hon. Lloyd Doggett reported a purchase of Coca-Cola Company (KO) through Self on Jul 1, 2026, according to a periodic transaction report filed Aug 5, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Lloyd Doggett's KO purchase",
+    "issuer_name": "Coca-Cola Company",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Lloyd Doggett",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Coca-Cola Company\" OR KO)",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
+      "window": {
+        "end_date": "2026-09-19",
+        "start_date": "2026-06-17"
+      }
+    },
+    "owner": "Self",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 3,
+    "score_reasons": [
+      "Congress.gov hearing context was found",
+      "disclosure lag was at least 30 days"
+    ],
+    "slug": "hon-lloyd-doggett-ko-purchase-07-01-2026-fbdf076d368e1095",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "state": "TX",
+    "status": "low_priority",
+    "ticker": "KO",
+    "trade_date": "07/01/2026",
+    "transaction_id": "fbdf076d368e1095"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for KO: status=429",
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "KO"
+  },
+  "news_context": {
+    "issuer_name": "Coca-Cola Company",
+    "provider": "gdelt_doc_2_0",
+    "query": "(\"Coca-Cola Company\" OR KO)",
+    "reason": "gdelt_request_failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22Coca-Cola+Company%22+OR+KO%29&mode=artlist&format=json&startdatetime=20260617000000&enddatetime=20260919235959&maxrecords=25&sort=DateDesc (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))",
+    "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+    "result_count": 0,
+    "results": [],
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [],
+    "status": "unavailable",
+    "ticker": "KO",
+    "window": {
+      "end_date": "2026-09-19",
+      "start_date": "2026-06-17"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 0,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 4,
+      "matched_terms": [
+        "ko"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [],
+      "public_search_url": "https://www.congress.gov/search?q=ko+OR+coca+OR+cola",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "ko",
+          "coca",
+          "cola"
+        ]
+      },
+      "reason": "no_matching_recent_bills",
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "unavailable"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-08-06T12:30:00Z",
+          "event_id": "338726",
+          "matched_terms": [
+            "ko"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider an original resolution regarding Contempt of Congress, S.2732, to strengthen employee cost savings suggestions programs within the Federal Government, S.2733, to require the Comptroller General of the United States to analyze certain legislation in order to prevent duplication of and overlap with existing Federal programs, offices, and initiatives, S.252, to increase access to agency guidance documents, S.164, to amend chapter 8 of title 5, United States Code, to provide for en bloc consideration in resolutions of disapproval for \"midnight rules\", H.R.5235, to amend title 41, United States Code, to prohibit minimum educational requirements for proposed contractor personnel in certain contract solicitations, S.3175, to establish a pilot program for ZIP Code boundary changes, S.4505, to require the United States Postal Service to designate ZIP Codes for certain communities, S.1735, to require certain agencies to include a page on the website of the agency relating to permit applications, S.5163, to amend title 39, United States Code, to prevent the awarding of bonuses to the Postmaster General and Deputy Postmaster General for a fiscal year in which the United States Postal Service does not meet or exceed each on-time mail delivery target, S.2542, to direct the Director of the Federal Protective Service to establish guidance relating to emergency protocols for buildings, S.3211, to require the Office of Management and Budget to consider revising the Standard Occupational Classification system to establish a separate code for direct support professionals, S.4079, to establish in U.S. Customs and Border Protection a pilot program to adopt dogs from local animal shelters to be trained as support dogs, S.3296, to amend chapter 81 of title 5, United States Code, to cover, for purposes of workers' compensation under such chapter, services by physician assistants and nurse practitioners provided to injured Federal workers, S.388, to amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act with respect to the implementation of building codes, S.3226, to provide for the creation of the missing Armed Forces and civilian personnel Records Collection at the National Archives, to require the expeditious public transmission to the Archivist and public disclosure of missing Armed Forces and civilian personnel records, S.24, to designate the facility of the United States Postal Service located at 154 First Avenue East in Jerome, Idaho, as the \"Representative Maxine Bell Post Office\", S.58, to designate the facility of the United States Postal Service located at 107 North Hoyne Avenue in Fritch, Texas, as the \"Chief Zeb Smith Post Office\", S.829, to designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\", S.917, to designate the facility of the United States Postal Service located at 620 East Pecan Boulevard in McAllen, Texas, as the \"Agent Raul H. Gonzalez Jr. Memorial Post Office\", S.2394, to designate the facility of the United States Postal Service located at 505 East 9th Avenue in Amarillo, Texas, as the \"Mayor Jerry H. Hodge Post Office Building\", S.2432, to designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\", S.3270 and H.R.6310, bills to designate the facility of the United States Postal Service located at 3570 Olney Laytonsville Road in Olney, Maryland, as the \"Edward L. Ramsey Olney Post Office Building\", S.3294 and H.R.6332, bills to designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\", S.3331, to designate the facility of the United States Postal Service located at 50 East 100 North in Moab, Utah, as the \"2nd Lieutenant Mitch Williams Post Office\", S.3373, to designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Duenez Jr. Post Office Building\", S.3444, to designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\", S.3630, to designate the facility of the United States Postal Service located at 46164 Westlake Drive in Sterling, Virginia, as the \"Firefighter Trevor Brown Post Office Building\", S.3835, to designate the facility of the United States Postal Service located at 10 East Main Street in Mahaffey, Pennsylvania, as the \"Robert Allen Bishop, Sr., Post Office Building\", S.4052, to designate the facility of the United States Postal Service located at 203 North Clay Street in Marshfield, Missouri, shall be known and designated as the \"Edwin P. Hubble Post Office\", S.4523, to designate the facility of the United States Postal Service located at 111 Sou",
+          "type": "Open Business Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-07-29T13:30:00Z",
+          "event_id": "338691",
+          "matched_terms": [
+            "ko"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.365 and H.R.1729, bills to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to allow for additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.764, to provide for the designation of certain wilderness areas, recreation management areas, and conservation areas in the State of Colorado, S.791, to establish the Justice Thurgood Marshall National Historic Site in the State of Maryland as an affiliated area of the National Park System, S.888, to designate certain land administered by the Bureau of Land Management and the Forest Service in the State of Oregon as wilderness and national recreation areas, to withdraw certain land located in Curry County and Josephine County, Oregon, from all forms of entry, appropriation, or disposal under the public land laws, location, entry, and patent under the mining laws, and operation under the mineral leasing and geothermal leasing laws, S.945, to amend the Smith River National Recreation Area Act to include certain additions to the Smith River National Recreation Area, to amend the Wild and Scenic Rivers Act to designate certain wild rivers in the State of Oregon, S.1005, to provide for conservation and economic development in the State of Nevada, S.1088, to provide that the memorial to commemorate the sacrifice and service of the women who worked on the home front to support the efforts of the United States military during World War II may be located on the National Mall, S.1195, to promote conservation, improve public land management, and provide for sensible development in Pershing County, Nevada, S.1257, to amend the Infrastructure Investment and Jobs Act to authorize the use of funds for certain additional Carey Act projects, S.1341, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.1349, to withdraw the National Forest System land in the Ruby Mountains subdistrict of the Humboldt-Toiyabe National Forest and the National Wildlife Refuge System land in Ruby Lake National Wildlife Refuge, Elko and White Pine Counties, Nevada, from operation under the mineral leasing laws, S.1476, to amend the Wild and Scenic Rivers Act to designate certain segments of the Gila River system in the State of New Mexico as components of the National Wild and Scenic Rivers System, to provide for the transfer of administrative jurisdiction over certain Federal land in the State of New Mexico, S.1737, to designate and expand wilderness areas in Olympic National Forest in the State of Washington, and to designate certain rivers in Olympic National Forest and Olympic National Park as wild and scenic rivers, S.1777, to amend the California Desert Protection Act of 1994 to expand the boundary of Joshua Tree National Park, to redesignate the Cottonwood Visitor Center at Joshua Tree National Park as the \"Dianne Feinstein Visitor Center\", S.1870, to adjust the boundary of the Santa Monica Mountains National Recreation Area to include the Rim of the Valley Corridor, S.2498, to authorize the Secretary of the Interior to extend certain leases within units of the National Park System without opening the lease to bidding, S.2767 and H.R.5254, bills to authorize the Secretary of the Interior to enter into an agreement with the Gateway Arch Park Foundation to host private events in Gateway Arch National Park buildings, S.2801, to authorize the Secretary of the Interior to conduct a study to assess the suitability and feasibility of designating the Canterbury Shaker Village National Heritage Area, S.2887, to amend the National Trails System Act to designate the Route 66 National Historic Trail, S.2933, to redesignate a playground in the New River Gorge National Park and Preserve in the State of West Virginia as the \"Hearts of Gold Playground: In Honor of West Virginia Children and Families Impacted by Childhood Cancer\", S.2968, to ensure access to certain public land, S.3194, to authorize the Secretary of the Interior to conduct a study to assess the suitability and feasibility of designating certain land in California as the Monterey Bay National Heritage Area, S.3313 and H.R.6365, bills to require the Secretary of the Interior to issue a right-of-way for an emergency exit on certain National Park Service land in the State of Virginia, S.3409, to reaffirm that the Bureau of Reclamation retains exclusive ownership, operational control, and financial responsibility for the Lower Yellowstone Fish Bypass Channel, ensuring long-term conservation of the endangered pallid sturgeon and other native aquatic species in the Yellowstone River while protecting the Lower Yellowstone Irrigation Project and District from undue financial and operational burdens, S.3635 and H.R. 7250, bills to reauthorize the Fort Peck Reservation Rural Water System Act of 2000, S.3715 and H.R.6380, bills to establish the Chiricahua N",
+          "type": "Open Business Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-07-23T14:30:00Z",
+          "event_id": "338678",
+          "matched_terms": [
+            "ko"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider the nominations of Francis Brooke, of Virginia, to be Deputy Secretary, Erin Browne, of New York, to be an Under Secretary, Sriprakash Kothari, of Massachusetts, to be an Assistant Secretary, and George McMaster, of South Carolina, to be an Assistant Secretary, all of the Department of the Treasury.",
+          "type": "Open Business Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-11-19T14:30:00Z",
+          "event_id": "336261",
+          "matched_terms": [
+            "ko"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.254, to amend the Omnibus Parks and Public Lands Management Act of 1996 to provide for the establishment of a Ski Area Fee Retention Account, S.373, to modify the disposition of certain outer Continental Shelf revenues and to open Federal financial sharing to heighten opportunities for renewable energy, S.482, to amend the Klamath Basin Water Supply Enhancement Act of 2000 to provide the Secretary of the Interior with certain authorities with respect to projects affecting the Klamath Basin watershed, S.620, to provide for the distribution of certain outer Continental Shelf revenues to the State of Alaska, S.739, to clarify jurisdiction with respect to certain Bureau of Reclamation pumped storage development, S.914, to establish an energy threat analysis center in the Department of Energy, S.1553, to amend the Federal Land Policy and Management Act of 1976 to improve the management of grazing permits and leases, S.1764, to improve Federal activities relating to wildfires, S.2132, to require the Secretary of Agriculture to establish a pilot program for the establishment and use of a pre-fire-suppression stand density index, S.2151, to amend the Southwest Forest Health and Wildlife Prevention Act of 2004 to require the establishment of an additional Institute under that Act, S.2156, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to authorize additional entities to be eligible to complete the maintenance work on Bolts Ditch and the Bolts Ditch Headgate within the Holy Cross Wilderness, Colorado, S.2160, to amend the Omnibus Public Land Management Act of 2009 to authorize certain extraordinary operation and maintenance work for urban canals of concern, S.2169, to authorize the Secretary of the Interior to carry out watershed pilots, S.2620, to establish the Chesapeake National Recreation Area as a unit of the National Park System, S.2742, to establish the Fort Ontario National Monument in the State of New York as a unit of the National Park System, S.2743, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, S.2784, to amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, S.2867, to address the forest health crisis on the National Forest System and public lands, S.2927, to amend the Omnibus Public Land Management Act of 2009 to increase Tribal access to water conservation and efficiency grants, S.2991, to improve revegetation and carbon sequestration activities in the United States, S.3123, to provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, S.3195, to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, S.3241, to establish the Grand Village of the Natchez Indians and Jefferson College as affiliated areas of the Natchez Historical Park, S.3346, to amend the Wild and Scenic Rivers Act to designate certain streams in the greater Yellowstone ecosystem and Smith River system in the State of Montana as components of the Wild and Scenic Rivers System, S.3474, to redesignate the Hulls Cove Visitor Center at Acadia National Park as the \"George J. Mitchell, Jr., Visitor Center\", S.3534, to authorize the Pines Foundation to establish the Fire Island AIDS Memorial, S.3542, to amend the Atchafalaya National Heritage Area Act to modify the boundary of the Atchafalaya National Heritage Area, S.3543, to establish the Historic Greenwood District-Black Wall Street National Monument in the State of Oklahoma, S.3544, to designate the visitor and education center at Fort McHenry National Monument and Historic Shrine as the \"Paul S. Sarbanes Visitor and Education Center\", S.3593, to provide for economic development and conservation in Washoe County, Nevada, S.3596, to amend the Mineral Leasing Act to amend references of gilsonite to asphaltite, S.3617, to provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, S.3631, to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies, S.3985, to amend the Colorado Wilderness Act of 1993 to add certain land to the Sarvis Creek Wilderness, S.4016, to amend the Boulder Canyon Project Act to authorize the Secretary of the Interior to expend amounts in the Colorado River Dam fund, S.4129, to contribute funds and artifacts to the Theodore Roosevelt Presidential Library in Medora, North Dakota, S.4164, to authorize the Secretary of the Interior to conduct a special resource study of",
+          "type": "Meeting"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=ko+OR+coca+OR+cola",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "ko",
+          "coca",
+          "cola"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "ko"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "coca"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "cola"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/fb/df/fbdf076d368e1095.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035136.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/fb/df/fbdf076d368e1095.json"
+  },
+  "transaction": {
+    "action": "Purchase",
+    "amount_range": "$1,001 - $15,000",
+    "disclosure_lag_days": 35,
+    "district": "TX37",
+    "estimated_max": 15000,
+    "estimated_min": 1001,
+    "filed_after_due_date": false,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035136",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "issuer_name": "Coca-Cola Company",
+    "member_name": "Hon. Lloyd Doggett",
+    "notification_date": "08/05/2026",
+    "owner": "Self",
+    "page": 1,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "$1,001 - $15,000",
+    "state": "TX",
+    "stock_act_due_date": "2026-08-15",
+    "ticker": "KO",
+    "transaction_date": "07/01/2026",
+    "transaction_id": "fbdf076d368e1095"
+  }
+}

@@ -1,0 +1,1071 @@
+{
+  "context_packet": {
+    "filing_id": "20035035",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "issuer_name": "VeriSign, Inc. - Common Stock",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=VeriSign%2C+Inc.+-+Common+Stock",
+          "query_payload": {
+            "client_name": "VeriSign, Inc. - Common Stock",
+            "page_size": 5
+          },
+          "reason": "lda_api_failed_status_429",
+          "records": [],
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "unavailable"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "J000310",
+            "district": "32",
+            "match_method": "name_state_district",
+            "name": "Julie Johnson",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "sec_issuer_identity": {
+          "cik": "0001014473",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "VERISIGN INC/CA",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "VRSN"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "search_text": "VeriSign, Inc. - Common Stock"
+          },
+          "reason": "no_recipient_candidates",
+          "recipient_candidates": [],
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "unavailable"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035035",
+      "issuer": {
+        "name": "VeriSign, Inc. - Common Stock",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "VRSN"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX32",
+        "name": "Hon. Julie Johnson",
+        "state": "TX"
+      },
+      "news_context": {
+        "issuer_name": "VeriSign, Inc. - Common Stock",
+        "provider": "gdelt_doc_2_0",
+        "query": "(\"VeriSign Inc\" OR VRSN)",
+        "reason": "gdelt_request_failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22VeriSign+Inc%22+OR+VRSN%29&mode=artlist&format=json&startdatetime=20250919000000&enddatetime=20260919235959&maxrecords=25&sort=DateDesc (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))",
+        "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+        "result_count": 0,
+        "results": [],
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [],
+        "status": "unavailable",
+        "ticker": "VRSN",
+        "window": {
+          "end_date": "2026-09-19",
+          "start_date": "2025-09-19"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 5,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 5,
+          "matched_terms": [
+            "ca"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/s/3018?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018",
+              "latest_action_date": "2026-07-27",
+              "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+              "matched_terms": [
+                "ca"
+              ],
+              "number": "3018",
+              "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+              "type": "S"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hr/5744?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5744",
+              "latest_action_date": "2025-10-10",
+              "latest_action_text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+              "matched_terms": [
+                "ca"
+              ],
+              "number": "5744",
+              "title": "Targeting Online Sales of Fentanyl Act",
+              "type": "HR"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
+              "latest_action_date": "2025-12-11",
+              "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+              "matched_terms": [
+                "ca"
+              ],
+              "number": "542",
+              "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
+              "type": "SRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hr/5622?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5622",
+              "latest_action_date": "2025-09-30",
+              "latest_action_text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Science, Space, and Technology, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+              "matched_terms": [
+                "ca"
+              ],
+              "number": "5622",
+              "title": "National Gun Violence Research Act of 2025",
+              "type": "HR"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hres/342?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/342",
+              "latest_action_date": "2025-04-21",
+              "latest_action_text": "Referred to the House Committee on Energy and Commerce.",
+              "matched_terms": [
+                "ca"
+              ],
+              "number": "342",
+              "title": "Recognizing the history of the drug diethylstilbestrol and the harm it has caused, and for other purposes.",
+              "type": "HRES"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=vrsn+OR+verisign+OR+ca",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "vrsn",
+              "verisign",
+              "ca"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-02T14:00:00Z",
+              "event_id": "119522",
+              "matched_terms": [
+                "ca"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Strengthening the American Economy: Promoting Growth, Opportunity, and Prosperity",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-02T14:00:00Z",
+              "event_id": "119527",
+              "matched_terms": [
+                "ca"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "“No Flame, More Pain: How State and Local Bans on Natural Gas Increase Costs”",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-07-15T14:15:00Z",
+              "event_id": "119464",
+              "matched_terms": [
+                "ca"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "H.R. 9607, \"Less Bureaucracy, Better Workforce Development Act\"; H.R. 9609, \"Less Bureaucracy, Better Student Aid Act\"; H.R. 9602, \"Less Bureaucracy, Better International Foreign Gift Transparency Act\"; H.R. 9603, \"Less Bureaucracy, Better International Education Oversight Act\"; H.R. 9605, \"Less Bureaucracy, Better Foreign Medical Accreditation Act\"; H.R. 9606, \"Less Bureaucracy, Better Child Care for Student Parents Act\"; H.R. 9611, \"Less Bureaucracy, Better Higher Education Act\"; H.R. 9610, \"Less Bureaucracy, Better K-12 Education Act\"; H.R. 9608, \"Less Bureaucracy, Better Family Engagement Act\"; H.R. 9604, \"Less Bureaucracy, Better Tribal Education Act\"",
+              "type": "Markup"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-01T14:15:00Z",
+              "event_id": "119514",
+              "matched_terms": [
+                "ca"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "“Supporting Working Families: State-Led Child Care Solutions”",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-08-31T20:00:00Z",
+              "event_id": "118857",
+              "matched_terms": [
+                "ca"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "H.R. 9436 – To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulation concerning the North Atlantic right whale are effective. [Northeast Lobsterman Protection Act of 2026]; H.R. 4795 – \tProtect Economic and Academic Freedom Act of 2026; H.R. 1501 – Protecting Domestic Mining Act of 2025; H. Res. 1490 – \tProviding for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+              "type": "Meeting"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=vrsn+OR+verisign+OR+ca",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "vrsn",
+              "verisign",
+              "ca"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-08-28T22:23:29Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "vrsn"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "verisign"
+          },
+          {
+            "confidence": 0.6,
+            "source": "sec_identity",
+            "term": "ca"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-08-28T22:23:29Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 306,
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filed_after_due_date": true,
+        "filing_date": "08/05/2026",
+        "notification_date": "11/06/2025",
+        "owner": "JT",
+        "page": 9,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+        "source_quote": "VeriSign, Inc. - Common Stock (VRSN) [ST] P 10/03/2025 11/06/2025 $1,001 - $15,000",
+        "stock_act_due_date": "2025-11-17",
+        "transaction_date": "10/03/2025"
+      },
+      "transaction_id": "957a42ef94aa771d"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "VRSN",
+    "transaction_id": "957a42ef94aa771d"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=VeriSign%2C+Inc.+-+Common+Stock",
+      "query_payload": {
+        "client_name": "VeriSign, Inc. - Common Stock",
+        "page_size": 5
+      },
+      "reason": "lda_api_failed_status_429",
+      "records": [],
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "unavailable"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "J000310",
+        "district": "32",
+        "match_method": "name_state_district",
+        "name": "Julie Johnson",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "sec_issuer_identity": {
+      "cik": "0001014473",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "VERISIGN INC/CA",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "VRSN"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "search_text": "VeriSign, Inc. - Common Stock"
+      },
+      "reason": "no_recipient_candidates",
+      "recipient_candidates": [],
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "unavailable"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Exchange": 1,
+      "Purchase": 38,
+      "S (partial)": 1,
+      "Sale": 37
+    },
+    "action_counts_json": "{\"Exchange\": 1, \"Purchase\": 38, \"S (partial)\": 1, \"Sale\": 37}",
+    "disclosure_lag_days": 508,
+    "district": "TX32",
+    "estimated_max_total": 1155000,
+    "estimated_min_total": 77077,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "member_name": "Hon. Julie Johnson",
+    "pdf_sha256": "820c98c17ead952abd59efc0db0fe973124f3584fff03cb5777dc02f1a96ca90",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+    "possible_late": true,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "MMM",
+      "AOS",
+      "ADBE",
+      "A",
+      "ALK",
+      "AEE",
+      "BA",
+      "CARR",
+      "CMS",
+      "CL",
+      "DVA",
+      "SRE",
+      "DE",
+      "EQIX",
+      "FFIV",
+      "FITB",
+      "FISV",
+      "GEN",
+      "HON",
+      "IP",
+      "KEY",
+      "KR",
+      "LYB",
+      "MKC",
+      "MDT",
+      "TAP",
+      "MDLZ",
+      "MNST",
+      "PAYX",
+      "PAYC",
+      "PEG",
+      "DGX",
+      "ROL",
+      "NOW",
+      "CI",
+      "UDR",
+      "VRSN",
+      "VRSK",
+      "WEC",
+      "WY"
+    ],
+    "tickers_json": "[\"MMM\", \"AOS\", \"ADBE\", \"A\", \"ALK\", \"AEE\", \"BA\", \"CARR\", \"CMS\", \"CL\", \"DVA\", \"SRE\", \"DE\", \"EQIX\", \"FFIV\", \"FITB\", \"FISV\", \"GEN\", \"HON\", \"IP\", \"KEY\", \"KR\", \"LYB\", \"MKC\", \"MDT\", \"TAP\", \"MDLZ\", \"MNST\", \"PAYX\", \"PAYC\", \"PEG\", \"DGX\", \"ROL\", \"NOW\", \"CI\", \"UDR\", \"VRSN\", \"VRSK\", \"WEC\", \"WY\"]",
+    "transaction_count": 77,
+    "transaction_date_max": "2026-02-02",
+    "transaction_date_min": "2025-03-15"
+  },
+  "insight_candidate": {
+    "action": "Purchase",
+    "action_type": "purchase",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Julie Johnson's VRSN purchase",
+      "lede": "Hon. Julie Johnson reported a purchase of VeriSign, Inc (VRSN) through JT on Oct 3, 2025, according to a periodic transaction report filed Aug 5, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "No ranked company-news links are available for this transaction.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported purchase; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 306.0,
+    "district": "TX32",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "grounded_summary": "Hon. Julie Johnson reported a purchase of VeriSign, Inc (VRSN) through JT on Oct 3, 2025, according to a periodic transaction report filed Aug 5, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Julie Johnson's VRSN purchase",
+    "issuer_name": "VeriSign, Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Julie Johnson",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"VeriSign Inc\" OR VRSN)",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
+      "window": {
+        "end_date": "2026-09-19",
+        "start_date": "2025-09-19"
+      }
+    },
+    "owner": "JT",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 5,
+    "score_reasons": [
+      "Congress.gov bill context was found",
+      "Congress.gov hearing context was found",
+      "disclosure lag was at least 30 days"
+    ],
+    "slug": "hon-julie-johnson-vrsn-purchase-10-03-2025-957a42ef94aa771d",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "VRSN",
+    "trade_date": "10/03/2025",
+    "transaction_id": "957a42ef94aa771d"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for VRSN: status=429",
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "VRSN"
+  },
+  "news_context": {
+    "issuer_name": "VeriSign, Inc. - Common Stock",
+    "provider": "gdelt_doc_2_0",
+    "query": "(\"VeriSign Inc\" OR VRSN)",
+    "reason": "gdelt_request_failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22VeriSign+Inc%22+OR+VRSN%29&mode=artlist&format=json&startdatetime=20250919000000&enddatetime=20260919235959&maxrecords=25&sort=DateDesc (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))",
+    "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+    "result_count": 0,
+    "results": [],
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [],
+    "status": "unavailable",
+    "ticker": "VRSN",
+    "window": {
+      "end_date": "2026-09-19",
+      "start_date": "2025-09-19"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 5,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 5,
+      "matched_terms": [
+        "ca"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/s/3018?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018",
+          "latest_action_date": "2026-07-27",
+          "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+          "matched_terms": [
+            "ca"
+          ],
+          "number": "3018",
+          "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+          "type": "S"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hr/5744?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5744",
+          "latest_action_date": "2025-10-10",
+          "latest_action_text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "matched_terms": [
+            "ca"
+          ],
+          "number": "5744",
+          "title": "Targeting Online Sales of Fentanyl Act",
+          "type": "HR"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
+          "latest_action_date": "2025-12-11",
+          "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+          "matched_terms": [
+            "ca"
+          ],
+          "number": "542",
+          "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
+          "type": "SRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hr/5622?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5622",
+          "latest_action_date": "2025-09-30",
+          "latest_action_text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Science, Space, and Technology, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "matched_terms": [
+            "ca"
+          ],
+          "number": "5622",
+          "title": "National Gun Violence Research Act of 2025",
+          "type": "HR"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hres/342?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/342",
+          "latest_action_date": "2025-04-21",
+          "latest_action_text": "Referred to the House Committee on Energy and Commerce.",
+          "matched_terms": [
+            "ca"
+          ],
+          "number": "342",
+          "title": "Recognizing the history of the drug diethylstilbestrol and the harm it has caused, and for other purposes.",
+          "type": "HRES"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=vrsn+OR+verisign+OR+ca",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "vrsn",
+          "verisign",
+          "ca"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-02T14:00:00Z",
+          "event_id": "119522",
+          "matched_terms": [
+            "ca"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Strengthening the American Economy: Promoting Growth, Opportunity, and Prosperity",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-02T14:00:00Z",
+          "event_id": "119527",
+          "matched_terms": [
+            "ca"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "“No Flame, More Pain: How State and Local Bans on Natural Gas Increase Costs”",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-07-15T14:15:00Z",
+          "event_id": "119464",
+          "matched_terms": [
+            "ca"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "H.R. 9607, \"Less Bureaucracy, Better Workforce Development Act\"; H.R. 9609, \"Less Bureaucracy, Better Student Aid Act\"; H.R. 9602, \"Less Bureaucracy, Better International Foreign Gift Transparency Act\"; H.R. 9603, \"Less Bureaucracy, Better International Education Oversight Act\"; H.R. 9605, \"Less Bureaucracy, Better Foreign Medical Accreditation Act\"; H.R. 9606, \"Less Bureaucracy, Better Child Care for Student Parents Act\"; H.R. 9611, \"Less Bureaucracy, Better Higher Education Act\"; H.R. 9610, \"Less Bureaucracy, Better K-12 Education Act\"; H.R. 9608, \"Less Bureaucracy, Better Family Engagement Act\"; H.R. 9604, \"Less Bureaucracy, Better Tribal Education Act\"",
+          "type": "Markup"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-01T14:15:00Z",
+          "event_id": "119514",
+          "matched_terms": [
+            "ca"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "“Supporting Working Families: State-Led Child Care Solutions”",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-08-31T20:00:00Z",
+          "event_id": "118857",
+          "matched_terms": [
+            "ca"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "H.R. 9436 – To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulation concerning the North Atlantic right whale are effective. [Northeast Lobsterman Protection Act of 2026]; H.R. 4795 – \tProtect Economic and Academic Freedom Act of 2026; H.R. 1501 – Protecting Domestic Mining Act of 2025; H. Res. 1490 – \tProviding for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+          "type": "Meeting"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=vrsn+OR+verisign+OR+ca",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "vrsn",
+          "verisign",
+          "ca"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-08-28T22:23:29Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "vrsn"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "verisign"
+      },
+      {
+        "confidence": 0.6,
+        "source": "sec_identity",
+        "term": "ca"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-08-28T22:23:29Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/95/7a/957a42ef94aa771d.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035035.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/95/7a/957a42ef94aa771d.json"
+  },
+  "transaction": {
+    "action": "Purchase",
+    "amount_range": "$1,001 - $15,000",
+    "disclosure_lag_days": 306,
+    "district": "TX32",
+    "estimated_max": 15000,
+    "estimated_min": 1001,
+    "filed_after_due_date": true,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "issuer_name": "VeriSign, Inc. - Common Stock",
+    "member_name": "Hon. Julie Johnson",
+    "notification_date": "11/06/2025",
+    "owner": "JT",
+    "page": 9,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "VeriSign, Inc. - Common Stock (VRSN) [ST] P 10/03/2025 11/06/2025 $1,001 - $15,000",
+    "state": "TX",
+    "stock_act_due_date": "2025-11-17",
+    "ticker": "VRSN",
+    "transaction_date": "10/03/2025",
+    "transaction_id": "957a42ef94aa771d"
+  }
+}

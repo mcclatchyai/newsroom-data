@@ -1,0 +1,4482 @@
+{
+  "context_packet_count": 77,
+  "context_packets": [
+    {
+      "filing_id": "20035035",
+      "issuer_name": "3M Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MMM",
+      "transaction_id": "6ab05fd654918071"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "A.O. Smith Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "AOS",
+      "transaction_id": "f4979983053a4ac3"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "A.O. Smith Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "AOS",
+      "transaction_id": "e998b15698a50456"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Adobe Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "ADBE",
+      "transaction_id": "1e820c951e5cf168"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Adobe Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "ADBE",
+      "transaction_id": "cd30012daf31153f"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Agilent Technologies, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "A",
+      "transaction_id": "324c1217ab555d13"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Agilent Technologies, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "A",
+      "transaction_id": "4705492015060f6f"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Alaska Air Group, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "ALK",
+      "transaction_id": "d575f61cc9d75a08"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Alaska Air Group, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "ALK",
+      "transaction_id": "8a99db20c2e07afb"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Ameren Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "AEE",
+      "transaction_id": "f50e23072b31800b"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Ameren Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "AEE",
+      "transaction_id": "8a0d706e6db280de"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Boeing Company",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "BA",
+      "transaction_id": "ef297f843117ecad"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Boeing Company",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "BA",
+      "transaction_id": "beb93e143410d765"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Carrier Global Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CARR",
+      "transaction_id": "d2087bdf93a88bf1"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Carrier Global Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CARR",
+      "transaction_id": "68a243e31cbfcd48"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "CMS Energy Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CMS",
+      "transaction_id": "fa1af3f24a91c22a"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "CMS Energy Corporation Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CMS",
+      "transaction_id": "057cbeda19303362"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Colgate-Palmolive Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CL",
+      "transaction_id": "2763de77decd64b8"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Colgate-Palmolive Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CL",
+      "transaction_id": "2cbd079a16e283c3"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "DaVita Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "DVA",
+      "transaction_id": "a73574b30e180af0"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "DaVita Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "DVA",
+      "transaction_id": "acc8774d1dc8ba6d"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "DBA Sempra Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "SRE",
+      "transaction_id": "ab540b68a4b68fd4"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "DBA Sempra Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "SRE",
+      "transaction_id": "922c7686b6752e9f"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Deere & Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "DE",
+      "transaction_id": "9d718c662866d37f"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Deere & Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "DE",
+      "transaction_id": "77a28c007790eb85"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Equinix, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "EQIX",
+      "transaction_id": "570e5855506b2bb0"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Equinix, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "EQIX",
+      "transaction_id": "4ec13504f2e68aee"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "F5, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "FFIV",
+      "transaction_id": "044bfc91c90d763b"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "F5, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "FFIV",
+      "transaction_id": "2cf04933b56444da"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Fifth Third Bancorp - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "FITB",
+      "transaction_id": "7cfcdee5c9c90d64"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Fiserv, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "FISV",
+      "transaction_id": "37ffffd4cc6b38ec"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Fiserv, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "FISV",
+      "transaction_id": "ea605da47bc156cd"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Gen Digital Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GEN",
+      "transaction_id": "23da99b85bae3943"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Gen Digital Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GEN",
+      "transaction_id": "06f71c2b561801b9"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Honeywell International Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "HON",
+      "transaction_id": "4a1fafcc67c92ee4"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Honeywell International Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "HON",
+      "transaction_id": "bcbe6c60b78652ee"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "International Paper Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "IP",
+      "transaction_id": "e0b4987f22919a87"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "International Paper Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "IP",
+      "transaction_id": "e978af546573fb78"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "KeyCorp Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "KEY",
+      "transaction_id": "90763cf7d0b0afa3"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "KeyCorp Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "KEY",
+      "transaction_id": "d2c072ac5158dd85"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Kroger Company",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "KR",
+      "transaction_id": "af9625c68f8130bd"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Kroger Company",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "KR",
+      "transaction_id": "1c489826810c076e"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "LYB",
+      "transaction_id": "65069d454595200b"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "LYB",
+      "transaction_id": "ae2cfc46b62656b0"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "McCormick & Company, Incorporated Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MKC",
+      "transaction_id": "4f4ea8d867107f77"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "McCormick & Company, Incorporated Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MKC",
+      "transaction_id": "77453dd4a5eee053"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Medtronic plc. Ordinary Shares",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MDT",
+      "transaction_id": "23dcb95a57d7c35c"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Molson Coors Beverage Company Class B Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "TAP",
+      "transaction_id": "82bcbe36c0a1867d"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Molson Coors Beverage Company Class B Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "TAP",
+      "transaction_id": "729c73a2820686f8"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MDLZ",
+      "transaction_id": "c11aa4014ef8bc5f"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MDLZ",
+      "transaction_id": "f8e2169304c26f15"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Monster Beverage Corporation - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MNST",
+      "transaction_id": "89f2500c8d142184"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Monster Beverage Corporation - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "MNST",
+      "transaction_id": "670a0efbd24030a9"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Paychex, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PAYX",
+      "transaction_id": "3ccf93194f7b4702"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Paychex, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PAYX",
+      "transaction_id": "2a476be4151daa40"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Paycom Software, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PAYC",
+      "transaction_id": "17bf5dbc32b17c57"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Paycom Software, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PAYC",
+      "transaction_id": "9580ecde04bb078b"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Public Service Enterprise Group Incorporated Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PEG",
+      "transaction_id": "1b9734f46a2dd956"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Public Service Enterprise Group Incorporated Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "PEG",
+      "transaction_id": "d476fd63828259a1"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Quest Diagnostics Incorporated Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "DGX",
+      "transaction_id": "003d4ac3169dbbcd"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Quest Diagnostics Incorporated Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "DGX",
+      "transaction_id": "fe4861c4fbc004ad"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Rollins, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "ROL",
+      "transaction_id": "5a7845dc41595c08"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Rollins, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "ROL",
+      "transaction_id": "6efacc15e89397cd"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "ServiceNow, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "NOW",
+      "transaction_id": "6f065bd0073e8d06"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "ServiceNow, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "NOW",
+      "transaction_id": "f13a0de5639d3022"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "The Cigna Group Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CI",
+      "transaction_id": "e124719f47a05645"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "The Cigna Group Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "CI",
+      "transaction_id": "87ae011aaf52114d"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "UDR, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "UDR",
+      "transaction_id": "592ca3b5740f895d"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "UDR, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "UDR",
+      "transaction_id": "94fc9dfc84e90f55"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "VeriSign, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "VRSN",
+      "transaction_id": "957a42ef94aa771d"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "VeriSign, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "VRSN",
+      "transaction_id": "36dca4506ded3328"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Verisk Analytics, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "VRSK",
+      "transaction_id": "c1a56fa11b931074"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Verisk Analytics, Inc. - Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "VRSK",
+      "transaction_id": "bdeef972958cc1f9"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "WEC Energy Group, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "WEC",
+      "transaction_id": "8a8dba6cb33fcff4"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "WEC Energy Group, Inc. Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "WEC",
+      "transaction_id": "c34220543ebfeb52"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Weyerhaeuser Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "WY",
+      "transaction_id": "5d0c13ba6d34cce0"
+    },
+    {
+      "filing_id": "20035035",
+      "issuer_name": "Weyerhaeuser Company Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "WY",
+      "transaction_id": "c7d8d45ba7137334"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Exchange": 1,
+      "Purchase": 38,
+      "S (partial)": 1,
+      "Sale": 37
+    },
+    "action_counts_json": "{\"Exchange\": 1, \"Purchase\": 38, \"S (partial)\": 1, \"Sale\": 37}",
+    "disclosure_lag_days": 508,
+    "district": "TX32",
+    "estimated_max_total": 1155000,
+    "estimated_min_total": 77077,
+    "filing_date": "08/05/2026",
+    "filing_id": "20035035",
+    "filing_type": "P",
+    "ingested_at": "2026-08-28T22:23:29Z",
+    "member_name": "Hon. Julie Johnson",
+    "pdf_sha256": "820c98c17ead952abd59efc0db0fe973124f3584fff03cb5777dc02f1a96ca90",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+    "possible_late": true,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "MMM",
+      "AOS",
+      "ADBE",
+      "A",
+      "ALK",
+      "AEE",
+      "BA",
+      "CARR",
+      "CMS",
+      "CL",
+      "DVA",
+      "SRE",
+      "DE",
+      "EQIX",
+      "FFIV",
+      "FITB",
+      "FISV",
+      "GEN",
+      "HON",
+      "IP",
+      "KEY",
+      "KR",
+      "LYB",
+      "MKC",
+      "MDT",
+      "TAP",
+      "MDLZ",
+      "MNST",
+      "PAYX",
+      "PAYC",
+      "PEG",
+      "DGX",
+      "ROL",
+      "NOW",
+      "CI",
+      "UDR",
+      "VRSN",
+      "VRSK",
+      "WEC",
+      "WY"
+    ],
+    "tickers_json": "[\"MMM\", \"AOS\", \"ADBE\", \"A\", \"ALK\", \"AEE\", \"BA\", \"CARR\", \"CMS\", \"CL\", \"DVA\", \"SRE\", \"DE\", \"EQIX\", \"FFIV\", \"FITB\", \"FISV\", \"GEN\", \"HON\", \"IP\", \"KEY\", \"KR\", \"LYB\", \"MKC\", \"MDT\", \"TAP\", \"MDLZ\", \"MNST\", \"PAYX\", \"PAYC\", \"PEG\", \"DGX\", \"ROL\", \"NOW\", \"CI\", \"UDR\", \"VRSN\", \"VRSK\", \"WEC\", \"WY\"]",
+    "transaction_count": 77,
+    "transaction_date_max": "2026-02-02",
+    "transaction_date_min": "2025-03-15"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035035.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035035.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 508,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "3M Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "04/03/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "3M Company Common Stock (MMM) [ST] P 03/15/2025 04/03/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-04-29",
+      "ticker": "MMM",
+      "transaction_date": "03/15/2025",
+      "transaction_id": "6ab05fd654918071"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "A.O. Smith Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "A.O. Smith Corporation Common Stock (AOS) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "AOS",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "f4979983053a4ac3"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "A.O. Smith Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "A.O. Smith Corporation Common Stock (AOS) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "AOS",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "e998b15698a50456"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Adobe Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Adobe Inc. - Common Stock (ADBE) [ST] P 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "ADBE",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "1e820c951e5cf168"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Adobe Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Adobe Inc. - Common Stock (ADBE) [ST] S 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "ADBE",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "cd30012daf31153f"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Agilent Technologies, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Agilent Technologies, Inc. Common Stock (A) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "A",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "324c1217ab555d13"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Agilent Technologies, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Agilent Technologies, Inc. Common Stock (A) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "A",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "4705492015060f6f"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Alaska Air Group, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Alaska Air Group, Inc. Common Stock (ALK) [ST] P 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "ALK",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "d575f61cc9d75a08"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Alaska Air Group, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Alaska Air Group, Inc. Common Stock (ALK) [ST] S 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "ALK",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "8a99db20c2e07afb"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Ameren Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Ameren Corporation Common Stock (AEE) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "AEE",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "f50e23072b31800b"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Ameren Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Ameren Corporation Common Stock (AEE) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "AEE",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "8a0d706e6db280de"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 246,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Boeing Company",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Boeing Company (BA) [ST] P 12/02/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-16",
+      "ticker": "BA",
+      "transaction_date": "12/02/2025",
+      "transaction_id": "ef297f843117ecad"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 246,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Boeing Company",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Boeing Company (BA) [ST] S 12/02/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-16",
+      "ticker": "BA",
+      "transaction_date": "12/02/2025",
+      "transaction_id": "beb93e143410d765"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Carrier Global Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Carrier Global Corporation Common Stock (CARR) [ST] S 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "CARR",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "d2087bdf93a88bf1"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Carrier Global Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 2,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Carrier Global Corporation Common Stock (CARR) [ST] P 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "CARR",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "68a243e31cbfcd48"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 240,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "CMS Energy Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "CMS Energy Corporation Common Stock (CMS) [ST] P 12/08/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-22",
+      "ticker": "CMS",
+      "transaction_date": "12/08/2025",
+      "transaction_id": "fa1af3f24a91c22a"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 240,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "CMS Energy Corporation Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "CMS Energy Corporation Common Stock (CMS) [ST] S 12/08/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-22",
+      "ticker": "CMS",
+      "transaction_date": "12/08/2025",
+      "transaction_id": "057cbeda19303362"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Colgate-Palmolive Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Colgate-Palmolive Company Common Stock (CL) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "CL",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "2763de77decd64b8"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Colgate-Palmolive Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Colgate-Palmolive Company Common Stock (CL) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "CL",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "2cbd079a16e283c3"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "DaVita Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "DaVita Inc. Common Stock (DVA) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "DVA",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "a73574b30e180af0"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "DaVita Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "DaVita Inc. Common Stock (DVA) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "DVA",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "acc8774d1dc8ba6d"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "DBA Sempra Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "DBA Sempra Common Stock (SRE) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "SRE",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "ab540b68a4b68fd4"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "DBA Sempra Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 3,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "DBA Sempra Common Stock (SRE) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "SRE",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "922c7686b6752e9f"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Deere & Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Deere & Company Common Stock (DE) [ST] P 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "DE",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "9d718c662866d37f"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Deere & Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Deere & Company Common Stock (DE) [ST] S 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "DE",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "77a28c007790eb85"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Equinix, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Equinix, Inc. - Common Stock (EQIX) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "EQIX",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "570e5855506b2bb0"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Equinix, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Equinix, Inc. - Common Stock (EQIX) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "EQIX",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "4ec13504f2e68aee"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "F5, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "F5, Inc. - Common Stock (FFIV) [ST] P 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "FFIV",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "044bfc91c90d763b"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "F5, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "F5, Inc. - Common Stock (FFIV) [ST] S 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "FFIV",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "2cf04933b56444da"
+    },
+    {
+      "action": "Exchange",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 184,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Fifth Third Bancorp - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "03/05/2026",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Fifth Third Bancorp - Common Stock (FITB) [ST] E 02/02/2026 03/05/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-03-19",
+      "ticker": "FITB",
+      "transaction_date": "02/02/2026",
+      "transaction_id": "7cfcdee5c9c90d64"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Fiserv, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Fiserv, Inc. - Common Stock (FISV) [ST] S 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "FISV",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "37ffffd4cc6b38ec"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Fiserv, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 4,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Fiserv, Inc. - Common Stock (FISV) [ST] P 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "FISV",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "ea605da47bc156cd"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Gen Digital Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Gen Digital Inc. - Common Stock (GEN) [ST] P 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "GEN",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "23da99b85bae3943"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Gen Digital Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Gen Digital Inc. - Common Stock (GEN) [ST] S 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "GEN",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "06f71c2b561801b9"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Honeywell International Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Honeywell International Inc. (HON) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "HON",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "4a1fafcc67c92ee4"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Honeywell International Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Honeywell International Inc. (HON) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "HON",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "bcbe6c60b78652ee"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "International Paper Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "International Paper Company Common Stock (IP) [ST] P 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "IP",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "e0b4987f22919a87"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "International Paper Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "International Paper Company Common Stock (IP) [ST] S 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "IP",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "e978af546573fb78"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "KeyCorp Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "KeyCorp Common Stock (KEY) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "KEY",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "90763cf7d0b0afa3"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "KeyCorp Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "KeyCorp Common Stock (KEY) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "KEY",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "d2c072ac5158dd85"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Kroger Company",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Kroger Company (KR) [ST] P 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "KR",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "af9625c68f8130bd"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Kroger Company",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 5,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Kroger Company (KR) [ST] S 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "KR",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "1c489826810c076e"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "LyondellBasell Industries N.V. Ordinary Shares Class A (LYB) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "LYB",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "65069d454595200b"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "LyondellBasell Industries N.V. Ordinary Shares Class A",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "LyondellBasell Industries N.V. Ordinary Shares Class A (LYB) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "LYB",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "ae2cfc46b62656b0"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "McCormick & Company, Incorporated Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "McCormick & Company, Incorporated Common Stock (MKC) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "MKC",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "4f4ea8d867107f77"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "McCormick & Company, Incorporated Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "McCormick & Company, Incorporated Common Stock (MKC) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "MKC",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "77453dd4a5eee053"
+    },
+    {
+      "action": "S (partial)",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 455,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Medtronic plc. Ordinary Shares",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "06/03/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Medtronic plc. Ordinary Shares (MDT) [ST] S (partial) 05/07/2025 06/03/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-06-21",
+      "ticker": "MDT",
+      "transaction_date": "05/07/2025",
+      "transaction_id": "23dcb95a57d7c35c"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Molson Coors Beverage Company Class B Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Molson Coors Beverage Company Class B Common Stock (TAP) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "TAP",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "82bcbe36c0a1867d"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Molson Coors Beverage Company Class B Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 6,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Molson Coors Beverage Company Class B Common Stock (TAP) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "TAP",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "729c73a2820686f8"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Mondelez International, Inc. - Class A Common Stock (MDLZ) [ST] P 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "MDLZ",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "c11aa4014ef8bc5f"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Mondelez International, Inc. - Class A Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Mondelez International, Inc. - Class A Common Stock (MDLZ) [ST] S 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "MDLZ",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "f8e2169304c26f15"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Monster Beverage Corporation - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Monster Beverage Corporation - Common Stock (MNST) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "MNST",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "89f2500c8d142184"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Monster Beverage Corporation - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Monster Beverage Corporation - Common Stock (MNST) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "MNST",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "670a0efbd24030a9"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Paychex, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Paychex, Inc. - Common Stock (PAYX) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "PAYX",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "3ccf93194f7b4702"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Paychex, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Paychex, Inc. - Common Stock (PAYX) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "PAYX",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "2a476be4151daa40"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Paycom Software, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Paycom Software, Inc. Common Stock (PAYC) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "PAYC",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "17bf5dbc32b17c57"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Paycom Software, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 7,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Paycom Software, Inc. Common Stock (PAYC) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "PAYC",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "9580ecde04bb078b"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 240,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Public Service Enterprise Group Incorporated Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Public Service Enterprise Group Incorporated Common Stock (PEG) [ST] P 12/08/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-22",
+      "ticker": "PEG",
+      "transaction_date": "12/08/2025",
+      "transaction_id": "1b9734f46a2dd956"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 240,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Public Service Enterprise Group Incorporated Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Public Service Enterprise Group Incorporated Common Stock (PEG) [ST] S 12/08/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-22",
+      "ticker": "PEG",
+      "transaction_date": "12/08/2025",
+      "transaction_id": "d476fd63828259a1"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Quest Diagnostics Incorporated Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Quest Diagnostics Incorporated Common Stock (DGX) [ST] S 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "DGX",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "003d4ac3169dbbcd"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Quest Diagnostics Incorporated Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Quest Diagnostics Incorporated Common Stock (DGX) [ST] P 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "DGX",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "fe4861c4fbc004ad"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Rollins, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Rollins, Inc. Common Stock (ROL) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "ROL",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "5a7845dc41595c08"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Rollins, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Rollins, Inc. Common Stock (ROL) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "ROL",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "6efacc15e89397cd"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 240,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "ServiceNow, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "ServiceNow, Inc. Common Stock (NOW) [ST] S 12/08/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-22",
+      "ticker": "NOW",
+      "transaction_date": "12/08/2025",
+      "transaction_id": "6f065bd0073e8d06"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 240,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "ServiceNow, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "01/09/2026",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "ServiceNow, Inc. Common Stock (NOW) [ST] P 12/08/2025 01/09/2026 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2026-01-22",
+      "ticker": "NOW",
+      "transaction_date": "12/08/2025",
+      "transaction_id": "f13a0de5639d3022"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "The Cigna Group Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "The Cigna Group Common Stock (CI) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "CI",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "e124719f47a05645"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "The Cigna Group Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "The Cigna Group Common Stock (CI) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "CI",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "87ae011aaf52114d"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "UDR, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "UDR, Inc. Common Stock (UDR) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "UDR",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "592ca3b5740f895d"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "UDR, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 8,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "UDR, Inc. Common Stock (UDR) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "UDR",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "94fc9dfc84e90f55"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "VeriSign, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "VeriSign, Inc. - Common Stock (VRSN) [ST] P 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "VRSN",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "957a42ef94aa771d"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 306,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "VeriSign, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "VeriSign, Inc. - Common Stock (VRSN) [ST] S 10/03/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-17",
+      "ticker": "VRSN",
+      "transaction_date": "10/03/2025",
+      "transaction_id": "36dca4506ded3328"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Verisk Analytics, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Verisk Analytics, Inc. - Common Stock (VRSK) [ST] S 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "VRSK",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "c1a56fa11b931074"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 279,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Verisk Analytics, Inc. - Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Verisk Analytics, Inc. - Common Stock (VRSK) [ST] P 10/30/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-06",
+      "ticker": "VRSK",
+      "transaction_date": "10/30/2025",
+      "transaction_id": "bdeef972958cc1f9"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "WEC Energy Group, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "WEC Energy Group, Inc. Common Stock (WEC) [ST] P 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "WEC",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "8a8dba6cb33fcff4"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 316,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "WEC Energy Group, Inc. Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "10/07/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "WEC Energy Group, Inc. Common Stock (WEC) [ST] S 09/23/2025 10/07/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-11-06",
+      "ticker": "WEC",
+      "transaction_date": "09/23/2025",
+      "transaction_id": "c34220543ebfeb52"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Weyerhaeuser Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Weyerhaeuser Company Common Stock (WY) [ST] S 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "WY",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "5d0c13ba6d34cce0"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 288,
+      "district": "TX32",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": true,
+      "filing_date": "08/05/2026",
+      "filing_id": "20035035",
+      "filing_type": "P",
+      "ingested_at": "2026-08-28T22:23:29Z",
+      "issuer_name": "Weyerhaeuser Company Common Stock",
+      "member_name": "Hon. Julie Johnson",
+      "notification_date": "11/06/2025",
+      "owner": "JT",
+      "page": 9,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "Weyerhaeuser Company Common Stock (WY) [ST] P 10/21/2025 11/06/2025 $1,001 - $15,000",
+      "state": "TX",
+      "stock_act_due_date": "2025-12-05",
+      "ticker": "WY",
+      "transaction_date": "10/21/2025",
+      "transaction_id": "c7d8d45ba7137334"
+    }
+  ]
+}

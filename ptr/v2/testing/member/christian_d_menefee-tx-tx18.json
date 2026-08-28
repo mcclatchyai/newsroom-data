@@ -1,0 +1,116 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 1
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Christian D. Menefee",
+    "district": "TX18",
+    "facebook": "",
+    "member_id": "christian_d_menefee-tx-tx18",
+    "member_name": "Hon. Christian D. Menefee",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "label": "Aug 2026",
+        "month": "2026-08",
+        "other": 0,
+        "sell": 1,
+        "trades": 1
+      }
+    ],
+    "news_context": [],
+    "official_url": "",
+    "owner_breakdown": {
+      "Spouse": 1
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 0.0,
+        "filing_id": "20035157",
+        "issuer": "Pinterest, Inc. Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Spouse",
+        "published_date": "08/07/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "PINS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "08/07/2026",
+        "transaction_id": "b32b3e609ce8b0e8",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 50000.0,
+      "estimated_min_volume": 15001.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 1,
+      "last_traded": "08/07/2026",
+      "market_context_available": 0,
+      "news_context_available": 0,
+      "tickers": 1,
+      "trades": 1
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Pinterest, Inc. Class A Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 1,
+        "ticker": "PINS"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-08-07",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260828T223255Z",
+    "environment": "testing",
+    "generated_at": "2026-08-28T22:34:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/christian_d_menefee-tx-tx18.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-08-28T22:49:34Z"
+  }
+}
