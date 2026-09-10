@@ -32,36 +32,34 @@
       "transaction_id": "3f5a57a8a4c90625"
     }
   ],
-  "filings": [
-    {
-      "action_counts": {
-        "Purchase": 1
-      },
-      "action_counts_json": "{\"Purchase\": 1}",
-      "disclosure_lag_days": 27,
-      "district": "TX26",
-      "estimated_max_total": 100000,
-      "estimated_min_total": 50001,
-      "filing_date": "09/09/2026",
-      "filing_id": "20035410",
-      "filing_type": "P",
-      "ingested_at": "2026-09-10T19:21:14Z",
-      "member_name": "Hon. Brandon Gill",
-      "pdf_sha256": "873ec78054f816fac6e44ab87a70076519241b31607b9a41696e5012a267cd9c",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035410.pdf",
-      "possible_late": false,
-      "schema_version": "1",
-      "source": "house_disclosure_pdf",
-      "state": "TX",
-      "tickers": [
-        "RSP"
-      ],
-      "tickers_json": "[\"RSP\"]",
-      "transaction_count": 1,
-      "transaction_date_max": "2026-08-13",
-      "transaction_date_min": "2026-08-13"
-    }
-  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 1
+    },
+    "action_counts_json": "{\"Purchase\": 1}",
+    "disclosure_lag_days": 27,
+    "district": "TX26",
+    "estimated_max_total": 100000,
+    "estimated_min_total": 50001,
+    "filing_date": "09/09/2026",
+    "filing_id": "20035410",
+    "filing_type": "P",
+    "ingested_at": "2026-09-10T19:21:14Z",
+    "member_name": "Hon. Brandon Gill",
+    "pdf_sha256": "873ec78054f816fac6e44ab87a70076519241b31607b9a41696e5012a267cd9c",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035410.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "RSP"
+    ],
+    "tickers_json": "[\"RSP\"]",
+    "transaction_count": 1,
+    "transaction_date_max": "2026-08-13",
+    "transaction_date_min": "2026-08-13"
+  },
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
@@ -69,12 +67,15 @@
     "environment": "testing",
     "generated_at": "2026-09-10T19:24:25Z",
     "project": "ptr",
-    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/TX.json",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035410.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
     "stale_after": "2026-09-10T19:39:25Z"
   },
-  "state": "TX",
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035410.json"
+  },
   "transactions": [
     {
       "action": "Purchase",
