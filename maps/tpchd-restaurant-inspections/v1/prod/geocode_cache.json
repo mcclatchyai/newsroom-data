@@ -778,6 +778,19 @@
     "query": "1302 S 38th St Tacoma WA 98418 United States Tacoma 98418",
     "status": "ok"
   },
+  "1303 e main ave puyallup wa 98372 united states puyallup 98372": {
+    "formatted_address": "1303 E Main Ave, Puyallup, WA 98372, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.19197459999999,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2773299,
+    "place_id": "ChIJ31MBgP77kFQRumhS471PKec",
+    "provider": "google_geocoding",
+    "query": "1303 E Main Ave Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
   "1310 tacoma ave s tacoma wa 98402 united states tacoma 98402": {
     "formatted_address": "1310 Tacoma Ave S, Tacoma, WA 98402, USA",
     "geocode_precision": "rooftop",
@@ -1162,6 +1175,19 @@
     "query": "16511 Meridian E Puyallup WA 98372 United States Puyallup 98372",
     "status": "ok"
   },
+  "16615 pacific ave s spanaway wa 98387 united states spanaway 98387": {
+    "formatted_address": "16615 Pacific Ave S, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:38Z",
+    "latitude": 47.1059607,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4341915,
+    "place_id": "ChIJObKabaEDkVQRlv8zgFdrNNg",
+    "provider": "google_geocoding",
+    "query": "16615 Pacific AVE S Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
   "16701 pacific ave s spanaway wa 98387 united states spanaway 98387": {
     "formatted_address": "16701 Pacific Ave S, Spanaway, WA 98387, USA",
     "geocode_precision": "rooftop",
@@ -1496,6 +1522,19 @@
     "place_id": "ChIJ4ytSkloDkVQRnSVpj8Gqrm0",
     "provider": "google_geocoding",
     "query": "20027 Mountain HWY Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
+  "2010 s union ave tacoma wa 98405 united states tacoma 98405": {
+    "formatted_address": "2010 S Union Ave, Tacoma, WA 98405, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.2411498,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4842119,
+    "place_id": "ChIJBdyxCDdVkFQR3DU5VJpZOq0",
+    "provider": "google_geocoding",
+    "query": "2010 S Union Ave Tacoma WA 98405 United States Tacoma 98405",
     "status": "ok"
   },
   "203 176th st e spanaway wa 98387 united states spanaway 98387": {
@@ -2982,16 +3021,12 @@
   },
   "516 s meridian puyallup wa 98371 united states puyallup 98371": {
     "formatted_address": "516 S Meridian, Puyallup, WA 98371, USA",
-    "geocode_precision": "address_level_geometric_center",
-    "geocode_rule_version": "address-level-geometric-center-v1",
-    "geocoded_at_utc": "2026-09-08T18:24:09Z",
-    "latitude": 47.1876753,
+    "geocoded_at_utc": "2026-05-29T13:58:31Z",
     "location_type": "GEOMETRIC_CENTER",
-    "longitude": -122.2939798,
     "place_id": "ChIJJ5rqRAL8kFQRey1iDlqmGAM",
     "provider": "google_geocoding",
     "query": "516 S Meridian Puyallup WA 98371 United States Puyallup 98371",
-    "status": "ok"
+    "status": "low_precision_geometric_center"
   },
   "5160 point fosdick nw ste c101 gig harbor wa 98335 united states gig harbor 98335": {
     "formatted_address": "5160 Point Fosdick Dr C-101, Gig Harbor, WA 98335, USA",
@@ -3596,6 +3631,19 @@
     "query": "790 MAIN ST Buckley WA 98321 Buckley 98321",
     "status": "ok"
   },
+  "800 station dr dupont wa 98327 united states dupont 98327": {
+    "formatted_address": "800 Station Dr, DuPont, WA 98327, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.094489,
+    "location_type": "ROOFTOP",
+    "longitude": -122.6227743,
+    "place_id": "ChIJDyp0y6gIkVQRGoYx-zHvvwY",
+    "provider": "google_geocoding",
+    "query": "800 Station DR Dupont WA 98327 United States Dupont 98327",
+    "status": "ok"
+  },
   "801 south hill park dr puyallup wa 98373 united states puyallup 98373": {
     "formatted_address": "801 S Hill Park Dr, Puyallup, WA 98373, USA",
     "geocode_precision": "address_level_geometric_center",
@@ -3679,6 +3727,19 @@
     "query": "8200 Tacoma Mall Blvd Lakewood WA 98499 United States Lakewood 98499",
     "status": "ok"
   },
+  "8203 s hosmer st tacoma wa 98408 united states tacoma 98408": {
+    "formatted_address": "8203 S Hosmer St, Tacoma, WA 98408, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:38Z",
+    "latitude": 47.182422,
+    "location_type": "ROOFTOP",
+    "longitude": -122.46216,
+    "place_id": "ChIJw6iffzUAkVQRhlGSbmn-ykA",
+    "provider": "google_geocoding",
+    "query": "8203 S Hosmer ST Tacoma WA 98408 United States Tacoma 98408",
+    "status": "ok"
+  },
   "8302 s tacoma way lakewood wa 98498 united states lakewood 98498": {
     "formatted_address": "8302 S Tacoma Way, Lakewood, WA 98499, USA",
     "geocode_precision": "rooftop",
@@ -3701,6 +3762,19 @@
     "place_id": "ChIJv_880bsAkVQRXVxrYtQH1rk",
     "provider": "google_geocoding",
     "query": "8305 Steilacoom BLVD SW Lakewood WA 98498 United States Lakewood 98498",
+    "status": "ok"
+  },
+  "8402 s hosmer st tacoma wa 98444 united states tacoma 98444": {
+    "formatted_address": "8402 S Hosmer St, Tacoma, WA 98444, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:39Z",
+    "latitude": 47.180239,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4640098,
+    "place_id": "ChIJd8C_3koAkVQRfibMzQeTId0",
+    "provider": "google_geocoding",
+    "query": "8402 S Hosmer ST Tacoma WA 98444 United States Tacoma 98444",
     "status": "ok"
   },
   "8415 steilacoom blvd ste b lakewood wa 98498 united states lakewood 98498": {
@@ -5755,6 +5829,32 @@
     "query": "911 S 11th St Tacoma WA 98405 United States Tacoma 98405",
     "status": "ok"
   },
+  "PR0001759": {
+    "formatted_address": "2010 S Union Ave, Tacoma, WA 98405, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.2411498,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4842119,
+    "place_id": "ChIJBdyxCDdVkFQR3DU5VJpZOq0",
+    "provider": "google_geocoding",
+    "query": "2010 S Union Ave Tacoma WA 98405 United States Tacoma 98405",
+    "status": "ok"
+  },
+  "PR0001759|843974": {
+    "formatted_address": "2010 S Union Ave, Tacoma, WA 98405, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.2411498,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4842119,
+    "place_id": "ChIJBdyxCDdVkFQR3DU5VJpZOq0",
+    "provider": "google_geocoding",
+    "query": "2010 S Union Ave Tacoma WA 98405 United States Tacoma 98405",
+    "status": "ok"
+  },
   "PR0001773": {
     "formatted_address": "626 S Hill Park Dr, Puyallup, WA 98373, USA",
     "geocode_precision": "rooftop",
@@ -6587,6 +6687,32 @@
     "query": "705 N 5th ST Tacoma WA 98403 United States Tacoma 98403",
     "status": "ok"
   },
+  "PR0029944": {
+    "formatted_address": "8203 S Hosmer St, Tacoma, WA 98408, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:38Z",
+    "latitude": 47.182422,
+    "location_type": "ROOFTOP",
+    "longitude": -122.46216,
+    "place_id": "ChIJw6iffzUAkVQRhlGSbmn-ykA",
+    "provider": "google_geocoding",
+    "query": "8203 S Hosmer ST Tacoma WA 98408 United States Tacoma 98408",
+    "status": "ok"
+  },
+  "PR0029944|383416": {
+    "formatted_address": "8203 S Hosmer St, Tacoma, WA 98408, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:38Z",
+    "latitude": 47.182422,
+    "location_type": "ROOFTOP",
+    "longitude": -122.46216,
+    "place_id": "ChIJw6iffzUAkVQRhlGSbmn-ykA",
+    "provider": "google_geocoding",
+    "query": "8203 S Hosmer ST Tacoma WA 98408 United States Tacoma 98408",
+    "status": "ok"
+  },
   "PR0029953": {
     "formatted_address": "5977 6th Ave, Tacoma, WA 98406, USA",
     "geocoded_at_utc": "2026-05-29T13:58:24Z",
@@ -6932,6 +7058,32 @@
       "street_address"
     ],
     "status": "partial_match"
+  },
+  "PR0032575": {
+    "formatted_address": "800 Station Dr, DuPont, WA 98327, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.094489,
+    "location_type": "ROOFTOP",
+    "longitude": -122.6227743,
+    "place_id": "ChIJDyp0y6gIkVQRGoYx-zHvvwY",
+    "provider": "google_geocoding",
+    "query": "800 Station DR Dupont WA 98327 United States Dupont 98327",
+    "status": "ok"
+  },
+  "PR0032575|150609": {
+    "formatted_address": "800 Station Dr, DuPont, WA 98327, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.094489,
+    "location_type": "ROOFTOP",
+    "longitude": -122.6227743,
+    "place_id": "ChIJDyp0y6gIkVQRGoYx-zHvvwY",
+    "provider": "google_geocoding",
+    "query": "800 Station DR Dupont WA 98327 United States Dupont 98327",
+    "status": "ok"
   },
   "PR0032595": {
     "formatted_address": "12115 Canyon Rd E, Puyallup, WA 98373, USA",
@@ -8341,6 +8493,32 @@
     "query": "8302 S Tacoma WAY Lakewood WA 98498 United States Lakewood 98498",
     "status": "ok"
   },
+  "PR0036689": {
+    "formatted_address": "16615 Pacific Ave S, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:38Z",
+    "latitude": 47.1059607,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4341915,
+    "place_id": "ChIJObKabaEDkVQRlv8zgFdrNNg",
+    "provider": "google_geocoding",
+    "query": "16615 Pacific AVE S Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
+  "PR0036689|740214": {
+    "formatted_address": "16615 Pacific Ave S, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:38Z",
+    "latitude": 47.1059607,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4341915,
+    "place_id": "ChIJObKabaEDkVQRlv8zgFdrNNg",
+    "provider": "google_geocoding",
+    "query": "16615 Pacific AVE S Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
   "PR0036755": {
     "formatted_address": "1301 S 38th St, Tacoma, WA 98418, USA",
     "geocode_precision": "rooftop",
@@ -8365,6 +8543,32 @@
     "place_id": "ChIJAQCckvb_kFQRP8XNGJNm88I",
     "provider": "google_geocoding",
     "query": "1301 S 38th ST Tacoma WA 98418 United States Tacoma 98418",
+    "status": "ok"
+  },
+  "PR0036788": {
+    "formatted_address": "1303 E Main Ave, Puyallup, WA 98372, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.19197459999999,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2773299,
+    "place_id": "ChIJ31MBgP77kFQRumhS471PKec",
+    "provider": "google_geocoding",
+    "query": "1303 E Main Ave Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
+  "PR0036788|789056": {
+    "formatted_address": "1303 E Main Ave, Puyallup, WA 98372, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:37Z",
+    "latitude": 47.19197459999999,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2773299,
+    "place_id": "ChIJ31MBgP77kFQRumhS471PKec",
+    "provider": "google_geocoding",
+    "query": "1303 E Main Ave Puyallup WA 98372 United States Puyallup 98372",
     "status": "ok"
   },
   "PR0036828": {
@@ -9729,6 +9933,32 @@
     "place_id": "ChIJTRa3qmL5kFQRvCTUs3zWU8M",
     "provider": "google_geocoding",
     "query": "1105 Pacific AVE Sumner WA 98390 United States Sumner 98390",
+    "status": "ok"
+  },
+  "PR0039027": {
+    "formatted_address": "8402 S Hosmer St, Tacoma, WA 98444, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:39Z",
+    "latitude": 47.180239,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4640098,
+    "place_id": "ChIJd8C_3koAkVQRfibMzQeTId0",
+    "provider": "google_geocoding",
+    "query": "8402 S Hosmer ST Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
+  "PR0039027|606588": {
+    "formatted_address": "8402 S Hosmer St, Tacoma, WA 98444, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-09-14T13:23:39Z",
+    "latitude": 47.180239,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4640098,
+    "place_id": "ChIJd8C_3koAkVQRfibMzQeTId0",
+    "provider": "google_geocoding",
+    "query": "8402 S Hosmer ST Tacoma WA 98444 United States Tacoma 98444",
     "status": "ok"
   },
   "PR0039048": {
