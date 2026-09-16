@@ -1,0 +1,351 @@
+{
+  "member": {
+    "action_breakdown": {
+      "other": 4
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. August Lee Pfluger II",
+    "district": "TX11",
+    "facebook": "",
+    "member_id": "august_lee_pfluger_ii-tx-tx11",
+    "member_name": "Hon. August Lee Pfluger II",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 60000.0,
+        "label": "Aug 2026",
+        "month": "2026-08",
+        "other": 4,
+        "sell": 0,
+        "trades": 4
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Charter Communications, Inc. - Class A Common Stock",
+        "query": "(\"Charter Communications Inc\" OR CHTR)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260827T011500Z",
+            "relevance_label": "medium",
+            "relevance_score": 59,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260827T020000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260826T190000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+            "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "CHTR",
+        "traded_date": "08/20/2026",
+        "transaction_id": "fbda16b4099c9af3",
+        "window": {
+          "end_date": "2026-10-29",
+          "start_date": "2026-08-06"
+        }
+      },
+      {
+        "issuer": "Charter Communications, Inc. - Class A Common Stock",
+        "query": "(\"Charter Communications Inc\" OR CHTR)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260827T011500Z",
+            "relevance_label": "medium",
+            "relevance_score": 59,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260827T020000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260826T190000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+            "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "CHTR",
+        "traded_date": "08/20/2026",
+        "transaction_id": "0495cd75003d2b96",
+        "window": {
+          "end_date": "2026-10-29",
+          "start_date": "2026-08-06"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "CP Roth IRA": 2,
+      "Roth IRA": 2
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035432",
+        "issuer": "Charter Communications, Inc. - Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "CP Roth IRA",
+        "published_date": "09/14/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "CHTR",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "08/20/2026",
+        "transaction_id": "fbda16b4099c9af3",
+        "type": "other"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035432",
+        "issuer": "Charter Communications, Inc. - Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Roth IRA",
+        "published_date": "09/14/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "CHTR",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "08/20/2026",
+        "transaction_id": "0495cd75003d2b96",
+        "type": "other"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035432",
+        "issuer": "Liberty Broadband Corporation - Class C Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Roth IRA",
+        "published_date": "09/14/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "LBRDK",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "08/20/2026",
+        "transaction_id": "2777b38b99dd7e45",
+        "type": "other"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035432",
+        "issuer": "Liberty Broadband Corporation - Class C Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "CP Roth IRA",
+        "published_date": "09/14/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "LBRDK",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "08/20/2026",
+        "transaction_id": "4d85dbbd3c98633a",
+        "type": "other"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 60000.0,
+      "estimated_min_volume": 4004.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 2,
+      "last_traded": "08/20/2026",
+      "market_context_available": 0,
+      "news_context_available": 2,
+      "tickers": 2,
+      "trades": 4
+    },
+    "top_issuers": [
+      {
+        "count": 2,
+        "issuer": "Charter Communications, Inc. - Class A Common Stock"
+      },
+      {
+        "count": 2,
+        "issuer": "Liberty Broadband Corporation - Class C Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 2,
+        "ticker": "CHTR"
+      },
+      {
+        "count": 2,
+        "ticker": "LBRDK"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 60000.0,
+        "estimated_min": 4004.0,
+        "other": 4,
+        "sell": 0,
+        "traded_date": "2026-08-20",
+        "trades": 4
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260916T132629Z",
+    "environment": "testing",
+    "generated_at": "2026-09-16T13:27:42Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/august_lee_pfluger_ii-tx-tx11.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-09-16T13:42:42Z"
+  }
+}

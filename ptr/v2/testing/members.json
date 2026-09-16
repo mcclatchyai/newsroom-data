@@ -1,26 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Brandon Gill",
-      "district": "TX26",
-      "issuers": 1,
-      "member_id": "brandon_gill-tx-tx26",
-      "member_name": "Hon. Brandon Gill",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/brandon_gill-tx-tx26.json",
+      "display_name": "Hon. August Lee Pfluger II",
+      "district": "TX11",
+      "issuers": 2,
+      "member_id": "august_lee_pfluger_ii-tx-tx11",
+      "member_name": "Hon. August Lee Pfluger II",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/august_lee_pfluger_ii-tx-tx11.json",
       "state": "TX",
-      "trades": 1
+      "trades": 4
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260910T192310Z",
+    "data_version": "20260916T132629Z",
     "environment": "testing",
-    "generated_at": "2026-09-10T19:24:25Z",
+    "generated_at": "2026-09-16T13:27:42Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-10T19:39:25Z"
+    "stale_after": "2026-09-16T13:42:42Z"
   }
 }

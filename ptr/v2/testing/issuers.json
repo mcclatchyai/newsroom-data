@@ -1,23 +1,30 @@
 {
   "issuers": [
     {
-      "issuer_name": "RSP ETF",
+      "issuer_name": "Charter Communications, Inc. - Class A Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/RSP.json",
-      "ticker": "RSP",
-      "trade_count": 1
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CHTR.json",
+      "ticker": "CHTR",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Liberty Broadband Corporation - Class C Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/LBRDK.json",
+      "ticker": "LBRDK",
+      "trade_count": 2
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260910T192310Z",
+    "data_version": "20260916T132629Z",
     "environment": "testing",
-    "generated_at": "2026-09-10T19:24:25Z",
+    "generated_at": "2026-09-16T13:27:42Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-10T19:39:25Z"
+    "stale_after": "2026-09-16T13:42:42Z"
   }
 }

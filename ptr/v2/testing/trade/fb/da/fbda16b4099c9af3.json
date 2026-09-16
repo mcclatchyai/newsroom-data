@@ -1,0 +1,1449 @@
+{
+  "context_packet": {
+    "filing_id": "20035432",
+    "ingested_at": "2026-09-16T13:21:51Z",
+    "issuer_name": "Charter Communications, Inc. - Class A Common Stock",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Charter+Communications%2C+Inc.+-+Class+A+Common+Stock",
+          "query_payload": {
+            "client_name": "Charter Communications, Inc. - Class A Common Stock",
+            "page_size": 5
+          },
+          "records": [],
+          "retrieved_at": "2026-09-16T13:21:51Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "available"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.0,
+          "member": {
+            "bioguide_id": "",
+            "district": "TX11",
+            "name": "Hon. August Lee Pfluger II",
+            "state": "TX"
+          },
+          "reason": "member_not_matched",
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "unavailable"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-09-16T13:21:51Z",
+        "sec_issuer_identity": {
+          "cik": "0001091667",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "CHARTER COMMUNICATIONS, INC. /MO/",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "CHTR"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "search_text": "Charter Communications, Inc. - Class A Common Stock"
+          },
+          "reason": "no_recipient_candidates",
+          "recipient_candidates": [],
+          "retrieved_at": "2026-09-16T13:21:51Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "unavailable"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035432",
+      "issuer": {
+        "name": "Charter Communications, Inc. - Class A Common Stock",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "CHTR"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX11",
+        "name": "Hon. August Lee Pfluger II",
+        "state": "TX"
+      },
+      "news_context": {
+        "filtered_out_count": 12,
+        "issuer_name": "Charter Communications, Inc. - Class A Common Stock",
+        "min_relevance_score": 20,
+        "provider": "gdelt_doc_2_0",
+        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Charter+Communications+Inc%22+OR+CHTR%29&mode=artlist&format=json&startdatetime=20260806000000&enddatetime=20261029235959&maxrecords=25&sort=DateDesc",
+        "query": "(\"Charter Communications Inc\" OR CHTR)",
+        "raw_result_count": 25,
+        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260827T011500Z",
+            "relevance_label": "medium",
+            "relevance_score": 59,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260827T020000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260826T190000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+            "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260906T003000Z",
+            "relevance_label": "medium",
+            "relevance_score": 40,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Charter Communications ( NASDAQ : CHTR ) and Newsmax ( NYSE : NMAX ) Head - To - Head Review",
+            "url": "https://www.themarketsdaily.com/2026/09/06/charter-communications-nasdaqchtr-and-newsmax-nysenmax-head-to-head-review.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "CHTR",
+              "charter",
+              "communications"
+            ],
+            "published_at": "20260808T184500Z",
+            "relevance_label": "medium",
+            "relevance_score": 40,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Financial Review : Charter Communications ( NASDAQ : CHTR ) & PubMatic ( NASDAQ : PUBM )",
+            "url": "https://www.themarketsdaily.com/2026/08/08/financial-review-charter-communications-nasdaqchtr-pubmatic-nasdaqpubm.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "retrieved_at": "2026-09-16T13:21:51Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [
+          {
+            "label": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html"
+          },
+          {
+            "label": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+            "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/"
+          },
+          {
+            "label": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+            "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/"
+          },
+          {
+            "label": "Charter Communications ( NASDAQ : CHTR ) and Newsmax ( NYSE : NMAX ) Head - To - Head Review",
+            "url": "https://www.themarketsdaily.com/2026/09/06/charter-communications-nasdaqchtr-and-newsmax-nysenmax-head-to-head-review.html"
+          },
+          {
+            "label": "Financial Review : Charter Communications ( NASDAQ : CHTR ) & PubMatic ( NASDAQ : PUBM )",
+            "url": "https://www.themarketsdaily.com/2026/08/08/financial-review-charter-communications-nasdaqchtr-pubmatic-nasdaqpubm.html"
+          }
+        ],
+        "status": "available",
+        "ticker": "CHTR",
+        "window": {
+          "end_date": "2026-10-29",
+          "start_date": "2026-08-06"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 5,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 5,
+          "matched_terms": [
+            "mo"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "member_not_matched",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
+              "latest_action_date": "2025-12-11",
+              "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+              "matched_terms": [
+                "mo"
+              ],
+              "number": "542",
+              "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
+              "type": "SRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hres/1107?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1107",
+              "latest_action_date": "2026-03-05",
+              "latest_action_text": "Referred to the House Committee on the Judiciary.",
+              "matched_terms": [
+                "mo"
+              ],
+              "number": "1107",
+              "title": "Memorializing Rev. Jesse Jackson by flying the flag of the United States at halfstaff.",
+              "type": "HRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hres/1108?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1108",
+              "latest_action_date": "2026-03-05",
+              "latest_action_text": "Referred to the House Committee on Education and Workforce.",
+              "matched_terms": [
+                "mo"
+              ],
+              "number": "1108",
+              "title": "Expressing support for designation of March 2026 as Music in Our Schools Month.",
+              "type": "HRES"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hr/7820?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/7820",
+              "latest_action_date": "2026-03-05",
+              "latest_action_text": "Referred to the House Committee on Ways and Means.",
+              "matched_terms": [
+                "mo"
+              ],
+              "number": "7820",
+              "title": "To amend the Internal Revenue Code of 1986 to modify the rules for investments in qualified opportunity funds, and for other purposes.",
+              "type": "HR"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/s/4008?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4008",
+              "latest_action_date": "2026-03-05",
+              "latest_action_text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S887)",
+              "matched_terms": [
+                "mo"
+              ],
+              "number": "4008",
+              "title": "Promoting Dental Health Act",
+              "type": "S"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=chtr+OR+charter+OR+communications+OR+mo",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "chtr",
+              "charter",
+              "communications",
+              "mo"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-09-16T13:21:51Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-15T14:00:00Z",
+              "event_id": "119551",
+              "matched_terms": [
+                "mo"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "an Amendment in the Nature of a Substitute to H.R. 10304, the Drone Safety Statement Modernization Act of 2026; ANS to H.R. 6448, the Rural Airport Infrastructure Support Act of 2026; ANS to H.R. 9530, the Quiet Skies Act; ANS to 2592, the Aviation Medication Transparency Act of 2026; ANS to H.R. 8597, the Air Traffic Situational Awareness Enhancement Act; ANS to H.R. 7553, the Aviation Innovation and Global Competitiveness Act; ANS to H.R. 7625, the Marine Transportation System Cybersecurity Budget and Evaluation Report (MTS CYBER) Act of 2026; ANS to H.R. 5645, the Pray Safe Act of 2025; H.R. 8409, the Post-Disaster Protection Act; ANS to H.R. 10305, the Strengthening Oversight in Public Buildings Act of 2026; and General Services Administration Capital Investment and Leasing Program Resolutions",
+              "type": "Markup"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-15T14:15:00Z",
+              "event_id": "119562",
+              "matched_terms": [
+                "mo"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "•\tH.R. 181 (Rep. McClintock), To amend the Endangered Species Act of 1973 to provide that artificially propagated animals shall be treated the same under that Act as naturally propagated animals, and for other purposes. \r\n•\tH.R. 184 (Rep. McClintock), “Action Versus No Action Act” \r\n•\tH.R. 1555 (Rep. Bice), “Bureau of Land Management Mineral Spacing Act” \r\n•\tH.R. 4598 (Rep. Leger Fernandez), “Technical Corrections to the Northwestern New Mexico Rural Water Projects Act, Taos Pueblo Indian Water Rights Settlement Act, and Aamodt Litigation Settlement Act”\r\n•\tH.R. 5745 (Rep. Ezell), “Marine Fisheries Habitat Protection Act” \r\n•\tH.R. 7254 (Rep. Huffman), To amend the National Trails System Act to direct the Secretary of the Interior to conduct a study on the feasibility of designating the Bay Area Ridge National Scenic Trail, and for other purposes.\r\n•\tH.R. 7954 (Rep. Hurd), “Don Young Doug LaMalfa Indian Buffalo Management Act” \r\n•\tH.R. 8195 (Rep. Walberg), “Responsible Cormorant Management and Control Act of 2026”\r\n•\tH.R. 8483 (Rep. Issa), “Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026”\r\n•\tH.R. 9269 (Rep. Clyburn), “Renewing the African American Civil Rights Network Act”\r\n•\tH.R. 9600 (Rep. Raskin), “Common Sense 250 Act of 2026”\r\n•\tH.R. 9621 (Rep. Baumgartner), “Northwest Endangered Salmon Predation Prevention Act of 2026” \r\n•\tH.R. 9640 (Rep. Wittman), “Earth MRI Reauthorization Act of 2026”\r\n•\tH.R. 9785 (Rep. Johnson of SD), “South Dakota Water Feasibility Studies Act”\r\n•\tH.R. 10136 (Rep. Westerman), “Crossett Experimental Forest Act of 2026” \r\n•\tH.R. 10306 (Rep. Amodei), “Technical Correction to the Shoshone-Paiute Tribes of the Duck Valley Reservation Water Rights Settlement Act of 2025”\r\n•\tS. 675 (Sen. Hoeven), “Theodore Roosevelt Presidential Library Act”",
+              "type": "Markup"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-15T14:00:00Z",
+              "event_id": "119557",
+              "matched_terms": [
+                "mo"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "“Unequal Treatment: Addressing the Drivers of Unaffordability for Oral Chemotherapy”",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-15T14:00:00Z",
+              "event_id": "119546",
+              "matched_terms": [
+                "mo"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "The Annual Testimony of the Secretary of the Treasury on the State of the International Financial System",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-16T18:00:00Z",
+              "event_id": "119507",
+              "matched_terms": [
+                "mo"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Legislative Hearing on 9 bills: \r\nH.R. 1031 (Rep.Tenney), “Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act”;\r\nH.R. 2323 (Rep. Pfluger), “Big Bend National Park Boundary Adjustment Act”;\r\nH.R. 7495 (Rep. Fitzgerald), To authorize the establishment of memorials to the Wisconsin infantry officers and enlisted men who fought in the Battle of Antietam and the Second Battle of Bull Run, and for other purposes.;\r\nH.R. 8276 (Rep. Schmidt), “Quindaro Townsite National Historic Landmark Act”;\r\nH.R. 9104 (Rep. Norton), “Rock Creek National Park Act of 2026”;\r\nH.R. 9148 (Rep. Hill), “Scipio Jones House Assessment Act”;\r\nH.R. 9999 (Rep. Pettersen), “Mountain Pine Beetle Coordination Act”;\r\nS. 1051 (Sen. Lankford), “Historic Greenwood District—Black Wall Street National Monument Establishment Act”;\r\nS. 1377 (Sen. Hoeven), “Theodore Roosevelt National Park Wild Horses Protection Act”",
+              "type": "Hearing"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=chtr+OR+charter+OR+communications+OR+mo",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "chtr",
+              "charter",
+              "communications",
+              "mo"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-09-16T13:21:51Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "chtr"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "charter"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "communications"
+          },
+          {
+            "confidence": 0.6,
+            "source": "sec_identity",
+            "term": "mo"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-09-16T13:21:51Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Exchange",
+        "amount_range": "$1,001 - $15,000",
+        "disclosure_lag_days": 25,
+        "estimated_max": 15000,
+        "estimated_min": 1001,
+        "filed_after_due_date": false,
+        "filing_date": "09/14/2026",
+        "notification_date": "09/11/2026",
+        "owner": "CP Roth IRA",
+        "page": 1,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf",
+        "source_quote": "Shares received thru merger",
+        "stock_act_due_date": "2026-10-04",
+        "transaction_date": "08/20/2026"
+      },
+      "transaction_id": "fbda16b4099c9af3"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "CHTR",
+    "transaction_id": "fbda16b4099c9af3"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Charter+Communications%2C+Inc.+-+Class+A+Common+Stock",
+      "query_payload": {
+        "client_name": "Charter Communications, Inc. - Class A Common Stock",
+        "page_size": 5
+      },
+      "records": [],
+      "retrieved_at": "2026-09-16T13:21:51Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "available"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.0,
+      "member": {
+        "bioguide_id": "",
+        "district": "TX11",
+        "name": "Hon. August Lee Pfluger II",
+        "state": "TX"
+      },
+      "reason": "member_not_matched",
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "unavailable"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-09-16T13:21:51Z",
+    "sec_issuer_identity": {
+      "cik": "0001091667",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "CHARTER COMMUNICATIONS, INC. /MO/",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "CHTR"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "search_text": "Charter Communications, Inc. - Class A Common Stock"
+      },
+      "reason": "no_recipient_candidates",
+      "recipient_candidates": [],
+      "retrieved_at": "2026-09-16T13:21:51Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "unavailable"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Exchange": 4
+    },
+    "action_counts_json": "{\"Exchange\": 4}",
+    "disclosure_lag_days": 25,
+    "district": "TX11",
+    "estimated_max_total": 60000,
+    "estimated_min_total": 4004,
+    "filing_date": "09/14/2026",
+    "filing_id": "20035432",
+    "filing_type": "P",
+    "ingested_at": "2026-09-16T13:21:51Z",
+    "member_name": "Hon. August Lee Pfluger II",
+    "pdf_sha256": "da478f9928cc0bc16bc8b591f042e7118913727b49db1f0a2c1de35fe218a83b",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "CHTR",
+      "LBRDK"
+    ],
+    "tickers_json": "[\"CHTR\", \"LBRDK\"]",
+    "transaction_count": 4,
+    "transaction_date_max": "2026-08-20",
+    "transaction_date_min": "2026-08-20"
+  },
+  "insight_candidate": {
+    "action": "Exchange",
+    "action_type": "trade",
+    "amount_range": "$1,001 - $15,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported trade; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. August Lee Pfluger II's CHTR trade",
+      "lede": "Hon. August Lee Pfluger II reported a trade of Charter Communications, Inc (CHTR) through CP Roth IRA on Aug 20, 2026, according to a periodic transaction report filed Sep 14, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "5 related company/news links were found around the trade and filing window.",
+      "nut_graf": "The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Review the news/event links and verify which items are directly about the issuer and time window.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported trade; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 25.0,
+    "district": "TX11",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "09/14/2026",
+    "filing_id": "20035432",
+    "grounded_summary": "Hon. August Lee Pfluger II reported a trade of Charter Communications, Inc (CHTR) through CP Roth IRA on Aug 20, 2026, according to a periodic transaction report filed Sep 14, 2026. The transaction was reported in the $1,001 - $15,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. 5 related company/news links were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. August Lee Pfluger II's CHTR trade",
+    "issuer_name": "Charter Communications, Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. August Lee Pfluger II",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Charter Communications Inc\" OR CHTR)",
+      "result_count": 5,
+      "results": [
+        {
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "matched_terms": [
+            "CHTR",
+            "charter",
+            "communications"
+          ],
+          "published_at": "20260827T011500Z",
+          "relevance_label": "medium",
+          "relevance_score": 59,
+          "source_country": "United States",
+          "source_type": "national_business_news",
+          "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term",
+            "national/business news source",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "matched_terms": [
+            "CHTR",
+            "charter",
+            "communications"
+          ],
+          "published_at": "20260827T020000Z",
+          "relevance_label": "medium",
+          "relevance_score": 44,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+          "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "matched_terms": [
+            "CHTR",
+            "charter",
+            "communications"
+          ],
+          "published_at": "20260826T190000Z",
+          "relevance_label": "medium",
+          "relevance_score": 44,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+          "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "themarketsdaily.com",
+          "language": "English",
+          "matched_terms": [
+            "CHTR",
+            "charter",
+            "communications"
+          ],
+          "published_at": "20260906T003000Z",
+          "relevance_label": "medium",
+          "relevance_score": 40,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Charter Communications ( NASDAQ : CHTR ) and Newsmax ( NYSE : NMAX ) Head - To - Head Review",
+          "url": "https://www.themarketsdaily.com/2026/09/06/charter-communications-nasdaqchtr-and-newsmax-nysenmax-head-to-head-review.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term",
+            "published within three weeks of reported trade date"
+          ]
+        },
+        {
+          "domain": "themarketsdaily.com",
+          "language": "English",
+          "matched_terms": [
+            "CHTR",
+            "charter",
+            "communications"
+          ],
+          "published_at": "20260808T184500Z",
+          "relevance_label": "medium",
+          "relevance_score": 40,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Financial Review : Charter Communications ( NASDAQ : CHTR ) & PubMatic ( NASDAQ : PUBM )",
+          "url": "https://www.themarketsdaily.com/2026/08/08/financial-review-charter-communications-nasdaqchtr-pubmatic-nasdaqpubm.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term",
+            "published within three weeks of reported trade date"
+          ]
+        }
+      ],
+      "status": "available",
+      "window": {
+        "end_date": "2026-10-29",
+        "start_date": "2026-08-06"
+      }
+    },
+    "owner": "CP Roth IRA",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Review the news/event links and verify which items are directly about the issuer and time window.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 6,
+    "score_reasons": [
+      "Congress.gov bill context was found",
+      "Congress.gov hearing context was found",
+      "news/event context links are available",
+      "linked company/news context is available"
+    ],
+    "slug": "hon-august-lee-pfluger-ii-chtr-trade-08-20-2026-fbda16b4099c9af3",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      },
+      {
+        "label": "News/context: Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html"
+      },
+      {
+        "label": "News/context: Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+        "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/"
+      },
+      {
+        "label": "News/context: Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+        "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/"
+      },
+      {
+        "label": "News/context: Charter Communications ( NASDAQ : CHTR ) and Newsmax ( NYSE : NMAX ) Head - To - Head Review",
+        "url": "https://www.themarketsdaily.com/2026/09/06/charter-communications-nasdaqchtr-and-newsmax-nysenmax-head-to-head-review.html"
+      },
+      {
+        "label": "News/context: Financial Review : Charter Communications ( NASDAQ : CHTR ) & PubMatic ( NASDAQ : PUBM )",
+        "url": "https://www.themarketsdaily.com/2026/08/08/financial-review-charter-communications-nasdaqchtr-pubmatic-nasdaqpubm.html"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "CHTR",
+    "trade_date": "08/20/2026",
+    "transaction_id": "fbda16b4099c9af3"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for CHTR: status=403",
+    "retrieved_at": "2026-09-16T13:21:51Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "CHTR"
+  },
+  "news_context": {
+    "filtered_out_count": 12,
+    "issuer_name": "Charter Communications, Inc. - Class A Common Stock",
+    "min_relevance_score": 20,
+    "provider": "gdelt_doc_2_0",
+    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Charter+Communications+Inc%22+OR+CHTR%29&mode=artlist&format=json&startdatetime=20260806000000&enddatetime=20261029235959&maxrecords=25&sort=DateDesc",
+    "query": "(\"Charter Communications Inc\" OR CHTR)",
+    "raw_result_count": 25,
+    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "result_count": 5,
+    "results": [
+      {
+        "domain": "finance.yahoo.com",
+        "language": "English",
+        "matched_terms": [
+          "CHTR",
+          "charter",
+          "communications"
+        ],
+        "published_at": "20260827T011500Z",
+        "relevance_label": "medium",
+        "relevance_score": 59,
+        "source_country": "United States",
+        "source_type": "national_business_news",
+        "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term",
+          "national/business news source",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "insidermonkey.com",
+        "language": "English",
+        "matched_terms": [
+          "CHTR",
+          "charter",
+          "communications"
+        ],
+        "published_at": "20260827T020000Z",
+        "relevance_label": "medium",
+        "relevance_score": 44,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+        "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "insidermonkey.com",
+        "language": "English",
+        "matched_terms": [
+          "CHTR",
+          "charter",
+          "communications"
+        ],
+        "published_at": "20260826T190000Z",
+        "relevance_label": "medium",
+        "relevance_score": 44,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+        "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "matched_terms": [
+          "CHTR",
+          "charter",
+          "communications"
+        ],
+        "published_at": "20260906T003000Z",
+        "relevance_label": "medium",
+        "relevance_score": 40,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Charter Communications ( NASDAQ : CHTR ) and Newsmax ( NYSE : NMAX ) Head - To - Head Review",
+        "url": "https://www.themarketsdaily.com/2026/09/06/charter-communications-nasdaqchtr-and-newsmax-nysenmax-head-to-head-review.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term",
+          "published within three weeks of reported trade date"
+        ]
+      },
+      {
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "matched_terms": [
+          "CHTR",
+          "charter",
+          "communications"
+        ],
+        "published_at": "20260808T184500Z",
+        "relevance_label": "medium",
+        "relevance_score": 40,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Financial Review : Charter Communications ( NASDAQ : CHTR ) & PubMatic ( NASDAQ : PUBM )",
+        "url": "https://www.themarketsdaily.com/2026/08/08/financial-review-charter-communications-nasdaqchtr-pubmatic-nasdaqpubm.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term",
+          "published within three weeks of reported trade date"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-09-16T13:21:51Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [
+      {
+        "label": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/could-charter-communications-chtr-cox-003619618.html"
+      },
+      {
+        "label": "Could Charter Communications ( CHTR ) Cox Deal Give it an Edge Over Liberty Broadband Corporation ( LBRDK )?",
+        "url": "https://www.insidermonkey.com/blog/could-charter-communications-chtrs-cox-deal-give-it-an-edge-over-liberty-broadband-corporation-lbrdk-1823084/"
+      },
+      {
+        "label": "Comcast Corporation ( CMCSA ) vs Charter Communications ( CHTR ): Two Cable Giants , Two Opposite Bets",
+        "url": "https://www.insidermonkey.com/blog/comcast-corporation-cmcsa-vs-charter-communications-chtr-two-cable-giants-two-opposite-bets-1806159/"
+      },
+      {
+        "label": "Charter Communications ( NASDAQ : CHTR ) and Newsmax ( NYSE : NMAX ) Head - To - Head Review",
+        "url": "https://www.themarketsdaily.com/2026/09/06/charter-communications-nasdaqchtr-and-newsmax-nysenmax-head-to-head-review.html"
+      },
+      {
+        "label": "Financial Review : Charter Communications ( NASDAQ : CHTR ) & PubMatic ( NASDAQ : PUBM )",
+        "url": "https://www.themarketsdaily.com/2026/08/08/financial-review-charter-communications-nasdaqchtr-pubmatic-nasdaqpubm.html"
+      }
+    ],
+    "status": "available",
+    "ticker": "CHTR",
+    "window": {
+      "end_date": "2026-10-29",
+      "start_date": "2026-08-06"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 5,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 5,
+      "matched_terms": [
+        "mo"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "member_not_matched",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
+          "latest_action_date": "2025-12-11",
+          "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+          "matched_terms": [
+            "mo"
+          ],
+          "number": "542",
+          "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
+          "type": "SRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hres/1107?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1107",
+          "latest_action_date": "2026-03-05",
+          "latest_action_text": "Referred to the House Committee on the Judiciary.",
+          "matched_terms": [
+            "mo"
+          ],
+          "number": "1107",
+          "title": "Memorializing Rev. Jesse Jackson by flying the flag of the United States at halfstaff.",
+          "type": "HRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hres/1108?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1108",
+          "latest_action_date": "2026-03-05",
+          "latest_action_text": "Referred to the House Committee on Education and Workforce.",
+          "matched_terms": [
+            "mo"
+          ],
+          "number": "1108",
+          "title": "Expressing support for designation of March 2026 as Music in Our Schools Month.",
+          "type": "HRES"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hr/7820?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/7820",
+          "latest_action_date": "2026-03-05",
+          "latest_action_text": "Referred to the House Committee on Ways and Means.",
+          "matched_terms": [
+            "mo"
+          ],
+          "number": "7820",
+          "title": "To amend the Internal Revenue Code of 1986 to modify the rules for investments in qualified opportunity funds, and for other purposes.",
+          "type": "HR"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/s/4008?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4008",
+          "latest_action_date": "2026-03-05",
+          "latest_action_text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S887)",
+          "matched_terms": [
+            "mo"
+          ],
+          "number": "4008",
+          "title": "Promoting Dental Health Act",
+          "type": "S"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=chtr+OR+charter+OR+communications+OR+mo",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "chtr",
+          "charter",
+          "communications",
+          "mo"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-09-16T13:21:51Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-15T14:00:00Z",
+          "event_id": "119551",
+          "matched_terms": [
+            "mo"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "an Amendment in the Nature of a Substitute to H.R. 10304, the Drone Safety Statement Modernization Act of 2026; ANS to H.R. 6448, the Rural Airport Infrastructure Support Act of 2026; ANS to H.R. 9530, the Quiet Skies Act; ANS to 2592, the Aviation Medication Transparency Act of 2026; ANS to H.R. 8597, the Air Traffic Situational Awareness Enhancement Act; ANS to H.R. 7553, the Aviation Innovation and Global Competitiveness Act; ANS to H.R. 7625, the Marine Transportation System Cybersecurity Budget and Evaluation Report (MTS CYBER) Act of 2026; ANS to H.R. 5645, the Pray Safe Act of 2025; H.R. 8409, the Post-Disaster Protection Act; ANS to H.R. 10305, the Strengthening Oversight in Public Buildings Act of 2026; and General Services Administration Capital Investment and Leasing Program Resolutions",
+          "type": "Markup"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-15T14:15:00Z",
+          "event_id": "119562",
+          "matched_terms": [
+            "mo"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "•\tH.R. 181 (Rep. McClintock), To amend the Endangered Species Act of 1973 to provide that artificially propagated animals shall be treated the same under that Act as naturally propagated animals, and for other purposes. \r\n•\tH.R. 184 (Rep. McClintock), “Action Versus No Action Act” \r\n•\tH.R. 1555 (Rep. Bice), “Bureau of Land Management Mineral Spacing Act” \r\n•\tH.R. 4598 (Rep. Leger Fernandez), “Technical Corrections to the Northwestern New Mexico Rural Water Projects Act, Taos Pueblo Indian Water Rights Settlement Act, and Aamodt Litigation Settlement Act”\r\n•\tH.R. 5745 (Rep. Ezell), “Marine Fisheries Habitat Protection Act” \r\n•\tH.R. 7254 (Rep. Huffman), To amend the National Trails System Act to direct the Secretary of the Interior to conduct a study on the feasibility of designating the Bay Area Ridge National Scenic Trail, and for other purposes.\r\n•\tH.R. 7954 (Rep. Hurd), “Don Young Doug LaMalfa Indian Buffalo Management Act” \r\n•\tH.R. 8195 (Rep. Walberg), “Responsible Cormorant Management and Control Act of 2026”\r\n•\tH.R. 8483 (Rep. Issa), “Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026”\r\n•\tH.R. 9269 (Rep. Clyburn), “Renewing the African American Civil Rights Network Act”\r\n•\tH.R. 9600 (Rep. Raskin), “Common Sense 250 Act of 2026”\r\n•\tH.R. 9621 (Rep. Baumgartner), “Northwest Endangered Salmon Predation Prevention Act of 2026” \r\n•\tH.R. 9640 (Rep. Wittman), “Earth MRI Reauthorization Act of 2026”\r\n•\tH.R. 9785 (Rep. Johnson of SD), “South Dakota Water Feasibility Studies Act”\r\n•\tH.R. 10136 (Rep. Westerman), “Crossett Experimental Forest Act of 2026” \r\n•\tH.R. 10306 (Rep. Amodei), “Technical Correction to the Shoshone-Paiute Tribes of the Duck Valley Reservation Water Rights Settlement Act of 2025”\r\n•\tS. 675 (Sen. Hoeven), “Theodore Roosevelt Presidential Library Act”",
+          "type": "Markup"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-15T14:00:00Z",
+          "event_id": "119557",
+          "matched_terms": [
+            "mo"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "“Unequal Treatment: Addressing the Drivers of Unaffordability for Oral Chemotherapy”",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-15T14:00:00Z",
+          "event_id": "119546",
+          "matched_terms": [
+            "mo"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "The Annual Testimony of the Secretary of the Treasury on the State of the International Financial System",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-16T18:00:00Z",
+          "event_id": "119507",
+          "matched_terms": [
+            "mo"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Legislative Hearing on 9 bills: \r\nH.R. 1031 (Rep.Tenney), “Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act”;\r\nH.R. 2323 (Rep. Pfluger), “Big Bend National Park Boundary Adjustment Act”;\r\nH.R. 7495 (Rep. Fitzgerald), To authorize the establishment of memorials to the Wisconsin infantry officers and enlisted men who fought in the Battle of Antietam and the Second Battle of Bull Run, and for other purposes.;\r\nH.R. 8276 (Rep. Schmidt), “Quindaro Townsite National Historic Landmark Act”;\r\nH.R. 9104 (Rep. Norton), “Rock Creek National Park Act of 2026”;\r\nH.R. 9148 (Rep. Hill), “Scipio Jones House Assessment Act”;\r\nH.R. 9999 (Rep. Pettersen), “Mountain Pine Beetle Coordination Act”;\r\nS. 1051 (Sen. Lankford), “Historic Greenwood District—Black Wall Street National Monument Establishment Act”;\r\nS. 1377 (Sen. Hoeven), “Theodore Roosevelt National Park Wild Horses Protection Act”",
+          "type": "Hearing"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=chtr+OR+charter+OR+communications+OR+mo",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "chtr",
+          "charter",
+          "communications",
+          "mo"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-09-16T13:21:51Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "chtr"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "charter"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "communications"
+      },
+      {
+        "confidence": 0.6,
+        "source": "sec_identity",
+        "term": "mo"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-09-16T13:21:51Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260916T132629Z",
+    "environment": "testing",
+    "generated_at": "2026-09-16T13:27:42Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/fb/da/fbda16b4099c9af3.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-09-16T13:42:42Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035432.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/fb/da/fbda16b4099c9af3.json"
+  },
+  "transaction": {
+    "action": "Exchange",
+    "amount_range": "$1,001 - $15,000",
+    "disclosure_lag_days": 25,
+    "district": "TX11",
+    "estimated_max": 15000,
+    "estimated_min": 1001,
+    "filed_after_due_date": false,
+    "filing_date": "09/14/2026",
+    "filing_id": "20035432",
+    "filing_type": "P",
+    "ingested_at": "2026-09-16T13:21:51Z",
+    "issuer_name": "Charter Communications, Inc. - Class A Common Stock",
+    "member_name": "Hon. August Lee Pfluger II",
+    "notification_date": "09/11/2026",
+    "owner": "CP Roth IRA",
+    "page": 1,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "Shares received thru merger",
+    "state": "TX",
+    "stock_act_due_date": "2026-10-04",
+    "ticker": "CHTR",
+    "transaction_date": "08/20/2026",
+    "transaction_id": "fbda16b4099c9af3"
+  }
+}

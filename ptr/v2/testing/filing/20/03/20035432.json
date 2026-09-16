@@ -122,37 +122,35 @@
       "transaction_id": "4d85dbbd3c98633a"
     }
   ],
-  "filings": [
-    {
-      "action_counts": {
-        "Exchange": 4
-      },
-      "action_counts_json": "{\"Exchange\": 4}",
-      "disclosure_lag_days": 25,
-      "district": "TX11",
-      "estimated_max_total": 60000,
-      "estimated_min_total": 4004,
-      "filing_date": "09/14/2026",
-      "filing_id": "20035432",
-      "filing_type": "P",
-      "ingested_at": "2026-09-16T13:21:51Z",
-      "member_name": "Hon. August Lee Pfluger II",
-      "pdf_sha256": "da478f9928cc0bc16bc8b591f042e7118913727b49db1f0a2c1de35fe218a83b",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf",
-      "possible_late": false,
-      "schema_version": "1",
-      "source": "house_disclosure_pdf",
-      "state": "TX",
-      "tickers": [
-        "CHTR",
-        "LBRDK"
-      ],
-      "tickers_json": "[\"CHTR\", \"LBRDK\"]",
-      "transaction_count": 4,
-      "transaction_date_max": "2026-08-20",
-      "transaction_date_min": "2026-08-20"
-    }
-  ],
+  "filing": {
+    "action_counts": {
+      "Exchange": 4
+    },
+    "action_counts_json": "{\"Exchange\": 4}",
+    "disclosure_lag_days": 25,
+    "district": "TX11",
+    "estimated_max_total": 60000,
+    "estimated_min_total": 4004,
+    "filing_date": "09/14/2026",
+    "filing_id": "20035432",
+    "filing_type": "P",
+    "ingested_at": "2026-09-16T13:21:51Z",
+    "member_name": "Hon. August Lee Pfluger II",
+    "pdf_sha256": "da478f9928cc0bc16bc8b591f042e7118913727b49db1f0a2c1de35fe218a83b",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "CHTR",
+      "LBRDK"
+    ],
+    "tickers_json": "[\"CHTR\", \"LBRDK\"]",
+    "transaction_count": 4,
+    "transaction_date_max": "2026-08-20",
+    "transaction_date_min": "2026-08-20"
+  },
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
@@ -160,12 +158,15 @@
     "environment": "testing",
     "generated_at": "2026-09-16T13:27:42Z",
     "project": "ptr",
-    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/state/TX.json",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035432.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
     "stale_after": "2026-09-16T13:42:42Z"
   },
-  "state": "TX",
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035432.json"
+  },
   "transactions": [
     {
       "action": "Exchange",
