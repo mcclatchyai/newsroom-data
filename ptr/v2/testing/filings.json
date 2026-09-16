@@ -2,30 +2,29 @@
   "filings": [
     {
       "action_counts": {
-        "Exchange": 4
+        "Purchase": 1
       },
-      "action_counts_json": "{\"Exchange\": 4}",
+      "action_counts_json": "{\"Purchase\": 1}",
       "disclosure_lag_days": 25,
-      "district": "TX11",
-      "estimated_max_total": 60000,
-      "estimated_min_total": 4004,
+      "district": "WA01",
+      "estimated_max_total": 50000,
+      "estimated_min_total": 15001,
       "filing_date": "09/14/2026",
-      "filing_id": "20035432",
+      "filing_id": "20035400",
       "filing_type": "P",
-      "ingested_at": "2026-09-16T13:21:51Z",
-      "member_name": "Hon. August Lee Pfluger II",
-      "pdf_sha256": "da478f9928cc0bc16bc8b591f042e7118913727b49db1f0a2c1de35fe218a83b",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf",
+      "ingested_at": "2026-09-16T13:35:37Z",
+      "member_name": "Hon. Suzan K. DelBene",
+      "pdf_sha256": "dcea39d860a73dd63a93a8c25c95a942824e3be4704f1afdbb2d83a44bd12d30",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035400.pdf",
       "possible_late": false,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
-      "state": "TX",
+      "state": "WA",
       "tickers": [
-        "CHTR",
-        "LBRDK"
+        "GS"
       ],
-      "tickers_json": "[\"CHTR\", \"LBRDK\"]",
-      "transaction_count": 4,
+      "tickers_json": "[\"GS\"]",
+      "transaction_count": 1,
       "transaction_date_max": "2026-08-20",
       "transaction_date_min": "2026-08-20"
     }
@@ -33,13 +32,13 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260916T132629Z",
+    "data_version": "20260916T133626Z",
     "environment": "testing",
-    "generated_at": "2026-09-16T13:27:42Z",
+    "generated_at": "2026-09-16T13:37:45Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-16T13:42:42Z"
+    "stale_after": "2026-09-16T13:52:45Z"
   }
 }
