@@ -6,60 +6,92 @@
     "Possible late filing flags are reporter checks based on extracted dates; verify against the source PDF and ethics guidance before publication.",
     "Market movement and context flags do not establish motive, profit, wrongdoing, or use of nonpublic information."
   ],
-  "generated_at": "2026-09-16T13:37:45Z",
+  "generated_at": "2026-09-21T16:25:42Z",
   "leaderboards": {
     "active_traders": [
       {
-        "buy_count": 1,
-        "district": "WA01",
-        "estimated_max_volume": 50000.0,
-        "estimated_min_volume": 15001.0,
+        "buy_count": 0,
+        "district": "TX17",
+        "estimated_max_volume": 100000.0,
+        "estimated_min_volume": 30002.0,
         "filings": 1,
-        "issuers": 1,
-        "latest_filing_date": "09/14/2026",
-        "latest_traded_date": "08/20/2026",
+        "issuers": 2,
+        "latest_filing_date": "09/18/2026",
+        "latest_traded_date": "09/14/2026",
         "other_count": 0,
-        "politician": "Hon. Suzan K. DelBene",
+        "politician": "Hon. Pete Sessions",
         "possible_late_count": 0,
-        "sell_count": 0,
-        "state": "WA",
-        "trades": 1
+        "sell_count": 2,
+        "state": "TX",
+        "trades": 2
       }
     ],
     "filing_lag_leaders": [
       {
-        "district": "WA01",
-        "filed_after_days": 25.0,
+        "district": "TX17",
+        "filed_after_days": 4.0,
         "filed_after_due_date": false,
-        "filing_id": "20035400",
-        "issuer": "New York NY City Transitional Fin",
-        "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035400.pdf",
-        "politician": "Hon. Suzan K. DelBene",
+        "filing_id": "20035480",
+        "issuer": "AbbVie Inc. Common Stock",
+        "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+        "politician": "Hon. Pete Sessions",
         "possible_late": false,
-        "published_date": "09/14/2026",
+        "published_date": "09/18/2026",
         "size": "$15,001 - $50,000",
-        "state": "WA",
-        "stock_act_due_date": "2026-09-19",
-        "ticker": "GS",
-        "traded_date": "08/20/2026",
-        "transaction_id": "fddbdba71fcaeef7",
-        "type": "buy"
+        "state": "TX",
+        "stock_act_due_date": "2026-10-18",
+        "ticker": "ABBV",
+        "traded_date": "09/14/2026",
+        "transaction_id": "3286664511e79cc9",
+        "type": "sell"
+      },
+      {
+        "district": "TX17",
+        "filed_after_days": 4.0,
+        "filed_after_due_date": false,
+        "filing_id": "20035480",
+        "issuer": "Alphabet Inc. - Class A Common Stock",
+        "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+        "politician": "Hon. Pete Sessions",
+        "possible_late": false,
+        "published_date": "09/18/2026",
+        "size": "$15,001 - $50,000",
+        "state": "TX",
+        "stock_act_due_date": "2026-10-18",
+        "ticker": "GOOGL",
+        "traded_date": "09/14/2026",
+        "transaction_id": "70fb77cce53e458c",
+        "type": "sell"
       }
     ],
     "possible_late_filings": [],
     "top_issuers": [
       {
-        "buy_count": 1,
+        "buy_count": 0,
         "estimated_max_volume": 50000.0,
         "estimated_min_volume": 15001.0,
         "filings": 1,
-        "issuer": "New York NY City Transitional Fin",
-        "latest_filing_date": "09/14/2026",
-        "latest_traded_date": "08/20/2026",
+        "issuer": "Alphabet Inc. - Class A Common Stock",
+        "latest_filing_date": "09/18/2026",
+        "latest_traded_date": "09/14/2026",
         "members": 1,
         "other_count": 0,
-        "sell_count": 0,
-        "ticker": "GS",
+        "sell_count": 1,
+        "ticker": "GOOGL",
+        "trades": 1
+      },
+      {
+        "buy_count": 0,
+        "estimated_max_volume": 50000.0,
+        "estimated_min_volume": 15001.0,
+        "filings": 1,
+        "issuer": "AbbVie Inc. Common Stock",
+        "latest_filing_date": "09/18/2026",
+        "latest_traded_date": "09/14/2026",
+        "members": 1,
+        "other_count": 0,
+        "sell_count": 1,
+        "ticker": "ABBV",
         "trades": 1
       }
     ]
@@ -67,14 +99,14 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260916T133626Z",
+    "data_version": "20260921T162434Z",
     "environment": "testing",
-    "generated_at": "2026-09-16T13:37:45Z",
+    "generated_at": "2026-09-21T16:25:42Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/leaderboards.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-16T13:52:45Z"
+    "stale_after": "2026-09-21T16:40:42Z"
   },
   "schema_version": 1,
   "scope": {
@@ -84,16 +116,16 @@
   },
   "skipped": [],
   "summary": {
-    "buy_count": 1,
-    "estimated_max_volume": 50000.0,
-    "estimated_min_volume": 15001.0,
+    "buy_count": 0,
+    "estimated_max_volume": 100000.0,
+    "estimated_min_volume": 30002.0,
     "filings": 1,
-    "issuers": 1,
-    "max_disclosure_lag_days": 25,
+    "issuers": 2,
+    "max_disclosure_lag_days": 4,
     "other_count": 0,
     "politicians": 1,
     "possible_late_count": 0,
-    "sell_count": 0,
-    "transactions": 1
+    "sell_count": 2,
+    "transactions": 2
   }
 }

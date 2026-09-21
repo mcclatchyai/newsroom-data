@@ -1,0 +1,1396 @@
+{
+  "context_packet": {
+    "filing_id": "20035480",
+    "ingested_at": "2026-09-21T16:21:16Z",
+    "issuer_name": "Alphabet Inc. - Class A Common Stock",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Alphabet+Inc.+-+Class+A+Common+Stock",
+          "query_payload": {
+            "client_name": "Alphabet Inc. - Class A Common Stock",
+            "page_size": 5
+          },
+          "records": [],
+          "retrieved_at": "2026-09-21T16:21:16Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "available"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "S000250",
+            "district": "17",
+            "match_method": "name_state_district",
+            "name": "Pete Sessions",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-09-21T16:21:16Z",
+        "sec_issuer_identity": {
+          "cik": "0001652044",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "Alphabet Inc.",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "GOOGL"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "search_text": "Alphabet Inc. - Class A Common Stock"
+          },
+          "reason": "no_recipient_candidates",
+          "recipient_candidates": [],
+          "retrieved_at": "2026-09-21T16:21:16Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "unavailable"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035480",
+      "issuer": {
+        "name": "Alphabet Inc. - Class A Common Stock",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "GOOGL"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX17",
+        "name": "Hon. Pete Sessions",
+        "state": "TX"
+      },
+      "news_context": {
+        "filtered_out_count": 19,
+        "issuer_name": "Alphabet Inc. - Class A Common Stock",
+        "min_relevance_score": 20,
+        "provider": "gdelt_doc_2_0",
+        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Alphabet+Inc%22+OR+GOOGL%29&mode=artlist&format=json&startdatetime=20260831000000&enddatetime=20261102235959&maxrecords=25&sort=DateDesc",
+        "query": "(\"Alphabet Inc\" OR GOOGL)",
+        "raw_result_count": 25,
+        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260913T091500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Can Alphabet Overtake Nvidia in 2027 ?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "GOOGL",
+              "alphabet"
+            ],
+            "published_at": "20260921T023000Z",
+            "relevance_label": "low",
+            "relevance_score": 34,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+            "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260920T174500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+            "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "fool.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260920T114500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+            "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/?source=iedfolrf0000001",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "fool.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260920T111500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+            "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "retrieved_at": "2026-09-21T16:21:16Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [
+          {
+            "label": "Can Alphabet Overtake Nvidia in 2027 ?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html"
+          },
+          {
+            "label": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+            "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/"
+          },
+          {
+            "label": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+            "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html"
+          },
+          {
+            "label": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+            "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/?source=iedfolrf0000001"
+          },
+          {
+            "label": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+            "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/"
+          }
+        ],
+        "status": "available",
+        "ticker": "GOOGL",
+        "window": {
+          "end_date": "2026-11-02",
+          "start_date": "2026-08-31"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 2,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 5,
+          "matched_terms": [
+            "artificial intelligence",
+            "search",
+            "technology"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hr/5622?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5622",
+              "latest_action_date": "2025-09-30",
+              "latest_action_text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Science, Space, and Technology, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+              "matched_terms": [
+                "technology",
+                "search"
+              ],
+              "number": "5622",
+              "title": "National Gun Violence Research Act of 2025",
+              "type": "HR"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hr/9565?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/9565",
+              "latest_action_date": "2026-07-07",
+              "latest_action_text": "Referred to the Subcommittee on Border Security and Enforcement.",
+              "matched_terms": [
+                "technology"
+              ],
+              "number": "9565",
+              "title": "Enhanced Counter-Narcotics Detection and Technology Act",
+              "type": "HR"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=Google+OR+Alphabet+OR+technology+OR+antitrust+OR+artificial+intelligence+OR+privacy+OR+search+OR+googl",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "Google",
+              "Alphabet",
+              "technology",
+              "antitrust",
+              "artificial intelligence",
+              "privacy",
+              "search",
+              "googl"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-09-21T16:21:16Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-16T14:00:00Z",
+              "event_id": "119563",
+              "matched_terms": [
+                "technology"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Balancing Biotechnology Innovation and Biosecurity: Securing U.S. Leadership in a Global Race",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-15T14:00:00Z",
+              "event_id": "119556",
+              "matched_terms": [
+                "technology"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Innovation in Disaster Prevention: Advancing Technology for Prediction and Response",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-16T14:00:00Z",
+              "event_id": "338749",
+              "matched_terms": [
+                "technology"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to consider S.3467, to reauthorize the Virginia Graeme Baker Pool and Spa Safety Act, S.3929, to require the Administrator of the Federal Aviation Administration to acquire and install certified airborne position reference tools at air traffic control towers, S.4573, to designate the Great Lakes Commission as a Regional Great Lakes Partnership, S.4749, to amend the Communications Act of 1934 to create a Federal cause of action to address jawboning, S.4938, to reduce trawl gear impacts on bycatch and seafloor habitat in the Bering Sea, Aleutian Islands, and Gulf of Alaska, to establish gear performance standards, seafloor contact detection, and salmon excluder requirements, to improve Council transparency and participation, to prioritize ecosystem analyses, to modernize electronic monitoring, to prohibit unsustainable foreign seafood imports, and to establish a Bycatch Mitigation and Habitat Protection Assistance Fund, S.4950, to amend the National Telecommunications and Information Administration Organization Act to codify the Institute for Telecommunication Sciences, to direct the Assistant Secretary of Commerce for Communications and Information to establish an initiative to support the development of emergency communication and tracking technologies, S.5188, to amend the Professional Boxing Safety Act of 1996 to establish requirements for unified boxing organizations and to further enhance the well-being of professional boxers, S.5224, to improve training for airport drivers in the movement area at commercial service airports through the establishment of a task force and the use of technology, H.R.7022, to provide for the transmission of emergency alerts by satellite, and promotions in the Coast Guard.",
+              "type": "Open Business Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-08-05T14:00:00Z",
+              "event_id": "338704",
+              "matched_terms": [
+                "technology",
+                "artificial intelligence"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Business meeting to markup S.737, to require certain interactive computer services to adopt and operate technology verification measures to ensure that users of the platform are not minors, S.1748, to protect the safety of children on the internet, S.4199, to require entities that make artificial intelligence chatbots available to minors to implement certain safe design features, S.4407, to require the creation of family accounts for children to be able to use artificial intelligence chatbots, to require verifiable parental consent for teens using artificial intelligence chatbots, S.5171, to require a study of AI-enabled toys and development of a joint action plan regarding the marketing and sale of AI-enabled toys, and a promotion list in the Coast Guard.",
+              "type": "Open Business Meeting"
+            },
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-08-04T14:00:00Z",
+              "event_id": "338695",
+              "matched_terms": [
+                "technology"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Hearings to examine building a resilient health care future with biotechnology.",
+              "type": "Open Hearing"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=Google+OR+Alphabet+OR+technology+OR+antitrust+OR+artificial+intelligence+OR+privacy+OR+search+OR+googl",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "Google",
+              "Alphabet",
+              "technology",
+              "antitrust",
+              "artificial intelligence",
+              "privacy",
+              "search",
+              "googl"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-09-21T16:21:16Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "Google"
+          },
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "Alphabet"
+          },
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "technology"
+          },
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "antitrust"
+          },
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "artificial intelligence"
+          },
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "privacy"
+          },
+          {
+            "confidence": 0.8,
+            "source": "ticker_seed",
+            "term": "search"
+          },
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "googl"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-09-21T16:21:16Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Sale",
+        "amount_range": "$15,001 - $50,000",
+        "disclosure_lag_days": 4,
+        "estimated_max": 50000,
+        "estimated_min": 15001,
+        "filed_after_due_date": false,
+        "filing_date": "09/18/2026",
+        "notification_date": "09/18/2026",
+        "owner": "ET Invest",
+        "page": 1,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+        "source_quote": "S 09/14/202609/18/2026$15,001 - $50,000",
+        "stock_act_due_date": "2026-10-18",
+        "transaction_date": "09/14/2026"
+      },
+      "transaction_id": "70fb77cce53e458c"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "GOOGL",
+    "transaction_id": "70fb77cce53e458c"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Alphabet+Inc.+-+Class+A+Common+Stock",
+      "query_payload": {
+        "client_name": "Alphabet Inc. - Class A Common Stock",
+        "page_size": 5
+      },
+      "records": [],
+      "retrieved_at": "2026-09-21T16:21:16Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "available"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "S000250",
+        "district": "17",
+        "match_method": "name_state_district",
+        "name": "Pete Sessions",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-09-21T16:21:16Z",
+    "sec_issuer_identity": {
+      "cik": "0001652044",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "Alphabet Inc.",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "GOOGL"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "search_text": "Alphabet Inc. - Class A Common Stock"
+      },
+      "reason": "no_recipient_candidates",
+      "recipient_candidates": [],
+      "retrieved_at": "2026-09-21T16:21:16Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "unavailable"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Sale": 2
+    },
+    "action_counts_json": "{\"Sale\": 2}",
+    "disclosure_lag_days": 4,
+    "district": "TX17",
+    "estimated_max_total": 100000,
+    "estimated_min_total": 30002,
+    "filing_date": "09/18/2026",
+    "filing_id": "20035480",
+    "filing_type": "P",
+    "ingested_at": "2026-09-21T16:21:16Z",
+    "member_name": "Hon. Pete Sessions",
+    "pdf_sha256": "fd1c2f0815706e79e89005d8739e53c1bfc917eed0242b26639a31e13f8721b0",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "ABBV",
+      "GOOGL"
+    ],
+    "tickers_json": "[\"ABBV\", \"GOOGL\"]",
+    "transaction_count": 2,
+    "transaction_date_max": "2026-09-14",
+    "transaction_date_min": "2026-09-14"
+  },
+  "insight_candidate": {
+    "action": "Sale",
+    "action_type": "sale",
+    "amount_range": "$15,001 - $50,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Pete Sessions's GOOGL sale",
+      "lede": "Hon. Pete Sessions reported a sale of Alphabet Inc (GOOGL) through ET Invest on Sep 14, 2026, according to a periodic transaction report filed Sep 18, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "5 related company/news links were found around the trade and filing window.",
+      "nut_graf": "The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Review the news/event links and verify which items are directly about the issuer and time window.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 4.0,
+    "district": "TX17",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "09/18/2026",
+    "filing_id": "20035480",
+    "grounded_summary": "Hon. Pete Sessions reported a sale of Alphabet Inc (GOOGL) through ET Invest on Sep 14, 2026, according to a periodic transaction report filed Sep 18, 2026. The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. 5 related company/news links were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Pete Sessions's GOOGL sale",
+    "issuer_name": "Alphabet Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Pete Sessions",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Alphabet Inc\" OR GOOGL)",
+      "result_count": 5,
+      "results": [
+        {
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "matched_terms": [
+            "alphabet"
+          ],
+          "published_at": "20260913T091500Z",
+          "relevance_label": "low",
+          "relevance_score": 37,
+          "source_country": "United States",
+          "source_type": "national_business_news",
+          "title": "Can Alphabet Overtake Nvidia in 2027 ?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "national/business news source",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "matched_terms": [
+            "GOOGL",
+            "alphabet"
+          ],
+          "published_at": "20260921T023000Z",
+          "relevance_label": "low",
+          "relevance_score": 34,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+          "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "ticker appears as a distinct term",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "dailypolitical.com",
+          "language": "English",
+          "matched_terms": [
+            "alphabet"
+          ],
+          "published_at": "20260920T174500Z",
+          "relevance_label": "low",
+          "relevance_score": 22,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+          "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "fool.com",
+          "language": "English",
+          "matched_terms": [
+            "alphabet"
+          ],
+          "published_at": "20260920T114500Z",
+          "relevance_label": "low",
+          "relevance_score": 22,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+          "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/?source=iedfolrf0000001",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "fool.com",
+          "language": "English",
+          "matched_terms": [
+            "alphabet"
+          ],
+          "published_at": "20260920T111500Z",
+          "relevance_label": "low",
+          "relevance_score": 22,
+          "source_country": "United States",
+          "source_type": "general_news_or_web",
+          "title": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+          "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        }
+      ],
+      "status": "available",
+      "window": {
+        "end_date": "2026-11-02",
+        "start_date": "2026-08-31"
+      }
+    },
+    "owner": "ET Invest",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Review the news/event links and verify which items are directly about the issuer and time window.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 6,
+    "score_reasons": [
+      "Congress.gov bill context was found",
+      "Congress.gov hearing context was found",
+      "news/event context links are available",
+      "linked company/news context is available"
+    ],
+    "slug": "hon-pete-sessions-googl-sale-09-14-2026-70fb77cce53e458c",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      },
+      {
+        "label": "News/context: Can Alphabet Overtake Nvidia in 2027 ?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html"
+      },
+      {
+        "label": "News/context: Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+        "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/"
+      },
+      {
+        "label": "News/context: Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+        "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html"
+      },
+      {
+        "label": "News/context: Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+        "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/?source=iedfolrf0000001"
+      },
+      {
+        "label": "News/context: Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+        "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "GOOGL",
+    "trade_date": "09/14/2026",
+    "transaction_id": "70fb77cce53e458c"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for GOOGL: status=403",
+    "retrieved_at": "2026-09-21T16:21:16Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "GOOGL"
+  },
+  "news_context": {
+    "filtered_out_count": 19,
+    "issuer_name": "Alphabet Inc. - Class A Common Stock",
+    "min_relevance_score": 20,
+    "provider": "gdelt_doc_2_0",
+    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Alphabet+Inc%22+OR+GOOGL%29&mode=artlist&format=json&startdatetime=20260831000000&enddatetime=20261102235959&maxrecords=25&sort=DateDesc",
+    "query": "(\"Alphabet Inc\" OR GOOGL)",
+    "raw_result_count": 25,
+    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "result_count": 5,
+    "results": [
+      {
+        "domain": "finance.yahoo.com",
+        "language": "English",
+        "matched_terms": [
+          "alphabet"
+        ],
+        "published_at": "20260913T091500Z",
+        "relevance_label": "low",
+        "relevance_score": 37,
+        "source_country": "United States",
+        "source_type": "national_business_news",
+        "title": "Can Alphabet Overtake Nvidia in 2027 ?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "national/business news source",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "insidermonkey.com",
+        "language": "English",
+        "matched_terms": [
+          "GOOGL",
+          "alphabet"
+        ],
+        "published_at": "20260921T023000Z",
+        "relevance_label": "low",
+        "relevance_score": 34,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+        "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "ticker appears as a distinct term",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "dailypolitical.com",
+        "language": "English",
+        "matched_terms": [
+          "alphabet"
+        ],
+        "published_at": "20260920T174500Z",
+        "relevance_label": "low",
+        "relevance_score": 22,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+        "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "fool.com",
+        "language": "English",
+        "matched_terms": [
+          "alphabet"
+        ],
+        "published_at": "20260920T114500Z",
+        "relevance_label": "low",
+        "relevance_score": 22,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+        "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/?source=iedfolrf0000001",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "fool.com",
+        "language": "English",
+        "matched_terms": [
+          "alphabet"
+        ],
+        "published_at": "20260920T111500Z",
+        "relevance_label": "low",
+        "relevance_score": 22,
+        "source_country": "United States",
+        "source_type": "general_news_or_web",
+        "title": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+        "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-09-21T16:21:16Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [
+      {
+        "label": "Can Alphabet Overtake Nvidia in 2027 ?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html"
+      },
+      {
+        "label": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+        "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/"
+      },
+      {
+        "label": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+        "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html"
+      },
+      {
+        "label": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+        "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/?source=iedfolrf0000001"
+      },
+      {
+        "label": "Prediction : Anthropic IPO Will Be a Big Winner for Alphabet and Amazon Investors",
+        "url": "https://www.fool.com/investing/2026/09/20/prediction-anthropics-ipo-will-be-a-big-winner-for/"
+      }
+    ],
+    "status": "available",
+    "ticker": "GOOGL",
+    "window": {
+      "end_date": "2026-11-02",
+      "start_date": "2026-08-31"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 2,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 5,
+      "matched_terms": [
+        "artificial intelligence",
+        "search",
+        "technology"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hr/5622?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5622",
+          "latest_action_date": "2025-09-30",
+          "latest_action_text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Science, Space, and Technology, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "matched_terms": [
+            "technology",
+            "search"
+          ],
+          "number": "5622",
+          "title": "National Gun Violence Research Act of 2025",
+          "type": "HR"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hr/9565?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/9565",
+          "latest_action_date": "2026-07-07",
+          "latest_action_text": "Referred to the Subcommittee on Border Security and Enforcement.",
+          "matched_terms": [
+            "technology"
+          ],
+          "number": "9565",
+          "title": "Enhanced Counter-Narcotics Detection and Technology Act",
+          "type": "HR"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=Google+OR+Alphabet+OR+technology+OR+antitrust+OR+artificial+intelligence+OR+privacy+OR+search+OR+googl",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "Google",
+          "Alphabet",
+          "technology",
+          "antitrust",
+          "artificial intelligence",
+          "privacy",
+          "search",
+          "googl"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-09-21T16:21:16Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-16T14:00:00Z",
+          "event_id": "119563",
+          "matched_terms": [
+            "technology"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Balancing Biotechnology Innovation and Biosecurity: Securing U.S. Leadership in a Global Race",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-15T14:00:00Z",
+          "event_id": "119556",
+          "matched_terms": [
+            "technology"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Innovation in Disaster Prevention: Advancing Technology for Prediction and Response",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-16T14:00:00Z",
+          "event_id": "338749",
+          "matched_terms": [
+            "technology"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to consider S.3467, to reauthorize the Virginia Graeme Baker Pool and Spa Safety Act, S.3929, to require the Administrator of the Federal Aviation Administration to acquire and install certified airborne position reference tools at air traffic control towers, S.4573, to designate the Great Lakes Commission as a Regional Great Lakes Partnership, S.4749, to amend the Communications Act of 1934 to create a Federal cause of action to address jawboning, S.4938, to reduce trawl gear impacts on bycatch and seafloor habitat in the Bering Sea, Aleutian Islands, and Gulf of Alaska, to establish gear performance standards, seafloor contact detection, and salmon excluder requirements, to improve Council transparency and participation, to prioritize ecosystem analyses, to modernize electronic monitoring, to prohibit unsustainable foreign seafood imports, and to establish a Bycatch Mitigation and Habitat Protection Assistance Fund, S.4950, to amend the National Telecommunications and Information Administration Organization Act to codify the Institute for Telecommunication Sciences, to direct the Assistant Secretary of Commerce for Communications and Information to establish an initiative to support the development of emergency communication and tracking technologies, S.5188, to amend the Professional Boxing Safety Act of 1996 to establish requirements for unified boxing organizations and to further enhance the well-being of professional boxers, S.5224, to improve training for airport drivers in the movement area at commercial service airports through the establishment of a task force and the use of technology, H.R.7022, to provide for the transmission of emergency alerts by satellite, and promotions in the Coast Guard.",
+          "type": "Open Business Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-08-05T14:00:00Z",
+          "event_id": "338704",
+          "matched_terms": [
+            "technology",
+            "artificial intelligence"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Business meeting to markup S.737, to require certain interactive computer services to adopt and operate technology verification measures to ensure that users of the platform are not minors, S.1748, to protect the safety of children on the internet, S.4199, to require entities that make artificial intelligence chatbots available to minors to implement certain safe design features, S.4407, to require the creation of family accounts for children to be able to use artificial intelligence chatbots, to require verifiable parental consent for teens using artificial intelligence chatbots, S.5171, to require a study of AI-enabled toys and development of a joint action plan regarding the marketing and sale of AI-enabled toys, and a promotion list in the Coast Guard.",
+          "type": "Open Business Meeting"
+        },
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-08-04T14:00:00Z",
+          "event_id": "338695",
+          "matched_terms": [
+            "technology"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Hearings to examine building a resilient health care future with biotechnology.",
+          "type": "Open Hearing"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=Google+OR+Alphabet+OR+technology+OR+antitrust+OR+artificial+intelligence+OR+privacy+OR+search+OR+googl",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "Google",
+          "Alphabet",
+          "technology",
+          "antitrust",
+          "artificial intelligence",
+          "privacy",
+          "search",
+          "googl"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-09-21T16:21:16Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "Google"
+      },
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "Alphabet"
+      },
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "technology"
+      },
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "antitrust"
+      },
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "artificial intelligence"
+      },
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "privacy"
+      },
+      {
+        "confidence": 0.8,
+        "source": "ticker_seed",
+        "term": "search"
+      },
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "googl"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-09-21T16:21:16Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260921T162434Z",
+    "environment": "testing",
+    "generated_at": "2026-09-21T16:25:42Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/70/fb/70fb77cce53e458c.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-09-21T16:40:42Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035480.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/70/fb/70fb77cce53e458c.json"
+  },
+  "transaction": {
+    "action": "Sale",
+    "amount_range": "$15,001 - $50,000",
+    "disclosure_lag_days": 4,
+    "district": "TX17",
+    "estimated_max": 50000,
+    "estimated_min": 15001,
+    "filed_after_due_date": false,
+    "filing_date": "09/18/2026",
+    "filing_id": "20035480",
+    "filing_type": "P",
+    "ingested_at": "2026-09-21T16:21:16Z",
+    "issuer_name": "Alphabet Inc. - Class A Common Stock",
+    "member_name": "Hon. Pete Sessions",
+    "notification_date": "09/18/2026",
+    "owner": "ET Invest",
+    "page": 1,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "S 09/14/202609/18/2026$15,001 - $50,000",
+    "state": "TX",
+    "stock_act_due_date": "2026-10-18",
+    "ticker": "GOOGL",
+    "transaction_date": "09/14/2026",
+    "transaction_id": "70fb77cce53e458c"
+  }
+}

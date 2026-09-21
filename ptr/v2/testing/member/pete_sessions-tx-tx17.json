@@ -1,0 +1,221 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 2
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Pete Sessions",
+    "district": "TX17",
+    "facebook": "",
+    "member_id": "pete_sessions-tx-tx17",
+    "member_name": "Hon. Pete Sessions",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 100000.0,
+        "label": "Sep 2026",
+        "month": "2026-09",
+        "other": 0,
+        "sell": 2,
+        "trades": 2
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Alphabet Inc. - Class A Common Stock",
+        "query": "(\"Alphabet Inc\" OR GOOGL)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "finance.yahoo.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260913T091500Z",
+            "relevance_label": "low",
+            "relevance_score": 37,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Can Alphabet Overtake Nvidia in 2027 ?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "GOOGL",
+              "alphabet"
+            ],
+            "published_at": "20260921T023000Z",
+            "relevance_label": "low",
+            "relevance_score": 34,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
+            "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "alphabet"
+            ],
+            "published_at": "20260920T174500Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
+            "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "GOOGL",
+        "traded_date": "09/14/2026",
+        "transaction_id": "70fb77cce53e458c",
+        "window": {
+          "end_date": "2026-11-02",
+          "start_date": "2026-08-31"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "ET IRA": 1,
+      "ET Invest": 1
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20035480",
+        "issuer": "AbbVie Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "09/18/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "ABBV",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "09/14/2026",
+        "transaction_id": "3286664511e79cc9",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 4.0,
+        "filing_id": "20035480",
+        "issuer": "Alphabet Inc. - Class A Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "ET Invest",
+        "published_date": "09/18/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "GOOGL",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "09/14/2026",
+        "transaction_id": "70fb77cce53e458c",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 100000.0,
+      "estimated_min_volume": 30002.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 2,
+      "last_traded": "09/14/2026",
+      "market_context_available": 0,
+      "news_context_available": 1,
+      "tickers": 2,
+      "trades": 2
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "AbbVie Inc. Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Alphabet Inc. - Class A Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 1,
+        "ticker": "ABBV"
+      },
+      {
+        "count": 1,
+        "ticker": "GOOGL"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 100000.0,
+        "estimated_min": 30002.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-09-14",
+        "trades": 2
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20260921T162434Z",
+    "environment": "testing",
+    "generated_at": "2026-09-21T16:25:42Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/pete_sessions-tx-tx17.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-09-21T16:40:42Z"
+  }
+}

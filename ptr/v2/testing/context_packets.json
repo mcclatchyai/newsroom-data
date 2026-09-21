@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20035400",
-      "issuer_name": "New York NY City Transitional Fin",
+      "filing_id": "20035480",
+      "issuer_name": "AbbVie Inc. Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035400.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,20 +27,50 @@
         }
       ],
       "status": "source_only",
-      "ticker": "GS",
-      "transaction_id": "fddbdba71fcaeef7"
+      "ticker": "ABBV",
+      "transaction_id": "3286664511e79cc9"
+    },
+    {
+      "filing_id": "20035480",
+      "issuer_name": "Alphabet Inc. - Class A Common Stock",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GOOGL",
+      "transaction_id": "70fb77cce53e458c"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260916T133626Z",
+    "data_version": "20260921T162434Z",
     "environment": "testing",
-    "generated_at": "2026-09-16T13:37:45Z",
+    "generated_at": "2026-09-21T16:25:42Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-16T13:52:45Z"
+    "stale_after": "2026-09-21T16:40:42Z"
   }
 }

@@ -1,37 +1,30 @@
 {
   "issuers": [
     {
-      "issuer_name": "Charter Communications, Inc. - Class A Common Stock",
+      "issuer_name": "AbbVie Inc. Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CHTR.json",
-      "ticker": "CHTR",
-      "trade_count": 2
-    },
-    {
-      "issuer_name": "New York NY City Transitional Fin",
-      "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GS.json",
-      "ticker": "GS",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/ABBV.json",
+      "ticker": "ABBV",
       "trade_count": 1
     },
     {
-      "issuer_name": "Liberty Broadband Corporation - Class C Common Stock",
+      "issuer_name": "Alphabet Inc. - Class A Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/LBRDK.json",
-      "ticker": "LBRDK",
-      "trade_count": 2
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GOOGL.json",
+      "ticker": "GOOGL",
+      "trade_count": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260916T133626Z",
+    "data_version": "20260921T162434Z",
     "environment": "testing",
-    "generated_at": "2026-09-16T13:37:45Z",
+    "generated_at": "2026-09-21T16:25:42Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-16T13:52:45Z"
+    "stale_after": "2026-09-21T16:40:42Z"
   }
 }
