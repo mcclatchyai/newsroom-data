@@ -1,7 +1,7 @@
 {
   "member": {
     "action_breakdown": {
-      "sell": 2
+      "sell": 1
     },
     "asset_type": "ptr_member_profile",
     "campaign_url": "",
@@ -20,140 +20,205 @@
     "monthly_activity": [
       {
         "buy": 0,
-        "estimated_max": 100000.0,
+        "estimated_max": 250000.0,
         "label": "Sep 2026",
         "month": "2026-09",
         "other": 0,
-        "sell": 2,
-        "trades": 2
+        "sell": 1,
+        "trades": 1
       }
     ],
-    "news_context": [
-      {
-        "issuer": "Alphabet Inc. - Class A Common Stock",
-        "query": "(\"Alphabet Inc\" OR GOOGL)",
-        "result_count": 5,
-        "results": [
-          {
-            "domain": "finance.yahoo.com",
-            "language": "English",
-            "matched_terms": [
-              "alphabet"
-            ],
-            "published_at": "20260913T091500Z",
-            "relevance_label": "low",
-            "relevance_score": 37,
-            "source_country": "United States",
-            "source_type": "national_business_news",
-            "title": "Can Alphabet Overtake Nvidia in 2027 ?",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-overtake-nvidia-2027-084500226.html",
-            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-            "why_ranked": [
-              "issuer-name tokens appear in headline, domain, or URL",
-              "national/business news source",
-              "published within a week of reported trade date"
-            ]
-          },
-          {
-            "domain": "insidermonkey.com",
-            "language": "English",
-            "matched_terms": [
-              "GOOGL",
-              "alphabet"
-            ],
-            "published_at": "20260921T023000Z",
-            "relevance_label": "low",
-            "relevance_score": 34,
-            "source_country": "United States",
-            "source_type": "general_news_or_web",
-            "title": "Alphabet ( GOOGL ) Google Bets on Finland Cold Weather and Nuclear Power for its Next AI Buildout",
-            "url": "https://www.insidermonkey.com/news/alphabet-googls-google-bets-on-finlands-cold-weather-and-nuclear-power-for-its-next-ai-buildout-1838610/",
-            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-            "why_ranked": [
-              "issuer-name tokens appear in headline, domain, or URL",
-              "ticker appears as a distinct term",
-              "published within a week of reported trade date"
-            ]
-          },
-          {
-            "domain": "dailypolitical.com",
-            "language": "English",
-            "matched_terms": [
-              "alphabet"
-            ],
-            "published_at": "20260920T174500Z",
-            "relevance_label": "low",
-            "relevance_score": 22,
-            "source_country": "United States",
-            "source_type": "general_news_or_web",
-            "title": "Cars . com ( NYSE : CARS ) and Alphabet ( NASDAQ : GOOG ) Financial Contrast",
-            "url": "https://www.dailypolitical.com/2026/09/20/cars-com-nysecars-and-alphabet-nasdaqgoog-financial-contrast.html",
-            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
-            "why_ranked": [
-              "issuer-name tokens appear in headline, domain, or URL",
-              "published within a week of reported trade date"
-            ]
-          }
-        ],
-        "ticker": "GOOGL",
-        "traded_date": "09/14/2026",
-        "transaction_id": "70fb77cce53e458c",
-        "window": {
-          "end_date": "2026-11-02",
-          "start_date": "2026-08-31"
-        }
-      }
-    ],
+    "news_context": [],
     "official_url": "",
     "owner_breakdown": {
-      "ET IRA": 1,
-      "ET Invest": 1
+      "SP": 1
     },
     "party": "",
     "photo_url": "",
-    "price_backdrops": [],
-    "price_movements": [],
+    "price_backdrops": [
+      {
+        "issuer": "Apple Inc. - Common Stock",
+        "publication_license_status": "confirmed",
+        "publication_ready": true,
+        "series": [
+          {
+            "close": 308.0,
+            "date": "2026-08-10"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-08-11"
+          },
+          {
+            "close": 302.0,
+            "date": "2026-08-12"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-08-13"
+          },
+          {
+            "close": 306.0,
+            "date": "2026-08-14"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-08-15"
+          },
+          {
+            "close": 305.0,
+            "date": "2026-08-17"
+          },
+          {
+            "close": 310.0,
+            "date": "2026-08-18"
+          },
+          {
+            "close": 317.0,
+            "date": "2026-08-19"
+          },
+          {
+            "close": 312.0,
+            "date": "2026-08-20"
+          },
+          {
+            "close": 310.0,
+            "date": "2026-08-21"
+          },
+          {
+            "close": 311.0,
+            "date": "2026-08-24"
+          },
+          {
+            "close": 310.0,
+            "date": "2026-08-25"
+          },
+          {
+            "close": 311.65,
+            "date": "2026-08-26"
+          },
+          {
+            "close": 315.0,
+            "date": "2026-08-27"
+          },
+          {
+            "close": 320.0,
+            "date": "2026-08-28"
+          },
+          {
+            "close": 317.0,
+            "date": "2026-08-31"
+          },
+          {
+            "close": 325.0,
+            "date": "2026-09-01"
+          },
+          {
+            "close": 325.0,
+            "date": "2026-09-02"
+          },
+          {
+            "close": 328.0,
+            "date": "2026-09-03"
+          },
+          {
+            "close": 320.0,
+            "date": "2026-09-04"
+          },
+          {
+            "close": 316.0,
+            "date": "2026-09-08"
+          },
+          {
+            "close": 318.0,
+            "date": "2026-09-09"
+          },
+          {
+            "close": 326.0,
+            "date": "2026-09-10"
+          },
+          {
+            "close": 333.0,
+            "date": "2026-09-11"
+          },
+          {
+            "close": 332.27,
+            "date": "2026-09-12"
+          },
+          {
+            "close": 332.0,
+            "date": "2026-09-14"
+          },
+          {
+            "close": 332.0,
+            "date": "2026-09-15"
+          },
+          {
+            "close": 333.0,
+            "date": "2026-09-16"
+          },
+          {
+            "close": 337.0,
+            "date": "2026-09-17"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-09-18"
+          },
+          {
+            "close": 339.0,
+            "date": "2026-09-21"
+          },
+          {
+            "close": 340.0,
+            "date": "2026-09-22"
+          },
+          {
+            "close": 337.0,
+            "date": "2026-09-23"
+          }
+        ],
+        "source": "finazon_us_stocks_essential",
+        "ticker": "AAPL"
+      }
+    ],
+    "price_movements": [
+      {
+        "filing_date_close": 340.0,
+        "filing_price_date": "2026-09-22",
+        "issuer": "Apple Inc. - Common Stock",
+        "latest_close": 337.0,
+        "latest_price_date": "2026-09-23",
+        "return_trade_to_filing": 0.0,
+        "return_trade_to_latest": -0.9,
+        "ticker": "AAPL",
+        "trade_date_close": 340.0,
+        "trade_price_date": "2026-09-22",
+        "traded_date": "09/22/2026",
+        "transaction_id": "bae879c16f679452",
+        "type": "sell"
+      }
+    ],
     "recent_trades": [
       {
-        "estimated_max": 50000.0,
-        "estimated_min": 15001.0,
-        "filed_after_days": 4.0,
-        "filing_id": "20035480",
-        "issuer": "AbbVie Inc. Common Stock",
-        "latest_close": null,
-        "latest_price_date": null,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 0.0,
+        "filing_id": "20035499",
+        "issuer": "Apple Inc. - Common Stock",
+        "latest_close": 337.0,
+        "latest_price_date": "2026-09-23",
         "news_result_count": 0,
-        "owner": "ET IRA",
-        "published_date": "09/18/2026",
-        "return_trade_to_filing": null,
-        "return_trade_to_latest": null,
-        "size": "$15,001 - $50,000",
-        "ticker": "ABBV",
-        "trade_date_close": null,
-        "trade_price_date": null,
-        "traded_date": "09/14/2026",
-        "transaction_id": "3286664511e79cc9",
-        "type": "sell"
-      },
-      {
-        "estimated_max": 50000.0,
-        "estimated_min": 15001.0,
-        "filed_after_days": 4.0,
-        "filing_id": "20035480",
-        "issuer": "Alphabet Inc. - Class A Common Stock",
-        "latest_close": null,
-        "latest_price_date": null,
-        "news_result_count": 5,
-        "owner": "ET Invest",
-        "published_date": "09/18/2026",
-        "return_trade_to_filing": null,
-        "return_trade_to_latest": null,
-        "size": "$15,001 - $50,000",
-        "ticker": "GOOGL",
-        "trade_date_close": null,
-        "trade_price_date": null,
-        "traded_date": "09/14/2026",
-        "transaction_id": "70fb77cce53e458c",
+        "owner": "SP",
+        "published_date": "09/22/2026",
+        "return_trade_to_filing": 0.0,
+        "return_trade_to_latest": -0.9,
+        "size": "$100,001 - $250,000",
+        "ticker": "AAPL",
+        "trade_date_close": 340.0,
+        "trade_price_date": "2026-09-22",
+        "traded_date": "09/22/2026",
+        "transaction_id": "bae879c16f679452",
         "type": "sell"
       }
     ],
@@ -161,46 +226,38 @@
     "schema_version": 1,
     "state": "TX",
     "stats": {
-      "estimated_max_volume": 100000.0,
-      "estimated_min_volume": 30002.0,
+      "estimated_max_volume": 250000.0,
+      "estimated_min_volume": 100001.0,
       "filings": 1,
       "flagged_trades": 0,
-      "issuers": 2,
-      "last_traded": "09/14/2026",
-      "market_context_available": 0,
-      "news_context_available": 1,
-      "tickers": 2,
-      "trades": 2
+      "issuers": 1,
+      "last_traded": "09/22/2026",
+      "market_context_available": 1,
+      "news_context_available": 0,
+      "tickers": 1,
+      "trades": 1
     },
     "top_issuers": [
       {
         "count": 1,
-        "issuer": "AbbVie Inc. Common Stock"
-      },
-      {
-        "count": 1,
-        "issuer": "Alphabet Inc. - Class A Common Stock"
+        "issuer": "Apple Inc. - Common Stock"
       }
     ],
     "top_tickers": [
       {
         "count": 1,
-        "ticker": "ABBV"
-      },
-      {
-        "count": 1,
-        "ticker": "GOOGL"
+        "ticker": "AAPL"
       }
     ],
     "trade_activity_by_date": [
       {
         "buy": 0,
-        "estimated_max": 100000.0,
-        "estimated_min": 30002.0,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
         "other": 0,
-        "sell": 2,
-        "traded_date": "2026-09-14",
-        "trades": 2
+        "sell": 1,
+        "traded_date": "2026-09-22",
+        "trades": 1
       }
     ],
     "twitter": "",
@@ -209,13 +266,13 @@
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20260921T162434Z",
+    "data_version": "20260923T222228Z",
     "environment": "testing",
-    "generated_at": "2026-09-21T16:25:42Z",
+    "generated_at": "2026-09-23T22:23:43Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/pete_sessions-tx-tx17.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-09-21T16:40:42Z"
+    "stale_after": "2026-09-23T22:38:43Z"
   }
 }
