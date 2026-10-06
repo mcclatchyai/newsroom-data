@@ -1,0 +1,311 @@
+{
+  "member": {
+    "action_breakdown": {
+      "buy": 4
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Lloyd Doggett",
+    "district": "TX37",
+    "facebook": "",
+    "member_id": "lloyd_doggett-tx-tx37",
+    "member_name": "Hon. Lloyd Doggett",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 4,
+        "estimated_max": 60000.0,
+        "label": "Sep 2026",
+        "month": "2026-09",
+        "other": 0,
+        "sell": 0,
+        "trades": 4
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Home Depot, Inc.",
+        "query": "(\"Home Depot Inc\" OR HD)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "HD",
+              "depot",
+              "home"
+            ],
+            "published_at": "20260922T221500Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Home Depot ( NYSE : HD ) Trading Up 2 . 7 % – Here What Happened",
+            "url": "https://www.tickerreport.com/banking-finance/13592027/home-depot-nysehd-trading-up-2-7-heres-what-happened.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "HD",
+              "depot",
+              "home"
+            ],
+            "published_at": "20260911T223000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Home Depot ( NYSE : HD ) Trading 1 % Higher – Should You Buy ?",
+            "url": "https://www.dailypolitical.com/2026/09/11/home-depot-nysehd-trading-1-higher-should-you-buy.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "HD",
+              "depot",
+              "home"
+            ],
+            "published_at": "20260911T213000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Insider Selling : Home Depot ( NYSE : HD ) CAO Sells 675 Shares of Stock",
+            "url": "https://www.themarketsdaily.com/2026/09/11/insider-selling-home-depot-nysehd-cao-sells-675-shares-of-stock.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "HD",
+        "traded_date": "09/17/2026",
+        "transaction_id": "60647e8aea7d70e9",
+        "window": {
+          "end_date": "2026-11-19",
+          "start_date": "2026-09-03"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "Self": 4
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 18.0,
+        "filing_id": "20035580",
+        "issuer": "Home Depot, Inc.",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "Self",
+        "published_date": "10/05/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "HD",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "09/17/2026",
+        "transaction_id": "60647e8aea7d70e9",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 24.0,
+        "filing_id": "20035580",
+        "issuer": "PPG Industries, Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Self",
+        "published_date": "10/05/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "PPG",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "09/11/2026",
+        "transaction_id": "37e68136f3852d85",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035580",
+        "issuer": "International Business Machines Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Self",
+        "published_date": "10/05/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "IBM",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "09/10/2026",
+        "transaction_id": "04d402e8b9f34181",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 27.0,
+        "filing_id": "20035580",
+        "issuer": "Johnson & Johnson Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Self",
+        "published_date": "10/05/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "JNJ",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "09/08/2026",
+        "transaction_id": "45eb0bb9d8cdf97d",
+        "type": "buy"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 60000.0,
+      "estimated_min_volume": 4004.0,
+      "filings": 1,
+      "flagged_trades": 1,
+      "issuers": 4,
+      "last_traded": "09/17/2026",
+      "market_context_available": 0,
+      "news_context_available": 1,
+      "tickers": 4,
+      "trades": 4
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Home Depot, Inc."
+      },
+      {
+        "count": 1,
+        "issuer": "International Business Machines Corporation Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Johnson & Johnson Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "PPG Industries, Inc. Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 1,
+        "ticker": "HD"
+      },
+      {
+        "count": 1,
+        "ticker": "IBM"
+      },
+      {
+        "count": 1,
+        "ticker": "JNJ"
+      },
+      {
+        "count": 1,
+        "ticker": "PPG"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-09-08",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-09-10",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-09-11",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-09-17",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261006T162520Z",
+    "environment": "testing",
+    "generated_at": "2026-10-06T16:26:46Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/lloyd_doggett-tx-tx37.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-06T16:41:46Z"
+  }
+}

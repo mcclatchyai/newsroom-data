@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20035498",
-      "issuer_name": "Boulder Larimer & Weld CNTYS Colo ST 05.00000% Due 12/15/2027",
+      "filing_id": "20035580",
+      "issuer_name": "Home Depot, Inc.",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,17 +27,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "5e5817d2b8a0883d"
+      "ticker": "HD",
+      "transaction_id": "60647e8aea7d70e9"
     },
     {
-      "filing_id": "20035498",
-      "issuer_name": "California CMNTY Choice Fing Auth 5.00% Due Oct 1, 2056",
+      "filing_id": "20035580",
+      "issuer_name": "International Business Machines Corporation Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -57,17 +57,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "32bb045a3c9002e7"
+      "ticker": "IBM",
+      "transaction_id": "04d402e8b9f34181"
     },
     {
-      "filing_id": "20035498",
-      "issuer_name": "Central VY Energy Auth Calif Commodity 5.00% Due Aug 1, 2034",
+      "filing_id": "20035580",
+      "issuer_name": "Johnson & Johnson Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -87,17 +87,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "d93766fe39d6604d"
+      "ticker": "JNJ",
+      "transaction_id": "45eb0bb9d8cdf97d"
     },
     {
-      "filing_id": "20035498",
-      "issuer_name": "San Joaquin VY Calif Clean Energy Auth 5.50 % Due Jan 1, 2056",
+      "filing_id": "20035580",
+      "issuer_name": "PPG Industries, Inc. Common Stock",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -117,50 +117,20 @@
         }
       ],
       "status": "source_only",
-      "ticker": "",
-      "transaction_id": "303dd6023ea5b07c"
-    },
-    {
-      "filing_id": "20035498",
-      "issuer_name": "San Joaquin VY Calif Clean Energy Auth 5.50% Due Jan 1, 2056",
-      "packet_version": 1,
-      "source_links": [
-        {
-          "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
-        },
-        {
-          "label": "House Ethics PTR guidance",
-          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
-        },
-        {
-          "label": "USAspending API docs",
-          "url": "https://api.usaspending.gov/docs/"
-        },
-        {
-          "label": "Senate LDA downloadable data",
-          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
-        },
-        {
-          "label": "SEC EDGAR APIs",
-          "url": "https://www.sec.gov/edgar/sec-api-documentation"
-        }
-      ],
-      "status": "source_only",
-      "ticker": "",
-      "transaction_id": "e361d43a1de74ddc"
+      "ticker": "PPG",
+      "transaction_id": "37e68136f3852d85"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20261002T134000Z",
+    "data_version": "20261006T162520Z",
     "environment": "testing",
-    "generated_at": "2026-10-02T13:41:18Z",
+    "generated_at": "2026-10-06T16:26:46Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-10-02T13:56:18Z"
+    "stale_after": "2026-10-06T16:41:46Z"
   }
 }

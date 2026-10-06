@@ -1,26 +1,26 @@
 {
   "members": [
     {
-      "display_name": "Hon. Suzan K. DelBene",
-      "district": "WA01",
-      "issuers": 5,
-      "member_id": "suzan_k_delbene-wa-wa01",
-      "member_name": "Hon. Suzan K. DelBene",
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
-      "state": "WA",
-      "trades": 5
+      "display_name": "Hon. Lloyd Doggett",
+      "district": "TX37",
+      "issuers": 4,
+      "member_id": "lloyd_doggett-tx-tx37",
+      "member_name": "Hon. Lloyd Doggett",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/lloyd_doggett-tx-tx37.json",
+      "state": "TX",
+      "trades": 4
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20261002T134000Z",
+    "data_version": "20261006T162520Z",
     "environment": "testing",
-    "generated_at": "2026-10-02T13:41:18Z",
+    "generated_at": "2026-10-06T16:26:46Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/members.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-10-02T13:56:18Z"
+    "stale_after": "2026-10-06T16:41:46Z"
   }
 }
