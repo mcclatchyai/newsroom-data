@@ -1,0 +1,281 @@
+{
+  "context_packet_count": 4,
+  "context_packets": [
+    {
+      "filing_id": "20035627",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "63ff16f1928c4a7a"
+    },
+    {
+      "filing_id": "20035627",
+      "issuer_name": "Triborough Bridge & 4% SPL Tax Due 11/15/31",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "2dbdee02f5aab539"
+    },
+    {
+      "filing_id": "20035627",
+      "issuer_name": "TX Trans Commn TPK 5% Tran Due 08/15/42",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "8d8039dd3d4755db"
+    },
+    {
+      "filing_id": "20035627",
+      "issuer_name": "Washington ST 5% Go Utx Due 08/01/30",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "44202d7cbf9e4472"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 2,
+      "S (partial)": 1,
+      "Sale": 1
+    },
+    "action_counts_json": "{\"Purchase\": 2, \"S (partial)\": 1, \"Sale\": 1}",
+    "disclosure_lag_days": 26,
+    "district": "WA01",
+    "estimated_max_total": 1100000,
+    "estimated_min_total": 530004,
+    "filing_date": "10/14/2026",
+    "filing_id": "20035627",
+    "filing_type": "P",
+    "ingested_at": "2026-10-15T19:35:19Z",
+    "member_name": "Hon. Suzan K. DelBene",
+    "pdf_sha256": "e9c92ebfe3e796afb24232a1504c09774aa00d2aaf8975491c6878e3c29d5bb3",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "WA",
+    "tickers": [
+      "GS"
+    ],
+    "tickers_json": "[\"GS\"]",
+    "transaction_count": 4,
+    "transaction_date_max": "2026-09-24",
+    "transaction_date_min": "2026-09-18"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261015T193828Z",
+    "environment": "testing",
+    "generated_at": "2026-10-15T19:39:41Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035627.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-15T19:54:41Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035627.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$250,001 - $500,000",
+      "disclosure_lag_days": 26,
+      "district": "WA01",
+      "estimated_max": 500000,
+      "estimated_min": 250001,
+      "filed_after_due_date": false,
+      "filing_date": "10/14/2026",
+      "filing_id": "20035627",
+      "filing_type": "P",
+      "ingested_at": "2026-10-15T19:35:19Z",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "09/18/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 09/18/202609/18/2026$250,001 - $500,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-10-18",
+      "ticker": "GS",
+      "transaction_date": "09/18/2026",
+      "transaction_id": "63ff16f1928c4a7a"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$250,001 - $500,000",
+      "disclosure_lag_days": 26,
+      "district": "WA01",
+      "estimated_max": 500000,
+      "estimated_min": 250001,
+      "filed_after_due_date": false,
+      "filing_date": "10/14/2026",
+      "filing_id": "20035627",
+      "filing_type": "P",
+      "ingested_at": "2026-10-15T19:35:19Z",
+      "issuer_name": "Triborough Bridge & 4% SPL Tax Due 11/15/31",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "09/18/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "S 09/18/202609/18/2026$250,001 - $500,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-10-18",
+      "ticker": "GS",
+      "transaction_date": "09/18/2026",
+      "transaction_id": "2dbdee02f5aab539"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$15,001 - $50,000",
+      "disclosure_lag_days": 20,
+      "district": "WA01",
+      "estimated_max": 50000,
+      "estimated_min": 15001,
+      "filed_after_due_date": false,
+      "filing_date": "10/14/2026",
+      "filing_id": "20035627",
+      "filing_type": "P",
+      "ingested_at": "2026-10-15T19:35:19Z",
+      "issuer_name": "TX Trans Commn TPK 5% Tran Due 08/15/42",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "09/24/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 09/24/202609/24/2026$15,001 - $50,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-10-24",
+      "ticker": "GS",
+      "transaction_date": "09/24/2026",
+      "transaction_id": "8d8039dd3d4755db"
+    },
+    {
+      "action": "S (partial)",
+      "amount_range": "$15,001 - $50,000",
+      "disclosure_lag_days": 26,
+      "district": "WA01",
+      "estimated_max": 50000,
+      "estimated_min": 15001,
+      "filed_after_due_date": false,
+      "filing_date": "10/14/2026",
+      "filing_id": "20035627",
+      "filing_type": "P",
+      "ingested_at": "2026-10-15T19:35:19Z",
+      "issuer_name": "Washington ST 5% Go Utx Due 08/01/30",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "09/18/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "S (partial) 09/18/202609/18/2026$15,001 - $50,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-10-18",
+      "ticker": "GS",
+      "transaction_date": "09/18/2026",
+      "transaction_id": "44202d7cbf9e4472"
+    }
+  ]
+}

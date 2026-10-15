@@ -1,13 +1,13 @@
 {
   "context_packets": [
     {
-      "filing_id": "20035635",
-      "issuer_name": "Analog Devices, Inc. - Common Stock",
+      "filing_id": "20035627",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -27,17 +27,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "ADI",
-      "transaction_id": "7607f10d81dc5aa3"
+      "ticker": "GS",
+      "transaction_id": "63ff16f1928c4a7a"
     },
     {
-      "filing_id": "20035635",
-      "issuer_name": "FedEx Corporation Common Stock",
+      "filing_id": "20035627",
+      "issuer_name": "Triborough Bridge & 4% SPL Tax Due 11/15/31",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -57,17 +57,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "FDX",
-      "transaction_id": "b61d750deaf4e759"
+      "ticker": "GS",
+      "transaction_id": "2dbdee02f5aab539"
     },
     {
-      "filing_id": "20035635",
-      "issuer_name": "Home Depot, Inc.",
+      "filing_id": "20035627",
+      "issuer_name": "TX Trans Commn TPK 5% Tran Due 08/15/42",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -87,17 +87,17 @@
         }
       ],
       "status": "source_only",
-      "ticker": "HD",
-      "transaction_id": "a71ef2dad6687e6f"
+      "ticker": "GS",
+      "transaction_id": "8d8039dd3d4755db"
     },
     {
-      "filing_id": "20035635",
-      "issuer_name": "Williams-Sonoma, Inc. Common Stock",
+      "filing_id": "20035627",
+      "issuer_name": "Washington ST 5% Go Utx Due 08/01/30",
       "packet_version": 1,
       "source_links": [
         {
           "label": "Source disclosure PDF",
-          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
         },
         {
           "label": "House Ethics PTR guidance",
@@ -117,20 +117,20 @@
         }
       ],
       "status": "source_only",
-      "ticker": "WSM",
-      "transaction_id": "1e100d63f3d02670"
+      "ticker": "GS",
+      "transaction_id": "44202d7cbf9e4472"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20261013T193930Z",
+    "data_version": "20261015T193828Z",
     "environment": "testing",
-    "generated_at": "2026-10-13T19:40:58Z",
+    "generated_at": "2026-10-15T19:39:41Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/context_packets.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-10-13T19:55:58Z"
+    "stale_after": "2026-10-15T19:54:41Z"
   }
 }
