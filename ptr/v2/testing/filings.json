@@ -2,45 +2,43 @@
   "filings": [
     {
       "action_counts": {
-        "Purchase": 2,
-        "S (partial)": 1,
-        "Sale": 1
+        "Exchange": 26
       },
-      "action_counts_json": "{\"Purchase\": 2, \"S (partial)\": 1, \"Sale\": 1}",
-      "disclosure_lag_days": 26,
-      "district": "WA01",
-      "estimated_max_total": 1100000,
-      "estimated_min_total": 530004,
+      "action_counts_json": "{\"Exchange\": 26}",
+      "disclosure_lag_days": 72,
+      "district": "TX10",
+      "estimated_max_total": null,
+      "estimated_min_total": null,
       "filing_date": "10/14/2026",
-      "filing_id": "20035627",
+      "filing_id": "9116378",
       "filing_type": "P",
-      "ingested_at": "2026-10-15T19:35:19Z",
-      "member_name": "Hon. Suzan K. DelBene",
-      "pdf_sha256": "e9c92ebfe3e796afb24232a1504c09774aa00d2aaf8975491c6878e3c29d5bb3",
-      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf",
-      "possible_late": false,
+      "ingested_at": "2026-10-16T16:21:48Z",
+      "member_name": "Hon. Michael T. McCaul",
+      "pdf_sha256": "868a9ff5f287ed4e10a63a66dfc75a38a5309ecdd98d883f1362aab3cb79f662",
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116378.pdf",
+      "possible_late": true,
       "schema_version": "1",
       "source": "house_disclosure_pdf",
-      "state": "WA",
+      "state": "TX",
       "tickers": [
-        "GS"
+        "VVI"
       ],
-      "tickers_json": "[\"GS\"]",
-      "transaction_count": 4,
-      "transaction_date_max": "2026-09-24",
-      "transaction_date_min": "2026-09-18"
+      "tickers_json": "[\"VVI\"]",
+      "transaction_count": 26,
+      "transaction_date_max": "2026-08-28",
+      "transaction_date_min": "2026-08-03"
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20261015T193828Z",
+    "data_version": "20261016T163613Z",
     "environment": "testing",
-    "generated_at": "2026-10-15T19:39:41Z",
+    "generated_at": "2026-10-16T16:37:28Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filings.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-10-15T19:54:41Z"
+    "stale_after": "2026-10-16T16:52:28Z"
   }
 }
