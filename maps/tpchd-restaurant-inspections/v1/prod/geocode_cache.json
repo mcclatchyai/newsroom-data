@@ -452,6 +452,19 @@
     "query": "1105 Pacific AVE Sumner WA 98390 United States Sumner 98390",
     "status": "ok"
   },
+  "11102 sunrise blvd e ste 111 puyallup wa 98374 united states puyallup 98374": {
+    "formatted_address": "11102 Sunrise Blvd E #111, Puyallup, WA 98374, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "latitude": 47.09697370000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2814509,
+    "place_id": "ChIJ94KhlbfikFQRoDNec1dH-yM",
+    "provider": "google_geocoding",
+    "query": "11102 Sunrise BLVD E STE 111 Puyallup WA 98374 United States Puyallup 98374",
+    "status": "ok"
+  },
   "11107 pacific hwy sw lakewood wa 98499 united states lakewood 98499": {
     "formatted_address": "11107 Pacific Hwy SW, Lakewood, WA 98499, USA",
     "geocoded_at_utc": "2026-05-21T20:41:42Z",
@@ -681,6 +694,19 @@
     "place_id": "ChIJizTj6rgIkVQRfxkla2ObiLA",
     "provider": "google_geocoding",
     "query": "1175 Center DR STE 140 Dupont WA 98327 United States Dupont 98327",
+    "status": "ok"
+  },
+  "11916 pacific hwy sw lakewood wa 98499 united states lakewood 98499": {
+    "formatted_address": "11916 Pacific Hwy SW, Lakewood, WA 98499, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:44Z",
+    "latitude": 47.1492953,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5053332,
+    "place_id": "ChIJ3xywUzkBkVQRj29iD1LLKkQ",
+    "provider": "google_geocoding",
+    "query": "11916 Pacific HWY SW Lakewood WA 98499 United States Lakewood 98499",
     "status": "ok"
   },
   "11919 pacific hwy sw lakewood wa 98499 united states lakewood 98499": {
@@ -1171,6 +1197,19 @@
     "query": "1502 S Meridian Puyallup WA 98371 United States Puyallup 98371",
     "status": "ok"
   },
+  "15029 west thorne ln sw lakewood wa 98498 lakewood 98498": {
+    "formatted_address": "15029 W Thorne Ln SW, Tacoma, WA 98498, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.1207149,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5560607,
+    "place_id": "ChIJ54lWT44GkVQRJSGAOKI6Mik",
+    "provider": "google_geocoding",
+    "query": "15029 West Thorne Ln SW Lakewood WA 98498 Lakewood 98498",
+    "status": "ok"
+  },
   "15201 union ave sw lakewood wa 98498 united states lakewood 98498": {
     "formatted_address": "15201 Union Ave SW, Lakewood, WA 98498, USA",
     "geocoded_at_utc": "2026-05-21T20:41:39Z",
@@ -1305,6 +1344,19 @@
     "place_id": "ChIJkWjdcUr9kFQRw9G09GNen48",
     "provider": "google_geocoding",
     "query": "16511 Meridian E Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
+  "16511 pacific ave s spanaway wa 98387 united states spanaway 98387": {
+    "formatted_address": "16511 Pacific Ave S, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:44Z",
+    "latitude": 47.1072728,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4339515,
+    "place_id": "ChIJGbH24qMDkVQRQuL2R0AWlJ8",
+    "provider": "google_geocoding",
+    "query": "16511 Pacific AVE S Spanaway WA 98387 United States Spanaway 98387",
     "status": "ok"
   },
   "16615 pacific ave s spanaway wa 98387 united states spanaway 98387": {
@@ -1784,6 +1836,19 @@
     "query": "204 Center St E Eatonville WA 98328 United States Eatonville 98328",
     "status": "ok"
   },
+  "204 valley ave ne puyallup wa 98372 united states puyallup 98372": {
+    "formatted_address": "204 Valley Ave NE, Puyallup, WA 98372, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "latitude": 47.2053235,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2919743,
+    "place_id": "ChIJ0xdIv075kFQRuqsQRZxnITo",
+    "provider": "google_geocoding",
+    "query": "204 Valley Ave NE Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
   "2040 70th ave e fife wa 98424 united states fife 98424": {
     "formatted_address": "2040 70th Ave E, Fife, WA 98424, USA",
     "geocode_precision": "rooftop",
@@ -2256,6 +2321,19 @@
     "query": "2725 N PEARL ST Tacoma WA 98407 Tacoma 98407",
     "status": "ok"
   },
+  "2727 e d st tacoma wa 98421 united states tacoma 98421": {
+    "formatted_address": "2727 E D St, Tacoma, WA 98421, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2359474,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4270881,
+    "place_id": "ChIJaQtiY35VkFQRz52zIMGLrRk",
+    "provider": "google_geocoding",
+    "query": "2727 E D St Tacoma WA 98421 United States Tacoma 98421",
+    "status": "ok"
+  },
   "2800 milton way ste 18 milton wa 98354 united states milton 98354": {
     "formatted_address": "2800 Milton Way #18, Milton, WA 98354, USA",
     "geocode_precision": "rooftop",
@@ -2404,6 +2482,19 @@
     "query": "29401 State Route 410 E Buckley WA 98321 United States Buckley 98321",
     "status": "ok"
   },
+  "301 133rd st s tacoma wa 98444 united states tacoma 98444": {
+    "formatted_address": "301 133rd St S, Tacoma, WA 98444, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.137229,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4360325,
+    "place_id": "ChIJoUp3RiwCkVQRO5_S-LX39mo",
+    "provider": "google_geocoding",
+    "query": "301 133rd ST S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
   "302 mashell ave n eatonville wa 98328 united states eatonville 98328": {
     "formatted_address": "302 Mashell Ave N, Eatonville, WA 98328, USA",
     "geocode_precision": "address_level_geometric_center",
@@ -2502,6 +2593,19 @@
     "place_id": "ChIJ6Vs9hrSqkVQRvOTkA7vBx9o",
     "provider": "google_geocoding",
     "query": "3202 S Gunnison ST Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
+  "3207 57th st ct gig harbor wa 98335 gig harbor 98335": {
+    "formatted_address": "3207 57th St Ct, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.31061649999999,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5823904,
+    "place_id": "ChIJ6SCfiStTkFQRG5P0jXt-YIs",
+    "provider": "google_geocoding",
+    "query": "3207 57th St Ct Gig Harbor WA 98335 Gig Harbor 98335",
     "status": "ok"
   },
   "3216 20th st e fife wa 98424 united states fife 98424": {
@@ -2966,6 +3070,19 @@
     "query": "4301 S Meridian ST STE F3 Puyallup WA 98373 United States Puyallup 98373",
     "status": "ok"
   },
+  "4310 pacific hwy e fife wa 98424 fife 98424": {
+    "formatted_address": "4310 Pacific Hwy E, Tacoma, WA 98424, USA",
+    "geocode_precision": "address_level_geometric_center",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.2428307,
+    "location_type": "GEOMETRIC_CENTER",
+    "longitude": -122.3709145,
+    "place_id": "ChIJG_eXmVr_kFQRpI1EjV7cwq8",
+    "provider": "google_geocoding",
+    "query": "4310 Pacific HWY E Fife WA 98424 Fife 98424",
+    "status": "ok"
+  },
   "4324 bridgeport way w university place wa 98466 united states university place 98466": {
     "formatted_address": "4324 Bridgeport Way W, University Place, WA 98466, USA",
     "geocoded_at_utc": "2026-05-29T13:58:30Z",
@@ -3086,6 +3203,19 @@
     "query": "454 St Helens AVE Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
   },
+  "4603 s meridian puyallup wa 98373 puyallup 98373": {
+    "formatted_address": "4603 S Meridian, Puyallup, WA 98374, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.1484974,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2925587,
+    "place_id": "ChIJySBVTVb8kFQRt0JvUKKzzDc",
+    "provider": "google_geocoding",
+    "query": "4603 S Meridian Puyallup WA 98373 Puyallup 98373",
+    "status": "ok"
+  },
   "4611 36th ave sw seattle wa 98126 seattle 98126": {
     "formatted_address": "4611 36th Ave SW, Seattle, WA 98126, USA",
     "geocode_precision": "rooftop",
@@ -3173,6 +3303,19 @@
     "place_id": "ChIJsYCZsTRTkFQRqKrjPfrg_28",
     "provider": "google_geocoding",
     "query": "4747 Point Fosdick DR STE 200 Gig Harbor WA 98335 United States Gig Harbor 98335",
+    "status": "ok"
+  },
+  "4803 pacific hwy e ste 2a fife wa 98424 united states fife 98424": {
+    "formatted_address": "4803 Pacific Hwy E #2a, Tacoma, WA 98424, USA",
+    "geocode_precision": "range_interpolated",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2430762,
+    "location_type": "RANGE_INTERPOLATED",
+    "longitude": -122.3641189,
+    "place_id": "Ei00ODAzIFBhY2lmaWMgSHd5IEUgIzJhLCBUYWNvbWEsIFdBIDk4NDI0LCBVU0EiORo3CjESLwoUChIJsUkrJE7_kFQR3yiGEFPX7U8QwyUqFAoSCX0ps_X_VZBUEbMWoI9XB6fsEgIyYQ",
+    "provider": "google_geocoding",
+    "query": "4803 Pacific Hwy E STE 2A Fife WA 98424 United States Fife 98424",
     "status": "ok"
   },
   "4816 pacific ave tacoma wa 98408 united states tacoma 98408": {
@@ -3311,6 +3454,19 @@
     "result_types": [
       "building"
     ],
+    "status": "ok"
+  },
+  "5015 tacoma mall blvd # f tacoma wa 98409 united states tacoma 98409": {
+    "formatted_address": "5015 Tacoma Mall Blvd f, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2108625,
+    "location_type": "ROOFTOP",
+    "longitude": -122.463622,
+    "place_id": "Ei41MDE1IFRhY29tYSBNYWxsIEJsdmQgZiwgVGFjb21hLCBXQSA5ODQwOSwgVVNBIh0aGwoWChQKEgmRNkI_HQCRVBFlhNHr8ox7GRIBZg",
+    "provider": "google_geocoding",
+    "query": "5015 Tacoma Mall BLVD # F Tacoma WA 98409 United States Tacoma 98409",
     "status": "ok"
   },
   "5016 bridgeport way w ste b university place wa 98467 united states university place 98467": {
@@ -3539,6 +3695,19 @@
     "place_id": "ChIJ6VaSWXYAkVQRwEZvMcRC5_k",
     "provider": "google_geocoding",
     "query": "5510 Orchard ST W STE B-3 University Place WA 98467 University Place 98467",
+    "status": "ok"
+  },
+  "5520 pacific ave tacoma wa 98408 united states tacoma 98408": {
+    "formatted_address": "5520 Pacific Ave, Tacoma, WA 98408, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:48Z",
+    "latitude": 47.2065901,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4342353,
+    "place_id": "ChIJU33SFcP_kFQRmVcgXw4S7hM",
+    "provider": "google_geocoding",
+    "query": "5520 Pacific AVE Tacoma WA 98408 United States Tacoma 98408",
     "status": "ok"
   },
   "5522 mckinley ave tacoma wa 98404 united states tacoma 98404": {
@@ -6318,6 +6487,138 @@
     "query": "101 MASHELL AVE N Eatonville WA 98328 Eatonville 98328",
     "status": "ok"
   },
+  "FEP2026-00389": {
+    "formatted_address": "4603 S Meridian, Puyallup, WA 98374, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.1484974,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2925587,
+    "place_id": "ChIJySBVTVb8kFQRt0JvUKKzzDc",
+    "provider": "google_geocoding",
+    "query": "4603 S Meridian Puyallup WA 98373 Puyallup 98373",
+    "status": "ok"
+  },
+  "FEP2026-00389|935695": {
+    "formatted_address": "4603 S Meridian, Puyallup, WA 98374, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.1484974,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2925587,
+    "place_id": "ChIJySBVTVb8kFQRt0JvUKKzzDc",
+    "provider": "google_geocoding",
+    "query": "4603 S Meridian Puyallup WA 98373 Puyallup 98373",
+    "status": "ok"
+  },
+  "FEP2026-00390": {
+    "formatted_address": "4310 Pacific Hwy E, Tacoma, WA 98424, USA",
+    "geocode_precision": "address_level_geometric_center",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.2428307,
+    "location_type": "GEOMETRIC_CENTER",
+    "longitude": -122.3709145,
+    "place_id": "ChIJG_eXmVr_kFQRpI1EjV7cwq8",
+    "provider": "google_geocoding",
+    "query": "4310 Pacific HWY E Fife WA 98424 Fife 98424",
+    "status": "ok"
+  },
+  "FEP2026-00390|936017": {
+    "formatted_address": "4310 Pacific Hwy E, Tacoma, WA 98424, USA",
+    "geocode_precision": "address_level_geometric_center",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.2428307,
+    "location_type": "GEOMETRIC_CENTER",
+    "longitude": -122.3709145,
+    "place_id": "ChIJG_eXmVr_kFQRpI1EjV7cwq8",
+    "provider": "google_geocoding",
+    "query": "4310 Pacific HWY E Fife WA 98424 Fife 98424",
+    "status": "ok"
+  },
+  "FEP2026-00392": {
+    "formatted_address": "15029 W Thorne Ln SW, Tacoma, WA 98498, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.1207149,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5560607,
+    "place_id": "ChIJ54lWT44GkVQRJSGAOKI6Mik",
+    "provider": "google_geocoding",
+    "query": "15029 West Thorne Ln SW Lakewood WA 98498 Lakewood 98498",
+    "status": "ok"
+  },
+  "FEP2026-00392|936019": {
+    "formatted_address": "15029 W Thorne Ln SW, Tacoma, WA 98498, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.1207149,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5560607,
+    "place_id": "ChIJ54lWT44GkVQRJSGAOKI6Mik",
+    "provider": "google_geocoding",
+    "query": "15029 West Thorne Ln SW Lakewood WA 98498 Lakewood 98498",
+    "status": "ok"
+  },
+  "FEP2026-00394": {
+    "formatted_address": "3207 57th St Ct, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.31061649999999,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5823904,
+    "place_id": "ChIJ6SCfiStTkFQRG5P0jXt-YIs",
+    "provider": "google_geocoding",
+    "query": "3207 57th St Ct Gig Harbor WA 98335 Gig Harbor 98335",
+    "status": "ok"
+  },
+  "FEP2026-00394|937054": {
+    "formatted_address": "3207 57th St Ct, Gig Harbor, WA 98335, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:46Z",
+    "latitude": 47.31061649999999,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5823904,
+    "place_id": "ChIJ6SCfiStTkFQRG5P0jXt-YIs",
+    "provider": "google_geocoding",
+    "query": "3207 57th St Ct Gig Harbor WA 98335 Gig Harbor 98335",
+    "status": "ok"
+  },
+  "FEP2026-00399": {
+    "formatted_address": "Washington, USA",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "location_type": "APPROXIMATE",
+    "place_id": "ChIJ-bDD5__lhVQRuvNfbGh4QpQ",
+    "provider": "google_geocoding",
+    "query": "WA",
+    "result_types": [
+      "administrative_area_level_1",
+      "political"
+    ],
+    "status": "low_precision_approximate"
+  },
+  "FEP2026-00399|937534": {
+    "formatted_address": "Washington, USA",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "location_type": "APPROXIMATE",
+    "place_id": "ChIJ-bDD5__lhVQRuvNfbGh4QpQ",
+    "provider": "google_geocoding",
+    "query": "WA",
+    "result_types": [
+      "administrative_area_level_1",
+      "political"
+    ],
+    "status": "low_precision_approximate"
+  },
   "PR0000002": {
     "formatted_address": "5102 N Pearl St, Tacoma, WA 98407, USA",
     "geocoded_at_utc": "2026-05-21T20:41:30Z",
@@ -6998,6 +7299,32 @@
     "query": "22303 MOUNTAIN HWY Spanaway WA 98387 United States Spanaway 98387",
     "status": "ok"
   },
+  "PR0002598": {
+    "formatted_address": "204 Valley Ave NE, Puyallup, WA 98372, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "latitude": 47.2053235,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2919743,
+    "place_id": "ChIJ0xdIv075kFQRuqsQRZxnITo",
+    "provider": "google_geocoding",
+    "query": "204 Valley Ave NE Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
+  "PR0002598|756176": {
+    "formatted_address": "204 Valley Ave NE, Puyallup, WA 98372, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "latitude": 47.2053235,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2919743,
+    "place_id": "ChIJ0xdIv075kFQRuqsQRZxnITo",
+    "provider": "google_geocoding",
+    "query": "204 Valley Ave NE Puyallup WA 98372 United States Puyallup 98372",
+    "status": "ok"
+  },
   "PR0002610": {
     "formatted_address": "21185 WA-410, Bonney Lake, WA 98391, USA",
     "geocode_precision": "rooftop",
@@ -7570,6 +7897,32 @@
     "place_id": "ChIJeclGCrP-kFQRdHBwXDmCnwc",
     "provider": "google_geocoding",
     "query": "745 River RD Puyallup WA 98371 United States Puyallup 98371",
+    "status": "ok"
+  },
+  "PR0022326": {
+    "formatted_address": "16511 Pacific Ave S, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:44Z",
+    "latitude": 47.1072728,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4339515,
+    "place_id": "ChIJGbH24qMDkVQRQuL2R0AWlJ8",
+    "provider": "google_geocoding",
+    "query": "16511 Pacific AVE S Spanaway WA 98387 United States Spanaway 98387",
+    "status": "ok"
+  },
+  "PR0022326|730054": {
+    "formatted_address": "16511 Pacific Ave S, Spanaway, WA 98387, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:44Z",
+    "latitude": 47.1072728,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4339515,
+    "place_id": "ChIJGbH24qMDkVQRQuL2R0AWlJ8",
+    "provider": "google_geocoding",
+    "query": "16511 Pacific AVE S Spanaway WA 98387 United States Spanaway 98387",
     "status": "ok"
   },
   "PR0022519": {
@@ -8148,6 +8501,32 @@
     "place_id": "ChIJ7z72EgL8kFQRyNUSaUMHnvE",
     "provider": "google_geocoding",
     "query": "328 S Meridian Puyallup WA 98371 United States Puyallup 98371",
+    "status": "ok"
+  },
+  "PR0031522": {
+    "formatted_address": "11916 Pacific Hwy SW, Lakewood, WA 98499, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:44Z",
+    "latitude": 47.1492953,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5053332,
+    "place_id": "ChIJ3xywUzkBkVQRj29iD1LLKkQ",
+    "provider": "google_geocoding",
+    "query": "11916 Pacific HWY SW Lakewood WA 98499 United States Lakewood 98499",
+    "status": "ok"
+  },
+  "PR0031522|743535": {
+    "formatted_address": "11916 Pacific Hwy SW, Lakewood, WA 98499, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:44Z",
+    "latitude": 47.1492953,
+    "location_type": "ROOFTOP",
+    "longitude": -122.5053332,
+    "place_id": "ChIJ3xywUzkBkVQRj29iD1LLKkQ",
+    "provider": "google_geocoding",
+    "query": "11916 Pacific HWY SW Lakewood WA 98499 United States Lakewood 98499",
     "status": "ok"
   },
   "PR0031849": {
@@ -9420,6 +9799,58 @@
     "query": "31811 State Route 706 E Ashford WA 98304 United States Ashford 98304",
     "status": "ok"
   },
+  "PR0035741": {
+    "formatted_address": "2727 E D St, Tacoma, WA 98421, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2359474,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4270881,
+    "place_id": "ChIJaQtiY35VkFQRz52zIMGLrRk",
+    "provider": "google_geocoding",
+    "query": "2727 E D St Tacoma WA 98421 United States Tacoma 98421",
+    "status": "ok"
+  },
+  "PR0035741|549099": {
+    "formatted_address": "2727 E D St, Tacoma, WA 98421, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2359474,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4270881,
+    "place_id": "ChIJaQtiY35VkFQRz52zIMGLrRk",
+    "provider": "google_geocoding",
+    "query": "2727 E D St Tacoma WA 98421 United States Tacoma 98421",
+    "status": "ok"
+  },
+  "PR0035883": {
+    "formatted_address": "301 133rd St S, Tacoma, WA 98444, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.137229,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4360325,
+    "place_id": "ChIJoUp3RiwCkVQRO5_S-LX39mo",
+    "provider": "google_geocoding",
+    "query": "301 133rd ST S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
+  "PR0035883|739176": {
+    "formatted_address": "301 133rd St S, Tacoma, WA 98444, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.137229,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4360325,
+    "place_id": "ChIJoUp3RiwCkVQRO5_S-LX39mo",
+    "provider": "google_geocoding",
+    "query": "301 133rd ST S Tacoma WA 98444 United States Tacoma 98444",
+    "status": "ok"
+  },
   "PR0035904": {
     "formatted_address": "3701 S Lawrence St, Tacoma, WA 98409, USA",
     "geocode_precision": "rooftop",
@@ -9666,6 +10097,32 @@
     "result_types": [
       "building"
     ],
+    "status": "ok"
+  },
+  "PR0036195": {
+    "formatted_address": "11102 Sunrise Blvd E #111, Puyallup, WA 98374, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "latitude": 47.09697370000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2814509,
+    "place_id": "ChIJ94KhlbfikFQRoDNec1dH-yM",
+    "provider": "google_geocoding",
+    "query": "11102 Sunrise BLVD E STE 111 Puyallup WA 98374 United States Puyallup 98374",
+    "status": "ok"
+  },
+  "PR0036195|937180": {
+    "formatted_address": "11102 Sunrise Blvd E #111, Puyallup, WA 98374, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "latitude": 47.09697370000001,
+    "location_type": "ROOFTOP",
+    "longitude": -122.2814509,
+    "place_id": "ChIJ94KhlbfikFQRoDNec1dH-yM",
+    "provider": "google_geocoding",
+    "query": "11102 Sunrise BLVD E STE 111 Puyallup WA 98374 United States Puyallup 98374",
     "status": "ok"
   },
   "PR0036220": {
@@ -12338,6 +12795,32 @@
     "query": "17316 Pacific Ave S Spanaway WA 98387 United States Spanaway 98387",
     "status": "ok"
   },
+  "PR0039615": {
+    "formatted_address": "4803 Pacific Hwy E #2a, Tacoma, WA 98424, USA",
+    "geocode_precision": "range_interpolated",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2430762,
+    "location_type": "RANGE_INTERPOLATED",
+    "longitude": -122.3641189,
+    "place_id": "Ei00ODAzIFBhY2lmaWMgSHd5IEUgIzJhLCBUYWNvbWEsIFdBIDk4NDI0LCBVU0EiORo3CjESLwoUChIJsUkrJE7_kFQR3yiGEFPX7U8QwyUqFAoSCX0ps_X_VZBUEbMWoI9XB6fsEgIyYQ",
+    "provider": "google_geocoding",
+    "query": "4803 Pacific Hwy E STE 2A Fife WA 98424 United States Fife 98424",
+    "status": "ok"
+  },
+  "PR0039615|751737": {
+    "formatted_address": "4803 Pacific Hwy E #2a, Tacoma, WA 98424, USA",
+    "geocode_precision": "range_interpolated",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2430762,
+    "location_type": "RANGE_INTERPOLATED",
+    "longitude": -122.3641189,
+    "place_id": "Ei00ODAzIFBhY2lmaWMgSHd5IEUgIzJhLCBUYWNvbWEsIFdBIDk4NDI0LCBVU0EiORo3CjESLwoUChIJsUkrJE7_kFQR3yiGEFPX7U8QwyUqFAoSCX0ps_X_VZBUEbMWoI9XB6fsEgIyYQ",
+    "provider": "google_geocoding",
+    "query": "4803 Pacific Hwy E STE 2A Fife WA 98424 United States Fife 98424",
+    "status": "ok"
+  },
   "PR0039641": {
     "formatted_address": "9202 Washington Blvd SW, Lakewood, WA 98498, USA",
     "geocode_precision": "address_level_geometric_center",
@@ -12736,6 +13219,32 @@
     "place_id": "ChIJldCaF-75kFQRrddl1EHuDcE",
     "provider": "google_geocoding",
     "query": "1720 Oak ST Milton WA 98354 United States Milton 98354",
+    "status": "ok"
+  },
+  "PR0039920": {
+    "formatted_address": "5015 Tacoma Mall Blvd f, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2108625,
+    "location_type": "ROOFTOP",
+    "longitude": -122.463622,
+    "place_id": "Ei41MDE1IFRhY29tYSBNYWxsIEJsdmQgZiwgVGFjb21hLCBXQSA5ODQwOSwgVVNBIh0aGwoWChQKEgmRNkI_HQCRVBFlhNHr8ox7GRIBZg",
+    "provider": "google_geocoding",
+    "query": "5015 Tacoma Mall BLVD # F Tacoma WA 98409 United States Tacoma 98409",
+    "status": "ok"
+  },
+  "PR0039920|745334": {
+    "formatted_address": "5015 Tacoma Mall Blvd f, Tacoma, WA 98409, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:45Z",
+    "latitude": 47.2108625,
+    "location_type": "ROOFTOP",
+    "longitude": -122.463622,
+    "place_id": "Ei41MDE1IFRhY29tYSBNYWxsIEJsdmQgZiwgVGFjb21hLCBXQSA5ODQwOSwgVVNBIh0aGwoWChQKEgmRNkI_HQCRVBFlhNHr8ox7GRIBZg",
+    "provider": "google_geocoding",
+    "query": "5015 Tacoma Mall BLVD # F Tacoma WA 98409 United States Tacoma 98409",
     "status": "ok"
   },
   "PR0039937": {
@@ -13956,6 +14465,32 @@
     "query": "9124 Veterans DR SW Lakewood WA 98498 United States Lakewood 98498",
     "status": "ok"
   },
+  "PR0040884": {
+    "formatted_address": "5520 Pacific Ave, Tacoma, WA 98408, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:48Z",
+    "latitude": 47.2065901,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4342353,
+    "place_id": "ChIJU33SFcP_kFQRmVcgXw4S7hM",
+    "provider": "google_geocoding",
+    "query": "5520 Pacific AVE Tacoma WA 98408 United States Tacoma 98408",
+    "status": "ok"
+  },
+  "PR0040884|381760": {
+    "formatted_address": "5520 Pacific Ave, Tacoma, WA 98408, USA",
+    "geocode_precision": "rooftop",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:48Z",
+    "latitude": 47.2065901,
+    "location_type": "ROOFTOP",
+    "longitude": -122.4342353,
+    "place_id": "ChIJU33SFcP_kFQRmVcgXw4S7hM",
+    "provider": "google_geocoding",
+    "query": "5520 Pacific AVE Tacoma WA 98408 United States Tacoma 98408",
+    "status": "ok"
+  },
   "PR0040891": {
     "formatted_address": "11107 Pacific Hwy SW, Lakewood, WA 98499, USA",
     "geocoded_at_utc": "2026-05-21T20:41:42Z",
@@ -14125,5 +14660,19 @@
     "provider": "google_geocoding",
     "query": "1924 Pacific AVE Tacoma WA 98402 United States Tacoma 98402",
     "status": "ok"
+  },
+  "wa": {
+    "formatted_address": "Washington, USA",
+    "geocode_rule_version": "address-level-geometric-center-v1",
+    "geocoded_at_utc": "2026-10-19T13:24:47Z",
+    "location_type": "APPROXIMATE",
+    "place_id": "ChIJ-bDD5__lhVQRuvNfbGh4QpQ",
+    "provider": "google_geocoding",
+    "query": "WA",
+    "result_types": [
+      "administrative_area_level_1",
+      "political"
+    ],
+    "status": "low_precision_approximate"
   }
 }
