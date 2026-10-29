@@ -1,0 +1,1089 @@
+{
+  "context_packet": {
+    "filing_id": "20035689",
+    "ingested_at": "2026-10-29T13:35:48Z",
+    "issuer_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Tennessee+Energy+Ac+5%25+Edr+Idr+Due+12%2F01%2F35",
+          "query_payload": {
+            "client_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+            "page_size": 5
+          },
+          "records": [],
+          "retrieved_at": "2026-10-29T13:35:48Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "available"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "D000617",
+            "district": "1",
+            "match_method": "name_state_district",
+            "name": "Suzan K. DelBene",
+            "state": "WA"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-10-29T13:35:48Z",
+        "sec_issuer_identity": {
+          "cik": "0000886982",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "GOLDMAN SACHS GROUP INC",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "GS"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "search_text": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35"
+          },
+          "reason": "no_recipient_candidates",
+          "recipient_candidates": [],
+          "retrieved_at": "2026-10-29T13:35:48Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "unavailable"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035689",
+      "issuer": {
+        "name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "GS"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "WA01",
+        "name": "Hon. Suzan K. DelBene",
+        "state": "WA"
+      },
+      "news_context": {
+        "issuer_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+        "provider": "gdelt_doc_2_0",
+        "query": "(\"Tennessee Energy Ac 5% Edr Idr Due 12/01/35\" OR GS)",
+        "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Tennessee+Energy+Ac+5%25+Edr+Idr+Due+12%2F01%2F35%22+OR+GS%29&mode=artlist&format=json&startdatetime=20260930000000&enddatetime=20261212235959&maxrecords=25&sort=DateDesc",
+        "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+        "result_count": 0,
+        "results": [],
+        "retrieved_at": "2026-10-29T13:35:48Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [],
+        "status": "unavailable",
+        "ticker": "GS",
+        "window": {
+          "end_date": "2026-12-12",
+          "start_date": "2026-09-30"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 5,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 5,
+          "matched_terms": [
+            "ac",
+            "energy",
+            "gs"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/s/5533?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5533",
+              "latest_action_date": "2026-09-24",
+              "latest_action_text": "Read twice and referred to the Committee on Finance.",
+              "matched_terms": [
+                "ac"
+              ],
+              "number": "5533",
+              "title": "Segal AmeriCorps Education Award Tax Relief Act of 2026",
+              "type": "S"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/s/3018?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018",
+              "latest_action_date": "2026-07-27",
+              "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+              "matched_terms": [
+                "ac"
+              ],
+              "number": "3018",
+              "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+              "type": "S"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/hr/5744?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5744",
+              "latest_action_date": "2025-10-10",
+              "latest_action_text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+              "matched_terms": [
+                "energy",
+                "ac"
+              ],
+              "number": "5744",
+              "title": "Targeting Online Sales of Fentanyl Act",
+              "type": "HR"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/s/2943?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2943",
+              "latest_action_date": "2025-09-30",
+              "latest_action_text": "Read twice and referred to the Committee on Veterans' Affairs.",
+              "matched_terms": [
+                "ac"
+              ],
+              "number": "2943",
+              "title": "ACE Veterans Act",
+              "type": "S"
+            },
+            {
+              "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
+              "congress": 119,
+              "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
+              "latest_action_date": "2025-12-11",
+              "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+              "matched_terms": [
+                "ac"
+              ],
+              "number": "542",
+              "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
+              "type": "SRES"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=gs+OR+tennessee+OR+energy+OR+ac+OR+goldman+OR+sachs+OR+group",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "gs",
+              "tennessee",
+              "energy",
+              "ac",
+              "goldman",
+              "sachs",
+              "group"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-10-29T13:35:48Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-09-02T14:00:00Z",
+              "event_id": "119520",
+              "matched_terms": [
+                "ac"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "“Renewal of USPTO Fee Setting Authority: Giving Full Effect to the America Invents Act”",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2025-09-18T14:00:00Z",
+              "event_id": "118597",
+              "matched_terms": [
+                "ac"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Legislative hearing on the following bills:\r\n\r\n• H.R. 309 (Rep. Nehls), “National Law Enforcement Officers Remembrance, Support and Community Outreach Act”\r\n• H.R. 2196 (Rep. Hudson), To provide for an extension of the legislative authority of the National Emergency Medical Services Memorial Foundation to establish a commemorative work in the District of Columbia and its environs.\r\n• H.R. 4284 (Rep. Leger Fernandez), “Small Cemetery Conveyance Act”\r\n• H.R. 4386 (Rep. Walberg), To amend the Federal Lands Recreation Enhancement Act to clarify entrance privileges for vehicles with respect to the America the Beautiful interagency pass.\r\n• H.R. 4467 (Rep. Thompson of MS), “Vicksburg National Military Park Boundary Modification Act”\r\n• H.R. 5131 (Rep. Begich), “Public Lands Military Readiness Act of 2025”.",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-04-16T14:00:00Z",
+              "event_id": "119132",
+              "matched_terms": [
+                "ac"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Oversight Hearing on 4 Bills:\r\n•H.R. 4219 (Rep. Case), “National Wildlife Refuge System Invasive Species Strike Team Act of 2025”\r\n•H.R. 6251 (Rep. Begich), To amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date the polar bear was determined to be a threatened species under the Endangered Species Act of 1973\r\n•\tH.R. 7288 (Rep. Johnson of SD), “Western South Dakota Water Supply Project Feasibility Study Act”\r\n•H.R. 8195 (Rep. Walberg), “Responsible Cormorant Management and Control Act of 2026”",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-07-13T19:00:00Z",
+              "event_id": "119443",
+              "matched_terms": [
+                "ac"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology",
+              "type": "Hearing"
+            },
+            {
+              "api_url": "",
+              "chamber": "House",
+              "committee_names": [],
+              "congress": 119,
+              "date": "2026-01-13T15:00:00Z",
+              "event_id": "118809",
+              "matched_terms": [
+                "gs"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "\"Drugs, Thugs, and Fish: Examining Coast Guard Law Enforcement Efforts.\"",
+              "type": "Hearing"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=gs+OR+tennessee+OR+energy+OR+ac+OR+goldman+OR+sachs+OR+group",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "gs",
+              "tennessee",
+              "energy",
+              "ac",
+              "goldman",
+              "sachs",
+              "group"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-10-29T13:35:48Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.65,
+            "source": "ticker",
+            "term": "gs"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "tennessee"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "energy"
+          },
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "ac"
+          },
+          {
+            "confidence": 0.6,
+            "source": "sec_identity",
+            "term": "goldman"
+          },
+          {
+            "confidence": 0.6,
+            "source": "sec_identity",
+            "term": "sachs"
+          },
+          {
+            "confidence": 0.6,
+            "source": "sec_identity",
+            "term": "group"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": true,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-10-29T13:35:48Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Sale",
+        "amount_range": "$250,001 - $500,000",
+        "disclosure_lag_days": 14,
+        "estimated_max": 500000,
+        "estimated_min": 250001,
+        "filed_after_due_date": false,
+        "filing_date": "10/28/2026",
+        "notification_date": "10/14/2026",
+        "owner": "JT",
+        "page": 1,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf",
+        "source_quote": "S 10/14/202610/14/2026$250,001 - $500,000",
+        "stock_act_due_date": "2026-11-13",
+        "transaction_date": "10/14/2026"
+      },
+      "transaction_id": "9edf2d3807fe92e9"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "GS",
+    "transaction_id": "9edf2d3807fe92e9"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Tennessee+Energy+Ac+5%25+Edr+Idr+Due+12%2F01%2F35",
+      "query_payload": {
+        "client_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+        "page_size": 5
+      },
+      "records": [],
+      "retrieved_at": "2026-10-29T13:35:48Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "available"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "D000617",
+        "district": "1",
+        "match_method": "name_state_district",
+        "name": "Suzan K. DelBene",
+        "state": "WA"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-10-29T13:35:48Z",
+    "sec_issuer_identity": {
+      "cik": "0000886982",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "GOLDMAN SACHS GROUP INC",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "GS"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "search_text": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35"
+      },
+      "reason": "no_recipient_candidates",
+      "recipient_candidates": [],
+      "retrieved_at": "2026-10-29T13:35:48Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "unavailable"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Purchase": 1,
+      "Sale": 1
+    },
+    "action_counts_json": "{\"Purchase\": 1, \"Sale\": 1}",
+    "disclosure_lag_days": 14,
+    "district": "WA01",
+    "estimated_max_total": 1000000,
+    "estimated_min_total": 500002,
+    "filing_date": "10/28/2026",
+    "filing_id": "20035689",
+    "filing_type": "P",
+    "ingested_at": "2026-10-29T13:35:48Z",
+    "member_name": "Hon. Suzan K. DelBene",
+    "pdf_sha256": "9b41d149dd19a38c458a02ed98be92930101eba9b3b5777fef76848aedfda8cf",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "WA",
+    "tickers": [
+      "GS"
+    ],
+    "tickers_json": "[\"GS\"]",
+    "transaction_count": 2,
+    "transaction_date_max": "2026-10-14",
+    "transaction_date_min": "2026-10-14"
+  },
+  "insight_candidate": {
+    "action": "Sale",
+    "action_type": "sale",
+    "amount_range": "$250,001 - $500,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Suzan K. DelBene's GS sale",
+      "lede": "Hon. Suzan K. DelBene reported a sale of Tennessee Energy Ac 5% Edr Idr Due 12/01/35 (GS) through JT on Oct 14, 2026, according to a periodic transaction report filed Oct 28, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "No ranked company-news links are available for this transaction.",
+      "nut_graf": "The transaction was reported in the $250,001 - $500,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 14.0,
+    "district": "WA01",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "10/28/2026",
+    "filing_id": "20035689",
+    "grounded_summary": "Hon. Suzan K. DelBene reported a sale of Tennessee Energy Ac 5% Edr Idr Due 12/01/35 (GS) through JT on Oct 14, 2026, according to a periodic transaction report filed Oct 28, 2026. The transaction was reported in the $250,001 - $500,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov bill context is present, Congress.gov hearing context is present. No ranked company-news links are available for this transaction. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Suzan K. DelBene's GS sale",
+    "issuer_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Suzan K. DelBene",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Tennessee Energy Ac 5% Edr Idr Due 12/01/35\" OR GS)",
+      "result_count": 0,
+      "results": [],
+      "status": "unavailable",
+      "window": {
+        "end_date": "2026-12-12",
+        "start_date": "2026-09-30"
+      }
+    },
+    "owner": "JT",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 4,
+    "score_reasons": [
+      "Congress.gov bill context was found",
+      "Congress.gov hearing context was found"
+    ],
+    "slug": "hon-suzan-k-delbene-gs-sale-10-14-2026-9edf2d3807fe92e9",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "state": "WA",
+    "status": "candidate",
+    "ticker": "GS",
+    "trade_date": "10/14/2026",
+    "transaction_id": "9edf2d3807fe92e9"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for GS: status=403",
+    "retrieved_at": "2026-10-29T13:35:48Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "GS"
+  },
+  "news_context": {
+    "issuer_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+    "provider": "gdelt_doc_2_0",
+    "query": "(\"Tennessee Energy Ac 5% Edr Idr Due 12/01/35\" OR GS)",
+    "reason": "gdelt_request_failed: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Tennessee+Energy+Ac+5%25+Edr+Idr+Due+12%2F01%2F35%22+OR+GS%29&mode=artlist&format=json&startdatetime=20260930000000&enddatetime=20261212235959&maxrecords=25&sort=DateDesc",
+    "reporter_note": "News/event context is a reporter lead only and does not establish motive, timing intent, wrongdoing, or use of nonpublic information.",
+    "result_count": 0,
+    "results": [],
+    "retrieved_at": "2026-10-29T13:35:48Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [],
+    "status": "unavailable",
+    "ticker": "GS",
+    "window": {
+      "end_date": "2026-12-12",
+      "start_date": "2026-09-30"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 5,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 5,
+      "matched_terms": [
+        "ac",
+        "energy",
+        "gs"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/s/5533?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5533",
+          "latest_action_date": "2026-09-24",
+          "latest_action_text": "Read twice and referred to the Committee on Finance.",
+          "matched_terms": [
+            "ac"
+          ],
+          "number": "5533",
+          "title": "Segal AmeriCorps Education Award Tax Relief Act of 2026",
+          "type": "S"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/s/3018?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018",
+          "latest_action_date": "2026-07-27",
+          "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+          "matched_terms": [
+            "ac"
+          ],
+          "number": "3018",
+          "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+          "type": "S"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/hr/5744?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/house-bill/5744",
+          "latest_action_date": "2025-10-10",
+          "latest_action_text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "matched_terms": [
+            "energy",
+            "ac"
+          ],
+          "number": "5744",
+          "title": "Targeting Online Sales of Fentanyl Act",
+          "type": "HR"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/s/2943?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2943",
+          "latest_action_date": "2025-09-30",
+          "latest_action_text": "Read twice and referred to the Committee on Veterans' Affairs.",
+          "matched_terms": [
+            "ac"
+          ],
+          "number": "2943",
+          "title": "ACE Veterans Act",
+          "type": "S"
+        },
+        {
+          "api_url": "https://api.congress.gov/v3/bill/119/sres/542?format=json",
+          "congress": 119,
+          "congressgov_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/542",
+          "latest_action_date": "2025-12-11",
+          "latest_action_text": "Referred to the Committee on the Judiciary. (text: CR S8676)",
+          "matched_terms": [
+            "ac"
+          ],
+          "number": "542",
+          "title": "A resolution commemorating the 50th anniversary of Southeast Asian refugee resettlement and the many contributions and sacrifices of Southeast Asian Americans to the United States.",
+          "type": "SRES"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=gs+OR+tennessee+OR+energy+OR+ac+OR+goldman+OR+sachs+OR+group",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "gs",
+          "tennessee",
+          "energy",
+          "ac",
+          "goldman",
+          "sachs",
+          "group"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-10-29T13:35:48Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-09-02T14:00:00Z",
+          "event_id": "119520",
+          "matched_terms": [
+            "ac"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "“Renewal of USPTO Fee Setting Authority: Giving Full Effect to the America Invents Act”",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2025-09-18T14:00:00Z",
+          "event_id": "118597",
+          "matched_terms": [
+            "ac"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Legislative hearing on the following bills:\r\n\r\n• H.R. 309 (Rep. Nehls), “National Law Enforcement Officers Remembrance, Support and Community Outreach Act”\r\n• H.R. 2196 (Rep. Hudson), To provide for an extension of the legislative authority of the National Emergency Medical Services Memorial Foundation to establish a commemorative work in the District of Columbia and its environs.\r\n• H.R. 4284 (Rep. Leger Fernandez), “Small Cemetery Conveyance Act”\r\n• H.R. 4386 (Rep. Walberg), To amend the Federal Lands Recreation Enhancement Act to clarify entrance privileges for vehicles with respect to the America the Beautiful interagency pass.\r\n• H.R. 4467 (Rep. Thompson of MS), “Vicksburg National Military Park Boundary Modification Act”\r\n• H.R. 5131 (Rep. Begich), “Public Lands Military Readiness Act of 2025”.",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-04-16T14:00:00Z",
+          "event_id": "119132",
+          "matched_terms": [
+            "ac"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Oversight Hearing on 4 Bills:\r\n•H.R. 4219 (Rep. Case), “National Wildlife Refuge System Invasive Species Strike Team Act of 2025”\r\n•H.R. 6251 (Rep. Begich), To amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date the polar bear was determined to be a threatened species under the Endangered Species Act of 1973\r\n•\tH.R. 7288 (Rep. Johnson of SD), “Western South Dakota Water Supply Project Feasibility Study Act”\r\n•H.R. 8195 (Rep. Walberg), “Responsible Cormorant Management and Control Act of 2026”",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-07-13T19:00:00Z",
+          "event_id": "119443",
+          "matched_terms": [
+            "ac"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology",
+          "type": "Hearing"
+        },
+        {
+          "api_url": "",
+          "chamber": "House",
+          "committee_names": [],
+          "congress": 119,
+          "date": "2026-01-13T15:00:00Z",
+          "event_id": "118809",
+          "matched_terms": [
+            "gs"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "\"Drugs, Thugs, and Fish: Examining Coast Guard Law Enforcement Efforts.\"",
+          "type": "Hearing"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=gs+OR+tennessee+OR+energy+OR+ac+OR+goldman+OR+sachs+OR+group",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "gs",
+          "tennessee",
+          "energy",
+          "ac",
+          "goldman",
+          "sachs",
+          "group"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-10-29T13:35:48Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.65,
+        "source": "ticker",
+        "term": "gs"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "tennessee"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "energy"
+      },
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "ac"
+      },
+      {
+        "confidence": 0.6,
+        "source": "sec_identity",
+        "term": "goldman"
+      },
+      {
+        "confidence": 0.6,
+        "source": "sec_identity",
+        "term": "sachs"
+      },
+      {
+        "confidence": 0.6,
+        "source": "sec_identity",
+        "term": "group"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": true,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-10-29T13:35:48Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261029T133747Z",
+    "environment": "testing",
+    "generated_at": "2026-10-29T13:39:12Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/9e/df/9edf2d3807fe92e9.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-29T13:54:12Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035689.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/9e/df/9edf2d3807fe92e9.json"
+  },
+  "transaction": {
+    "action": "Sale",
+    "amount_range": "$250,001 - $500,000",
+    "disclosure_lag_days": 14,
+    "district": "WA01",
+    "estimated_max": 500000,
+    "estimated_min": 250001,
+    "filed_after_due_date": false,
+    "filing_date": "10/28/2026",
+    "filing_id": "20035689",
+    "filing_type": "P",
+    "ingested_at": "2026-10-29T13:35:48Z",
+    "issuer_name": "Tennessee Energy Ac 5% Edr Idr Due 12/01/35",
+    "member_name": "Hon. Suzan K. DelBene",
+    "notification_date": "10/14/2026",
+    "owner": "JT",
+    "page": 1,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "S 10/14/202610/14/2026$250,001 - $500,000",
+    "state": "WA",
+    "stock_act_due_date": "2026-11-13",
+    "ticker": "GS",
+    "transaction_date": "10/14/2026",
+    "transaction_id": "9edf2d3807fe92e9"
+  }
+}
