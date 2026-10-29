@@ -1,0 +1,1205 @@
+{
+  "context_packet": {
+    "filing_id": "20035563",
+    "ingested_at": "2026-10-29T13:21:36Z",
+    "issuer_name": "Visa Inc.",
+    "packet": {
+      "caveats": [
+        "PTRs are self-reported disclosures.",
+        "Dollar values are reported in ranges, not exact amounts.",
+        "A filing does not establish why a transaction was made or whether nonpublic information was used."
+      ],
+      "evidence_context": {
+        "caveats": [
+          "Evidence context is a reporter check, not evidence of motive or improper trading.",
+          "Company-to-government entity matching is conservative and should be verified before publication."
+        ],
+        "lda_context": {
+          "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Visa+Inc.",
+          "query_payload": {
+            "client_name": "Visa Inc.",
+            "page_size": 5
+          },
+          "reason": "lda_api_failed_status_429",
+          "records": [],
+          "retrieved_at": "2026-10-29T13:21:36Z",
+          "source_url": "https://lda.senate.gov/api/",
+          "status": "unavailable"
+        },
+        "member_committee_context": {
+          "committees": [],
+          "confidence": 0.85,
+          "member": {
+            "bioguide_id": "S000250",
+            "district": "17",
+            "match_method": "name_state_district",
+            "name": "Pete Sessions",
+            "state": "TX"
+          },
+          "source_url": "https://github.com/unitedstates/congress-legislators",
+          "status": "available"
+        },
+        "reporter_flags": {
+          "committee_context_available": false,
+          "committee_overlap_check_needed": false,
+          "federal_awards_found": false,
+          "lobbying_records_found": false
+        },
+        "retrieved_at": "2026-10-29T13:21:36Z",
+        "sec_issuer_identity": {
+          "cik": "0001403161",
+          "confidence": 1.0,
+          "match_method": "ticker_exact",
+          "sec_title": "VISA INC.",
+          "source_url": "https://www.sec.gov/files/company_tickers.json",
+          "status": "available",
+          "ticker": "V"
+        },
+        "source": "official",
+        "source_links": [
+          {
+            "label": "SEC EDGAR APIs",
+            "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+          },
+          {
+            "label": "SEC company tickers",
+            "url": "https://www.sec.gov/files/company_tickers.json"
+          },
+          {
+            "label": "USAspending API docs",
+            "url": "https://api.usaspending.gov/docs/"
+          },
+          {
+            "label": "LDA.gov API",
+            "url": "https://lda.senate.gov/api/"
+          },
+          {
+            "label": "unitedstates/congress-legislators",
+            "url": "https://github.com/unitedstates/congress-legislators"
+          }
+        ],
+        "status": "partial",
+        "usaspending_context": {
+          "awards": [],
+          "query_payload": {
+            "recipient_autocomplete": {
+              "search_text": "Visa Inc."
+            }
+          },
+          "reason": "recipient_match_not_high_confidence",
+          "recipient_candidates": [
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "ATLAS VISA SERVICES, INC.",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "ATLAS VISA SERVICES, INC.",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "GENERATIONS VISA SERVICE INC",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "GENERATIONS VISA SERVICE INC",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "AMERICAN VISA OF DC, INC.",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "AMERICAN VISA OF DC, INC.",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "GENERATIONS VISA SERVICE, INC",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "GENERATIONS VISA SERVICE, INC",
+              "uei": ""
+            },
+            {
+              "match_confidence": 0.9,
+              "raw": {
+                "duns": null,
+                "recipient_level": null,
+                "recipient_name": "A WASHINGTON TRAVEL & PASSPORT VISA INC",
+                "uei": null
+              },
+              "recipient_hash": "",
+              "recipient_name": "A WASHINGTON TRAVEL & PASSPORT VISA INC",
+              "uei": ""
+            }
+          ],
+          "retrieved_at": "2026-10-29T13:21:36Z",
+          "selected_recipient": null,
+          "source_url": "https://api.usaspending.gov/docs/",
+          "status": "ambiguous_recipient"
+        }
+      },
+      "federal_context": {
+        "bills_or_hearings": [],
+        "committee_relevance": [],
+        "lobbying_records": [],
+        "sec_company_facts": [],
+        "status": "pending",
+        "usaspending_awards": []
+      },
+      "filing_id": "20035563",
+      "issuer": {
+        "name": "Visa Inc.",
+        "sec_cik": "",
+        "source": "disclosure_pdf",
+        "ticker": "V"
+      },
+      "market_context": {
+        "required_fields": [
+          "price_on_transaction_date",
+          "price_on_filing_date",
+          "price_on_alert_date",
+          "pct_change_trade_to_filing",
+          "pct_change_trade_to_alert",
+          "benchmark_symbol",
+          "benchmark_pct_change",
+          "source",
+          "retrieved_at"
+        ],
+        "status": "pending"
+      },
+      "member": {
+        "bioguide_id": "",
+        "district": "TX17",
+        "name": "Hon. Pete Sessions",
+        "state": "TX"
+      },
+      "news_context": {
+        "filtered_out_count": 21,
+        "issuer_name": "Visa Inc.",
+        "min_relevance_score": 20,
+        "provider": "gdelt_doc_2_0",
+        "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Visa+Inc%22+OR+V%29&mode=artlist&format=json&startdatetime=20260918000000&enddatetime=20261211235959&maxrecords=25&sort=DateDesc",
+        "query": "(\"Visa Inc\" OR V)",
+        "raw_result_count": 25,
+        "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+        "result_count": 4,
+        "results": [
+          {
+            "domain": "cnbc.com",
+            "language": "English",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20260924T161500Z",
+            "relevance_label": "low",
+            "relevance_score": 33,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+            "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "proactiveinvestors.com",
+            "language": "English",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20261022T200000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "company_or_pr_source",
+            "title": "Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+            "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "company or PR source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "vetogate.com",
+            "language": "Arabic",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20261001T110000Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "Egypt",
+            "source_type": "general_news_or_web",
+            "title": "البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+            "url": "https://www.vetogate.com/5741908",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dostor.org",
+            "language": "Arabic",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20261001T110000Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "Egypt",
+            "source_type": "general_news_or_web",
+            "title": "البنك التجاري الدولي مصر يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+            "url": "https://www.dostor.org/5723401",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "retrieved_at": "2026-10-29T13:21:36Z",
+        "schema_version": 1,
+        "source": "gdelt_doc_2_0",
+        "source_links": [
+          {
+            "label": "Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+            "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/"
+          },
+          {
+            "label": "Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+            "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html"
+          },
+          {
+            "label": "البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+            "url": "https://www.vetogate.com/5741908"
+          },
+          {
+            "label": "البنك التجاري الدولي مصر يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+            "url": "https://www.dostor.org/5723401"
+          }
+        ],
+        "status": "available",
+        "ticker": "V",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-09-18"
+        }
+      },
+      "packet_version": 1,
+      "policy_context": {
+        "caveats": [
+          "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+          "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+        ],
+        "committee_issuer_overlap_status": {
+          "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+          "confidence": 0.45,
+          "matched_bill_count": 0,
+          "matched_committee_count": 0,
+          "matched_hearing_count": 1,
+          "matched_terms": [
+            "visa"
+          ],
+          "status": "policy_activity_found",
+          "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+        },
+        "committee_jurisdiction_context": {
+          "committees_checked": [],
+          "confidence": 0.0,
+          "matched_committees": [],
+          "reason": "committee_context_unavailable",
+          "source_url": "https://www.congress.gov/committees",
+          "status": "unavailable"
+        },
+        "congressgov_bills": {
+          "items": [],
+          "public_search_url": "https://www.congress.gov/search?q=visa",
+          "query_payload": {
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "visa"
+            ]
+          },
+          "reason": "no_matching_recent_bills",
+          "retrieved_at": "2026-10-29T13:21:36Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "unavailable"
+        },
+        "congressgov_hearings": {
+          "items": [
+            {
+              "api_url": "",
+              "chamber": "Senate",
+              "committee_names": [],
+              "congress": 118,
+              "date": "2024-11-19T15:00:00Z",
+              "event_id": "336300",
+              "matched_terms": [
+                "visa"
+              ],
+              "meeting_status": "Scheduled",
+              "title": "Hearings to examine breaking the Visa-Mastercard duopoly, focusing on bringing competition and lower fees to the credit card system.",
+              "type": "Meeting"
+            }
+          ],
+          "public_search_url": "https://www.congress.gov/search?q=visa",
+          "query_payload": {
+            "chambers": [
+              "house",
+              "senate"
+            ],
+            "congresses": [
+              119,
+              118
+            ],
+            "limit": 50,
+            "terms": [
+              "visa"
+            ]
+          },
+          "reason": "matched_terms",
+          "retrieved_at": "2026-10-29T13:21:36Z",
+          "source_url": "https://api.congress.gov/",
+          "status": "available"
+        },
+        "issuer_policy_terms": [
+          {
+            "confidence": 0.6,
+            "source": "issuer_name",
+            "term": "visa"
+          }
+        ],
+        "reporter_flags": {
+          "committee_policy_overlap_check_needed": false,
+          "congressgov_bills_found": false,
+          "congressgov_hearings_found": true
+        },
+        "retrieved_at": "2026-10-29T13:21:36Z",
+        "source": "official",
+        "source_links": [
+          {
+            "label": "Congress.gov API",
+            "url": "https://api.congress.gov/"
+          },
+          {
+            "label": "Congress.gov committees",
+            "url": "https://www.congress.gov/committees"
+          },
+          {
+            "label": "Congress.gov search",
+            "url": "https://www.congress.gov/search"
+          }
+        ],
+        "status": "available"
+      },
+      "reporter_checks": [
+        "Verify who directed the trade and whether the account is adviser-managed.",
+        "Compare transaction timing with company news, hearings, legislation, federal awards, and lobbying records.",
+        "Treat committee/company overlap as context to verify, not proof of motive."
+      ],
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "transaction": {
+        "action": "Sale",
+        "amount_range": "$15,001 - $50,000",
+        "disclosure_lag_days": 25,
+        "estimated_max": 50000,
+        "estimated_min": 15001,
+        "filed_after_due_date": false,
+        "filing_date": "10/27/2026",
+        "notification_date": "10/05/2026",
+        "owner": "Trust One",
+        "page": 4,
+        "source_pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf",
+        "source_quote": "S 10/02/202610/05/2026$15,001 - $50,000",
+        "stock_act_due_date": "2026-11-04",
+        "transaction_date": "10/02/2026"
+      },
+      "transaction_id": "e0b4343f4100f63f"
+    },
+    "packet_version": 1,
+    "schema_version": "1",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "label": "House Ethics PTR guidance",
+        "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "Senate LDA downloadable data",
+        "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation"
+      }
+    ],
+    "status": "source_only",
+    "ticker": "V",
+    "transaction_id": "e0b4343f4100f63f"
+  },
+  "evidence_context": {
+    "caveats": [
+      "Evidence context is a reporter check, not evidence of motive or improper trading.",
+      "Company-to-government entity matching is conservative and should be verified before publication."
+    ],
+    "lda_context": {
+      "public_search_url": "https://lda.senate.gov/filings/public/filing/search/?client_name=Visa+Inc.",
+      "query_payload": {
+        "client_name": "Visa Inc.",
+        "page_size": 5
+      },
+      "reason": "lda_api_failed_status_429",
+      "records": [],
+      "retrieved_at": "2026-10-29T13:21:36Z",
+      "source_url": "https://lda.senate.gov/api/",
+      "status": "unavailable"
+    },
+    "member_committee_context": {
+      "committees": [],
+      "confidence": 0.85,
+      "member": {
+        "bioguide_id": "S000250",
+        "district": "17",
+        "match_method": "name_state_district",
+        "name": "Pete Sessions",
+        "state": "TX"
+      },
+      "source_url": "https://github.com/unitedstates/congress-legislators",
+      "status": "available"
+    },
+    "reporter_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "retrieved_at": "2026-10-29T13:21:36Z",
+    "sec_issuer_identity": {
+      "cik": "0001403161",
+      "confidence": 1.0,
+      "match_method": "ticker_exact",
+      "sec_title": "VISA INC.",
+      "source_url": "https://www.sec.gov/files/company_tickers.json",
+      "status": "available",
+      "ticker": "V"
+    },
+    "source": "official",
+    "source_links": [
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "status": "partial",
+    "usaspending_context": {
+      "awards": [],
+      "query_payload": {
+        "recipient_autocomplete": {
+          "search_text": "Visa Inc."
+        }
+      },
+      "reason": "recipient_match_not_high_confidence",
+      "recipient_candidates": [
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "ATLAS VISA SERVICES, INC.",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "ATLAS VISA SERVICES, INC.",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "GENERATIONS VISA SERVICE INC",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "GENERATIONS VISA SERVICE INC",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "AMERICAN VISA OF DC, INC.",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "AMERICAN VISA OF DC, INC.",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "GENERATIONS VISA SERVICE, INC",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "GENERATIONS VISA SERVICE, INC",
+          "uei": ""
+        },
+        {
+          "match_confidence": 0.9,
+          "raw": {
+            "duns": null,
+            "recipient_level": null,
+            "recipient_name": "A WASHINGTON TRAVEL & PASSPORT VISA INC",
+            "uei": null
+          },
+          "recipient_hash": "",
+          "recipient_name": "A WASHINGTON TRAVEL & PASSPORT VISA INC",
+          "uei": ""
+        }
+      ],
+      "retrieved_at": "2026-10-29T13:21:36Z",
+      "selected_recipient": null,
+      "source_url": "https://api.usaspending.gov/docs/",
+      "status": "ambiguous_recipient"
+    }
+  },
+  "filing": {
+    "action_counts": {
+      "Sale": 32
+    },
+    "action_counts_json": "{\"Sale\": 32}",
+    "disclosure_lag_days": 26,
+    "district": "TX17",
+    "estimated_max_total": 3285344,
+    "estimated_min_total": 1369375,
+    "filing_date": "10/27/2026",
+    "filing_id": "20035563",
+    "filing_type": "P",
+    "ingested_at": "2026-10-29T13:21:36Z",
+    "member_name": "Hon. Pete Sessions",
+    "pdf_sha256": "0108442fd08e35ac04cfbaf84f9ed004d6831c0bc830b197f809951ac31131a5",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [
+      "ABT",
+      "GOOG",
+      "AMZN",
+      "AAPL",
+      "BRK.B",
+      "CVX",
+      "CMG",
+      "COST",
+      "XOM",
+      "HD",
+      "HON",
+      "IBM",
+      "LOW",
+      "MA",
+      "MCD",
+      "MSFT",
+      "NVDA",
+      "PEP",
+      "PG",
+      "REZI",
+      "SOLS",
+      "SBUX",
+      "TSLA",
+      "TJX",
+      "VZ",
+      "V",
+      "WMT",
+      "DIS"
+    ],
+    "tickers_json": "[\"ABT\", \"GOOG\", \"AMZN\", \"AAPL\", \"BRK.B\", \"CVX\", \"CMG\", \"COST\", \"XOM\", \"HD\", \"HON\", \"IBM\", \"LOW\", \"MA\", \"MCD\", \"MSFT\", \"NVDA\", \"PEP\", \"PG\", \"REZI\", \"SOLS\", \"SBUX\", \"TSLA\", \"TJX\", \"VZ\", \"V\", \"WMT\", \"DIS\"]",
+    "transaction_count": 32,
+    "transaction_date_max": "2026-10-28",
+    "transaction_date_min": "2026-10-01"
+  },
+  "insight_candidate": {
+    "action": "Sale",
+    "action_type": "sale",
+    "amount_range": "$15,001 - $50,000",
+    "article_starter": {
+      "caveat": "The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+      "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+      "evidence_context": "The evidence context flags that Congress.gov hearing context is present.",
+      "headline_candidate": "Hon. Pete Sessions's V sale",
+      "lede": "Hon. Pete Sessions reported a sale of Visa Inc (V) through Trust One on Oct 2, 2026, according to a periodic transaction report filed Oct 27, 2026.",
+      "market_context": "Market movement is unavailable for this transaction.",
+      "news_context": "4 related company/news links were found around the trade and filing window.",
+      "nut_graf": "The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount.",
+      "reporter_checks": [
+        "Confirm the trade details against the source disclosure PDF.",
+        "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+        "Review the news/event links and verify which items are directly about the issuer and time window.",
+        "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+        "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+      ],
+      "status": "reporter_draft_not_publication_ready"
+    },
+    "asset_type": "ptr_insight_candidate",
+    "dek": "The disclosure includes a reported sale; no high-signal evidence flags were found.",
+    "disclosure_lag_days": 25.0,
+    "district": "TX17",
+    "evidence_flags": {
+      "committee_context_available": false,
+      "committee_overlap_check_needed": false,
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true,
+      "federal_awards_found": false,
+      "lobbying_records_found": false
+    },
+    "filing_date": "10/27/2026",
+    "filing_id": "20035563",
+    "grounded_summary": "Hon. Pete Sessions reported a sale of Visa Inc (V) through Trust One on Oct 2, 2026, according to a periodic transaction report filed Oct 27, 2026. The transaction was reported in the $15,001 - $50,000 range. PTR dollar values are ranges, so the filing does not show an exact purchase or sale amount. Market movement is unavailable for this transaction. The evidence context flags that Congress.gov hearing context is present. 4 related company/news links were found around the trade and filing window. The disclosure does not establish why the transaction occurred, whether the member directed it, or whether any nonpublic information was involved.",
+    "headline": "Hon. Pete Sessions's V sale",
+    "issuer_name": "Visa Inc",
+    "market_context": {
+      "filing_date_close": null,
+      "filing_date_price_date": null,
+      "latest_close": null,
+      "latest_price_date": null,
+      "percent_change_trade_to_filing": null,
+      "percent_change_trade_to_latest": null,
+      "publication_license_status": "confirmed",
+      "publication_ready": false,
+      "source": "finazon_us_stocks_essential",
+      "status": "unavailable",
+      "trade_date_close": null,
+      "trade_date_price_date": null
+    },
+    "member_name": "Hon. Pete Sessions",
+    "news_context": {
+      "provider": "gdelt_doc_2_0",
+      "query": "(\"Visa Inc\" OR V)",
+      "result_count": 4,
+      "results": [
+        {
+          "domain": "cnbc.com",
+          "language": "English",
+          "matched_terms": [
+            "visa"
+          ],
+          "published_at": "20260924T161500Z",
+          "relevance_label": "low",
+          "relevance_score": 33,
+          "source_country": "United States",
+          "source_type": "national_business_news",
+          "title": "Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+          "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "national/business news source",
+            "published within three weeks of reported trade date"
+          ]
+        },
+        {
+          "domain": "proactiveinvestors.com",
+          "language": "English",
+          "matched_terms": [
+            "visa"
+          ],
+          "published_at": "20261022T200000Z",
+          "relevance_label": "low",
+          "relevance_score": 26,
+          "source_country": "United States",
+          "source_type": "company_or_pr_source",
+          "title": "Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+          "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "company or PR source",
+            "published within three weeks of reported trade date"
+          ]
+        },
+        {
+          "domain": "vetogate.com",
+          "language": "Arabic",
+          "matched_terms": [
+            "visa"
+          ],
+          "published_at": "20261001T110000Z",
+          "relevance_label": "low",
+          "relevance_score": 22,
+          "source_country": "Egypt",
+          "source_type": "general_news_or_web",
+          "title": "البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+          "url": "https://www.vetogate.com/5741908",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        },
+        {
+          "domain": "dostor.org",
+          "language": "Arabic",
+          "matched_terms": [
+            "visa"
+          ],
+          "published_at": "20261001T110000Z",
+          "relevance_label": "low",
+          "relevance_score": 22,
+          "source_country": "Egypt",
+          "source_type": "general_news_or_web",
+          "title": "البنك التجاري الدولي مصر يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+          "url": "https://www.dostor.org/5723401",
+          "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+          "why_ranked": [
+            "issuer-name tokens appear in headline, domain, or URL",
+            "published within a week of reported trade date"
+          ]
+        }
+      ],
+      "status": "available",
+      "window": {
+        "end_date": "2026-12-11",
+        "start_date": "2026-09-18"
+      }
+    },
+    "owner": "Trust One",
+    "reporter_checks": [
+      "Confirm the trade details against the source disclosure PDF.",
+      "Ask the member's office whether the transaction was directed by the member, spouse, adviser, or blind trust.",
+      "Review the news/event links and verify which items are directly about the issuer and time window.",
+      "Check whether the issuer had legislation, contracts, enforcement issues, or lobbying before committees relevant to the member.",
+      "Do not state motive, profit, or misuse of nonpublic information without independent reporting."
+    ],
+    "schema_version": 1,
+    "score": 4,
+    "score_reasons": [
+      "Congress.gov hearing context was found",
+      "news/event context links are available",
+      "linked company/news context is available"
+    ],
+    "slug": "hon-pete-sessions-v-sale-10-02-2026-e0b4343f4100f63f",
+    "source_links": [
+      {
+        "label": "Source disclosure PDF",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "label": "SEC EDGAR APIs",
+        "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      },
+      {
+        "label": "SEC company tickers",
+        "url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "label": "USAspending API docs",
+        "url": "https://api.usaspending.gov/docs/"
+      },
+      {
+        "label": "LDA.gov API",
+        "url": "https://lda.senate.gov/api/"
+      },
+      {
+        "label": "unitedstates/congress-legislators",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "label": "Policy/context: Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Policy/context: Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Policy/context: Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      },
+      {
+        "label": "News/context: Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+        "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/"
+      },
+      {
+        "label": "News/context: Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+        "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html"
+      },
+      {
+        "label": "News/context: البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+        "url": "https://www.vetogate.com/5741908"
+      },
+      {
+        "label": "News/context: البنك التجاري الدولي مصر يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+        "url": "https://www.dostor.org/5723401"
+      }
+    ],
+    "state": "TX",
+    "status": "candidate",
+    "ticker": "V",
+    "trade_date": "10/02/2026",
+    "transaction_id": "e0b4343f4100f63f"
+  },
+  "market_context": {
+    "adjusted_price_mode": "adjust=all",
+    "benchmark_symbol": "SPY",
+    "chart": {
+      "markers": [],
+      "series": []
+    },
+    "publication_license_status": "confirmed",
+    "publication_ready": false,
+    "reason": "provider_error: Finazon request failed for V: status=429",
+    "retrieved_at": "2026-10-29T13:21:36Z",
+    "source": "finazon_us_stocks_essential",
+    "status": "unavailable",
+    "ticker": "V"
+  },
+  "news_context": {
+    "filtered_out_count": 21,
+    "issuer_name": "Visa Inc.",
+    "min_relevance_score": 20,
+    "provider": "gdelt_doc_2_0",
+    "public_search_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Visa+Inc%22+OR+V%29&mode=artlist&format=json&startdatetime=20260918000000&enddatetime=20261211235959&maxrecords=25&sort=DateDesc",
+    "query": "(\"Visa Inc\" OR V)",
+    "raw_result_count": 25,
+    "reporter_note": "Returned links are context for reporter review only. They do not establish motive, causation, wrongdoing, or use of nonpublic information.",
+    "result_count": 4,
+    "results": [
+      {
+        "domain": "cnbc.com",
+        "language": "English",
+        "matched_terms": [
+          "visa"
+        ],
+        "published_at": "20260924T161500Z",
+        "relevance_label": "low",
+        "relevance_score": 33,
+        "source_country": "United States",
+        "source_type": "national_business_news",
+        "title": "Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+        "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "national/business news source",
+          "published within three weeks of reported trade date"
+        ]
+      },
+      {
+        "domain": "proactiveinvestors.com",
+        "language": "English",
+        "matched_terms": [
+          "visa"
+        ],
+        "published_at": "20261022T200000Z",
+        "relevance_label": "low",
+        "relevance_score": 26,
+        "source_country": "United States",
+        "source_type": "company_or_pr_source",
+        "title": "Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+        "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "company or PR source",
+          "published within three weeks of reported trade date"
+        ]
+      },
+      {
+        "domain": "vetogate.com",
+        "language": "Arabic",
+        "matched_terms": [
+          "visa"
+        ],
+        "published_at": "20261001T110000Z",
+        "relevance_label": "low",
+        "relevance_score": 22,
+        "source_country": "Egypt",
+        "source_type": "general_news_or_web",
+        "title": "البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+        "url": "https://www.vetogate.com/5741908",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      },
+      {
+        "domain": "dostor.org",
+        "language": "Arabic",
+        "matched_terms": [
+          "visa"
+        ],
+        "published_at": "20261001T110000Z",
+        "relevance_label": "low",
+        "relevance_score": 22,
+        "source_country": "Egypt",
+        "source_type": "general_news_or_web",
+        "title": "البنك التجاري الدولي مصر يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+        "url": "https://www.dostor.org/5723401",
+        "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+        "why_ranked": [
+          "issuer-name tokens appear in headline, domain, or URL",
+          "published within a week of reported trade date"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-10-29T13:21:36Z",
+    "schema_version": 1,
+    "source": "gdelt_doc_2_0",
+    "source_links": [
+      {
+        "label": "Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+        "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/"
+      },
+      {
+        "label": "Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+        "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html"
+      },
+      {
+        "label": "البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+        "url": "https://www.vetogate.com/5741908"
+      },
+      {
+        "label": "البنك التجاري الدولي مصر يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+        "url": "https://www.dostor.org/5723401"
+      }
+    ],
+    "status": "available",
+    "ticker": "V",
+    "window": {
+      "end_date": "2026-12-11",
+      "start_date": "2026-09-18"
+    }
+  },
+  "policy_context": {
+    "caveats": [
+      "Policy context is a reporter check, not evidence of motive, conflict, or wrongdoing.",
+      "Congress.gov API list endpoints are filtered locally against issuer/policy terms; verify relevant bills or hearings before publication."
+    ],
+    "committee_issuer_overlap_status": {
+      "caveat": "Use as a lead-generation check only; do not describe this as a conflict without reporting.",
+      "confidence": 0.45,
+      "matched_bill_count": 0,
+      "matched_committee_count": 0,
+      "matched_hearing_count": 1,
+      "matched_terms": [
+        "visa"
+      ],
+      "status": "policy_activity_found",
+      "summary": "Congress.gov activity matched issuer/policy terms, but no member committee overlap was found in this automated pass."
+    },
+    "committee_jurisdiction_context": {
+      "committees_checked": [],
+      "confidence": 0.0,
+      "matched_committees": [],
+      "reason": "committee_context_unavailable",
+      "source_url": "https://www.congress.gov/committees",
+      "status": "unavailable"
+    },
+    "congressgov_bills": {
+      "items": [],
+      "public_search_url": "https://www.congress.gov/search?q=visa",
+      "query_payload": {
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "visa"
+        ]
+      },
+      "reason": "no_matching_recent_bills",
+      "retrieved_at": "2026-10-29T13:21:36Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "unavailable"
+    },
+    "congressgov_hearings": {
+      "items": [
+        {
+          "api_url": "",
+          "chamber": "Senate",
+          "committee_names": [],
+          "congress": 118,
+          "date": "2024-11-19T15:00:00Z",
+          "event_id": "336300",
+          "matched_terms": [
+            "visa"
+          ],
+          "meeting_status": "Scheduled",
+          "title": "Hearings to examine breaking the Visa-Mastercard duopoly, focusing on bringing competition and lower fees to the credit card system.",
+          "type": "Meeting"
+        }
+      ],
+      "public_search_url": "https://www.congress.gov/search?q=visa",
+      "query_payload": {
+        "chambers": [
+          "house",
+          "senate"
+        ],
+        "congresses": [
+          119,
+          118
+        ],
+        "limit": 50,
+        "terms": [
+          "visa"
+        ]
+      },
+      "reason": "matched_terms",
+      "retrieved_at": "2026-10-29T13:21:36Z",
+      "source_url": "https://api.congress.gov/",
+      "status": "available"
+    },
+    "issuer_policy_terms": [
+      {
+        "confidence": 0.6,
+        "source": "issuer_name",
+        "term": "visa"
+      }
+    ],
+    "reporter_flags": {
+      "committee_policy_overlap_check_needed": false,
+      "congressgov_bills_found": false,
+      "congressgov_hearings_found": true
+    },
+    "retrieved_at": "2026-10-29T13:21:36Z",
+    "source": "official",
+    "source_links": [
+      {
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/"
+      },
+      {
+        "label": "Congress.gov committees",
+        "url": "https://www.congress.gov/committees"
+      },
+      {
+        "label": "Congress.gov search",
+        "url": "https://www.congress.gov/search"
+      }
+    ],
+    "status": "available"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261029T134139Z",
+    "environment": "testing",
+    "generated_at": "2026-10-29T13:43:06Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/e0/b4/e0b4343f4100f63f.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-29T13:58:06Z"
+  },
+  "public_urls": {
+    "filing": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035563.json",
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/trade/e0/b4/e0b4343f4100f63f.json"
+  },
+  "transaction": {
+    "action": "Sale",
+    "amount_range": "$15,001 - $50,000",
+    "disclosure_lag_days": 25,
+    "district": "TX17",
+    "estimated_max": 50000,
+    "estimated_min": 15001,
+    "filed_after_due_date": false,
+    "filing_date": "10/27/2026",
+    "filing_id": "20035563",
+    "filing_type": "P",
+    "ingested_at": "2026-10-29T13:21:36Z",
+    "issuer_name": "Visa Inc.",
+    "member_name": "Hon. Pete Sessions",
+    "notification_date": "10/05/2026",
+    "owner": "Trust One",
+    "page": 4,
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf",
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "source_quote": "S 10/02/202610/05/2026$15,001 - $50,000",
+    "state": "TX",
+    "stock_act_due_date": "2026-11-04",
+    "ticker": "V",
+    "transaction_date": "10/02/2026",
+    "transaction_id": "e0b4343f4100f63f"
+  }
+}

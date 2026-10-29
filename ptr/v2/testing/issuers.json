@@ -1,23 +1,212 @@
 {
   "issuers": [
     {
-      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 12/01/2035 Proj Rev BDS Ser. 2025",
+      "issuer_name": "Apple Inc. - Common Stock",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GS.json",
-      "ticker": "GS",
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AAPL.json",
+      "ticker": "AAPL",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Abbott Laboratories Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/ABT.json",
+      "ticker": "ABT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Amazon.com, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/AMZN.json",
+      "ticker": "AMZN",
       "trade_count": 2
+    },
+    {
+      "issuer_name": "Berkshire Hathaway Inc. New Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/BRK.B.json",
+      "ticker": "BRK.B",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Chipotle Mexican Grill, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CMG.json",
+      "ticker": "CMG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Costco Wholesale Corporation - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/COST.json",
+      "ticker": "COST",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Chevron Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/CVX.json",
+      "ticker": "CVX",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Walt Disney Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/DIS.json",
+      "ticker": "DIS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Alphabet Inc. - Class C Capital Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GOOG.json",
+      "ticker": "GOOG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Home Depot, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/HD.json",
+      "ticker": "HD",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Honeywell International Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/HON.json",
+      "ticker": "HON",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "International Business Machines Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/IBM.json",
+      "ticker": "IBM",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Lowe's Companies, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/LOW.json",
+      "ticker": "LOW",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Mastercard Incorporated Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MA.json",
+      "ticker": "MA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "McDonald's Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MCD.json",
+      "ticker": "MCD",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Microsoft Corporation - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/MSFT.json",
+      "ticker": "MSFT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "NVIDIA Corporation - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/NVDA.json",
+      "ticker": "NVDA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Pepsico, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PEP.json",
+      "ticker": "PEP",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Procter & Gamble Company",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/PG.json",
+      "ticker": "PG",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Resideo Technologies, Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/REZI.json",
+      "ticker": "REZI",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Starbucks Corporation - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SBUX.json",
+      "ticker": "SBUX",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Solstice Advanced Materials Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/SOLS.json",
+      "ticker": "SOLS",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "TJX Companies, Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/TJX.json",
+      "ticker": "TJX",
+      "trade_count": 2
+    },
+    {
+      "issuer_name": "Tesla, Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/TSLA.json",
+      "ticker": "TSLA",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Visa Inc.",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/V.json",
+      "ticker": "V",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Verizon Communications Inc. Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/VZ.json",
+      "ticker": "VZ",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "Walmart Inc. - Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/WMT.json",
+      "ticker": "WMT",
+      "trade_count": 1
+    },
+    {
+      "issuer_name": "ExxonMobil Holdings Corporation Common Stock",
+      "member_count": 1,
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/XOM.json",
+      "ticker": "XOM",
+      "trade_count": 1
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20261029T133747Z",
+    "data_version": "20261029T134139Z",
     "environment": "testing",
-    "generated_at": "2026-10-29T13:39:12Z",
+    "generated_at": "2026-10-29T13:43:06Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-10-29T13:54:12Z"
+    "stale_after": "2026-10-29T13:58:06Z"
   }
 }

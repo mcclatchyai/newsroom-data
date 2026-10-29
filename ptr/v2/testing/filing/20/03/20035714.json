@@ -1,0 +1,106 @@
+{
+  "context_packet_count": 1,
+  "context_packets": [
+    {
+      "filing_id": "20035714",
+      "issuer_name": "Montego [OI]",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035714.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "",
+      "transaction_id": "74c457746b3825a9"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Sale": 1
+    },
+    "action_counts_json": "{\"Sale\": 1}",
+    "disclosure_lag_days": 474,
+    "district": "TX19",
+    "estimated_max_total": 50000,
+    "estimated_min_total": 15001,
+    "filing_date": "10/27/2026",
+    "filing_id": "20035714",
+    "filing_type": "P",
+    "ingested_at": "2026-10-29T13:21:36Z",
+    "member_name": "Hon. Jodey Arrington",
+    "pdf_sha256": "0240bda28b2f4c7171139a4c538160e5767827e893bd5c887095e013fde4b251",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035714.pdf",
+    "possible_late": true,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "TX",
+    "tickers": [],
+    "tickers_json": "[]",
+    "transaction_count": 1,
+    "transaction_date_max": "2025-07-10",
+    "transaction_date_min": "2025-07-10"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261029T134139Z",
+    "environment": "testing",
+    "generated_at": "2026-10-29T13:43:06Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035714.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-29T13:58:06Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035714.json"
+  },
+  "transactions": [
+    {
+      "action": "Sale",
+      "amount_range": "$15,001 - $50,000",
+      "disclosure_lag_days": 474,
+      "district": "TX19",
+      "estimated_max": 50000,
+      "estimated_min": 15001,
+      "filed_after_due_date": true,
+      "filing_date": "10/27/2026",
+      "filing_id": "20035714",
+      "filing_type": "P",
+      "ingested_at": "2026-10-29T13:21:36Z",
+      "issuer_name": "Montego [OI]",
+      "member_name": "Hon. Jodey Arrington",
+      "notification_date": "11/01/2025",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035714.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "The land we owned in an investment fund that purchased land for oil leases was sold. We owned a small percentage in this fund.",
+      "state": "TX",
+      "stock_act_due_date": "2025-08-24",
+      "ticker": "",
+      "transaction_date": "07/10/2025",
+      "transaction_id": "74c457746b3825a9"
+    }
+  ]
+}

@@ -1,0 +1,1486 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 32
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Pete Sessions",
+    "district": "TX17",
+    "facebook": "",
+    "member_id": "pete_sessions-tx-tx17",
+    "member_name": "Hon. Pete Sessions",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 3285344.0,
+        "label": "Oct 2026",
+        "month": "2026-10",
+        "other": 0,
+        "sell": 32,
+        "trades": 32
+      }
+    ],
+    "news_context": [
+      {
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "query": "(\"Alphabet Inc. - Capital Stock\" OR GOOG)",
+        "result_count": 2,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "GOOG",
+              "alphabet"
+            ],
+            "published_at": "20261023T010000Z",
+            "relevance_label": "low",
+            "relevance_score": 30,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Alphabet ( NASDAQ : GOOG ) Stock Price Down 3 . 1 % – Here What Happened",
+            "url": "https://www.tickerreport.com/banking-finance/13632245/alphabet-nasdaqgoog-stock-price-down-3-1-heres-what-happened.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "GOOG",
+              "alphabet"
+            ],
+            "published_at": "20261022T063000Z",
+            "relevance_label": "low",
+            "relevance_score": 30,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Alphabet ( NASDAQ : GOOG ) Stock Sale Revealed by Rep . Michael A . Rulli",
+            "url": "https://www.themarketsdaily.com/2026/10/22/alphabet-nasdaqgoog-stock-sale-revealed-by-rep-michael-a-rulli.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "GOOG",
+        "traded_date": "10/02/2026",
+        "transaction_id": "5cfb657dc6ad4a6a",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-09-18"
+        }
+      },
+      {
+        "issuer": "Home Depot, Inc.",
+        "query": "(\"Home Depot Inc\" OR HD)",
+        "result_count": 3,
+        "results": [
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "HD",
+              "depot",
+              "home"
+            ],
+            "published_at": "20261024T154500Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "The Home Depot , Inc . $HD Stock : Sterling Capital Management LLC Decreases Position",
+            "url": "https://www.themarketsdaily.com/2026/10/24/the-home-depot-inc-hd-stock-sterling-capital-management-llc-decreases-position.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "HD",
+              "depot",
+              "home"
+            ],
+            "published_at": "20261018T103000Z",
+            "relevance_label": "medium",
+            "relevance_score": 44,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Home Depot ( NYSE : HD ) & Uxin ( NASDAQ : UXIN ) Head to Head Analysis",
+            "url": "https://www.tickerreport.com/banking-finance/13624645/home-depot-nysehd-uxin-nasdaquxin-head-to-head-analysis.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "fool.com",
+            "language": "English",
+            "matched_terms": [
+              "depot",
+              "home"
+            ],
+            "published_at": "20261024T180000Z",
+            "relevance_label": "low",
+            "relevance_score": 32,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Booking vs . Home Depot : Is Consumer Travel or Home Improvement Benefitting One of These Stocks More ?",
+            "url": "https://www.fool.com/coverage/better-buy/2026/10/24/booking-vs-home-depot-is-consumer-travel-or-home-improvement-benefitting-one-of-these-stocks-more/?source=iedfolrf0000001",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "HD",
+        "traded_date": "10/22/2026",
+        "transaction_id": "45e1795fc81bef4e",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-10-08"
+        }
+      },
+      {
+        "issuer": "McDonald's Corporation Common Stock",
+        "query": "(\"McDonald's Corporation\" OR MCD)",
+        "result_count": 5,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "MCD",
+              "mcdonald"
+            ],
+            "published_at": "20261022T111500Z",
+            "relevance_label": "low",
+            "relevance_score": 34,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "McDonald Corporation $MCD Stock Sold by Quadrant Capital Group LLC",
+            "url": "https://www.tickerreport.com/banking-finance/13630325/mcdonalds-corporation-mcd-stock-sold-by-quadrant-capital-group-llc.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "MCD",
+              "mcdonald"
+            ],
+            "published_at": "20261022T111500Z",
+            "relevance_label": "low",
+            "relevance_score": 34,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "McDonald Corporation $MCD Stake Trimmed by Quadrant Capital Group LLC",
+            "url": "https://www.dailypolitical.com/2026/10/22/mcdonalds-corporation-mcd-stake-trimmed-by-quadrant-capital-group-llc.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          },
+          {
+            "domain": "milwaukeesun.com",
+            "language": "English",
+            "matched_terms": [
+              "MCD"
+            ],
+            "published_at": "20261027T051500Z",
+            "relevance_label": "low",
+            "relevance_score": 24,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "MCD to procure 98 , 500 vials of anti - rabies vaccine",
+            "url": "http://www.milwaukeesun.com/news/279399110/mcd-to-procure-98500-vials-of-anti-rabies-vaccine",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "ticker appears as a distinct term",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "MCD",
+        "traded_date": "10/27/2026",
+        "transaction_id": "a50100d02ca66c71",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-10-13"
+        }
+      },
+      {
+        "issuer": "Tesla, Inc. - Common Stock",
+        "query": "(\"Tesla Inc\" OR TSLA)",
+        "result_count": 3,
+        "results": [
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "TSLA",
+              "tesla"
+            ],
+            "published_at": "20261025T083000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Tesla ( NASDAQ : TSLA ) Stock Bumped Down to  Sell  by Wall Street Zen",
+            "url": "https://www.tickerreport.com/banking-finance/13635775/tesla-nasdaqtsla-stock-bumped-down-to-sell-by-wall-street-zen.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "tickerreport.com",
+            "language": "English",
+            "matched_terms": [
+              "TSLA",
+              "tesla"
+            ],
+            "published_at": "20261025T083000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Tesla ( NASDAQ : TSLA ) Upgraded at BNP Paribas Exane",
+            "url": "https://www.tickerreport.com/banking-finance/13635776/tesla-nasdaqtsla-upgraded-at-bnp-paribas-exane.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          },
+          {
+            "domain": "dailypolitical.com",
+            "language": "English",
+            "matched_terms": [
+              "TSLA",
+              "tesla"
+            ],
+            "published_at": "20261024T161500Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "Tesla , Inc . $TSLA Stock Purchased by Root Financial Partners LLC",
+            "url": "https://www.dailypolitical.com/2026/10/24/tesla-inc-tsla-stock-purchased-by-root-financial-partners-llc.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within roughly two months of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "TSLA",
+        "traded_date": "10/02/2026",
+        "transaction_id": "951dc58a00d9f6ce",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-09-18"
+        }
+      },
+      {
+        "issuer": "TJX Companies, Inc.",
+        "query": "(\"TJX Companies Inc\" OR TJX)",
+        "result_count": 2,
+        "results": [
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "TJX",
+              "companies",
+              "tjx"
+            ],
+            "published_at": "20261019T174500Z",
+            "relevance_label": "medium",
+            "relevance_score": 40,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "The TJX Companies , Inc . $TJX Shares Sold by James Hambro & Partners LLP",
+            "url": "https://www.themarketsdaily.com/2026/10/19/the-tjx-companies-inc-tjx-shares-sold-by-james-hambro-partners-llp.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "TJX",
+              "tjx"
+            ],
+            "published_at": "20261021T164500Z",
+            "relevance_label": "low",
+            "relevance_score": 30,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "TJX ( TJX ): Can Its Bargain Supply Stay Strong as the Store Base Grows ?",
+            "url": "https://www.insidermonkey.com/news/tjx-tjx-can-its-bargain-supply-stay-strong-as-the-store-base-grows-1851726/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "TJX",
+        "traded_date": "10/02/2026",
+        "transaction_id": "e9bb58750a8d59d3",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-09-18"
+        }
+      },
+      {
+        "issuer": "TJX Companies, Inc.",
+        "query": "(\"TJX Companies Inc\" OR TJX)",
+        "result_count": 2,
+        "results": [
+          {
+            "domain": "themarketsdaily.com",
+            "language": "English",
+            "matched_terms": [
+              "TJX",
+              "companies",
+              "tjx"
+            ],
+            "published_at": "20261019T174500Z",
+            "relevance_label": "medium",
+            "relevance_score": 40,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "The TJX Companies , Inc . $TJX Shares Sold by James Hambro & Partners LLP",
+            "url": "https://www.themarketsdaily.com/2026/10/19/the-tjx-companies-inc-tjx-shares-sold-by-james-hambro-partners-llp.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "insidermonkey.com",
+            "language": "English",
+            "matched_terms": [
+              "TJX",
+              "tjx"
+            ],
+            "published_at": "20261021T164500Z",
+            "relevance_label": "low",
+            "relevance_score": 30,
+            "source_country": "United States",
+            "source_type": "general_news_or_web",
+            "title": "TJX ( TJX ): Can Its Bargain Supply Stay Strong as the Store Base Grows ?",
+            "url": "https://www.insidermonkey.com/news/tjx-tjx-can-its-bargain-supply-stay-strong-as-the-store-base-grows-1851726/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "ticker appears as a distinct term",
+              "published within three weeks of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "TJX",
+        "traded_date": "10/02/2026",
+        "transaction_id": "d2ddd8589c8a0cd8",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-09-18"
+        }
+      },
+      {
+        "issuer": "Visa Inc.",
+        "query": "(\"Visa Inc\" OR V)",
+        "result_count": 4,
+        "results": [
+          {
+            "domain": "cnbc.com",
+            "language": "English",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20260924T161500Z",
+            "relevance_label": "low",
+            "relevance_score": 33,
+            "source_country": "United States",
+            "source_type": "national_business_news",
+            "title": "Visa , Mastercard $167 . 5 Million ATM Fee Settlement : Are You Owed Money ?",
+            "url": "https://www.cnbc.com/select/visa-mastercard-167-million-dollar-atm-fee-settlement/",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "national/business news source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "proactiveinvestors.com",
+            "language": "English",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20261022T200000Z",
+            "relevance_label": "low",
+            "relevance_score": 26,
+            "source_country": "United States",
+            "source_type": "company_or_pr_source",
+            "title": "Visa and Mastercard tokenization fees could support revenue growth , UBS says",
+            "url": "https://www.proactiveinvestors.com/companies/news/1100580/visa-and-mastercard-tokenization-fees-could-support-revenue-growth-ubs-says-1100580.html",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "company or PR source",
+              "published within three weeks of reported trade date"
+            ]
+          },
+          {
+            "domain": "vetogate.com",
+            "language": "Arabic",
+            "matched_terms": [
+              "visa"
+            ],
+            "published_at": "20261001T110000Z",
+            "relevance_label": "low",
+            "relevance_score": 22,
+            "source_country": "Egypt",
+            "source_type": "general_news_or_web",
+            "title": "البنك التجاري الدولي مصر ( CIB ) يتعاون مع ماجد الفطيم و « فيزا » لإطلاق بطاقات CIB SHARE Visa الائتمانية",
+            "url": "https://www.vetogate.com/5741908",
+            "why_included": "Ranked from GDELT results for the issuer/ticker query inside the requested transaction-to-filing news window.",
+            "why_ranked": [
+              "issuer-name tokens appear in headline, domain, or URL",
+              "published within a week of reported trade date"
+            ]
+          }
+        ],
+        "ticker": "V",
+        "traded_date": "10/02/2026",
+        "transaction_id": "e0b4343f4100f63f",
+        "window": {
+          "end_date": "2026-12-11",
+          "start_date": "2026-09-18"
+        }
+      }
+    ],
+    "official_url": "",
+    "owner_breakdown": {
+      "ET IRA": 11,
+      "ET Invest": 2,
+      "IRA One": 1,
+      "IRA Two": 1,
+      "Trust One": 17
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [
+      {
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "publication_license_status": "confirmed",
+        "publication_ready": true,
+        "series": [
+          {
+            "close": 341.0,
+            "date": "2026-08-18"
+          },
+          {
+            "close": 341.9,
+            "date": "2026-08-19"
+          },
+          {
+            "close": 338.0,
+            "date": "2026-08-20"
+          },
+          {
+            "close": 341.9,
+            "date": "2026-08-21"
+          },
+          {
+            "close": 345.18,
+            "date": "2026-08-24"
+          },
+          {
+            "close": 343.0,
+            "date": "2026-08-25"
+          },
+          {
+            "close": 340.0,
+            "date": "2026-08-26"
+          },
+          {
+            "close": 338.0,
+            "date": "2026-08-27"
+          },
+          {
+            "close": 342.4,
+            "date": "2026-08-28"
+          },
+          {
+            "close": 343.0,
+            "date": "2026-08-29"
+          },
+          {
+            "close": 335.88,
+            "date": "2026-08-31"
+          },
+          {
+            "close": 334.0,
+            "date": "2026-09-01"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-09-02"
+          },
+          {
+            "close": 339.6,
+            "date": "2026-09-03"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-09-04"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-09-08"
+          },
+          {
+            "close": 329.0,
+            "date": "2026-09-09"
+          },
+          {
+            "close": 329.0,
+            "date": "2026-09-10"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-09-11"
+          },
+          {
+            "close": 328.0,
+            "date": "2026-09-12"
+          },
+          {
+            "close": 344.0,
+            "date": "2026-09-14"
+          },
+          {
+            "close": 340.72,
+            "date": "2026-09-15"
+          },
+          {
+            "close": 342.0,
+            "date": "2026-09-16"
+          },
+          {
+            "close": 343.0,
+            "date": "2026-09-17"
+          },
+          {
+            "close": 346.0,
+            "date": "2026-09-18"
+          },
+          {
+            "close": 352.0,
+            "date": "2026-09-21"
+          },
+          {
+            "close": 349.0,
+            "date": "2026-09-22"
+          },
+          {
+            "close": 335.0,
+            "date": "2026-09-23"
+          },
+          {
+            "close": 338.0,
+            "date": "2026-09-24"
+          },
+          {
+            "close": 341.5,
+            "date": "2026-09-25"
+          },
+          {
+            "close": 339.0,
+            "date": "2026-09-28"
+          },
+          {
+            "close": 337.0,
+            "date": "2026-09-29"
+          },
+          {
+            "close": 346.0,
+            "date": "2026-09-30"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-10-01"
+          },
+          {
+            "close": 340.0,
+            "date": "2026-10-02"
+          },
+          {
+            "close": 344.0,
+            "date": "2026-10-05"
+          },
+          {
+            "close": 344.77,
+            "date": "2026-10-06"
+          },
+          {
+            "close": 347.0,
+            "date": "2026-10-07"
+          },
+          {
+            "close": 346.0,
+            "date": "2026-10-08"
+          },
+          {
+            "close": 348.0,
+            "date": "2026-10-09"
+          },
+          {
+            "close": 349.0,
+            "date": "2026-10-12"
+          },
+          {
+            "close": 350.0,
+            "date": "2026-10-13"
+          },
+          {
+            "close": 342.0,
+            "date": "2026-10-14"
+          },
+          {
+            "close": 344.0,
+            "date": "2026-10-15"
+          },
+          {
+            "close": 336.0,
+            "date": "2026-10-16"
+          },
+          {
+            "close": 340.0,
+            "date": "2026-10-19"
+          },
+          {
+            "close": 337.21,
+            "date": "2026-10-20"
+          },
+          {
+            "close": 330.0,
+            "date": "2026-10-21"
+          },
+          {
+            "close": 321.0,
+            "date": "2026-10-22"
+          },
+          {
+            "close": 317.99,
+            "date": "2026-10-23"
+          },
+          {
+            "close": 315.33,
+            "date": "2026-10-26"
+          },
+          {
+            "close": 318.24,
+            "date": "2026-10-27"
+          },
+          {
+            "close": 290.625,
+            "date": "2026-10-28"
+          },
+          {
+            "close": 279.6,
+            "date": "2026-10-29"
+          }
+        ],
+        "source": "finazon_us_stocks_essential",
+        "ticker": "GOOG"
+      }
+    ],
+    "price_movements": [
+      {
+        "filing_date_close": 318.24,
+        "filing_price_date": "2026-10-27",
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "latest_close": 279.6,
+        "latest_price_date": "2026-10-29",
+        "return_trade_to_filing": -6.4,
+        "return_trade_to_latest": -17.8,
+        "ticker": "GOOG",
+        "trade_date_close": 340.0,
+        "trade_price_date": "2026-10-02",
+        "traded_date": "10/02/2026",
+        "transaction_id": "5cfb657dc6ad4a6a",
+        "type": "sell"
+      }
+    ],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": -1.0,
+        "filing_id": "20035563",
+        "issuer": "Walt Disney Company",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "DIS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/28/2026",
+        "transaction_id": "0b18bcb8166c1b56",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 0.0,
+        "filing_id": "20035563",
+        "issuer": "Amazon.com, Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "AMZN",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/27/2026",
+        "transaction_id": "b2a9e12173489f9d",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 0.0,
+        "filing_id": "20035563",
+        "issuer": "McDonald's Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 5,
+        "owner": "IRA Two",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "MCD",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/27/2026",
+        "transaction_id": "a50100d02ca66c71",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 5.0,
+        "filing_id": "20035563",
+        "issuer": "Home Depot, Inc.",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 3,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "HD",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/22/2026",
+        "transaction_id": "45e1795fc81bef4e",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 5.0,
+        "filing_id": "20035563",
+        "issuer": "Lowe's Companies, Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "LOW",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/22/2026",
+        "transaction_id": "83690c02933366d2",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 6.0,
+        "filing_id": "20035563",
+        "issuer": "Pepsico, Inc.",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "PEP",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/21/2026",
+        "transaction_id": "5bcd127cf946ed6c",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 344.0,
+        "estimated_min": 344.0,
+        "filed_after_days": 6.0,
+        "filing_id": "20035563",
+        "issuer": "Resideo Technologies, Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$344.99",
+        "ticker": "REZI",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/21/2026",
+        "transaction_id": "4a9473ad07eca0c0",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 6.0,
+        "filing_id": "20035563",
+        "issuer": "Solstice Advanced Materials Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "SOLS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/21/2026",
+        "transaction_id": "6e2bf86dc504a623",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 7.0,
+        "filing_id": "20035563",
+        "issuer": "International Business Machines Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "IBM",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/20/2026",
+        "transaction_id": "c70812d2cedc42dc",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 12.0,
+        "filing_id": "20035563",
+        "issuer": "Berkshire Hathaway Inc. New Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET Invest",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "BRK.B",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/15/2026",
+        "transaction_id": "bd31bd91bb793658",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 13.0,
+        "filing_id": "20035563",
+        "issuer": "Chevron Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "CVX",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/14/2026",
+        "transaction_id": "064c97dd305a03b2",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 13.0,
+        "filing_id": "20035563",
+        "issuer": "ExxonMobil Holdings Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "XOM",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/14/2026",
+        "transaction_id": "bea25f43a5375b5a",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 14.0,
+        "filing_id": "20035563",
+        "issuer": "Costco Wholesale Corporation - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET Invest",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "COST",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/13/2026",
+        "transaction_id": "038a528b97493a5c",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 19.0,
+        "filing_id": "20035563",
+        "issuer": "Procter & Gamble Company",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "ET IRA",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "PG",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/08/2026",
+        "transaction_id": "c8ac646828e34b30",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 100000.0,
+        "estimated_min": 50001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Abbott Laboratories Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$50,001 - $100,000",
+        "ticker": "ABT",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "85a3e7de07fcafe0",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Alphabet Inc. - Class C Capital Stock",
+        "latest_close": 279.6,
+        "latest_price_date": "2026-10-29",
+        "news_result_count": 2,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": -6.4,
+        "return_trade_to_latest": -17.8,
+        "size": "$100,001 - $250,000",
+        "ticker": "GOOG",
+        "trade_date_close": 340.0,
+        "trade_price_date": "2026-10-02",
+        "traded_date": "10/02/2026",
+        "transaction_id": "5cfb657dc6ad4a6a",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Amazon.com, Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$100,001 - $250,000",
+        "ticker": "AMZN",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "b4ab333403934d1d",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Apple Inc. - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$250,001 - $500,000",
+        "ticker": "AAPL",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "7c055a29eb830853",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Chipotle Mexican Grill, Inc. Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "CMG",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "f8d967f5df5b7eb9",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Costco Wholesale Corporation - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$250,001 - $500,000",
+        "ticker": "COST",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "f7ac2d517e5e14fd",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Mastercard Incorporated Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "MA",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "fe6ecef467e2badf",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "McDonald's Corporation Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "MCD",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "5a93d2009dcc8c2b",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Microsoft Corporation - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$250,001 - $500,000",
+        "ticker": "MSFT",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "2b2099df8bdfe0d9",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "NVIDIA Corporation - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "IRA One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "NVDA",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "390319f1d243fe6d",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035563",
+        "issuer": "Starbucks Corporation - Common Stock",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "Trust One",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "SBUX",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/02/2026",
+        "transaction_id": "3d766f42785a4f58",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 3285344.0,
+      "estimated_min_volume": 1369375.0,
+      "filings": 1,
+      "flagged_trades": 2,
+      "issuers": 28,
+      "last_traded": "10/28/2026",
+      "market_context_available": 1,
+      "news_context_available": 7,
+      "tickers": 28,
+      "trades": 32
+    },
+    "top_issuers": [
+      {
+        "count": 2,
+        "issuer": "Amazon.com, Inc. - Common Stock"
+      },
+      {
+        "count": 2,
+        "issuer": "Costco Wholesale Corporation - Common Stock"
+      },
+      {
+        "count": 2,
+        "issuer": "McDonald's Corporation Common Stock"
+      },
+      {
+        "count": 2,
+        "issuer": "TJX Companies, Inc."
+      },
+      {
+        "count": 1,
+        "issuer": "Abbott Laboratories Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Alphabet Inc. - Class C Capital Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Apple Inc. - Common Stock"
+      },
+      {
+        "count": 1,
+        "issuer": "Berkshire Hathaway Inc. New Common Stock"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 2,
+        "ticker": "AMZN"
+      },
+      {
+        "count": 2,
+        "ticker": "COST"
+      },
+      {
+        "count": 2,
+        "ticker": "MCD"
+      },
+      {
+        "count": 2,
+        "ticker": "TJX"
+      },
+      {
+        "count": 1,
+        "ticker": "ABT"
+      },
+      {
+        "count": 1,
+        "ticker": "GOOG"
+      },
+      {
+        "count": 1,
+        "ticker": "AAPL"
+      },
+      {
+        "count": 1,
+        "ticker": "BRK.B"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-01",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 2700000.0,
+        "estimated_min": 1200017.0,
+        "other": 0,
+        "sell": 17,
+        "traded_date": "2026-10-02",
+        "trades": 17
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-08",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 250000.0,
+        "estimated_min": 100001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-13",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 65000.0,
+        "estimated_min": 16002.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-10-14",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-15",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-20",
+        "trades": 1
+      },
+      {
+        "buy": 0,
+        "estimated_max": 30344.0,
+        "estimated_min": 2346.0,
+        "other": 0,
+        "sell": 3,
+        "traded_date": "2026-10-21",
+        "trades": 3
+      },
+      {
+        "buy": 0,
+        "estimated_max": 65000.0,
+        "estimated_min": 16002.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-10-22",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 65000.0,
+        "estimated_min": 16002.0,
+        "other": 0,
+        "sell": 2,
+        "traded_date": "2026-10-27",
+        "trades": 2
+      },
+      {
+        "buy": 0,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-28",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261029T134139Z",
+    "environment": "testing",
+    "generated_at": "2026-10-29T13:43:06Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/pete_sessions-tx-tx17.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-29T13:58:06Z"
+  }
+}

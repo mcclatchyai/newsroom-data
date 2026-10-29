@@ -1,0 +1,111 @@
+{
+  "member": {
+    "action_breakdown": {
+      "sell": 1
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Jodey Arrington",
+    "district": "TX19",
+    "facebook": "",
+    "member_id": "jodey_arrington-tx-tx19",
+    "member_name": "Hon. Jodey Arrington",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "label": "Jul 2025",
+        "month": "2025-07",
+        "other": 0,
+        "sell": 1,
+        "trades": 1
+      }
+    ],
+    "news_context": [],
+    "official_url": "",
+    "owner_breakdown": {
+      "JT": 1
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 474.0,
+        "filing_id": "20035714",
+        "issuer": "Montego [OI]",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "10/27/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "07/10/2025",
+        "transaction_id": "74c457746b3825a9",
+        "type": "sell"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "TX",
+    "stats": {
+      "estimated_max_volume": 50000.0,
+      "estimated_min_volume": 15001.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 1,
+      "last_traded": "07/10/2025",
+      "market_context_available": 0,
+      "news_context_available": 0,
+      "tickers": 0,
+      "trades": 1
+    },
+    "top_issuers": [
+      {
+        "count": 1,
+        "issuer": "Montego [OI]"
+      }
+    ],
+    "top_tickers": [],
+    "trade_activity_by_date": [
+      {
+        "buy": 0,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2025-07-10",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261029T134139Z",
+    "environment": "testing",
+    "generated_at": "2026-10-29T13:43:06Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/jodey_arrington-tx-tx19.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-10-29T13:58:06Z"
+  }
+}
