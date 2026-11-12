@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "project": "fort-worth-code-violations",
+  "environment": "testing",
+  "generated_at": "2026-11-12T00:00:00.000Z",
+  "data_version": "12050f5d79b3e492543d",
+  "cache_ttl_seconds": 31536000,
+  "stale_after": "2026-11-02T00:00:00.000Z",
+  "freshness": "historical-frozen-edition",
+  "basemapConfigPending": false,
+  "entrypoints": {
+    "preview": "preview.html",
+    "map": "map.html",
+    "embed": "embed.html",
+    "csv": "neighborhood-data.csv"
+  },
+  "files": {
+    "map.html": {
+      "bytes": 2704040,
+      "sha256": "bc3990e2239de049561b528a79d5e63f7a8fdcf15f82857a1ab76ab84dfccace"
+    },
+    "embed.html": {
+      "bytes": 2974275,
+      "sha256": "449979fe1371636c42ca2e0cf26eb7d4bd89694d533434c588a67eb725782650"
+    },
+    "preview.html": {
+      "bytes": 2940,
+      "sha256": "24a8163ceece3ca6a99587ec98785e029ffcd060cbe5cc43d5c76b86d15adb29"
+    },
+    "index.html": {
+      "bytes": 2940,
+      "sha256": "24a8163ceece3ca6a99587ec98785e029ffcd060cbe5cc43d5c76b86d15adb29"
+    },
+    "neighborhood-data.csv": {
+      "bytes": 334815,
+      "sha256": "de0d30aa65171e01dff6b91ee4614a3306332c6356cfc71965ee4c7cf3b2bad0"
+    }
+  }
+}
