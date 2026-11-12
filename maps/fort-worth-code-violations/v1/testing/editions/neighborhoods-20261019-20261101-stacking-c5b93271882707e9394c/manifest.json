@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": "fort-worth-code-violations",
+  "environment": "testing",
+  "generated_at": "2026-11-12T00:00:00.000Z",
+  "data_version": "neighborhoods-20261019-20261101-stacking-c5b93271882707e9394c",
+  "cache_ttl_seconds": 31536000,
+  "stale_after": null,
+  "freshness": "historical-frozen-edition",
+  "entrypoints": {
+    "preview": "preview.html",
+    "map": "map.html",
+    "embed": "embed.html",
+    "data": "https://mcclatchyai.github.io/newsroom-data/maps/fort-worth-code-violations/v1/testing/editions/neighborhoods-20261019-20261101-fetch-ee2f0597b11d4defb4c1/map-data.json",
+    "csv": "neighborhood-data.csv"
+  },
+  "files": {
+    "embed.html": {
+      "bytes": 54760,
+      "sha256": "c5b93271882707e9394cf2fcc3de18f2825607379b13dbf2d3914606ce9c8f9c"
+    },
+    "map.html": {
+      "bytes": 55408,
+      "sha256": "fdb9f90b122bad435f2cd96bcfbcdf3efc8b999eac54fcbea621f8a409550212"
+    },
+    "preview.html": {
+      "bytes": 3322,
+      "sha256": "b57a9da05c787854cf45435ffa508fbd076ece133616dd6255db89cc2b8a0475"
+    },
+    "index.html": {
+      "bytes": 3322,
+      "sha256": "b57a9da05c787854cf45435ffa508fbd076ece133616dd6255db89cc2b8a0475"
+    },
+    "neighborhood-data.csv": {
+      "bytes": 334815,
+      "sha256": "de0d30aa65171e01dff6b91ee4614a3306332c6356cfc71965ee4c7cf3b2bad0"
+    }
+  },
+  "external_data": {
+    "url": "https://mcclatchyai.github.io/newsroom-data/maps/fort-worth-code-violations/v1/testing/editions/neighborhoods-20261019-20261101-fetch-ee2f0597b11d4defb4c1/map-data.json",
+    "bytes": 2507444,
+    "sha256": "27d7697c9f9b01bd2b699109a0ea9f27a59908acdb23a3d3284beb5d07d5b4d7"
+  }
+}

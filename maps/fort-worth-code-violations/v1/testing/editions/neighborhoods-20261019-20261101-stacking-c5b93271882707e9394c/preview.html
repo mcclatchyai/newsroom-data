@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; frame-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'"><title>Fort Worth code violation cases by neighborhood · testing sample</title><style>body{margin:0;background:#edf1f2;color:#193440;font:16px/1.5 system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:16px}h1{font:700 30px/1.2 Georgia,serif}button{min-height:44px;font:inherit;padding:10px 14px;background:#193f54;color:white;border:0;border-radius:5px;cursor:pointer}button:disabled{opacity:.65}iframe{display:block;width:100%;height:1450px;border:1px solid #bdcdd4;background:white}textarea{width:100%;min-height:180px;font:12px/1.4 monospace;box-sizing:border-box}p{max-width:85ch}@media(max-width:430px){main{padding:10px}h1{font-size:25px}iframe{height:1600px}}</style></head><body><main data-preview-root><h1>Fort Worth code violation cases by neighborhood</h1><p><strong>Historical testing sample · October 19–November 1, 2026</strong></p><p>Click Copy HTML, then paste it into an HTML asset in Cue.</p><button type="button" data-copy>Copy HTML</button><p data-copy-status role="status" aria-live="polite"></p><textarea data-manual aria-label="HTML for manual copy" readonly hidden></textarea><iframe src="map.html" title="Fort Worth code violation cases by neighborhood, listed October 19–November 1, 2026" loading="lazy" sandbox="allow-scripts allow-downloads allow-same-origin"></iframe><noscript>Enable JavaScript to use Copy HTML.</noscript></main><script>(function mountPreview(root,ports,expectedHash){
+  const status=root.querySelector('[data-copy-status]'),manual=root.querySelector('[data-manual]'),copy=root.querySelector('[data-copy]');
+  copy.addEventListener('click',async()=>{
+    copy.disabled=true;status.textContent='Loading HTML…';manual.hidden=true;
+    try{
+      const response=await ports.fetch('./embed.html',{credentials:'omit',redirect:'error',cache:'force-cache'});
+      if(!response.ok)throw Error('embed-http');
+      const bytes=await response.arrayBuffer();
+      const hash=Array.from(new Uint8Array(await ports.crypto.subtle.digest('SHA-256',bytes)),x=>x.toString(16).padStart(2,'0')).join('');
+      if(hash!==expectedHash)throw Error('embed-hash');
+      const text=new TextDecoder().decode(bytes);
+      if(!text.includes('data-fw-cue-neighborhood')||/<iframe\b|srcdoc=/i.test(text))throw Error('embed-contract');
+      manual.value=text;
+      try{await ports.clipboard.writeText(text);status.textContent='HTML copied. Paste it into an HTML asset in Cue.';}
+      catch{manual.hidden=false;manual.focus();manual.select();status.textContent='Select and copy the HTML below, then paste it into an HTML asset in Cue.';}
+    }catch{status.textContent='HTML could not be loaded. Reload the page and try again.';manual.hidden=true;manual.value='';}
+    finally{copy.disabled=false;}
+  });
+})(document.querySelector('[data-preview-root]'),{fetch:globalThis.fetch.bind(globalThis),clipboard:globalThis.navigator.clipboard,crypto:globalThis.crypto},"c5b93271882707e9394cf2fcc3de18f2825607379b13dbf2d3914606ce9c8f9c");</script></body></html>
