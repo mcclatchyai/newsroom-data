@@ -1,0 +1,274 @@
+{
+  "member": {
+    "action_breakdown": {
+      "buy": 5,
+      "sell": 1
+    },
+    "asset_type": "ptr_member_profile",
+    "campaign_url": "",
+    "caveats": [
+      "PTR values are ranges, so volume is estimated from reported ranges.",
+      "Market movement is context only and does not establish motive, profit, wrongdoing, or use of nonpublic information.",
+      "Roster metadata is optional and should be verified before publication."
+    ],
+    "chamber": "House",
+    "display_name": "Hon. Suzan K. DelBene",
+    "district": "WA01",
+    "facebook": "",
+    "member_id": "suzan_k_delbene-wa-wa01",
+    "member_name": "Hon. Suzan K. DelBene",
+    "metadata_source": "",
+    "monthly_activity": [
+      {
+        "buy": 5,
+        "estimated_max": 1095000.0,
+        "label": "Oct 2026",
+        "month": "2026-10",
+        "other": 0,
+        "sell": 1,
+        "trades": 6
+      }
+    ],
+    "news_context": [],
+    "official_url": "",
+    "owner_breakdown": {
+      "JT": 6
+    },
+    "party": "",
+    "photo_url": "",
+    "price_backdrops": [],
+    "price_movements": [],
+    "recent_trades": [
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 14.0,
+        "filing_id": "20035779",
+        "issuer": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "11/13/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "GS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/30/2026",
+        "transaction_id": "fc754370af1615be",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 16.0,
+        "filing_id": "20035779",
+        "issuer": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "11/13/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "GS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/28/2026",
+        "transaction_id": "7e2e34d25b747fdb",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "filed_after_days": 18.0,
+        "filing_id": "20035779",
+        "issuer": "Tarrant CNTY Tex Cultural Ed Facs Fin 5.00% Due Nov 15, 2051",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "11/13/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$1,001 - $15,000",
+        "ticker": "GS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/26/2026",
+        "transaction_id": "5d4703ee4df23fdd",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "filed_after_days": 24.0,
+        "filing_id": "20035779",
+        "issuer": "Wisconsin ST Go BDS Ser. 2025 A 5.00% Due May 1, 2036",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "11/13/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$15,001 - $50,000",
+        "ticker": "GS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/20/2026",
+        "transaction_id": "98152748afb4638f",
+        "type": "buy"
+      },
+      {
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035779",
+        "issuer": "Central VY Energy Auth Calif Commodity 5.00% Due Aug 1, 2034",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "11/13/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$250,001 - $500,000",
+        "ticker": "GS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/19/2026",
+        "transaction_id": "db785e99048b2b44",
+        "type": "sell"
+      },
+      {
+        "estimated_max": 500000.0,
+        "estimated_min": 250001.0,
+        "filed_after_days": 25.0,
+        "filing_id": "20035779",
+        "issuer": "San Joaquin VY Calif Clean Energy Auth 5.50% Due Jan 1, 2056",
+        "latest_close": null,
+        "latest_price_date": null,
+        "news_result_count": 0,
+        "owner": "JT",
+        "published_date": "11/13/2026",
+        "return_trade_to_filing": null,
+        "return_trade_to_latest": null,
+        "size": "$250,001 - $500,000",
+        "ticker": "GS",
+        "trade_date_close": null,
+        "trade_price_date": null,
+        "traded_date": "10/19/2026",
+        "transaction_id": "c5966e53f32c6b6a",
+        "type": "buy"
+      }
+    ],
+    "related_insights": [],
+    "schema_version": 1,
+    "state": "WA",
+    "stats": {
+      "estimated_max_volume": 1095000.0,
+      "estimated_min_volume": 518006.0,
+      "filings": 1,
+      "flagged_trades": 0,
+      "issuers": 5,
+      "last_traded": "10/30/2026",
+      "market_context_available": 0,
+      "news_context_available": 0,
+      "tickers": 1,
+      "trades": 6
+    },
+    "top_issuers": [
+      {
+        "count": 2,
+        "issuer": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1"
+      },
+      {
+        "count": 1,
+        "issuer": "Central VY Energy Auth Calif Commodity 5.00% Due Aug 1, 2034"
+      },
+      {
+        "count": 1,
+        "issuer": "San Joaquin VY Calif Clean Energy Auth 5.50% Due Jan 1, 2056"
+      },
+      {
+        "count": 1,
+        "issuer": "Tarrant CNTY Tex Cultural Ed Facs Fin 5.00% Due Nov 15, 2051"
+      },
+      {
+        "count": 1,
+        "issuer": "Wisconsin ST Go BDS Ser. 2025 A 5.00% Due May 1, 2036"
+      }
+    ],
+    "top_tickers": [
+      {
+        "count": 6,
+        "ticker": "GS"
+      }
+    ],
+    "trade_activity_by_date": [
+      {
+        "buy": 1,
+        "estimated_max": 1000000.0,
+        "estimated_min": 500002.0,
+        "other": 0,
+        "sell": 1,
+        "traded_date": "2026-10-19",
+        "trades": 2
+      },
+      {
+        "buy": 1,
+        "estimated_max": 50000.0,
+        "estimated_min": 15001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-10-20",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-10-26",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-10-28",
+        "trades": 1
+      },
+      {
+        "buy": 1,
+        "estimated_max": 15000.0,
+        "estimated_min": 1001.0,
+        "other": 0,
+        "sell": 0,
+        "traded_date": "2026-10-30",
+        "trades": 1
+      }
+    ],
+    "twitter": "",
+    "youtube": ""
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261116T233927Z",
+    "environment": "testing",
+    "generated_at": "2026-11-16T23:40:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/member/suzan_k_delbene-wa-wa01.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-11-16T23:55:34Z"
+  }
+}

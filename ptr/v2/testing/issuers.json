@@ -1,23 +1,23 @@
 {
   "issuers": [
     {
-      "issuer_name": "Coca-Cola Company",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
       "member_count": 1,
-      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/KO.json",
-      "ticker": "KO",
-      "trade_count": 1
+      "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuer/GS.json",
+      "ticker": "GS",
+      "trade_count": 6
     }
   ],
   "public_metadata": {
     "bundle": "ptr_public_v2",
     "cache_ttl_seconds": 900,
-    "data_version": "20261112T232311Z",
+    "data_version": "20261116T233927Z",
     "environment": "testing",
-    "generated_at": "2026-11-12T23:24:35Z",
+    "generated_at": "2026-11-16T23:40:34Z",
     "project": "ptr",
     "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/issuers.json",
     "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
     "schema_version": 1,
-    "stale_after": "2026-11-12T23:39:35Z"
+    "stale_after": "2026-11-16T23:55:34Z"
   }
 }

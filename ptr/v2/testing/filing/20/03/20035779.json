@@ -1,0 +1,394 @@
+{
+  "context_packet_count": 6,
+  "context_packets": [
+    {
+      "filing_id": "20035779",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "7e2e34d25b747fdb"
+    },
+    {
+      "filing_id": "20035779",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "fc754370af1615be"
+    },
+    {
+      "filing_id": "20035779",
+      "issuer_name": "Central VY Energy Auth Calif Commodity 5.00% Due Aug 1, 2034",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "db785e99048b2b44"
+    },
+    {
+      "filing_id": "20035779",
+      "issuer_name": "San Joaquin VY Calif Clean Energy Auth 5.50% Due Jan 1, 2056",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "c5966e53f32c6b6a"
+    },
+    {
+      "filing_id": "20035779",
+      "issuer_name": "Tarrant CNTY Tex Cultural Ed Facs Fin 5.00% Due Nov 15, 2051",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "5d4703ee4df23fdd"
+    },
+    {
+      "filing_id": "20035779",
+      "issuer_name": "Wisconsin ST Go BDS Ser. 2025 A 5.00% Due May 1, 2036",
+      "packet_version": 1,
+      "source_links": [
+        {
+          "label": "Source disclosure PDF",
+          "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+        },
+        {
+          "label": "House Ethics PTR guidance",
+          "url": "https://ethics.house.gov/periodic-transaction-report-calculator/"
+        },
+        {
+          "label": "USAspending API docs",
+          "url": "https://api.usaspending.gov/docs/"
+        },
+        {
+          "label": "Senate LDA downloadable data",
+          "url": "https://www.senate.gov/legislative/Public_Disclosure/database_download.htm"
+        },
+        {
+          "label": "SEC EDGAR APIs",
+          "url": "https://www.sec.gov/edgar/sec-api-documentation"
+        }
+      ],
+      "status": "source_only",
+      "ticker": "GS",
+      "transaction_id": "98152748afb4638f"
+    }
+  ],
+  "filing": {
+    "action_counts": {
+      "Purchase": 5,
+      "Sale": 1
+    },
+    "action_counts_json": "{\"Purchase\": 5, \"Sale\": 1}",
+    "disclosure_lag_days": 25,
+    "district": "WA01",
+    "estimated_max_total": 1095000,
+    "estimated_min_total": 518006,
+    "filing_date": "11/13/2026",
+    "filing_id": "20035779",
+    "filing_type": "P",
+    "ingested_at": "2026-11-16T23:35:43Z",
+    "member_name": "Hon. Suzan K. DelBene",
+    "pdf_sha256": "30e198c12c60a6b6b5eb88ad075a8b06c14e1673cbca2c3d3e712c1e5bf0a782",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+    "possible_late": false,
+    "schema_version": "1",
+    "source": "house_disclosure_pdf",
+    "state": "WA",
+    "tickers": [
+      "GS"
+    ],
+    "tickers_json": "[\"GS\"]",
+    "transaction_count": 6,
+    "transaction_date_max": "2026-10-30",
+    "transaction_date_min": "2026-10-19"
+  },
+  "public_metadata": {
+    "bundle": "ptr_public_v2",
+    "cache_ttl_seconds": 900,
+    "data_version": "20261116T233927Z",
+    "environment": "testing",
+    "generated_at": "2026-11-16T23:40:34Z",
+    "project": "ptr",
+    "public_url": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035779.json",
+    "refresh_policy": "This static file is refreshed by the backend pipeline; readers do not query paid or credentialed APIs.",
+    "schema_version": 1,
+    "stale_after": "2026-11-16T23:55:34Z"
+  },
+  "public_urls": {
+    "manifest": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/manifest.json",
+    "self": "https://mcclatchyai.github.io/newsroom-data/ptr/v2/testing/filing/20/03/20035779.json"
+  },
+  "transactions": [
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 16,
+      "district": "WA01",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "11/13/2026",
+      "filing_id": "20035779",
+      "filing_type": "P",
+      "ingested_at": "2026-11-16T23:35:43Z",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "10/28/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 10/28/202610/28/2026$1,001 - $15,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-11-27",
+      "ticker": "GS",
+      "transaction_date": "10/28/2026",
+      "transaction_id": "7e2e34d25b747fdb"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 14,
+      "district": "WA01",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "11/13/2026",
+      "filing_id": "20035779",
+      "filing_type": "P",
+      "ingested_at": "2026-11-16T23:35:43Z",
+      "issuer_name": "Black Belt Energy Gas Dist Ala Gas 05.00% 10/01/2032 Proj Rev BDS Ser. 2026 M-1",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "10/30/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 10/30/202610/30/2026$1,001 - $15,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-11-29",
+      "ticker": "GS",
+      "transaction_date": "10/30/2026",
+      "transaction_id": "fc754370af1615be"
+    },
+    {
+      "action": "Sale",
+      "amount_range": "$250,001 - $500,000",
+      "disclosure_lag_days": 25,
+      "district": "WA01",
+      "estimated_max": 500000,
+      "estimated_min": 250001,
+      "filed_after_due_date": false,
+      "filing_date": "11/13/2026",
+      "filing_id": "20035779",
+      "filing_type": "P",
+      "ingested_at": "2026-11-16T23:35:43Z",
+      "issuer_name": "Central VY Energy Auth Calif Commodity 5.00% Due Aug 1, 2034",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "10/19/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "S 10/19/202610/19/2026$250,001 - $500,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-11-18",
+      "ticker": "GS",
+      "transaction_date": "10/19/2026",
+      "transaction_id": "db785e99048b2b44"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$250,001 - $500,000",
+      "disclosure_lag_days": 25,
+      "district": "WA01",
+      "estimated_max": 500000,
+      "estimated_min": 250001,
+      "filed_after_due_date": false,
+      "filing_date": "11/13/2026",
+      "filing_id": "20035779",
+      "filing_type": "P",
+      "ingested_at": "2026-11-16T23:35:43Z",
+      "issuer_name": "San Joaquin VY Calif Clean Energy Auth 5.50% Due Jan 1, 2056",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "10/19/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 10/19/202610/19/2026$250,001 - $500,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-11-18",
+      "ticker": "GS",
+      "transaction_date": "10/19/2026",
+      "transaction_id": "c5966e53f32c6b6a"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$1,001 - $15,000",
+      "disclosure_lag_days": 18,
+      "district": "WA01",
+      "estimated_max": 15000,
+      "estimated_min": 1001,
+      "filed_after_due_date": false,
+      "filing_date": "11/13/2026",
+      "filing_id": "20035779",
+      "filing_type": "P",
+      "ingested_at": "2026-11-16T23:35:43Z",
+      "issuer_name": "Tarrant CNTY Tex Cultural Ed Facs Fin 5.00% Due Nov 15, 2051",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "10/26/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 10/26/202610/26/2026$1,001 - $15,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-11-25",
+      "ticker": "GS",
+      "transaction_date": "10/26/2026",
+      "transaction_id": "5d4703ee4df23fdd"
+    },
+    {
+      "action": "Purchase",
+      "amount_range": "$15,001 - $50,000",
+      "disclosure_lag_days": 24,
+      "district": "WA01",
+      "estimated_max": 50000,
+      "estimated_min": 15001,
+      "filed_after_due_date": false,
+      "filing_date": "11/13/2026",
+      "filing_id": "20035779",
+      "filing_type": "P",
+      "ingested_at": "2026-11-16T23:35:43Z",
+      "issuer_name": "Wisconsin ST Go BDS Ser. 2025 A 5.00% Due May 1, 2036",
+      "member_name": "Hon. Suzan K. DelBene",
+      "notification_date": "10/20/2026",
+      "owner": "JT",
+      "page": 1,
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf",
+      "schema_version": "1",
+      "source": "house_disclosure_pdf",
+      "source_quote": "P 10/20/202610/20/2026$15,001 - $50,000",
+      "state": "WA",
+      "stock_act_due_date": "2026-11-19",
+      "ticker": "GS",
+      "transaction_date": "10/20/2026",
+      "transaction_id": "98152748afb4638f"
+    }
+  ]
+}
