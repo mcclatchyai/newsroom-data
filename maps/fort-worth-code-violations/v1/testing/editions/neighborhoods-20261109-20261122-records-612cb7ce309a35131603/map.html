@@ -1,0 +1,713 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https://unpkg.com; style-src 'unsafe-inline'; connect-src https://mcclatchyai.github.io; img-src data: blob: https://tiles.basemaps.cartocdn.com; base-uri 'none'; form-action 'none'"><title>Fort Worth code violation records by neighborhood</title><style>body{margin:0;background:#edf1f2}body>.fw-cue-neighborhood{margin:auto}</style></head><body><!-- CARTO browser basemap configuration
+This dedicated basemap key is intentionally visible in HTML and browser tile requests.
+Browser-use documentation: https://carto.com/basemaps/apikey/
+Website-restriction documentation:
+https://docs.carto.com/faqs/carto-basemaps#why-are-my-tiles-refused-403-when-my-key-has-website-restrictions
+At packaging, the saved CARTO dashboard settings allowed these website referrer hosts:
+mcclatchyai.github.io
+star-telegram.com
+www.star-telegram.com
+CARTO enforces these website restrictions; this comment is not an access control.
+Tile requests go to tiles.basemaps.cartocdn.com, not to the allowed referrer hosts.
+The key is not a secret or an administrative credential. Do not substitute an unrestricted key.
+file:// previews lack the required website referrer. Actual hosted/CMS acceptance needs testing.
+-->
+<div class="fw-cue-neighborhood" data-fw-cue-neighborhood data-newsroom-interactive data-data-url="https://mcclatchyai.github.io/newsroom-data/maps/fort-worth-code-violations/v1/testing/editions/neighborhoods-20261109-20261122-records-612cb7ce309a35131603/map-data.json">
+<style>.fw-cue-neighborhood .leaflet-pane,.fw-cue-neighborhood .leaflet-tile,.fw-cue-neighborhood .leaflet-marker-icon,.fw-cue-neighborhood .leaflet-marker-shadow,.fw-cue-neighborhood .leaflet-tile-container,.fw-cue-neighborhood .leaflet-pane > svg,.fw-cue-neighborhood .leaflet-pane > canvas,.fw-cue-neighborhood .leaflet-zoom-box,.fw-cue-neighborhood .leaflet-image-layer,.fw-cue-neighborhood .leaflet-layer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	}.fw-cue-neighborhood .leaflet-container{
+	overflow: hidden;
+	}.fw-cue-neighborhood .leaflet-tile,.fw-cue-neighborhood .leaflet-marker-icon,.fw-cue-neighborhood .leaflet-marker-shadow{
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	  -webkit-user-drag: none;
+	}.fw-cue-neighborhood .leaflet-tile::selection{
+	background: transparent;
+}.fw-cue-neighborhood .leaflet-safari .leaflet-tile{
+	image-rendering: -webkit-optimize-contrast;
+	}.fw-cue-neighborhood .leaflet-safari .leaflet-tile-container{
+	width: 1600px;
+	height: 1600px;
+	-webkit-transform-origin: 0 0;
+	}.fw-cue-neighborhood .leaflet-marker-icon,.fw-cue-neighborhood .leaflet-marker-shadow{
+	display: block;
+	}.fw-cue-neighborhood .leaflet-container .leaflet-overlay-pane svg{
+	max-width: none !important;
+	max-height: none !important;
+	}.fw-cue-neighborhood .leaflet-container .leaflet-marker-pane img,.fw-cue-neighborhood .leaflet-container .leaflet-shadow-pane img,.fw-cue-neighborhood .leaflet-container .leaflet-tile-pane img,.fw-cue-neighborhood .leaflet-container img.leaflet-image-layer,.fw-cue-neighborhood .leaflet-container .leaflet-tile{
+	max-width: none !important;
+	max-height: none !important;
+	width: auto;
+	padding: 0;
+	}.fw-cue-neighborhood .leaflet-container img.leaflet-tile{
+	
+	mix-blend-mode: plus-lighter;
+}.fw-cue-neighborhood .leaflet-container.leaflet-touch-zoom{
+	-ms-touch-action: pan-x pan-y;
+	touch-action: pan-x pan-y;
+	}.fw-cue-neighborhood .leaflet-container.leaflet-touch-drag{
+	-ms-touch-action: pinch-zoom;
+	
+	touch-action: none;
+	touch-action: pinch-zoom;
+}.fw-cue-neighborhood .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
+	-ms-touch-action: none;
+	touch-action: none;
+}.fw-cue-neighborhood .leaflet-container{
+	-webkit-tap-highlight-color: transparent;
+}.fw-cue-neighborhood .leaflet-container a{
+	-webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+}.fw-cue-neighborhood .leaflet-tile{
+	filter: inherit;
+	visibility: hidden;
+	}.fw-cue-neighborhood .leaflet-tile-loaded{
+	visibility: inherit;
+	}.fw-cue-neighborhood .leaflet-zoom-box{
+	width: 0;
+	height: 0;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	z-index: 800;
+	}.fw-cue-neighborhood .leaflet-overlay-pane svg{
+	-moz-user-select: none;
+	}.fw-cue-neighborhood .leaflet-pane{ z-index: 400; }.fw-cue-neighborhood .leaflet-tile-pane{ z-index: 200; }.fw-cue-neighborhood .leaflet-overlay-pane{ z-index: 400; }.fw-cue-neighborhood .leaflet-shadow-pane{ z-index: 500; }.fw-cue-neighborhood .leaflet-marker-pane{ z-index: 600; }.fw-cue-neighborhood .leaflet-tooltip-pane{ z-index: 650; }.fw-cue-neighborhood .leaflet-popup-pane{ z-index: 700; }.fw-cue-neighborhood .leaflet-map-pane canvas{ z-index: 100; }.fw-cue-neighborhood .leaflet-map-pane svg{ z-index: 200; }.fw-cue-neighborhood .leaflet-vml-shape{
+	width: 1px;
+	height: 1px;
+	}.fw-cue-neighborhood .lvml{
+	behavior: url(#default#VML);
+	display: inline-block;
+	position: absolute;
+	}.fw-cue-neighborhood .leaflet-control{
+	position: relative;
+	z-index: 800;
+	pointer-events: visiblePainted; 
+	pointer-events: auto;
+	}.fw-cue-neighborhood .leaflet-top,.fw-cue-neighborhood .leaflet-bottom{
+	position: absolute;
+	z-index: 1000;
+	pointer-events: none;
+	}.fw-cue-neighborhood .leaflet-top{
+	top: 0;
+	}.fw-cue-neighborhood .leaflet-right{
+	right: 0;
+	}.fw-cue-neighborhood .leaflet-bottom{
+	bottom: 0;
+	}.fw-cue-neighborhood .leaflet-left{
+	left: 0;
+	}.fw-cue-neighborhood .leaflet-control{
+	float: left;
+	clear: both;
+	}.fw-cue-neighborhood .leaflet-right .leaflet-control{
+	float: right;
+	}.fw-cue-neighborhood .leaflet-top .leaflet-control{
+	margin-top: 10px;
+	}.fw-cue-neighborhood .leaflet-bottom .leaflet-control{
+	margin-bottom: 10px;
+	}.fw-cue-neighborhood .leaflet-left .leaflet-control{
+	margin-left: 10px;
+	}.fw-cue-neighborhood .leaflet-right .leaflet-control{
+	margin-right: 10px;
+	}.fw-cue-neighborhood .leaflet-fade-anim .leaflet-popup{
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
+	   -moz-transition: opacity 0.2s linear;
+	        transition: opacity 0.2s linear;
+	}.fw-cue-neighborhood .leaflet-fade-anim .leaflet-map-pane .leaflet-popup{
+	opacity: 1;
+	}.fw-cue-neighborhood .leaflet-zoom-animated{
+	-webkit-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	        transform-origin: 0 0;
+	}.fw-cue-neighborhood svg.leaflet-zoom-animated{
+	will-change: transform;
+}.fw-cue-neighborhood .leaflet-zoom-anim .leaflet-zoom-animated{
+	-webkit-transition: -webkit-transform 0.25s cubic-bezier(0,0,0.25,1);
+	   -moz-transition:    -moz-transform 0.25s cubic-bezier(0,0,0.25,1);
+	        transition:         transform 0.25s cubic-bezier(0,0,0.25,1);
+	}.fw-cue-neighborhood .leaflet-zoom-anim .leaflet-tile,.fw-cue-neighborhood .leaflet-pan-anim .leaflet-tile{
+	-webkit-transition: none;
+	   -moz-transition: none;
+	        transition: none;
+	}.fw-cue-neighborhood .leaflet-zoom-anim .leaflet-zoom-hide{
+	visibility: hidden;
+	}.fw-cue-neighborhood .leaflet-interactive{
+	cursor: pointer;
+	}.fw-cue-neighborhood .leaflet-grab{
+	cursor: -webkit-grab;
+	cursor:    -moz-grab;
+	cursor:         grab;
+	}.fw-cue-neighborhood .leaflet-crosshair,.fw-cue-neighborhood .leaflet-crosshair .leaflet-interactive{
+	cursor: crosshair;
+	}.fw-cue-neighborhood .leaflet-popup-pane,.fw-cue-neighborhood .leaflet-control{
+	cursor: auto;
+	}.fw-cue-neighborhood .leaflet-dragging .leaflet-grab,.fw-cue-neighborhood .leaflet-dragging .leaflet-grab .leaflet-interactive,.fw-cue-neighborhood .leaflet-dragging .leaflet-marker-draggable{
+	cursor: move;
+	cursor: -webkit-grabbing;
+	cursor:    -moz-grabbing;
+	cursor:         grabbing;
+	}.fw-cue-neighborhood .leaflet-marker-icon,.fw-cue-neighborhood .leaflet-marker-shadow,.fw-cue-neighborhood .leaflet-image-layer,.fw-cue-neighborhood .leaflet-pane > svg path,.fw-cue-neighborhood .leaflet-tile-container{
+	pointer-events: none;
+	}.fw-cue-neighborhood .leaflet-marker-icon.leaflet-interactive,.fw-cue-neighborhood .leaflet-image-layer.leaflet-interactive,.fw-cue-neighborhood .leaflet-pane > svg path.leaflet-interactive,.fw-cue-neighborhood svg.leaflet-image-layer.leaflet-interactive path{
+	pointer-events: visiblePainted; 
+	pointer-events: auto;
+	}.fw-cue-neighborhood .leaflet-container{
+	background: #ddd;
+	outline-offset: 1px;
+	}.fw-cue-neighborhood .leaflet-container a{
+	color: #0078A8;
+	}.fw-cue-neighborhood .leaflet-zoom-box{
+	border: 2px dotted #38f;
+	background: rgba(255,255,255,0.5);
+	}.fw-cue-neighborhood .leaflet-container{
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	}.fw-cue-neighborhood .leaflet-bar{
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	border-radius: 4px;
+	}.fw-cue-neighborhood .leaflet-bar a{
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	}.fw-cue-neighborhood .leaflet-bar a,.fw-cue-neighborhood .leaflet-control-layers-toggle{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	}.fw-cue-neighborhood .leaflet-bar a:hover,.fw-cue-neighborhood .leaflet-bar a:focus{
+	background-color: #f4f4f4;
+	}.fw-cue-neighborhood .leaflet-bar a:first-child{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	}.fw-cue-neighborhood .leaflet-bar a:last-child{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom: none;
+	}.fw-cue-neighborhood .leaflet-bar a.leaflet-disabled{
+	cursor: default;
+	background-color: #f4f4f4;
+	color: #bbb;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-bar a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-bar a:first-child{
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-bar a:last-child{
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	}.fw-cue-neighborhood .leaflet-control-zoom-in,.fw-cue-neighborhood .leaflet-control-zoom-out{
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-control-zoom-in,.fw-cue-neighborhood .leaflet-touch .leaflet-control-zoom-out{
+	font-size: 22px;
+	}.fw-cue-neighborhood .leaflet-control-layers{
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	background: #fff;
+	border-radius: 5px;
+	}.fw-cue-neighborhood .leaflet-control-layers-toggle{
+	background-image: none;
+	width: 36px;
+	height: 36px;
+	}.fw-cue-neighborhood .leaflet-retina .leaflet-control-layers-toggle{
+	background-image: none;
+	background-size: 26px 26px;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-control-layers-toggle{
+	width: 44px;
+	height: 44px;
+	}.fw-cue-neighborhood .leaflet-control-layers .leaflet-control-layers-list,.fw-cue-neighborhood .leaflet-control-layers-expanded .leaflet-control-layers-toggle{
+	display: none;
+	}.fw-cue-neighborhood .leaflet-control-layers-expanded .leaflet-control-layers-list{
+	display: block;
+	position: relative;
+	}.fw-cue-neighborhood .leaflet-control-layers-expanded{
+	padding: 6px 10px 6px 6px;
+	color: #333;
+	background: #fff;
+	}.fw-cue-neighborhood .leaflet-control-layers-scrollbar{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-right: 5px;
+	}.fw-cue-neighborhood .leaflet-control-layers-selector{
+	margin-top: 2px;
+	position: relative;
+	top: 1px;
+	}.fw-cue-neighborhood .leaflet-control-layers label{
+	display: block;
+	font-size: 13px;
+	font-size: 1.08333em;
+	}.fw-cue-neighborhood .leaflet-control-layers-separator{
+	height: 0;
+	border-top: 1px solid #ddd;
+	margin: 5px -10px 5px -6px;
+	}.fw-cue-neighborhood .leaflet-default-icon-path{ 
+	background-image: none;
+	}.fw-cue-neighborhood .leaflet-container .leaflet-control-attribution{
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	}.fw-cue-neighborhood .leaflet-control-attribution,.fw-cue-neighborhood .leaflet-control-scale-line{
+	padding: 0 5px;
+	color: #333;
+	line-height: 1.4;
+	}.fw-cue-neighborhood .leaflet-control-attribution a{
+	text-decoration: none;
+	}.fw-cue-neighborhood .leaflet-control-attribution a:hover,.fw-cue-neighborhood .leaflet-control-attribution a:focus{
+	text-decoration: underline;
+	}.fw-cue-neighborhood .leaflet-attribution-flag{
+	display: inline !important;
+	vertical-align: baseline !important;
+	width: 1em;
+	height: 0.6669em;
+	}.fw-cue-neighborhood .leaflet-left .leaflet-control-scale{
+	margin-left: 5px;
+	}.fw-cue-neighborhood .leaflet-bottom .leaflet-control-scale{
+	margin-bottom: 5px;
+	}.fw-cue-neighborhood .leaflet-control-scale-line{
+	border: 2px solid #777;
+	border-top: none;
+	line-height: 1.1;
+	padding: 2px 5px 1px;
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.8);
+	text-shadow: 1px 1px #fff;
+	}.fw-cue-neighborhood .leaflet-control-scale-line:not(:first-child){
+	border-top: 2px solid #777;
+	border-bottom: none;
+	margin-top: -2px;
+	}.fw-cue-neighborhood .leaflet-control-scale-line:not(:first-child):not(:last-child){
+	border-bottom: 2px solid #777;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-control-attribution,.fw-cue-neighborhood .leaflet-touch .leaflet-control-layers,.fw-cue-neighborhood .leaflet-touch .leaflet-bar{
+	box-shadow: none;
+	}.fw-cue-neighborhood .leaflet-touch .leaflet-control-layers,.fw-cue-neighborhood .leaflet-touch .leaflet-bar{
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+	}.fw-cue-neighborhood .leaflet-popup{
+	position: absolute;
+	text-align: center;
+	margin-bottom: 20px;
+	}.fw-cue-neighborhood .leaflet-popup-content-wrapper{
+	padding: 1px;
+	text-align: left;
+	border-radius: 12px;
+	}.fw-cue-neighborhood .leaflet-popup-content{
+	margin: 13px 24px 13px 20px;
+	line-height: 1.3;
+	font-size: 13px;
+	font-size: 1.08333em;
+	min-height: 1px;
+	}.fw-cue-neighborhood .leaflet-popup-content p{
+	margin: 17px 0;
+	margin: 1.3em 0;
+	}.fw-cue-neighborhood .leaflet-popup-tip-container{
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-top: -1px;
+	margin-left: -20px;
+	overflow: hidden;
+	pointer-events: none;
+	}.fw-cue-neighborhood .leaflet-popup-tip{
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+
+	margin: -10px auto 0;
+	pointer-events: auto;
+
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	}.fw-cue-neighborhood .leaflet-popup-content-wrapper,.fw-cue-neighborhood .leaflet-popup-tip{
+	background: white;
+	color: #333;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	}.fw-cue-neighborhood .leaflet-container a.leaflet-popup-close-button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	font: 16px/24px Tahoma, Verdana, sans-serif;
+	color: #757575;
+	text-decoration: none;
+	background: transparent;
+	}.fw-cue-neighborhood .leaflet-container a.leaflet-popup-close-button:hover,.fw-cue-neighborhood .leaflet-container a.leaflet-popup-close-button:focus{
+	color: #585858;
+	}.fw-cue-neighborhood .leaflet-popup-scrolled{
+	overflow: auto;
+	}.fw-cue-neighborhood .leaflet-oldie .leaflet-popup-content-wrapper{
+	-ms-zoom: 1;
+	}.fw-cue-neighborhood .leaflet-oldie .leaflet-popup-tip{
+	width: 24px;
+	margin: 0 auto;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678)";
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678);
+	}.fw-cue-neighborhood .leaflet-oldie .leaflet-control-zoom,.fw-cue-neighborhood .leaflet-oldie .leaflet-control-layers,.fw-cue-neighborhood .leaflet-oldie .leaflet-popup-content-wrapper,.fw-cue-neighborhood .leaflet-oldie .leaflet-popup-tip{
+	border: 1px solid #999;
+	}.fw-cue-neighborhood .leaflet-div-icon{
+	background: #fff;
+	border: 1px solid #666;
+	}.fw-cue-neighborhood .leaflet-tooltip{
+	position: absolute;
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #222;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	}.fw-cue-neighborhood .leaflet-tooltip.leaflet-interactive{
+	cursor: pointer;
+	pointer-events: auto;
+	}.fw-cue-neighborhood .leaflet-tooltip-top:before,.fw-cue-neighborhood .leaflet-tooltip-bottom:before,.fw-cue-neighborhood .leaflet-tooltip-left:before,.fw-cue-neighborhood .leaflet-tooltip-right:before{
+	position: absolute;
+	pointer-events: none;
+	border: 6px solid transparent;
+	background: transparent;
+	content: "";
+	}.fw-cue-neighborhood .leaflet-tooltip-bottom{
+	margin-top: 6px;
+}.fw-cue-neighborhood .leaflet-tooltip-top{
+	margin-top: -6px;
+}.fw-cue-neighborhood .leaflet-tooltip-bottom:before,.fw-cue-neighborhood .leaflet-tooltip-top:before{
+	left: 50%;
+	margin-left: -6px;
+	}.fw-cue-neighborhood .leaflet-tooltip-top:before{
+	bottom: 0;
+	margin-bottom: -12px;
+	border-top-color: #fff;
+	}.fw-cue-neighborhood .leaflet-tooltip-bottom:before{
+	top: 0;
+	margin-top: -12px;
+	margin-left: -6px;
+	border-bottom-color: #fff;
+	}.fw-cue-neighborhood .leaflet-tooltip-left{
+	margin-left: -6px;
+}.fw-cue-neighborhood .leaflet-tooltip-right{
+	margin-left: 6px;
+}.fw-cue-neighborhood .leaflet-tooltip-left:before,.fw-cue-neighborhood .leaflet-tooltip-right:before{
+	top: 50%;
+	margin-top: -6px;
+	}.fw-cue-neighborhood .leaflet-tooltip-left:before{
+	right: 0;
+	margin-right: -12px;
+	border-left-color: #fff;
+	}.fw-cue-neighborhood .leaflet-tooltip-right:before{
+	left: 0;
+	margin-left: -12px;
+	border-right-color: #fff;
+	}
+
+
+
+@media print {.fw-cue-neighborhood .leaflet-control{
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+		}
+	}
+.fw-cue-neighborhood *{box-sizing:border-box}.fw-cue-neighborhood{margin:0;background:#edf1f2;color:#193440;font:16px/1.45 system-ui,sans-serif}.fw-cue-neighborhood{max-width:1100px;margin:auto;background:white;padding:20px;overflow-wrap:anywhere}.fw-cue-neighborhood h1{font:700 clamp(25px,4.5vw,38px)/1.1 Georgia,serif;margin:4px 0 8px}.fw-cue-neighborhood h2{font-size:23px;margin:24px 0 10px}.fw-cue-neighborhood p{margin:8px 0;max-width:95ch}.fw-cue-neighborhood .date{font-size:14px;font-weight:700}.fw-cue-neighborhood .lede,.fw-cue-neighborhood .small,.fw-cue-neighborhood .coverage{font-size:13px;color:#435c68}.fw-cue-neighborhood .focus-controls{display:grid;grid-template-columns:1.3fr 1.3fr auto;gap:10px;align-items:end;margin:18px 0}.fw-cue-neighborhood .focus-controls label{font-size:13px;font-weight:700}.fw-cue-neighborhood select,.fw-cue-neighborhood button{font:inherit;color:inherit;min-height:44px;max-width:100%;padding:8px;border:1px solid #738994;border-radius:4px;background:white}.fw-cue-neighborhood select{width:100%;font-size:16px;display:block;min-width:0}.fw-cue-neighborhood button,.fw-cue-neighborhood summary{cursor:pointer}.fw-cue-neighborhood button:disabled{cursor:default;opacity:.55}.fw-cue-neighborhood .map{height:500px;border:1px solid #879da6;background:#f3f5f5}.fw-cue-neighborhood .map [data-svg-fallback] path{cursor:pointer}.fw-cue-neighborhood .map [data-svg-fallback] path:focus,.fw-cue-neighborhood .map .leaflet-interactive:focus{outline:none;stroke:#a54800;stroke-opacity:1;stroke-width:3px}.fw-cue-neighborhood .map .fw-neighborhood-tooltip{white-space:normal;overflow-wrap:anywhere;width:max-content;max-width:min(240px,calc(100vw - 56px));font:13px/1.35 system-ui,sans-serif;padding:8px 10px;pointer-events:none}.fw-cue-neighborhood .fw-neighborhood-tooltip strong,.fw-cue-neighborhood .fw-neighborhood-tooltip span{display:block}.fw-cue-neighborhood .fw-neighborhood-tooltip strong{margin-bottom:3px}.fw-cue-neighborhood .map .leaflet-control-zoom a{width:44px;height:44px;line-height:44px}.fw-cue-neighborhood .map .leaflet-control-attribution{font-size:11px;background:rgba(255,255,255,.95)}.fw-cue-neighborhood .metric-switch{display:inline-flex;flex-wrap:wrap;gap:0;border:1px solid #7a929e;border-radius:5px;overflow:hidden;max-width:100%}.fw-cue-neighborhood .metric-switch button{border:0;border-radius:0;min-height:40px;padding:7px 12px;font-size:13px;background:#fff}.fw-cue-neighborhood .metric-switch button[aria-pressed=true]{background:#193f54;color:white;outline:none}.fw-cue-neighborhood .metric-switch button:focus-visible{outline:3px solid #a54800;outline-offset:-3px}.fw-cue-neighborhood .map-toolbar{display:flex;justify-content:flex-end;margin:12px 0 4px}.fw-cue-neighborhood .chart-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px}.fw-cue-neighborhood .chart-heading h2{margin:0;flex:1 1 260px;min-width:0;overflow-wrap:anywhere}.fw-cue-neighborhood .chart-heading .metric-switch{flex:0 1 auto}.fw-cue-neighborhood .map-label{display:flex;justify-content:space-between;gap:12px;font-size:12px;margin:10px 0 4px}.fw-cue-neighborhood .legend{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;margin:8px 0}.fw-cue-neighborhood .legend strong{flex-basis:100%}.fw-cue-neighborhood .legend i{display:inline-block;width:16px;height:13px;border:1px solid;vertical-align:middle}.fw-cue-neighborhood .legend .interval-key{background:#b08ecb;border:1px dashed #b08ecb;opacity:.9}.fw-cue-neighborhood .chart{list-style:none;margin:0;padding:0}.fw-cue-neighborhood .chart li button{display:grid;grid-template-columns:minmax(130px,2fr) 3fr minmax(100px,auto);width:100%;gap:12px;align-items:center;text-align:left;border:0;border-bottom:1px solid #d6e0e4;border-radius:0;padding:9px 0;font-size:14px}.fw-cue-neighborhood .chart strong{text-align:right;font-variant-numeric:tabular-nums}.fw-cue-neighborhood .track{position:relative;height:14px;background:#edf2f4}.fw-cue-neighborhood .track i{display:block;height:100%;background:#31596e}.fw-cue-neighborhood .track .interval{position:absolute;top:0;background:#9363b1;min-width:2px;border-left:2px solid #5d3775;border-right:2px solid #5d3775}.fw-cue-neighborhood .unavailable-bar{font-size:11px;color:#435c68;background:#e5e5e5;display:block;line-height:14px;height:14px}.fw-cue-neighborhood [aria-pressed=true]{outline:2px solid #a54800;outline-offset:-2px}.fw-cue-neighborhood .pager{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0;font-size:13px}.fw-cue-neighborhood .pager button{font-size:13px}.fw-cue-neighborhood [data-selection]{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding:0;border:0;background:none;font-size:12px;line-height:1.4;margin:8px 0}.fw-cue-neighborhood .selection-main,.fw-cue-neighborhood .selection-metric{display:inline;min-width:0}.fw-cue-neighborhood .selection-label{font-size:11px;color:#526a75;margin-right:4px}.fw-cue-neighborhood .selection-name,.fw-cue-neighborhood .selection-value{font-size:12px;line-height:1.4;color:#193440}.fw-cue-neighborhood .selection-helper,.fw-cue-neighborhood .selection-reason{font-size:12px;color:#526a75}.fw-cue-neighborhood .selection-reason{display:block;max-width:80ch}.fw-cue-neighborhood .selection-value{font-variant-numeric:tabular-nums}.fw-cue-neighborhood .selection-helper:before{content:" · "}.fw-cue-neighborhood .methods{border-top:1px solid #bdcdd4;margin:24px 0 10px;padding-top:8px}.fw-cue-neighborhood .methods h2{font-size:16px;margin:6px 0 10px}.fw-cue-neighborhood .methods p{font-size:12px;line-height:1.5;max-width:100ch}.fw-cue-neighborhood [data-error]:empty{display:none}.fw-cue-neighborhood [data-error]{font-size:13px;padding:8px;background:#f8f4e9}.fw-cue-neighborhood details{border-top:1px solid #bdcdd4;margin:25px 0 10px;padding:8px 0}.fw-cue-neighborhood summary{min-height:44px;display:flex;align-items:center;font-weight:600;font-size:14px}.fw-cue-neighborhood .methods p{font-size:13px}.fw-cue-neighborhood :focus-visible{outline:3px solid #a54800;outline-offset:2px}@media(max-width:700px){.fw-cue-neighborhood{padding:12px}.fw-cue-neighborhood .focus-controls{grid-template-columns:1fr 1fr}.fw-cue-neighborhood .focus-controls label:first-child{grid-column:1/-1}.fw-cue-neighborhood .chart li button{grid-template-columns:minmax(90px,1.3fr) 1fr minmax(84px,auto);font-size:12px;gap:8px}.fw-cue-neighborhood .map{height:380px}}@media(max-width:430px){.fw-cue-neighborhood .focus-controls{grid-template-columns:minmax(0,1fr)}.fw-cue-neighborhood .focus-controls label:first-child{grid-column:auto}}.fw-cue-neighborhood .focus-controls{grid-template-columns:auto minmax(0,1fr) minmax(0,1fr) auto;gap:10px}.fw-cue-neighborhood .focus-controls>.metric-switch{align-self:end;flex-wrap:nowrap;white-space:nowrap}.fw-cue-neighborhood .focus-controls>.metric-switch button{min-height:44px}.fw-cue-neighborhood .focus-controls label{min-width:0}@media(max-width:760px){.fw-cue-neighborhood .focus-controls{grid-template-columns:minmax(0,1fr) auto;gap:8px}.fw-cue-neighborhood .focus-controls>.metric-switch{grid-column:1/-1;justify-self:start}.fw-cue-neighborhood .focus-controls label:first-of-type{grid-column:1/-1}.fw-cue-neighborhood .focus-controls label:nth-of-type(2){grid-column:1}}.fw-cue-neighborhood{display:block;width:100%;min-width:0;background:white;text-align:left}.fw-cue-neighborhood [hidden]{display:none!important}/* Keep library panes and controls inside this interactive, below site chrome.
+     https://developer.mozilla.org/en-US/docs/Web/CSS/isolation */
+.fw-cue-neighborhood{position:relative;z-index:0;isolation:isolate}
+.fw-cue-neighborhood [data-newsroom-map-viewport]{position:relative;z-index:0;isolation:isolate}
+.fw-cue-neighborhood{box-sizing:border-box}</style>
+<h1>Fort Worth code violation records by neighborhood</h1><p class="date">Code violation records dated November 9–22, 2026</p><p><strong data-cases>—</strong> <span data-case-scope>violation records</span></p><div class="focus-controls"><div class="metric-switch" role="group" aria-label="Map and chart metric"><button type="button" data-action="metric-rate" data-metric-control="map-rate" aria-pressed="true">Record rate</button><button type="button" data-action="metric-cases" data-metric-control="map-cases" aria-pressed="false">Record count</button></div><label>Violation type<select data-category></select></label><label>Neighborhood<select data-neighborhood aria-label="Choose a neighborhood"></select></label><button data-action="reset">Reset</button></div><p data-error role="status">Loading neighborhood map…</p><noscript>The map and chart need JavaScript. Aggregate neighborhood data are available in the CSV download.</noscript><p data-selection role="status" aria-live="polite"></p><div class="map-label"><span>Neighborhoods</span><span data-metric-label></span></div><div class="map" data-map data-newsroom-map-viewport></div><p class="small" data-map-status role="status">CARTO street basemap configured. Loading begins when the viewer starts.</p><div class="legend" data-legend aria-label="Map values"></div><div class="chart-heading"><h2 data-chart-title>Violation records per 1,000 properties by neighborhood</h2><div class="metric-switch" role="group" aria-label="Chart and map metric"><button type="button" data-action="metric-rate" data-metric-control="chart-rate" aria-pressed="true">Record rate</button><button type="button" data-action="metric-cases" data-metric-control="chart-cases" aria-pressed="false">Record count</button></div></div><p class="small" data-chart-note></p><p class="small" data-chart-scale></p><ol class="chart" data-chart aria-label="Neighborhood comparison"></ol><div class="pager"><button data-action="area-prev">Previous neighborhoods</button><span data-area-page></span><button data-action="area-next">Next neighborhoods</button></div><button data-action="range-csv">Neighborhood data (CSV)</button><section class="methods"><h2>Sources and counting</h2><p><a href="https://mapit.fortworthtexas.gov/ags/rest/services/CIVIC/Code_Violations_Experience_Builder/MapServer/4">City code violation records</a> · <a href="https://mapit.fortworthtexas.gov/ags/rest/services/CIVIC/OpenData_Boundaries/MapServer/6">registered neighborhood boundaries</a> · <a href="https://mapit.fortworthtexas.gov/ags/rest/services/Planning_Development/Zoning/MapServer/35">City parcels</a></p><p>We use the City’s “violation created date” to select records in Fort Worth time. We checked the City data on November 23, 2026. The public data do not say what event sets that date or how long records take to appear online.</p><p>The City listed 1,416 distinct violation records in 1,221 case files. Of those records, 900 mapped to 140 registered neighborhoods. Another 500 fell outside all registered neighborhood boundaries and 16 lacked usable coordinates. Only mapped records enter the neighborhood comparisons.</p><p>Each City violation ID counts once per neighborhood during the period. One case file can include several violation IDs. A record inside overlapping neighborhoods counts in each and once in the citywide total.</p><p>We compare violation records per 1,000 mapped properties to account for differences in neighborhood size. The count includes all property types, including homes, businesses and vacant lots.</p><p class="small" data-rate-note></p><p>A property counts in the neighborhood containing the largest share of its land if at least 40% lies inside. Exact ties count in each tied neighborhood. We count a documented condominium development once and combine verified parts of the same lot that cross a county line. Apartments follow the mapped parcels, so a complex can contribute more than one property. Separately mapped common areas count unless they belong to a verified grouping.</p><p>We checked the property counts on November 22, 2026. We keep distinct City parcel IDs when a shared outline leaves the number of physical lots uncertain. Counting each remaining shared outline once would change Old Weatherford Road from 2,000 to 1,988 and Walsh HOA from 2,175 to 2,173.</p><p>Rates are available for 314 of the 316 registered neighborhoods. Imperial Terrace and Texas and Pacific Lofts each had zero qualifying properties. Their rates are unavailable.</p><p>Small property counts can make rankings sensitive to one record. These figures measure recorded code enforcement activity. The City provides broad categories, such as property maintenance. Establishing what happened at a specific property takes additional reporting. Counts and rates do not measure severity or safety.</p></section>
+</div>
+<script>(function(){'use strict';const root=document.currentScript.previousElementSibling;const status=root.querySelector('[data-error]');
+async function loadData(){const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),15000);try{
+const response=await fetch(root.dataset.dataUrl,{credentials:'omit',redirect:'error',mode:'cors',integrity:"sha256-15d87sCuiqyzUDtgNiyxVb3A16n44TBxTLChvjb2msA=",signal:ctrl.signal});
+if(!response.ok)throw Error('data-http');return await response.json();}finally{clearTimeout(timer);}}
+function loadLeaflet(){
+    return new Promise(resolve => {
+      const script = document.createElement('script'); let finished = false;
+      const finish = library => { if(finished) return; finished = true; clearTimeout(timer); script.remove(); resolve(library); };
+      const timer = setTimeout(() => finish(null), 12000);
+      script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+      script.integrity = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="; script.crossOrigin = 'anonymous';
+      script.onload = () => { const loaded = globalThis.L; finish(loaded?.version === '1.9.4' && typeof loaded.noConflict === 'function' ? loaded.noConflict() : null); };
+      script.onerror = () => finish(null);
+      root.appendChild(script);
+    });
+  }
+let cartoKey = "cb1_4seb_2_ee90f83233572be0fdc92cbf";
+const polygonStyle=(function polygonStyle(value, selected = false, bounded = false) {
+    const fillColor = bounded ? '#b08ecb' : value === null ? '#bec5ca' : value === 0 ? '#eee6d4' : value <= 10 ? '#76a9be' : value <= 50 ? '#49849f' : value <= 200 ? '#28617e' : '#123e57', fillOpacity = !bounded && (value === 0 || value === null) ? .82 : .9;
+    return { fillColor, fillOpacity, color: selected ? '#a54800' : fillColor, opacity: selected ? 1 : fillOpacity, weight: selected ? 3 : 1, dashArray: bounded ? '2 3' : value === null ? '4 4' : undefined, fillRule: 'evenodd' };
+});
+function mountLeaflet(L, host, geo, onSelect, status, readKey, clearKey) {
+    const fallback = { available: false, update() { }, resize() { }, focusArea() { }, focusLocations() { }, destroy() { } };
+    if (!L || typeof L.map !== 'function' || typeof L.geoJSON !== 'function') {
+        clearKey();
+        status('Map library unavailable. Boundary-only view shown.');
+        return fallback;
+    }
+    const pointLayers = [];
+    const escape = (v) => String(v ?? 'Not available').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])), layers = new Map(), values = new Map();
+    let map = null, tiles = null, tileFailed = false, destroyed = false, loaded = 0, observer = null;
+    let active = null;
+    const close = (area) => { if (active !== null && (area === undefined || active === area)) {
+        const old = active;
+        active = null;
+        layers.get(old)?.closeTooltip?.();
+    } };
+    const clamp = (layer) => { const tooltip = layer.getTooltip?.(), element = tooltip?.getElement?.(), container = map?.getContainer?.(); if (!tooltip || !element || !container || !map?.latLngToContainerPoint || !map.containerPointToLatLng)
+        return; const frame = container.getBoundingClientRect(); element.style.maxWidth = Math.max(80, Math.min(240, frame.width - 32)) + 'px'; for (let i = 0; i < 2; i++) {
+        const rect = element.getBoundingClientRect(), point = map.latLngToContainerPoint(tooltip.getLatLng?.());
+        let x = point.x, y = point.y;
+        if (rect.left < frame.left + 8)
+            x = frame.width - 16;
+        else if (rect.right > frame.right - 8)
+            x = 16;
+        if (rect.top < frame.top + 8)
+            y += frame.top + 8 - rect.top;
+        else if (rect.bottom > frame.bottom - 8)
+            y -= rect.bottom - (frame.bottom - 8);
+        if (x === point.x && y === point.y)
+            break;
+        tooltip.setLatLng?.(map.containerPointToLatLng([x, y]));
+    } };
+    const show = (area) => { if (destroyed)
+        return; if (active !== area)
+        close(); active = area; const layer = layers.get(area); layer?.openTooltip?.(); if (layer)
+        clamp(layer); };
+    const style = polygonStyle;
+    const describe = v => v.name + ' · ' + (v.value === null ? 'Rate unavailable' : Number(v.value.toFixed(2)) + ' ' + v.metric) + ' · ' + v.records + ' violation records · ' + v.cases + ' case files · ' + v.denominator + ' properties';
+    const tooltipHtml = v => '<strong>' + escape(v.name) + '</strong><span>' + (v.value === null ? 'Rate unavailable' : escape(Number(v.value.toFixed(2))) + ' ' + escape(v.metric)) + '</span><span>' + v.records + (v.records === 1 ? ' violation record' : ' violation records') + ' · ' + v.cases + (v.cases === 1 ? ' case file' : ' case files') + '</span><span>' + v.denominator + ' properties</span>';
+    try {
+        const [w, s, e, n] = geo.bbox, bounds = L.latLngBounds([[s, w], [n, e]]), maxBounds = L.latLngBounds([[s - .03, w - .03], [n + .03, e + .03]]);
+        map = L.map(host, { crs: L.CRS.EPSG3857, scrollWheelZoom: false, zoomSnap: .25, zoomDelta: .5, minZoom: 8, maxZoom: 16, maxBounds, maxBoundsViscosity: 1, zoomControl: true, attributionControl: true });
+        map.attributionControl?.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
+        map.attributionControl?.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> &copy; <a href="https://carto.com/attributions">CARTO</a>');
+        L.geoJSON(geo, { style: () => style(null), onEachFeature(feature, layer) { const area = feature.properties.area; if (layers.has(area))
+                throw Error('duplicate-display-area'); layers.set(area, layer); const decorate = () => { const node = layer.getElement?.(); if (node) {
+                node.setAttribute('tabindex', '0');
+                node.setAttribute('role', 'button');
+                node.setAttribute('aria-label', values.has(area) ? describe(values.get(area)) : feature.properties.name);
+                node.addEventListener('focus', () => show(area));
+                node.addEventListener('blur', () => close(area));
+                node.addEventListener('keydown', event => { const key = event.key; if (key === 'Enter' || key === ' ') {
+                    event.preventDefault();
+                    onSelect(area);
+                } });
+            } }; layer.bindTooltip(escape(feature.properties.name), { sticky: false, direction: 'auto', className: 'fw-neighborhood-tooltip', opacity: 1, offset: [0, 0] }); layer.on('tooltipopen', () => { if (active !== area) {
+                close();
+                active = area;
+            } clamp(layer); }); layer.on('tooltipclose', () => { if (active === area)
+                active = null; }); layer.on('mouseover', () => show(area)); layer.on('mouseout', () => close(area)); layer.on('click', () => { close(); onSelect(area); }); layer.on('add', decorate); } }).addTo(map);
+        map.fitBounds(bounds, { padding: [12, 12], maxZoom: 12 });
+        map.on?.('movestart', () => close());
+        let key;
+        try {
+            key = readKey();
+            if (typeof key === 'string' && key.trim()) {
+                tiles = L.tileLayer('https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png?key=' + encodeURIComponent(key), { minZoom: 8, maxZoom: 16, noWrap: true, updateWhenIdle: true, keepBuffer: 1, detectRetina: false });
+                tiles.on('tileloadstart', () => { if (tileFailed || destroyed)
+                    return; status(loaded ? 'Street basemap partly loaded.' : 'Street basemap loading.'); });
+                tiles.on('tileload', () => { if (tileFailed || destroyed)
+                    return; loaded++; status('Street basemap partly loaded.'); });
+                tiles.on('load', () => { if (!tileFailed && !destroyed && loaded > 0)
+                    status('Street basemap loaded for this view.'); });
+                tiles.on('tileerror', () => { if (tileFailed || destroyed)
+                    return; tileFailed = true; if (tiles && map)
+                    map.removeLayer(tiles); status('Street basemap unavailable. Boundaries and counts are still shown.'); });
+                tiles.addTo(map);
+                status('Street basemap loading.');
+            }
+            else
+                status('Street basemap not configured. Boundaries are shown.');
+        }
+        catch {
+            tileFailed = true;
+            if (tiles && map)
+                map.removeLayer(tiles);
+            status('Street basemap unavailable. Boundaries and counts are still shown.');
+        }
+        finally {
+            key = null;
+            clearKey();
+        }
+        const resize = () => { if (!destroyed)
+            map?.invalidateSize({ pan: false, debounceMoveend: true }); };
+        if (typeof ResizeObserver === 'function') {
+            observer = new ResizeObserver(resize);
+            observer.observe(host);
+        }
+        return { available: true, update(next, selected) { if (destroyed)
+                return; close(); for (const v of next) {
+                values.set(v.area, v);
+                const layer = layers.get(v.area);
+                if (!layer)
+                    continue;
+                layer.setStyle(style(v.value, selected === v.area, v.interval !== null));
+                layer.setTooltipContent?.(tooltipHtml(v));
+                layer.getElement?.()?.setAttribute('aria-label', describe(v));
+                if (selected === v.area)
+                    layer.bringToFront?.();
+            } }, resize, focusArea(area) {
+                close();
+                for (const p of pointLayers)
+                    map?.removeLayer(p);
+                pointLayers.length = 0;
+                const feature = geo.features.find(f => f.properties.area === area), points = feature?.geometry.coordinates.flat(2);
+                if (points?.length)
+                    map?.fitBounds(L.latLngBounds(points.map(p => [p[1], p[0]])), { padding: [24, 24], maxZoom: 14, animate: false });
+                else if (area === null)
+                    map?.fitBounds(bounds, { padding: [12, 12], maxZoom: 12, animate: false });
+            }, focusLocations(points) {
+                close();
+                for (const p of pointLayers)
+                    map?.removeLayer(p);
+                pointLayers.length = 0;
+                if (!points.length)
+                    return;
+                const valid = points.filter(p => Number.isFinite(p.latitude) && Number.isFinite(p.longitude) && p.longitude >= -98.5 && p.longitude <= -96 && p.latitude >= 32 && p.latitude <= 34);
+                if (!valid.length)
+                    return;
+                map?.setMaxBounds(L.latLngBounds([[Math.min(s - .03, ...valid.map(p => p.latitude - .01)), Math.min(w - .03, ...valid.map(p => p.longitude - .01))], [Math.max(n + .03, ...valid.map(p => p.latitude + .01)), Math.max(e + .03, ...valid.map(p => p.longitude + .01))]]));
+                for (const p of valid)
+                    pointLayers.push(L.circleMarker([p.latitude, p.longitude], { radius: 9, color: '#173f5f', weight: 3, fillColor: '#ffcc33', fillOpacity: 1, interactive: true }).bindTooltip(escape(p.label) + ': saved city location', { direction: 'top' }).addTo(map));
+                map?.fitBounds(L.latLngBounds(valid.map(p => [p.latitude, p.longitude])), { padding: [40, 40], maxZoom: 15, animate: false });
+            }, destroy() { if (destroyed)
+                return; close(); destroyed = true; observer?.disconnect(); map?.remove(); } };
+    }
+    catch {
+        observer?.disconnect();
+        map?.remove();
+        clearKey();
+        status('Map library unavailable. Boundary-only view shown.');
+        return fallback;
+    }
+}
+/* This function is embedded in the scoped CUE asset. All figures come from the verified weekly files. */
+function mountRecordMap(root, model, geometry, mountLeaflet, polygonStyle, Leaflet, readKey, clearKey) {
+  const get = selector => root.querySelector(selector);
+  const fmt = new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 });
+  const format = value => value === null ? 'Unavailable' : fmt.format(value);
+  const esc = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+  const plural = (n, word) => format(n) + ' ' + word + (n === 1 ? '' : 's');
+  const category = get('[data-category]'), neighborhood = get('[data-neighborhood]');
+  const picker = (node, label, value) => node.add(new Option(label, value));
+  picker(category, 'All violation types', '*');
+  model.categories.forEach((c, i) => picker(category, c === null ? 'Unspecified' : c, String(i)));
+  const areas = [...model.areas].sort((a,b) => a.name.localeCompare(b.name) || a.id-b.id);
+  picker(neighborhood, 'All neighborhoods', '*');
+  areas.forEach(a => picker(neighborhood, a.name, String(a.id)));
+  const byId = new Map(areas.map(a => [a.id,a]));
+  const bounds = { rate: Math.max(1,...areas.map(a => a.all.rate ?? 0)), count: Math.max(1,...areas.map(a => a.all.records)) };
+  let selected = null, page = 0, metric = 'rate';
+  const perPage = 20;
+  const selectCounts = entry => category.value === '*' ? entry.all : entry.byCategory[Number(category.value)];
+  const rowValue = row => metric === 'rate' ? row.rate : row.records;
+  const mapPort = mountLeaflet(Leaflet, get('[data-map]'), geometry, id => choose(id),
+    message => { get('[data-map-status]').textContent = message; }, readKey, clearKey);
+  function update(followSelection = false) {
+    const rate = metric === 'rate';
+    const label = rate ? 'Records per 1,000 properties' : 'Record count';
+    const rows = areas.map(area => ({area, ...selectCounts(area)})).sort((a,b) => {
+      const delta = (rowValue(b) ?? -1) - (rowValue(a) ?? -1);
+      return delta || a.area.name.localeCompare(b.area.name) || a.area.id-b.area.id;
+    });
+    if (followSelection) page = selected === null ? 0 : Math.floor(rows.findIndex(r => r.area.id === selected)/perPage);
+    const area = byId.get(selected), counts = selectCounts(area || model.city);
+    get('[data-cases]').textContent = format(counts.records);
+    get('[data-case-scope]').textContent = (counts.records === 1 ? 'violation record' : 'violation records') + ' in ' + plural(counts.cases,'case file') + (area ? ' in '+area.name : ' citywide');
+    get('[data-metric-label]').textContent = label;
+    get('[data-chart-title]').textContent = (category.value === '*' ? 'All violation types' : category.selectedOptions[0].textContent) + ' · ' + (rate ? 'record rate' : 'record count') + ' by neighborhood';
+    root.querySelectorAll('[data-metric-control]').forEach(el => {
+      el.setAttribute('aria-pressed',String(el.dataset.action === (rate ? 'metric-rate' : 'metric-cases')));
+    });
+    get('[data-chart-note]').textContent = rate ? 'Neighborhoods are ordered by records per 1,000 properties.' : 'Neighborhoods are ordered by distinct violation records.';
+    get('[data-chart-scale]').textContent = 'Scale from 0 to '+format(bounds[metric])+' '+(rate?'records per 1,000 properties.':'records.');
+    const marks = [[0,'0'],[1,'>0–10'],[11,'>10–50'],[51,'>50–200'],[201,'>200'],[null,'Unavailable']];
+    get('[data-legend]').innerHTML = '<strong>'+label+'</strong> '+marks.map(([n,title]) => {
+      const s=polygonStyle(n);
+      return '<span><i style="background:'+s.fillColor+';border-color:'+s.color+';opacity:'+s.fillOpacity+';border-style:'+(s.dashArray?'dashed':'solid')+'"></i>'+title+'</span>';
+    }).join('')+'<span>Orange outline shows the selected or focused neighborhood.</span>';
+    const selectedText = area ? '<span class="selection-main"><span class="selection-label">Selected neighborhood</span><strong class="selection-name">'+esc(area.name)+'</strong><span class="selection-helper">'+plural(counts.records,'record')+' · '+plural(counts.cases,'case file')+' · '+format(area.properties)+' properties</span></span><span class="selection-metric"><span class="selection-label">'+label+'</span><strong class="selection-value">'+format(rate?counts.rate:counts.records)+'</strong></span>'
+      : '<span class="selection-main"><strong class="selection-name">All neighborhoods</strong><span class="selection-helper">Select a neighborhood on the map or chart.</span></span>';
+    get('[data-selection]').innerHTML = selectedText;
+    const values=rows.map(row=>({area:row.area.id,name:row.area.name,value:rowValue(row),metric:label,records:row.records,cases:row.cases,denominator:row.area.properties,interval:null}));
+    if (mapPort.available) {
+      mapPort.update(values,selected);
+    } else {
+      get('[data-map]').innerHTML='<svg data-svg-fallback style="width:100%;height:100%" viewBox="0 0 1000 740" role="img" aria-label="Fort Worth registered neighborhoods">'+
+        rows.map(row=>{
+          const a=row.area, val=rowValue(row), style=polygonStyle(val,selected===a.id), title=esc(a.name+' · '+label+' · '+format(val));
+          return '<path data-area="'+a.id+'" tabindex="0" role="button" aria-label="'+title+'" fill-rule="evenodd" d="'+esc(a.path)+'" fill="'+style.fillColor+'" fill-opacity="'+style.fillOpacity+'" stroke="'+style.color+'" stroke-width="'+style.weight+'" stroke-dasharray="'+(style.dashArray||'')+'"><title>'+title+'</title></path>';
+        }).join('')+'</svg>';
+    }
+    const shown=rows.slice(page*perPage,(page+1)*perPage);
+    get('[data-chart]').innerHTML=shown.map(row=>{
+      const val=rowValue(row), bar=val===null?'<span class="unavailable-bar">Unavailable</span>':'<i style="width:'+(100*val/bounds[metric]).toFixed(4)+'%"></i>';
+      return '<li><button type="button" data-area="'+row.area.id+'" aria-pressed="'+(selected===row.area.id)+'"><span>'+esc(row.area.name)+'</span><span class="track">'+bar+'</span><strong>'+format(val)+'</strong></button></li>';
+    }).join('');
+    get('[data-area-page]').textContent=(page*perPage+1)+'–'+Math.min((page+1)*perPage,areas.length)+' of '+areas.length+' neighborhoods';
+    get('[data-action="area-prev"]').disabled=page===0;
+    get('[data-action="area-next"]').disabled=(page+1)*perPage>=areas.length;
+    get('[data-rate-note]').textContent=rate?'The property count stays the same when you filter by violation type.':'One case file can contain several violation records.';
+    get('[data-error]').textContent='';
+  }
+  function choose(id) { selected=id; neighborhood.value=id===null?'*':String(id); update(true); mapPort.focusArea(selected); }
+  function csvDownload() {
+    const cat=category.value==='*'?null:Number(category.value);
+    const header=cat===null?model.columns:model.categoryColumns;
+    const order=cat===null?model.order.all:model.order.byCategory[cat];
+    const rows=order.map(id=>{
+      const area=byId.get(id), v=selectCounts(area);
+      const values=[id,area.name,v.records,v.cases,area.properties,v.rate,v.rank,0,0,area.status];
+      return cat===null?values:[model.categories[cat],model.categories[cat]===null,...values];
+    });
+    const cell=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+    const csv=[header,...rows].map(row=>row.map(cell).join(',')).join('\r\n')+'\r\n';
+    const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+    const a=document.createElement('a'); a.href=url;
+    a.download='fort-worth-neighborhoods-'+model.ending+(cat===null?'':'-category-'+(cat+1))+'.csv';
+    a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  root.addEventListener('click',event=>{
+    const target=event.target.closest('[data-area],[data-action]'); if(!target)return;
+    if(target.hasAttribute('data-area')){ choose(Number(target.dataset.area));return; }
+    switch(target.dataset.action){
+      case 'metric-rate': metric='rate'; update(true);break;
+      case 'metric-cases': metric='count'; update(true);break;
+      case 'reset': category.value='*'; metric='rate'; choose(null);break;
+      case 'area-prev': if(page>0){page--;update();}break;
+      case 'area-next': if((page+1)*perPage<areas.length){page++;update();}break;
+      case 'range-csv': csvDownload(); break;
+    }
+  });
+  root.addEventListener('keydown',e=>{
+    if ((e.key==='Enter'||e.key===' ')&&e.target.matches('path[data-area]')){e.preventDefault();choose(Number(e.target.dataset.area));}
+  });
+  neighborhood.addEventListener('change',()=>choose(neighborhood.value==='*'?null:Number(neighborhood.value)));
+  category.addEventListener('change',()=>update(true));
+  update();
+}
+
+Promise.all([loadData(),loadLeaflet()]).then(([data,library])=>{
+if(data.schema!=='fort-worth-record-pages/v1'||data.geometry.features.length!==data.model.areas.length)throw Error('data-contract');
+mountRecordMap(root,data.model,data.geometry,mountLeaflet,polygonStyle,library,()=>cartoKey,()=>{cartoKey=null;});
+root.dataset.loadState='ready';}).catch(()=>{status.textContent='The map could not load. Please try again later.';root.dataset.loadState='error';});})();</script>
+</body></html>
