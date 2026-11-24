@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><title>Fort Worth parcels and code violation records</title><link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="map.css"></head>
+<body><main>
+<header><p class="edition">Fort Worth &nbsp; / &nbsp; November 9–22, 2026</p><h1>Parcels and code violation records</h1><p class="deck">See where the city recorded code enforcement activity and which properties enter each neighborhood’s rate.</p></header>
+<div class="controls"><label>Neighborhood<select id="area"><option value="">All neighborhoods</option></select></label>
+<label>Violation type<select id="category"><option value="">All types</option></select></label></div>
+<section class="summary" aria-labelledby="area-heading" aria-live="polite" aria-atomic="true">
+<h2 id="area-heading">All neighborhoods</h2>
+<p class="metrics" id="formula">
+  <span><strong id="numerator">—</strong> <span id="record-unit">violation records</span></span>
+  <span id="property-term" hidden><span class="operator" id="divide">÷</span> <strong id="denominator">—</strong><span id="property-unit"></span></span>
+  <span id="scale-term" hidden><span class="operator">×</span> 1,000</span>
+  <span id="rate-term" hidden><span class="operator">=</span> <strong id="rate">—</strong> <span id="rate-unit">records per 1,000 properties</span></span>
+</p>
+<p id="rate-note"></p></section>
+<div class="workspace"><section class="map-column" aria-label="Interactive map">
+<div class="layerbar"><label><input id="show-areas" type="checkbox" checked><i class="area icon"></i>Neighborhoods</label><label><input id="show-parcels" type="checkbox" checked><i class="parcel icon"></i><span id="parcel-label">Counted properties</span></label><label><input id="show-points" type="checkbox" checked><i class="point icon"></i>Violation records</label><button id="city" type="button">City view</button></div>
+<div id="density-key" class="point-key" aria-label="Citywide record density"><strong>Nearby violation records (½-mile radius)</strong><span>Fewer <i class="density-ramp" aria-hidden="true"></i> More</span></div>
+<div id="point-key" class="point-key" aria-label="Violation record symbols" hidden><span><i class="plain-point" aria-hidden="true"></i> One violation record</span><span><i class="count-point" aria-hidden="true">3</i> Number shows how many records are grouped here</span></div>
+<div class="map-shell"><button id="touch-toggle" type="button" hidden aria-pressed="false">Explore map</button><div id="map" role="region" aria-label="Fort Worth inspection map. Use arrow keys to pan, plus and minus to zoom, and Enter to inspect the center."></div></div>
+<div class="map-foot"><span id="map-status" role="status"></span><span id="attribution"></span><span id="basemap-status" role="status"></span></div>
+</section>
+<aside aria-label="Map details"><section id="selection" aria-live="polite"><h2>Inspect a location</h2><p>Select a neighborhood or zoom in to inspect individual records and property outlines.</p></section></aside></div>
+<details class="methods"><summary>Sources and counting</summary><div><p>The city listed 1,416 code violation records for Nov 9 – 22, 2026. The records included 1,201 different numbered street addresses. 7 records listed a street without a house number.</p>
+<p>We use the city’s “violation created date” to count records for the two weeks shown on the map. We checked the data on Nov 23, 2026. Records can appear online after their listed creation date.</p>
+<p>900 records mapped to 140 neighborhoods, 500 fell outside all neighborhood boundaries on the city’s map, and 16 lacked usable coordinates.</p>
+<p>We count each violation ID once per neighborhood during the two weeks if its mapped location falls inside the boundary. A record in overlapping neighborhoods counts once in each and once in the citywide total.</p>
+<p>For each neighborhood, we divide the number of code violation records by the number of counted properties and multiply by 1,000. This accounts for differences in neighborhood size. We include all property types, including homes, businesses and vacant lots. The property count stays the same when you filter by violation type.</p>
+<p>A property counts once in every neighborhood that contains at least 40% of its land. For example, a property split 45% and 55% between two neighborhoods counts in both. Adding neighborhood property counts can count the same property more than once. If a county line splits one lot into two parcel records, we count the lot once.</p>
+<p>We generally count each city tax parcel as one property, even if its description names two platted lots. Separate parcel IDs with the same outline count separately unless records show they represent the same property.</p>
+<p>We count a documented condominium or apartment complex as one property. We use plats, appraisal records and city records to identify the parcels and shared land that make up the development, then apply the 40% test to the whole footprint. We count separately documented developments individually, even when they share a name.</p>
+<p>When land records show that separately assessed homes together own an entire shared lot, we count each home on its own footprint. The shared lot adds no extra property. For example, six homes that each own one-sixth of a shared lot count as six properties.</p>
+<p>We checked the property counts on Nov 24, 2026. Rates are available for 309 of the 316 neighborhoods on the city’s map. <strong>Texas and Pacific Lofts</strong> had zero qualifying properties and 0 mapped violation records, so it has no rate. The property count is still under review in 6 neighborhoods. We show the violation records for those neighborhoods. The overall ranking stays on hold while any neighborhood with records lacks a usable property count.</p>
+<p>One additional violation record can change the rate substantially in a neighborhood with few properties. The city marked 890 records open and 526 closed when we checked. Those labels do not tell us whether an inspector confirmed a violation or why a record closed. These figures measure recorded code enforcement activity. Counts and rates do not measure severity or safety.</p><p id="coverage"></p>
+<p>Darker blue shows where more violation records cluster. Each record has its full weight at the city’s mapped location, three-quarters of that weight a quarter mile away, and zero weight a half mile away or farther. The color scale stays the same when you filter by violation type. Select a neighborhood to see its rate per 1,000 counted properties.</p>
+
+<p id="property-coverage"></p><p class="source-option"><label><input id="show-tax" type="checkbox"> Show the city’s tax parcel outlines</label> Several tax accounts can share an outline. This switches the outlines you see. Every rate uses the same counted properties in either view.</p>
+<p><a href="https://mapit.fortworthtexas.gov/ags/rest/services/CIVIC/Code_Violations_Experience_Builder/MapServer/4">City violation records</a> · <a href="https://mapit.fortworthtexas.gov/ags/rest/services/CIVIC/OpenData_Boundaries/MapServer/6">Neighborhood boundaries</a> · <a href="https://mapit.fortworthtexas.gov/ags/rest/services/Planning_Development/Zoning/MapServer/35">City tax parcels</a> · <a href="https://mapit.fortworthtexas.gov/ags/rest/services/CIVIC/OpenData_Boundaries/MapServer/51">City lots and tracts</a> · <a href="https://www.tad.org/resources/data-downloads">Tarrant Appraisal District data</a> · <a href="https://data.fortworthtexas.gov/datasets/62085ec02e2440c3b1ea4a67e30f6b00_0/explore">City certificates of occupancy</a></p></div></details>
+<div class="downloads"><a href="neighborhoods.csv" download>Neighborhood counts (CSV)</a><a href="violation-records.csv" download>Violation records (CSV)</a><button id="missing" type="button">Records without coordinates</button></div>
+<noscript>Enable JavaScript to use the map. Both CSV downloads include the full edition.</noscript></main>
+<script src="vendor/leaflet.js"></script><script src="basemap.js"></script><script src="catalog.js"></script><script src="records.js"></script><script src="map.js"></script></body></html>
