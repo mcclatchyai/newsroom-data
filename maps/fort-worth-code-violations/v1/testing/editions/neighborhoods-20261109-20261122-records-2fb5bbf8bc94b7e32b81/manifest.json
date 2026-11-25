@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project": "Fort Worth code violation records by neighborhood",
+  "environment": "testing",
+  "data_version": "neighborhoods-20261109-20261122-records-2fb5bbf8bc94b7e32b81",
+  "generated_at": "2026-11-23T19:10:36.360Z",
+  "reporting_dates": [
+    "2026-11-09",
+    "2026-11-22"
+  ],
+  "property_baseline": "2026-11-24",
+  "entrypoints": {
+    "preview": "preview.html",
+    "map": "map.html",
+    "embed": "embed.html",
+    "data": "map-data.json",
+    "csv": "neighborhood-data.csv",
+    "categories": "category-data.csv"
+  },
+  "files": {
+    "preview.html": {
+      "bytes": 3302,
+      "sha256": "660f2f13c0e67422879a2756b51734cd10cff673b814aeff5b5156919750230d"
+    },
+    "index.html": {
+      "bytes": 3302,
+      "sha256": "660f2f13c0e67422879a2756b51734cd10cff673b814aeff5b5156919750230d"
+    },
+    "map.html": {
+      "bytes": 54409,
+      "sha256": "fb9a74a5a5e743f22ac7cb1c9c56f8cd88cff918bb65fd6188556f8f88cadc4a"
+    },
+    "embed.html": {
+      "bytes": 53759,
+      "sha256": "4613d73d578a1bb99532d6aa7ae4e1bc4c6dda79807bbdc8084ace9c57ac1f00"
+    },
+    "map-data.json": {
+      "bytes": 2460460,
+      "sha256": "501982328003155c4afd5df9aa853778f212fe99bc0e7adc09ea192cc2c65d62"
+    },
+    "neighborhood-data.csv": {
+      "bytes": 34348,
+      "sha256": "35b0cd2dd82fccf3cc33d81eb6e50f2519c06b0f7a81540bbca4701717984c12"
+    },
+    "category-data.csv": {
+      "bytes": 404845,
+      "sha256": "568345195cc8e1bdeec52d55815acd4c8c6e6c07d9c01aaa07950fde2738f3f0"
+    }
+  },
+  "parcel_policy": "documented-complexes-and-shared-home-lots-40pct-each-neighborhood/v8",
+  "complete_ranking": false,
+  "available_rates": 309
+}
